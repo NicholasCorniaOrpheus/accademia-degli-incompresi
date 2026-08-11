@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "label": "Accademia degli Oziosi di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MQNax9HUTnQH",
+      "label": "Giovanni Francesco Maia Materdona",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QaSkvGA3nNsv",
+      "label": "Rime di Ottavio Tronsarelli",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "label": "Giulio Cesare Capaccio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkrFWYwkmSPx",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "label": "Napoli",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkrFWYwkmSPx",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkrFWYwkmSPx",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MQNax9HUTnQH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QaSkvGA3nNsv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JBs58k9xoGss",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MQNax9HUTnQH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkrFWYwkmSPx",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkrFWYwkmSPx",
+      "property": "catalog_identifier"
+    }
+  ]
+}

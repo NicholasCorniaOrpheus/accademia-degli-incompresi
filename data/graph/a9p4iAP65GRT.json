@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a9p4iAP65GRT",
+      "label": "dialogue",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M3jUSWURhh3A",
+      "label": "Le immagini del tempio della signora donna Giovanna Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iYQUv3t3o3SX",
+      "label": "Un bel ricco Ocean di chiari pianti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mvmTJ6c5dbdq",
+      "label": "Quattro libri de dubbi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M3jUSWURhh3A",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a9p4iAP65GRT",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iYQUv3t3o3SX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a9p4iAP65GRT",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mvmTJ6c5dbdq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a9p4iAP65GRT",
+      "property": "instance_of"
+    }
+  ]
+}

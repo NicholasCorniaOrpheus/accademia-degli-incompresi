@@ -1,0 +1,147 @@
+# Rime amorose del conte Pomponio Torelli (hPKRyHYp2a7X)
+
+
+[JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/json/hPKRyHYp2a7X.json){ .md-button }
+[RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/rdf/hPKRyHYp2a7X.ttl){ .md-button }
+[CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/csv/hPKRyHYp2a7X.csv){ .md-button }
+
+
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+!!! note "metadata"
+    - class: Book
+    - label: Rime amorose del conte Pomponio Torelli
+    - id: hPKRyHYp2a7X
+    <div style="clear:both;"></div>
+
+<br><br>
+
+
+
+
+## Knowledge Graph
+
+??? abstract "Explore relationships"
+    <div id="controls" style="margin-bottom: 15px; padding: 10px; background: var(--md-code-bg-color); border-radius: 4px;">
+      <label style="margin-right: 15px;"><input id="toggleLabels" type="checkbox" checked /> Show labels</label>
+      <label style="margin-right: 15px;"><input id="toggleProperties" type="checkbox" /> Show properties</label>
+      <input id="search" type="search" placeholder="Search node label... (Enter)" style="margin-left: 15px; padding: 4px; border: 1px solid #ccc; border-radius: 4px; width: 250px;" />
+      <div id="legend" style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 15px;"></div>
+    </div>
+
+    <div id="graph-container" style="height: 600px; background: var(--md-default-bg-color); border: 1px solid #ddd; border-radius: 8px; overflow: hidden; position: relative; margin-bottom: 15px;">
+      
+    </div>
+
+    <div id="zoom-controls" style="display: flex; gap: 8px; margin-bottom: 20px;">
+        <button id="zoom-in" class="md-button" title="Zoom In" style="display: flex; align-items: center; gap: 5px; padding: 4px 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                <path d="M10 7H9v2H7v1h2v2h1v-2h2V9h-2V7z"/>
+            </svg>
+            </button>
+        <button id="zoom-out" class="md-button" title="Zoom Out" style="display: flex; align-items: center; gap: 5px; padding: 4px 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                <path d="M7 9h5v1H7z"/>
+            </svg>
+            </button>
+    </div>
+
+    <!-- Modal for Node Details -->
+    <div id="modal-backdrop" role="dialog" aria-hidden="true" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 1000; justify-content: center; align-items: center;">
+      <div style="background: var(--md-default-bg-color); padding: 25px; border-radius: 8px; max-width: 400px; text-align: center; position: relative; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+        <button id="modal-close" style="position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 20px; cursor: pointer; color: currentColor;">&times;</button>
+        <div id="modal-media"></div>
+        <h2 id="modal-title" style="margin-top: 0; font-family: 'Crimson Pro', serif;"></h2>
+        <p id="modal-desc" style="font-size: 0.9em; color: #666;"></p>
+        <a id="modal-link" class="md-button" href="#" target="_blank" rel="noopener">Open page</a>
+      </div>
+    </div>
+
+    <!-- Configure D3 graph -->
+    <script>
+      window.kbGraphConfig = window.kbGraphConfig || {};
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/hPKRyHYp2a7X.json";
+    </script>
+
+
+    
+
+
+
+## Statements
+???+ abstract "identifier"
+    - [CNCE039122](https://edit16.iccu.sbn.it/titolo/CNCE039122)
+
+???+ abstract "instance of"
+    - [poetry collection](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QzqW58VYGKNm)
+
+???+ abstract "title"
+    - Rime amorose del conte Pomponio Torelli detto il Perduto, nell'Academia de gli illustri signori Innominati di Parma
+
+???+ abstract "inception"
+    - 1575
+
+???+ abstract "has version"
+    - 
+        * note: 2nd edition
+        * place of publication: [Parma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcVBWkp6U4dv)
+        * publication date: 1586
+        * publisher: [Seth Viotti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2EzRp4nAx29)
+        * permalink: [CNCE060552](https://edit16.iccu.sbn.it/titolo/CNCE060552)
+        * IIIF manifest: [8CD3E271E04A48309E29F1CB51D5F2D0](https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/7195C77696164BEEBBE8FF76CE0A4BBD/manifest/8CD3E271E04A48309E29F1CB51D5F2D0)
+    - 
+        * external source: [tbALDiLvlKsC](https://books.google.it/books?id=tbALDiLvlKsC)
+        * publication date: 1575
+        * publisher: [Seth Viotti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2EzRp4nAx29)
+        * place of publication: [Parma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcVBWkp6U4dv)
+        * permalink: [CNCE039122](https://edit16.iccu.sbn.it/titolo/CNCE039122)
+        * IIIF manifest: [65CD8DD0A3FE4A00AE6B23AFA6F2BABA](https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/9C4ABA2CE1FD40C88974AF5E4AE7C974/manifest/65CD8DD0A3FE4A00AE6B23AFA6F2BABA)
+
+???+ abstract "contributor"
+    - [Pomponio Torelli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bq2dN5r9ifK3)
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92)
+
+
+
+
+
+
+## Digital Assets
+
+??? abstract "Digitised images"
+    
+    
+      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
+      </div>
+
+      <!-- Configure OpenSeadragon -->
+      <script>
+        window.kbGraphConfig = window.kbGraphConfig || {};
+        window.kbGraphConfig.assets = {
+        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+        local_path: "/",
+        images: [],
+        iiif: "https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/7195C77696164BEEBBE8FF76CE0A4BBD/manifest/8CD3E271E04A48309E29F1CB51D5F2D0"
+        };
+      </script>
+    
+      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
+      </div>
+
+      <!-- Configure OpenSeadragon -->
+      <script>
+        window.kbGraphConfig = window.kbGraphConfig || {};
+        window.kbGraphConfig.assets = {
+        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+        local_path: "/",
+        images: [],
+        iiif: "https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/9C4ABA2CE1FD40C88974AF5E4AE7C974/manifest/65CD8DD0A3FE4A00AE6B23AFA6F2BABA"
+        };
+      </script>
+    
+
+    
+

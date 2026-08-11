@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7prdXSb4yyM7",
+      "label": "Philippe Verdelot",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YiMuCqdksFU9",
+      "label": "Niccolò Machiavelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
+      "label": "madrigal",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8VcPTJrxDLAJ",
+      "label": "Firenze",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7prdXSb4yyM7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8VcPTJrxDLAJ",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7prdXSb4yyM7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7prdXSb4yyM7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YiMuCqdksFU9",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7prdXSb4yyM7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YiMuCqdksFU9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8VcPTJrxDLAJ",
+      "property": "work_location"
+    }
+  ]
+}

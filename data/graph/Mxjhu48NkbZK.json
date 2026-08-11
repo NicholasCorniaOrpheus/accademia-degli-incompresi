@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "label": "Delle imprese trattato di Giulio Cesare Capaccio",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYviwhMQjuUu",
+      "label": "impresa",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bWqYHwEWF3tH",
+      "label": "emblem book",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "label": "Giulio Cesare Capaccio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fmzPWRpXFBwB",
+      "label": "treatise",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
+      "label": "author",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "label": "Napoli",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fmzPWRpXFBwB",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYviwhMQjuUu",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mxjhu48NkbZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bWqYHwEWF3tH",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8fCmfqB8ZDPC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYviwhMQjuUu",
+      "property": "interested_in"
+    }
+  ]
+}

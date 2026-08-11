@@ -1,0 +1,57 @@
+---
+class: Organisation
+label:
+description:
+identifier:
+  - http://www.wikidata.org/entity/Q48837556
+described_by_source:
+  - "[[moronciniGiuocoVirtuIntreccio2017]]"
+  - "[[moronciniAccademiaVirtuReligious2020]]"
+image:
+aliases:
+  - Accademia Vitruviana
+  - Accademia dei Vignaiuoli
+instance_of:
+  - "[[academy]]"
+inception:
+  - value: 1532
+    sourcing_circumstances: "[[circa]]"
+    reference:
+      - "[[Italian Academies Database]]"
+dissolved:
+  - sourcing_circumstances: "[[circa]]"
+    value: 1545
+    reference:
+      - "[[Italian Academies Database]]"
+location:
+  - value: "[[Roma]]"
+official_website:
+catalog_identifier:
+  - source: "[[Italian Academies Database]]"
+    value: 107
+member:
+  - pseudonym: Sere Stentato
+    value: "[[Giulio Landi]]"
+    reference:
+      - "[[Italian Academies Database]]"
+  - value: "[[Luca Contile]]"
+  - role: "[[founder]]"
+    value: "[[Claudio Tolomei]]"
+    reference:
+      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+  - value: "[[Francesco Berni]]"
+  - value: "[[Anton Francesco Doni]]"
+interested_in:
+  - value: "[[serio ludere]]"
+    reference:
+      - "[[moronciniAccademiaVirtuReligious2020]]"
+  - value: "[[classical antiquity]]"
+    reference:
+      - "[[moronciniAccademiaVirtuReligious2020]]"
+  - value: "[[Vitruvius]]"
+  - value: "[[humorous poetry]]"
+    reference:
+      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+notable_work:
+  - "[[Giuoco delle Virtù]]"
+---

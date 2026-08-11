@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5JRxibUGdYv8",
+      "label": "Eleanor of Toledo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
+      "label": "(Cox 2016)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiHPz7L8Kr6L",
+      "label": "Accademia degli Alterati di Firenze",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5JRxibUGdYv8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiHPz7L8Kr6L",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5JRxibUGdYv8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
+      "property": "member_of"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GMgJ4bkiGT9S",
+      "label": "Louis XIII of France",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NFU4DdNzvjcU",
+      "label": "La roccella espugnata di Francesco Bracciolini dell'Api",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bg4gvLMF8VC2",
+      "label": "politician",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W3STHsTwcTTb",
+      "label": "Maria de' Medici",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GMgJ4bkiGT9S",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bg4gvLMF8VC2",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NFU4DdNzvjcU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GMgJ4bkiGT9S",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W3STHsTwcTTb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GMgJ4bkiGT9S",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NFU4DdNzvjcU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W3STHsTwcTTb",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W3STHsTwcTTb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bg4gvLMF8VC2",
+      "property": "occupation"
+    }
+  ]
+}

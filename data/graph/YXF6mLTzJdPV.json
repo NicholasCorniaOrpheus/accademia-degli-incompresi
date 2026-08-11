@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YXF6mLTzJdPV",
+      "label": "Rocco Rodio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "label": "Aeri racolti insieme",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "label": "Napoli",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YXF6mLTzJdPV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YXF6mLTzJdPV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YXF6mLTzJdPV",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "property": "has_version"
+    }
+  ]
+}

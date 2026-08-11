@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZtWPxf6noTd8",
+      "label": "SHWWROTE",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9HVig5tJ3C8Y",
+      "label": "Chiara Matraini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nXrq9LLr4z5i",
+      "label": "Barbara degli Albizzi Tagliamochi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nuS6w4ktHrXT",
+      "label": "querelle des femmes",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZtWPxf6noTd8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nuS6w4ktHrXT",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9HVig5tJ3C8Y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZtWPxf6noTd8",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nXrq9LLr4z5i",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZtWPxf6noTd8",
+      "property": "catalog_identifier"
+    }
+  ]
+}

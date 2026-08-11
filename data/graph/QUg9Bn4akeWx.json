@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QUg9Bn4akeWx",
+      "label": "Scipione Dentice",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "label": "Aeri racolti insieme",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBqxAbYpFzpN",
+      "label": "Fabrizio Dentice",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QUg9Bn4akeWx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QUg9Bn4akeWx",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBqxAbYpFzpN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QUg9Bn4akeWx",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBqxAbYpFzpN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBqxAbYpFzpN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "occupation"
+    }
+  ]
+}

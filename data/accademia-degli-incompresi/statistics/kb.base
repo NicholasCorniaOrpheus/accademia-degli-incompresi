@@ -1,0 +1,67 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: poems
+    filters:
+      and:
+        - class == "PoeticWork"
+    order:
+      - file.name
+      - local_asset_path
+      - contributor
+      - part_of
+      - text
+    rowHeight: medium
+  - type: table
+    name: agents
+    filters:
+      and:
+        - class == "Agent"
+    order:
+      - file.name
+      - identifier
+      - catalog_identifier
+      - occupation
+      - related_to
+      - work_location
+      - interested_in
+      - member_of
+      - notable_work
+  - type: table
+    name: music
+    filters:
+      and:
+        - class == "NotatedMusic"
+    order:
+      - file.name
+      - identifier
+      - has_part
+  - type: table
+    name: bibliography
+    filters:
+      and:
+        - class == "BibliographicResource"
+    order:
+      - file.name
+      - label
+      - citation
+      - bibtex
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: bibtex
+        direction: ASC
+      - property: local_asset_path
+        direction: ASC
+  - type: table
+    name: books
+    filters:
+      and:
+        - class == "Book"
+    order:
+      - file.name
+      - contributor
+      - has_version
+      - identifier
+      - subject

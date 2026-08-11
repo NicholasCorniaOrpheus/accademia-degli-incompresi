@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nc992P6egdPK",
+      "label": "Accademia dei Sereni di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "label": "Fortunato Martinengo Cesaresco",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "label": "(Faini 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "label": "Napoli",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nc992P6egdPK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nc992P6egdPK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6W6948TF26uk",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nc992P6egdPK",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GY7RZWHh7bEu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4eYS5EgGv57q",
+      "property": "interested_in"
+    }
+  ]
+}

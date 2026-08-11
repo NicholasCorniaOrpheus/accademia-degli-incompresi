@@ -1,0 +1,109 @@
+yaml_property,namespace,property_name,property_URI,data_type,wd_pid,category
+class,dcterms,type,http://purl.org/dc/terms/type,Class,,metadata
+label,rdfs,label,http://www.w3.org/2000/01/rdf-schema#label,String,,metadata
+aliases,skos,altLabel,http://www.w3.org/2004/02/skos/core#altLabel,String,,metadata
+description,dc,description,http://purl.org/dc/elements/1.1/description,String,,metadata
+title,dcterms,title,http://purl.org/dc/terms/title,String,P1476,statements
+identifier,dcterms,identifier,http://purl.org/dc/terms/identifier,URIRef,,statements
+isbn,schema,isbn,https://schema.org/isbn,String,,statements
+local_asset_path,,,,String,,assets
+instance_of,wdt,instance of,http://wikidata.org/entity/P31,Entity,P31,statements
+has_part,dcterms,hasPart,http://purl.org/dc/terms/hasPart,Entity,,statements
+part_of,,,,Statement,,statements
+part_of/value,dcterms,isPartOf,http://purl.org/dc/terms/isPartOf,Entity,P361,statements
+part_of/volume,schema,volumeNumber,https://schema.org/volumeNumber,String,P478,statements
+part_of/pages,wdt,page(s),http://www.wikidata.org/entity/P304,String,P304,statements
+part_of/section,wdt,section,http://www.wikidata.org/entity/P958,String,P958,statements
+contributor,,,,Statement,,statements
+contributor/value,dcterms,contributor,http://purl.org/dc/terms/contributor,Entity,P767,statements
+contributor/role,bf,Role,http://id.loc.gov/ontologies/bibframe/Role,Entity,,statements
+contributor/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
+has_version,dcterms,hasVersion,http://purl.org/dc/terms/hasVersion,Statement,,statements
+has_version/permalink,schema,url,https://schema.org/url,URIRef,,statements
+has_version/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
+has_version/publisher,dcterms,publisher,http://purl.org/dc/terms/publisher,Entity,,statements
+has_version/publication_date,schema,datePublished,https://schema.org/datePublished,String,P577,statements
+has_version/place_of_publication,wdt,place of publication,http://wikidata.org/entity/P291,Entity,P291,statements
+has_version/holding_institution,bf,heldBy,http://id.loc.gov/ontologies/bibframe/heldBy,Entity,P195,statements
+has_version/external_source,bf,electronicLocator,http://id.loc.gov/ontologies/bibframe/electronicLocator,URIRef,,statements
+has_version/IIIF_manifest,wdt,IIIF manifest URL,http://wikidata.org/entity/P6108,URIRef,P6108,statements
+available_at,,,,Statement,,statements
+available_at/reference_URL,wdt,work available at URL,http://www.wikidata.org/entity/P953,URIRef,P953,statements
+available_at/holding_institution,bf,heldBy,http://id.loc.gov/ontologies/bibframe/heldBy,Entity,P195,statements
+instrumentation,,,,Statement,,statements
+instrumentation/value,wdt,instrumentation,http://wikidata.org/entity/P870,,P870,statements
+instrumentation/quantity,wdt,quantity,http://wikidata.org/entity/P1114,,P1114,statements
+language,dc,language,http://wikidata.org/entity/P870,Entity,P407,statements
+image,schema,image,https://schema.org/image,URIRef,P18,assets
+described_by_source,wdt,described by source,http://wikidata.org/entity/P1343,Entity,P1343,statements
+gender,schema,gender,https://schema.org/gender,Entity,P21,statements
+work_location,,,,Statement,,statements
+work_location/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
+work_location/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+work_location/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
+work_location/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+occupation,,,,Statement,,statements
+occupation/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
+occupation/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+subclass_of,rdfs,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,,,statements
+inception,,,,Statement,,statements
+inception/value,dcterms,created,http://purl.org/dc/terms/created,String,,statements
+inception/sourcing_circumstances,wdt,sourcing circumstances,http://wikidata.org/entity/P1480,Entity,,statements
+inception/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+dissolved,,,,Statement,,statements
+dissolved/value,schema,dissolutionDate,https://schema.org/dissolutionDate,Date,,statements
+dissolved/sourcing_circumstances,wdt,sourcing circumstances,http://wikidata.org/entity/P1480,Entity,,statements
+dissolved/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+country,wdt,country,http://wikidata.org/entity/P17,Entity,,statements
+location,,,,Statement,,statements
+location/value,wdt,located in the administrative territorial entity,http://wikidata.org/entity/P131,Entity,,statements
+location/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+official_website,wdt,official website,http://wikidata.org/entity/P856,URIRef,,statements
+depicts,wdt,depicts,http://www.wikidata.org/entity/P180,Entity,,statements
+based_on,,,,Statement,,statements
+based_on/value,wdt,based on,http://www.wikidata.org/entity/P144,Entity,P144,statements
+based_on/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
+derivative_work,,,,Statement,,statements
+derivative_work/value,edm,isDerivativeOf,http://www.europeana.eu/schemas/edm/isDerivativeOf,Entity,P4969,statements
+derivative_work/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
+subject,dc,subject,http://purl.org/dc/elements/1.1/subject,Entity,,statements
+form_of_creative_work,wdt,form of creative work,http://www.wikidata.org/entity/P7937,Entity,P7937,statements
+catalog_identifier,,,,Statement,,statements
+catalog_identifier/value,wdt,catalog code,http://www.wikidata.org/entity/P528,String,P528,statements
+catalog_identifier/source,bf,heldBy,http://id.loc.gov/ontologies/bibframe/heldBy,Entity,P195,statements
+related_to,,,,,,statements
+related_to/value,edm,isRelatedTo,http://www.europeana.eu/schemas/edm/isRelatedTo,Entity,P3342,statements
+related_to/relationship,bf,Relationship,http://id.loc.gov/ontologies/bibframe/Relationship,Entity,,statements
+related_to/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+notable_work,wdt,notable work,http://www.wikidata.org/entity/P800,Entity,P800,statements
+interested_in,,,,Statement,,statements
+interested_in/value,wdt,interested in,http://www.wikidata.org/entity/P2650,Entity,,statements
+interested_in/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+poetic_type,pdc,poeticType,http://postdata.linhd.uned.es/ontology/postdata-core#poeticType,Entity,,statements
+metre,wdt,used metre,http://www.wikidata.org/entity/P2551,Entity,P2551,statements
+member_of,,,,Statement,,statements
+member_of/value,schema,memberOf,https://schema.org/memberOf,Entity,,statements
+member_of/role,schema,OrganizationRole,https://schema.org/OrganizationRole,Entity,,statements
+member_of/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
+member_of/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+member_of/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+member,,,,Statement,,statements
+member/value,schema,members,https://schema.org/members,Entity,,statements
+member/role,schema,OrganizationRole,https://schema.org/OrganizationRole,Entity,,statements
+member/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
+member/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+member/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+citation,dcterms,bibliographicCitation,http://purl.org/dc/terms/bibliographicCitation,String,,metadata
+bibtex,,,,FilePath,,assets
+markdown_content,schema,text,https://schema.org/text,String,,content
+present_in_work,wdt,present in work,http://www.wikidata.org/entity/P1441,Entity,,statements
+motto,,,,Statement,,statements
+motto/value,wdt,motto,http://www.wikidata.org/entity/P1546,String,,statements
+motto/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+used_by,,,,Statement,,statements
+used_by/value,wdt,used by,http://www.wikidata.org/entity/P1535,Entity,,statements
+used_by/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+filename,,,,String,,metadata
+n_id,,,,Integer,,metadata
+id,,,,String,,metadata
+base_name,,,,String,,metadata

@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "label": "(Everson 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/av4vtP8gSHzR",
+      "label": "(Chiummo, Geremicca, and Tosini 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "label": "Accademia degli Infecondi di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JmSgzQ9DvGoc",
+      "label": "Elena Cornaro Piscopia",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dCv2aTwnNMv4",
+      "label": "Anna Rosalia Caruso",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/av4vtP8gSHzR",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JmSgzQ9DvGoc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dCv2aTwnNMv4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HpeUtuoU2aG7",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JmSgzQ9DvGoc",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JmSgzQ9DvGoc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dCv2aTwnNMv4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ji57Nfwcwc3y",
+      "property": "member_of"
+    }
+  ]
+}
