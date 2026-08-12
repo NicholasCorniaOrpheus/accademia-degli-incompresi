@@ -4,7 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
-  - "[[eversonItalianAcademies152517002020]]"
+  - "[[(Everson, Reidy, and Sampson 2020)]]"
 image:
 aliases:
 instance_of: "[[academy]]"
@@ -22,7 +22,7 @@ catalog_identifier:
 member:
   - value: "[[Vittoria della Rovere]]"
     reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
 interested_in:
 notable_work:
 ---

@@ -19,7 +19,7 @@ part_of:
   - pages: 209
     section: Di M. Francesco Sansovino
     volume: 1
-    value: "[[entity/Rime diuerse di molti eccellentiss. auttori nuouamente raccolte. Libro primo]]"
+    value: "[[Rime diverse di molti eccellentiss. autori nuovamente raccolte. Libro primo]]"
 local_asset_path: ./assets/poems/varchi,_s'il_ciel_vi_presti_ali_al_gran_nome
 based_on:
 derivative_work:

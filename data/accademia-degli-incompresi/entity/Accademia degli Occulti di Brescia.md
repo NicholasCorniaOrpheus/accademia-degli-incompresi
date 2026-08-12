@@ -1,6 +1,7 @@
 ---
 class: Organisation
 instance_of:
+  - "[[academy]]"
 inception:
 dissolved:
 location:
@@ -15,5 +16,5 @@ notable_work:
 identifier:
 label: Accademia degli Occulti di Brescia
 described_by_source:
-  - "[[tezaLAccademiaInsensatiFra2017]]"
+  - "[[(Teza 2017)]]"
 ---

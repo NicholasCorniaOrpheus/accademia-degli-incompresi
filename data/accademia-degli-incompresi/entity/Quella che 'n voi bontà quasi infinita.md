@@ -4,7 +4,7 @@ label: Quella che 'n voi bontà quasi infinita
 description:
 identifier:
 described_by_source:
-  - "[[geremiccaDamoneperCrisero2017]]"
+  - "[[(Geremicca 2017)]]"
 image:
 aliases:
 instance_of:

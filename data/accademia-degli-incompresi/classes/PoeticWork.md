@@ -108,17 +108,17 @@ fields:
     options: {}
     path: ""
     id: n8rPEu
-  - name: text
-    type: Input
-    options: {}
-    path: ""
-    id: Z5e8uJ
   - name: language
     type: File
     options: {}
     path: ""
     id: Lga6tM
-version: "2.62"
+  - name: text
+    type: Input
+    options: {}
+    path: ""
+    id: NyFJcK
+version: "2.66"
 limit: 20
 mapWithTag: false
 icon: package
@@ -131,8 +131,8 @@ savedViews: []
 favoriteView:
 fieldsOrder:
   - Lga6tM
-  - Z5e8uJ
   - 4boM8L
+  - NyFJcK
   - IQ6HyT
   - 3mK8in
   - 3XAdUs

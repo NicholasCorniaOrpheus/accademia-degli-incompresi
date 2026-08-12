@@ -20,7 +20,7 @@ occupation:
 related_to:
   - value: "[[Niccolò Machiavelli]]"
     reference:
-      - "[[brownDefiningPlaceAcademies2020]]"
+      - "[[(Brown 2020)]]"
 notable_work:
 interested_in:
 catalog_identifier:

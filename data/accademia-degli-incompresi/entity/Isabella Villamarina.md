@@ -19,7 +19,7 @@ related_to:
   - value: "[[Ortensio Lando]]"
     relationship: "[[patron of the arts]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 notable_work:
 interested_in:
 catalog_identifier:

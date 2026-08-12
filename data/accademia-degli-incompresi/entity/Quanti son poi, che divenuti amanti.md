@@ -24,7 +24,8 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[lover]]"
-  - "[[entity/weeping|weeping]]"
+  - "[[weeping]]"
+  - "[[thousand]]"
 text: |-
   Quanti son, poi, che divenuti amanti
   Di due begli occhi, e d'un leggiadro viso,

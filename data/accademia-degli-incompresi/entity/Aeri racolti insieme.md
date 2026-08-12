@@ -9,6 +9,8 @@ described_by_source:
 image:
 aliases:
 instance_of:
+  - "[[partbook]]"
+  - "[[incomplete]]"
 title: Aeri racolti insieme con altri bellissimi aggionti di diversi doue si cantano sonetti, stanze & terze rime, novamente ristampati
 inception:
 has_version:
@@ -35,7 +37,6 @@ contributor:
     value: "[[Rocco Rodio]]"
 subject:
   - "[[arie per cantare]]"
-  - "[[incomplete partbook set]]"
 has_part:
 instrumentation:
   - value: "[[bassus]]"

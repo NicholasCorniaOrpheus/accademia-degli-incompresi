@@ -7,14 +7,38 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WmicWC8SL2MU",
+      "label": "(Gambara 1995)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n6KoBiTm8R3e",
       "label": "hendecasyllable",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "label": "Veronica Gambara",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Correggio%2C_Ritratto_di_dama%2C_c.1517-1518.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LtqTXapC2CBx",
+      "label": "abandonment",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bPAc2GKjNqEa",
       "label": "poem",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bB4WfnZhTCUk",
+      "label": "torment",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
@@ -51,8 +75,23 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WmicWC8SL2MU",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LtqTXapC2CBx",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
@@ -68,6 +107,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n6KoBiTm8R3e",
       "property": "metre"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bB4WfnZhTCUk",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QqrNuxd24c9c",

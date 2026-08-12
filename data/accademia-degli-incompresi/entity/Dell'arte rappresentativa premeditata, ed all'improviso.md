@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/VEAE003733
 described_by_source:
-  - "[[perrucciTreatiseActingMemory2008]]"
+  - "[[(Perrucci [1699] 2008)]]"
 image:
 aliases:
 instance_of:

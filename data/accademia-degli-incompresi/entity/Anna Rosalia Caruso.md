@@ -1,22 +1,22 @@
 ---
 class: Agent
-label: 
-description: 
-identifier: 
-described_by_source: 
-image: 
-aliases: 
-instance_of: 
-gender: 
+label:
+description:
+identifier:
+described_by_source:
+image:
+aliases:
+instance_of:
+gender:
 work_location:
 member_of:
   - value: "[[Accademia degli Infecondi di Roma]]"
     reference:
-      - "[[eversonLAccademiaInfecondiLetteratura2017]]"
+      - "[[(Everson 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:
-notable_work: 
+notable_work:
 interested_in:
 catalog_identifier:
   - source: "[[Italian Women Writers]]"

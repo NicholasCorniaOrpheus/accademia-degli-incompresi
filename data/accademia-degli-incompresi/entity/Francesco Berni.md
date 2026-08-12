@@ -15,7 +15,7 @@ work_location:
 member_of:
   - value: "[[Accademia delle Virtù]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

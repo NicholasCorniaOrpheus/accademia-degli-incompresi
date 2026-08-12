@@ -1,6 +1,6 @@
 ---
 class: Organisation
-label:
+label: Austrian National Library
 description:
 identifier:
   - http://www.wikidata.org/entity/Q304037

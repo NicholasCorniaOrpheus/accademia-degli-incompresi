@@ -5,12 +5,12 @@ description:
 identifier:
   - http://id.sbn.it/bid/BVEE044103
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 image:
 aliases:
   - Rocella espugnata
 instance_of:
-  - "[[entity/chivalric poem|chivalric poem]]"
+  - "[[chivalric poem]]"
 title: "La roccella espugnata di Francesco Bracciolini dell'Api: al christianissimo rè di Francia Lodouico il Giusto. Con gl'argomenti à ciascun canto del sig. Desiderio Montemagni"
 inception:
 has_version:

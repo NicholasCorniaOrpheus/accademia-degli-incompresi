@@ -13,7 +13,7 @@ instance_of:
 gender: "[[male]]"
 work_location:
 member_of:
-  - value: "[[entity/Accademia Veniera]]"
+  - value: "[[Accademia Veniera]]"
     reference:
       - "[[Italian Academies Database]]"
 occupation:

@@ -128,7 +128,24 @@ fields:
     options: {}
     path: aQ3hS1
     id: rYcoF0
-version: "2.51"
+  - name: catalog_identifier
+    type: ObjectList
+    options:
+      displayTemplate: ""
+      itemDisplayTemplate: ""
+    path: ""
+    id: HFYBI3
+  - name: value
+    type: Input
+    options: {}
+    path: HFYBI3
+    id: 2Hi4uj
+  - name: source
+    type: File
+    options: {}
+    path: HFYBI3
+    id: G0hBHR
+version: "2.57"
 limit: 20
 mapWithTag: false
 icon: package
@@ -140,6 +157,9 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - HFYBI3
+  - G0hBHR
+  - 2Hi4uj
   - rhQ87v
   - NcmQK7
   - hgYtRD

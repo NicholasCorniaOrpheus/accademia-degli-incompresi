@@ -7,10 +7,34 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WmicWC8SL2MU",
+      "label": "(Gambara 1995)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J7egSfD8vLbk",
+      "label": "dawn",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n6KoBiTm8R3e",
       "label": "hendecasyllable",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "label": "Veronica Gambara",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Correggio%2C_Ritratto_di_dama%2C_c.1517-1518.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
+      "label": "Nola - Tosto che'l sol si scopre in oriente",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bPAc2GKjNqEa",
@@ -74,8 +98,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WmicWC8SL2MU",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
@@ -94,6 +128,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J7egSfD8vLbk",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K4XT26ScHc4t",
       "property": "depicts"
     },
@@ -106,6 +145,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNTtidqebMVR",
       "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
+      "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUNnbbsv8ut4",

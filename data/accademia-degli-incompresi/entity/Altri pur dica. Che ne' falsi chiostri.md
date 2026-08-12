@@ -20,7 +20,7 @@ based_on:
 derivative_work:
 subject:
   - "[[praise]]"
-  - "[[coincidentia oppositorum]]"
+  - "[[oxymoron]]"
 poetic_type: "[[ottava rima]]"
 metre:
   - "[[hendecasyllable]]"

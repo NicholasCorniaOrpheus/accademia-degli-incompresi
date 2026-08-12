@@ -30,5 +30,5 @@ identifier:
 label: I sei primi libri del Eneide di Vergilio, tradotti à piu illustre & honorate donne
 description: Translation in Italian verses of Virgil's Aeneid, created by the collective effort of the Accademia degli Intronati of Siena
 described_by_source:
-  - "[[palliniAccademieSenesiTramonto2020]]"
+  - "[[(Pallini 2020)]]"
 ---

@@ -20,11 +20,11 @@ related_to:
   - value: "[[Jacopo Bonfadio]]"
     relationship: "[[patron of the arts]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
   - value: "[[Vittoria Colonna]]"
     relationship: "[[friend]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 notable_work:
 interested_in:
   - value: "[[heterodoxy]]"

@@ -4,7 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -12,7 +12,7 @@ instance_of:
 inception:
   - value: 1551
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 dissolved:
   - value: 1553
     reference:
@@ -27,7 +27,7 @@ member:
 interested_in:
   - value: "[[heterodoxy]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 notable_work:
   - "[[Rime di diversi eccellenti autori bresciani]]"
 related_to:

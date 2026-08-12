@@ -12,7 +12,7 @@ catalog_identifier:
     value: 493
 member:
   - reference:
-      - "[[moralejoortegaFedericoZuccariInnovazione2017]]"
+      - "[[(Moralejo Ortega 2017)]]"
     value: "[[Federico Zuccari]]"
     start_date: 1565
 interested_in:

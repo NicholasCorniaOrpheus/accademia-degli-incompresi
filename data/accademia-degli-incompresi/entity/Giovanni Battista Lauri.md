@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q110215173
 described_by_source:
-  - "[[tezaLAccademiaInsensatiFra2017]]"
+  - "[[(Teza 2017)]]"
 image:
 aliases:
   - Giovanni Battista Lauro
@@ -16,7 +16,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
 occupation:
   - value: "[[astronomer]]"
 related_to:

@@ -19,5 +19,5 @@ present_in_work:
 identifier:
   - http://www.wikidata.org/entity/Q3765756
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 ---

@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q602056
   - https://it.wikisource.org/wiki/Autore:Anton_Francesco_Grazzini
-described_by_source: "[[malatoPassareTempoLetteratura1993]]"
+described_by_source: "[[(Malato 1993)]]"
 image:
 aliases:
 instance_of: "[[human]]"

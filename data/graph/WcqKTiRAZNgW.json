@@ -7,8 +7,26 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SK7C48Ws7evE",
+      "label": "(Gambara 2014)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n6KoBiTm8R3e",
       "label": "hendecasyllable",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "label": "Veronica Gambara",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Correggio%2C_Ritratto_di_dama%2C_c.1517-1518.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LtqTXapC2CBx",
+      "label": "abandonment",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
@@ -21,6 +39,18 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNTtidqebMVR",
       "label": "Italian",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nvbBgTrbqkzD",
+      "label": "Canzoniere",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CJfbQGbVrUjL",
+      "label": "madrigale",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
@@ -45,8 +75,33 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SK7C48Ws7evE",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nvbBgTrbqkzD",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LtqTXapC2CBx",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CJfbQGbVrUjL",
+      "property": "poetic_type"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
@@ -62,6 +117,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WcqKTiRAZNgW",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNTtidqebMVR",
       "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nvbBgTrbqkzD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
+      "property": "contributor"
     }
   ]
 }

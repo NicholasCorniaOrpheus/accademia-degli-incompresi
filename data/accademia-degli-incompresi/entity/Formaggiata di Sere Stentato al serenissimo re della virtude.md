@@ -5,7 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE062656
 described_by_source:
-  - "[[moronciniAccademiaVirtuReligious2020]]"
+  - "[[(Moroncini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -14,7 +14,7 @@ title: Formaggiata di Sere Stentato al serenissimo re della virtude
 inception:
   - value: 1538
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 has_version:
   - permalink: https://edit16.iccu.sbn.it/titolo/CNCE062656
     publication_date: 1542

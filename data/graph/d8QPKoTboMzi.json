@@ -7,8 +7,32 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NyRnJP545oAm",
+      "label": "Quanti son poi, che divenuti amanti (Torresani)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
       "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fW9MU6kG7Yqw",
+      "label": "Primo libro de Madrigali a quatro voci di l'Hoste da Reggio",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
@@ -16,8 +40,43 @@
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d8QPKoTboMzi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d8QPKoTboMzi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d8QPKoTboMzi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NyRnJP545oAm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d8QPKoTboMzi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fW9MU6kG7Yqw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d8QPKoTboMzi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NyRnJP545oAm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NyRnJP545oAm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fW9MU6kG7Yqw",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fW9MU6kG7Yqw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYLRpFh35Pid",
+      "property": "contributor"
     }
   ]
 }

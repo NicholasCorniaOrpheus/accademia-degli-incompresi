@@ -10,12 +10,12 @@ related_to:
   - value: "[[Ludovico Ariosto]]"
     relationship: "[[patron of the arts]]"
     reference:
-      - "[[strasWomenMusicSixteenthcentury2018]]"
+      - "[[(Stras 2018)]]"
 notable_work:
 interested_in:
   - value: "[[Reformed Christianity]]"
     reference:
-      - "[[strasWomenMusicSixteenthcentury2018]]"
+      - "[[(Stras 2018)]]"
   - value: "[[heterodoxy]]"
 catalog_identifier:
 identifier:
@@ -23,5 +23,5 @@ identifier:
 aliases:
   - Renée of France
 described_by_source:
-  - "[[strasWomenMusicSixteenthcentury2018]]"
+  - "[[(Stras 2018)]]"
 ---

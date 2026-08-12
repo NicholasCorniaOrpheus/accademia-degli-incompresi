@@ -95,7 +95,12 @@ fields:
     options: {}
     path: 2BArx5
     id: 8Qlbcu
-version: "2.38"
+  - name: text
+    type: Input
+    options: {}
+    path: ""
+    id: 4RlP7o
+version: "2.47"
 limit: 20
 mapWithTag: false
 icon: package
@@ -124,4 +129,5 @@ fieldsOrder:
   - GscD82
   - ibNIm6
   - DmdrG6
+  - 4RlP7o
 ---

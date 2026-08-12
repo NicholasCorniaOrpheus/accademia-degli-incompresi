@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6aSdfJkZ4K6C",
+      "label": "Austrian National Library",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdBrxEj83omD",
+      "label": "Rime diuerse di molti eccellentiss. auttori nuouamente raccolte. Libro primo",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ch8sBYXc9Riv",
+      "label": "Rime de la signora Laura Terracina",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdBrxEj83omD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6aSdfJkZ4K6C",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ch8sBYXc9Riv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6aSdfJkZ4K6C",
+      "property": "has_version"
+    }
+  ]
+}

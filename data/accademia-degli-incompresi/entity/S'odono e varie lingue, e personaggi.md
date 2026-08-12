@@ -4,7 +4,7 @@ label: S'odono e varie lingue, e personaggi
 description:
 identifier:
 described_by_source:
-  - "[[perrucciTreatiseActingMemory2008]]"
+  - "[[(Perrucci [1699] 2008)]]"
 image:
 aliases:
 instance_of:

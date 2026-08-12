@@ -22,12 +22,12 @@ member:
     pseudonym: Furioso
   - value: "[[Sforza degli Oddi]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
     pseudonym: Forsennato
   - pseudonym: Scioperato
     value: "[[Gaspare Murtola]]"
   - reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
     value: "[[Ippolita Benigni Manfredi]]"
   - reference:
       - "[[Italian Academies Database]]"

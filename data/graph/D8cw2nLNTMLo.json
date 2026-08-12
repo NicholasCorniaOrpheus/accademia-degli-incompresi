@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "label": "(Vagenheim 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GJR3yf5v43aN",
+      "label": "Francesco Maria Molza",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aRa3JfFvNWN8",
+      "label": "(Chiummo, Geremicca, and Tosini 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVFCQiR8XmSU",
+      "label": "Giovanni Battista Palatino",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "label": "Accademia dello Sdegno di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aRa3JfFvNWN8",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GJR3yf5v43aN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVFCQiR8XmSU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVFCQiR8XmSU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8cw2nLNTMLo",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GJR3yf5v43aN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVFCQiR8XmSU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEekB9QVYuPu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GJR3yf5v43aN",
+      "property": "member"
+    }
+  ]
+}

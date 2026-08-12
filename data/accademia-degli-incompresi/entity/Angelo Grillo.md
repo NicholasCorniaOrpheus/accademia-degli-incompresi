@@ -8,7 +8,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Innominati di Parma]]"
     reference:
-      - "[[sampsonReformingTheaterFarnese2020]]"
+      - "[[(Sampson 2020)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

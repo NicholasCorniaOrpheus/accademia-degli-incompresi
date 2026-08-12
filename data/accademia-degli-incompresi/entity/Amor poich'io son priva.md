@@ -14,7 +14,7 @@ contributor:
 part_of:
   - section: Poems of Love, 4
     pages: 41
-    value: "[[gambaraCompletePoemsBilingual2014]]"
+    value: "[[(Gambara 2014)]]"
 local_asset_path:
 based_on:
   - value: "[[Canzoniere]]"

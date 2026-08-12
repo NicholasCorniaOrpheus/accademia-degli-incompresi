@@ -17,11 +17,11 @@ member_of:
   - value: "[[Accademia degli Ordinati di Roma]]"
     role: "[[literary host]]"
     reference:
-      - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+      - "[[(Terzaghi 2017)]]"
 occupation:
   - value: "[[literary host]]"
     reference:
-      - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+      - "[[(Terzaghi 2017)]]"
   - value: "[[cardinal]]"
 related_to:
 notable_work:

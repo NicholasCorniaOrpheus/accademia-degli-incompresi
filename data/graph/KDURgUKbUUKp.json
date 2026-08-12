@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "label": "theater",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/L3aN4GdJ2bRV",
+      "label": "Michelangelo Buonarroti the Younger",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "label": "Corago. Repertorio e archivio di libretti del melodramma italiano dal 1600 al 1900",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5w7UFhEKE9BQ",
+      "label": "Accademia degli Alterati di Firenze",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZkUtYZtqYX9R",
+      "label": "Accademia degli Intronati di Siena",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/L3aN4GdJ2bRV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5w7UFhEKE9BQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZkUtYZtqYX9R",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "property": "interested_in"
+    }
+  ]
+}

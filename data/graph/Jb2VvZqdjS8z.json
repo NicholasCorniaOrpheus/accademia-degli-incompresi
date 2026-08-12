@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "label": "Giulio Fiesco",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WjFhGbvLkwgQ",
+      "label": "Di Giulio Fiesco il primo libro di madrigali a quattro voci,",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WAjti3VysciU",
+      "label": "Renée of Valois",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LcgjyQ3V2FYH",
+      "label": "Se quando per Adone, over per Marte (Fiesco)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WAjti3VysciU",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WjFhGbvLkwgQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LcgjyQ3V2FYH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Jb2VvZqdjS8z",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WjFhGbvLkwgQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WAjti3VysciU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LcgjyQ3V2FYH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LcgjyQ3V2FYH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WjFhGbvLkwgQ",
+      "property": "part_of"
+    }
+  ]
+}

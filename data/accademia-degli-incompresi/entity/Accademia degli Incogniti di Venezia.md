@@ -28,7 +28,7 @@ member:
     reference:
       - "[[Italian Academies Database]]"
   - reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
     value: "[[Arcangela Tarabotti]]"
 interested_in:
 notable_work:

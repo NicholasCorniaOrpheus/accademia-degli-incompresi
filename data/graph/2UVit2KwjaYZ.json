@@ -13,13 +13,35 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2uMZUUa8zFSc",
       "label": "Giordano Bruno",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UVit2KwjaYZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UVit2KwjaYZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "property": "gender"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UVit2KwjaYZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6PWDBRFf79oe",
@@ -29,6 +51,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UVit2KwjaYZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2uMZUUa8zFSc",
       "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2uMZUUa8zFSc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2uMZUUa8zFSc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "property": "gender"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2uMZUUa8zFSc",

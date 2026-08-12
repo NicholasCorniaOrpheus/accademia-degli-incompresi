@@ -25,6 +25,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j4vbnv6miehM",
+      "label": "Di Ghinolfo Dattari bolognese le Villanelle, a tre, a quattro & a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
       "label": "Nola - Tosto che'l sol si scopre in oriente",
       "class": "MusicComposition",
@@ -33,6 +39,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K95iKNAe2Krr",
       "label": "Occhi lucenti, e belli (Marenzio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipWzxdasAXx6",
+      "label": "Amor tu causi tutt'il penar mio (Dattari)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
     },
@@ -49,6 +61,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5zJEgtLUWq5H",
+      "label": "online database",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
       "label": "madrigal",
       "class": "Concept",
@@ -56,6 +74,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5zJEgtLUWq5H",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
@@ -77,12 +100,22 @@
       "property": "described_by_source"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j4vbnv6miehM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
+      "property": "described_by_source"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
       "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K95iKNAe2Krr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipWzxdasAXx6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9Ub8eoV9zng",
       "property": "described_by_source"
     },
@@ -102,14 +135,34 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j4vbnv6miehM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipWzxdasAXx6",
+      "property": "has_part"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nhoaAuwmUChq",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ruMDBvakrK9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPHTN8aZ3uME",
+      "property": "based_on"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K95iKNAe2Krr",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YxEnVGWtDSGW",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipWzxdasAXx6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipWzxdasAXx6",
+      "property": "part_of"
     }
   ]
 }

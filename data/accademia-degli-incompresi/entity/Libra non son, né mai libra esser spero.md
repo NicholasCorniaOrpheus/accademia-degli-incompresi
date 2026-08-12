@@ -14,7 +14,7 @@ contributor:
 part_of:
   - section: 6
     pages: 62
-    value: "[[gambaraRime1995]]"
+    value: "[[(Gambara 1995)]]"
 local_asset_path:
 based_on:
 derivative_work:

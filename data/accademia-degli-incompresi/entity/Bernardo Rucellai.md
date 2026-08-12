@@ -18,7 +18,7 @@ related_to:
   - value: "[[Niccolò Machiavelli]]"
     relationship: "[[literary host]]"
     reference:
-      - "[[brownDefiningPlaceAcademies2020]]"
+      - "[[(Brown 2020)]]"
 notable_work:
 interested_in:
 catalog_identifier:

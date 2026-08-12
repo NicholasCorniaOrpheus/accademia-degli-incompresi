@@ -5,7 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE055028
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
   - Giardino di pensieri

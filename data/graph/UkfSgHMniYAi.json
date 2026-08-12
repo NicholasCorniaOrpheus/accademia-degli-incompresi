@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UkfSgHMniYAi",
+      "label": "villanella",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "label": "Amor tu causi tutt'il penar mio (Dattari)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9Sp4YVvFFsc4",
+      "label": "type of musical work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UkfSgHMniYAi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9Sp4YVvFFsc4",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UkfSgHMniYAi",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "property": "part_of"
+    }
+  ]
+}

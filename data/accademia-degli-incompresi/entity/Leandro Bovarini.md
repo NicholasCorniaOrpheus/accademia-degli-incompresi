@@ -16,10 +16,10 @@ member_of:
   - value: "[[Accademia degli Umoristi di Roma]]"
     start_date: 1608
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
   - value: "[[Accademia degli Umoristi di Roma]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

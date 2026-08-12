@@ -4,7 +4,7 @@ label: Giovan Lorenzo Malpigli
 description:
 identifier:
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 image:
 aliases:
 instance_of:
@@ -17,7 +17,7 @@ member_of:
     role: "[[founder]]"
     start_date: 1584
     reference:
-      - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+      - "[[(Nicolaci 2017)]]"
 occupation:
 related_to:
 notable_work:

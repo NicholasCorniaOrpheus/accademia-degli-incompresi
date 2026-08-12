@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/93Pd4EHnWY4E",
+      "label": "chivalry",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gyCXXULFMCyE",
+      "label": "Ascanio errante",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ePcqUcDZpet6",
+      "label": "Ludovico Ariosto",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gyCXXULFMCyE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/93Pd4EHnWY4E",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ePcqUcDZpet6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/93Pd4EHnWY4E",
+      "property": "interested_in"
+    }
+  ]
+}

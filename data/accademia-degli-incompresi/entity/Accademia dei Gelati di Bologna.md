@@ -19,7 +19,7 @@ catalog_identifier:
     value: 1
 member:
   - reference:
-      - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+      - "[[(Nicolaci 2017)]]"
     value: "[[Ridolfo Campeggi]]"
     pseudonym: Rugginoso
 interested_in:

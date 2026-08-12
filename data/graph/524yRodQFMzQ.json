@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "label": "Cristoforo Roncalli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XtaCuuCtS3ZT",
+      "label": "employee",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbHLxjji874U",
+      "label": "(Tostini 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RfxAAC3RAyUS",
+      "label": "Ben giunga, oh saggia Diva",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bua2JSxp6Dg6",
+      "label": "Accademia degli Umoristi di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "label": "poet",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7GLMvnycfRiU",
+      "label": "La galeria del caualier Marino. Distinta in pitture & sculture",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XuxPvEDpMitC",
+      "label": "painter",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbHLxjji874U",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XuxPvEDpMitC",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bua2JSxp6Dg6",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XtaCuuCtS3ZT",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbHLxjji874U",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RfxAAC3RAyUS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7GLMvnycfRiU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/524yRodQFMzQ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RfxAAC3RAyUS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7GLMvnycfRiU",
+      "property": "part_of"
+    }
+  ]
+}

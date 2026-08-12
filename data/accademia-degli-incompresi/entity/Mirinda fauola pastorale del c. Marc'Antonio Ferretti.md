@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/BVEE024046
 described_by_source:
-  - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+  - "[[(Tostini 2017)]]"
 image:
 aliases:
 instance_of:
@@ -14,7 +14,7 @@ title: Mirinda fauola pastorale del c. Marc'Antonio Ferretti nell'Accademia de S
 inception:
   - value: 1609
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 has_version:
   - publication_date: 1612
     place_of_publication:

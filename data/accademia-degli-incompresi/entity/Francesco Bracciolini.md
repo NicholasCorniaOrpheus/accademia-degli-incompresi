@@ -22,5 +22,5 @@ identifier:
 aliases:
   - Francesco Bracciolini Dell'Api
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 ---

@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q3606791
 described_by_source:
-  - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+  - "[[(Terzaghi 2017)]]"
 image:
 aliases:
 instance_of:
@@ -16,7 +16,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Umoristi di Roma]]"
     reference:
-      - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+      - "[[(Terzaghi 2017)]]"
 occupation:
 related_to:
 notable_work:

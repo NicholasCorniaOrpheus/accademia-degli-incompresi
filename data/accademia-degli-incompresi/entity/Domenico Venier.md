@@ -13,7 +13,7 @@ gender: "[[male]]"
 work_location:
   - value: "[[Venezia]]"
 member_of:
-  - value: "[[entity/Accademia Veniera]]"
+  - value: "[[Accademia Veniera]]"
   - value: "[[Accademia Veneziana]]"
     role: "[[founder]]"
 occupation:

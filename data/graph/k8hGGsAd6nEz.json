@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "label": "Giuseppe Betussi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RP6hnJyhLWBR",
+      "label": "Donna che tante tue virtuti, e tante",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "label": "Le immagini del tempio della signora donna Giovanna Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Po9PMWVRZGaZ",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "label": "poet",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Po9PMWVRZGaZ",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RP6hnJyhLWBR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k8hGGsAd6nEz",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RP6hnJyhLWBR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "property": "part_of"
+    }
+  ]
+}

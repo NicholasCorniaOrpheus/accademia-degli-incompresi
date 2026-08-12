@@ -6,7 +6,7 @@ identifier:
   - http://id.sbn.it/bid/BVEE023175
   - https://corago.unibo.it/libretto/DRT0018957
 described_by_source:
-  - "[[cosentinoArtistiAutoriAttori2017]]"
+  - "[[(Cosentino 2017)]]"
   - "[[Corago. Repertorio e archivio di libretti del melodramma italiano dal 1600 al 1900]]"
 image:
 aliases:
@@ -17,7 +17,7 @@ title: La finta mora commedia del dottor Iacopo Cicognini accademico intronato
 inception:
   - value: 1623
     reference:
-      - "[[cosentinoArtistiAutoriAttori2017]]"
+      - "[[(Cosentino 2017)]]"
 has_version:
   - permalink: http://id.sbn.it/bid/BVEE023175
     publication_date: 1625

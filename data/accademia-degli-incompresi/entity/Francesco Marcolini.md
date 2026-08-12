@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q1441108
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:

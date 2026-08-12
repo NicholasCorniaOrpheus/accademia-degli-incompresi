@@ -4,7 +4,7 @@ label: Accademia degli Affidati di Pavia
 description:
 identifier:
 described_by_source:
-  - "[[tezaLAccademiaInsensatiFra2017]]"
+  - "[[(Teza 2017)]]"
 image:
 aliases:
 instance_of:

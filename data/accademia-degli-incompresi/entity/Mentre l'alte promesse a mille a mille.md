@@ -14,7 +14,7 @@ contributor:
 part_of:
   - section: 11
     pages: 68-69
-    value: "[[gambaraRime1995]]"
+    value: "[[(Gambara 1995)]]"
 local_asset_path:
 based_on:
 derivative_work:
@@ -24,6 +24,7 @@ poetic_type: "[[sonnet]]"
 metre:
   - "[[hendecasyllable]]"
 depicts:
+  - "[[thousand]]"
 text: |-
   Mentre l'alte promesse a mille a mille
   Con mentita pietà non m'ingannaro

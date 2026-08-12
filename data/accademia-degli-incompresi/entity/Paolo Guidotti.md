@@ -13,5 +13,5 @@ notable_work:
 interested_in:
 catalog_identifier:
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 ---

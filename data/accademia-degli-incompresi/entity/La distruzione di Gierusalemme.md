@@ -1,7 +1,7 @@
 ---
 class: Book
 instance_of:
-  - "[[entity/chivalric poem|chivalric poem]]"
+  - "[[chivalric poem]]"
 title: La destruttione di Gierusalemme del sig. conte Ridolfo Campeggi, e la prigionia del Santo Sepolcro di Christo, del signor Girolamo Tortoletti
 inception:
 has_version:

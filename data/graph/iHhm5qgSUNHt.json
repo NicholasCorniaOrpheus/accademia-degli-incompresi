@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "label": "Nola - Tosto che'l sol si scopre in oriente",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5KpyMqYSvuvg",
+      "label": "madrigal",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hFmuNdDMpp4Y",
+      "label": "Tosto che'l sol si scopre in orïente",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EzzUdfJmTwtS",
+      "label": "Giovanni Domenico da Nola",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8Rx4oijhXP2j",
+      "label": "Libro primo delle Muse a quattro voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5KpyMqYSvuvg",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EzzUdfJmTwtS",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8Rx4oijhXP2j",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iHhm5qgSUNHt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hFmuNdDMpp4Y",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hFmuNdDMpp4Y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EzzUdfJmTwtS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5KpyMqYSvuvg",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8Rx4oijhXP2j",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8Rx4oijhXP2j",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EzzUdfJmTwtS",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8Rx4oijhXP2j",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
-  - "[[vagenheimAntiquariLetteratiNellAccademia2017]]"
+  - "[[(Vagenheim 2017)]]"
 image:
 aliases:
   - Giovan Battista Palatino
@@ -17,7 +17,7 @@ member_of:
   - value: "[[Accademia dello Sdegno di Roma]]"
     role: "[[secretary]]"
     reference:
-      - "[[vagenheimAntiquariLetteratiNellAccademia2017]]"
+      - "[[(Vagenheim 2017)]]"
 occupation:
 related_to:
 notable_work:

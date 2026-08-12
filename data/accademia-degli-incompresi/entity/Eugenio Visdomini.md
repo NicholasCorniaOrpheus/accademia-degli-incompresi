@@ -15,7 +15,7 @@ member_of:
   - role: "[[founder]]"
     value: "[[Accademia degli Innominati di Parma]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

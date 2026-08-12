@@ -1,6 +1,7 @@
 ---
 class: Organisation
-instance_of: 
+instance_of:
+  - "[[academy]]"
 inception:
   - value: 1601
     reference:
@@ -8,14 +9,14 @@ inception:
 dissolved:
 location:
   - value: "[[Ferrara]]"
-official_website: 
+official_website:
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 385
 member:
   - value: "[[Prospero Bonarelli della Rovere]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 interested_in:
-notable_work: 
+notable_work:
 ---

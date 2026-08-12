@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q936722
 described_by_source:
-  - "[[moronciniGiuocoVirtuIntreccio2017]]"
+  - "[[(Moroncini 2017)]]"
 image:
 aliases:
 instance_of:

@@ -19,6 +19,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
       "label": "Aeri racolti insieme",
       "class": "NotatedMusic",
@@ -41,9 +47,25 @@
       "label": "Orlando furioso",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2mpbjcHyXbwE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2mpbjcHyXbwE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJZqbcGUrARS",
+      "property": "gender"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2mpbjcHyXbwE",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WxDFR8rMGUAC",
@@ -78,6 +100,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3VowptVJoT2T",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6PWDBRFf79oe",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9FGwDPRYLe7W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2RtkiG2gQR7W",
+      "property": "instance_of"
     }
   ]
 }

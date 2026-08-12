@@ -14,7 +14,7 @@ contributor:
 part_of:
   - section: 26
     pages: 84-85
-    value: "[[gambaraRime1995]]"
+    value: "[[(Gambara 1995)]]"
 local_asset_path:
 based_on:
 derivative_work:
@@ -26,6 +26,7 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[animal]]"
+  - "[[thousand]]"
 text: |-
   Ride la terra, e d'ogni parte rende
   Mille soavi e dilettosi odori;

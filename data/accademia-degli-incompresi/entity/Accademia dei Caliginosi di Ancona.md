@@ -4,7 +4,7 @@ label: Accademia dei Caliginosi di Ancona
 description:
 identifier:
 described_by_source:
-  - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+  - "[[(Tostini 2017)]]"
 image:
 aliases:
 instance_of:
@@ -19,7 +19,7 @@ member:
   - role: "[[founder]]"
     value: "[[Prospero Bonarelli della Rovere]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 interested_in:
 notable_work:
 ---

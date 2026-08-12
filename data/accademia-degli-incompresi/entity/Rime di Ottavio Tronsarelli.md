@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/BVEE037819
 described_by_source:
-  - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+  - "[[(Terzaghi 2017)]]"
 image:
 aliases:
 instance_of:

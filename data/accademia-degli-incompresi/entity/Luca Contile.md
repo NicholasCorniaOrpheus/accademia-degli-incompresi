@@ -18,8 +18,8 @@ member_of:
       - "[[Italian Academies Database]]"
   - value: "[[Accademia delle Virtù]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
-      - "[[corsoVirtuDellanticoCompagnia2017]]"
+      - "[[(Moroncini 2017)]]"
+      - "[[(Corso 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

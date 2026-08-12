@@ -11,7 +11,7 @@ occupation:
 related_to:
   - value: "[[Girolamo Ruscelli]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
   - value: "[[Accademia dei Dubbiosi di Venezia]]"
 notable_work:
   - "[[Rime di m. Domenico Mantova]]"

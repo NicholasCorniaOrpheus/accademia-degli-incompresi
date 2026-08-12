@@ -12,12 +12,12 @@ related_to:
   - value: "[[Teofilo Folengo]]"
     relationship: "[[friend]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 notable_work:
 interested_in:
   - value: "[[humanitarians]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 17763

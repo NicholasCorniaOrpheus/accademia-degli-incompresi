@@ -20,5 +20,5 @@ catalog_identifier:
 identifier:
   - http://www.wikidata.org/entity/Q15733674
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 ---

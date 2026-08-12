@@ -5,7 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE034685
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -33,7 +33,7 @@ contributor:
 subject:
   - "[[praise]]"
   - "[[academy]]"
-  - "[[salon|literary salon]]"
+  - "[[salon]]"
 has_part:
 based_on:
 ---

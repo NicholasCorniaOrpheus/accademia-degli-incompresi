@@ -12,5 +12,5 @@ notable_work:
 interested_in:
 catalog_identifier:
 described_by_source:
-  - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+  - "[[(Tostini 2017)]]"
 ---

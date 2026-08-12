@@ -17,7 +17,7 @@ occupation:
 related_to:
   - value: "[[Bentveughels]]"
     reference:
-      - "[[hendrixSodalizioRomanoBentveughels2017]]"
+      - "[[(Hendrix 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

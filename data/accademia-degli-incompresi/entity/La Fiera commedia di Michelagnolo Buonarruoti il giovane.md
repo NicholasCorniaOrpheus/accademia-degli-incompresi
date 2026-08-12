@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/RAVE008911
 described_by_source:
-  - "[[cosentinoArtistiAutoriAttori2017]]"
+  - "[[(Cosentino 2017)]]"
 image:
 aliases:
 instance_of:
@@ -13,7 +13,7 @@ title:
 inception:
   - value: 1619
     reference:
-      - "[[cosentinoArtistiAutoriAttori2017]]"
+      - "[[(Cosentino 2017)]]"
 has_version:
   - external_source: https://books.google.be/books?id=Gz4PzOlrHEcC
     place_of_publication:

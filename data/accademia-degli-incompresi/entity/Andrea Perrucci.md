@@ -11,7 +11,7 @@ related_to:
   - value: "[[Lope de Vega]]"
     relationship: "[[student]]"
     reference:
-      - "[[perrucciTreatiseActingMemory2008]]"
+      - "[[(Perrucci [1699] 2008)]]"
 notable_work:
   - "[[Dell'arte rappresentativa premeditata, ed all'improviso]]"
 interested_in:

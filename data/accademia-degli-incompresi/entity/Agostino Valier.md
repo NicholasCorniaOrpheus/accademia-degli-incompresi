@@ -14,7 +14,7 @@ work_location:
 member_of:
   - value: "[[Accademia delle Notti Vaticane]]"
     reference:
-      - "[[occhipintiSullAccademiaNottiVaticane2017]]"
+      - "[[(Occhipinti 2017)]]"
 occupation:
   - value: "[[cardinal]]"
 related_to:

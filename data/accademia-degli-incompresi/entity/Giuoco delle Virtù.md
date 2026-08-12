@@ -4,8 +4,8 @@ instance_of:
   - "[[parlour game]]"
 subclass_of:
 described_by_source:
-  - "[[moronciniGiuocoVirtuIntreccio2017]]"
-  - "[[moronciniAccademiaVirtuReligious2020]]"
+  - "[[(Moroncini 2017)]]"
+  - "[[(Moroncini 2020)]]"
 description: Social game played during carnival season by the members of the Accademia delle Virtù in Rome in the 1530's.
 ---
 ```

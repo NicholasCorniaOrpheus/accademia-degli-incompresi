@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAxjGtWbCbSR",
+      "label": "(Sangalli 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f4k7Cg8rY5Hf",
+      "label": "(Everson, Reidy, and Sampson 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6BbMQTPYRVvw",
+      "label": "Paolo Beni",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAxjGtWbCbSR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f4k7Cg8rY5Hf",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6BbMQTPYRVvw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAxjGtWbCbSR",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6BbMQTPYRVvw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAxjGtWbCbSR",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6BbMQTPYRVvw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAxjGtWbCbSR",
+      "property": "related_to"
+    }
+  ]
+}

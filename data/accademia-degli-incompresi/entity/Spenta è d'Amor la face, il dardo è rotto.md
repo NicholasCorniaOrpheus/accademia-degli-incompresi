@@ -12,7 +12,7 @@ contributor:
   - role: "[[author]]"
     value: "[[Barbara Torelli Benedetti]]"
 part_of:
-  - value: "[[vandoorenDichteressenUitHet1992]]"
+  - value: "[[(van Dooren 1992)]]"
     section: Barbara Torelli, 1
 local_asset_path:
 based_on:

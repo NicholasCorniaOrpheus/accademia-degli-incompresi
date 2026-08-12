@@ -8,7 +8,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
-  - "[[entity/chivalric poem|chivalric poem]]"
+  - "[[chivalric poem]]"
 title: La Venetia edificata poema eroico di Giulio Strozzi
 inception:
 has_version:

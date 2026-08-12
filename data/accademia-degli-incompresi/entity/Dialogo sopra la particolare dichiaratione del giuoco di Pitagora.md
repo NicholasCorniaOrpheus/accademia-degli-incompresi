@@ -4,7 +4,7 @@ label:
 description: Treatise by Benedetto Varchi on proportion as the basis for rithmomachia, a mathematical game played on a chessboard with pieces that each have a shape and a number; a dialogue written by Carlo di Ruberto Strozzi, in which Cosimo Rucellai, who introduced the game to Benedetto Varchi, teaches the rules to Strozzi and Jacopo di Piero Vettori; and other notes on the game. Later unrelated notes and pen trials on leaves before and after main texts. Damage and bleed-through due to oxidation on many leaves.
 identifier:
 described_by_source:
-  - "[[geremiccaDamoneperCrisero2017]]"
+  - "[[(Geremicca 2017)]]"
 image:
 aliases:
 instance_of:

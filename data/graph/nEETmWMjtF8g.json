@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "label": "Amor tu causi tutt'il penar mio (Dattari)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4RN7uRZU9KRH",
+      "label": "Amor tu causi tutt'il penar mio",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UkfSgHMniYAi",
+      "label": "villanella",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUwhX2E6okU2",
+      "label": "Di Ghinolfo Dattari bolognese le Villanelle, a tre, a quattro & a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oF5mLg7EWDBR",
+      "label": "Ghindolfo Dattari",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UkfSgHMniYAi",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oF5mLg7EWDBR",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4RN7uRZU9KRH",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUwhX2E6okU2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nEETmWMjtF8g",
+      "property": "has_part"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUwhX2E6okU2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cj4dhHSWoQoZ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUwhX2E6okU2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oF5mLg7EWDBR",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KUwhX2E6okU2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oF5mLg7EWDBR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cWciWewD4CTN",
+      "property": "occupation"
+    }
+  ]
+}

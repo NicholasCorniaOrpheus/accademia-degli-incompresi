@@ -4,7 +4,7 @@ label: Accademia degli Incostanti di Firenze
 description:
 identifier:
 described_by_source:
-  - "[[cosentinoArtistiAutoriAttori2017]]"
+  - "[[(Cosentino 2017)]]"
 image:
 aliases:
 instance_of:

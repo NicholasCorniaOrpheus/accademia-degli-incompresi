@@ -19,7 +19,7 @@ related_to:
   - value: "[[Anton Francesco Doni]]"
     relationship: "[[colleague]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

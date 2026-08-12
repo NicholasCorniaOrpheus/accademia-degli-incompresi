@@ -32,7 +32,7 @@ member:
   - start_date: 1608
     value: "[[Leandro Bovarini]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
 interested_in:
 notable_work:
 ---

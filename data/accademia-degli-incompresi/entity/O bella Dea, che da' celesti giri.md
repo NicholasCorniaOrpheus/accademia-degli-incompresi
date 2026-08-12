@@ -23,5 +23,5 @@ text: |-
   Empi di santi affetti, e bei desiri,
   A questa schiera Virtuosa i core.
 described_by_source:
-  - "[[moronciniGiuocoVirtuIntreccio2017]]"
+  - "[[(Moroncini 2017)]]"
 ---

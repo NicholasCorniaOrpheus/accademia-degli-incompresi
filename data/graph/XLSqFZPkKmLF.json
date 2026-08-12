@@ -7,8 +7,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/icQ4nkYUNTeR",
+      "label": "poetic form",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c7NGViGj27ch",
       "label": "Infelice Signor, hor questo è'l merto",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jHX3xWsFnSFw",
+      "label": "Amor tu causi tutt'il penar mio",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
@@ -27,6 +39,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E2jFE4EvDEgp",
       "label": "Quanti son poi, che divenuti amanti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PhJv8yq9VpQA",
+      "label": "Vorrei parlar, ma l'ira in dir m'intoppa",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
@@ -67,6 +85,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TgKnQ6AH3E8S",
+      "label": "Quanto mi sia dolore, e grieve affanno",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CmZdGVSmRFvC",
       "label": "Ove ne lasci, ove Signor ne vai",
       "class": "PoeticWork",
@@ -87,7 +111,17 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/icQ4nkYUNTeR",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c7NGViGj27ch",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jHX3xWsFnSFw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
       "property": "poetic_type"
     },
@@ -103,6 +137,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E2jFE4EvDEgp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PhJv8yq9VpQA",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
       "property": "poetic_type"
     },
@@ -137,6 +176,11 @@
       "property": "poetic_type"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TgKnQ6AH3E8S",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
+      "property": "poetic_type"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CmZdGVSmRFvC",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
       "property": "poetic_type"
@@ -150,6 +194,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85ZBifpkMKFk",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLSqFZPkKmLF",
       "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dt4GNp3FHb6J",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85ZBifpkMKFk",
+      "property": "based_on"
     }
   ]
 }

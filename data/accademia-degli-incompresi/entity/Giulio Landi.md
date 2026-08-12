@@ -20,7 +20,7 @@ notable_work:
 interested_in:
   - value: "[[heterodoxy]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 18094

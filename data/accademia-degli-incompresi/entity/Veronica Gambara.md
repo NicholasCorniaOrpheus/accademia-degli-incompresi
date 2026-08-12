@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q437615
 described_by_source:
-  - "[[cox2016members]]"
+  - "[[(Cox 2020)]]"
 image: https://upload.wikimedia.org/wikipedia/commons/a/a3/Correggio%2C_Ritratto_di_dama%2C_c.1517-1518.jpg
 aliases:
 instance_of:
@@ -15,7 +15,8 @@ work_location:
 member_of:
   - value: "[[Accademia dei Sonnacchiosi di Bologna]]"
     reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
+    start_date: 1543
 occupation:
   - value: "[[poet]]"
   - value: "[[politician]]"

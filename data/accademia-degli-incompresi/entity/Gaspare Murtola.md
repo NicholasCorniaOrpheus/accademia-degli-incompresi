@@ -8,10 +8,10 @@ member_of:
   - value: "[[Accademia degli Ordinati di Roma]]"
     start_date: 1613
     reference:
-      - "[[terzaghiLaccademicoOttavioTronsarelli2017]]"
+      - "[[(Terzaghi 2017)]]"
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
-      - "[[moralejoortegaFedericoZuccariInnovazione2017]]"
+      - "[[(Moralejo Ortega 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

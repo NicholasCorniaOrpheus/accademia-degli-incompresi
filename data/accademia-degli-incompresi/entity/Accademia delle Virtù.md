@@ -5,8 +5,8 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q48837556
 described_by_source:
-  - "[[moronciniGiuocoVirtuIntreccio2017]]"
-  - "[[moronciniAccademiaVirtuReligious2020]]"
+  - "[[(Moroncini 2017)]]"
+  - "[[(Moroncini 2020)]]"
 image:
 aliases:
   - Accademia Vitruviana
@@ -38,20 +38,20 @@ member:
   - role: "[[founder]]"
     value: "[[Claudio Tolomei]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
   - value: "[[Francesco Berni]]"
   - value: "[[Anton Francesco Doni]]"
 interested_in:
   - value: "[[serio ludere]]"
     reference:
-      - "[[moronciniAccademiaVirtuReligious2020]]"
+      - "[[(Moroncini 2020)]]"
   - value: "[[classical antiquity]]"
     reference:
-      - "[[moronciniAccademiaVirtuReligious2020]]"
+      - "[[(Moroncini 2020)]]"
   - value: "[[Vitruvius]]"
   - value: "[[humorous poetry]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 notable_work:
   - "[[Giuoco delle Virtù]]"
 ---

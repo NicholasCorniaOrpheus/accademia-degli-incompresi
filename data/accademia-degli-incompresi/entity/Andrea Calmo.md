@@ -10,7 +10,7 @@ occupation:
 related_to:
 notable_work:
 interested_in:
-  - value: "[[entity/humorous poetry]]"
+  - value: "[[humorous poetry]]"
   - value: "[[bizzarria]]"
   - value: "[[commedia dell'arte]]"
 catalog_identifier:

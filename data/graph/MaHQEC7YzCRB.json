@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MaHQEC7YzCRB",
+      "label": "(Torelli Benedetti 2013)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eRTJsKpGCbcE",
+      "label": "The Other Voice in Early Modern Europe: The Toronto Series",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "label": "Partenia",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MaHQEC7YzCRB",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eRTJsKpGCbcE",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MaHQEC7YzCRB",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MaHQEC7YzCRB",
+      "property": "inception"
+    }
+  ]
+}

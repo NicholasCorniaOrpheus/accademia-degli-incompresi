@@ -9,7 +9,7 @@ member_of:
   - value: "[[Accademia dello Sdegno di Roma]]"
     role: "[[founder]]"
     reference:
-      - "[[procaccioliDionigiAtanagiAccademie2017]]"
+      - "[[(Procaccioli 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

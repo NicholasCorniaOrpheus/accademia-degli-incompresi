@@ -40,8 +40,8 @@ gender,schema,gender,https://schema.org/gender,Entity,P21,statements
 work_location,,,,Statement,,statements
 work_location/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
 work_location/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
-work_location/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
-work_location/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+work_location/start_date,schema,startDate,https://schema.org/startDate,String,,statements
+work_location/end_date,schema,endDate,https://schema.org/endDate,String,,statements
 occupation,,,,Statement,,statements
 occupation/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
 occupation/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
@@ -51,7 +51,7 @@ inception/value,dcterms,created,http://purl.org/dc/terms/created,String,,stateme
 inception/sourcing_circumstances,wdt,sourcing circumstances,http://wikidata.org/entity/P1480,Entity,,statements
 inception/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
 dissolved,,,,Statement,,statements
-dissolved/value,schema,dissolutionDate,https://schema.org/dissolutionDate,Date,,statements
+dissolved/value,schema,dissolutionDate,https://schema.org/dissolutionDate,String,,statements
 dissolved/sourcing_circumstances,wdt,sourcing circumstances,http://wikidata.org/entity/P1480,Entity,,statements
 dissolved/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
 country,wdt,country,http://wikidata.org/entity/P17,Entity,,statements
@@ -84,17 +84,18 @@ metre,wdt,used metre,http://www.wikidata.org/entity/P2551,Entity,P2551,statement
 member_of,,,,Statement,,statements
 member_of/value,schema,memberOf,https://schema.org/memberOf,Entity,,statements
 member_of/role,schema,OrganizationRole,https://schema.org/OrganizationRole,Entity,,statements
-member_of/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
-member_of/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+member_of/start_date,schema,startDate,https://schema.org/startDate,String,,statements
+member_of/end_date,schema,endDate,https://schema.org/endDate,String,,statements
 member_of/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
 member,,,,Statement,,statements
 member/value,schema,members,https://schema.org/members,Entity,,statements
 member/role,schema,OrganizationRole,https://schema.org/OrganizationRole,Entity,,statements
-member/start_date,schema,startDate,https://schema.org/startDate,Date,,statements
-member/end_date,schema,endDate,https://schema.org/endDate,Date,,statements
+member/start_date,schema,startDate,https://schema.org/startDate,String,,statements
+member/end_date,schema,endDate,https://schema.org/endDate,String,,statements
 member/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
-citation,dcterms,bibliographicCitation,http://purl.org/dc/terms/bibliographicCitation,String,,metadata
+citation,dcterms,bibliographicCitation,http://purl.org/dc/terms/bibliographicCitation,String,,statements
 bibtex,,,,FilePath,,assets
+text,pdc,text,http://postdata.linhd.uned.es/ontology/postdata-core#text,String,,statements
 markdown_content,schema,text,https://schema.org/text,String,,content
 present_in_work,wdt,present in work,http://www.wikidata.org/entity/P1441,Entity,,statements
 motto,,,,Statement,,statements

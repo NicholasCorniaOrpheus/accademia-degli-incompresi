@@ -15,7 +15,7 @@ occupation:
 related_to:
   - value: "[[Benedetto Varchi]]"
     reference:
-      - "[[geremiccaDamoneperCrisero2017]]"
+      - "[[(Geremicca 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

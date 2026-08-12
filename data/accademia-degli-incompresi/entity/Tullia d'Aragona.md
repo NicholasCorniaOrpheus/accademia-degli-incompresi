@@ -16,7 +16,7 @@ related_to:
   - value: "[[Benedetto Varchi]]"
     relationship: "[[entity/student]]"
     reference:
-      - "[[geremiccaDamoneperCrisero2017]]"
+      - "[[(Geremicca 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

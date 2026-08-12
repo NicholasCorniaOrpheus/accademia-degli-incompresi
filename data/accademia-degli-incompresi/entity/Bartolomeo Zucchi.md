@@ -14,7 +14,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
-      - "[[moralejoortegaFedericoZuccariInnovazione2017]]"
+      - "[[(Moralejo Ortega 2017)]]"
 occupation:
   - value: "[[historian]]"
 related_to:

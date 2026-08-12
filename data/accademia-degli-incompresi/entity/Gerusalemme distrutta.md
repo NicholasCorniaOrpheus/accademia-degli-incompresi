@@ -4,12 +4,12 @@ label: Gerusalemme distrutta
 description:
 identifier:
 described_by_source:
-  - "[[nicolaciGerusalemmeDistruttaDi2017]]"
+  - "[[(Nicolaci 2017)]]"
 image:
 aliases:
 instance_of:
-  - "[[entity/chivalric poem|chivalric poem]]"
   - "[[manuscript]]"
+  - "[[chivalric poem]]"
 title:
 inception:
   - sourcing_circumstances: "[[circa]]"

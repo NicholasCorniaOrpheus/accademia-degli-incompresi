@@ -16,7 +16,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Infecondi di Roma]]"
     reference:
-      - "[[eversonLAccademiaInfecondiLetteratura2017]]"
+      - "[[(Everson 2017)]]"
 occupation:
   - value: "[[philosopher]]"
 related_to:

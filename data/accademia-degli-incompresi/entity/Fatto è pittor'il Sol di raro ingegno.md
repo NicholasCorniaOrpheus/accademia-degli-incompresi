@@ -22,6 +22,7 @@ metre:
 depicts:
   - "[[Sun]]"
   - "[[shadow]]"
+  - "[[ingenuity]]"
 text: |-
   Fatto è pittor'il Sol di raro ingegno,
   Che con pennel di luce un'ombra finge,

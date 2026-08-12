@@ -1,6 +1,7 @@
 ---
 class: Organisation
-instance_of: 
+instance_of:
+  - "[[academy]]"
 inception:
 dissolved:
   - value: 1683
@@ -8,11 +9,11 @@ dissolved:
       - "[[Italian Academies Database]]"
 location:
   - value: "[[Roma]]"
-official_website: 
+official_website:
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 145
 member:
 interested_in:
-notable_work: 
+notable_work:
 ---

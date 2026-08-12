@@ -18,7 +18,7 @@ local_asset_path: ./assets/poems/come_d'un_bel_desio_s'accenda_il_core
 based_on:
 derivative_work:
 subject:
-  - "[[coincidentia oppositorum]]"
+  - "[[oxymoron]]"
 poetic_type: "[[sonnet]]"
 metre:
   - "[[hendecasyllable]]"

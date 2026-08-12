@@ -44,7 +44,7 @@ views:
         - class == "BibliographicResource"
     order:
       - file.name
-      - label
+      - aliases
       - citation
       - bibtex
     sort:
@@ -65,3 +65,35 @@ views:
       - has_version
       - identifier
       - subject
+  - type: table
+    name: compositions
+    filters:
+      and:
+        - class == "MusicComposition"
+    order:
+      - file.name
+      - identifier
+      - contributor
+  - type: table
+    name: organizations
+    filters:
+      and:
+        - class == "Organisation"
+        - instance_of != ["[[academy]]"]
+        - instance_of != ["[[academia fictiva]]"]
+    order:
+      - file.name
+      - identifier
+      - official_website
+  - type: table
+    name: academies
+    filters:
+      and:
+        - class == "Organisation"
+        - instance_of.containsAny(link("academy"), link("academia fictiva"))
+    order:
+      - file.name
+      - catalog_identifier
+      - identifier
+      - member
+      - described_by_source

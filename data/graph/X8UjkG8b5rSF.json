@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "label": "Corago. Repertorio e archivio di libretti del melodramma italiano dal 1600 al 1900",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k2k6KgyRVNBe",
+      "label": "opera",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X53XKVuBXL87",
+      "label": "online database",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "label": "theater",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZxZL6yPYm9DM",
+      "label": "La finta mora",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X53XKVuBXL87",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k2k6KgyRVNBe",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDURgUKbUUKp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZxZL6yPYm9DM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/X8UjkG8b5rSF",
+      "property": "described_by_source"
+    }
+  ]
+}

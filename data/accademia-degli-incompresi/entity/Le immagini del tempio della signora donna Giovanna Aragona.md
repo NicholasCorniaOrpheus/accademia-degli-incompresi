@@ -5,7 +5,7 @@ description: (Fictional) dialogues from academic gatherings of salonnière Giova
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE005675
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
   - Le insegne del tempio della signora donna Giovanna d'Aragona

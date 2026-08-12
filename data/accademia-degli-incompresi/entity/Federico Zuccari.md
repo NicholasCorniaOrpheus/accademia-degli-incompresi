@@ -13,10 +13,10 @@ gender: "[[male]]"
 work_location:
   - value: "[[Roma]]"
     reference:
-      - "[[moralejoortegaFedericoZuccariInnovazione2017]]"
+      - "[[(Moralejo Ortega 2017)]]"
   - value: "[[Firenze]]"
     reference:
-      - "[[moralejoortegaFedericoZuccariInnovazione2017]]"
+      - "[[(Moralejo Ortega 2017)]]"
 member_of:
   - value: "[[Accademia di San Luca di Roma]]"
   - value: "[[Accademia degli Insensati di Perugia]]"

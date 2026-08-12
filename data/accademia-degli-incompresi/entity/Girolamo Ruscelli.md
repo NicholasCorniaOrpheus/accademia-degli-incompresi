@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q2903986
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -16,7 +16,7 @@ member_of:
   - value: "[[Accademia dello Sdegno di Roma]]"
     role: "[[founder]]"
     reference:
-      - "[[procaccioliDionigiAtanagiAccademie2017]]"
+      - "[[(Procaccioli 2017)]]"
 occupation:
   - value: "[[publisher]]"
 related_to:

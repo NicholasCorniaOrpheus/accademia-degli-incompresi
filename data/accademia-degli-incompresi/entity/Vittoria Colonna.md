@@ -18,7 +18,7 @@ related_to:
   - value: "[[Luca Contile]]"
     relationship: "[[friend]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
 notable_work:
 interested_in:
   - value: "[[heterodoxy]]"

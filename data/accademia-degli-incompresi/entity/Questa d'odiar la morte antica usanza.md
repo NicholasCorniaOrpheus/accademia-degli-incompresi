@@ -5,7 +5,7 @@ description:
 identifier:
   - https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=15092
 described_by_source:
-  - "[[moronciniGiuocoVirtuIntreccio2017]]"
+  - "[[(Moroncini 2017)]]"
 image:
 aliases:
 instance_of:

@@ -28,7 +28,7 @@ depicts:
   - "[[plant]]"
   - "[[animal]]"
   - "[[Sun]]"
-  - "[[entity/weeping]]"
+  - "[[weeping]]"
 text: |-
   Alti son questi monti, & alti sono
   Li miei pensier, che null'altro gli adombra:

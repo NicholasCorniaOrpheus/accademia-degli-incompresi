@@ -14,7 +14,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Incogniti di Venezia]]"
     reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
 occupation:
   - value: "[[Christian nun]]"
 related_to:

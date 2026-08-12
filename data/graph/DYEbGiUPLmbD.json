@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "label": "Veronica Gambara",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Correggio%2C_Ritratto_di_dama%2C_c.1517-1518.jpg"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhQDvZZPQuag",
       "label": "Rime di diversi eccellenti autori bresciani",
       "class": "Book",
@@ -27,6 +33,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNTtidqebMVR",
       "label": "Italian",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SaJj6z5qWNAa",
+      "label": "sand",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
@@ -47,6 +59,12 @@
       "label": "author",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y9txSZyR9EBn",
+      "label": "jealousy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
   ],
   "links": [
@@ -57,6 +75,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kz4wSuFtbqWe",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2Vd33qmkX92",
       "property": "contributor"
     },
@@ -64,6 +87,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhQDvZZPQuag",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y9txSZyR9EBn",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
@@ -78,6 +106,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JgvLaXMMEJTj",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DYEbGiUPLmbD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SaJj6z5qWNAa",
       "property": "depicts"
     },
     {

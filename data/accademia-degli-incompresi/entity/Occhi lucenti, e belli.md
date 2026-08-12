@@ -22,7 +22,7 @@ local_asset_path: ./assets/poems/occhi_lucenti,_e_belli
 based_on:
 derivative_work:
 subject:
-  - "[[coincidentia oppositorum]]"
+  - "[[oxymoron]]"
 poetic_type: "[[madrigale]]"
 metre:
   - "[[hendecasyllable]]"
@@ -44,3 +44,5 @@ text: |-
   Siate sempre sereni, allegri, e chiari.
 language: "[[Italian]]"
 ---
+
+

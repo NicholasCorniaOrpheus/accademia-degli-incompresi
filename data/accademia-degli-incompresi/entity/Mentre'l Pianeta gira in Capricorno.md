@@ -23,7 +23,7 @@ derivative_work:
 subject:
   - "[[metaphor]]"
   - "[[celestial body]]"
-  - "[[coincidentia oppositorum]]"
+  - "[[oxymoron]]"
 poetic_type: "[[sonnet]]"
 metre:
   - "[[hendecasyllable]]"

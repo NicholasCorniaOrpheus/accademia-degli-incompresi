@@ -22,7 +22,7 @@ related_to:
   - value: "[[Anton Francesco Doni]]"
     relationship: "[[rival]]"
     reference:
-      - "[[girottoAccademieDiAnton2017]]"
+      - "[[(Girotto 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

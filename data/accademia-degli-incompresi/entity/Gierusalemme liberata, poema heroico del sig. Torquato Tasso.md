@@ -9,7 +9,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
-  - "[[entity/chivalric poem|chivalric poem]]"
+  - "[[chivalric poem]]"
 title: Gierusalemme liberata, poema heroico del sig. Torquato Tasso ... Tratta dal vero originale, con aggiunta di quanto manca nell'altre edittioni, et con l'allegoria dello stesso autore et con gli argomenti a ciascun canto del s. Horatio Ariosti
 inception:
   - value: 1575

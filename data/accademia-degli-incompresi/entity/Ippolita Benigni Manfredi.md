@@ -16,7 +16,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
-      - "[[cox2016members]]"
+      - "[[(Cox 2020)]]"
 occupation:
 related_to:
 notable_work:

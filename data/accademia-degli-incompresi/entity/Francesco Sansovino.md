@@ -17,7 +17,7 @@ member_of:
   - value: "[[Accademia delle Virtù]]"
     role: "[[founder]]"
     reference:
-      - "[[corsoVirtuDellanticoCompagnia2017]]"
+      - "[[(Corso 2017)]]"
 occupation:
 related_to:
 notable_work:

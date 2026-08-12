@@ -4,7 +4,7 @@ label: Accademia dei Sereni di Napoli
 description:
 identifier:
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:

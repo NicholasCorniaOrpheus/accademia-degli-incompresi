@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "label": "Anna Rosalia Caruso",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WE6hqGTfTdVH",
+      "label": "Italian Women Writers",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QJCWV4N3WPE5",
+      "label": "Accademia degli Infecondi di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TJDZyVvhXrWK",
+      "label": "Componimenti poetici delle piu' illustri rimatrici d'ogni secolo",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "label": "poet",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FByv7LfGg3Sz",
+      "label": "(Everson 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QJCWV4N3WPE5",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FByv7LfGg3Sz",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KPWiM8shJ8mY",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WE6hqGTfTdVH",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TJDZyVvhXrWK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PQg9AGZugToA",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QJCWV4N3WPE5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FByv7LfGg3Sz",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QJCWV4N3WPE5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FByv7LfGg3Sz",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QJCWV4N3WPE5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FByv7LfGg3Sz",
+      "property": "interested_in"
+    }
+  ]
+}

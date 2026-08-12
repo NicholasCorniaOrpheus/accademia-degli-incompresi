@@ -4,7 +4,7 @@ label: Accademia degli Ortolani di Piacenza
 description:
 identifier:
 described_by_source:
-  - "[[braghiLAccademiaOrtolani154315452011]]"
+  - "[[(Braghi 2011)]]"
 image:
 aliases:
 instance_of:
@@ -18,11 +18,11 @@ catalog_identifier:
 member:
   - value: "[[Lodovico Domenichi]]"
     reference:
-      - "[[moronciniGiuocoVirtuIntreccio2017]]"
+      - "[[(Moroncini 2017)]]"
   - start_date: 1543
     end_date: 1544
     reference:
-      - "[[girottoAccademieDiAnton2017]]"
+      - "[[(Girotto 2017)]]"
     value: "[[Anton Francesco Doni]]"
 interested_in:
   - value: "[[heterodoxy]]"

@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q106438267
 described_by_source:
-  - "[[palliniAccademieSenesiTramonto2020]]"
+  - "[[(Pallini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -17,13 +17,13 @@ member_of:
 occupation:
   - value: "[[translator]]"
     reference:
-      - "[[palliniAccademieSenesiTramonto2020]]"
+      - "[[(Pallini 2020)]]"
 related_to:
 notable_work:
 interested_in:
   - value: "[[Aeneid]]"
     reference:
-      - "[[palliniAccademieSenesiTramonto2020]]"
+      - "[[(Pallini 2020)]]"
   - value: "[[classical antiquity]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"

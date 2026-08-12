@@ -7,17 +7,17 @@ work_location:
 member_of:
   - value: "[[Accademia dei Gelati di Bologna]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
   - value: "[[Accademia degli Umoristi di Roma]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:
   - value: "[[Guidubaldo Bonarelli della Rovere]]"
     relationship: "[[sibling]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

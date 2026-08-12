@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q136765281
 described_by_source:
-  - "[[sampsonReformingTheaterFarnese2020]]"
+  - "[[(Sampson 2020)]]"
 image:
 aliases:
 instance_of:
@@ -16,7 +16,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Innominati di Parma]]"
     reference:
-      - "[[sampsonReformingTheaterFarnese2020]]"
+      - "[[(Sampson 2020)]]"
 occupation:
   - value: "[[playwright]]"
 related_to:

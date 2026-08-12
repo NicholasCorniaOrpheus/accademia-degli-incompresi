@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q601844
 described_by_source:
-  - "[[girottoAccademieDiAnton2017]]"
+  - "[[(Girotto 2017)]]"
 image:
 aliases:
 instance_of:
@@ -22,7 +22,7 @@ member_of:
     start_date: 1545
     end_date: 1546
     reference:
-      - "[[girottoAccademieDiAnton2017]]"
+      - "[[(Girotto 2017)]]"
 occupation:
   - value: "[[publisher]]"
   - value: "[[author]]"

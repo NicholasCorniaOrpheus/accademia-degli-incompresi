@@ -20,7 +20,7 @@ interested_in:
   - value: "[[parlour game]]"
   - value: "[[impresa]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 16248

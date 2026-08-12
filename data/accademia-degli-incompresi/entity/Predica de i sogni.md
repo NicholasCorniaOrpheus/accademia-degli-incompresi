@@ -5,7 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE004130
 described_by_source:
-  - "[[fainiGhostAcademyVenice2020]]"
+  - "[[(Faini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -29,4 +29,4 @@ has_part:
 based_on:
 local_asset_path:
 ---
-According to [[fainiGhostAcademyVenice2020]], Barbaro is advocating doubt "as a _habitus_ of thought". Ancient believes are questioned, opening the doors to new knowledge and intellectual tolerance.
+According to [[(Faini 2020)]], Barbaro is advocating doubt "as a _habitus_ of thought". Ancient believes are questioned, opening the doors to new knowledge and intellectual tolerance.

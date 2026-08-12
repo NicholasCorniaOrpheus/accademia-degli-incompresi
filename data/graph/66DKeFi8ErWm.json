@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "label": "pastoral drama",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "label": "Partenia",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gTi46f5EWxFk",
+      "label": "Accademia degli Innominati di Parma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NNNpZSueUgTg",
+      "label": "Barbara Torelli Benedetti",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LvUr8dbLozca",
+      "label": "L'Aminta del sig. Torquato Tasso",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WVAMx5jWxB3p",
+      "label": "Mirinda fauola pastorale del c. Marc'Antonio Ferretti",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gTi46f5EWxFk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NNNpZSueUgTg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LvUr8dbLozca",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WVAMx5jWxB3p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66DKeFi8ErWm",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZGezEDR6SjDs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NNNpZSueUgTg",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NNNpZSueUgTg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gTi46f5EWxFk",
+      "property": "member_of"
+    }
+  ]
+}

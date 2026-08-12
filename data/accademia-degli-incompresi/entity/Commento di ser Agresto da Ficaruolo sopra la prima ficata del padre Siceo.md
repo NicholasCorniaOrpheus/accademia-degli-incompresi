@@ -5,7 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE009643
 described_by_source:
-  - "[[moronciniAccademiaVirtuReligious2020]]"
+  - "[[(Moroncini 2020)]]"
 image:
 aliases:
 instance_of:
@@ -27,4 +27,4 @@ subject:
 has_part:
 based_on:
 ---
-Humorous poem with hidden connotations of [[heterodoxy]], according to [[moronciniAccademiaVirtuReligious2020]].
+Humorous poem with hidden connotations of [[heterodoxy]], according to [[(Moroncini 2020)]].

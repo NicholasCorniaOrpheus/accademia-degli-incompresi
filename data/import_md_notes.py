@@ -54,7 +54,7 @@ statements.add_labels_to_statements(
 print("Extract assets files and IIIF manifest...")
 assets.extract_assets_from_local_paths(
     yaml_dir=yaml_dir,
-    vault_path="./vault",
+    vault_path="./accademia-degli-incompresi",
     vault_base_url=credentials["kblight"]["vault_url"],
 )
 

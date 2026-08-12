@@ -16,7 +16,7 @@ member_of:
   - value: "[[Accademia delle Virtù]]"
     role: "[[patron of the arts]]"
     reference:
-      - "[[corsoVirtuDellanticoCompagnia2017]]"
+      - "[[(Corso 2017)]]"
 occupation:
   - value: "[[cardinal]]"
 related_to:

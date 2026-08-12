@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "label": "Giovanna d'Aragona",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9ymwyRTeDJSw",
+      "label": "politician",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "label": "Le immagini del tempio della signora donna Giovanna Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zjrjn65nu3Ji",
+      "label": "patron",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P3T66Pt5ujps",
+      "label": "Del tempio alla divina signora donna Giovanna d'Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/at5eX2bsXkFf",
+      "label": "Donna scesa dal Cielo a far onore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgLoZ43viYze",
+      "label": "A voi Donna reale, al vostro immenso",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/H9bvvdJCVThw",
+      "label": "female",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iCgzFUjT3MLw",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/H9bvvdJCVThw",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9ymwyRTeDJSw",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zjrjn65nu3Ji",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P3T66Pt5ujps",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/at5eX2bsXkFf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/at5eX2bsXkFf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgLoZ43viYze",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgLoZ43viYze",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hzAQHdpXyARm",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/at5eX2bsXkFf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P3T66Pt5ujps",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgLoZ43viYze",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P3T66Pt5ujps",
+      "property": "part_of"
+    }
+  ]
+}

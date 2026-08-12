@@ -13,7 +13,7 @@ interested_in:
   - value: "[[heterodoxy]]"
   - value: "[[humanitarians]]"
     reference:
-      - "[[fainiGhostAcademyVenice2020]]"
+      - "[[(Faini 2020)]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 20474

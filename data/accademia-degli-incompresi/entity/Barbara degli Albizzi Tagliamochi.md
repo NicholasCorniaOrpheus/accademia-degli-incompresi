@@ -17,7 +17,7 @@ occupation:
 related_to:
 notable_work: "[[Ascanio errante]]"
 interested_in:
-  - value: "[[entity/chivalric poem]]"
+  - value: "[[chivalric poem]]"
 catalog_identifier:
   - source: "[[SHEWROTE]]"
     value: 20440d1d-dcbf-40eb-843a-b78547bd2499

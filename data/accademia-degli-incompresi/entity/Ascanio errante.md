@@ -8,7 +8,7 @@ described_by_source:
   - "[[OPAC SBN]]"
 image:
 aliases:
-instance_of: "[[entity/chivalric poem]]"
+instance_of: "[[chivalric poem]]"
 title: Ascanio errante poema della Barbera Tigliamochi degl'Albizi gentildonna fiorentina
 inception:
 has_version:

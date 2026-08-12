@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q1091136
 described_by_source:
-  - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+  - "[[(Tostini 2017)]]"
 image:
 aliases:
   - Cristofano Pomarancio
@@ -22,7 +22,7 @@ related_to:
   - value: "[[Accademia degli Umoristi di Roma]]"
     relationship: "[[employee]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 notable_work:
 interested_in:
 catalog_identifier:

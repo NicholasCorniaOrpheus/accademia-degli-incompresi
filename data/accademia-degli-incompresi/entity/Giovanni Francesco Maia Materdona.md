@@ -15,10 +15,10 @@ work_location:
 member_of:
   - value: "[[Accademia degli Oziosi di Napoli]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
   - value: "[[Accademia degli Umoristi di Roma]]"
     reference:
-      - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+      - "[[(Tostini 2017)]]"
 occupation:
   - value: "[[poet]]"
 related_to:

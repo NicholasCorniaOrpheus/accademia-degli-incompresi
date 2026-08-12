@@ -6,7 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q18509145
   - https://lyra.unil.ch/agents/423
 described_by_source:
-  - "[[procaccioliDionigiAtanagiAccademie2017]]"
+  - "[[(Procaccioli 2017)]]"
 image:
 aliases:
 instance_of:

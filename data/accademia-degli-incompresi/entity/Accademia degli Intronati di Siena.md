@@ -4,7 +4,7 @@ label: Accademia degli Intronati di Siena
 description:
 identifier: http://www.wikidata.org/entity/Q765899
 described_by_source:
-  - "[[palliniAccademieSenesiTramonto2020]]"
+  - "[[(Pallini 2020)]]"
 image:
 aliases:
 instance_of: "[[academy]]"
@@ -26,7 +26,7 @@ catalog_identifier:
 member:
   - value: "[[Bartolomeo Carli Piccolomini]]"
     reference:
-      - "[[palliniAccademieSenesiTramonto2020]]"
+      - "[[(Pallini 2020)]]"
       - "[[Italian Academies Database]]"
   - pseudonym: L'Irresoluto
     reference:
@@ -34,10 +34,10 @@ member:
     value: "[[Carlo Papini]]"
   - value: "[[Iacopo Cicognini]]"
     reference:
-      - "[[cosentinoArtistiAutoriAttori2017]]"
+      - "[[(Cosentino 2017)]]"
   - value: "[[Laura Battiferri]]"
     reference:
-      - "[[geremiccaDamoneperCrisero2017]]"
+      - "[[(Geremicca 2017)]]"
     pseudonym: Sgraziata
 interested_in:
   - "[[theater]]"
@@ -45,5 +45,5 @@ notable_work:
 motto:
   - value: Sapiens dominabitur astris
     reference:
-      - "[[palliniAccademieSenesiTramonto2020]]"
+      - "[[(Pallini 2020)]]"
 ---

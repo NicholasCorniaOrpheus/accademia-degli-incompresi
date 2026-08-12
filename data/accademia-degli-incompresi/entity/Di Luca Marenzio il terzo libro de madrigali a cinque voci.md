@@ -25,7 +25,7 @@ contributor:
     value: "[[Luca Marenzio]]"
 subject:
 has_part:
-  - "[[Marenzio - Occhi lucenti, e belli]]"
+  - "[[Occhi lucenti, e belli (Marenzio)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

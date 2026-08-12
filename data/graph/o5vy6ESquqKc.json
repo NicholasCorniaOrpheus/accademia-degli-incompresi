@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "label": "literary host",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "label": "Le immagini del tempio della signora donna Giovanna Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbErg2p5kZVA",
+      "label": "Maurizio di Savoia",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ce9dSHVzE5q",
+      "label": "Bernardo Rucellai",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYkDCHdQD393",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbErg2p5kZVA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbErg2p5kZVA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ce9dSHVzE5q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5vy6ESquqKc",
+      "property": "related_to"
+    }
+  ]
+}

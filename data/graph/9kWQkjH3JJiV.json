@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "label": "Argante",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNVSb7VXbCAj",
+      "label": "Ma disteso ed eretto il fero Argante",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "label": "Gierusalemme liberata, poema heroico del sig. Torquato Tasso",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8nqh9R9BjQQg",
+      "label": "literary character",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRxXECPKaE93",
+      "label": "knight",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "label": "Torquato Tasso",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4M2cWRqVMZrv",
+      "label": "È di corpo Tancredi agile e sciolto",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYdoWGsyELTU",
+      "label": "creation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8nqh9R9BjQQg",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRxXECPKaE93",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BYdoWGsyELTU",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "property": "present_in_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNVSb7VXbCAj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4M2cWRqVMZrv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWQkjH3JJiV",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNVSb7VXbCAj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNVSb7VXbCAj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DSgs8gbhMBfE",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4M2cWRqVMZrv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b9ztv9y2YP6U",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4M2cWRqVMZrv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QexWgTZBKKyu",
+      "property": "part_of"
+    }
+  ]
+}

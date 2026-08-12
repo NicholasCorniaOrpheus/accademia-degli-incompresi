@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q1399
 described_by_source:
-  - "[[brownDefiningPlaceAcademies2020]]"
+  - "[[(Brown 2020)]]"
 image:
 aliases:
 instance_of:

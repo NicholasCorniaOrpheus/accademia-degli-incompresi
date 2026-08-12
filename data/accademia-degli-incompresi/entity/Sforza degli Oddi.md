@@ -8,7 +8,7 @@ work_location:
 member_of:
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
     pseudonym: Forsennato
 occupation:
   - value: "[[playwright]]"

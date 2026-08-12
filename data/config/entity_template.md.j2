@@ -1,11 +1,11 @@
 # {{ metadata.label }} ({{ metadata.id }})
 
 {# 1. Export Buttons #}
-[JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/json/{{ metadata.id }}.json){ .md-button }
-[RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/rdf/{{ metadata.id }}.ttl){ .md-button }
-[CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/csv/{{ metadata.id }}.csv){ .md-button }
+[JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/{{ metadata.id }}.json){ .md-button }
+[RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/{{ metadata.id }}.ttl){ .md-button }
+[CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/{{ metadata.id }}.csv){ .md-button }
 {%- if assets and assets.local_asset_path %}
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/tresor-des-demoiselles/tree/main/data/vault/{{ assets.local_asset_path | replace('./', '') }}){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/{{ assets.local_asset_path | replace('./', '') }}){ .md-button }
 {%- endif %}
 
 {# 2. Metadata Admonition - Filtering out n_id, base_name, and filename #}
@@ -82,10 +82,10 @@
           [{{ item.label }}]({{ item.value }})
         {%- elif item.value -%}
           {%- if item.value is string and item.value.startswith('http') -%}
-
             [{{ (item.value.rstrip('/').split('/')|last).split('=')|last }}]({{ item.value }})
           {%- else -%}
-          {% if item.value is iterable and item.value is not string %}{{ item.value | join('; ') }}{% else %}{{ item.value }}{% endif %}
+            {#- Implementation: Add <br> before each newline and maintain 6-space indent -#}
+            {% if item.value is iterable and item.value is not string %}{{ item.value | join('; ') }}{% else %}{{ item.value | string | replace('\n', '<br>\n      ') }}{% endif %}
           {%- endif -%}
         {%- endif -%}
         
@@ -93,16 +93,16 @@
         * {{ subk | replace('_', ' ') }}: 
         {%- set subv_list = subv if subv is iterable and subv is not string and subv is not mapping else [subv] -%}
         {%- for sv in subv_list -%}
-          {#- Add an explicit space if this is the first item -#}
           {%- if loop.first %} {% endif -%}
           {%- if sv is mapping -%}
-            {%- if sv.label and sv.value -%}[{{ sv.label }}]({{ sv.value }}){%- elif sv.value -%}{%- if sv.value is string and sv.value.startswith('http') -%}[{{ (sv.value.rstrip('/').split('/')|last).split('=')|last }}]({{ sv.value }}){%- else -%}{{ sv.value }}{%- endif -%}{%- endif -%}
-          {%- elif sv is string and sv.startswith('http') -%}[{{ (sv.rstrip('/').split('/')|last).split('=')|last }}]({{ sv }}){%- else -%}{{ sv }}{%- endif -%}
+            {%- if sv.label and sv.value -%}[{{ sv.label }}]({{ sv.value }}){%- elif sv.value -%}{%- if sv.value is string and sv.value.startswith('http') -%}[{{ (sv.value.rstrip('/').split('/')|last).split('=')|last }}]({{ sv.value }}){%- else -%}{{ sv.value | string | replace('\n', '<br>\n      ') }}{%- endif -%}{%- endif -%}
+          {%- elif sv is string and sv.startswith('http') -%}[{{ (sv.rstrip('/').split('/')|last).split('=')|last }}]({{ sv }}){%- else -%}{{ sv | string | replace('\n', '<br>\n      ') }}{%- endif -%}
           {%- if not loop.last %} ; {% endif -%}
         {%- endfor -%}
-{%- endfor -%}
+        {%- endfor -%}
       {%- else -%}
-        {%- if item is string and item.startswith('http') -%}[{{ (item.rstrip('/').split('/')|last).split('=')|last }}]({{ item }}){%- else -%}{{ item }}{%- endif -%}
+        {#- Applied <br> replacement for simple multiline strings -#}
+        {%- if item is string and item.startswith('http') -%}[{{ (item.rstrip('/').split('/')|last).split('=')|last }}]({{ item }}){%- else -%}{{ item | string | replace('\n', '<br>\n      ') }}{%- endif -%}
       {%- endif -%}
     {%- endfor %}
 {% endfor %}

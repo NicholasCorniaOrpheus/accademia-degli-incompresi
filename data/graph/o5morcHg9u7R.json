@@ -37,6 +37,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YLjy8RigpFvG",
+      "label": "Laura Terracina",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JGRixrLqT5tU",
       "label": "Accademia degli Insensati di Perugia",
       "class": "Organisation",
@@ -53,6 +59,12 @@
       "label": "Arcangela Tarabotti",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FfdS2VkDtqoe",
+      "label": "Accademia degli Incogniti di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
     }
   ],
   "links": [
@@ -87,6 +99,11 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YLjy8RigpFvG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
+      "property": "described_by_source"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JGRixrLqT5tU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
       "property": "member"
@@ -100,6 +117,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jXyXXrrrxnTz",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FfdS2VkDtqoe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o5morcHg9u7R",
+      "property": "member"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6Ku8YLkKtx7o",
@@ -125,6 +147,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jXyXXrrrxnTz",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6Ku8YLkKtx7o",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FfdS2VkDtqoe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YLjy8RigpFvG",
+      "property": "member"
     }
   ]
 }

@@ -1,9 +1,10 @@
 ---
 class: Book
-label: Rime diverse di molti eccellentiss. autori nuovamente raccolte. Libro primo
+label: Rime diuerse di molti eccellentiss. auttori nuouamente raccolte. Libro primo
 description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE026043
+  - https://lyra.unil.ch/books/1
 described_by_source:
 image:
 aliases:
@@ -20,13 +21,22 @@ has_version:
     place_of_publication:
       - "[[Venezia]]"
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE026043
+  - permalink: https://edit16.iccu.sbn.it/titolo/CNCE026043
+    publication_date: 1545
+    place_of_publication:
+      - "[[Venezia]]"
+    publisher: "[[Gabriele Giolito de' Ferrari]]"
+    external_source: https://books.google.be/books?id=x8kTAAAAQAAJ
 contributor:
   - role: "[[author]]"
     value: "[[Veronica Gambara]]"
   - role: "[[editor]]"
     value: "[[Lodovico Domenichi]]"
+  - role: "[[author]]"
+    value: "[[Francesco Sansovino]]"
 subject:
 has_part:
   - "[[Occhi lucenti, e belli]]"
+  - "[[Varchi, s'il ciel vi presti ali al gran nome]]"
 based_on:
 ---

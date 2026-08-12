@@ -5,7 +5,7 @@ title: I morti viui comedia del molto eccel. signor Sforza d'Oddi, nell'Academia
 inception:
   - value: 1576
     reference:
-      - "[[tezaLAccademiaInsensatiFra2017]]"
+      - "[[(Teza 2017)]]"
 has_version:
   - external_source: https://books.google.it/books?id=MjuvBubyGBsC
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE023740

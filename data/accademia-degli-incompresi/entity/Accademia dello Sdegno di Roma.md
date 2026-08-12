@@ -4,7 +4,7 @@ label: Accademia dello Sdegno di Roma
 description:
 identifier:
 described_by_source:
-  - "[[vagenheimAntiquariLetteratiNellAccademia2017]]"
+  - "[[(Vagenheim 2017)]]"
 image:
 aliases:
   - Accademia degli Sdegnati
@@ -13,7 +13,7 @@ instance_of:
 inception:
   - value: 1540
     reference:
-      - "[[vagenheimAntiquariLetteratiNellAccademia2017]]"
+      - "[[(Vagenheim 2017)]]"
     sourcing_circumstances: "[[circa]]"
 dissolved:
 location:

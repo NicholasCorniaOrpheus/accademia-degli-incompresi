@@ -20,5 +20,5 @@ based_on:
 identifier:
   - http://id.sbn.it/bid/TO0E008513
 described_by_source:
-  - "[[tostiniCammeoIntrecciVirtuosi2017]]"
+  - "[[(Tostini 2017)]]"
 ---
