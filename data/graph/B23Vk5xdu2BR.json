@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B23Vk5xdu2BR",
+      "label": "bizzarria",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aBnmPS8PFfkr",
+      "label": "Lavinia Fontana",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lavinia_Fontana_-_Autoritratto_%28ca._1577-85%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PfmM4nEirrZh",
+      "label": "Andrea Calmo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEAbER5X4vXV",
+      "label": "Treccani Vocabulary",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B23Vk5xdu2BR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEAbER5X4vXV",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aBnmPS8PFfkr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B23Vk5xdu2BR",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PfmM4nEirrZh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B23Vk5xdu2BR",
+      "property": "interested_in"
+    }
+  ]
+}

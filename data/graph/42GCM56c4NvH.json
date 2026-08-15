@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/42GCM56c4NvH",
+      "label": "Accademia degli Spensierati di Firenze",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx",
+      "label": "(Cox 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Hm8LNCNr7Wxn",
+      "label": "Firenze",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NeS3RcvBAdPp",
+      "label": "Virginia Ramponi-Andreini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/42GCM56c4NvH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/42GCM56c4NvH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Hm8LNCNr7Wxn",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NeS3RcvBAdPp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/42GCM56c4NvH",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NeS3RcvBAdPp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NeS3RcvBAdPp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx",
+      "property": "related_to"
+    }
+  ]
+}

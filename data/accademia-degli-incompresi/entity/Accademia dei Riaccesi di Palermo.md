@@ -6,6 +6,7 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - Accademia degli Accesi di Palermo
 instance_of:
   - "[[academy]]"
 inception:

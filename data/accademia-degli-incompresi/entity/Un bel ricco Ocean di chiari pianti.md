@@ -22,14 +22,15 @@ local_asset_path: ./assets/poems/un_bel_ricco_ocean_di_chiari_pianti
 based_on:
 derivative_work:
 subject:
-  - "[[dialogue]]"
   - "[[praise]]"
+  - "[[epistolary literature]]"
 poetic_type: "[[sonnet]]"
 metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[Giambattista Marino]]"
   - "[[dolphin]]"
+  - "[[ocean]]"
 text: |-
   Un bel ricco Ocean di chiari pianti
   Se' tu MARIN, dove delfino il core

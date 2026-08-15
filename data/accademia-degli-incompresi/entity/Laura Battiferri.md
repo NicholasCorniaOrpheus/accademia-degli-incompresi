@@ -19,6 +19,10 @@ work_location:
     reference:
       - "[[(Geremicca 2017)]]"
 member_of:
+  - value: "[[Accademia degli Assorditi di Urbino]]"
+    start_date: 1550
+    reference:
+      - "[[(Cox 2020)]]"
   - value: "[[Accademia degli Intronati di Siena]]"
     reference:
       - "[[(Cox 2020)]]"

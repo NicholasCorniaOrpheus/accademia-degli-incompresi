@@ -23,9 +23,14 @@ has_version:
     external_source: https://edl.cultura.gov.it/item/98rmpqg9rx
     IIIF_manifest: https://edl-jarvis.cultura.gov.it/meta/iiif/9f358872-1482-46d5-bfc8-89a7ea955f7d/manifest
 contributor:
+  - role: "[[Bartolomeo Spontone]]"
+    value: "[[composer]]"
+  - role: "[[composer]]"
+    value: "[[Giovanni Pierluigi da Palestrina]]"
 subject:
 has_part:
   - "[[Eran le vostre lagrime nel viso (Palestrina)]]"
+  - "[[Forse è cagion l'Aurora (Spontone)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

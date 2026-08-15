@@ -7,6 +7,8 @@ identifier:
 described_by_source:
   - "[[(Sampson 2020)]]"
   - "[[(Cox 2020)]]"
+  - "[[(Stras 2018)]]"
+  - "[[(Riley 1986)]]"
 image:
 aliases:
 instance_of:
@@ -30,6 +32,8 @@ occupation:
   - value: "[[poet]]"
   - value: "[[singer]]"
 related_to:
+  - value: "[[Pietro Vinci]]"
+    relationship: "[[colleague]]"
 notable_work:
 interested_in:
 catalog_identifier:

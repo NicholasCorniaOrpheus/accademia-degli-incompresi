@@ -9,4 +9,6 @@ image:
 aliases:
   - musicking
   - music-making
+  - concento
+  - concerto
 ---

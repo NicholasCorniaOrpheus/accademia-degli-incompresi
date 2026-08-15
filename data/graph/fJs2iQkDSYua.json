@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fJs2iQkDSYua",
+      "label": "board game",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kZmgJ422KRnA",
+      "label": "Rythmomachia",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mCuvDnsUYbDe",
+      "label": "Dialogo sopra la particolare dichiaratione del giuoco di Pitagora",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kZmgJ422KRnA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fJs2iQkDSYua",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mCuvDnsUYbDe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fJs2iQkDSYua",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kZmgJ422KRnA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mCuvDnsUYbDe",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kZmgJ422KRnA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mCuvDnsUYbDe",
+      "property": "related_to"
+    }
+  ]
+}

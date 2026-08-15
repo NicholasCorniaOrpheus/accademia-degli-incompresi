@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DwjqdgaPRqhm",
+      "label": "(Levy 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
+      "label": "Eleanor of Toledo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DwjqdgaPRqhm",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DwjqdgaPRqhm",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DwjqdgaPRqhm",
+      "property": "described_by_source"
+    }
+  ]
+}

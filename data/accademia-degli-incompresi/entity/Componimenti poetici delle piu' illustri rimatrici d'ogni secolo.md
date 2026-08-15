@@ -29,6 +29,10 @@ has_version:
     permalink: http://id.sbn.it/bid/VIAE008330
 contributor:
   - role: "[[author]]"
+    value: "[[Margherita Sarrocchi]]"
+  - role: "[[author]]"
+    value: "[[Innocenza Carrari]]"
+  - role: "[[author]]"
     value: "[[Barbara Torelli Benedetti]]"
   - role: "[[author]]"
     value: "[[Anna Rosalia Caruso]]"

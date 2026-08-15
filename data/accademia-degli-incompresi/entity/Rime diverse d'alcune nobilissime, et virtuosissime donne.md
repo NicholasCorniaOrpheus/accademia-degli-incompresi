@@ -14,6 +14,8 @@ has_version:
     IIIF_manifest: https://api.onb.ac.at/iiif/presentation/v3/manifest/10B1F7B3
 contributor:
   - role: "[[author]]"
+    value: "[[Maria Diamante Dolfi]]"
+  - role: "[[author]]"
     value: "[[Virginia Martini Salvi]]"
   - role: "[[editor]]"
     value: "[[Lodovico Domenichi]]"

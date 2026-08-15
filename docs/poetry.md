@@ -12,8 +12,11 @@ The following words and characters have been changed to modern Italian spelling
 | ſ | s | Modernization of long s |
 | u | v | Modernization of Latin u for words such as "Gioue" (Giove) or "uuole" (vuole) |
 | perche | perché | |
+| poi che| poiché| |
 | cosi / si | così / sì | |
 | piu | più | |
+| virtu | virtù |
+| vò | vo | The first person of the verb "andare" does not need any accent or apostrophe in modern italian| 
 | ã | an | Expliciting tilda abbreviation |
 | õ | on | Expliciting tilda abbreviation |
 | ẽ | en | Expliciting tilda abbreviation |

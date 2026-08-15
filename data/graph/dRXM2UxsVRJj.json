@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "label": "Musicare DB",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ma9mE58a3Ryr",
+      "label": "online database",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/87m6PkVEPizY",
+      "label": "Le gemme. Madrigali a cinque de diversi eccellentissimi musici della città di Bologna",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h5Ang8vXP3Cc",
+      "label": "Libro Quarto de Madrigali a cinque voci di Orlandi Santi",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e8SDEpWbRabL",
+      "label": "Il Secondo Libro de Madrigali a cinque voci di Giovan Battista Dalla Gostena",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFBshLVTMG7b",
+      "label": "incomplete",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ma9mE58a3Ryr",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFBshLVTMG7b",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/87m6PkVEPizY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h5Ang8vXP3Cc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e8SDEpWbRabL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dRXM2UxsVRJj",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/87m6PkVEPizY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFBshLVTMG7b",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h5Ang8vXP3Cc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFBshLVTMG7b",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e8SDEpWbRabL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFBshLVTMG7b",
+      "property": "instance_of"
+    }
+  ]
+}
