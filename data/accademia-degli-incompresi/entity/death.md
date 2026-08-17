@@ -10,4 +10,7 @@ aliases:
   - morte
   - oblio
   - morir
+instance_of:
+subclass_of:
+opposite_of: "[[life]]"
 ---

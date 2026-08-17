@@ -7,4 +7,5 @@ identifier:
 described_by_source:
 image:
 aliases:
+opposite_of: "[[child]]"
 ---

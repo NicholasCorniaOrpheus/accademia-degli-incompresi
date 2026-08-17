@@ -6,4 +6,5 @@ identifier:
   - http://www.wikidata.org/entity/Q48282
 aliases:
   - pupil
+opposite_of: "[[teacher]]"
 ---

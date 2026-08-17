@@ -22,6 +22,19 @@ has_version:
     IIIF_manifest: https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1
     note: Google Books provides a reprint from 1555
 contributor:
+  - role: "[[author]]"
+    value: "[[Giovanni Battista Giraldi]]"
+  - role: "[[author]]"
+    value: "[[Gaspara Stampa]]"
+  - role: "[[author]]"
+    value: "[[Girolamo Muzio]]"
+  - role: "[[author]]"
+    value: "[[Gaspara Stampa]]"
+  - role: "[[author]]"
+    value: "[[Fausta Tacita]]"
+  - role: "[[author]]"
+  - role: "[[author]]"
+    value: "[[Benedetto Varchi]]"
   - value: "[[Annibale Caro]]"
     role: "[[author]]"
   - role: "[[author]]"

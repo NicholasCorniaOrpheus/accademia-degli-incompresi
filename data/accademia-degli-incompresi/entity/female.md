@@ -4,4 +4,5 @@ instance_of:
 subclass_of:
 identifier:
   - http://www.wikidata.org/entity/Q6581072
+opposite_of: "[[male]]"
 ---

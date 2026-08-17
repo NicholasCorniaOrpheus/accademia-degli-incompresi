@@ -18,6 +18,10 @@ instance_of:
 gender: "[[female]]"
 work_location:
 member_of:
+  - value: "[[Accademia Filarmonica di Verona]]"
+    role: "[[visitor]]"
+    reference:
+      - "[[(Cox 2020)]]"
   - value: "[[Accademia degli Intenti di Pavia]]"
     pseudonym: Accesa
     start_date: 1601

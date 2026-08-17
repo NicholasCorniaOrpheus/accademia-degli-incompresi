@@ -23,7 +23,11 @@ member:
     value: "[[Ridolfo Campeggi]]"
     pseudonym: Rugginoso
 interested_in:
+  - value: "[[impresa]]"
+  - value: "[[entity/emblem]]"
 notable_work:
 identifier:
   - http://www.wikidata.org/entity/Q106701551
+described_by_source:
+  - "[[(Gurrei 2020)]]"
 ---

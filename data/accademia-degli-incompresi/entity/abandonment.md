@@ -8,4 +8,7 @@ described_by_source:
 image:
 aliases:
   - abbandono
+instance_of: 
+subclass_of: 
+opposite_of: 
 ---

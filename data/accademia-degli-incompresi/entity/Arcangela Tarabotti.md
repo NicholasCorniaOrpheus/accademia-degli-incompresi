@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q4785229
 described_by_source:
+  - "[[(Cox 2020)]]"
 image:
 aliases:
   - Elena Cassandra Tarabotti

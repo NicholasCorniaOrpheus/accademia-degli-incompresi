@@ -8,4 +8,6 @@ aliases:
   - alba amicorum
   - stammbuch
   - friendship book
+described_by_source:
+  - "[[(Testa 2020)]]"
 ---

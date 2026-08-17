@@ -20,6 +20,8 @@ has_version:
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE038182
     external_source: https://books.google.it/books?id=RKFP6-8DuOEC
 contributor:
+  - role: "[[author]]"
+    value: "[[Orsola Bertolai]]"
 subject:
 has_part:
 based_on:

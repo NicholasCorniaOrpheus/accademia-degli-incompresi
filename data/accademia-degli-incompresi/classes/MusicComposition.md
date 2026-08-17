@@ -100,7 +100,37 @@ fields:
     options: {}
     path: ""
     id: 4RlP7o
-version: "2.47"
+  - name: language
+    type: File
+    options: {}
+    path: ""
+    id: FGZN6y
+  - name: subject
+    type: MultiFile
+    options: {}
+    path: ""
+    id: dnB51i
+  - name: digitized
+    type: Boolean
+    options: {}
+    path: ""
+    id: AVXCBy
+  - name: poetic_type
+    type: File
+    options: {}
+    path: ""
+    id: tLzeH3
+  - name: depicts
+    type: MultiFile
+    options: {}
+    path: ""
+    id: Ss855J
+  - name: metre
+    type: MultiFile
+    options: {}
+    path: ""
+    id: livl3J
+version: "2.59"
 limit: 20
 mapWithTag: false
 icon: package
@@ -112,6 +142,12 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - livl3J
+  - Ss855J
+  - tLzeH3
+  - AVXCBy
+  - dnB51i
+  - FGZN6y
   - 4boM8L
   - IQ6HyT
   - 2BArx5

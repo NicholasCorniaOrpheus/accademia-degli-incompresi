@@ -10,7 +10,12 @@ fields:
     options: {}
     path: ""
     id: 8N7gj1
-version: "2.1"
+  - name: opposite_of
+    type: File
+    options: {}
+    path: ""
+    id: l5W37K
+version: "2.3"
 limit: 20
 mapWithTag: false
 icon: package
@@ -22,6 +27,7 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - l5W37K
   - 8N7gj1
   - gamv7x
 ---

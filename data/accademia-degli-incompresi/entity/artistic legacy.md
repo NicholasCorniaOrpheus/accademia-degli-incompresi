@@ -8,4 +8,7 @@ described_by_source:
 image:
 aliases:
   - intellectual heritage
+instance_of:
+subclass_of:
+opposite_of: "[[student]]"
 ---

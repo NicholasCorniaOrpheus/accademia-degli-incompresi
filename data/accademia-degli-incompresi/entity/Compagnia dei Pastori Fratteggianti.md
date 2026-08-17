@@ -19,6 +19,10 @@ location:
 official_website:
 catalog_identifier:
 member:
+  - 
+  - value: "[[Lodovico Dolce]]"
+    reference:
+      - "[[(Artese 1983)]]"
 interested_in:
 notable_work:
 related_to:

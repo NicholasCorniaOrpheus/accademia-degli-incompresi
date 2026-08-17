@@ -1,0 +1,92 @@
+---
+class: PoeticWork
+instance_of:
+  - "[[poem]]"
+contributor:
+  - role: "[[author]]"
+    value: "[[Vincenza Armani]]"
+part_of:
+  - value: "[[Notizie istoriche de' comici italiani che fiorirono intorno all'anno 1550]]"
+local_asset_path:
+based_on:
+derivative_work:
+subject:
+poetic_type: "[[barzelletta]]"
+metre:
+  - "[[octosyllable]]"
+depicts:
+  - "[[night]]"
+  - "[[singing]]"
+  - "[[sleep]]"
+language: "[[Italian]]"
+text: |-
+  Notte felice, e lieta
+  Prescritta al piacer mio,
+  Onde l'alma s'accheta
+  Del suo dolce desio,
+  Notte in che ho ferma spene
+  Por fine alle mie pene.
+
+  Pur fugge or mentre io canto
+  Il tempo, e già s'appressa
+  L'ora bramata tanto
+  Che oggi è a mercè promessa
+  Della mia lunga noia,
+  Principio alla mia gioia.
+
+  Placido amico sonno
+  Deh vieni occupa i sensi
+  Di quei che sturbar ponno
+  I miei piaceri immensi,
+  Tal ch'io senza sospetto
+  Goda il mio ben perfetto.
+
+  Ecco pur giunta è l'ora
+  Prefissa a piacer tanto,
+  Ond'io senza dimora
+  Prendo il notturno manto,
+  Ed al luogo m'invio
+  Dove alberga il cor mio.
+
+  L'uscio, ch'io tocco appena,  
+  Mi sento aprir pian piano,  
+  Poi cheta indi mi mena  
+  Una invisibil mano,  
+  Io con tremante passo  
+  Lieto guidar mi lasso.
+
+  Giunto al felice loco  
+  Ch'è al mio piacer parato,  
+  Dove risplende il foco  
+  Ripiglio alquanto il fiato,  
+  E poi la lingua sciolta,  
+  Io parlo, ed ella ascolta.
+
+  Dunque è ben mio pur vero  
+  Ch'io sia da voi degnato,  
+  Qui dove esser già spero  
+  Felice, anzi beato?  
+  Son desto, o pur sogn'io?  
+  Troppo contento è il mio.
+
+  Non merta la mia pena  
+  Sofferta, e il mio tormento,  
+  Una di mille appena  
+  Gioie, che per voi sento:  
+  E mercè vostra ottegno  
+  Quel di ch'io sono indegno.
+
+  Ella per la tua fede  
+  E per tuo merto dice,  
+  D'amor ti si concede  
+  Quel che ad altri non lice,  
+  E coglier è a te dato  
+  Quel ch'è a ciascun vietato.
+
+  Dolce io l'ammiro, e insieme  
+  Con lei ringrazio Amore,  
+  Che in gioie alme e supreme  
+  Bear voglia il mio core.  
+  Poi nel piacer perduto  
+  La miro, e resto muto.
+---

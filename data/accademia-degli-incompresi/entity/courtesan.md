@@ -9,4 +9,6 @@ image:
 aliases:
 instance_of:
   - "[[occupation]]"
+subclass_of:
+opposite_of: "[[employer]]"
 ---
