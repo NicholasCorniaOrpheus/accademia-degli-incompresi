@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: ingegno; creativity
-    - id: 755zYzGryekA
     - label: ingenuity
+    - id: 755zYzGryekA
     <div style="clear:both;"></div>
 
 <br><br>

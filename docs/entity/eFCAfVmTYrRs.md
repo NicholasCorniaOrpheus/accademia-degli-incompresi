@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: sonno; rest; sleeping
-    - id: eFCAfVmTYrRs
     - label: sleep
+    - id: eFCAfVmTYrRs
     <div style="clear:both;"></div>
 
 <br><br>

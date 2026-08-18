@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: disaster; catastrophe
-    - id: CLkS2ShdERPp
     - label: calamity
+    - id: CLkS2ShdERPp
     <div style="clear:both;"></div>
 
 <br><br>

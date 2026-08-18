@@ -24,7 +24,6 @@ contributor:
     value: "[[Francesco Maria Molza]]"
 subject:
 has_part:
-  - "[[Eran le vostre lagrime nel viso]]"
 based_on:
 catalog_identifier:
 ---

@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Agent
-    - id: b6M5czGwPjhk
     - label: Fabrizia Carrari
+    - id: b6M5czGwPjhk
     <div style="clear:both;"></div>
 
 <br><br>

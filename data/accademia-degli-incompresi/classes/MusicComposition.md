@@ -90,11 +90,6 @@ fields:
     options: {}
     path: 2BArx5
     id: urvYKR
-  - name: note
-    type: Input
-    options: {}
-    path: 2BArx5
-    id: 8Qlbcu
   - name: text
     type: Input
     options: {}
@@ -130,7 +125,32 @@ fields:
     options: {}
     path: ""
     id: livl3J
-version: "2.59"
+  - name: section
+    type: Input
+    options: {}
+    path: 2BArx5
+    id: 28YJV0
+  - name: volume
+    type: Input
+    options: {}
+    path: 2BArx5
+    id: eekGDV
+  - name: pages
+    type: Input
+    options: {}
+    path: 2BArx5
+    id: Ps8nmn
+  - name: reference
+    type: MultiFile
+    options: {}
+    path: SAI8IV
+    id: StAGnG
+  - name: reference
+    type: MultiFile
+    options: {}
+    path: GscD82
+    id: f5bU2a
+version: "2.72"
 limit: 20
 mapWithTag: false
 icon: package
@@ -152,7 +172,9 @@ fieldsOrder:
   - IQ6HyT
   - 2BArx5
   - urvYKR
-  - 8Qlbcu
+  - Ps8nmn
+  - eekGDV
+  - 28YJV0
   - VCi7Y6
   - qnUZJD
   - VKkNR8
@@ -161,9 +183,11 @@ fieldsOrder:
   - XqoVix
   - SAI8IV
   - Gv6MgN
+  - StAGnG
   - AGssnn
   - GscD82
   - ibNIm6
+  - f5bU2a
   - DmdrG6
   - 4RlP7o
 ---

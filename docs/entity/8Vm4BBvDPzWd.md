@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: besuttiStorieDiEmancipazione2019
-    - id: 8Vm4BBvDPzWd
     - label: (Besutti 2019)
+    - id: 8Vm4BBvDPzWd
     <div style="clear:both;"></div>
 
 <br><br>

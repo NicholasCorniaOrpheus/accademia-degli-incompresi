@@ -11,8 +11,8 @@
 !!! note "metadata"
     - class: PoeticWork
     - description: There seems to be any poetry collection including this poem by Molza, except from the madrigal by Vinci.
-    - id: ZoZiSoLqSvg3
     - label: Ne la dolce stagion di Primavera
+    - id: ZoZiSoLqSvg3
     <div style="clear:both;"></div>
 
 <br><br>

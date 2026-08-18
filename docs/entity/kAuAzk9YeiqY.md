@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: delbiancoDubbiaPaceCerta2022
-    - id: kAuAzk9YeiqY
     - label: (Del Bianco 2022)
+    - id: kAuAzk9YeiqY
     <div style="clear:both;"></div>
 
 <br><br>

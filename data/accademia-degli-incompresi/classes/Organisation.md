@@ -186,7 +186,17 @@ fields:
     options: {}
     path: N3WANY
     id: BrD2Wk
-version: "2.99"
+  - name: note
+    type: Input
+    options: {}
+    path: N3WANY
+    id: QYCEEe
+  - name: note
+    type: Input
+    options: {}
+    path: 2M49Yd
+    id: ukxOYE
+version: "2.106"
 limit: 20
 mapWithTag: false
 icon: package
@@ -201,10 +211,12 @@ fieldsOrder:
   - N3WANY
   - BrD2Wk
   - 9Bt3DC
+  - QYCEEe
   - 2M49Yd
   - CdI02d
   - 8WUDTx
   - 79aDoo
+  - ukxOYE
   - FUS4do
   - THZw12
   - 8L7EKF

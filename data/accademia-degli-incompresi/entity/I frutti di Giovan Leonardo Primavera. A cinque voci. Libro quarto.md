@@ -28,7 +28,6 @@ contributor:
     value: "[[Giovan Leonardo Primavera]]"
 subject:
 has_part:
-  - "[[La luce occhi miei lassi (Primavera)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

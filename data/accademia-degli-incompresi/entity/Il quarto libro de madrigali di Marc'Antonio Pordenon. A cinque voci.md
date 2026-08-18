@@ -27,7 +27,16 @@ contributor:
     value: "[[Marc'Antonio Pordenone]]"
 subject:
 has_part:
-  - "[[Ne la dolce stagion di Primavera (Pordenone)]]"
 instrumentation:
+  - quantity: 1
+    value: "[[quintus]]"
+  - quantity: 1
+    value: "[[bassus]]"
+  - quantity: 1
+    value: "[[tenor]]"
+  - quantity: 1
+    value: "[[altus]]"
+  - quantity: 1
+    value: "[[cantus]]"
 ---
 The missing cantus part can be retrieved at the [[Austrian National Library]] via the following [permalink](http://data.onb.ac.at/rec/AC09229142) or in the library of the [[Accademia Filarmonica di Verona]].

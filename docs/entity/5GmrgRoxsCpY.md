@@ -73,6 +73,9 @@
 ???+ abstract "identifier"
     - [Q28008298](http://www.wikidata.org/entity/Q28008298)
 
+???+ abstract "opposite of"
+    - [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+
 
 
 

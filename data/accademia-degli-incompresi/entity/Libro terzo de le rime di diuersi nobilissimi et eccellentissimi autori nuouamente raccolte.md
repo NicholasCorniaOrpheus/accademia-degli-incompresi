@@ -14,7 +14,6 @@ has_version:
 contributor:
 subject:
 has_part:
-  - "[[Al dolce vostro canto]]"
 based_on:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE024114

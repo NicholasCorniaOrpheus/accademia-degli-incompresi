@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: spirituality
-    - id: e4z5crPAxqJa
     - label: religion
+    - id: e4z5crPAxqJa
     <div style="clear:both;"></div>
 
 <br><br>

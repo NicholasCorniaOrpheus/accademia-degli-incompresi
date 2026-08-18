@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - description: Social game played during carnival season by the members of the Accademia delle Virtù in Rome in the 1530's.
-    - id: KxcsDiAvoi7U
     - label: Giuoco delle Virtù
+    - id: KxcsDiAvoi7U
     <div style="clear:both;"></div>
 
 <br><br>

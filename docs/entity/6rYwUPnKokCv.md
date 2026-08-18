@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Organisation
-    - id: 6rYwUPnKokCv
     - label: OPAC SBN
+    - id: 6rYwUPnKokCv
     <div style="clear:both;"></div>
 
 <br><br>

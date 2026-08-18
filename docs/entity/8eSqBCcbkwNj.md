@@ -96,9 +96,6 @@
     - [Accademia dei Trasformati di Lecce](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eTA8foucXHit)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Deh Florinda gratiosa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LVEWAHkmY2UE)
-
 
 
 

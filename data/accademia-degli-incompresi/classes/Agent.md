@@ -147,7 +147,17 @@ fields:
     options: {}
     path: BwfoXF
     id: vt4YLJ
-version: "2.96"
+  - name: note
+    type: Input
+    options: {}
+    path: j2C4Qg
+    id: um5zX2
+  - name: note
+    type: Input
+    options: {}
+    path: 2Cwrij
+    id: 5Hs4Tc
+version: "2.104"
 limit: 20
 mapWithTag: false
 icon: package
@@ -178,6 +188,7 @@ fieldsOrder:
   - VLaJ4h
   - j2C4Qg
   - Kq4xJc
+  - um5zX2
   - SE4kZJ
   - Xr2TTo
   - e1g0jq
@@ -186,4 +197,5 @@ fieldsOrder:
   - kjZ7LX
   - 98KN9L
   - VEBvU7
+  - 5Hs4Tc
 ---

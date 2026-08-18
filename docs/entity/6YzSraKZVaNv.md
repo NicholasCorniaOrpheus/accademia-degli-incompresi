@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: figure of speech
-    - id: 6YzSraKZVaNv
     - label: rhetorical figure
+    - id: 6YzSraKZVaNv
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: macneilDivineMadnessIsabella1995
-    - id: GC9Hbcvreaz8
     - label: (McNeil 1995)
+    - id: GC9Hbcvreaz8
     <div style="clear:both;"></div>
 
 <br><br>

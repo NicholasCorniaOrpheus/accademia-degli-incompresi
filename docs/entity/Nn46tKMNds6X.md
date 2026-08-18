@@ -96,9 +96,6 @@
     - [Francesco Menta](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9dp4sDNQ5hUh)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [Oh dolorosi amanti (Menta)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YBxgRgVstozz)
-
 ???+ abstract "instrumentation"
     - [cantus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L)
         * quantity: 1

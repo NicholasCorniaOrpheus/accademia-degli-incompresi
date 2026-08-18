@@ -73,6 +73,9 @@
 ???+ abstract "identifier"
     - [Q703534](http://www.wikidata.org/entity/Q703534)
 
+???+ abstract "opposite of"
+    - [[employer]]
+
 
 
 

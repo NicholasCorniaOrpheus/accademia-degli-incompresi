@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Concept
-    - id: Sw8LauTZqpYZ
     - label: male
+    - id: Sw8LauTZqpYZ
     <div style="clear:both;"></div>
 
 <br><br>
@@ -72,6 +72,9 @@
 ## Statements
 ???+ abstract "identifier"
     - [Q6581097](http://www.wikidata.org/entity/Q6581097)
+
+???+ abstract "opposite of"
+    - [female](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cg4AvGtwt6Bs)
 
 
 

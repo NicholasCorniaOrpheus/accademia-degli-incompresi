@@ -104,10 +104,6 @@
 ???+ abstract "subject"
     - [commentary](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nfu6kAv6zZ5S)
 
-???+ abstract "has part"
-    - [Quanto mi sia dolore, e grieve affanno](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/45ZS3WahR2pG)
-    - [Vorrei parlar, ma l'ira in dir m'intoppa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QYmEGUNSoRzP)
-
 ???+ abstract "based on"
     - [Orlando furioso](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FSsfkMyDLbzE)
 
@@ -119,23 +115,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest"]
+  };
+</script>
 

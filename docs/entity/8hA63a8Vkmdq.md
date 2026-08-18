@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: fictional academy
-    - id: 8hA63a8Vkmdq
     - label: academia fictiva
+    - id: 8hA63a8Vkmdq
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Lucia Albana; Lucia Albani
-    - id: KpZK8ZttRzyy
     - label: Lucia Albani Avogadro
+    - id: KpZK8ZttRzyy
     <div style="clear:both;"></div>
 
 <br><br>

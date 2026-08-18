@@ -18,8 +18,6 @@ has_version:
 contributor:
 subject:
 has_part:
-  - "[[Deh girate, luci amate (Franzoni)]]"
-  - "[[Deh Florinda gratiosa (Franzoni)]]"
 instrumentation:
   - quantity: 1
     value: "[[continuo group]]"

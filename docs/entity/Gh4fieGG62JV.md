@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: refuge; riparo; ricovero
-    - id: Gh4fieGG62JV
     - label: shelter
+    - id: Gh4fieGG62JV
     <div style="clear:both;"></div>
 
 <br><br>

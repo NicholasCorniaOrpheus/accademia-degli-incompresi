@@ -73,6 +73,9 @@
 ???+ abstract "identifier"
     - [Q7566](http://www.wikidata.org/entity/Q7566)
 
+???+ abstract "opposite of"
+    - [[child]]
+
 
 
 

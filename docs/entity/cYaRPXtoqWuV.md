@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: geocentric model
-    - id: cYaRPXtoqWuV
     - label: geocentrism
+    - id: cYaRPXtoqWuV
     <div style="clear:both;"></div>
 
 <br><br>

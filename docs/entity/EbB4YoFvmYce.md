@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: core; cuore
-    - id: EbB4YoFvmYce
     - label: heart
+    - id: EbB4YoFvmYce
     <div style="clear:both;"></div>
 
 <br><br>

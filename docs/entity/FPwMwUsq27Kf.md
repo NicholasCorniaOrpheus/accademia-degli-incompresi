@@ -81,6 +81,11 @@
     - 1559
         * reference: [(Artese 1983)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Piy3NGohA88)
 
+???+ abstract "member"
+    - None
+    - [Lodovico Dolce](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mb4nqpu9MxKm)
+        * reference: [(Artese 1983)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Piy3NGohA88)
+
 
 
 

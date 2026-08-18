@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: persistence; perseveranza; costanza
-    - id: jNVGi7b6DTsP
     - label: perseverance
+    - id: jNVGi7b6DTsP
     <div style="clear:both;"></div>
 
 <br><br>

@@ -57,7 +57,6 @@ contributor:
     value: "[[Torquato Tasso]]"
 subject:
 has_part:
-  - "[[Forse è cagion l'Aurora]]"
 based_on:
 catalog_identifier:
 ---

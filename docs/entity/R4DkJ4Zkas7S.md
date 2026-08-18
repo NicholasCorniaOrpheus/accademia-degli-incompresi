@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Place
     - aliases: Italia
-    - id: R4DkJ4Zkas7S
     - label: Italy
+    - id: R4DkJ4Zkas7S
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Hypneo da Schio
-    - id: cmUaXPEGtFwL
     - label: Daniele Barbaro
+    - id: cmUaXPEGtFwL
     <div style="clear:both;"></div>
 
 <br><br>

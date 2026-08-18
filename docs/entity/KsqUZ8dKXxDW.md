@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
-    - id: KsqUZ8dKXxDW
     - label: Rime diverse d'alcune nobilissime, et virtuosissime donne
+    - id: KsqUZ8dKXxDW
     <div style="clear:both;"></div>
 
 <br><br>
@@ -107,23 +107,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10B1F7B3"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://api.onb.ac.at/iiif/presentation/v3/manifest/10B1F7B3"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://api.onb.ac.at/iiif/presentation/v3/manifest/10B1F7B3"]
+  };
+</script>
 

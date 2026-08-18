@@ -29,6 +29,18 @@
       "label": "founder",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HF28L6dcXJjd",
+      "label": "Lucrezia Marinella",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lucrezia_Marinella_by_Giacomo_Piccini%2C_1652_%28cropped%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hpfZp93oB59K",
+      "label": "Bernardo Tasso",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bernardo_Tasso.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
     }
   ],
   "links": [
@@ -58,6 +70,16 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HF28L6dcXJjd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ja3o7UfjoiHn",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hpfZp93oB59K",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ja3o7UfjoiHn",
+      "property": "member_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GybpRcmnuLeK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
       "property": "work_location"
@@ -66,6 +88,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GybpRcmnuLeK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/joaxpdFod2Jb",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HF28L6dcXJjd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
+      "property": "work_location"
     }
   ]
 }

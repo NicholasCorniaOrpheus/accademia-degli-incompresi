@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Giovanni Dragoni
-    - id: be2NbowfgNmj
     - label: Giovanni Andrea Dragoni
+    - id: be2NbowfgNmj
     <div style="clear:both;"></div>
 
 <br><br>

@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: BibliographicResource
-    - id: PR82P3jXLhMX
     - label: Recercare
+    - id: PR82P3jXLhMX
     <div style="clear:both;"></div>
 
 <br><br>

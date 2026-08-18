@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Mount Etna
-    - id: FNrGzpxh2Xcy
     - label: Etna
+    - id: FNrGzpxh2Xcy
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: duraccioPionerasVocesFemeninas2021
-    - id: cksoxkZQykPJ
     - label: (Duraccio 2021)
+    - id: cksoxkZQykPJ
     <div style="clear:both;"></div>
 
 <br><br>

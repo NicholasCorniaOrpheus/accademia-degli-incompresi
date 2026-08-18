@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - description: natural object visible in the sky to the naked eye
-    - id: MiEZVRza7UDo
     - label: celestial body
+    - id: MiEZVRza7UDo
     <div style="clear:both;"></div>
 
 <br><br>

@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c9HqGX4wa6Ds",
+      "label": "Teatro d'huomini letterati",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KQavmyv7dNHK",
       "label": "Dell'imprese di Scipione Bargagli gentil'huomo senese",
       "class": "Book",
@@ -31,6 +37,24 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
+      "label": "Accademia dei Gelati di Bologna",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JLv6HZNGtUao",
+      "label": "Ricreazioni amorose de gli Academici Gelati di Bologna",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TGRvGrsWgptp",
+      "label": "Memorie, imprese, e ritratti de' signor Accademici Gelati",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f56LGEz2kCWP",
       "label": "Scipione Bargagli",
       "class": "Agent",
@@ -44,6 +68,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c9HqGX4wa6Ds",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "subject"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KQavmyv7dNHK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
@@ -63,6 +92,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LecpVz9RT6xT",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JLv6HZNGtUao",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TGRvGrsWgptp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f56LGEz2kCWP",

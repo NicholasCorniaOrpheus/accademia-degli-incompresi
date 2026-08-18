@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Horatio Ariosti
-    - id: HYqZkM5fGv5U
     - label: Orazio Ariosto
+    - id: HYqZkM5fGv5U
     <div style="clear:both;"></div>
 
 <br><br>

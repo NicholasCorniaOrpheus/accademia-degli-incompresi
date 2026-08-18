@@ -74,6 +74,9 @@
 ???+ abstract "identifier"
     - [Q4](http://www.wikidata.org/entity/Q4)
 
+???+ abstract "opposite of"
+    - [[life]]
+
 
 
 

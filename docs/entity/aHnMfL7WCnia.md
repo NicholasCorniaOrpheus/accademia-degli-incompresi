@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Livio Celiano; Don Agelo Grillo
-    - id: aHnMfL7WCnia
     - label: Angelo Grillo
+    - id: aHnMfL7WCnia
     <div style="clear:both;"></div>
 
 <br><br>

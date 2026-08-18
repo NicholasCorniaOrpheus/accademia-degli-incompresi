@@ -11,8 +11,8 @@
     - class: Concept
     - aliases: sheet music; partiture; score; musical score
     - description: Musical notation rendering multiple voices vertically. Use partbook for separate parts.
-    - id: FcRrGt78cbeW
     - label: music score
+    - id: FcRrGt78cbeW
     <div style="clear:both;"></div>
 
 <br><br>

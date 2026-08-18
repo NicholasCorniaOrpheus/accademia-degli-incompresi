@@ -89,8 +89,17 @@
     - [Alfonso Fontanelli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HYNSRHyjXwZv)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [La luce occhi miei lassi (Fontanelli)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZVKk3Vsnaerx)
+???+ abstract "instrumentation"
+    - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
+        * quantity: 1
+    - [bassus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN)
+        * quantity: 1
+    - [tenor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG)
+        * quantity: 1
+    - [altus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx)
+        * quantity: 1
+    - [cantus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L)
+        * quantity: 1
 
 
 
@@ -100,23 +109,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://edl-jarvis.cultura.gov.it/meta/iiif/445658a5-ba08-40f7-a76e-0a749c18a36d/manifest"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://edl-jarvis.cultura.gov.it/meta/iiif/445658a5-ba08-40f7-a76e-0a749c18a36d/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://edl-jarvis.cultura.gov.it/meta/iiif/445658a5-ba08-40f7-a76e-0a749c18a36d/manifest"]
+  };
+</script>
 

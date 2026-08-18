@@ -36,7 +36,8 @@ views:
     order:
       - file.name
       - identifier
-      - has_part
+      - instance_of
+      - instrumentation
   - type: table
     name: bibliography
     filters:

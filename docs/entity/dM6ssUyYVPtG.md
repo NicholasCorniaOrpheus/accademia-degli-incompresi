@@ -91,9 +91,6 @@
     - [Carlo Papini](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FsYpDbCrjFXi)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Sciogli la lingua al canto, e leghi i cori](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoqaiA4U5TQu)
-
 
 
 

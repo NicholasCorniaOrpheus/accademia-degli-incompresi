@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: humoral theory; humors; humoralism
-    - id: DEzosFymsuXR
     - label: four temperaments
+    - id: DEzosFymsuXR
     <div style="clear:both;"></div>
 
 <br><br>

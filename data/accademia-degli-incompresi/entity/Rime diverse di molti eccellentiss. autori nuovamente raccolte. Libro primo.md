@@ -36,7 +36,5 @@ contributor:
     value: "[[Francesco Sansovino]]"
 subject:
 has_part:
-  - "[[Occhi lucenti, e belli]]"
-  - "[[Varchi, s'il ciel vi presti ali al gran nome]]"
 based_on:
 ---

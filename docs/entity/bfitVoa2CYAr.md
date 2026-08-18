@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Gratioso Perchacino
-    - id: bfitVoa2CYAr
     - label: Grazioso Percacino
+    - id: bfitVoa2CYAr
     <div style="clear:both;"></div>
 
 <br><br>

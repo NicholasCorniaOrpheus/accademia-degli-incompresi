@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Organisation
-    - id: G2p4HNEjEbuL
     - label: Accademia dei Selvaggi di Bologna
+    - id: G2p4HNEjEbuL
     <div style="clear:both;"></div>
 
 <br><br>

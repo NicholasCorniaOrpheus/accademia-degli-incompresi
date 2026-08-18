@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
-    - id: 7QAVk6xtgFun
     - label: Gli horti del sole. Poemetto del con. Marc'Ant. Ferretti
+    - id: 7QAVk6xtgFun
     <div style="clear:both;"></div>
 
 <br><br>

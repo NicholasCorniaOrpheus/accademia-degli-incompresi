@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: giuramento
-    - id: eMnUvti48bhQ
     - label: oath
+    - id: eMnUvti48bhQ
     <div style="clear:both;"></div>
 
 <br><br>

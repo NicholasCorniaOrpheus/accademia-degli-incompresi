@@ -29,8 +29,6 @@ contributor:
     value: "[[Giovanni Pierluigi da Palestrina]]"
 subject:
 has_part:
-  - "[[Eran le vostre lagrime nel viso (Palestrina)]]"
-  - "[[Forse è cagion l'Aurora (Spontone)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

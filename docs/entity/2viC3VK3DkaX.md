@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Agent
-    - id: 2viC3VK3DkaX
     - label: Pomponio Torelli
+    - id: 2viC3VK3DkaX
     <div style="clear:both;"></div>
 
 <br><br>

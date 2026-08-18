@@ -36,8 +36,6 @@ contributor:
 subject:
   - "[[commentary]]"
 has_part:
-  - "[[Quanto mi sia dolore, e grieve affanno]]"
-  - "[[Vorrei parlar, ma l'ira in dir m'intoppa]]"
 based_on:
   - value: "[[Orlando furioso]]"
 ---

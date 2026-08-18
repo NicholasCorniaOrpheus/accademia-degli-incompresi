@@ -73,11 +73,21 @@
 ???+ abstract "identifier"
     - [Q444628](http://www.wikidata.org/entity/Q444628)
 
+???+ abstract "described by source"
+    - [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
+
 ???+ abstract "instance of"
     - [human](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU)
 
 ???+ abstract "gender"
     - [female](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cg4AvGtwt6Bs)
+
+???+ abstract "member of"
+    - [Accademia Fiorentina](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2ogdnLXMgrhJ)
+        * start date: 1546
+        * end date: 1547
+        * role: [visitor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4NmckkLszZdN)
+        * reference: [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
 
 ???+ abstract "occupation"
     - [poet](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVAbik9eKVEW)

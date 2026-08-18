@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Sforza Oddi
-    - id: A8zvpBSv7FEi
     - label: Sforza degli Oddi
+    - id: A8zvpBSv7FEi
     <div style="clear:both;"></div>
 
 <br><br>

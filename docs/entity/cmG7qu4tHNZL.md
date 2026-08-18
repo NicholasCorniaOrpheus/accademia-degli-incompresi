@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Concept
-    - id: cmG7qu4tHNZL
     - label: Jesus Christ
+    - id: cmG7qu4tHNZL
     <div style="clear:both;"></div>
 
 <br><br>

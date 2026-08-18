@@ -26,7 +26,6 @@ contributor:
     value: "[[Francesco Menta]]"
 subject:
 has_part:
-  - "[[Oh dolorosi amanti (Menta)]]"
 instrumentation:
   - quantity: 1
     value: "[[cantus]]"

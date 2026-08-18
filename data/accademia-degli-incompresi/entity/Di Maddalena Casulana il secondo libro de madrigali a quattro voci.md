@@ -9,6 +9,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
+  - "[[partbook]]"
 title: Di Maddalena Casulana il secondo libro de madrigali a quatro voci
 inception:
 has_version:
@@ -25,6 +26,13 @@ contributor:
     value: "[[Maddalena Casulana]]"
 subject:
 has_part:
-  - "[[Cinta di fiori un giorno (Casulana)]]"
 instrumentation:
+  - quantity: 1
+    value: "[[bassus]]"
+  - quantity: 1
+    value: "[[tenor]]"
+  - quantity: 1
+    value: "[[altus]]"
+  - quantity: 1
+    value: "[[cantus]]"
 ---

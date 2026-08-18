@@ -97,9 +97,6 @@
     - [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
         * role: [Pietro Vinci](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k5zGfCWxaXXR)
 
-???+ abstract "has part"
-    - [Ne la dolce stagion di primavera (Vinci)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cfZT49rMpbbv)
-
 ???+ abstract "instrumentation"
     - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
         * quantity: 1

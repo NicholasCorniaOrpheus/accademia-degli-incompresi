@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Organisation
     - aliases: IAD
-    - id: 99XEoHF9WPng
     - label: Italian Academies Database
+    - id: 99XEoHF9WPng
     <div style="clear:both;"></div>
 
 <br><br>

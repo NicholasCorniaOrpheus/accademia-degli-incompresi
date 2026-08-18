@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: lira
-    - id: nTWzEHXADtv4
     - label: lyre
+    - id: nTWzEHXADtv4
     <div style="clear:both;"></div>
 
 <br><br>

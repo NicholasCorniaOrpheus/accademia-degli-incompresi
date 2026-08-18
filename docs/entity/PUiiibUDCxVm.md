@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Girolamo Scoto; Hieronymus Scottus
-    - id: PUiiibUDCxVm
     - label: Girolamo Scotto
+    - id: PUiiibUDCxVm
     <div style="clear:both;"></div>
 
 <br><br>

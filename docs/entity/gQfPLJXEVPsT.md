@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
-    - id: gQfPLJXEVPsT
     - label: La distruzione di Gierusalemme
+    - id: gQfPLJXEVPsT
     <div style="clear:both;"></div>
 
 <br><br>
@@ -90,10 +90,6 @@
 
 ???+ abstract "subject"
     - [Crusades](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SeFHUS9MYJuk)
-
-???+ abstract "has part"
-    - [Ove ne lasci, ove Signor ne vai](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eLppTE6xb4Ci)
-    - [Infelice Signor, hor questo è'l merto](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aTCWLrEvh2qK)
 
 ???+ abstract "based on"
     - [Gierusalemme liberata, poema heroico del sig. Torquato Tasso](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lv8EW8V8UKXk)

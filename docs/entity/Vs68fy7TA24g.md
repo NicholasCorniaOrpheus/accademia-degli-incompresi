@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Concept
-    - id: Vs68fy7TA24g
     - label: type of musical work
+    - id: Vs68fy7TA24g
     <div style="clear:both;"></div>
 
 <br><br>

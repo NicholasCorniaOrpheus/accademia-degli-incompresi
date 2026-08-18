@@ -17,8 +17,6 @@ contributor:
 subject:
   - "[[Crusades]]"
 has_part:
-  - "[[Ove ne lasci, ove Signor ne vai]]"
-  - "[[Infelice Signor, hor questo è'l merto]]"
 based_on:
   - value: "[[Gierusalemme liberata, poema heroico del sig. Torquato Tasso]]"
 ---

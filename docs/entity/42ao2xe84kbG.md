@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: sorrentiMadHotMadrigalsSelections2015
-    - id: 42ao2xe84kbG
     - label: (Sorrentini 2015)
+    - id: 42ao2xe84kbG
     <div style="clear:both;"></div>
 
 <br><br>

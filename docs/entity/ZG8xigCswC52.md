@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Organisation
     - aliases: LOC
-    - id: ZG8xigCswC52
     - label: Library of Congress
+    - id: ZG8xigCswC52
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: oceano
-    - id: dyaxwpBMYT2K
     - label: ocean
+    - id: dyaxwpBMYT2K
     <div style="clear:both;"></div>
 
 <br><br>

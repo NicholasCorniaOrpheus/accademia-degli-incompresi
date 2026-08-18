@@ -35,6 +35,12 @@
       "label": "Italian Academies Database",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSF6bThbK7xx",
+      "label": "Tullia d'Aragona",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -64,6 +70,11 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSF6bThbK7xx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2ogdnLXMgrhJ",
+      "property": "member_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Hm8LNCNr7Wxn",
       "property": "work_location"
@@ -75,6 +86,16 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdyZG6fXKCLc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSF6bThbK7xx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdyZG6fXKCLc",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSF6bThbK7xx",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
       "property": "catalog_identifier"
     }

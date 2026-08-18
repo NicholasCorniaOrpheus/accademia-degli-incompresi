@@ -36,7 +36,6 @@ contributor:
     value: "[[Santi Orlandi]]"
 subject:
 has_part:
-  - "[[Amorosa mia Clori (Orlandi)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

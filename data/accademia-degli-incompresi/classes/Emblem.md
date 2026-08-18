@@ -76,7 +76,12 @@ fields:
     options: {}
     path: ""
     id: aVDJww
-version: "2.22"
+  - name: note
+    type: Input
+    options: {}
+    path: V9fGlQ
+    id: mMkPqJ
+version: "2.25"
 limit: 20
 mapWithTag: false
 icon: package
@@ -92,6 +97,7 @@ fieldsOrder:
   - V9fGlQ
   - 4p96CV
   - kNpACe
+  - mMkPqJ
   - BFaYql
   - 3yDKiV
   - iU31bm

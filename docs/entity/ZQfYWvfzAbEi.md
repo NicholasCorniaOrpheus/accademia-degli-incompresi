@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Arcangelo Crivello; Arcangelo Cribelli
-    - id: ZQfYWvfzAbEi
     - label: Arcangelo Crivelli
+    - id: ZQfYWvfzAbEi
     <div style="clear:both;"></div>
 
 <br><br>

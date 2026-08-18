@@ -11,8 +11,8 @@
     - class: Agent
     - aliases: Bernardo Giunta
     - description: Italian printer (1540 - c. 1627)
-    - id: irdFWnrUWMtD
     - label: Bernardo Giunti
+    - id: irdFWnrUWMtD
     <div style="clear:both;"></div>
 
 <br><br>

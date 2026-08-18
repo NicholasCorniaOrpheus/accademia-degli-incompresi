@@ -104,10 +104,6 @@
     - [Francesco Sansovino](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/45W9u7KVdj9K)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Occhi lucenti, e belli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Pb3KGNA335hP)
-    - [Varchi, s'il ciel vi presti ali al gran nome](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K4gZA9U9oCuC)
-
 
 
 
@@ -116,23 +112,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10AA1E34"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://api.onb.ac.at/iiif/presentation/v3/manifest/10AA1E34"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://api.onb.ac.at/iiif/presentation/v3/manifest/10AA1E34"]
+  };
+</script>
 

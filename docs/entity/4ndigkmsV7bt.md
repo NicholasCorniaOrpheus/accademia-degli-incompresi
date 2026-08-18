@@ -99,10 +99,6 @@
     - [Giovanni Pierluigi da Palestrina](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhonUhTn9HLC)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [Eran le vostre lagrime nel viso (Palestrina)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N5MBtdsyoUsS)
-    - [Forse è cagion l'Aurora (Spontone)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2gmEhU7629RE)
-
 ???+ abstract "instrumentation"
     - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
         * quantity: 1
@@ -123,23 +119,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://edl-jarvis.cultura.gov.it/meta/iiif/9f358872-1482-46d5-bfc8-89a7ea955f7d/manifest"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://edl-jarvis.cultura.gov.it/meta/iiif/9f358872-1482-46d5-bfc8-89a7ea955f7d/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://edl-jarvis.cultura.gov.it/meta/iiif/9f358872-1482-46d5-bfc8-89a7ea955f7d/manifest"]
+  };
+</script>
 

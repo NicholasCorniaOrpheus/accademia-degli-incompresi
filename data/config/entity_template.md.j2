@@ -114,12 +114,10 @@
 {% endif %}
 
 {# ==== BIBLATEX ====}
-{% if assets and assets.bib %}
+{% if bibtex %}
 ## BibTeX Citation
-[:octicons-book-16: Download citation](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ assets.bib | replace('./', '') }}){ .md-button }
+[:octicons-book-16: Download citation](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ bibtex | replace('./', '') }}){ .md-button }
 {% endif %}
-
-{# RENDER BIBLATEX as CODE or create BUTTON}
 
 {# ========== 6. DIGITAL ASSETS (OPENSEADRAGON) ========== #}
 {%- if assets and (assets.iiif or assets.jpg) %}
@@ -127,24 +125,42 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    {# FOR LOOP for multiple IIIF manifests #}
-    {% for manifest in assets.iiif %}
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "{{ (assets.local_asset_path or '') | replace('./', '') }}/",
-        images: {{ (assets.jpg or []) | tojson }},
-        iiif: "{{ manifest or '' }}"
-        };
-      </script>
-    {% endfor %}
+{# Normalize iiif list (handles single string or list) #}
+{%- set iiif_list = [] -%}
+{%- if assets.iiif is defined and assets.iiif %}
+  {%- if assets.iiif is iterable and assets.iiif is not string %}
+    {%- set iiif_list = assets.iiif %}
+  {%- else %}
+    {%- set iiif_list = [assets.iiif] %}
+  {%- endif %}
+{%- endif %}
 
-    {% endif %}
+{# Create a viewer container for every manifest (or at least one if we have images) #}
+{%- if iiif_list | length > 0 %}
+  {%- for manifest in iiif_list %}
+    <div id="openseadragon-container-{{ loop.index0 }}" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-{{ loop.index0 }}" class="osd-viewer" data-manifest='{{ manifest | tojson | safe }}' style="width:100%; height:100%;"></div>
+    </div>
+  {%- endfor %}
+{%- else %}
+  {# If no IIIF manifests, create a single container for images fallback #}
+  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
+  </div>
+{%- endif %}
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "{{ (assets.local_asset_path or '') | replace('./', '') }}/",
+    images: {{ (assets.jpg or []) | tojson }},
+    iiif: {{ iiif_list | tojson }}
+  };
+</script>
+
+{%- endif %}
 
 

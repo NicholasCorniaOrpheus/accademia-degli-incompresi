@@ -92,9 +92,6 @@
     - [Francesco Maria Molza](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/de7AEfvjawVj)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Eran le vostre lagrime nel viso](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/L64jM586iCSB)
-
 
 
 

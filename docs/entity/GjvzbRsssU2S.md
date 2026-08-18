@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Venere; Afrodite; Citerrea
-    - id: GjvzbRsssU2S
     - label: Venus
+    - id: GjvzbRsssU2S
     <div style="clear:both;"></div>
 
 <br><br>

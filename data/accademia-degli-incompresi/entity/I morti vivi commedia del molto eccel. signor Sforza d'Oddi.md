@@ -20,7 +20,6 @@ contributor:
     value: "[[Sforza degli Oddi]]"
 subject:
 has_part:
-  - "[[Come d'un bel desio s'accenda il core]]"
 based_on:
 label: I morti vivi commedia del molto eccel. signor Sforza d'Oddi
 identifier:

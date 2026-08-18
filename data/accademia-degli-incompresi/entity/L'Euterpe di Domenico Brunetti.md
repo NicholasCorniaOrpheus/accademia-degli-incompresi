@@ -30,7 +30,6 @@ contributor:
     value: "[[Domenico Brunetti]]"
 subject:
 has_part:
-  - "[[Brunetti al suon de tuoi pregiati accenti]]"
 instrumentation:
   - quantity: 1
     value: "[[continuo group]]"

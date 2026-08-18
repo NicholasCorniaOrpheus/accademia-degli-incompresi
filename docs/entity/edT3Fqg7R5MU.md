@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: BibliographicResource
     - aliases: wilbourneSeventeenthcenturyOperaSound2016
-    - id: edT3Fqg7R5MU
     - label: (Wilbourne 2016)
+    - id: edT3Fqg7R5MU
     <div style="clear:both;"></div>
 
 <br><br>

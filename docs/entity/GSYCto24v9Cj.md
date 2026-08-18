@@ -95,9 +95,6 @@
     - [Ascanio Trombetti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPwjvrJWn9aR)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [Eran le vostre lagrime nel viso (Trombetti)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9TJNJDt7zz9F)
-
 ???+ abstract "instrumentation"
     - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
         * quantity: 1

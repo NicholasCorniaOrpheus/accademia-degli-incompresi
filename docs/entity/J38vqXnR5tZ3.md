@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: flight; escape; retreat; run away; fuga
-    - id: J38vqXnR5tZ3
     - label: fleeing
+    - id: J38vqXnR5tZ3
     <div style="clear:both;"></div>
 
 <br><br>

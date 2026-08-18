@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: lauro; laurel tree
-    - id: kxH89uEZ8Uxe
     - label: laurel
+    - id: kxH89uEZ8Uxe
     <div style="clear:both;"></div>
 
 <br><br>

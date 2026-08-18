@@ -84,10 +84,6 @@
 ???+ abstract "title"
     - Il Secondo libro delli Fioretti Musicali a tre voci d'Amante Franzoni Mantouano. Co 'l Basso continuo per il Clauecimbalo, Chitarrone, et stromenti simili. Raccolto dal R. Don Francesco Dognazzi, Seruitore dell'Altezza Serenissima di Mantoa
 
-???+ abstract "has part"
-    - [Deh girate, luci amate (Franzoni)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VqXiCwcHHNLw)
-    - [Deh Florinda gratiosa (Franzoni)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NG6wp5eehmAV)
-
 ???+ abstract "instrumentation"
     - [continuo group](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TVXPXNKywS5Z)
         * quantity: 1

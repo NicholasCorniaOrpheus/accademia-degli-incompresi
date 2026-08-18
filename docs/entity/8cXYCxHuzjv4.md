@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Agent
-    - id: 8cXYCxHuzjv4
     - label: Prospero Bonarelli della Rovere
+    - id: 8cXYCxHuzjv4
     <div style="clear:both;"></div>
 
 <br><br>

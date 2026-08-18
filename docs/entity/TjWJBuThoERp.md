@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: sea vessel; water vehicle; boat; ship
-    - id: TjWJBuThoERp
     - label: watercraft
+    - id: TjWJBuThoERp
     <div style="clear:both;"></div>
 
 <br><br>

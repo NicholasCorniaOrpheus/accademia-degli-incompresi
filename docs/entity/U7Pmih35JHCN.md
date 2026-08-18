@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
-    - id: U7Pmih35JHCN
     - label: Rime d'Isabella Andreini padovana comica Gelosa
+    - id: U7Pmih35JHCN
     <div style="clear:both;"></div>
 
 <br><br>

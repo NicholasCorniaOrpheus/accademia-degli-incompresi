@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Organisation
-    - id: VGeT8SCG2epE
     - label: Accademia dei Gelati di Bologna
+    - id: VGeT8SCG2epE
     <div style="clear:both;"></div>
 
 <br><br>
@@ -94,8 +94,15 @@
         * reference: [(Nicolaci 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kXtVbo8uQdf7)
         * pseudonym: Rugginoso
 
+???+ abstract "interested in"
+    - [impresa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64)
+    - [[entity/emblem]]
+
 ???+ abstract "identifier"
     - [Q106701551](http://www.wikidata.org/entity/Q106701551)
+
+???+ abstract "described by source"
+    - [[(Gurrei 2020)]]
 
 
 

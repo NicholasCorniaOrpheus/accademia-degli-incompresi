@@ -27,7 +27,6 @@ contributor:
     value: "[[Giulio Renaldi]]"
 subject:
 has_part:
-  - "[[L'empio tuo strale Amore (Renaldi)]]"
 instrumentation:
   - quantity: 1
     value: "[[cantus]]"

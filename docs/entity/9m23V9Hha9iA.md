@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: ragionamento; trattato; discorso
-    - id: 9m23V9Hha9iA
     - label: treatise
+    - id: 9m23V9Hha9iA
     <div style="clear:both;"></div>
 
 <br><br>

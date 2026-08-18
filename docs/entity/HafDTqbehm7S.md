@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
-    - id: HafDTqbehm7S
     - label: Libro terzo de le rime di diuersi nobilissimi et eccellentissimi autori nuouamente raccolte
+    - id: HafDTqbehm7S
     <div style="clear:both;"></div>
 
 <br><br>
@@ -83,9 +83,6 @@
         * place of publication: [Venezia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq)
         * permalink: [CNCE024114](https://edit16.iccu.sbn.it/titolo/CNCE024114)
         * external source: [4skTAAAAQAAJ](https://books.google.be/books?id=4skTAAAAQAAJ)
-
-???+ abstract "has part"
-    - [Al dolce vostro canto](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54JMU2tPSSug)
 
 ???+ abstract "identifier"
     - [CNCE024114](https://edit16.iccu.sbn.it/titolo/CNCE024114)

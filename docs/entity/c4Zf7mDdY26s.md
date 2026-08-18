@@ -75,6 +75,7 @@
 
 ???+ abstract "described by source"
     - [(Sampson 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UxmGCpHFzciy)
+    - [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
 
 ???+ abstract "instance of"
     - [human](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU)
@@ -87,7 +88,8 @@
 
 ???+ abstract "member of"
     - [Accademia degli Innominati di Parma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Tg2twUHRexM5)
-        * reference: [(Sampson 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UxmGCpHFzciy)
+        * reference: [(Sampson 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UxmGCpHFzciy) ; [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
+        * start date: 1580
 
 ???+ abstract "occupation"
     - [playwright](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n8gFvD2DbXwH)

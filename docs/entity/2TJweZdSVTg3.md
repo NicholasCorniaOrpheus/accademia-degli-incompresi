@@ -98,10 +98,6 @@
 ???+ abstract "subject"
     - [epistolary literature](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LYHHrTeytuwp)
 
-???+ abstract "has part"
-    - [Cantava un giorno la mia Nimpha, quando](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NbBuKBH3c4m6)
-    - [Oh dolorosi amanti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dgeVEev2vEhf)
-
 
 
 

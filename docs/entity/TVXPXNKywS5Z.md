@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: basso continuo
-    - id: TVXPXNKywS5Z
     - label: continuo group
+    - id: TVXPXNKywS5Z
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Marte; Ares
-    - id: gSKYwN6xYzZN
     - label: Mars
+    - id: gSKYwN6xYzZN
     <div style="clear:both;"></div>
 
 <br><br>

@@ -27,7 +27,6 @@ contributor:
     value: "[[composer]]"
 subject:
 has_part:
-  - "[[Ne la dolce stagion di primavera (Vinci)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

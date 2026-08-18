@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: crying; weep; wail
-    - id: YNz7hZ7AqXJk
     - label: weeping
+    - id: YNz7hZ7AqXJk
     <div style="clear:both;"></div>
 
 <br><br>

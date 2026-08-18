@@ -96,9 +96,6 @@
     - [Giambattista Marino](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/692cVZSpt5VS)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Un bel ricco Ocean di chiari pianti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bd3sZrPxXY9j)
-
 
 
 

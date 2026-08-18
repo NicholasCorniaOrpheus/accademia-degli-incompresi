@@ -88,6 +88,9 @@
     - [female](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cg4AvGtwt6Bs)
 
 ???+ abstract "member of"
+    - [Accademia Filarmonica di Verona](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhxUY9jJWMZD)
+        * role: [visitor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4NmckkLszZdN)
+        * reference: [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
     - [Accademia degli Intenti di Pavia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GfXTddPrxyYx)
         * pseudonym: Accesa
         * start date: 1601

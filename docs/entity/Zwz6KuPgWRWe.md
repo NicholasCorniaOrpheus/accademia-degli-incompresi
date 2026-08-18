@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: pupil
-    - id: Zwz6KuPgWRWe
     - label: student
+    - id: Zwz6KuPgWRWe
     <div style="clear:both;"></div>
 
 <br><br>
@@ -73,6 +73,9 @@
 ## Statements
 ???+ abstract "identifier"
     - [Q48282](http://www.wikidata.org/entity/Q48282)
+
+???+ abstract "opposite of"
+    - [[teacher]]
 
 
 

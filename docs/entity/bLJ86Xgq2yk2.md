@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Francesco Valegio
-    - id: bLJ86Xgq2yk2
     - label: Francesco Valesio
+    - id: bLJ86Xgq2yk2
     <div style="clear:both;"></div>
 
 <br><br>

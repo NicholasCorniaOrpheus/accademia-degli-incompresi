@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Francesco Bracciolini Dell'Api
-    - id: Bgy6ktDtV7y3
     - label: Francesco Bracciolini
+    - id: Bgy6ktDtV7y3
     <div style="clear:both;"></div>
 
 <br><br>

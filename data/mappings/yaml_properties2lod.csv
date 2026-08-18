@@ -8,7 +8,11 @@ identifier,dcterms,identifier,http://purl.org/dc/terms/identifier,URIRef,,statem
 isbn,schema,isbn,https://schema.org/isbn,String,,statements
 local_asset_path,,,,String,,assets
 instance_of,wdt,instance of,http://wikidata.org/entity/P31,Entity,P31,statements
-has_part,dcterms,hasPart,http://purl.org/dc/terms/hasPart,Entity,,statements
+has_part,,,,Statement,,statements
+has_part/value,dcterms,hasPart,http://purl.org/dc/terms/hasPart,Entity,,statements
+has_part/volume,schema,volumeNumber,https://schema.org/volumeNumber,String,P478,
+has_part/pages,wdt,page(s),http://www.wikidata.org/entity/P304,String,P304,
+has_part/section,wdt,section,http://www.wikidata.org/entity/P958,String,P958,
 part_of,,,,Statement,,statements
 part_of/value,dcterms,isPartOf,http://purl.org/dc/terms/isPartOf,Entity,P361,statements
 part_of/volume,schema,volumeNumber,https://schema.org/volumeNumber,String,P478,statements
@@ -27,9 +31,6 @@ has_version/place_of_publication,wdt,place of publication,http://wikidata.org/en
 has_version/holding_institution,bf,heldBy,http://id.loc.gov/ontologies/bibframe/heldBy,Entity,P195,statements
 has_version/external_source,bf,electronicLocator,http://id.loc.gov/ontologies/bibframe/electronicLocator,URIRef,,statements
 has_version/IIIF_manifest,wdt,IIIF manifest URL,http://wikidata.org/entity/P6108,URIRef,P6108,statements
-available_at,,,,Statement,,statements
-available_at/reference_URL,wdt,work available at URL,http://www.wikidata.org/entity/P953,URIRef,P953,statements
-available_at/holding_institution,bf,heldBy,http://id.loc.gov/ontologies/bibframe/heldBy,Entity,P195,statements
 instrumentation,,,,Statement,,statements
 instrumentation/value,wdt,instrumentation,http://wikidata.org/entity/P870,,P870,statements
 instrumentation/quantity,wdt,quantity,http://wikidata.org/entity/P1114,,P1114,statements
@@ -40,12 +41,11 @@ gender,schema,gender,https://schema.org/gender,Entity,P21,statements
 work_location,,,,Statement,,statements
 work_location/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
 work_location/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
-work_location/start_date,schema,startDate,https://schema.org/startDate,String,,statements
-work_location/end_date,schema,endDate,https://schema.org/endDate,String,,statements
 occupation,,,,Statement,,statements
 occupation/value,schema,hasOccupation,https://schema.org/hasOccupation,Entity,,statements
 occupation/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
-subclass_of,rdfs,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,,,statements
+occupation/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
+subclass_of,rdfs,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Entity,,statements
 inception,,,,Statement,,statements
 inception/value,dcterms,created,http://purl.org/dc/terms/created,String,,statements
 inception/sourcing_circumstances,wdt,sourcing circumstances,http://wikidata.org/entity/P1480,Entity,,statements
@@ -62,9 +62,11 @@ official_website,wdt,official website,http://wikidata.org/entity/P856,URIRef,,st
 depicts,wdt,depicts,http://www.wikidata.org/entity/P180,Entity,,statements
 based_on,,,,Statement,,statements
 based_on/value,wdt,based on,http://www.wikidata.org/entity/P144,Entity,P144,statements
+based_on/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
 based_on/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
 derivative_work,,,,Statement,,statements
 derivative_work/value,edm,isDerivativeOf,http://www.europeana.eu/schemas/edm/isDerivativeOf,Entity,P4969,statements
+derivative_work/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
 derivative_work/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
 subject,dc,subject,http://purl.org/dc/elements/1.1/subject,Entity,,statements
 form_of_creative_work,wdt,form of creative work,http://www.wikidata.org/entity/P7937,Entity,P7937,statements
@@ -75,6 +77,7 @@ related_to,,,,,,statements
 related_to/value,edm,isRelatedTo,http://www.europeana.eu/schemas/edm/isRelatedTo,Entity,P3342,statements
 related_to/relationship,bf,Relationship,http://id.loc.gov/ontologies/bibframe/Relationship,Entity,,statements
 related_to/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+related_to/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
 notable_work,wdt,notable work,http://www.wikidata.org/entity/P800,Entity,P800,statements
 interested_in,,,,Statement,,statements
 interested_in/value,wdt,interested in,http://www.wikidata.org/entity/P2650,Entity,,statements
@@ -101,9 +104,11 @@ present_in_work,wdt,present in work,http://www.wikidata.org/entity/P1441,Entity,
 motto,,,,Statement,,statements
 motto/value,wdt,motto,http://www.wikidata.org/entity/P1546,String,,statements
 motto/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+motto/note,bf,note,http://id.loc.gov/ontologies/bibframe/Note,String,,statements
 used_by,,,,Statement,,statements
 used_by/value,wdt,used by,http://www.wikidata.org/entity/P1535,Entity,,statements
 used_by/reference,dcterms,References,http://purl.org/dc/terms/references,Entity,,statements
+opposite_of,wdt,opposite of,http://www.wikidata.org/entity/P461,Entity,,statements
 filename,,,,String,,metadata
 n_id,,,,Integer,,metadata
 id,,,,String,,metadata

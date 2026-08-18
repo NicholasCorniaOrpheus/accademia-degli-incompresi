@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Laurens van den Bleeck; Lawrence Torrentinus
-    - id: FmA2BR2ZNPoV
     - label: Lorenzo Torrentino
+    - id: FmA2BR2ZNPoV
     <div style="clear:both;"></div>
 
 <br><br>

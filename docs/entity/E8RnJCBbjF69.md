@@ -95,9 +95,6 @@
     - [Ghindolfo Dattari](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n28sYsCwUZS5)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [Amor tu causi tutt'il penar mio (Dattari)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A4TRHbKoHDVm)
-
 ???+ abstract "instrumentation"
     - [bassus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN)
         * quantity: 1

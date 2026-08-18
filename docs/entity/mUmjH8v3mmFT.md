@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Cupido; Amor
-    - id: mUmjH8v3mmFT
     - label: Cupid
+    - id: mUmjH8v3mmFT
     <div style="clear:both;"></div>
 
 <br><br>

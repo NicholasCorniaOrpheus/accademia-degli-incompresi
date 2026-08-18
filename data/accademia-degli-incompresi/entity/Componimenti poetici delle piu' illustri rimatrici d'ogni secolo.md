@@ -43,6 +43,5 @@ contributor:
 subject:
   - "[[querelle des femmes]]"
 has_part:
-  - "[[S'ottenebra la Terra, il Sol s'oscura]]"
 based_on:
 ---

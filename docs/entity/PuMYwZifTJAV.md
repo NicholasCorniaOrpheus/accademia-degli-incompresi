@@ -97,9 +97,6 @@
     - [Lodovico Dolce](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mb4nqpu9MxKm)
         * role: [editor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dbNtcx3kn4i7)
 
-???+ abstract "has part"
-    - [Alti son questi monti, et alti sono](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdDychS6YRZn)
-
 
 
 

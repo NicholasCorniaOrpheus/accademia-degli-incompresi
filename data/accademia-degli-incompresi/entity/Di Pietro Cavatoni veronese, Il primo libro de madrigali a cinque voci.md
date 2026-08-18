@@ -35,7 +35,6 @@ contributor:
     value: "[[Pietro Cavatoni]]"
 subject:
 has_part:
-  - "[[Eran le vostre lagrime nel viso (Cavatoni)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"

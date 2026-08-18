@@ -11,8 +11,8 @@
 !!! note "metadata"
     - class: PoeticWork
     - description: The poet relates the shadows created by the Sun's light as instant paintings. The final verses allude to the moralistic goal of the poem, considering the author at the same level of dust and shadows.
-    - id: FjbGUJYPHrL6
     - label: Fatto è pittor'il Sol di raro ingegno
+    - id: FjbGUJYPHrL6
     <div style="clear:both;"></div>
 
 <br><br>

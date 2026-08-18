@@ -31,6 +31,15 @@ contributor:
     value: "[[Paolo Consoni]]"
 subject:
 has_part:
-  - "[[Già l'alma ti donai (Consoni)]]"
 instrumentation:
+  - quantity: 1
+    value: "[[quintus]]"
+  - quantity: 1
+    value: "[[bassus]]"
+  - quantity: 1
+    value: "[[tenor]]"
+  - quantity: 1
+    value: "[[altus]]"
+  - quantity: 1
+    value: "[[cantus]]"
 ---

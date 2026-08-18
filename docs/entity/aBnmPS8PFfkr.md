@@ -106,8 +106,23 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
 
-    
+
+
+
+  
+  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
+  </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "assets/agents/lavinia_fontana/",
+    images: ["Lavinia_Fontana_-_Portrait_of_Antonietta_Gonzalez_-_WGA07981.jpg", "Lavinia_Fontana_-_Self-Portrait_at_the_Spinet_-_WGA07985.jpg", "Lavinia_fontana,_autoritratto,_1579,_su_rame.jpg"],
+    iiif: []
+  };
+</script>
 

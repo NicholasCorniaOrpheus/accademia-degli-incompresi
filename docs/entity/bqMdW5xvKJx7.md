@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Roman dialect
-    - id: bqMdW5xvKJx7
     - label: Romanesco
+    - id: bqMdW5xvKJx7
     <div style="clear:both;"></div>
 
 <br><br>

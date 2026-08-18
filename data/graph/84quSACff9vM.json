@@ -19,8 +19,26 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UzQfEGr8A7ej",
+      "label": "concerto delle donne",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LZTgWriqHYKM",
+      "label": "Isabella Pallavicino",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CDXrJcdKgNWU",
       "label": "Fortunato Martinengo Cesaresco",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jJ96rJ2QKjkz",
+      "label": "Margherita Gonzaga",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
@@ -113,7 +131,22 @@
       "property": "related_to"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UzQfEGr8A7ej",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LZTgWriqHYKM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "property": "member_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CDXrJcdKgNWU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jJ96rJ2QKjkz",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
       "property": "occupation"
     },

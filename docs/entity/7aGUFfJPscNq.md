@@ -91,9 +91,6 @@
     - [Sforza degli Oddi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A8zvpBSv7FEi)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Come d'un bel desio s'accenda il core](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5toqxc8J4V2y)
-
 ???+ abstract "identifier"
     - [CNCE023740](https://edit16.iccu.sbn.it/titolo/CNCE023740)
 

@@ -93,6 +93,20 @@
         * note: Google Books provides a reprint from 1555
 
 ???+ abstract "contributor"
+    - [[Giovanni Battista Giraldi]]
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - [Gaspara Stampa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dGUWfMNNCYuo)
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - [[Girolamo Muzio]]
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - [Gaspara Stampa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dGUWfMNNCYuo)
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - [[Fausta Tacita]]
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - 
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+    - [Benedetto Varchi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdyZG6fXKCLc)
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - [Annibale Caro](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4EURnex9Eajh)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - [Alessandro Piccolomini](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bWqvazmy4YRT)
@@ -115,23 +129,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"]
+  };
+</script>
 

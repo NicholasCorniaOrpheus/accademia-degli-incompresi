@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - description: Repeating a word or phrase at the beginning of successive clauses in order to strengthen an argument.
-    - id: 8sSx8HhcDxv6
     - label: anaphora
+    - id: 8sSx8HhcDxv6
     <div style="clear:both;"></div>
 
 <br><br>

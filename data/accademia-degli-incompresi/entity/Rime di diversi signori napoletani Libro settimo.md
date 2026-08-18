@@ -26,6 +26,5 @@ contributor:
     value: "[[Lodovico Dolce]]"
 subject:
 has_part:
-  - "[[Alti son questi monti, et alti sono]]"
 based_on:
 ---

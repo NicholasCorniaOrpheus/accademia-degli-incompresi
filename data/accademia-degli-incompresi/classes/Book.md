@@ -101,11 +101,6 @@ fields:
     options: {}
     path: ""
     id: hgYtRD
-  - name: has_part
-    type: MultiFile
-    options: {}
-    path: ""
-    id: xZOmSX
   - name: reference
     type: MultiFile
     options: {}
@@ -145,7 +140,34 @@ fields:
     options: {}
     path: HFYBI3
     id: G0hBHR
-version: "2.57"
+  - name: has_part
+    type: ObjectList
+    options:
+      displayTemplate: ""
+      itemDisplayTemplate: ""
+    path: ""
+    id: 1cD2vn
+  - name: value
+    type: File
+    options: {}
+    path: 1cD2vn
+    id: Q5cvhD
+  - name: section
+    type: Input
+    options: {}
+    path: 1cD2vn
+    id: k2Phz4
+  - name: volume
+    type: Input
+    options: {}
+    path: 1cD2vn
+    id: kwOkEu
+  - name: pages
+    type: Input
+    options: {}
+    path: 1cD2vn
+    id: GLEgnd
+version: "2.78"
 limit: 20
 mapWithTag: false
 icon: package
@@ -163,7 +185,6 @@ fieldsOrder:
   - rhQ87v
   - NcmQK7
   - hgYtRD
-  - xZOmSX
   - 6K9W9I
   - zybiuh
   - Ad4FlQ
@@ -175,6 +196,11 @@ fieldsOrder:
   - aQ3hS1
   - rYcoF0
   - qrpyv2
+  - 1cD2vn
+  - Q5cvhD
+  - k2Phz4
+  - GLEgnd
+  - kwOkEu
   - KFXCiM
   - dxO3jP
   - FtmCDL

@@ -26,7 +26,5 @@ contributor:
 subject:
   - "[[epistolary literature]]"
 has_part:
-  - "[[Cantava un giorno la mia Nimpha, quando]]"
-  - "[[Oh dolorosi amanti]]"
 based_on:
 ---

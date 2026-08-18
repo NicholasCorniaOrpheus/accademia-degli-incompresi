@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: raggio; ray of light; beam of light
-    - id: DZwg5ijCKnjb
     - label: light beam
+    - id: DZwg5ijCKnjb
     <div style="clear:both;"></div>
 
 <br><br>

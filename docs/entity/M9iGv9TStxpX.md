@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: alba amicorum; stammbuch; friendship book
-    - id: M9iGv9TStxpX
     - label: album amicorum
+    - id: M9iGv9TStxpX
     <div style="clear:both;"></div>
 
 <br><br>
@@ -73,6 +73,9 @@
 ## Statements
 ???+ abstract "identifier"
     - [Q457843](http://www.wikidata.org/entity/Q457843)
+
+???+ abstract "described by source"
+    - [[(Testa 2020)]]
 
 
 

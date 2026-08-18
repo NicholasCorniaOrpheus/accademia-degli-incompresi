@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: ombra; shade
-    - id: fNnw4P8dLQ5w
     - label: shadow
+    - id: fNnw4P8dLQ5w
     <div style="clear:both;"></div>
 
 <br><br>

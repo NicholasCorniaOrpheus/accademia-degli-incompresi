@@ -39,6 +39,5 @@ contributor:
     value: "[[Dionigi Atanagi]]"
 subject:
 has_part:
-  - "[[Chi è costei, che come nuova Aurora]]"
 based_on:
 ---

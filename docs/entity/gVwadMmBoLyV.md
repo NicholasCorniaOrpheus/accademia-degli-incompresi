@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: Giove; Jupiter
-    - id: gVwadMmBoLyV
     - label: Zeus
+    - id: gVwadMmBoLyV
     <div style="clear:both;"></div>
 
 <br><br>

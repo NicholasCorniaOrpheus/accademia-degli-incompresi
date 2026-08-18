@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Organisation
     - aliases: BNE
-    - id: BhaViHzV47bP
     - label: Biblioteca Nacional de España
+    - id: BhaViHzV47bP
     <div style="clear:both;"></div>
 
 <br><br>

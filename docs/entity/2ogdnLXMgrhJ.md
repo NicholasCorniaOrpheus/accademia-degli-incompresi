@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Organisation
     - aliases: Accademia degli Umidi di Firenze
-    - id: 2ogdnLXMgrhJ
     - label: Accademia Fiorentina
+    - id: 2ogdnLXMgrhJ
     <div style="clear:both;"></div>
 
 <br><br>

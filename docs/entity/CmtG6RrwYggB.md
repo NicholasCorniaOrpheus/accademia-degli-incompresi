@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Jacopo Cicognini; Giacomo Cicognini
-    - id: CmtG6RrwYggB
     - label: Iacopo Cicognini
+    - id: CmtG6RrwYggB
     <div style="clear:both;"></div>
 
 <br><br>

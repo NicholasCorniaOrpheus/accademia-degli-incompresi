@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: PoeticWork
-    - id: GcdSWz7hHKGD
     - label: O bella Dea, che da' celesti giri
+    - id: GcdSWz7hHKGD
     <div style="clear:both;"></div>
 
 <br><br>

@@ -10,8 +10,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: PoeticWork
-    - id: ehZgrkWs7VPp
     - label: Nasce la vita mia dal mio morire
+    - id: ehZgrkWs7VPp
     <div style="clear:both;"></div>
 
 <br><br>
@@ -134,8 +134,23 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
 
-    
+
+
+
+  
+  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
+  </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "assets/poems/nasce_la_vita_mia_dal_mio_morire/",
+    images: ["001.jpg"],
+    iiif: []
+  };
+</script>
 

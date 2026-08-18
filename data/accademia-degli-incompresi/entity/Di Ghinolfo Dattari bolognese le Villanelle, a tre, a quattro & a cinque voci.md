@@ -25,7 +25,6 @@ contributor:
     value: "[[Ghindolfo Dattari]]"
 subject:
 has_part:
-  - "[[Amor tu causi tutt'il penar mio (Dattari)]]"
 instrumentation:
   - quantity: 1
     value: "[[bassus]]"

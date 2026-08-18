@@ -26,7 +26,6 @@ contributor:
     value: "[[Giovanni Battista Conforti]]"
 subject:
 has_part:
-  - "[[Nasce la vita mia dal mio morire (Conforti)]]"
 instrumentation:
   - quantity: 1
     value: "[[altus]]"

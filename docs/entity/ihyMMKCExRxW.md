@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: albero; arboro
-    - id: ihyMMKCExRxW
     - label: tree
+    - id: ihyMMKCExRxW
     <div style="clear:both;"></div>
 
 <br><br>

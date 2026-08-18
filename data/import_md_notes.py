@@ -1,8 +1,10 @@
 from kblight.entity import import_md, assets
-from kblight.statement import statements
+from kblight.statement import statements, inverse_properties
 from kblight import utilities
 
 import yaml, os
+
+### DIRECTORIES AND CONFIGURATION FILES
 
 credentials = utilities.json2dict("./config/credentials.json")
 
@@ -16,7 +18,11 @@ base_url = "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/e
 
 properties_mapping_path = "./mappings/yaml_properties2lod.csv"
 
+inverse_properties_mapping_path = "./mappings/yaml_inverse_properties.csv"
+
 class_mapping_path = "./mappings/yaml_classes2lod.csv"
+
+### CODE
 
 print("Generating UUID-labels mapping....")
 uuid_mapping_index = import_md.generate_label_uuid_mapping(yaml_dir=yaml_dir)
@@ -33,6 +39,11 @@ import_md.extract_metadata(
     update_existing=True,
     mapping_index=uuid_mapping_index,
 )
+
+# print("Populate inverse properties according to mapping...")
+# inverse_properties.populate_inverse_properties(
+#     yaml_dir=yaml_dir, inverse_properties_mapping_path=inverse_properties_mapping_path
+# )
 
 print("Organize statements according to category...")
 statements.organize_statements(

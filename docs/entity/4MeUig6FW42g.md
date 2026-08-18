@@ -177,8 +177,23 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
 
-    
+
+
+
+  
+  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
+    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
+  </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "assets/poems/deh_girate,_luci_amate/",
+    images: ["001.jpg", "002.jpg", "003.jpg"],
+    iiif: []
+  };
+</script>
 

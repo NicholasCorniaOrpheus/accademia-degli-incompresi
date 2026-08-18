@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Organisation
     - description: Fictional academy created by Anton Francesco Doni
-    - id: SKyewNmUMKH3
     - label: Accademia dei Pellegrini
+    - id: SKyewNmUMKH3
     <div style="clear:both;"></div>
 
 <br><br>

@@ -11,8 +11,8 @@
     - class: Concept
     - aliases: serious play
     - description: Use of games in order to acquire new knowledge, or understand serious topics through a playful attitude.
-    - id: hwaVpgj7GbXT
     - label: serio ludere
+    - id: hwaVpgj7GbXT
     <div style="clear:both;"></div>
 
 <br><br>

@@ -97,8 +97,17 @@
     - [Marc'Antonio Pordenone](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PSizCrgD886r)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [Ne la dolce stagion di Primavera (Pordenone)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SX6ZTsJSQxgu)
+???+ abstract "instrumentation"
+    - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
+        * quantity: 1
+    - [bassus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN)
+        * quantity: 1
+    - [tenor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG)
+        * quantity: 1
+    - [altus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx)
+        * quantity: 1
+    - [cantus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L)
+        * quantity: 1
 
 
 

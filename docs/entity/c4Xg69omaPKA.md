@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: mille; 1000; one thousand
-    - id: c4Xg69omaPKA
     - label: thousand
+    - id: c4Xg69omaPKA
     <div style="clear:both;"></div>
 
 <br><br>

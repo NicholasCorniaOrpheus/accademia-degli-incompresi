@@ -7,7 +7,8 @@
 class KBLightInit {
   constructor() {
     this.d3Initialized = false;
-    this.osdInitialized = false;
+    // note: we don't use a single osdInitialized boolean anymore because
+    // there can be multiple viewers on a page; initialization is per-container.
     this.config = window.kbGraphConfig || {};
     this.graphInitialized = false;
   }
@@ -91,91 +92,174 @@ class KBLightInit {
   }
 
   initOpenSeadragon() {
-    const osdContainer = document.querySelector("#osd-viewer");
-    const assets = this.config.assets;
+    // Find all viewers that the new template emits (class .osd-viewer)
+    const osdElements = Array.from(document.querySelectorAll('.osd-viewer'));
+    const assets = this.config.assets || {};
 
-    if (!osdContainer || !assets) {
+    // Backwards compatibility: if no .osd-viewer found, try legacy #osd-viewer id
+    if (osdElements.length === 0) {
+      const legacy = document.querySelector('#osd-viewer');
+      if (legacy) osdElements.push(legacy);
+    }
+
+    if (!osdElements.length || !assets) {
       return;
     }
 
-    if (this.osdInitialized) return;
-    this.osdInitialized = true;
+    // If assets.iiif is a single string, leave as string; if array, keep array.
+    // If assets.iiif can be undefined/null.
 
-    console.log("KB: Initializing OpenSeadragon");
+    osdElements.forEach((el, idx) => {
+      // Prevent double-init of the same DOM element
+      if (el.dataset.osdInitialized === "true") return;
 
-    // 1. IIIF Manifest (v2 or v3)
-    if (assets.iiif && typeof assets.iiif === 'string' && assets.iiif.trim() !== "") {
-      this._loadIIIFManifest(assets.iiif, osdContainer);
-      return;
-    }
-
-    // 2. Static images fallback
-    if (Array.isArray(assets.images) && assets.images.length > 0) {
-      const tileSources = assets.images
-        .map(item => {
-          const filename = (typeof item === 'string') ? item : item?.value;
-          if (!filename) return null;
-
-          const base = assets.base_github_url || "";
-          const path = assets.local_path || "";
-          const url = (base + path + filename).replace(/([^:]\/)\/+/g, "$1");
-
-          return { type: 'image', url: url };
-        })
-        .filter(s => s !== null);
-
-      if (tileSources.length > 0) {
-        this._initOSD(tileSources, osdContainer);
-      } else {
-        this._showNoAssets(osdContainer);
+      // Ensure element has an id (OpenSeadragon requires a unique id if using id option)
+      if (!el.id) {
+        el.id = `osd-viewer-generated-${idx}`;
       }
-    } else {
-      this._showNoAssets(osdContainer);
-    }
+
+      // Try to find per-element manifest first (data-manifest)
+      let manifestRaw = el.dataset.manifest; // stringified JSON or URL
+      let manifest = null;
+
+      if (manifestRaw) {
+        try {
+          manifest = JSON.parse(manifestRaw);
+        } catch (e) {
+          // manifestRaw is not JSON => probably a URL string
+          manifest = manifestRaw;
+        }
+      } else {
+        // Fallback to the page-level assets.iiif
+        if (assets.iiif) {
+          if (Array.isArray(assets.iiif)) {
+            // If there are as many manifests as elements, map by index; else, pick the first
+            manifest = (assets.iiif.length > idx) ? assets.iiif[idx] : (assets.iiif.length === 1 ? assets.iiif[0] : assets.iiif);
+          } else {
+            // a single string (URL)
+            manifest = assets.iiif;
+          }
+        }
+      }
+
+      // If manifest is present and non-empty string or object, handle it
+      if (manifest) {
+        // If manifest is an object (already parsed manifest JSON), parse directly
+        if (typeof manifest === 'object') {
+          const tileSources = this._parseIIIFManifest(manifest);
+          if (tileSources && tileSources.length > 0) {
+            this._initOSD(tileSources, el);
+          } else {
+            this._showNoAssets(el);
+          }
+          el.dataset.osdInitialized = "true";
+        } else if (typeof manifest === 'string' && manifest.trim() !== "") {
+          // Assume manifest is a URL to fetch
+          this._loadIIIFManifest(manifest, el).then(success => {
+            el.dataset.osdInitialized = "true";
+          }).catch(() => {
+            el.dataset.osdInitialized = "true";
+          });
+        } else {
+          // manifest empty string
+          this._showNoAssets(el);
+          el.dataset.osdInitialized = "true";
+        }
+      } else {
+        // No IIIF manifest - fallback to images array
+        if (Array.isArray(assets.images) && assets.images.length > 0) {
+          const tileSources = assets.images
+            .map(item => {
+              const filename = (typeof item === 'string') ? item : item?.value;
+              if (!filename) return null;
+
+              const base = assets.base_github_url || "";
+              const path = assets.local_path || "";
+              const url = (base + path + filename).replace(/([^:]\/)\/+/g, "$1");
+
+              return { type: 'image', url: url };
+            })
+            .filter(s => s !== null);
+
+          if (tileSources.length > 0) {
+            this._initOSD(tileSources, el);
+          } else {
+            this._showNoAssets(el);
+          }
+        } else {
+          this._showNoAssets(el);
+        }
+        el.dataset.osdInitialized = "true";
+      }
+    });
   }
 
   /**
    * Load IIIF Presentation manifest (v2 or v3)
-   * Extracts canvas tile sources from the manifest
+   * Accepts either a URL string to fetch or an already-parsed manifest object.
+   * Returns a Promise that resolves true on success or false on failure.
    */
-  _loadIIIFManifest(manifestUrl, container) {
-    console.log("KB: Loading IIIF manifest from", manifestUrl);
-
-    // Add CORS header and credentials
-    fetch(manifestUrl, {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json'
-      },
-      credentials: 'omit'  // Don't send credentials for CORS
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-        return response.json();
-      })
-      .then(manifest => {
-        console.log("KB: Manifest loaded successfully:", manifest);
-        console.log("KB: Manifest @context:", manifest['@context']);
-
-        const tileSources = this._parseIIIFManifest(manifest);
-
-        console.log("KB: Parsed tile sources:", tileSources);
-
-        if (tileSources && tileSources.length > 0) {
-          console.log("KB: Initializing OSD with tile sources");
-          this._initOSD(tileSources, container);
-        } else {
-          console.warn("KB: No tile sources found in manifest");
+  _loadIIIFManifest(manifestOrUrl, container) {
+    return new Promise((resolve, reject) => {
+      // If manifestOrUrl is an object, parse directly
+      if (typeof manifestOrUrl === 'object') {
+        try {
+          const tileSources = this._parseIIIFManifest(manifestOrUrl);
+          if (tileSources && tileSources.length > 0) {
+            this._initOSD(tileSources, container);
+            resolve(true);
+          } else {
+            this._showNoAssets(container);
+            resolve(false);
+          }
+        } catch (err) {
+          console.error("KB: Error parsing manifest object:", err);
           this._showNoAssets(container);
+          reject(err);
         }
+        return;
+      }
+
+      // Otherwise treat manifestOrUrl as a URL string
+      const manifestUrl = manifestOrUrl;
+      console.log("KB: Loading IIIF manifest from", manifestUrl);
+
+      // Add CORS header and credentials
+      fetch(manifestUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json'
+        },
+        credentials: 'omit'  // Don't send credentials for CORS
       })
-      .catch(err => {
-        console.error("KB: Failed to load IIIF manifest:", err);
-        console.error("KB: Manifest URL:", manifestUrl);
-        this._showNoAssets(container);
-      });
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(manifest => {
+          console.log("KB: Manifest loaded successfully:", manifest);
+          const tileSources = this._parseIIIFManifest(manifest);
+
+          console.log("KB: Parsed tile sources:", tileSources);
+
+          if (tileSources && tileSources.length > 0) {
+            this._initOSD(tileSources, container);
+            resolve(true);
+          } else {
+            console.warn("KB: No tile sources found in manifest");
+            this._showNoAssets(container);
+            resolve(false);
+          }
+        })
+        .catch(err => {
+          console.error("KB: Failed to load IIIF manifest:", err);
+          console.error("KB: Manifest URL:", manifestUrl);
+          this._showNoAssets(container);
+          reject(err);
+        });
+    });
   }
 
   /**
@@ -344,7 +428,7 @@ class KBLightInit {
       console.log("KB: Tile sources:", JSON.stringify(tileSources, null, 2));
 
       const viewer = new OpenSeadragon({
-        id: "osd-viewer",
+        id: container.id, // use the container's id (unique per viewer)
         prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
         sequenceMode: tileSources.length > 1,
         showReferenceStrip: tileSources.length > 1,

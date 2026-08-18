@@ -25,7 +25,6 @@ contributor:
     value: "[[Daniele Barbaro]]"
 subject:
 has_part:
-  - "[[Da meraviglia il nostro dubbio nasce]]"
 based_on:
 local_asset_path:
 ---

@@ -74,6 +74,9 @@
 ???+ abstract "identifier"
     - [Q4785229](http://www.wikidata.org/entity/Q4785229)
 
+???+ abstract "described by source"
+    - [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
+
 ???+ abstract "instance of"
     - [human](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU)
 

@@ -25,6 +25,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n3jrHXfwYr6b",
+      "label": "Vincenza Armani",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sio7N3N8QfxC",
       "label": "Chi vive senza mai sentir riposo",
       "class": "PoeticWork",
@@ -39,6 +45,18 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dgeVEev2vEhf",
       "label": "Oh dolorosi amanti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2YQzcFykWbWq",
+      "label": "Giaches de Wert",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hL73VDCZJnHi",
+      "label": "Non temete più, amanti",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     }
@@ -60,6 +78,11 @@
       "property": "depicts"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n3jrHXfwYr6b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q3VtFUAxVKyf",
+      "property": "related_to"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sio7N3N8QfxC",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q3VtFUAxVKyf",
       "property": "depicts"
@@ -71,6 +94,16 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dgeVEev2vEhf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q3VtFUAxVKyf",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2YQzcFykWbWq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q3VtFUAxVKyf",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hL73VDCZJnHi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q3VtFUAxVKyf",
       "property": "depicts"
     }

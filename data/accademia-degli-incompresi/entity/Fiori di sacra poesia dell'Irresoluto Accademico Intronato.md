@@ -23,6 +23,5 @@ contributor:
     value: "[[Carlo Papini]]"
 subject:
 has_part:
-  - "[[Sciogli la lingua al canto, e leghi i cori]]"
 based_on:
 ---

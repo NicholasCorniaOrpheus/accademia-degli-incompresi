@@ -11,8 +11,8 @@
 !!! note "metadata"
     - class: PoeticWork
     - description: There seems to be any poetry collection including this poem by Molza, except from the madrigal by Primavera.
-    - id: LX2mKMX7tgLK
     - label: La luce occhi miei lassi
+    - id: LX2mKMX7tgLK
     <div style="clear:both;"></div>
 
 <br><br>

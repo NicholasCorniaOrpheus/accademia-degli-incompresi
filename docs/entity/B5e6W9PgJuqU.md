@@ -75,6 +75,9 @@
 ???+ abstract "identifier"
     - [Q122761756](http://www.wikidata.org/entity/Q122761756)
 
+???+ abstract "opposite of"
+    - [student](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zwz6KuPgWRWe)
+
 
 
 

@@ -26,7 +26,6 @@ contributor:
     value: "[[Accademia dei Trasformati di Lecce]]"
 subject:
 has_part:
-  - "[[Deh Florinda gratiosa]]"
 based_on:
 catalog_identifier:
 ---

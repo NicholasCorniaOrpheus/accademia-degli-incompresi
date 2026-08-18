@@ -26,6 +26,5 @@ contributor:
     value: "[[Giambattista Marino]]"
 subject:
 has_part:
-  - "[[Un bel ricco Ocean di chiari pianti]]"
 based_on:
 ---

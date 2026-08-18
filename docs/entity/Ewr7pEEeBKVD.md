@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Gasparo Murtola
-    - id: Ewr7pEEeBKVD
     - label: Gaspare Murtola
+    - id: Ewr7pEEeBKVD
     <div style="clear:both;"></div>
 
 <br><br>

@@ -113,9 +113,6 @@
 ???+ abstract "subject"
     - [querelle des femmes](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNEkus8TKX7L)
 
-???+ abstract "has part"
-    - [S'ottenebra la Terra, il Sol s'oscura](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jZtqboPimYp3)
-
 
 
 
@@ -124,38 +121,25 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10812949/manifest"
-        };
-      </script>
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10754251/manifest"
-        };
-      </script>
-    
 
-    
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10812949/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+    <div id="openseadragon-container-1" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-1" class="osd-viewer" data-manifest='"https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10754251/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10812949/manifest", "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10754251/manifest"]
+  };
+</script>
 

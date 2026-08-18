@@ -90,6 +90,10 @@
         * permalink: [CNCE038182](https://edit16.iccu.sbn.it/titolo/CNCE038182)
         * external source: [RKFP6-8DuOEC](https://books.google.it/books?id=RKFP6-8DuOEC)
 
+???+ abstract "contributor"
+    - [[Orsola Bertolai]]
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
+
 
 
 

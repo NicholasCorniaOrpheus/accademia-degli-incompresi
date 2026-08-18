@@ -73,6 +73,9 @@
 ???+ abstract "instance of"
     - [occupation](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6oNeDcfvTHyK)
 
+???+ abstract "identifier"
+    - [Q36834](http://www.wikidata.org/entity/Q36834)
+
 
 
 

@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Agent
     - aliases: Renée of France
-    - id: BTu8aQJK5duX
     - label: Renée of Valois
+    - id: BTu8aQJK5duX
     <div style="clear:both;"></div>
 
 <br><br>

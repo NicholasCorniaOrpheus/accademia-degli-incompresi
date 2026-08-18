@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: holy person; santo; santa
-    - id: icfpwcxuhjnS
     - label: saint
+    - id: icfpwcxuhjnS
     <div style="clear:both;"></div>
 
 <br><br>

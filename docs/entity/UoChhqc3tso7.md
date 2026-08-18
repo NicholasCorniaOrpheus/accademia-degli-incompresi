@@ -95,9 +95,6 @@
     - [Daniele Barbaro](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmUaXPEGtFwL)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
-???+ abstract "has part"
-    - [Da meraviglia il nostro dubbio nasce](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SYRcJbuBt6ai)
-
 
 
 ## Notes

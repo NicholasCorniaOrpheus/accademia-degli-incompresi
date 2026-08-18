@@ -95,9 +95,6 @@
     - [Giulio Renaldi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5UnJCVHBeMLK)
         * role: [composer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ)
 
-???+ abstract "has part"
-    - [L'empio tuo strale Amore (Renaldi)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ws6pk5zWnqBt)
-
 ???+ abstract "instrumentation"
     - [cantus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L)
         * quantity: 1
@@ -116,23 +113,22 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
-    
-    
-      <div id="openseadragon-container" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-          <div id="osd-viewer" style="width: 100%; height: 100%;"></div>
-      </div>
 
-      <!-- Configure OpenSeadragon -->
-      <script>
-        window.kbGraphConfig = window.kbGraphConfig || {};
-        window.kbGraphConfig.assets = {
-        base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-        local_path: "/",
-        images: [],
-        iiif: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00075411/manifest"
-        };
-      </script>
-    
 
-    
+
+
+    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
+      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00075411/manifest"' style="width:100%; height:100%;"></div>
+    </div>
+
+<!-- Export all assets as a single JSON object for page JS to consume -->
+<script>
+  window.kbGraphConfig = window.kbGraphConfig || {};
+  window.kbGraphConfig.assets = {
+    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+    local_path: "/",
+    images: [],
+    iiif: ["https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00075411/manifest"]
+  };
+</script>
 

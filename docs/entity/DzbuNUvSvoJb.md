@@ -92,6 +92,18 @@
         * publisher: [Giovanni Battista Sottile](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JNzgwEusvyRM)
         * external source: [BB344](http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB344/)
 
+???+ abstract "instrumentation"
+    - [quintus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp)
+        * quantity: 1
+    - [bassus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN)
+        * quantity: 1
+    - [tenor](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG)
+        * quantity: 1
+    - [altus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx)
+        * quantity: 1
+    - [cantus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L)
+        * quantity: 1
+
 
 
 

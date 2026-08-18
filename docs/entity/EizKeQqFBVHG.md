@@ -10,8 +10,8 @@
 !!! note "metadata"
     - class: Concept
     - aliases: poetic improvisation; glosa
-    - id: EizKeQqFBVHG
     - label: extemporary poetry
+    - id: EizKeQqFBVHG
     <div style="clear:both;"></div>
 
 <br><br>

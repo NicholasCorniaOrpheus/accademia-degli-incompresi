@@ -9,8 +9,8 @@
 <img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: NotatedMusic
-    - id: nqNMJqJaMif5
     - label: Madrigali e pazzarelle a due voci. Libro primo di Nicolò Rubini
+    - id: nqNMJqJaMif5
     <div style="clear:both;"></div>
 
 <br><br>

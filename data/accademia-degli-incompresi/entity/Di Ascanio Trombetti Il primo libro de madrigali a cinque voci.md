@@ -27,7 +27,6 @@ contributor:
     value: "[[Ascanio Trombetti]]"
 subject:
 has_part:
-  - "[[Eran le vostre lagrime nel viso (Trombetti)]]"
 instrumentation:
   - quantity: 1
     value: "[[quintus]]"
