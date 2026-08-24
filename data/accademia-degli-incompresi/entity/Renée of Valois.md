@@ -7,6 +7,10 @@ member_of:
 occupation:
   - value: "[[patron of the arts]]"
 related_to:
+  - value: "[[Alfonso dalla Viola]]"
+    relationship: "[[patron of the arts]]"
+    reference:
+      - "[[(Stras 2018)]]"
   - value: "[[Ludovico Ariosto]]"
     relationship: "[[patron of the arts]]"
     reference:

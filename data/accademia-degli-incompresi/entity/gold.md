@@ -1,0 +1,10 @@
+---
+class: Concept
+label:
+description:
+identifier:
+  - http://www.wikidata.org/entity/Q897
+described_by_source:
+image:
+aliases:
+---

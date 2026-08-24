@@ -3,9 +3,11 @@ class: NotatedMusic
 label: Aeri racolti insieme
 description:
 identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV51830010
+  - https://edit16.iccu.sbn.it/titolo/CNCE036469
   - https://rism.online/sources/993120641
 described_by_source:
-  - "[[RISM]]"
+  - "[[RePIM]]"
 image:
 aliases:
 instance_of:
@@ -18,7 +20,7 @@ has_version:
     place_of_publication:
       - "[[Napoli]]"
     external_source: http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R229/
-    permalink: https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV51830010
+    permalink: https://edit16.iccu.sbn.it/titolo/CNCE036469
     note: Tenor part is missing
 contributor:
   - role: "[[composer]]"
@@ -37,6 +39,7 @@ contributor:
     value: "[[Rocco Rodio]]"
 subject:
   - "[[arie per cantare]]"
+  - "[[extemporary poetry]]"
 has_part:
 instrumentation:
   - value: "[[bassus]]"

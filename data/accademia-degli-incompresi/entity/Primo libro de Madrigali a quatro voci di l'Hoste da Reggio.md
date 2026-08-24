@@ -5,7 +5,9 @@ description:
 identifier:
   - https://rism.online/sources/990037984
   - https://edit16.iccu.sbn.it/titolo/CNCE044059
+  - https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV10420010
 described_by_source:
+  - "[[RePIM]]"
 image:
 aliases:
 instance_of:

@@ -12,6 +12,9 @@ views:
       - contributor
       - part_of
       - text
+    sort:
+      - property: file.name
+        direction: ASC
     rowHeight: medium
   - type: table
     name: agents
