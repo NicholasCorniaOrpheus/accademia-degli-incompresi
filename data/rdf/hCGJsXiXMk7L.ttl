@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hCGJsXiXMk7L-J5LNptxcPZZB a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "99" ;
+    rdf:predicate <> ;
+    rdf:subject adi:hCGJsXiXMk7L .
+
+adi:hCGJsXiXMk7L-UcLHPuey2VBV a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:kdhP2KUiWAF9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:hCGJsXiXMk7L .
+
+adi:hCGJsXiXMk7L-VakCB2bBZeKW a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1654" ;
+    rdf:predicate <> ;
+    rdf:subject adi:hCGJsXiXMk7L .
+
+adi:hCGJsXiXMk7L a rdfs:Resource ;
+    rdfs:label "Accademia delle Assicurate di Siena" ;
+    <> adi:2P97RzuZEUPb,
+        adi:kdhP2KUiWAF9 ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:gnchST7eRBTF ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

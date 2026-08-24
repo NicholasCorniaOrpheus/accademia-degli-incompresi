@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aDqLPFtLjEwa",
+      "label": "(Testa 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a4rNvLRqq9fj",
       "label": "Bibliothèque nationale de France",
       "class": "Organisation",
@@ -34,6 +40,11 @@
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KuZDSENkpEW6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aDqLPFtLjEwa",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KuZDSENkpEW6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9iGv9TStxpX",
       "property": "instance_of"
     },
@@ -51,6 +62,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KuZDSENkpEW6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXzN4ZwoQDDu",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9iGv9TStxpX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aDqLPFtLjEwa",
+      "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXzN4ZwoQDDu",

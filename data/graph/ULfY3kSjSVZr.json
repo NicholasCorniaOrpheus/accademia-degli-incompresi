@@ -7,6 +7,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portret_van_arts_Camillo_Gessi%2C_RP-P-1909-5424.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oY8MnkxdGut4",
+      "label": "Cinta di molli piume il collo, e'l petto",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
       "label": "Accademia dei Gelati di Bologna",
       "class": "Organisation",
@@ -35,6 +41,12 @@
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
+      "label": "teacher",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
   ],
   "links": [
@@ -60,8 +72,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
       "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oY8MnkxdGut4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",

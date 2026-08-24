@@ -8,5 +8,4 @@ described_by_source:
 image:
 aliases:
   - heraldic badge
-  - emblem
 ---

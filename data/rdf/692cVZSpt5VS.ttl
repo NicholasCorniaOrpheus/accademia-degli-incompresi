@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:692cVZSpt5VS-EeguG4oTXqjA a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "5605" ;
+    rdf:predicate <> ;
+    rdf:subject adi:692cVZSpt5VS .
+
+adi:692cVZSpt5VS-UxE3ZhNuEo8i a rdf:Statement ;
+    dcterms:references adi:6o7ptgSPFKW7 ;
+    rdf:object adi:htvvES2xJL7N ;
+    rdf:predicate <> ;
+    rdf:subject adi:692cVZSpt5VS .
+
+adi:692cVZSpt5VS a rdfs:Resource ;
+    rdfs:label "Giambattista Marino" ;
+    <> adi:CrTwYNz6rjM4,
+        adi:YVAbik9eKVEW,
+        adi:htvvES2xJL7N ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q332489> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Giovanni Battista Marino" ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

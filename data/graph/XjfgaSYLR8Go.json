@@ -7,17 +7,44 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8CkPQ8EToAfz",
+      "label": "Canzonette a tre voci del signor Tomaso Pecci. Libro primo",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2hYMECrC2z35",
       "label": "publisher",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jKgm7x2ZisFF",
+      "label": "Antwerpen",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/place.png"
     }
   ],
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XjfgaSYLR8Go",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jKgm7x2ZisFF",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XjfgaSYLR8Go",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2hYMECrC2z35",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8CkPQ8EToAfz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XjfgaSYLR8Go",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8CkPQ8EToAfz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jKgm7x2ZisFF",
+      "property": "has_version"
     }
   ]
 }

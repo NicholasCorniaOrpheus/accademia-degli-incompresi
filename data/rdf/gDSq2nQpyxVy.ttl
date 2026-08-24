@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gDSq2nQpyxVy-Dqnd3Ezjz3kp a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:gDSq2nQpyxVy ;
+    ns1:P304 "57" ;
+    ns1:P958 "Veronica Gambara." ;
+    schema:volumeNumber "1" .
+
+adi:gDSq2nQpyxVy-kQbTzC8z8jAF a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:RPt3AF9FDvgd ;
+    rdf:predicate <> ;
+    rdf:subject adi:gDSq2nQpyxVy .
+
+adi:gDSq2nQpyxVy a rdfs:Resource ;
+    rdfs:label "Quel nodo, in cui la mia beata sorte" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:RPt3AF9FDvgd ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Quel nodo, in cui la mia beata sorte,
+Per ordine del Ciel legommi e strinse
+Con mio grave dolor sciolse, e discinse
+Quella crudel, ch'il mondo chiama Morte.
+
+E fu l'affano sì gravoso, e forte,
+Che i miei piacer tutti in un punto estinse:
+E se non, che ragione al fin pur vinse,
+Fatte avrei mie giornate assai più corte.
+
+Ma il timor sol di non andar in parte
+Troppo lontana a quella, ove il bel viso
+Risplende sopra ogni lucente stella,
+
+Mitigato ha il furor: (che ingeno, od arte
+Far nol potea) sperando in Paradiso
+L'alma vedere oltra le belle bella.""" ;
+    dc:subject adi:an73BTiK6nrr ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:b4iEGX754ExJ ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

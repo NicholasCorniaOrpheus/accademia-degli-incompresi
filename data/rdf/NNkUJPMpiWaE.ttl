@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NNkUJPMpiWaE-9SXQPUceabz8 a rdf:Statement ;
+    rdf:object adi:bEkUf4bv5Dgj ;
+    rdf:predicate <> ;
+    rdf:subject adi:NNkUJPMpiWaE ;
+    ns1:P304 "225" ;
+    ns1:P958 "Alla Signora Margherita Sarocchi. Risposta." .
+
+adi:NNkUJPMpiWaE-jwmQZkCzHxjs a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:jUkaVk3KRX7R ;
+    rdf:predicate <> ;
+    rdf:subject adi:NNkUJPMpiWaE .
+
+adi:NNkUJPMpiWaE a rdfs:Resource ;
+    rdfs:label "Cingati homai de' suoi più verdi allori" ;
+    <> adi:bEkUf4bv5Dgj,
+        adi:jUkaVk3KRX7R ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """CINGATI homai de' suoi più verdi allori
+Apoloo il crin con sempiterno Aprile:
+Con auree penne homai da Battro a Thile
+Spieghi la Fama i tuoi veraci honori:
+
+MARINO, hor tu l'età del ferro indori
+Co'raggi del tu'ingegno alto, e sottile;
+Col chiaro canto, appo cui sembra humile
+Qual più sublime a' secoli migliori.
+
+Gloria a te, pena a me si deve, e duolo,
+Cui lieti non aprì mai tanto, o quanto
+Per le mie colpe, i suoi bei lumi il polo.
+
+Pur credi, che non poco ancor nel pianto.
+Ch'esca del mio bel nido, hor mi consolo,
+Cigno, che le sue piume alzi cotanto.""" ;
+    dc:subject adi:LYHHrTeytuwp,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:identifier <https://lyra.unil.ch/poems/14990> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:B8k36QrtTQLU ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    skos:altLabel "Cingati omai de' suoi più verdi allori" ;
+    ns1:P180 adi:692cVZSpt5VS,
+        adi:7refGZLnjZsh,
+        adi:R4q38qZbHK3Y,
+        adi:kxH89uEZ8Uxe ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

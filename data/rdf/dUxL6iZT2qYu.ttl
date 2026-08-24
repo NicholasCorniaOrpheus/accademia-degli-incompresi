@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dUxL6iZT2qYu-VLJNn9eUTVcJ a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=RKFP6-8DuOEC> ;
+    dcterms:publisher adi:bMbySjzKcojd ;
+    wdt:P291 adi:dYitBDGB87fT ;
+    rdf:object "N166d0fe3443b444398f3c0fcdfe789a3" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:dUxL6iZT2qYu ;
+    schema:datePublished "1587" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE038182> .
+
+adi:dUxL6iZT2qYu-hdGEvLWYUJWy a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:o8dUJLYPmTmL ;
+    rdf:predicate <> ;
+    rdf:subject adi:dUxL6iZT2qYu .
+
+adi:dUxL6iZT2qYu a rdfs:Resource ;
+    rdfs:label "Rime di diversi celebri poeti dell'età nostra" ;
+    <> adi:o8dUJLYPmTmL ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE038182> ;
+    dcterms:title "Rime di diuersi celebri poeti dell'età nostra: nuouamente raccolte, e poste in luce" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

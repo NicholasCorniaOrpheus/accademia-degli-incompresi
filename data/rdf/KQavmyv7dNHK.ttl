@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KQavmyv7dNHK-Dh9xsrH87Zc6 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=Sp8gPV-8p8gC> ;
+    dcterms:publisher adi:LKffTyy9kohN ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Ncae6b4dc1d0c487cb6ad11d197f13dca" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KQavmyv7dNHK ;
+    schema:datePublished "1594" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE004211> .
+
+adi:KQavmyv7dNHK-KUbgxfjygXL4 a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:f56LGEz2kCWP ;
+    rdf:predicate <> ;
+    rdf:subject adi:KQavmyv7dNHK .
+
+adi:KQavmyv7dNHK a rdfs:Resource ;
+    rdfs:label "Dell'imprese di Scipione Bargagli gentil'huomo senese" ;
+    <> adi:f56LGEz2kCWP,
+        adi:hjMNPz3wwVtb ;
+    dc:subject adi:7SDwTH2xoWfL,
+        adi:NALenMNqEw64 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE004211> ;
+    dcterms:title "Dell'imprese di Scipion Bargagli gentil'huomo sanese. Alla prima parte, la seconda, e la terza nuouamente aggiunte: doue; doppo tutte l'opere cosi scritte a penna, come stampate, ch'egli potuto ha leggendo vedere di coloro, che della materia dell'imprese hanno parlato; della vera natura di quelle si ragiona" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:9m23V9Hha9iA .
+

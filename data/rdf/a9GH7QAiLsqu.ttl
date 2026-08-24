@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:a9GH7QAiLsqu-2M7oKjRzWTv7 a rdf:Statement ;
+    bf:Role adi:dbNtcx3kn4i7 ;
+    rdf:object adi:Da95B7dvHP7b ;
+    rdf:predicate <> ;
+    rdf:subject adi:a9GH7QAiLsqu .
+
+adi:a9GH7QAiLsqu-HHXmGBp2xejr a rdf:Statement ;
+    bf:electronicLocator <https://lyra.unil.ch/books/134/images> ;
+    dcterms:publisher adi:cA2VQsNtDVwP ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Na33f5fcc7ccd4961830a7c47464b9066" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:a9GH7QAiLsqu ;
+    schema:datePublished "1554" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034664> .
+
+adi:a9GH7QAiLsqu a rdfs:Resource ;
+    rdfs:label "Rime di m. Domenico Mantova" ;
+    <> adi:Da95B7dvHP7b ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034664>,
+        <https://lyra.unil.ch/books/134> ;
+    dcterms:title "Rime di m. Domenico Mantoua, gentil'huomo bresciano" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

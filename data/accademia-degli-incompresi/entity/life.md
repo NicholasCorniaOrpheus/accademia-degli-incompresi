@@ -2,7 +2,7 @@
 class: Concept
 instance_of:
 subclass_of:
-opposite_of: "[[death|morte]]"
+opposite_of: "[[death]]"
 identifier:
   - http://www.wikidata.org/entity/Q3
 aliases:

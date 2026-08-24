@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WXWHJZNWk6dY-QmbXgcXA4tUT a rdf:Statement ;
+    rdf:object adi:MW7UE9R8m7LS ;
+    rdf:predicate <> ;
+    rdf:subject adi:WXWHJZNWk6dY ;
+    ns1:P304 "39" ;
+    ns1:P958 "Torquato Tasso. Per la Illustre Sign. Tarquinia Molza." ;
+    schema:volumeNumber "1" .
+
+adi:WXWHJZNWk6dY-ha5dvwRraLfT a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:UJZ7Qau55M9Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:WXWHJZNWk6dY .
+
+adi:WXWHJZNWk6dY a rdfs:Resource ;
+    rdfs:label "Cantava in riva al fiume" ;
+    <> adi:MW7UE9R8m7LS,
+        adi:UJZ7Qau55M9Z ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Cantava in riva al fiume
+Tirsi d'Eleonora;
+E rispondean le selve, e l'onde honora,
+E parea mormorando
+Dir l'ora, hora, ch'appare
+L'Aurora par, che lieta esca dal mare.
+Hor chi l'honora amando?
+E l'acque insieme ei rami;
+Hor chi fia, che l'honori, e che non l'ami?""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F023020000101_PPPP00286400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:2tBp5oPS8ekR,
+        adi:8hmsnHCi3PMp,
+        adi:Nf6cF32SCt6E,
+        adi:Uux5kR57f9UN,
+        adi:cw9SB9nEpgGt ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

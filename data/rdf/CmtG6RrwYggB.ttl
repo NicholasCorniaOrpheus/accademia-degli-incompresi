@@ -1,0 +1,27 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CmtG6RrwYggB-7MmyVH8SBFHW a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "9945" ;
+    rdf:predicate <> ;
+    rdf:subject adi:CmtG6RrwYggB .
+
+adi:CmtG6RrwYggB a rdfs:Resource ;
+    rdfs:label "Iacopo Cicognini" ;
+    <> adi:4sDs34CNqBUK,
+        adi:Hm8LNCNr7Wxn,
+        adi:YVAbik9eKVEW,
+        adi:Ye88EjEg6hpa ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Giacomo Cicognini",
+        "Jacopo Cicognini" ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

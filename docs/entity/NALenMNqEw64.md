@@ -10,7 +10,7 @@
 !!! note "metadata"
     - class: Concept
     - label: impresa
-    - aliases: heraldic badge; emblem
+    - aliases: heraldic badge
     - id: NALenMNqEw64
     <div style="clear:both;"></div>
 
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/NALenMNqEw64.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/NALenMNqEw64.json";
     </script>
 
 

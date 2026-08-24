@@ -9,7 +9,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
-  - "[[salon|literary salon]]"
+  - "[[salon]]"
 inception:
   - value: 1559
     reference:

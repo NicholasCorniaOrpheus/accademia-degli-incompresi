@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AnWHu5XvFSJQ-JRanoKNjaaa9 a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8cwGVT3ZREMt ;
+    rdf:predicate <> ;
+    rdf:subject adi:AnWHu5XvFSJQ .
+
+adi:AnWHu5XvFSJQ-VvQZQSkiBtpX a rdf:Statement ;
+    rdf:object adi:dbmAAqzyQVgt ;
+    rdf:predicate <> ;
+    rdf:subject adi:AnWHu5XvFSJQ ;
+    ns1:P958 "Laura Terracina, I" .
+
+adi:AnWHu5XvFSJQ a rdfs:Resource ;
+    rdfs:label "Veggio il mondo fallir, veggiolo stolto" ;
+    <> adi:8cwGVT3ZREMt,
+        adi:dbmAAqzyQVgt ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Veggio il mondo fallir, veggiolo stolto, 
+E veggio la virtute in abbandono, 
+E che le muse a vil tenute sono, 
+Tal che l’ingegno mio quasi è sepolto.
+
+Veggio in odio ed invidia tutto vòlto
+Il pensier degli amici, e in falso tono
+Veggio tradito dal malvagio il buono,
+E tutto a' nostri danni il ciel rivolto.
+
+Nessun al ben comun tien fermo il segno, 
+Anzi al suo proprio ognun discorre seco, 
+Mentre ha di vari affetti il petto pregno. 
+
+Io veggio e nel veder tengo odio meco, 
+Tal che vorrei vedermi per disdegno 
+O me senz’occhi o tutto’l mondo cieco.""" ;
+    dc:subject adi:Z5e4Z6WMSNSn ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

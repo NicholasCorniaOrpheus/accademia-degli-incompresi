@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NoqaiA4U5TQu-3QsMgUgUcEfw a rdf:Statement ;
+    rdf:object adi:dM6ssUyYVPtG ;
+    rdf:predicate <> ;
+    rdf:subject adi:NoqaiA4U5TQu ;
+    ns1:P958 "All'Irresoluto." .
+
+adi:NoqaiA4U5TQu-LRMcTYiDFLJi a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:NQyFBGWtNeGZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:NoqaiA4U5TQu .
+
+adi:NoqaiA4U5TQu-hYxZfnx4VTWs a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:FsYpDbCrjFXi ;
+    rdf:predicate <> ;
+    rdf:subject adi:NoqaiA4U5TQu .
+
+adi:NoqaiA4U5TQu a rdfs:Resource ;
+    rdfs:label "Sciogli la lingua al canto, e leghi i cori" ;
+    <> adi:FsYpDbCrjFXi,
+        adi:NQyFBGWtNeGZ,
+        adi:dM6ssUyYVPtG ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Sciogli la lingua al canto, e leghi i cori,
+E scopri in carte anguste angusta vena,
+Mentre di lui, che l'Universo affrena,
+Spieghi in sì dolce stil gli aspri dolori.
+
+D'impuri no, ma di pudici ardori
+Di magnanimi Eroi tua mente è piena,
+Onde in contar di lor l'acerba pena,
+Le spine ingemmi, e'l duro ferro indori.
+
+Come in gioia si cangi il duol profondo,
+La morte in vita, in luce ombre funeste,
+Mostra il tuo stile oltre ogni stil facondo.
+
+Così spirto immortale in mortal veste,
+Mentre ti celi altri, ti scopri al Mondo
+In terreno sembiante Orfeo celeste.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:YVAbik9eKVEW ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

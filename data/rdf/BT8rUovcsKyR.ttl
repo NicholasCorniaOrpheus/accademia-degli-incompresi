@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BT8rUovcsKyR-7xw62ANt5d9h a rdf:Statement ;
+    rdf:object adi:XFzV5zn8KYUy ;
+    rdf:predicate <> ;
+    rdf:subject adi:BT8rUovcsKyR ;
+    ns1:P304 "309" ;
+    ns1:P958 "Fausta Tacita." .
+
+adi:BT8rUovcsKyR-cGYhuWwaeUmh a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:PndEj8FtSonb ;
+    rdf:predicate <> ;
+    rdf:subject adi:BT8rUovcsKyR .
+
+adi:BT8rUovcsKyR-hEh6sk5NuQwi a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:jAAB8FezF2Df ;
+    rdf:predicate <> ;
+    rdf:subject adi:BT8rUovcsKyR .
+
+adi:BT8rUovcsKyR a rdfs:Resource ;
+    rdfs:label "Dove le più gentil di questa etate" ;
+    <> adi:PndEj8FtSonb,
+        adi:XFzV5zn8KYUy,
+        adi:jAAB8FezF2Df ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Dove le più gentil di questa etate
+Alme, al gran Tempio van devote intorno,
+Oggi che'l Sol n'adduce un sì bel giorno,
+E scopre il Ciel, quante mai fur poggiate,
+
+Con tante voglie, a somma gloria alzate,
+Volo contenta; e dove hor fa soggiorno
+Lascio la frale spoglia, a cui fia un giorno
+Chiara de l'Idol suo l'alta beltade.
+
+Apransi homai l'aventurose porte,
+E s'oda sì leggiadra compagnia
+Cantar quanto il cor detta allegra, e forte.
+
+Indi fatta a' suoi altari immortal via,
+Arda l'anima pura, e in sì alta forte
+Vegga prima d'ogn'altra arder la mia.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:Nf6cF32SCt6E,
+        adi:PndEj8FtSonb,
+        adi:dLYDrPERbWVH ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

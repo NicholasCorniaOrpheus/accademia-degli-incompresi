@@ -1,0 +1,25 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kdhP2KUiWAF9-2mfjyx9gvZRd a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "20220" ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdhP2KUiWAF9 .
+
+adi:kdhP2KUiWAF9 a rdfs:Resource ;
+    rdfs:label "Vittoria della Rovere" ;
+    <> adi:hCGJsXiXMk7L,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E5iRLUFCaaJC" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q60139> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Vittoria della Rovere de' Medici" ;
+    schema:gender adi:cg4AvGtwt6Bs .
+

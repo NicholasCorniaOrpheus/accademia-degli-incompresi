@@ -20,7 +20,7 @@ part_of:
 instrumentation:
 local_asset_path: ./assets/music_compositions/pecci-non_temete_più,_amanti
 based_on:
-  - value: "[[Non temete più amanti]]"
+  - value: "[[Non temete più, amanti]]"
 derivative_work:
 text:
 language:

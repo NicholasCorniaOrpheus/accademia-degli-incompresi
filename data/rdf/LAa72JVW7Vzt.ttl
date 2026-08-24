@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LAa72JVW7Vzt-M9cjX3K35oxX a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "515" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LAa72JVW7Vzt .
+
+adi:LAa72JVW7Vzt-WMYL7MyQbwTP a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1570" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LAa72JVW7Vzt .
+
+adi:LAa72JVW7Vzt-g6CQKb4sGQJx a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:UJZ7Qau55M9Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:LAa72JVW7Vzt .
+
+adi:LAa72JVW7Vzt a rdfs:Resource ;
+    rdfs:label "Accademia Ferrarese" ;
+    <> adi:UJZ7Qau55M9Z,
+        adi:Ut5gfQdSP4WR ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

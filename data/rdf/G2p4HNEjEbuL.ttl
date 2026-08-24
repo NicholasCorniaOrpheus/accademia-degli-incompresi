@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:G2p4HNEjEbuL-K3jTm4uPCxqq a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1606" ;
+    rdf:predicate <> ;
+    rdf:subject adi:G2p4HNEjEbuL .
+
+adi:G2p4HNEjEbuL-VJwhzPZ7tV5p a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "Un suono esprime" ;
+    rdf:predicate <> ;
+    rdf:subject adi:G2p4HNEjEbuL .
+
+adi:G2p4HNEjEbuL-hHzun6oxCviR a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "11" ;
+    rdf:predicate <> ;
+    rdf:subject adi:G2p4HNEjEbuL .
+
+adi:G2p4HNEjEbuL a rdfs:Resource ;
+    rdfs:label "Accademia dei Selvaggi di Bologna" ;
+    <> adi:AC4Js3EhuZqL ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

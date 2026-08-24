@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:J82PkibLWFG6-Ceqr2kwfFEDg a rdf:Statement ;
+    dcterms:references adi:gVSttRUbFw6e ;
+    rdf:object adi:cHFtXs5kBskb ;
+    rdf:predicate <> ;
+    rdf:subject adi:J82PkibLWFG6 .
+
+adi:J82PkibLWFG6-nLmnbpZGY3uE a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "20474" ;
+    rdf:predicate <> ;
+    rdf:subject adi:J82PkibLWFG6 .
+
+adi:J82PkibLWFG6 a rdfs:Resource ;
+    rdfs:label "Ortensio Lando" ;
+    <> adi:CrTwYNz6rjM4,
+        adi:cHFtXs5kBskb ;
+    dcterms:identifier ns1:Q1257744 ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    ns1:P800 adi:Wv96CzqaDxFF ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

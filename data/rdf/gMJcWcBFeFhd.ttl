@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gMJcWcBFeFhd-72E9JyFxdSef a rdf:Statement ;
+    rdf:object adi:LnJe2SznsdSA ;
+    rdf:predicate <> ;
+    rdf:subject adi:gMJcWcBFeFhd ;
+    ns1:P304 "42" .
+
+adi:gMJcWcBFeFhd-LJR3qiUyiBW9 a rdf:Statement ;
+    bf:Note "Extension and readaptation of the stanza in the Spanish glosa tradition." ;
+    rdf:object adi:MrwKLwDFwkkz ;
+    rdf:predicate <> ;
+    rdf:subject adi:gMJcWcBFeFhd .
+
+adi:gMJcWcBFeFhd-jV2JYZp74U7d a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:FqBWCu5YvZzH ;
+    rdf:predicate <> ;
+    rdf:subject adi:gMJcWcBFeFhd .
+
+adi:gMJcWcBFeFhd a rdfs:Resource ;
+    rdfs:label "Se sempre ritrovasti in me l'amore" ;
+    <> adi:FqBWCu5YvZzH,
+        adi:LnJe2SznsdSA,
+        adi:MrwKLwDFwkkz ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Se sempre ritrovasti in me l'amore,
+In me la fede immobil o sincera,
+Non pensare ritrovarla unqua minore
+O vadi autunno, o passi pimavera.
+Sol vo' che riguardiamo al nostro honore
+Ché, machiati ambidoi d'altra maniera,
+Giamai di pianto asciugarei le gote
+Fin'alla morte, o più, se più si pote.""" ;
+    dc:subject adi:2Z7GLcNcoqn4,
+        adi:jNVGi7b6DTsP ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:LnJe2SznsdSA ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:7fvcZ2G9nhHD ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

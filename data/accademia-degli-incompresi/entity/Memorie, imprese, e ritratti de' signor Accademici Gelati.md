@@ -13,7 +13,6 @@ has_version:
 contributor:
 subject:
   - "[[impresa]]"
-  - "[[impresa|emblem]]"
 has_part:
 based_on:
 catalog_identifier:

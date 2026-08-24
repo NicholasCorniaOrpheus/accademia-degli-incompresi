@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:czZkeNyo4Pd6-ACN4CJntdqCq a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:Mb4nqpu9MxKm ;
+    rdf:predicate <> ;
+    rdf:subject adi:czZkeNyo4Pd6 .
+
+adi:czZkeNyo4Pd6-J4z65k2aBmwN a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:U54h5JspdXgD ;
+    rdf:predicate <> ;
+    rdf:subject adi:czZkeNyo4Pd6 .
+
+adi:czZkeNyo4Pd6-eujV42TLubgc a rdf:Statement ;
+    rdf:object adi:iDJjy4U3Wogz ;
+    rdf:predicate <> ;
+    rdf:subject adi:czZkeNyo4Pd6 ;
+    ns1:P304 "21" ;
+    ns1:P958 "Al Signor Lodovico Domenichi." .
+
+adi:czZkeNyo4Pd6 a rdfs:Resource ;
+    rdfs:label "Mi duol non haver stile" ;
+    <> adi:Mb4nqpu9MxKm,
+        adi:U54h5JspdXgD,
+        adi:iDJjy4U3Wogz ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Mi duol non haver stile
+Uguale a i meriti vostri
+DOMENICHI gentile,
+Acciò potessi in parte
+Così, com'ho il desio
+Dirne una qualche parte:
+Ma non potendo più vi dono il core,
+E vi prego a tener a mente ch'io
+Sì come mio maggiore
+Vi riverisco, e bramo farvi honore.""" ;
+    dc:subject adi:65kk35c5Htpb,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F055200000101_PPPP00042300C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:755zYzGryekA,
+        adi:S6k4cZpBdTPw ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

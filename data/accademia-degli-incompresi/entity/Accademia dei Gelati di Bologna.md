@@ -24,7 +24,7 @@ member:
     pseudonym: Rugginoso
 interested_in:
   - value: "[[impresa]]"
-  - value: "[[entity/emblem]]"
+  - value: "[[emblem]]"
 notable_work:
 identifier:
   - http://www.wikidata.org/entity/Q106701551

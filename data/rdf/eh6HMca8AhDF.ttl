@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eh6HMca8AhDF-BLAGADpMz29B a rdf:Statement ;
+    rdf:object adi:Hr9WcLu6ZZUq ;
+    rdf:predicate <> ;
+    rdf:subject adi:eh6HMca8AhDF ;
+    ns1:P304 "399" ;
+    ns1:P958 "Canto XII, 89" .
+
+adi:eh6HMca8AhDF-edU2Z6LepMLP a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:FseFVcsndDRv ;
+    rdf:predicate <> ;
+    rdf:subject adi:eh6HMca8AhDF .
+
+adi:eh6HMca8AhDF-mQmQnPJrNsvA a rdf:Statement ;
+    rdf:object adi:busj5N7wko8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:eh6HMca8AhDF ;
+    ns1:P958 "Parte II, Regola I" .
+
+adi:eh6HMca8AhDF a rdfs:Resource ;
+    rdfs:label "S'odono e varie lingue, e personaggi" ;
+    <> adi:FseFVcsndDRv,
+        adi:Hr9WcLu6ZZUq,
+        adi:busj5N7wko8B ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """S'odono e varie lingue, e personaggi
+Atti meglio a destar la burla, e'l riso,
+Hor con brutte cadute, hor con visaggi,
+Hor con mentito adulterato viso.
+E (quel, ch'anco è difficile a' più saggi)
+Pronto usciva il discorso, ed improviso;
+E regolava il subito concetto
+La norma di strettissimo soggetto.""" ;
+    dc:subject adi:Ye88EjEg6hpa,
+        adi:dhsgN9hmFdsq ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:CGovjWMZmRig ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

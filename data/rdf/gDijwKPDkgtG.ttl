@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gDijwKPDkgtG-HorVjZRyvP4j a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:3ybFxsvJusaH ;
+    rdf:predicate <> ;
+    rdf:subject adi:gDijwKPDkgtG .
+
+adi:gDijwKPDkgtG-PVmh9y4onJG2 a rdf:Statement ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:PfmM4nEirrZh ;
+    rdf:predicate <> ;
+    rdf:subject adi:gDijwKPDkgtG .
+
+adi:gDijwKPDkgtG a rdfs:Resource ;
+    rdfs:label "Amor m'ha bastonat cum la so mescola (Agostini)" ;
+    <> adi:3ybFxsvJusaH,
+        adi:PfmM4nEirrZh,
+        adi:aGnhW9VeSa8N ;
+    pdc:text """Amor m'ha bastonat cum la so mescola 
+Per u vi set de merda di na zovena, 
+Che m'ha scarpart tugh'ol polmon 
+Cun l'anima Senza podì mai dì, 
+Che fet mandragola
+Me sborì ados, che mai senti tal furia,
+Dof che son pez che l'asen dol Mercurio.""" ;
+    dc:subject adi:B23Vk5xdu2BR,
+        adi:G7vsGa9x682P,
+        adi:Ye88EjEg6hpa ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F016820000010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:QypSgehNnySf,
+        adi:gFBshLVTMG7b ;
+    wdt:P870 adi:SUJFCY5REehL ;
+    ns1:P180 adi:GQ8RMsoMfSuA ;
+    ns1:P2551 adi:VomxC8xmdEj2 .
+

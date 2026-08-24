@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/iDJjy4U3Wogz.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/iDJjy4U3Wogz.json";
     </script>
 
 
@@ -104,7 +104,7 @@
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
 ???+ abstract "subject"
-    - [[salon|literary salon]]
+    - [salon](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q6FD2rU7f347)
 
 
 

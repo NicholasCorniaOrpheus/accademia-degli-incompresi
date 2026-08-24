@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fZMJEma54veu-doHShLLDgsKr a rdf:Statement ;
+    rdf:object adi:U396cDbhvLZQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:fZMJEma54veu ;
+    ns1:P304 "41" ;
+    ns1:P958 "Poems of Love, 4" .
+
+adi:fZMJEma54veu-mCfGzUeHZvhv a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:RPt3AF9FDvgd ;
+    rdf:predicate <> ;
+    rdf:subject adi:fZMJEma54veu .
+
+adi:fZMJEma54veu a rdfs:Resource ;
+    rdfs:label "Amor poich'io son priva" ;
+    <> adi:RPt3AF9FDvgd,
+        adi:T8U3Q6r7Yc6Q,
+        adi:U396cDbhvLZQ ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Amor poich'io son priva
+De l’alma vista in cui mia vita giace
+Dammi almen qualche pace,
+Acciò ch’in tanto duol possa star viva!
+
+Fa che l’alta speranza che nutriva
+Miei spiriti tristi 'nanzi la partita
+Non abandoni il core,
+Che, pien di grave ardore,
+Senza lei non porria tenersi in vita,
+Ma con l’aiuto suo spera far tanto
+Che starà vivo, benché in doglia e in pianto.
+
+E se lontan dal bel mio lume santo
+Pur debb'io star fa che la data fede
+Non mi sia rotta mai,
+Che a 'sti miei crudi guai
+Né al mio languir dimando altra mercede;
+Ma se mancar mi dee fa almen ch'insieme
+La vita manchi e le mie doglie estreme.""" ;
+    dc:description "Love has deprived the \"light\" (the view of her beloved) because of departure. Theme of the \"mirror of the soul\" in the eyes of the beloved." ;
+    dc:subject adi:oJY5qFoWFwDr ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

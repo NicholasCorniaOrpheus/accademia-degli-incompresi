@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RQVGgBMGBfdm-Bx2k6BeeBU3b a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:3ybFxsvJusaH ;
+    rdf:predicate <> ;
+    rdf:subject adi:RQVGgBMGBfdm .
+
+adi:RQVGgBMGBfdm-SUjNqfBupVPC a rdf:Statement ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:PfmM4nEirrZh ;
+    rdf:predicate <> ;
+    rdf:subject adi:RQVGgBMGBfdm .
+
+adi:RQVGgBMGBfdm a rdfs:Resource ;
+    rdfs:label "Occhi lusenti onesti e amorosetti (Agostini)" ;
+    <> adi:3ybFxsvJusaH,
+        adi:PfmM4nEirrZh,
+        adi:aGnhW9VeSa8N ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Occhi lusenti onesti e amorosetti
+Occhi soavi e cari
+Occhi sereni vagh'e lizadretti
+Occhi bei neri e chiari
+Daspuò che no ve vezo
+Sto mal imò sto pezo
+Deh occhi fé retorno
+Azzò no mora un zorno.""" ;
+    dc:subject adi:8sSx8HhcDxv6,
+        adi:B23Vk5xdu2BR,
+        adi:Ye88EjEg6hpa ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F185050000010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:QypSgehNnySf,
+        adi:gFBshLVTMG7b ;
+    wdt:P870 adi:SUJFCY5REehL ;
+    ns1:P180 adi:VyiHhzpodNyS ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

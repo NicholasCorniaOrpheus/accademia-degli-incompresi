@@ -1,0 +1,74 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KdiUFH94EmKM-3TccfehEH3dT a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8cwGVT3ZREMt ;
+    rdf:predicate <> ;
+    rdf:subject adi:KdiUFH94EmKM .
+
+adi:KdiUFH94EmKM-Fjh7G8ydAX9A a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:FqBWCu5YvZzH ;
+    rdf:predicate <> ;
+    rdf:subject adi:KdiUFH94EmKM .
+
+adi:KdiUFH94EmKM-J7tn4fP5o2J9 a rdf:Statement ;
+    rdf:object adi:dbmAAqzyQVgt ;
+    rdf:predicate <> ;
+    rdf:subject adi:KdiUFH94EmKM ;
+    ns1:P958 "Laura Terracina, III" .
+
+adi:KdiUFH94EmKM-JPtH3Pddjccg a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:o69XHHGSZuSV ;
+    rdf:predicate <> ;
+    rdf:subject adi:KdiUFH94EmKM .
+
+adi:KdiUFH94EmKM-RbnNxAHXJAk7 a rdf:Statement ;
+    rdf:object adi:2TJweZdSVTg3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:KdiUFH94EmKM ;
+    ns1:P304 "19-20" ;
+    ns1:P958 "All'Ill, et Eccel. D. Herina, Principessa di Bisignano" .
+
+adi:KdiUFH94EmKM a rdfs:Resource ;
+    rdfs:label "Tu sei signora mia bella e gentile" ;
+    <> adi:2TJweZdSVTg3,
+        adi:8cwGVT3ZREMt,
+        adi:FqBWCu5YvZzH,
+        adi:dbmAAqzyQVgt,
+        adi:o69XHHGSZuSV ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Tu sei signora mia bella e gentile;
+Tu di Natura sei mostro sì caro;
+Tu pregio, tu splendor, tu lume chiaro,
+Tu sei cagion d'ogni amoroso stile.
+
+Tu l'honor sei del sesso femminile;
+Tu sei nel mondo un duon sì dolce, & raro;
+Tu fai nomar'il ciel crudo, & avaro,
+Poich'a te non trov'io cosa simile.
+
+Tu sei l'arco d'Amor, tu la saetta,
+Tu il fuoco pur, tu il ghiaccio, e tu i martiri,
+Tu il pianto, tu la gioia, & tu l'aita.
+
+Tu sei del nostro cor triegua, e vendetta,
+Tu il gioco, tu il penar, tu i fier sospiri,
+Tu anchor la morte, e tu la dolce vita.""" ;
+    dc:subject adi:8sSx8HhcDxv6,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:o69XHHGSZuSV ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

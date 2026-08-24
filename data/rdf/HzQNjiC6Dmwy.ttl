@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HzQNjiC6Dmwy-6HeeMBbbn8JS a rdf:Statement ;
+    wdt:P291 adi:bSFXtFE2ooWo ;
+    rdf:object "N0c808aecfada4e5b91b16a19abee0057" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HzQNjiC6Dmwy ;
+    schema:datePublished "1570" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054415> .
+
+adi:HzQNjiC6Dmwy-96XKiticGiVn a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:n3jrHXfwYr6b ;
+    rdf:predicate <> ;
+    rdf:subject adi:HzQNjiC6Dmwy .
+
+adi:HzQNjiC6Dmwy-FiUdWLvRCj8A a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:2JBDGRh7Z94i ;
+    rdf:predicate <> ;
+    rdf:subject adi:HzQNjiC6Dmwy .
+
+adi:HzQNjiC6Dmwy a rdfs:Resource ;
+    rdfs:label "Orazione d'Adriano Valerini veronese, in morte della divina signora Vincenza Armani" ;
+    <> adi:2JBDGRh7Z94i,
+        adi:n3jrHXfwYr6b ;
+    dc:subject adi:hxGbZLpsZTDB ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE054415> ;
+    dcterms:title "Oratione d'Adriano Valerini veronese, in morte della diuina signora Vincenza Armani, comica eccellentissima. Et alcune rime dell'istesso, e d'altri auttori, in lode della medesima. Con alquante leggiadre e belle compositioni di detta signora Vincenza" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:AkCzeiRWZcTc .
+

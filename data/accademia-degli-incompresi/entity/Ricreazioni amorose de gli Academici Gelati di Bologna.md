@@ -26,7 +26,6 @@ contributor:
 subject:
   - "[[republic of letters]]"
   - "[[impresa]]"
-  - "[[impresa|emblem]]"
 has_part:
 based_on:
 catalog_identifier:

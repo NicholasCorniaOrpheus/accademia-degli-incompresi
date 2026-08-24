@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4YB9j8d3zuQM-C7JjWauNTqet a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:iRCYDktcXg33 ;
+    rdf:predicate <> ;
+    rdf:subject adi:4YB9j8d3zuQM .
+
+adi:4YB9j8d3zuQM-kEm9m4HCg7E4 a rdf:Statement ;
+    rdf:object adi:YwBMpr45NG8a ;
+    rdf:predicate <> ;
+    rdf:subject adi:4YB9j8d3zuQM ;
+    ns1:P304 "71" ;
+    ns1:P958 "Le pene de gli amanti." .
+
+adi:4YB9j8d3zuQM a rdfs:Resource ;
+    rdfs:label "Di barbaro Leon crudi furori" ;
+    <> adi:YwBMpr45NG8a,
+        adi:iRCYDktcXg33 ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Di barbaro Leon crudi furori,
+Impero altier di torbidi Torrenti,
+D'acceso Lampo rigidi spaventi,
+Di Folgor tripartita alti terrori;
+
+D'Etna vorace strepitosi ardori,
+Tenzon superba di rabbiosi Venti,
+D'implacabil' Averno aspri lamenti,
+Di Mar fremente procellosi horrori;
+
+Tumulto micidial di Marte immondo,
+Feroce suon d'indomiti Giganti,
+Di svelte Rupi diroccato pondo;
+
+Di formidabil Giove ire tonanti,
+Moto ondeggiante d'agitato Mondo
+Son gravi pene d'infelici Amanti.""" ;
+    dc:subject adi:MVesHQPbVg5X,
+        adi:Q3VtFUAxVKyf ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:CLkS2ShdERPp,
+        adi:FNrGzpxh2Xcy ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Uxki4gLFaARk-AB8mFafTMQcc a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:iRCYDktcXg33 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uxki4gLFaARk .
+
+adi:Uxki4gLFaARk-aWqBmuwGizdP a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1608" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uxki4gLFaARk .
+
+adi:Uxki4gLFaARk-nUjcA3m2wZJZ a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "111" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uxki4gLFaARk .
+
+adi:Uxki4gLFaARk a rdfs:Resource ;
+    rdfs:label "Accademia degli Ordinati di Roma" ;
+    <> adi:J6uXo2g5NfHE,
+        adi:iRCYDktcXg33 ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

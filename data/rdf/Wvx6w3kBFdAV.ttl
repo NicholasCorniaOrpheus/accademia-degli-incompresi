@@ -1,0 +1,65 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Wvx6w3kBFdAV-6QZZEFkMUPHD a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:Da95B7dvHP7b ;
+    rdf:predicate <> ;
+    rdf:subject adi:Wvx6w3kBFdAV .
+
+adi:Wvx6w3kBFdAV-8fahjQmfP74h a rdf:Statement ;
+    rdf:object adi:XFzV5zn8KYUy ;
+    rdf:predicate <> ;
+    rdf:subject adi:Wvx6w3kBFdAV ;
+    ns1:P304 "373" ;
+    ns1:P958 "Benedetto Varchi a Girol. Ruscelli." .
+
+adi:Wvx6w3kBFdAV-nndiPQNZA6TH a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:TdyZG6fXKCLc ;
+    rdf:predicate <> ;
+    rdf:subject adi:Wvx6w3kBFdAV .
+
+adi:Wvx6w3kBFdAV a rdfs:Resource ;
+    rdfs:label "Ruscelli, onde sì lungo, e chiaro fiume" ;
+    <> adi:Da95B7dvHP7b,
+        adi:TdyZG6fXKCLc,
+        adi:XFzV5zn8KYUy ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """RUSCELLI, onde sì lungo, e chiaro fiume
+Nasce d'ogni virtute; de deriva
+Mar' ampio si, che non ha fondo, o riva,
+D'ogni rara eccellenza, e bel costume;
+
+Se'l mio sì basso stil cantar presume,
+E cercando lodar, di lode priva
+L'alta Donna ARAGONIA, a voi s'ascriva,
+Che Dedal sete, a le mie inferme piume.
+
+Come volete voi, che rozo, e vile,
+E roco suon de la mia canna arrive,
+Dove a gran pena va la vostra squilla?
+
+Poi l'alma fronde, chel'ira prescrive
+Di Giove, sempre, oh sia'n cittade, o'n villa,
+Tutto a se trami per antico stile.""" ;
+    dc:subject adi:65kk35c5Htpb,
+        adi:MVesHQPbVg5X,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4fRE7J9jYy6N,
+        adi:Da95B7dvHP7b,
+        adi:Nf6cF32SCt6E,
+        adi:PndEj8FtSonb,
+        adi:cw9SB9nEpgGt ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

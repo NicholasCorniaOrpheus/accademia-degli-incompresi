@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7aEBjVVcRKrU-NXWP3BzTeH9N a rdf:Statement ;
+    rdf:object adi:MW7UE9R8m7LS ;
+    rdf:predicate <> ;
+    rdf:subject adi:7aEBjVVcRKrU ;
+    ns1:P304 "38" ;
+    ns1:P958 "Torquato Tasso. Per la Illustre Sign. Tarquinia Molza." ;
+    schema:volumeNumber "1" .
+
+adi:7aEBjVVcRKrU-hCwnaLsiwwLU a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:oVgX4nooPy2A ;
+    rdf:predicate <> ;
+    rdf:subject adi:7aEBjVVcRKrU .
+
+adi:7aEBjVVcRKrU-oAUYScTkPGQD a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:UJZ7Qau55M9Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:7aEBjVVcRKrU .
+
+adi:7aEBjVVcRKrU a rdfs:Resource ;
+    rdfs:label "Forse è cagion l'Aurora" ;
+    <> adi:MW7UE9R8m7LS,
+        adi:UJZ7Qau55M9Z,
+        adi:oVgX4nooPy2A ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Forse è cagion l'Aurora
+Di questo bel concento,
+Che fan le fronde, e i rami, e l'acque, e'l vento?
+Oh con sì dolce modo
+Il Ciel Tarquinia honora,
+E per lei de la terra s'innamora?
+I' odo (o parmi) i' odo
+La voce ella è pur dessa
+Ecco Tarquinia viene, Amor s'appressa.""" ;
+    dc:subject adi:7f7aTSJBCVeC,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/023520000101_PPPP00286400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:2tBp5oPS8ekR,
+        adi:4fRE7J9jYy6N,
+        adi:Nf6cF32SCt6E,
+        adi:oVgX4nooPy2A ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aKN5rycDjAB2-5peWK4XZV57q a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1550" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKN5rycDjAB2 .
+
+adi:aKN5rycDjAB2-Qq5iXEcmMe3J a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "Donec impurum" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKN5rycDjAB2 .
+
+adi:aKN5rycDjAB2-c44TmRwMuTWA a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1600" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKN5rycDjAB2 .
+
+adi:aKN5rycDjAB2-oMsEX7MeoeWr a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "85" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKN5rycDjAB2 .
+
+adi:aKN5rycDjAB2 a rdfs:Resource ;
+    rdfs:label "Accademia dei Travagliati di Siena" ;
+    <> adi:2P97RzuZEUPb ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

@@ -7,6 +7,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UzQfEGr8A7ej",
+      "label": "concerto delle donne",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
+      "label": "Camillo Gessi",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portret_van_arts_Camillo_Gessi%2C_RP-P-1909-5424.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zwz6KuPgWRWe",
       "label": "student",
       "class": "Concept",
@@ -29,6 +41,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6oNeDcfvTHyK",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UzQfEGr8A7ej",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zwz6KuPgWRWe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP",
+      "property": "opposite_of"
     }
   ]
 }

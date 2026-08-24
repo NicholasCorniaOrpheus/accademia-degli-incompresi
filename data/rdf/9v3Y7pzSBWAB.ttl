@@ -1,0 +1,71 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9v3Y7pzSBWAB-5P6pT76kBbeY a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9v3Y7pzSBWAB .
+
+adi:9v3Y7pzSBWAB-6kWsC3fDhua7 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9v3Y7pzSBWAB .
+
+adi:9v3Y7pzSBWAB-XFSd2F2jTtiY a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9v3Y7pzSBWAB .
+
+adi:9v3Y7pzSBWAB-ahtSikW6FyY8 a rdf:Statement ;
+    bf:Note "Cantus" ;
+    bf:electronicLocator <https://orka.bibliothek.uni-kassel.de/viewer/image/1460706078272/89/> ;
+    bf:heldBy adi:dS5RXWVqLTmk ;
+    dcterms:publisher adi:4EaQYo8TMzLM ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://orka.bibliothek.uni-kassel.de/viewer/api/v1/records/1460706078272/manifest/> ;
+    rdf:object "N675b8fbebc3544908374b08fb09002d1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9v3Y7pzSBWAB ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044516> .
+
+adi:9v3Y7pzSBWAB-gAMDDiGdYtp6 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:YeXJ44YF9pZv ;
+    rdf:predicate <> ;
+    rdf:subject adi:9v3Y7pzSBWAB .
+
+adi:9v3Y7pzSBWAB-oBXLokvrhLeR a rdf:Statement ;
+    bf:Note "Bassus" ;
+    bf:electronicLocator <https://orka.bibliothek.uni-kassel.de/viewer/image/1460706239454/> ;
+    bf:heldBy adi:dS5RXWVqLTmk ;
+    dcterms:publisher adi:4EaQYo8TMzLM ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://orka.bibliothek.uni-kassel.de/viewer/api/v1/records/1460706239454/manifest/> ;
+    rdf:object "Na4afb8355e34499d854cd6316ee21096" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9v3Y7pzSBWAB ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044516> .
+
+adi:9v3Y7pzSBWAB a rdfs:Resource ;
+    rdfs:label "Di Vincenzo Neriti di Salò il terzo libro di canzonette a quattro voci" ;
+    <> adi:YeXJ44YF9pZv ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE044516>,
+        <https://musicare.beniculturali.unipd.it/database/editions/005804.html>,
+        <https://rism.online/sources/990046963> ;
+    dcterms:title "Di Vincenzo Neriti maestro di capella nella Chiesa Maggiore di Salò il terzo libro di canzonette a quattro voci, con un dialogo a sette, e una a otto nel fine, nouamente composte, et date in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv,
+        adi:dRXM2UxsVRJj ;
+    wdt:P31 adi:gFBshLVTMG7b,
+        adi:hGZbeqwxbiop .
+

@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/XFzV5zn8KYUy.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/XFzV5zn8KYUy.json";
     </script>
 
 
@@ -93,15 +93,15 @@
         * note: Google Books provides a reprint from 1555
 
 ???+ abstract "contributor"
-    - [[Giovanni Battista Giraldi]]
+    - [Giovanni Battista Giraldi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaPPdnBeKQGv)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - [Gaspara Stampa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dGUWfMNNCYuo)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
-    - [[Girolamo Muzio]]
+    - [Girolamo Muzio](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/66jWzPXuDjG8)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - [Gaspara Stampa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dGUWfMNNCYuo)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
-    - [[Fausta Tacita]]
+    - [Fausta Tacita](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAAB8FezF2Df)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - 
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)

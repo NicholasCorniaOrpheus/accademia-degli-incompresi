@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:54ahrKe9RtC2-3aifee4vwAkk a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:LSF6bThbK7xx ;
+    rdf:predicate <> ;
+    rdf:subject adi:54ahrKe9RtC2 .
+
+adi:54ahrKe9RtC2-GdLjLAvygagw a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:TdyZG6fXKCLc ;
+    rdf:predicate <> ;
+    rdf:subject adi:54ahrKe9RtC2 .
+
+adi:54ahrKe9RtC2-UiyPkUmzBvne a rdf:Statement ;
+    bf:Note "Reprint." ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10190169> ;
+    bf:heldBy adi:hqjifQ4xf6p6 ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10190169/manifest> ;
+    rdf:object "N1fcff62e570d45dfae16dcac230e2e35" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:54ahrKe9RtC2 ;
+    schema:datePublished "1549" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002288> .
+
+adi:54ahrKe9RtC2-eH5MBxwSHwAZ a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A55303/> ;
+    bf:heldBy adi:PQ2eSuRquqQB ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A55303> ;
+    rdf:object "N8b918fbe944c4470895de4498b40c47c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:54ahrKe9RtC2 ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002287> .
+
+adi:54ahrKe9RtC2-nak3m9GoAqYi a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:Af7EBC2tVdqi ;
+    rdf:predicate <> ;
+    rdf:subject adi:54ahrKe9RtC2 .
+
+adi:54ahrKe9RtC2 a rdfs:Resource ;
+    rdfs:label "Rime della signora Tullia di Aragona et di diversi a lei" ;
+    <> adi:Af7EBC2tVdqi,
+        adi:LSF6bThbK7xx,
+        adi:TdyZG6fXKCLc ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002287>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/LIBX00001809> ;
+    dcterms:title "Rime della signora Tullia di Aragona; et di diuersi a lei" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

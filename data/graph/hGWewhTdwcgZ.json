@@ -5,7 +5,24 @@
       "label": "life",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "label": "death",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGWewhTdwcgZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGWewhTdwcgZ",
+      "property": "opposite_of"
+    }
+  ]
 }

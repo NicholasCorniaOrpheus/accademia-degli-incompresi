@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:B79LcC3QfdRb-EG9JTRHhfq2N a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8cwGVT3ZREMt ;
+    rdf:predicate <> ;
+    rdf:subject adi:B79LcC3QfdRb .
+
+adi:B79LcC3QfdRb-Hi4dzJ9iRCfX a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:FqBWCu5YvZzH ;
+    rdf:predicate <> ;
+    rdf:subject adi:B79LcC3QfdRb .
+
+adi:B79LcC3QfdRb-MG53RkXwAvtL a rdf:Statement ;
+    rdf:object adi:QHQNCAeFLdvH ;
+    rdf:predicate <> ;
+    rdf:subject adi:B79LcC3QfdRb ;
+    ns1:P304 "11" ;
+    ns1:P958 "Alla S. Dianora Sanseverina." .
+
+adi:B79LcC3QfdRb a rdfs:Resource ;
+    rdfs:label "Trema e paventa in me l'ingegno e l'arte" ;
+    <> adi:8cwGVT3ZREMt,
+        adi:FqBWCu5YvZzH,
+        adi:QHQNCAeFLdvH ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Trema & paventa in me l'ingegno & l'arte,
+Donna, che sopra ogni altra humana sete,
+A ragionar di voi, poi che tenete
+Phebo in mezzo del coro, nel petto Marte.
+Virtù gratia & bellezza in voi son sparte
+Tante & sì rare, che l'altre vincete:
+Et senza pari alcuna possedete
+Mercurio in lingua, & Palla in rime & carte.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:LnJe2SznsdSA ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:GQ8RMsoMfSuA,
+        adi:R4q38qZbHK3Y,
+        adi:YM4ffuJRsgwB,
+        adi:gSKYwN6xYzZN ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

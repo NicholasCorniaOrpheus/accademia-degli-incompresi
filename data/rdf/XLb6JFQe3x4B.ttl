@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XLb6JFQe3x4B-JFEimSw2oLNE a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object adi:cRAK3pJBVb36 ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B-QkmrLysvHAqa a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object adi:VKQggydMU7W2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B-Sd3Bt3y26vhX a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object adi:iE7ttpo9PSXy ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B-SgitqkpSFPiD a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "130" ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B-XyBKwysY9Hou a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object adi:keEYSEu5vtER ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B-mmbMMixGwkDB a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object "1562-04-21" ;
+    rdf:predicate <> ;
+    rdf:subject adi:XLb6JFQe3x4B .
+
+adi:XLb6JFQe3x4B a rdfs:Resource ;
+    rdfs:label "Accademia delle Notti Vaticane" ;
+    <> adi:J6uXo2g5NfHE,
+        adi:VKQggydMU7W2,
+        adi:cRAK3pJBVb36,
+        adi:iE7ttpo9PSXy,
+        adi:keEYSEu5vtER ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:hf8QuFxNx8Jg ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> ;
+    skos:altLabel "Noctes Vaticanae" .
+

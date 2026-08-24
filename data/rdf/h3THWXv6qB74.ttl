@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:h3THWXv6qB74-K3TTcKbMKNuY a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:dGUWfMNNCYuo ;
+    rdf:predicate <> ;
+    rdf:subject adi:h3THWXv6qB74 .
+
+adi:h3THWXv6qB74-PYSv5xt2goQd a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=dhaYP9ZrmSsC> ;
+    dcterms:publisher adi:cA2VQsNtDVwP ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Ndb282ac7d3514d1385bf69c51365d376" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:h3THWXv6qB74 ;
+    schema:datePublished "1554" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034706> .
+
+adi:h3THWXv6qB74 a rdfs:Resource ;
+    rdfs:label "Rime di madonna Gaspara Stampa" ;
+    <> adi:dGUWfMNNCYuo ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034706> ;
+    dcterms:title "Rime di madonna Gaspara Stampa" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

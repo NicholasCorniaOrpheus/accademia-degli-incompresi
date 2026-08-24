@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/M9iGv9TStxpX.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/M9iGv9TStxpX.json";
     </script>
 
 
@@ -75,7 +75,7 @@
     - [Q457843](http://www.wikidata.org/entity/Q457843)
 
 ???+ abstract "described by source"
-    - [[(Testa 2020)]]
+    - [(Testa 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aDqLPFtLjEwa)
 
 
 

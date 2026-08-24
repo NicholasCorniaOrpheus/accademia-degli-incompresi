@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3gZsxzoV4qay-ETxCBhB7T8Ph a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:AQ4Mxw23doRC ;
+    rdf:predicate <> ;
+    rdf:subject adi:3gZsxzoV4qay .
+
+adi:3gZsxzoV4qay-nHB3G79Ev7zs a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=702IlHGGFyoC> ;
+    dcterms:publisher adi:irdFWnrUWMtD ;
+    wdt:P291 adi:Hm8LNCNr7Wxn ;
+    rdf:object "N9d0dc3ab2f164fb9ba69c0ec8c0e4ceb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:3gZsxzoV4qay ;
+    schema:datePublished "1560" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE004630> .
+
+adi:3gZsxzoV4qay a rdfs:Resource ;
+    rdfs:label "Il primo libro dell'opere toscane di m. Laura Battiferra degli Ammannati" ;
+    <> adi:AQ4Mxw23doRC ;
+    dcterms:title "Il primo libro dell'opere toscane di m. Laura Battiferra degli Ammannati" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

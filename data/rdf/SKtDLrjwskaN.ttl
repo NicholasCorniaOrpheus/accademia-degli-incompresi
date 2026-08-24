@@ -1,0 +1,82 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SKtDLrjwskaN-5WMHttXEtMpH a rdf:Statement ;
+    dcterms:references adi:mzbsVFUqEnzX ;
+    rdf:object adi:MYPBAQP5GSWP ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-8NnsSomjkrdL a rdf:Statement ;
+    dcterms:references adi:7VwEEvbhjKZB ;
+    rdf:object adi:cPYaPZBj5M8S ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN ;
+    schema:OrganizationRole adi:joaxpdFod2Jb .
+
+adi:SKtDLrjwskaN-EL7sGzoRcVs5 a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:EwfLmXQPbnEx ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-HX7REnBLwqmi a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1545" ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-Nt5zrA3nbQFa a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "107" ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-ZgncZ3smByZu a rdf:Statement ;
+    dcterms:references adi:7VwEEvbhjKZB ;
+    rdf:object adi:G7vsGa9x682P ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-hCryQ2cefSuM a rdf:Statement ;
+    dcterms:references adi:mzbsVFUqEnzX ;
+    rdf:object adi:hwaVpgj7GbXT ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN-kGfUQaXUhe7z a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1532" ;
+    rdf:predicate <> ;
+    rdf:subject adi:SKtDLrjwskaN .
+
+adi:SKtDLrjwskaN a rdfs:Resource ;
+    rdfs:label "Accademia delle Virtù" ;
+    <> adi:EwfLmXQPbnEx,
+        adi:FJaARznhrRx9,
+        adi:G7vsGa9x682P,
+        adi:J6uXo2g5NfHE,
+        adi:MYPBAQP5GSWP,
+        adi:QLHvtTaEdNe2,
+        adi:VUnvhKKmC5sL,
+        adi:awAM8fj5WJM4,
+        adi:cPYaPZBj5M8S,
+        adi:hwaVpgj7GbXT ;
+    dcterms:identifier ns1:Q48837556 ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:7VwEEvbhjKZB,
+        adi:mzbsVFUqEnzX ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> ;
+    skos:altLabel "Accademia Vitruviana",
+        "Accademia dei Vignaiuoli" ;
+    ns1:P800 adi:KxcsDiAvoi7U .
+

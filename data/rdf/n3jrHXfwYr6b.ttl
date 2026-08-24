@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:n3jrHXfwYr6b-38CKVBnzaHyf a rdf:Statement ;
+    bf:heldBy adi:fGNbusFoz4E3 ;
+    rdf:object "A0668" ;
+    rdf:predicate <> ;
+    rdf:subject adi:n3jrHXfwYr6b .
+
+adi:n3jrHXfwYr6b-XSLJa5tSqN3n a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:QSyianVr6pdC ;
+    rdf:predicate <> ;
+    rdf:subject adi:n3jrHXfwYr6b ;
+    schema:OrganizationRole adi:4NmckkLszZdN .
+
+adi:n3jrHXfwYr6b a rdfs:Resource ;
+    rdfs:label "Vincenza Armani" ;
+    <> adi:QSyianVr6pdC,
+        adi:TrNJvhKd8rv2,
+        adi:YVAbik9eKVEW,
+        adi:oJ7bBDGkTcz8,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2JBDGRh7Z94i" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q4936473> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:AGd5KQaFuxjD ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    schema:gender adi:cg4AvGtwt6Bs .
+

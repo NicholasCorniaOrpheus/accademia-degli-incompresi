@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:cRAK3pJBVb36-bMKvspmeQn99 a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "16339" ;
+    rdf:predicate <> ;
+    rdf:subject adi:cRAK3pJBVb36 .
+
+adi:cRAK3pJBVb36-fsJsPnMEwovK a rdf:Statement ;
+    dcterms:references adi:hf8QuFxNx8Jg ;
+    rdf:object adi:XLb6JFQe3x4B ;
+    rdf:predicate <> ;
+    rdf:subject adi:cRAK3pJBVb36 .
+
+adi:cRAK3pJBVb36 a rdfs:Resource ;
+    rdfs:label "Agostino Valier" ;
+    <> adi:Rfdm5oYMwDjo,
+        adi:XLb6JFQe3x4B ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1768433> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oY8MnkxdGut4-6P8oC7HuF7cb a rdf:Statement ;
+    rdf:object adi:JLv6HZNGtUao ;
+    rdf:predicate <> ;
+    rdf:subject adi:oY8MnkxdGut4 ;
+    ns1:P304 "31" ;
+    ns1:P958 "Dell'Intento" .
+
+adi:oY8MnkxdGut4-mv92GVCQPLqr a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:ULfY3kSjSVZr ;
+    rdf:predicate <> ;
+    rdf:subject adi:oY8MnkxdGut4 .
+
+adi:oY8MnkxdGut4 a rdfs:Resource ;
+    rdfs:label "Cinta di molli piume il collo, e'l petto" ;
+    <> adi:JLv6HZNGtUao,
+        adi:ULfY3kSjSVZr ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Cinta di molli piume il collo, e'l petto
+Dolci formar suol Filomena accenti;
+Dolci accenti sì ben: ma ancor dolenti
+Che pietoso a ciascun porgon diletto.
+
+Tu canto più soave, e più perfetto,
+Che confusi non ha seco lamenti
+Formi, augello gentil; di vaghe, e ardenti
+Piume di carità cinto l'affetto.
+
+Canta le sue sventure ella piangendo,
+El le querule voice, e'l dolce canto
+Raddoppiano le selve, e le foreste.
+
+Tu laudi canti al tuo fattore, ardendo
+Di fé, di caritade, e d'Amor santo;
+Raddoppia il tuo cantar, canto celeste.""" ;
+    dc:description "The author makes praise of the musical skills of Filomela. Her devotion and singing are compared with a songbird." ;
+    dc:subject adi:8o9dpQgCfrjH ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:E3PKJTAvLpog,
+        adi:Nf6cF32SCt6E,
+        adi:g8Up2rMGBphr,
+        adi:nexQeYRoqemu ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

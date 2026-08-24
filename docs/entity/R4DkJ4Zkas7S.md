@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/R4DkJ4Zkas7S.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/R4DkJ4Zkas7S.json";
     </script>
 
 
@@ -72,7 +72,7 @@
 
 ## Statements
 ???+ abstract "instance of"
-    - [[country]]
+    - [country](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bNybz8kUGyM)
 
 ???+ abstract "identifier"
     - [Q38](http://www.wikidata.org/entity/Q38)

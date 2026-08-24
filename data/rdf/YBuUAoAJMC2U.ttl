@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YBuUAoAJMC2U-5ZzQVy7EkB7E a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:66jWzPXuDjG8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YBuUAoAJMC2U .
+
+adi:YBuUAoAJMC2U-85S9vdREhJyW a rdf:Statement ;
+    rdf:object adi:XFzV5zn8KYUy ;
+    rdf:predicate <> ;
+    rdf:subject adi:YBuUAoAJMC2U ;
+    ns1:P304 "4" ;
+    ns1:P958 "Girolamo Mutio." .
+
+adi:YBuUAoAJMC2U-ExZ2pBWReHMv a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:PndEj8FtSonb ;
+    rdf:predicate <> ;
+    rdf:subject adi:YBuUAoAJMC2U .
+
+adi:YBuUAoAJMC2U a rdfs:Resource ;
+    rdfs:label "Donna reale, a cui dal Sol superno" ;
+    <> adi:66jWzPXuDjG8,
+        adi:PndEj8FtSonb,
+        adi:XFzV5zn8KYUy ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """DONNA reale, a cui dal Sol superno
+Fu del suo lume data sì gran parte,
+Ch'occhio mortal, non scorge in altra parte
+Più chiaro il fiammeggiar del foco eterno;
+
+Quantunque volte col pensier m'interno
+Al ben, che'l Cielo in voi largo comparte,
+Veggio mancare ingegni, e lingue, e carte,
+A la divinità, ch'in voi discerno.
+
+Ma dapoi che virtù d'humano ingegno,
+Ben ch'ogn'alma gentil di voi s'honori,
+Non può de' merti vostri andare al segno;
+
+Un novo Tempio a' vostri eccelsi honori
+Consacra il Mondo; e veramente è degno,
+Ch'in voi di DIO l'imagine s'adori.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:755zYzGryekA,
+        adi:Af5NyLo5WJPc,
+        adi:PndEj8FtSonb ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

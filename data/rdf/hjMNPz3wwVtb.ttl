@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hjMNPz3wwVtb-GXX5XYffwh56 a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A13998/> ;
+    dcterms:publisher adi:FAjDAyPWAxLj ;
+    wdt:P291 adi:5bXhk8iPrKqE ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A13998> ;
+    rdf:object "Nfd12497cafdf42358769ad084d56fd79" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:hjMNPz3wwVtb ;
+    schema:datePublished "1574" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE013187> .
+
+adi:hjMNPz3wwVtb-QXn9aG3Fb2Rx a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:QLHvtTaEdNe2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:hjMNPz3wwVtb .
+
+adi:hjMNPz3wwVtb a rdfs:Resource ;
+    rdfs:label "Ragionamento di Luca Contile sopra la proprietà delle imprese con le particolari de gli Academici Affidati et con le interpretationi et croniche" ;
+    <> adi:QLHvtTaEdNe2 ;
+    dc:subject adi:7SDwTH2xoWfL,
+        adi:NALenMNqEw64 ;
+    dcterms:title "Ragionamento di Luca Contile sopra la proprietà delle imprese con le particolari de gli Academici Affidati et con le interpretationi et croniche" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:9m23V9Hha9iA .
+

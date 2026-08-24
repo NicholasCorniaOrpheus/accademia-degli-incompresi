@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kXepx96AePiK-DXfwrydVAwTh a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "118" ;
+    rdf:predicate <> ;
+    rdf:subject adi:kXepx96AePiK .
+
+adi:kXepx96AePiK-DhDDdoUXdWHG a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1622" ;
+    rdf:predicate <> ;
+    rdf:subject adi:kXepx96AePiK .
+
+adi:kXepx96AePiK-oRgKQJabJUTH a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:hWMDUbda6yPM ;
+    rdf:predicate <> ;
+    rdf:subject adi:kXepx96AePiK .
+
+adi:kXepx96AePiK a rdfs:Resource ;
+    rdfs:label "Accademia dei Riaccesi di Palermo" ;
+    <> adi:ReXg6kyDseAt,
+        adi:hWMDUbda6yPM ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> ;
+    skos:altLabel "Accademia degli Accesi di Palermo" .
+

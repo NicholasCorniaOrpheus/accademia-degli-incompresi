@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6MRHtMq4jwD6-DZb9f37wNs9P a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "5263" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6MRHtMq4jwD6 .
+
+adi:6MRHtMq4jwD6-cZvgmat3fkTH a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:hf6JDFWQ8eAj ;
+    rdf:predicate <> ;
+    rdf:subject adi:6MRHtMq4jwD6 .
+
+adi:6MRHtMq4jwD6 a rdfs:Resource ;
+    rdfs:label "Cesare Rinaldi" ;
+    <> adi:YVAbik9eKVEW,
+        adi:hf6JDFWQ8eAj ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3665524> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RjSSAQb2LqAg-AooECYdTvwMv a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:2crP46brsdr4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RjSSAQb2LqAg .
+
+adi:RjSSAQb2LqAg-oLQibLQBxkNx a rdf:Statement ;
+    rdf:object adi:L69SPYimAHct ;
+    rdf:predicate <> ;
+    rdf:subject adi:RjSSAQb2LqAg ;
+    ns1:P958 "Canto I, 1" .
+
+adi:RjSSAQb2LqAg a rdfs:Resource ;
+    rdfs:label "Canto la gran Pietà del Capitano" ;
+    <> adi:2crP46brsdr4,
+        adi:GhS4fnsNs9Y7,
+        adi:L69SPYimAHct ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Canto la gran Pietà del Capitano,
+Che l'aspra morte vendicò di Christo,
+Quella Pietà, ch'a lui resse la mano
+Mentre fea di Sion l'altero acquisto;
+Allor c'osò di far oprarla in vano
+Del mondo, e di Stan l'inganno misto
+Permettendo del Ciel gli ordini Santi
+Per più punir gli Israeliti erranti.""" ;
+    dc:subject adi:SeFHUS9MYJuk ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

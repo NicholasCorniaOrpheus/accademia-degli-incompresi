@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aKvECNFWLZyo-9rGARRkwJtQ6 a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:RPt3AF9FDvgd ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKvECNFWLZyo .
+
+adi:aKvECNFWLZyo-Awi3Nu43GmLw a rdf:Statement ;
+    rdf:object adi:oGnKtr52k4Ac ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKvECNFWLZyo ;
+    ns1:P304 "59" ;
+    ns1:P958 "3" .
+
+adi:aKvECNFWLZyo a rdfs:Resource ;
+    rdfs:label "Quando sarà ch'io mora" ;
+    <> adi:RPt3AF9FDvgd,
+        adi:oGnKtr52k4Ac ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Quando sarà ch'io mora,
+Amor, se ’n questa cruda dipartita
+Non può tanto dolor finir mia vita?
+
+Qualor avien ch'io pensi
+Quel che dir mi volea l’ultimo sguardo
+E'l partir lento e tardo,
+con quei sospir sì accensi,
+come pon star in me l’anima e i sensi?
+
+S'allor ch'io gli odii dire
+Quell'ultime parole in tanto ardore
+Non mi s’aperse il core,
+E non potei morire,
+Quando potrò mai più di vita uscire?
+
+Io n'uscirò, ch'a tant'aspro martire
+Non potrò già durar, vedermi priva
+E sì lungi da lui, e che sia viva!""" ;
+    dc:description "The poem describes the division of the soul in separation as it seeks to maintain union with the absent beloved" ;
+    dc:subject adi:oJY5qFoWFwDr ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:mUmjH8v3mmFT ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

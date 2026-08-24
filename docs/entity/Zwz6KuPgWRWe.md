@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/Zwz6KuPgWRWe.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/Zwz6KuPgWRWe.json";
     </script>
 
 
@@ -75,7 +75,7 @@
     - [Q48282](http://www.wikidata.org/entity/Q48282)
 
 ???+ abstract "opposite of"
-    - [[teacher]]
+    - [teacher](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/er6KNKXLyHaP)
 
 
 

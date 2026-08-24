@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bEkUf4bv5Dgj-Ejc65Yu9fuRz a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:Ewr7pEEeBKVD ;
+    rdf:predicate <> ;
+    rdf:subject adi:bEkUf4bv5Dgj .
+
+adi:bEkUf4bv5Dgj-HAgwVUzDvLdK a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:692cVZSpt5VS ;
+    rdf:predicate <> ;
+    rdf:subject adi:bEkUf4bv5Dgj .
+
+adi:bEkUf4bv5Dgj-YRDax3cYyARR a rdf:Statement ;
+    dcterms:publisher adi:FLES2CoRQYLJ ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N39d834ffa465415b882aed627af5594c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:bEkUf4bv5Dgj ;
+    schema:datePublished "1602" ;
+    schema:url <http://id.sbn.it/bid/LO1E001434> .
+
+adi:bEkUf4bv5Dgj a rdfs:Resource ;
+    rdfs:label "Rime di Gio. Battista Marino, amorose, marittime, boscherecce, heroiche, lugubri, morali, sacre, & varie" ;
+    <> adi:692cVZSpt5VS,
+        adi:Ewr7pEEeBKVD ;
+    dcterms:identifier <http://id.sbn.it/bid/LO1E001434>,
+        <https://lyra.unil.ch/books/160> ;
+    dcterms:title "Rime di Gio. Battista Marino, amorose, marittime, boscherecce, heroiche, lugubri, morali, sacre, & varie. Parte prima." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:B8k36QrtTQLU ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

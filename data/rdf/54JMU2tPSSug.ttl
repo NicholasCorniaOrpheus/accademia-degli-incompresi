@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:54JMU2tPSSug-Bv4uXUGeRrsD a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:iE7ttpo9PSXy ;
+    rdf:predicate <> ;
+    rdf:subject adi:54JMU2tPSSug .
+
+adi:54JMU2tPSSug-iQ8ycfiTr7kE a rdf:Statement ;
+    rdf:object adi:HafDTqbehm7S ;
+    rdf:predicate <> ;
+    rdf:subject adi:54JMU2tPSSug ;
+    ns1:P304 "89" .
+
+adi:54JMU2tPSSug a rdfs:Resource ;
+    rdfs:label "Al dolce vostro canto" ;
+    <> adi:HafDTqbehm7S,
+        adi:iE7ttpo9PSXy ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Al dolce vostro canto,
+Ch'i fiumi affrena, e queta l'aere, e'l vento,
+Vidi pur io fermarsi il ciel intento.
+
+E'l tempo, che fuggia sì lieve, e presto,
+Alhor ritenne il Sole;
+Ch'immobil feste al suon de le parole.
+Però, se quel cantar soave honesto
+Udir potess'io ognihora;
+Il fior de l'età nostra eterno fora.""" ;
+    dc:subject adi:Nf6cF32SCt6E,
+        adi:ZfsD5EcdZsxp,
+        adi:cYaRPXtoqWuV ;
+    dcterms:identifier <https://lyra.unil.ch/poems/190> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:B8k36QrtTQLU ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:M5s27pP8VYFC ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

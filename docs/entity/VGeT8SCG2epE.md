@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/VGeT8SCG2epE.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/VGeT8SCG2epE.json";
     </script>
 
 
@@ -96,13 +96,13 @@
 
 ???+ abstract "interested in"
     - [impresa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64)
-    - [[entity/emblem]]
+    - [emblem](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NsJUHD4xnxwp)
 
 ???+ abstract "identifier"
     - [Q106701551](http://www.wikidata.org/entity/Q106701551)
 
 ???+ abstract "described by source"
-    - [[(Gurrei 2020)]]
+    - [(Gurrei 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6u5awMPzi2uW)
 
 
 

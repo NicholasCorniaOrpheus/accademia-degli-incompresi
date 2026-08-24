@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z2DEkTNsqmD7-ZMTRxr3PcRmc a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:8cMdxnJpx4or ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z2DEkTNsqmD7 ;
+    schema:startDate "1616" .
+
+adi:Z2DEkTNsqmD7-ZoQ7jd77YggB a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:i8FTBZAn3fDW ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z2DEkTNsqmD7 ;
+    schema:startDate "1626" .
+
+adi:Z2DEkTNsqmD7 a rdfs:Resource ;
+    rdfs:label "Artemisia Gentileschi" ;
+    <> adi:46nFpBHuPXqX,
+        adi:4fRE7J9jYy6N,
+        adi:8cMdxnJpx4or,
+        adi:Hm8LNCNr7Wxn,
+        adi:JtXDRUo7kviy,
+        adi:TKTukTBozhcq,
+        adi:TNEkus8TKX7L,
+        adi:i8FTBZAn3fDW ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q212657> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:9n42gMvHpXdx ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    schema:gender adi:cg4AvGtwt6Bs .
+

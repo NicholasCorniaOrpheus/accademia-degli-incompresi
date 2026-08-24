@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:K4gZA9U9oCuC-bn8SqmApJ948 a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:TdyZG6fXKCLc ;
+    rdf:predicate <> ;
+    rdf:subject adi:K4gZA9U9oCuC .
+
+adi:K4gZA9U9oCuC-n5qLT9KSL2tT a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:45W9u7KVdj9K ;
+    rdf:predicate <> ;
+    rdf:subject adi:K4gZA9U9oCuC .
+
+adi:K4gZA9U9oCuC-nyBpVsP4ibiv a rdf:Statement ;
+    rdf:object adi:28Gh3VdwbtJh ;
+    rdf:predicate <> ;
+    rdf:subject adi:K4gZA9U9oCuC ;
+    ns1:P304 "209" ;
+    ns1:P958 "Di M. Francesco Sansovino" ;
+    schema:volumeNumber "1" .
+
+adi:K4gZA9U9oCuC a rdfs:Resource ;
+    rdfs:label "Varchi, s'il ciel vi presti ali al gran nome" ;
+    <> adi:28Gh3VdwbtJh,
+        adi:45W9u7KVdj9K,
+        adi:TdyZG6fXKCLc ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """VARCHI, s'il ciel vi presti ali al gran nome
+Ond'ei sen vole al Mauritano Atlante
+Da l'indo mar, si che trapassi quante
+Glorie mai coronar altrui le chiome;
+
+Dopo che nel mortal è l'alma, come
+Pone in oblio l'alte, celesti, & sante
+Prime sostanze? ond'è che le sue tante
+Vertù, dal fragil senso human' son dome?
+
+S'ella è luce immortal, perch'il terreno
+Velo per lei non divien' santo & chiaro;
+S'il maggior il minor mai sempre adombra?
+
+Questo dubbio pensier starà nel seno
+A la mia fede, oh sommo Tosco oh raro
+Tanto ch'ella per voi d'error sia sgombra.""" ;
+    dc:subject adi:ZfsD5EcdZsxp,
+        adi:hxGbZLpsZTDB ;
+    dcterms:identifier <https://lyra.unil.ch/poems/8092> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:B8k36QrtTQLU ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:TdyZG6fXKCLc ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

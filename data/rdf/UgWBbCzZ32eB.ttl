@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UgWBbCzZ32eB-ejNoY254UA2L a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:RPt3AF9FDvgd ;
+    rdf:predicate <> ;
+    rdf:subject adi:UgWBbCzZ32eB .
+
+adi:UgWBbCzZ32eB-jvGhHiZf5SAT a rdf:Statement ;
+    rdf:object adi:oGnKtr52k4Ac ;
+    rdf:predicate <> ;
+    rdf:subject adi:UgWBbCzZ32eB ;
+    ns1:P304 "84-85" ;
+    ns1:P958 "26" .
+
+adi:UgWBbCzZ32eB a rdfs:Resource ;
+    rdfs:label "Ride la terra, e d’ogni parte rende" ;
+    <> adi:RPt3AF9FDvgd,
+        adi:oGnKtr52k4Ac ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Ride la terra, e d'ogni parte rende
+Mille soavi e dilettosi odori;
+Coperta di leggiadri, e vaghi fiori
+A guisa d'un bel ciel tutta resplende.
+
+Amor ch'in tal stagion forza riprende
+Rinova in ogni cor gli antici amori,
+E mille cari e leggiadretti ardori
+D'ogni fedele amante in petto accende.
+
+Scherzano per le piagge lascivetti
+Gli animai l'un l'altro festeggiando,
+Ch'Amore insegna lor novi diletti.
+
+Sola io, d'ogni mia pace posta in bando
+Offesa da timor, noie, e sospetti
+Lontana dal mio ben vivo pensando.""" ;
+    dc:subject adi:Bvvit9jGS3mp,
+        adi:MVesHQPbVg5X ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:ZsNG8yssbKzY,
+        adi:c4Xg69omaPKA ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

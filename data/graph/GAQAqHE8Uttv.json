@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3FpkruLnPNA4",
+      "label": "Entro d'un chiaro fonte",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
       "label": "Accademia dei Gelati di Bologna",
       "class": "Organisation",
@@ -17,6 +23,12 @@
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/caGwGqSnFKqd",
+      "label": "Bastami un guardo solo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
@@ -35,6 +47,12 @@
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gvEGfRxbXrYC",
+      "label": "Bastami un guardo solo (Montesano)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png"
     }
   ],
   "links": [
@@ -62,6 +80,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAQAqHE8Uttv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
       "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3FpkruLnPNA4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAQAqHE8Uttv",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/caGwGqSnFKqd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAQAqHE8Uttv",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gvEGfRxbXrYC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAQAqHE8Uttv",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",

@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ivYChgZ7D5aD-hHSP6YgZz8QZ a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:XdsneEewHovt ;
+    rdf:predicate <> ;
+    rdf:subject adi:ivYChgZ7D5aD ;
+    schema:startDate "1542" .
+
+adi:ivYChgZ7D5aD-jyFwFrPr93Tf a rdf:Statement ;
+    bf:heldBy adi:fGNbusFoz4E3 ;
+    rdf:object "A0393" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ivYChgZ7D5aD .
+
+adi:ivYChgZ7D5aD a rdfs:Resource ;
+    rdfs:label "Maria Diamante Dolfi" ;
+    <> adi:XdsneEewHovt ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q124000481>,
+        <https://lyra.unil.ch/agents/262> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:9n42gMvHpXdx ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Diamante Dolfi" ;
+    schema:gender adi:cg4AvGtwt6Bs .
+

@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7QAVk6xtgFun-2An8PUxL3LMo a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=ObSaJQi0LeQC> ;
+    dcterms:publisher adi:MVnDpdgUV9PW ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Nb4c8911fa6a347929642021c0c081483" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7QAVk6xtgFun ;
+    schema:datePublished "1621" ;
+    schema:url <http://id.sbn.it/bid/TO0E008513> .
+
+adi:7QAVk6xtgFun-B4ghYGbmGnBW a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8UgY9HLGPodB ;
+    rdf:predicate <> ;
+    rdf:subject adi:7QAVk6xtgFun .
+
+adi:7QAVk6xtgFun a rdfs:Resource ;
+    rdfs:label "Gli horti del sole. Poemetto del con. Marc'Ant. Ferretti" ;
+    <> adi:8UgY9HLGPodB ;
+    dcterms:identifier <http://id.sbn.it/bid/TO0E008513> ;
+    dcterms:title "Gli horti del sole. Poemetto del con. Marc'Ant. Ferretti. Al serenissimo Federico prencipe d'Vrbino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:aKGEnQvmmxYg ;
+    wdt:P31 adi:fYpqbjX78ztP .
+

@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/dUxL6iZT2qYu.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/dUxL6iZT2qYu.json";
     </script>
 
 
@@ -91,7 +91,7 @@
         * external source: [RKFP6-8DuOEC](https://books.google.it/books?id=RKFP6-8DuOEC)
 
 ???+ abstract "contributor"
-    - [[Orsola Bertolai]]
+    - [Orsola Bertolai](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o8dUJLYPmTmL)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
 

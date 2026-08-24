@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6jEBnycadqmZ-LZihHY5EJaCc a rdf:Statement ;
+    rdf:object adi:h3THWXv6qB74 ;
+    rdf:predicate <> ;
+    rdf:subject adi:6jEBnycadqmZ ;
+    ns1:P304 "60" ;
+    ns1:P958 "Gaspara Stampa" .
+
+adi:6jEBnycadqmZ-jZnEWYBu6QQs a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:dGUWfMNNCYuo ;
+    rdf:predicate <> ;
+    rdf:subject adi:6jEBnycadqmZ .
+
+adi:6jEBnycadqmZ a rdfs:Resource ;
+    rdfs:label "Chi può contar il mio felice stato" ;
+    <> adi:dGUWfMNNCYuo,
+        adi:h3THWXv6qB74 ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Chi può contar' il mio felice stato.
+L'alta mia gioia, e gli alti miei diletti?
+O un di que' del ciel angeli eletti,
+O altro amante, che l'habbia provato.
+
+Io mi sto sempre al mio Signor' a lato
+Godo il lampo degli occhi, e'l suon de i detti,
+Vivomi de'divini alti concetti,
+Ch'escon da tanto ingegno e sì pregiato.
+
+Io mi miro sovente il suo bel viso,
+E mirando mi par veder'insieme
+Tutta la gloria e'l ben del Paradiso,
+
+Quel, che sol turba in parte la mia speme,
+È'l timor, che da me non sia diviso,
+Che'l vorrei meco fin'a l'hore estreme.""" ;
+    dc:subject adi:PgcFuPe2GzQH,
+        adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

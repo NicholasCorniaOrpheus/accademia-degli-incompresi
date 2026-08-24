@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fFwijPeY28vx-6zawooZLr7K8 a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1593" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fFwijPeY28vx .
+
+adi:fFwijPeY28vx-Gvrw6oVRmPMm a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "103" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fFwijPeY28vx .
+
+adi:fFwijPeY28vx-MKBEm6h2XJZC a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1560" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fFwijPeY28vx .
+
+adi:fFwijPeY28vx-gskWRS54jiHN a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:692cVZSpt5VS ;
+    rdf:predicate <> ;
+    rdf:subject adi:fFwijPeY28vx .
+
+adi:fFwijPeY28vx a rdfs:Resource ;
+    rdfs:label "Accademia degli Svegliati di Napoli" ;
+    <> adi:692cVZSpt5VS,
+        adi:bpRYamR8DUKq ;
+    dcterms:type "Organisation" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+

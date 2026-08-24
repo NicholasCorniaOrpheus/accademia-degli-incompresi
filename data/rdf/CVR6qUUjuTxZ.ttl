@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CVR6qUUjuTxZ-CjNkSDUgUfJc a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k15216662> ;
+    bf:heldBy adi:a4rNvLRqq9fj ;
+    dcterms:publisher adi:nNtFe5mje86L ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k15216662/manifest.json> ;
+    rdf:object "N2f17c706d2444a9c83be12ad058f73cf" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CVR6qUUjuTxZ ;
+    schema:datePublished "1540" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055028> .
+
+adi:CVR6qUUjuTxZ-XMkYkF25Ek5b a rdf:Statement ;
+    bf:Note "Dolce wrote the verses of the fortune-telling book." ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:Mb4nqpu9MxKm ;
+    rdf:predicate <> ;
+    rdf:subject adi:CVR6qUUjuTxZ .
+
+adi:CVR6qUUjuTxZ-cQam4jj2grCZ a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:nNtFe5mje86L ;
+    rdf:predicate <> ;
+    rdf:subject adi:CVR6qUUjuTxZ .
+
+adi:CVR6qUUjuTxZ a rdfs:Resource ;
+    rdfs:label "Le sorti di Francesco Marcolino" ;
+    <> adi:Mb4nqpu9MxKm,
+        adi:nNtFe5mje86L ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE055028> ;
+    dcterms:title "Le sorti di Francesco Marcolino da Forli intitolate Giardino di pensieri allo illustrissimo signore Hercole Estense duca di Ferrara" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:gVSttRUbFw6e ;
+    wdt:P31 adi:GewRJWWph5KT,
+        adi:a8ufX9TqHzux ;
+    skos:altLabel "Giardino di pensieri" .
+

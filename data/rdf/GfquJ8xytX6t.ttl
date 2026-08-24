@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GfquJ8xytX6t-MhBzxtzXsiQ5 a rdf:Statement ;
+    bf:Note "Reprint." ;
+    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N42d12894389b4156b3fe013f72e4f235" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GfquJ8xytX6t ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
+
+adi:GfquJ8xytX6t-Yr3Fh52Ta3B9 a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758640> ;
+    bf:heldBy adi:hqjifQ4xf6p6 ;
+    wdt:P291 adi:Hm8LNCNr7Wxn ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest> ;
+    rdf:object "N24039fb875b442f1a1ea6beab1d8a729" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GfquJ8xytX6t ;
+    schema:datePublished "1570" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10758640> .
+
+adi:GfquJ8xytX6t-ixPBCqGN3wJP a rdf:Statement ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N933cd862b4064a58ba406393a80e57d8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GfquJ8xytX6t ;
+    schema:datePublished "1549" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054714> .
+
+adi:GfquJ8xytX6t a rdfs:Resource ;
+    rdfs:label "Discorso sopra tutti li primi canti d'Orlando Furioso" ;
+    <> adi:FSsfkMyDLbzE ;
+    dc:description "Commentary in ottava rima of the chivalry poem Orlando Furioso by Ludovico Ariosto. At the end of each canto, the author dedicates a stanza for members of her intellectual and social network." ;
+    dc:subject adi:Nfu6kAv6zZ5S ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE054714> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:AKdqXvjEKiNE ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

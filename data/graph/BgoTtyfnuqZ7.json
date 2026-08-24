@@ -31,10 +31,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kp4ihyYwsoek",
+      "label": "Maddalena Casulana",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kVrAkrexneyx",
       "label": "pastoral",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RnBreoMf52JQ",
+      "label": "Di Maddalena Casulana il secondo libro de madrigali a quattro voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/notated_music.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nf6cF32SCt6E",
@@ -98,8 +110,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BgoTtyfnuqZ7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kp4ihyYwsoek",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BgoTtyfnuqZ7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BgoTtyfnuqZ7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RnBreoMf52JQ",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BgoTtyfnuqZ7",
@@ -150,6 +172,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BgoTtyfnuqZ7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emwSSkhQpsBS",
       "property": "metre"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kp4ihyYwsoek",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RnBreoMf52JQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kp4ihyYwsoek",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RnBreoMf52JQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",

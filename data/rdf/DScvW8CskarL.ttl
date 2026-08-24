@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:DScvW8CskarL-KJsg9dV3xBRV a rdf:Statement ;
+    rdf:object adi:QHQNCAeFLdvH ;
+    rdf:predicate <> ;
+    rdf:subject adi:DScvW8CskarL ;
+    ns1:P304 "17" .
+
+adi:DScvW8CskarL-TsE5b5RGApJb a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8cwGVT3ZREMt ;
+    rdf:predicate <> ;
+    rdf:subject adi:DScvW8CskarL .
+
+adi:DScvW8CskarL a rdfs:Resource ;
+    rdfs:label "Amor tu causi tutt'il penar mio" ;
+    <> adi:8cwGVT3ZREMt,
+        adi:QHQNCAeFLdvH ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Amor tu causi tutto il penar mio:
+Tu mi fai il torto, e non colei ch'io adoro;
+Che se tu dessi effetto al mio desio,
+Havrei ne i danni pur qualche ristoro.
+Ma tu se' ingiusto & lusinghiero Iddio;
+E sei cagion, che per amare io moro.
+Che se il mio stato con giustitia guardi,
+A pena havuto io n'ho parole & sguardi.""" ;
+    dc:subject adi:TRHMAMaRfnLP ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:mUmjH8v3mmFT ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

@@ -32,7 +32,7 @@ contributor:
   - role: "[[author]]"
     value: "[[Giovanni Maria Bonardo]]"
 subject:
-  - "[[salon|literary salon]]"
+  - "[[salon]]"
 has_part:
 based_on:
 catalog_identifier:

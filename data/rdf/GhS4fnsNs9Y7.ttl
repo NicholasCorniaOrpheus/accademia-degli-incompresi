@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GhS4fnsNs9Y7-C4riFqe9UVoC a rdf:Statement ;
+    rdf:object adi:Lv8EW8V8UKXk ;
+    rdf:predicate <> ;
+    rdf:subject adi:GhS4fnsNs9Y7 ;
+    ns1:P958 "Canto I, 1" .
+
+adi:GhS4fnsNs9Y7-V2is3ZSoeFWn a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:UJZ7Qau55M9Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:GhS4fnsNs9Y7 .
+
+adi:GhS4fnsNs9Y7 a rdfs:Resource ;
+    rdfs:label "Canto l'arme pietose, e'l Capitano" ;
+    <> adi:Lv8EW8V8UKXk,
+        adi:UJZ7Qau55M9Z ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Canto l'Arme pietose, e'l Capitano,
+Che'l gran Sepolcro liberò di CHRISTO:
+Molto egli oprò col senno, e con la mano,
+Molto soffrì nel glorioso acquisto.
+E in van l'Inferno vi s'oppose, e in vano
+S'armò d'Asia, e di Libia il popol misto,
+Il Ciel gli diè favore, e sotto a i santi
+Segni ridusse i suoi compagni erranti.""" ;
+    dc:subject adi:SeFHUS9MYJuk ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=35246> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

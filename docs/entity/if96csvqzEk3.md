@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/graph/if96csvqzEk3.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/if96csvqzEk3.json";
     </script>
 
 
@@ -74,7 +74,7 @@
     - [Q703534](http://www.wikidata.org/entity/Q703534)
 
 ???+ abstract "opposite of"
-    - [[employer]]
+    - [employer](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MxfZndFYHEtn)
 
 
 

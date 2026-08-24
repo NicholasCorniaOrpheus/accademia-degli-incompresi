@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7p4JVjqrwBBh-55mGyaGTDdES a rdf:Statement ;
+    rdf:object adi:Lv8EW8V8UKXk ;
+    rdf:predicate <> ;
+    rdf:subject adi:7p4JVjqrwBBh ;
+    ns1:P958 "Canto XIX, 12" .
+
+adi:7p4JVjqrwBBh-8xLxaarmCTkZ a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:UJZ7Qau55M9Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:7p4JVjqrwBBh .
+
+adi:7p4JVjqrwBBh a rdfs:Resource ;
+    rdfs:label "Ma disteso ed eretto il fero Argante" ;
+    <> adi:Lv8EW8V8UKXk,
+        adi:UJZ7Qau55M9Z ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Ma disteso, & eretto il fero Argante  
+Dimostra arte simile, atto diverso.  
+Quanto egli può va co'l gran braccio inante, 
+E cerca il ferro no, ma il corpo averso,
+Quel tenta aditi novi in ogni instante.
+Questi gli ha il ferro al volto ogn'hor converso.  
+Minaccia, e intento a proibirgli stassi  
+Furtive entrate, e subiti trapassi.""" ;
+    dc:subject adi:mFiPL4Hssca2 ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=35264> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:5VUDxWtHbGZH,
+        adi:f8y8gtFpBpFP ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

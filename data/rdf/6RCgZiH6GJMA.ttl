@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6RCgZiH6GJMA-Auie9QFQLg4h a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:E5iRLUFCaaJC ;
+    rdf:predicate <> ;
+    rdf:subject adi:6RCgZiH6GJMA .
+
+adi:6RCgZiH6GJMA-PWdrS7AEBHWF a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/_/ezPNQ5j0YUcC> ;
+    wdt:P291 adi:Hm8LNCNr7Wxn ;
+    rdf:object "Nd97774e2cf794cb68b84454c281742c5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6RCgZiH6GJMA ;
+    schema:datePublished "1640" ;
+    schema:url <http://id.sbn.it/bid/CFIE004827> .
+
+adi:6RCgZiH6GJMA-WLwcgF5nH6Gz a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:kdhP2KUiWAF9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:6RCgZiH6GJMA .
+
+adi:6RCgZiH6GJMA a rdfs:Resource ;
+    rdfs:label "Ascanio errante" ;
+    <> adi:E5iRLUFCaaJC,
+        adi:FSsfkMyDLbzE,
+        adi:kdhP2KUiWAF9 ;
+    dc:subject adi:Xf5XXx6QrdyX ;
+    dcterms:identifier <http://id.sbn.it/bid/CFIE004827> ;
+    dcterms:title "Ascanio errante poema della Barbera Tigliamochi degl'Albizi gentildonna fiorentina" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:6rYwUPnKokCv ;
+    wdt:P31 adi:G5HRmYcA2riQ .
+

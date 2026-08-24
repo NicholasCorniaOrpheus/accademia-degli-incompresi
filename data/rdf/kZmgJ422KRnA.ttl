@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kZmgJ422KRnA-62Bd8pFdT2Qy a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:J5pKGsChKZxe ;
+    rdf:predicate <> ;
+    rdf:subject adi:kZmgJ422KRnA .
+
+adi:kZmgJ422KRnA-eGsfRg8MZriE a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=PQZovyIc70gC> ;
+    dcterms:publisher adi:bfitVoa2CYAr ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N4cc3b398a7d34a43b0f90ee1d0b9b6be" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kZmgJ422KRnA ;
+    schema:datePublished "1572" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE004261> .
+
+adi:kZmgJ422KRnA a rdfs:Resource ;
+    rdfs:label "Rythmomachia" ;
+    <> adi:J5pKGsChKZxe,
+        adi:mCuvDnsUYbDe ;
+    dc:subject adi:L7k8h55NKakA,
+        adi:hwaVpgj7GbXT ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE004261> ;
+    dcterms:title "Il Nobilissimo et antiquissimo giuoco Pythagoreo nominato Rythmomachia cioè battaglia de consonantie de numeri" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:fJs2iQkDSYua .
+

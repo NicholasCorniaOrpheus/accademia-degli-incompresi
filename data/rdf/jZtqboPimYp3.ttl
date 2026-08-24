@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jZtqboPimYp3-U4GaNm3VHUC3 a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:aR27UgntvNYH ;
+    rdf:predicate <> ;
+    rdf:subject adi:jZtqboPimYp3 .
+
+adi:jZtqboPimYp3-ewDMHEYoSNi3 a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:jZtqboPimYp3 ;
+    ns1:P304 "169" ;
+    ns1:P958 "Elena Lucrezia Cornaro Piscopia." ;
+    schema:volumeNumber "2" .
+
+adi:jZtqboPimYp3 a rdfs:Resource ;
+    rdfs:label "S'ottenebra la Terra, il Sol s'oscura" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:aR27UgntvNYH ;
+    pdc:text """S'ottenebra la Terra, il Sol s'oscura
+E dal corso primier rivolto ei riede;
+Vedova sta la fede,
+Ove egli pria solea varcar l'Empiro,
+Né per questo io m'ammiro;
+Che se in Croce sospeso è un Dio, che muore,
+Convien, che mora ancor il Dio dell'ore.
+
+L'infinito, umanato omai finisce,
+Si risente perciò quel, ch'è finito,
+E se il maggior ferito
+Cadde, giust'è, ch'anche il minor ne pera,
+E dentro fosca sera
+Il Mondo stia di tenebre corrotte,
+Fatto Fabbro da sé d'eterna notte.
+
+Lagrimate tutte, o Genti;
+Del fattor, che vi creò,
+Il figliuolo fra tormenti,
+Per voi morte sopportò,
+
+E pur ingrato l'Uomo al Redentore
+L'offende co' peccati a tutte l'ore.
+Oh del Genere Umano iniqua sorte,
+Abbandona la vita, e corre a morte.""" ;
+    dc:subject adi:FS23yoaJjtRG,
+        adi:KGrBx8dKLuSe,
+        adi:e4z5crPAxqJa ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:cmG7qu4tHNZL ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

@@ -1,0 +1,78 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AxibEdDh9E23-CKkjQuCXGEf5 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23-HYVyoJq9ohH7 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:FHLpvKokceg7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23-VQnMnAkNUa5i a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23-bLvZV9EeNrcc a rdf:Statement ;
+    bf:Note "Bassus missing." ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S001/> ;
+    dcterms:publisher adi:HwmQgfH5MtNT ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N1f03b6f10a0a497b86a8efec325177f0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AxibEdDh9E23 ;
+    schema:datePublished "1579" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036951> .
+
+adi:AxibEdDh9E23-daxV3MQzRSei a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23-gZuCBzfeQEME a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23-kcLD75W52xx2 a rdf:Statement ;
+    bf:Note "Only altus and bassus." ;
+    bf:electronicLocator <https://edl.cultura.gov.it/item/xojw0qg65v> ;
+    dcterms:publisher adi:HwmQgfH5MtNT ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://edl-jarvis.cultura.gov.it/meta/iiif/ffbb57cb-aefc-4778-b5a2-06e63e891794/manifest> ;
+    rdf:object "N05246e6c5dd14f60868be12e1a5f57bb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AxibEdDh9E23 ;
+    schema:datePublished "1579" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036951> .
+
+adi:AxibEdDh9E23-kxMY5ojC5jfw a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AxibEdDh9E23 .
+
+adi:AxibEdDh9E23 a rdfs:Resource ;
+    rdfs:label "Di Pietro Cavatoni veronese, Il primo libro de madrigali a cinque voci" ;
+    <> adi:FHLpvKokceg7 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE036951>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV04550010>,
+        <https://rism.online/sources/990009220> ;
+    dcterms:title "Di Pietro Cauatoni veronese, Il primo libro de madrigali a cinque voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

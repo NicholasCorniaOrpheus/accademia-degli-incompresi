@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jkTazJcNpV85-65aMT8QJscgn a rdf:Statement ;
+    bf:Note "Cantus is missing. It can be retrieved at the Austrian National Library" ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U075/> ;
+    dcterms:publisher adi:btogkstkNfhe ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Nb27ce74d08dc4f19a8ac47b8d537b03b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:jkTazJcNpV85 ;
+    schema:datePublished "1573" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045257> .
+
+adi:jkTazJcNpV85-7PRqtHDCnnkF a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGvRViUmPajp" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85-FKoCmpstGiri a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85-LpAHytCHwuKD a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:PSizCrgD886r ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85-UYxALFHkcntv a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85-YNU2r843tGe3 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85-oKQDzR8BAehR a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jkTazJcNpV85 .
+
+adi:jkTazJcNpV85 a rdfs:Resource ;
+    rdfs:label "Il quarto libro de madrigali di Marc'Antonio Pordenon. A cinque voci" ;
+    <> adi:PSizCrgD886r ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045257>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV16670010>,
+        <https://rism.online/sources/990052508> ;
+    dcterms:title "Il quarto libro de madrigali di Marc'Antonio Pordenon padouano. Nouamente composti & dati in Luce. A cinque voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

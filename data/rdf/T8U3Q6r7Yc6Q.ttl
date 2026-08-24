@@ -1,0 +1,23 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:T8U3Q6r7Yc6Q-QVfDEcYgW3PF a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:WbM5rHoP8p3T ;
+    rdf:predicate <> ;
+    rdf:subject adi:T8U3Q6r7Yc6Q .
+
+adi:T8U3Q6r7Yc6Q a rdfs:Resource ;
+    rdfs:label "Canzoniere" ;
+    <> adi:WbM5rHoP8p3T ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q777574> ;
+    dcterms:title "Rerum vulgarium fragmenta" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR ;
+    skos:altLabel "Rerum vulgarium fragmenta" .
+

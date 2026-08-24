@@ -1,0 +1,65 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AQ4Mxw23doRC-2CaS7CiX3iNr a rdf:Statement ;
+    dcterms:references adi:kAuAzk9YeiqY ;
+    rdf:object adi:HsE4D9BNGC9H ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC .
+
+adi:AQ4Mxw23doRC-JNAAthp77Pg3 a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "16371" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC .
+
+adi:AQ4Mxw23doRC-MksAuqQLsa33 a rdf:Statement ;
+    dcterms:references adi:3XnpJ3vZQnbp ;
+    rdf:object adi:Hm8LNCNr7Wxn ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC .
+
+adi:AQ4Mxw23doRC-Ukeb2R7m4A9N a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:QSyianVr6pdC ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC ;
+    schema:startDate "1560" .
+
+adi:AQ4Mxw23doRC-a5BXhCk6W8JW a rdf:Statement ;
+    dcterms:references adi:9n42gMvHpXdx ;
+    rdf:object adi:hf6JDFWQ8eAj ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC ;
+    schema:startDate "1550" .
+
+adi:AQ4Mxw23doRC-e753AmViteVj a rdf:Statement ;
+    bf:heldBy adi:fGNbusFoz4E3 ;
+    rdf:object "A0006" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AQ4Mxw23doRC .
+
+adi:AQ4Mxw23doRC a rdfs:Resource ;
+    rdfs:label "Laura Battiferri" ;
+    <> adi:Hm8LNCNr7Wxn,
+        adi:HsE4D9BNGC9H,
+        adi:QSyianVr6pdC,
+        adi:YVAbik9eKVEW,
+        adi:hf6JDFWQ8eAj,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdyZG6fXKCLc" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q426217>,
+        <https://lyra.unil.ch/agents/222> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:9n42gMvHpXdx,
+        adi:kAuAzk9YeiqY ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Laura Battiferra",
+        "Laura Battiferri Ammannati" ;
+    schema:gender adi:cg4AvGtwt6Bs .
+
