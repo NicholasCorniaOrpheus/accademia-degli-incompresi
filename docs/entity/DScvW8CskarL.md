@@ -4,10 +4,10 @@
 [JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/DScvW8CskarL.json){ .md-button }
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/DScvW8CskarL.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/DScvW8CskarL.csv){ .md-button }
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/assets/poems/amor_tu_causi_tutto_il_penar_mio){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/poems/amor_tu_causi_tutto_il_penar_mio){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: PoeticWork
     - label: Amor tu causi tutt'il penar mio
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/DScvW8CskarL.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/DScvW8CskarL.json";
     </script>
 
 
@@ -115,23 +115,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-  
-  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
-  </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "assets/poems/amor_tu_causi_tutto_il_penar_mio/",
-    images: ["001.jpg"],
-    iiif: []
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "assets/poems/amor_tu_causi_tutto_il_penar_mio/",
+  images: ["001.jpg"],
+  iiif: []
+};
 </script>
 

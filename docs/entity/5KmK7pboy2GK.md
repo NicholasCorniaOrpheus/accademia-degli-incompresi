@@ -6,7 +6,7 @@
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/5KmK7pboy2GK.csv){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
     - label: Delle imprese trattato di Giulio Cesare Capaccio
@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/5KmK7pboy2GK.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/5KmK7pboy2GK.json";
     </script>
 
 
@@ -102,22 +102,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://jmms.iccu.sbn.it/jmms/metadata/VFdGblZHVmpZU0F0SUVsRFExVV8_/b2FpOnd3dy5pbnRlcm5ldGN1bHR1cmFsZS5zYm4uaXQvVGVjYToyMDpOVDAwMDA6Q05DRTAwOTA2Mg__/manifest.json"' style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
-      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://jmms.iccu.sbn.it/jmms/metadata/VFdGblZHVmpZU0F0SUVsRFExVV8_/b2FpOnd3dy5pbnRlcm5ldGN1bHR1cmFsZS5zYm4uaXQvVGVjYToyMDpOVDAwMDA6Q05DRTAwOTA2Mg__/manifest.json"' style="width:100%; height:100%;"></div>
-    </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "/",
-    images: [],
-    iiif: ["https://jmms.iccu.sbn.it/jmms/metadata/VFdGblZHVmpZU0F0SUVsRFExVV8_/b2FpOnd3dy5pbnRlcm5ldGN1bHR1cmFsZS5zYm4uaXQvVGVjYToyMDpOVDAwMDA6Q05DRTAwOTA2Mg__/manifest.json"]
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "/",
+  images: [],
+  iiif: ["https://jmms.iccu.sbn.it/jmms/metadata/VFdGblZHVmpZU0F0SUVsRFExVV8_/b2FpOnd3dy5pbnRlcm5ldGN1bHR1cmFsZS5zYm4uaXQvVGVjYToyMDpOVDAwMDA6Q05DRTAwOTA2Mg__/manifest.json"]
+};
 </script>
 

@@ -5,7 +5,7 @@
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/{{ metadata.id }}.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/{{ metadata.id }}.csv){ .md-button }
 {%- if assets and assets.local_asset_path %}
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/{{ assets.local_asset_path | replace('./', '') }}){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ assets.local_asset_path | replace('./', '') }}){ .md-button }
 {%- endif %}
 
 {# 2. Metadata Admonition - Filtering out n_id, base_name, and filename #}
@@ -126,7 +126,6 @@
 
 ??? abstract "Digitised images"
 
-{# Normalize iiif list (handles single string or list) #}
 {%- set iiif_list = [] -%}
 {%- if assets.iiif is defined and assets.iiif %}
   {%- if assets.iiif is iterable and assets.iiif is not string %}
@@ -136,29 +135,26 @@
   {%- endif %}
 {%- endif %}
 
-{# Create a viewer container for every manifest (or at least one if we have images) #}
 {%- if iiif_list | length > 0 %}
   {%- for manifest in iiif_list %}
-    <div id="openseadragon-container-{{ loop.index0 }}" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
-      <div id="osd-viewer-{{ loop.index0 }}" class="osd-viewer" data-manifest='{{ manifest | tojson | safe }}' style="width:100%; height:100%;"></div>
-    </div>
+<div id="openseadragon-container-{{ loop.index0 }}" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-{{ loop.index0 }}" class="osd-viewer" data-manifest='{{ manifest | tojson | safe }}' style="width:100%;height:100%;"></div>
+</div>
   {%- endfor %}
 {%- else %}
-  {# If no IIIF manifests, create a single container for images fallback #}
-  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
-  </div>
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" style="width:100%;height:100%;"></div>
+</div>
 {%- endif %}
 
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "{{ (assets.local_asset_path or '') | replace('./', '') }}/",
-    images: {{ (assets.jpg or []) | tojson }},
-    iiif: {{ iiif_list | tojson }}
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "{{ (assets.local_asset_path or '') | replace('./', '') }}/",
+  images: {{ (assets.jpg or []) | tojson }},
+  iiif: {{ iiif_list | tojson }}
+};
 </script>
 
 {%- endif %}

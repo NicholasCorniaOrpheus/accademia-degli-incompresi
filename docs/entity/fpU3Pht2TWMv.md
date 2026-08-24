@@ -4,10 +4,10 @@
 [JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/fpU3Pht2TWMv.json){ .md-button }
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/fpU3Pht2TWMv.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/fpU3Pht2TWMv.csv){ .md-button }
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/assets/emblems/Adombrato_Non_come_soglio_il_folgorar_pavento){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/emblems/Adombrato_Non_come_soglio_il_folgorar_pavento){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/emblem.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/emblem.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Emblem
     - label: Non come soglio il folgorar pavento
@@ -63,7 +63,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/fpU3Pht2TWMv.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/fpU3Pht2TWMv.json";
     </script>
 
 

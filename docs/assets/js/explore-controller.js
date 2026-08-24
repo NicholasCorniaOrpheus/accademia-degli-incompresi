@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     const resultsGrid = document.getElementById('search-results');
     if (!resultsGrid) return;
 
-    const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/advanced_search_index.json';
+    const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/advanced_search_index.json';
 
     try {
         const response = await fetch(indexUrl);

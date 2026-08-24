@@ -4,10 +4,10 @@
 [JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/eLppTE6xb4Ci.json){ .md-button }
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/eLppTE6xb4Ci.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/eLppTE6xb4Ci.csv){ .md-button }
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/assets/poems/ove_ne_lasci,_ove_signor_ne_vai){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/poems/ove_ne_lasci,_ove_signor_ne_vai){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: PoeticWork
     - label: Ove ne lasci, ove Signor ne vai
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/eLppTE6xb4Ci.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/eLppTE6xb4Ci.json";
     </script>
 
 

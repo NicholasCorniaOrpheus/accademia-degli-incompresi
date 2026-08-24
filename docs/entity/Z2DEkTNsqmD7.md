@@ -4,7 +4,7 @@
 [JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/Z2DEkTNsqmD7.json){ .md-button }
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/Z2DEkTNsqmD7.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/Z2DEkTNsqmD7.csv){ .md-button }
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/assets/agents/artemisia_gentileschi){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/agents/artemisia_gentileschi){ .md-button }
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/Z2DEkTNsqmD7.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/Z2DEkTNsqmD7.json";
     </script>
 
 
@@ -111,23 +111,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-  
-  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
-  </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "assets/agents/artemisia_gentileschi/",
-    images: ["3415_Mar\u00eda_Magdalena_como_melancol\u00eda.jpg", "Artemisa_Susanna_1622.jpg", "Artemisia_Gentileschi_Mary_Magdalene_Pitti.jpg", "Esther-before-ahasuerus.jpg", "Saint_Cecilia_by_Artemisia_Gentileschi.jpg", "Self-portrait_as_the_Allegory_of_Painting_by_Artemisia_Gentileschi.jpg", "St-cecilia.jpg"],
-    iiif: []
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "assets/agents/artemisia_gentileschi/",
+  images: ["3415_Mar\u00eda_Magdalena_como_melancol\u00eda.jpg", "Artemisa_Susanna_1622.jpg", "Artemisia_Gentileschi_Mary_Magdalene_Pitti.jpg", "Esther-before-ahasuerus.jpg", "Saint_Cecilia_by_Artemisia_Gentileschi.jpg", "Self-portrait_as_the_Allegory_of_Painting_by_Artemisia_Gentileschi.jpg", "St-cecilia.jpg"],
+  iiif: []
+};
 </script>
 

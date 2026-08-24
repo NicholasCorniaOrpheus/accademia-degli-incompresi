@@ -17,6 +17,7 @@ The following words and characters have been changed to modern Italian spelling
 | piu | più | |
 | virtu | virtù |
 | vò | vo | The first person of the verb "andare" does not need any accent or apostrophe in modern italian| 
+| cio | ciò | |
 | ã | an | Expliciting tilda abbreviation |
 | õ | on | Expliciting tilda abbreviation |
 | ẽ | en | Expliciting tilda abbreviation |

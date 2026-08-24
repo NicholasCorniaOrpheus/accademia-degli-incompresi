@@ -6,20 +6,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:U7Pmih35JHCN-XjRMcA784KdX a rdf:Statement ;
+adi:U7Pmih35JHCN-dRH4dKtzMk9L a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=ZQI4KhpLdgEC> ;
+    dcterms:publisher adi:W4f9PenDp3eF ;
+    wdt:P291 adi:QMFSYBz2vKMc ;
+    rdf:object "Nfb4182843dba4f8cb1c2b8ada484ba6b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:U7Pmih35JHCN ;
+    schema:url <http://id.sbn.it/bid/SBLE000475> .
+
+adi:U7Pmih35JHCN-fzuX3nSdbwYh a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:kUiiaYvUfK7o ;
     rdf:predicate <> ;
     rdf:subject adi:U7Pmih35JHCN .
-
-adi:U7Pmih35JHCN-fjHDvYBArtsZ a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=ZQI4KhpLdgEC> ;
-    dcterms:publisher adi:W4f9PenDp3eF ;
-    wdt:P291 adi:QMFSYBz2vKMc ;
-    rdf:object "Na73de4174c9e4552b9927061ce53b6c9" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:U7Pmih35JHCN ;
-    schema:url <http://id.sbn.it/bid/SBLE000475> .
 
 adi:U7Pmih35JHCN a rdfs:Resource ;
     rdfs:label "Rime d'Isabella Andreini padovana comica Gelosa" ;

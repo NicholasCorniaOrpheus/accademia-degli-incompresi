@@ -4,10 +4,10 @@
 [JSON :material-code-json:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/json/Ws6pk5zWnqBt.json){ .md-button }
 [RDF :material-vector-link:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/rdf/Ws6pk5zWnqBt.ttl){ .md-button }
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/Ws6pk5zWnqBt.csv){ .md-button }
-[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/vault/assets/music_compositions/renaldi-l'empio_tuo_strale_amore){ .md-button }
+[:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/music_compositions/renaldi-l'empio_tuo_strale_amore){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/music_composition.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: MusicComposition
     - label: L'empio tuo strale Amore (Renaldi)
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/Ws6pk5zWnqBt.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/Ws6pk5zWnqBt.json";
     </script>
 
 
@@ -94,23 +94,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-  
-  <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333;">
-    <div id="osd-viewer-0" class="osd-viewer" style="width:100%; height:100%;"></div>
-  </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "assets/music_compositions/renaldi-l'empio_tuo_strale_amore/",
-    images: ["a_001.jpg", "a_002.jpg", "b_001.jpg", "b_002.jpg", "c_001.jpg", "c_002.jpg", "t_001.jpg", "t_002.jpg"],
-    iiif: []
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "assets/music_compositions/renaldi-l'empio_tuo_strale_amore/",
+  images: ["a_001.jpg", "a_002.jpg", "b_001.jpg", "b_002.jpg", "c_001.jpg", "c_002.jpg", "t_001.jpg", "t_002.jpg"],
+  iiif: []
+};
 </script>
 

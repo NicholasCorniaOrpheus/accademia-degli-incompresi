@@ -7,7 +7,6 @@ identifier:
   - https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29222
 described_by_source:
   - "[[Progetto Lyra]]"
-  - "[[PoeTree]]"
 image:
 aliases:
 instance_of: "[[poem]]"

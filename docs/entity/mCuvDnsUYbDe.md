@@ -6,7 +6,7 @@
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/mCuvDnsUYbDe.csv){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
     - label: Dialogo sopra la particolare dichiaratione del giuoco di Pitagora
@@ -62,7 +62,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/mCuvDnsUYbDe.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/mCuvDnsUYbDe.json";
     </script>
 
 
@@ -106,22 +106,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://colenda.library.upenn.edu/items/ark:/81431/p3c95d/manifest"' style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
-      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://colenda.library.upenn.edu/items/ark:/81431/p3c95d/manifest"' style="width:100%; height:100%;"></div>
-    </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "/",
-    images: [],
-    iiif: ["https://colenda.library.upenn.edu/items/ark:/81431/p3c95d/manifest"]
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "/",
+  images: [],
+  iiif: ["https://colenda.library.upenn.edu/items/ark:/81431/p3c95d/manifest"]
+};
 </script>
 

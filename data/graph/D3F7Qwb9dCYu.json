@@ -4,19 +4,31 @@
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
       "label": "death",
       "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iiwoY8aSn9wQ",
+      "label": "Ov'è (misera me) quell'aureo crine",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AJjWMiX9cbvY",
+      "label": "Tu dunque figlio sei morto, che solo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGWewhTdwcgZ",
       "label": "life",
       "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/concept.png"
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EUCsZc7rQDmj",
       "label": "Filli. Dimmi, lasso, mio core",
       "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/poetic_work.png"
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -26,6 +38,16 @@
       "property": "opposite_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iiwoY8aSn9wQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AJjWMiX9cbvY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGWewhTdwcgZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
       "property": "opposite_of"
@@ -33,6 +55,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EUCsZc7rQDmj",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3F7Qwb9dCYu",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iiwoY8aSn9wQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGWewhTdwcgZ",
       "property": "depicts"
     }
   ]

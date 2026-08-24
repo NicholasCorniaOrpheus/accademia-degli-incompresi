@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q250089
 described_by_source:
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/a/ad/Alessandro_Piccolomini.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

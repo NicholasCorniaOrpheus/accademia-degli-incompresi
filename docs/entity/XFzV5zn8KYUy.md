@@ -6,7 +6,7 @@
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/XFzV5zn8KYUy.csv){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
     - label: Del tempio alla divina signora donna Giovanna d'Aragona
@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/XFzV5zn8KYUy.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/XFzV5zn8KYUy.json";
     </script>
 
 
@@ -129,22 +129,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"' style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
-      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"' style="width:100%; height:100%;"></div>
-    </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "/",
-    images: [],
-    iiif: ["https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"]
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "/",
+  images: [],
+  iiif: ["https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/3A7DA31E88C94EF0B9E85611EC20825D/manifest/11DA2E15D10E4BD893F78A959D3DF8E1"]
+};
 </script>
 

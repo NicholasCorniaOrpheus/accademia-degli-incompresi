@@ -10,7 +10,7 @@ described_by_source:
   - "[[(McNeil 1995)]]"
   - "[[(Sorrentini 2015)]]"
   - "[[(Campbell 2018)]]"
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/e/e4/Rime_d%27Isabella_Andreini_1603%2C_frontispiece%2C_engraved_portrait_-_Gallica_2014_%28adjusted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
   - Isabella Canali Andreini
 instance_of:

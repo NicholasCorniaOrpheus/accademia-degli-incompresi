@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q1768433
 described_by_source:
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/c/cd/Agostino_Valier_Via.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

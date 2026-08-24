@@ -6,7 +6,7 @@
 [CSV :material-table:](https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/csv/EtEAiiP86Ekx.csv){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/vault/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
     - class: Book
     - label: Mirinda fauola pastorale del c. Marc'Antonio Ferretti
@@ -61,7 +61,7 @@
     <!-- Configure D3 graph -->
     <script>
       window.kbGraphConfig = window.kbGraphConfig || {};
-      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graphgraph/EtEAiiP86Ekx.json";
+      window.kbGraphConfig.graphUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/EtEAiiP86Ekx.json";
     </script>
 
 
@@ -108,22 +108,17 @@
 ## Digital Assets
 
 ??? abstract "Digitised images"
+<div id="openseadragon-container-0" data-admonition-title="Digitised images" style="height:800px;border:1px solid #ddd;border-radius:8px;overflow:hidden;background:#333;margin-bottom:12px;">
+  <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest"' style="width:100%;height:100%;"></div>
+</div>
 
-
-
-
-    <div id="openseadragon-container-0" style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #333; margin-bottom: 12px;">
-      <div id="osd-viewer-0" class="osd-viewer" data-manifest='"https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest"' style="width:100%; height:100%;"></div>
-    </div>
-
-<!-- Export all assets as a single JSON object for page JS to consume -->
 <script>
-  window.kbGraphConfig = window.kbGraphConfig || {};
-  window.kbGraphConfig.assets = {
-    base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
-    local_path: "/",
-    images: [],
-    iiif: ["https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest"]
-  };
+window.kbGraphConfig = window.kbGraphConfig || {};
+window.kbGraphConfig.assets = {
+  base_github_url: "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/",
+  local_path: "/",
+  images: [],
+  iiif: ["https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest"]
+};
 </script>
 

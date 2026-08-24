@@ -6,27 +6,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:8RLxs8x4wfsB-9oio9uMJRTrs a rdf:Statement ;
+adi:8RLxs8x4wfsB-8oy5Xu9hMAsj a rdf:Statement ;
+    bf:electronicLocator <https://arbor.medialibrary.it/item/8f7d76c6-7005-4f66-a940-d2a3dee05079> ;
+    wdt:P291 adi:Hm8LNCNr7Wxn ;
+    wdt:P6108 <https://archiginnasio.jarvis.memooria.org/meta/iiif/8f7d76c6-7005-4f66-a940-d2a3dee05079/manifest> ;
+    rdf:object "N6794cef7abc24680b8e1d595f3b5c381" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:8RLxs8x4wfsB ;
+    schema:datePublished "1625" ;
+    schema:url <http://id.sbn.it/bid/BVEE023175> .
+
+adi:8RLxs8x4wfsB-L9Jgj6JBRozw a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:CmtG6RrwYggB ;
     rdf:predicate <> ;
     rdf:subject adi:8RLxs8x4wfsB .
 
-adi:8RLxs8x4wfsB-LbcGdABCqQCU a rdf:Statement ;
+adi:8RLxs8x4wfsB-RaRiGKvGH3pR a rdf:Statement ;
     dcterms:references adi:CP9zVMgo5ssa ;
     rdf:object "1623" ;
     rdf:predicate <> ;
     rdf:subject adi:8RLxs8x4wfsB .
-
-adi:8RLxs8x4wfsB-SD4RALGgpieK a rdf:Statement ;
-    bf:electronicLocator <https://arbor.medialibrary.it/item/8f7d76c6-7005-4f66-a940-d2a3dee05079> ;
-    wdt:P291 adi:Hm8LNCNr7Wxn ;
-    wdt:P6108 <https://archiginnasio.jarvis.memooria.org/meta/iiif/8f7d76c6-7005-4f66-a940-d2a3dee05079/manifest> ;
-    rdf:object "N5235bf1806b44b4fac9fbd8bc6871664" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:8RLxs8x4wfsB ;
-    schema:datePublished "1625" ;
-    schema:url <http://id.sbn.it/bid/BVEE023175> .
 
 adi:8RLxs8x4wfsB a rdfs:Resource ;
     rdfs:label "La finta mora" ;

@@ -8,7 +8,7 @@ identifier:
 described_by_source:
   - "[[(Campbell 2018)]]"
   - "[[(Broccia 2008)]]"
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/1/17/Gaspara_stampa1738.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

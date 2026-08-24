@@ -6,7 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q3606791
 described_by_source:
   - "[[(Terzaghi 2017)]]"
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/c/cd/BerniniMascardi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

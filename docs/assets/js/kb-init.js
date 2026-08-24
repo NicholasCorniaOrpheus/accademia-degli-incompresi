@@ -7,82 +7,134 @@
 class KBLightInit {
   constructor() {
     this.d3Initialized = false;
-    // note: we don't use a single osdInitialized boolean anymore because
-    // there can be multiple viewers on a page; initialization is per-container.
     this.config = window.kbGraphConfig || {};
     this.graphInitialized = false;
+
+    // Guard to avoid re-entrancy when mutations cause runPageLogic to be called again
+    this._running = false;
+
+    // debounce timer for MutationObserver
+    this._observerTimer = null;
+
+    // store observer reference so we can disconnect if needed
+    this._observer = null;
   }
 
-  // Adding extra setup to force Instant Loading of AJAX to load D3 and OpenSeadragon properly
-
-    setup() {
-      // 1. Consolidate logic for both initial load and AJAX updates
-          const runComponents = () => {
-            console.log("KB-Light: Running component initialization...");
-            this.initD3Graph();
-            this.initOpenSeadragon();
-            // this.initCETEIcean();
-          };  
-      // 2. MkDocs Material Instant Loading Observable
-      if (typeof document$ !== "undefined") {
-        document$.subscribe(() => {
-          console.log("Instant Loading: Re-initializing components...");
-          this.graphInitialized = false; // Reset flag on navigation
-          this.setupGraphTrigger();
-          this.runPageLogic();
-        });
-      } else {
-        // Fallback for non-Material environments
-        document.addEventListener("DOMContentLoaded", () => this.runPageLogic());
-      }
-  }
-
-  setupGraphTrigger() {
-    // MkDocs Admonitions render as <details> tags
-    const graphAdmonition = document.querySelector('details.abstract');
-    const graphContainer = document.getElementById("entity-graph");
-
-    if (graphAdmonition && graphContainer) {
-      graphAdmonition.addEventListener('toggle', () => {
-        // Only run if the admonition was OPENED and not yet initialized
-        if (graphAdmonition.open && !this.graphInitialized) {
-          console.log("Admonition expanded: Forcing Graph Load.");
-          this.initD3Graph();
-          this.graphInitialized = true;
-        }
+  setup() {
+    if (typeof document$ !== "undefined") {
+      document$.subscribe(() => {
+        console.log("Instant Loading: Re-initializing components...");
+        this.graphInitialized = false;
+        this.runPageLogic();
       });
+    } else {
+      document.addEventListener("DOMContentLoaded", () => this.runPageLogic());
     }
   }
 
-  runPageLogic() {
+  /**
+   * Move top-level openseadragon containers into the matching admonition (by title).
+   * This avoids emitting indented HTML in markdown while keeping the viewer visually
+   * inside the admonition.
+   *
+   * This function is idempotent: it skips containers that are already inside an admonition
+   * or have already been relocated.
+   */
+  _relocateOSDContainersIntoAdmonitions() {
+    const containers = Array.from(document.querySelectorAll('[id^="openseadragon-container-"]'));
+    if (!containers.length) return;
 
-    // Check if we are on an entity page with a Graph container
-    this.initD3Graph();
+    // Candidate admonition containers: MkDocs Material uses <details class="abstract"> for "??? abstract"
+    const admonitionCandidates = Array.from(document.querySelectorAll('details.abstract, details, .admonition, .md-typeset .admonition'));
 
-    
-    // Always check for OpenSeadragon containers
-    this.initOpenSeadragon();
+    containers.forEach(container => {
+      // Skip if we've already relocated this container previously
+      if (container.dataset.relocated === "true") return;
+
+      // If container already inside a details/admonition, skip
+      const insideAdmon = container.closest('details, .admonition');
+      if (insideAdmon) {
+        container.dataset.relocated = "true";
+        return;
+      }
+
+      // title to match (default "Digitised images" — keep consistent with template)
+      const targetTitle = (container.dataset.admonitionTitle || 'Digitised images').trim().toLowerCase();
+
+      // Find candidate whose summary or title contains the targetTitle
+      let matched = admonitionCandidates.find(ad => {
+        // try <summary>
+        const summary = ad.querySelector('summary');
+        if (summary && summary.textContent && summary.textContent.toLowerCase().includes(targetTitle)) return true;
+        // try elements that might contain the admonition title
+        const heading = ad.querySelector('.admonition-title, .md-typeset > p, .md-typeset > h1, .md-typeset > h2, .md-typeset > h3');
+        if (heading && heading.textContent && heading.textContent.toLowerCase().includes(targetTitle)) return true;
+        // fallback: any text start match
+        const txt = (ad.textContent || '').trim().toLowerCase();
+        return txt.startsWith(targetTitle);
+      });
+
+      if (!matched) {
+        // fallback to first details.abstract or first details
+        matched = document.querySelector('details.abstract') || document.querySelector('details') || null;
+      }
+
+      if (matched) {
+        // For <details>, append after <summary> if exists
+        const summary = matched.querySelector('summary');
+        try {
+          if (summary && summary.parentNode) {
+            summary.insertAdjacentElement('afterend', container);
+          } else {
+            matched.appendChild(container);
+          }
+          // mark relocated so we don't move again
+          container.dataset.relocated = "true";
+        } catch (err) {
+          console.warn("KB: relocation failed for container", container.id, err);
+        }
+      }
+    });
+  }
+
+  /**
+   * Main per-page initialization. Guarded to prevent reentrancy.
+   */
+  async runPageLogic() {
+    if (this._running) {
+      // Already running; ignore this invocation
+      // console.log("KB: runPageLogic already running; skipping re-entry.");
+      return;
+    }
+    this._running = true;
+    try {
+      this.initD3Graph();
+
+      // Move OSD containers into the admonition before OSD init so the viewer is created in the final place
+      // Do this synchronously before initOpenSeadragon runs.
+      this._relocateOSDContainersIntoAdmonitions();
+
+      // Always check for OpenSeadragon containers
+      await this.initOpenSeadragon();
+    } catch (err) {
+      console.error("KB: runPageLogic error:", err);
+    } finally {
+      this._running = false;
+    }
   }
 
   initD3Graph() {
     const graphContainer = document.querySelector("#graph-container");
     const graphUrl = this.config.graphUrl;
-
-    if (!graphContainer || !graphUrl || graphUrl.trim() === "" || graphUrl === "None") {
-      return;
-    }
-
+    if (!graphContainer || !graphUrl || graphUrl.trim() === "" || graphUrl === "None") return;
     if (this.d3Initialized) return;
     this.d3Initialized = true;
 
     console.log("KB: Initializing D3 graph from", graphUrl);
-
-    const csvUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/mappings/yaml_classes2lod.csv";
+    const csvUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv";
 
     Promise.all([d3.csv(csvUrl), d3.json(graphUrl)])
-      .then(([mappingData, graph]) => {
-        this._renderD3Graph(graph, mappingData);
-      })
+      .then(([mappingData, graph]) => this._renderD3Graph(graph, mappingData))
       .catch(err => {
         console.error("D3 Graph failed:", err);
         if (graphContainer) {
@@ -91,383 +143,256 @@ class KBLightInit {
       });
   }
 
-  initOpenSeadragon() {
-    // Find all viewers that the new template emits (class .osd-viewer)
-    const osdElements = Array.from(document.querySelectorAll('.osd-viewer'));
-    const assets = this.config.assets || {};
-
-    // Backwards compatibility: if no .osd-viewer found, try legacy #osd-viewer id
-    if (osdElements.length === 0) {
-      const legacy = document.querySelector('#osd-viewer');
-      if (legacy) osdElements.push(legacy);
-    }
-
-    if (!osdElements.length || !assets) {
-      return;
-    }
-
-    // If assets.iiif is a single string, leave as string; if array, keep array.
-    // If assets.iiif can be undefined/null.
-
-    osdElements.forEach((el, idx) => {
-      // Prevent double-init of the same DOM element
-      if (el.dataset.osdInitialized === "true") return;
-
-      // Ensure element has an id (OpenSeadragon requires a unique id if using id option)
-      if (!el.id) {
-        el.id = `osd-viewer-generated-${idx}`;
-      }
-
-      // Try to find per-element manifest first (data-manifest)
-      let manifestRaw = el.dataset.manifest; // stringified JSON or URL
-      let manifest = null;
-
-      if (manifestRaw) {
-        try {
-          manifest = JSON.parse(manifestRaw);
-        } catch (e) {
-          // manifestRaw is not JSON => probably a URL string
-          manifest = manifestRaw;
-        }
-      } else {
-        // Fallback to the page-level assets.iiif
-        if (assets.iiif) {
-          if (Array.isArray(assets.iiif)) {
-            // If there are as many manifests as elements, map by index; else, pick the first
-            manifest = (assets.iiif.length > idx) ? assets.iiif[idx] : (assets.iiif.length === 1 ? assets.iiif[0] : assets.iiif);
-          } else {
-            // a single string (URL)
-            manifest = assets.iiif;
-          }
-        }
-      }
-
-      // If manifest is present and non-empty string or object, handle it
-      if (manifest) {
-        // If manifest is an object (already parsed manifest JSON), parse directly
-        if (typeof manifest === 'object') {
-          const tileSources = this._parseIIIFManifest(manifest);
-          if (tileSources && tileSources.length > 0) {
-            this._initOSD(tileSources, el);
-          } else {
-            this._showNoAssets(el);
-          }
-          el.dataset.osdInitialized = "true";
-        } else if (typeof manifest === 'string' && manifest.trim() !== "") {
-          // Assume manifest is a URL to fetch
-          this._loadIIIFManifest(manifest, el).then(success => {
-            el.dataset.osdInitialized = "true";
-          }).catch(() => {
-            el.dataset.osdInitialized = "true";
-          });
-        } else {
-          // manifest empty string
-          this._showNoAssets(el);
-          el.dataset.osdInitialized = "true";
-        }
-      } else {
-        // No IIIF manifest - fallback to images array
-        if (Array.isArray(assets.images) && assets.images.length > 0) {
-          const tileSources = assets.images
-            .map(item => {
-              const filename = (typeof item === 'string') ? item : item?.value;
-              if (!filename) return null;
-
-              const base = assets.base_github_url || "";
-              const path = assets.local_path || "";
-              const url = (base + path + filename).replace(/([^:]\/)\/+/g, "$1");
-
-              return { type: 'image', url: url };
-            })
-            .filter(s => s !== null);
-
-          if (tileSources.length > 0) {
-            this._initOSD(tileSources, el);
-          } else {
-            this._showNoAssets(el);
-          }
-        } else {
-          this._showNoAssets(el);
-        }
-        el.dataset.osdInitialized = "true";
-      }
-    });
-  }
-
   /**
-   * Load IIIF Presentation manifest (v2 or v3)
-   * Accepts either a URL string to fetch or an already-parsed manifest object.
-   * Returns a Promise that resolves true on success or false on failure.
+   * Initialize OpenSeadragon viewers.
+   * This method supports single manifest (string/object), array of manifests,
+   * and fallback to local images.
    */
-  _loadIIIFManifest(manifestOrUrl, container) {
-    return new Promise((resolve, reject) => {
-      // If manifestOrUrl is an object, parse directly
-      if (typeof manifestOrUrl === 'object') {
-        try {
-          const tileSources = this._parseIIIFManifest(manifestOrUrl);
-          if (tileSources && tileSources.length > 0) {
-            this._initOSD(tileSources, container);
-            resolve(true);
+  async initOpenSeadragon() {
+    const osdContainers = Array.from(document.querySelectorAll('.osd-viewer'));
+    // Backwards compat - try legacy id
+    if (osdContainers.length === 0) {
+      const legacy = document.querySelector('#osd-viewer');
+      if (legacy) osdContainers.push(legacy);
+    }
+
+    const assets = this.config.assets || {};
+    if (osdContainers.length === 0 || !assets) return;
+
+    const iiif = assets.iiif;
+
+    // If iiif is an array, fetch/parse all manifests and build combined tileSources
+    if (Array.isArray(iiif) && iiif.length > 0) {
+      // If there are multiple containers, map manifests to containers by index when possible.
+      if (iiif.length === osdContainers.length) {
+        for (let idx = 0; idx < iiif.length; idx++) {
+          const m = iiif[idx];
+          const c = osdContainers[idx];
+          if (!c) continue;
+          if (c.dataset.osdInitialized === "true") continue;
+          if (typeof m === 'object') {
+            const tileSources = this._parseIIIFManifest(m);
+            if (tileSources.length) this._initOSD(tileSources, c);
+            else this._showNoAssets(c);
+            c.dataset.osdInitialized = "true";
+          } else if (typeof m === 'string' && m.trim() !== "") {
+            await this._loadIIIFManifest(m, c);
+            c.dataset.osdInitialized = "true";
           } else {
-            this._showNoAssets(container);
-            resolve(false);
+            this._showNoAssets(c);
+            c.dataset.osdInitialized = "true";
           }
-        } catch (err) {
-          console.error("KB: Error parsing manifest object:", err);
-          this._showNoAssets(container);
-          reject(err);
         }
         return;
       }
 
-      // Otherwise treat manifestOrUrl as a URL string
-      const manifestUrl = manifestOrUrl;
-      console.log("KB: Loading IIIF manifest from", manifestUrl);
+      // Otherwise, combine all manifests into a single viewer (the common simpler path)
+      try {
+        const tileSources = await this._loadMultipleIIIFManifests(iiif);
+        if (!tileSources || tileSources.length === 0) {
+          // fallback to images on first container
+          this._initImagesFallback(assets, osdContainers[0]);
+          osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+          return;
+        }
+        const first = osdContainers[0];
+        if (!first.id) first.id = `osd-viewer-generated-0`;
+        this._initOSD(tileSources, first);
+        first.dataset.osdInitialized = "true";
+      } catch (err) {
+        console.error("KB: Error loading multiple IIIF manifests:", err);
+        this._initImagesFallback(assets, osdContainers[0]);
+        osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+      }
+      return;
+    }
 
-      // Add CORS header and credentials
-      fetch(manifestUrl, {
-        method: 'GET',
-        headers: {
-          'Accept': 'application/json'
-        },
-        credentials: 'omit'  // Don't send credentials for CORS
-      })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-          }
-          return response.json();
-        })
-        .then(manifest => {
-          console.log("KB: Manifest loaded successfully:", manifest);
-          const tileSources = this._parseIIIFManifest(manifest);
+    // If iiif is a single string or a parsed object, use the first available container
+    const container = osdContainers[0];
+    if (!container) return;
+    if (container.dataset.osdInitialized === "true") return;
 
-          console.log("KB: Parsed tile sources:", tileSources);
+    if (typeof iiif === 'string' && iiif.trim() !== "") {
+      // single manifest URL
+      await this._loadIIIFManifest(iiif, container);
+      container.dataset.osdInitialized = "true";
+      return;
+    }
 
-          if (tileSources && tileSources.length > 0) {
-            this._initOSD(tileSources, container);
-            resolve(true);
-          } else {
-            console.warn("KB: No tile sources found in manifest");
-            this._showNoAssets(container);
-            resolve(false);
-          }
-        })
-        .catch(err => {
-          console.error("KB: Failed to load IIIF manifest:", err);
-          console.error("KB: Manifest URL:", manifestUrl);
-          this._showNoAssets(container);
-          reject(err);
-        });
-    });
+    if (typeof iiif === 'object' && iiif !== null) {
+      const tileSources = this._parseIIIFManifest(iiif);
+      if (tileSources && tileSources.length > 0) {
+        this._initOSD(tileSources, container);
+      } else {
+        this._initImagesFallback(assets, container);
+      }
+      container.dataset.osdInitialized = "true";
+      return;
+    }
+
+    // fallback: images array
+    this._initImagesFallback(assets, container);
+    container.dataset.osdInitialized = "true";
   }
 
-  /**
-   * Parse IIIF Presentation v2 or v3 manifest
-   * Returns array of tile sources for OpenSeadragon
-   */
-  _parseIIIFManifest(manifest) {
-    const tileSources = [];
+  _initImagesFallback(assets, container) {
+    if (!container) return;
+    const images = assets.images || assets.jpg || [];
+    if (!Array.isArray(images) || images.length === 0) {
+      this._showNoAssets(container);
+      return;
+    }
+    const tileSources = images.map(item => {
+      const filename = (typeof item === 'string') ? item : item?.value;
+      if (!filename) return null;
+      const base = assets.base_github_url || "";
+      const path = assets.local_path || "";
+      const url = (base + path + filename).replace(/([^:]\/)\/+/g, "$1");
+      return { type: 'image', url: url };
+    }).filter(s => s !== null);
 
-    // Detect IIIF version
-    const context = manifest['@context'] || '';
-    const isV3 = typeof context === 'string' 
-      ? context.includes('iiif.io/api/presentation/3')
-      : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('iiif.io/api/presentation/3'));
-
-    console.log("KB: IIIF version detected:", isV3 ? "v3" : "v2");
-
-    if (isV3) {
-      return this._parseIIIFv3(manifest);
+    if (tileSources.length > 0) {
+      this._initOSD(tileSources, container);
     } else {
-      return this._parseIIIFv2(manifest);
-    }
-  }
-
-  /**
-   * Parse IIIF Presentation v2
-   * MDZ uses v2 format
-   */
-  _parseIIIFv2(manifest) {
-    const tileSources = [];
-
-    console.log("KB: Parsing IIIF v2 manifest");
-
-    // Get sequences (v2 structure)
-    const sequences = manifest.sequences || [];
-    console.log("KB: Found sequences:", sequences.length);
-
-    for (let seqIdx = 0; seqIdx < sequences.length; seqIdx++) {
-      const sequence = sequences[seqIdx];
-      const canvases = sequence.canvases || [];
-      console.log(`KB: Sequence ${seqIdx} has canvases:`, canvases.length);
-
-      for (let canvIdx = 0; canvIdx < canvases.length; canvIdx++) {
-        const canvas = canvases[canvIdx];
-        const images = canvas.images || [];
-        console.log(`KB: Canvas ${canvIdx} has images:`, images.length);
-
-        for (let imgIdx = 0; imgIdx < images.length; imgIdx++) {
-          const image = images[imgIdx];
-          const resource = image.resource;
-
-          console.log(`KB: Image ${imgIdx} resource:`, resource);
-
-          if (resource && resource.service) {
-            const service = resource.service;
-            const serviceUrl = service['@id'] || service.id;
-
-            console.log(`KB: Service URL found:`, serviceUrl);
-
-            if (serviceUrl) {
-              // OpenSeadragon expects either:
-              // 1. A tile source object with @context for IIIF Image API
-              // 2. Or a URL that returns info.json
-
-              // Try direct Image API format (IIIF Image API endpoint)
-              const tileSource = {
-                '@context': 'http://iiif.io/api/image/2/context.json',
-                '@id': serviceUrl,
-                protocol: 'http://iiif.io/api/image',
-                profile: 'http://iiif.io/api/image/2/level1.json',
-                width: canvas.width || 800,
-                height: canvas.height || 1000,
-                tiles: [{
-                  width: 256,
-                  scaleFactors: [1, 2, 4, 8, 16]
-                }]
-              };
-
-              tileSources.push(tileSource);
-              console.log("KB: Added IIIF Image API tile source:", tileSource);
-            }
-          } else if (resource && resource.url) {
-            // Direct image URL
-            console.log("KB: Using direct image URL");
-            tileSources.push({
-              type: 'image',
-              url: resource.url
-            });
-          }
-        }
-      }
-    }
-
-    return tileSources;
-  }
-
-  /**
-   * Parse IIIF Presentation v3
-   */
-  _parseIIIFv3(manifest) {
-    const tileSources = [];
-
-    console.log("KB: Parsing IIIF v3 manifest");
-
-    const items = manifest.items || [];
-
-    for (const item of items) {
-      const paintings = item.body || item.items || [];
-
-      for (const painting of paintings) {
-        if (painting.type === 'Image') {
-          const service = painting.service;
-
-          if (Array.isArray(service)) {
-            for (const svc of service) {
-              if (svc.type === 'ImageService2' || (svc['@context'] && svc['@context'].includes('image'))) {
-                const serviceUrl = svc['@id'] || svc.id;
-                if (serviceUrl) {
-                  const tileSource = {
-                    '@context': 'http://iiif.io/api/image/2/context.json',
-                    '@id': serviceUrl,
-                    protocol: 'http://iiif.io/api/image',
-                    profile: 'http://iiif.io/api/image/2/level1.json',
-                    width: item.width || 800,
-                    height: item.height || 1000,
-                    tiles: [{
-                      width: 256,
-                      scaleFactors: [1, 2, 4, 8, 16]
-                    }]
-                  };
-                  tileSources.push(tileSource);
-                }
-              }
-            }
-          } else if (service) {
-            const serviceUrl = service['@id'] || service.id;
-            if (serviceUrl) {
-              const tileSource = {
-                '@context': 'http://iiif.io/api/image/2/context.json',
-                '@id': serviceUrl,
-                protocol: 'http://iiif.io/api/image',
-                profile: 'http://iiif.io/api/image/2/level1.json',
-                width: item.width || 800,
-                height: item.height || 1000,
-                tiles: [{
-                  width: 256,
-                  scaleFactors: [1, 2, 4, 8, 16]
-                }]
-              };
-              tileSources.push(tileSource);
-            }
-          }
-        }
-      }
-    }
-
-    return tileSources;
-  }
-
-  /**
-   * Initialize OpenSeadragon with tile sources
-   */
-  _initOSD(tileSources, container) {
-    try {
-      console.log("KB: Creating OpenSeadragon viewer with", tileSources.length, "tile source(s)");
-      console.log("KB: Tile sources:", JSON.stringify(tileSources, null, 2));
-
-      const viewer = new OpenSeadragon({
-        id: container.id, // use the container's id (unique per viewer)
-        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
-        sequenceMode: tileSources.length > 1,
-        showReferenceStrip: tileSources.length > 1,
-        tileSources: tileSources,
-        
-        // CORS and IIIF settings
-        crossOriginPolicy: 'Anonymous',
-        ajaxWithCredentials: false,
-        
-        // Timeout settings (some servers are slow)
-        timeout: 60000,
-        
-        // Try to load info.json with CORS headers
-        loadTilesWithAjax: true,
-        
-        // Log errors
-        debugMode: false
-      });
-
-      // Monitor viewer for errors
-      viewer.addHandler('open-failed', function(event) {
-        console.error("KB: OpenSeadragon failed to open tile source:", event);
-      });
-
-      viewer.addHandler('tile-load-failed', function(event) {
-        console.warn("KB: Failed to load tile:", event);
-      });
-
-      console.log("KB: OpenSeadragon initialized successfully");
-    } catch (err) {
-      console.error("KB: OSD initialization failed:", err);
-      console.error("KB: Error stack:", err.stack);
       this._showNoAssets(container);
     }
   }
 
-  /**
-   * Show "no assets" message
-   */
+  _loadIIIFManifest(manifestUrl, container) {
+    return fetch(manifestUrl, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then(manifest => {
+        const tileSources = this._parseIIIFManifest(manifest);
+        if (tileSources && tileSources.length > 0) {
+          this._initOSD(tileSources, container);
+          return true;
+        } else {
+          this._showNoAssets(container);
+          return false;
+        }
+      })
+      .catch(err => {
+        console.error("KB: Failed to load IIIF manifest:", err, manifestUrl);
+        this._showNoAssets(container);
+        return false;
+      });
+  }
+
+  _loadMultipleIIIFManifests(manifests) {
+    const fetchPromises = manifests.map(m => {
+      if (typeof m === 'object') return Promise.resolve(m);
+      if (typeof m === 'string') {
+        return fetch(m, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
+          .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)));
+      }
+      return Promise.reject(new Error('Unsupported manifest type'));
+    });
+
+    return Promise.allSettled(fetchPromises)
+      .then(results => {
+        const tileSourcesAll = [];
+        results.forEach((res, idx) => {
+          if (res.status === 'fulfilled' && res.value) {
+            try {
+              const tiles = this._parseIIIFManifest(res.value);
+              if (Array.isArray(tiles) && tiles.length) tileSourcesAll.push(...tiles);
+            } catch (e) {
+              console.warn("KB: parse manifest failed for index", idx, e);
+            }
+          } else {
+            console.warn("KB: manifest fetch failed for index", idx, res.reason);
+          }
+        });
+        return tileSourcesAll;
+      });
+  }
+
+  _parseIIIFManifest(manifest) {
+    const tileSources = [];
+    const context = manifest['@context'] || '';
+    const isV3 = typeof context === 'string' ? context.includes('presentation/3') :
+      Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/3'));
+
+    if (isV3) {
+      const items = manifest.items || [];
+      for (const item of items) {
+        const canvases = item.items || item.body || [];
+        for (const canvasItem of canvases) {
+          if (canvasItem.type === 'Image' && canvasItem.service) {
+            const services = Array.isArray(canvasItem.service) ? canvasItem.service : [canvasItem.service];
+            for (const svc of services) {
+              const serviceUrl = svc['@id'] || svc.id;
+              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvasItem));
+            }
+          }
+        }
+      }
+    } else {
+      const sequences = manifest.sequences || [];
+      for (const seq of sequences) {
+        const canvases = seq.canvases || [];
+        for (const canvas of canvases) {
+          const images = canvas.images || [];
+          for (const image of images) {
+            const resource = image.resource || {};
+            const service = resource.service || resource['service'];
+            if (service) {
+              const serviceUrl = service['@id'] || service.id;
+              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
+            } else if (resource && (resource['@id'] || resource.id || resource.url)) {
+              const url = resource['@id'] || resource.id || resource.url;
+              tileSources.push({ type: 'image', url: url });
+            }
+          }
+        }
+      }
+    }
+
+    return tileSources;
+  }
+
+  _makeIIIFImageTileSource(serviceUrl, canvasItem) {
+    return {
+      '@context': 'http://iiif.io/api/image/2/context.json',
+      '@id': serviceUrl,
+      protocol: 'http://iiif.io/api/image',
+      profile: 'http://iiif.io/api/image/2/level1.json',
+      width: (canvasItem && canvasItem.width) || 800,
+      height: (canvasItem && canvasItem.height) || 1000,
+      tiles: [{ width: 256, scaleFactors: [1,2,4,8,16] }]
+    };
+  }
+
+  _initOSD(tileSources, container) {
+    try {
+      if (!container.id) {
+        container.id = `osd-viewer-generated-${Math.floor(Math.random()*100000)}`;
+      }
+      const viewer = new OpenSeadragon({
+        id: container.id,
+        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+        sequenceMode: tileSources.length > 1,
+        showReferenceStrip: tileSources.length > 1,
+        tileSources: tileSources,
+        crossOriginPolicy: 'Anonymous',
+        ajaxWithCredentials: false,
+        timeout: 60000,
+        loadTilesWithAjax: true,
+        debugMode: false
+      });
+
+      viewer.addHandler('open-failed', e => console.error("KB: OpenSeadragon open-failed", e));
+      viewer.addHandler('tile-load-failed', e => console.warn("KB: OpenSeadragon tile-load-failed", e));
+      console.log("KB: OpenSeadragon initialized with", tileSources.length, "tileSources on", container.id);
+    } catch (err) {
+      console.error("KB: OSD initialization failed:", err);
+      this._showNoAssets(container);
+    }
+  }
+
   _showNoAssets(container) {
     if (container && container.parentElement) {
       container.parentElement.innerHTML = '<p style="color: #999; padding: 20px; text-align: center;">No digital assets available for this entity.</p>';
@@ -475,7 +400,7 @@ class KBLightInit {
   }
 
   /**
-   * D3 rendering logic
+   * D3 rendering logic (unchanged)
    */
   _renderD3Graph(graph, mappingData) {
     const nodeMapping = {};
@@ -592,27 +517,31 @@ class KBLightInit {
 
   /**
    * Start watching for DOM changes (handles MkDocs instant navigation)
+   * Debounces rapid mutation bursts and avoids re-entrancy via runPageLogic guard.
    */
   startObserver() {
-    const observer = new MutationObserver(() => {
-      this.initD3Graph();
-      this.initOpenSeadragon();
+    if (this._observer) return; // already started
+
+    const observer = new MutationObserver((mutations) => {
+      // debounce: schedule runPageLogic after 150ms of no further mutations
+      if (this._observerTimer) clearTimeout(this._observerTimer);
+      this._observerTimer = setTimeout(() => {
+        try {
+          this.runPageLogic();
+        } catch (e) {
+          console.error("KB: observer-runPageLogic error", e);
+        }
+      }, 150);
     });
 
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
+    observer.observe(document.body, { childList: true, subtree: true });
 
-    // Try initialization on DOMContentLoaded
-    document.addEventListener('DOMContentLoaded', () => {
-      this.initD3Graph();
-      this.initOpenSeadragon();
-    });
+    this._observer = observer;
 
-    // Also try immediately
-    this.initD3Graph();
-    this.initOpenSeadragon();
+    // Try initialization on DOMContentLoaded and run once now
+    document.addEventListener('DOMContentLoaded', () => this.runPageLogic());
+    // Also run immediately (safe due to guard)
+    this.runPageLogic();
   }
 }
 
@@ -620,7 +549,3 @@ class KBLightInit {
 const kb = new KBLightInit();
 kb.setup();
 kb.startObserver();
-
-// Backward compatibility
-window.entityGraphUrl = window.kbGraphConfig?.graphUrl || "";
-window.entityAssets = window.kbGraphConfig?.assets || null;

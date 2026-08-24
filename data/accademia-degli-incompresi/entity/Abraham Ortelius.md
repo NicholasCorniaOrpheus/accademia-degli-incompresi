@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q232916
 described_by_source:
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/1/16/Abraham_Ortelius_by_Peter_Paul_Rubens.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

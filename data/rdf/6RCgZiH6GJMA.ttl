@@ -7,26 +7,26 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:6RCgZiH6GJMA-Auie9QFQLg4h a rdf:Statement ;
+adi:6RCgZiH6GJMA-Bs3nEzypyzkY a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:kdhP2KUiWAF9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:6RCgZiH6GJMA .
+
+adi:6RCgZiH6GJMA-JQhMbbQXNYig a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:E5iRLUFCaaJC ;
     rdf:predicate <> ;
     rdf:subject adi:6RCgZiH6GJMA .
 
-adi:6RCgZiH6GJMA-PWdrS7AEBHWF a rdf:Statement ;
+adi:6RCgZiH6GJMA-JxK5uRQFeaCz a rdf:Statement ;
     bf:electronicLocator <https://www.google.be/books/edition/_/ezPNQ5j0YUcC> ;
     wdt:P291 adi:Hm8LNCNr7Wxn ;
-    rdf:object "Nd97774e2cf794cb68b84454c281742c5" ;
+    rdf:object "N597b199544b44965802f91214aa61c38" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:6RCgZiH6GJMA ;
     schema:datePublished "1640" ;
     schema:url <http://id.sbn.it/bid/CFIE004827> .
-
-adi:6RCgZiH6GJMA-WLwcgF5nH6Gz a rdf:Statement ;
-    bf:Role adi:5GmrgRoxsCpY ;
-    rdf:object adi:kdhP2KUiWAF9 ;
-    rdf:predicate <> ;
-    rdf:subject adi:6RCgZiH6GJMA .
 
 adi:6RCgZiH6GJMA a rdfs:Resource ;
     rdfs:label "Ascanio errante" ;

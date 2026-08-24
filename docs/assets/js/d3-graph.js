@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
     }
     
-    const csvUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/tresor-des-demoiselles/main/data/mappings/yaml_classes2lod.csv";
+    const csvUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv";
 
     Promise.all([d3.csv(csvUrl), d3.json(graphUrl)]).then(([mappingData, graph]) => {
         // Validate graph structure before proceeding
