@@ -1,0 +1,686 @@
+/**
+ * KB-Light: Unified component initializer
+ * Supports IIIF Presentation API v2 and v3
+ * Handles CORS and Image API format issues
+ */
+
+class KBLightInit {
+  constructor() {
+    this.d3Initialized = false;
+    this.config = window.kbGraphConfig || {};
+    this.graphInitialized = false;
+
+    // Guard to avoid re-entrancy when mutations cause runPageLogic to be called again
+    this._running = false;
+
+    // debounce timer for MutationObserver
+    this._observerTimer = null;
+
+    // store observer reference so we can disconnect if needed
+    this._observer = null;
+  }
+
+  setup() {
+    if (typeof document$ !== "undefined") {
+      document$.subscribe(() => {
+        console.log("Instant Loading: Re-initializing components...");
+        this.graphInitialized = false;
+        this.runPageLogic();
+      });
+    } else {
+      document.addEventListener("DOMContentLoaded", () => this.runPageLogic());
+    }
+  }
+
+  /**
+   * Move top-level openseadragon containers into the matching admonition (by title).
+   * This avoids emitting indented HTML in markdown while keeping the viewer visually
+   * inside the admonition.
+   *
+   * This function is idempotent: it skips containers that are already inside an admonition
+   * or have already been relocated.
+   */
+  _relocateOSDContainersIntoAdmonitions() {
+    const containers = Array.from(document.querySelectorAll('[id^="openseadragon-container-"]'));
+    if (!containers.length) return;
+
+    // Candidate admonition containers: MkDocs Material uses <details class="abstract"> for "??? abstract"
+    const admonitionCandidates = Array.from(document.querySelectorAll('details.abstract, details, .admonition, .md-typeset .admonition'));
+
+    containers.forEach(container => {
+      // Skip if we've already relocated this container previously
+      if (container.dataset.relocated === "true") return;
+
+      // If container already inside a details/admonition, skip
+      const insideAdmon = container.closest('details, .admonition');
+      if (insideAdmon) {
+        container.dataset.relocated = "true";
+        return;
+      }
+
+      // title to match (default "Digitised images" — keep consistent with template)
+      const targetTitle = (container.dataset.admonitionTitle || 'Digitised images').trim().toLowerCase();
+
+      // Find candidate whose summary or title contains the targetTitle
+      let matched = admonitionCandidates.find(ad => {
+        // try <summary>
+        const summary = ad.querySelector('summary');
+        if (summary && summary.textContent && summary.textContent.toLowerCase().includes(targetTitle)) return true;
+        // try elements that might contain the admonition title
+        const heading = ad.querySelector('.admonition-title, .md-typeset > p, .md-typeset > h1, .md-typeset > h2, .md-typeset > h3');
+        if (heading && heading.textContent && heading.textContent.toLowerCase().includes(targetTitle)) return true;
+        // fallback: any text start match
+        const txt = (ad.textContent || '').trim().toLowerCase();
+        return txt.startsWith(targetTitle);
+      });
+
+      if (!matched) {
+        // fallback to first details.abstract or first details
+        matched = document.querySelector('details.abstract') || document.querySelector('details') || null;
+      }
+
+      if (matched) {
+        // For <details>, append after <summary> if exists
+        const summary = matched.querySelector('summary');
+        try {
+          if (summary && summary.parentNode) {
+            summary.insertAdjacentElement('afterend', container);
+          } else {
+            matched.appendChild(container);
+          }
+          // mark relocated so we don't move again
+          container.dataset.relocated = "true";
+        } catch (err) {
+          console.warn("KB: relocation failed for container", container.id, err);
+        }
+      }
+    });
+  }
+
+  /**
+   * Main per-page initialization. Guarded to prevent reentrancy.
+   */
+  async runPageLogic() {
+    if (this._running) {
+      // Already running; ignore this invocation
+      // console.log("KB: runPageLogic already running; skipping re-entry.");
+      return;
+    }
+    this._running = true;
+    try {
+      this.initD3Graph();
+
+      // Move OSD containers into the admonition before OSD init so the viewer is created in the final place
+      // Do this synchronously before initOpenSeadragon runs.
+      this._relocateOSDContainersIntoAdmonitions();
+
+      // Always check for OpenSeadragon containers
+      await this.initOpenSeadragon();
+    } catch (err) {
+      console.error("KB: runPageLogic error:", err);
+    } finally {
+      this._running = false;
+    }
+  }
+
+  initD3Graph() {
+    const graphContainer = document.querySelector("#graph-container");
+    const graphUrl = this.config.graphUrl;
+    if (!graphContainer || !graphUrl || graphUrl.trim() === "" || graphUrl === "None") return;
+    if (this.d3Initialized) return;
+    this.d3Initialized = true;
+
+    console.log("KB: Initializing D3 graph from", graphUrl);
+    const csvUrl = "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv";
+
+    Promise.all([d3.csv(csvUrl), d3.json(graphUrl)])
+      .then(([mappingData, graph]) => this._renderD3Graph(graph, mappingData))
+      .catch(err => {
+        console.error("D3 Graph failed:", err);
+        if (graphContainer) {
+          graphContainer.innerHTML = '<p style="color: red; padding: 20px;">Failed to load graph.</p>';
+        }
+      });
+  }
+
+  /**
+   * Initialize OpenSeadragon viewers.
+   * This method supports single manifest (string/object), array of manifests,
+   * and fallback to local images.
+   */
+  async initOpenSeadragon() {
+    const osdContainers = Array.from(document.querySelectorAll('.osd-viewer'));
+    // Backwards compat - try legacy id
+    if (osdContainers.length === 0) {
+      const legacy = document.querySelector('#osd-viewer');
+      if (legacy) osdContainers.push(legacy);
+    }
+
+    const assets = this.config.assets || {};
+    if (osdContainers.length === 0 || !assets) return;
+
+    const iiif = assets.iiif;
+
+    // If iiif is an array, fetch/parse all manifests and build combined tileSources
+    if (Array.isArray(iiif) && iiif.length > 0) {
+      // If there are multiple containers, map manifests to containers by index when possible.
+      if (iiif.length === osdContainers.length) {
+        for (let idx = 0; idx < iiif.length; idx++) {
+          const m = iiif[idx];
+          const c = osdContainers[idx];
+          if (!c) continue;
+          if (c.dataset.osdInitialized === "true") continue;
+          if (typeof m === 'object') {
+            const tileSources = this._parseIIIFManifest(m);
+            if (tileSources.length) this._initOSD(tileSources, c);
+            else this._showNoAssets(c);
+            c.dataset.osdInitialized = "true";
+          } else if (typeof m === 'string' && m.trim() !== "") {
+            await this._loadIIIFManifest(m, c);
+            c.dataset.osdInitialized = "true";
+          } else {
+            this._showNoAssets(c);
+            c.dataset.osdInitialized = "true";
+          }
+        }
+        return;
+      }
+
+      // Otherwise, combine all manifests into a single viewer (the common simpler path)
+      try {
+        const tileSources = await this._loadMultipleIIIFManifests(iiif);
+        if (!tileSources || tileSources.length === 0) {
+          // fallback to images on first container
+          this._initImagesFallback(assets, osdContainers[0]);
+          osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+          return;
+        }
+        const first = osdContainers[0];
+        if (!first.id) first.id = `osd-viewer-generated-0`;
+        this._initOSD(tileSources, first);
+        first.dataset.osdInitialized = "true";
+      } catch (err) {
+        console.error("KB: Error loading multiple IIIF manifests:", err);
+        this._initImagesFallback(assets, osdContainers[0]);
+        osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+      }
+      return;
+    }
+
+    // If iiif is a single string or a parsed object, use the first available container
+    const container = osdContainers[0];
+    if (!container) return;
+    if (container.dataset.osdInitialized === "true") return;
+
+    if (typeof iiif === 'string' && iiif.trim() !== "") {
+      // single manifest URL
+      await this._loadIIIFManifest(iiif, container);
+      container.dataset.osdInitialized = "true";
+      return;
+    }
+
+    if (typeof iiif === 'object' && iiif !== null) {
+      const tileSources = this._parseIIIFManifest(iiif);
+      if (tileSources && tileSources.length > 0) {
+        this._initOSD(tileSources, container);
+      } else {
+        this._initImagesFallback(assets, container);
+      }
+      container.dataset.osdInitialized = "true";
+      return;
+    }
+
+    // fallback: images array
+    this._initImagesFallback(assets, container);
+    container.dataset.osdInitialized = "true";
+  }
+
+  _initImagesFallback(assets, container) {
+    if (!container) return;
+    const images = assets.images || assets.jpg || [];
+    if (!Array.isArray(images) || images.length === 0) {
+      this._showNoAssets(container);
+      return;
+    }
+    const tileSources = images.map(item => {
+      const filename = (typeof item === 'string') ? item : item?.value;
+      if (!filename) return null;
+      const base = assets.base_github_url || "";
+      const path = assets.local_path || "";
+      const url = (base + path + filename).replace(/([^:]\/)\/+/g, "$1");
+      return { type: 'image', url: url };
+    }).filter(s => s !== null);
+
+    if (tileSources.length > 0) {
+      this._initOSD(tileSources, container);
+    } else {
+      this._showNoAssets(container);
+    }
+  }
+
+  _loadIIIFManifest(manifestUrl, container) {
+    return fetch(manifestUrl, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then(manifest => {
+        const tileSources = this._parseIIIFManifest(manifest);
+        if (tileSources && tileSources.length > 0) {
+          this._initOSD(tileSources, container);
+          return true;
+        } else {
+          this._showNoAssets(container);
+          return false;
+        }
+      })
+      .catch(err => {
+        console.error("KB: Failed to load IIIF manifest:", err, manifestUrl);
+        this._showNoAssets(container);
+        return false;
+      });
+  }
+
+
+
+  _loadMultipleIIIFManifests(manifests) {
+    const fetchPromises = manifests.map(m => {
+      if (typeof m === 'object') return Promise.resolve(m);
+      if (typeof m === 'string') {
+        return fetch(m, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
+          .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)));
+      }
+      return Promise.reject(new Error('Unsupported manifest type'));
+    });
+
+    return Promise.allSettled(fetchPromises)
+      .then(results => {
+        const tileSourcesAll = [];
+        results.forEach((res, idx) => {
+          if (res.status === 'fulfilled' && res.value) {
+            try {
+              const tiles = this._parseIIIFManifest(res.value);
+              if (Array.isArray(tiles) && tiles.length) tileSourcesAll.push(...tiles);
+            } catch (e) {
+              console.warn("KB: parse manifest failed for index", idx, e);
+            }
+          } else {
+            console.warn("KB: manifest fetch failed for index", idx, res.reason);
+          }
+        });
+        return tileSourcesAll;
+      });
+  }
+
+  _parseIIIFManifest(manifest) {
+    const tileSources = [];
+    const context = manifest['@context'] || '';
+    const isV3 = typeof context === 'string' ? context.includes('presentation/3') :
+      Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/3'));
+
+    if (isV3) {
+      const items = manifest.items || [];
+      for (const item of items) {
+        const canvases = item.items || item.body || [];
+        for (const canvasItem of canvases) {
+          if (canvasItem.type === 'Image' && canvasItem.service) {
+            const services = Array.isArray(canvasItem.service) ? canvasItem.service : [canvasItem.service];
+            for (const svc of services) {
+              const serviceUrl = svc['@id'] || svc.id;
+              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvasItem));
+            }
+          }
+        }
+      }
+    } else {
+      const sequences = manifest.sequences || [];
+      for (const seq of sequences) {
+        const canvases = seq.canvases || [];
+        for (const canvas of canvases) {
+          const images = canvas.images || [];
+          for (const image of images) {
+            const resource = image.resource || {};
+            const service = resource.service || resource['service'];
+            if (service) {
+              const serviceUrl = service['@id'] || service.id;
+              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
+            } else if (resource && (resource['@id'] || resource.id || resource.url)) {
+              const url = resource['@id'] || resource.id || resource.url;
+              tileSources.push({ type: 'image', url: url });
+            }
+          }
+        }
+      }
+    }
+
+    return tileSources;
+  }
+
+    /**
+   * Fallback IIIF manifest parser: recursively collects candidate service/info/image URLs
+   * and returns an array of OpenSeadragon tileSources (either info.json URLs or image objects).
+   *
+   * This is conservative and only used when the primary parser fails to return tileSources.
+   */
+  _parseIIIFManifestFallback(manifest) {
+    const services = new Set();
+    const images = new Set();
+
+    function collect(obj) {
+      if (!obj) return;
+      if (typeof obj === 'string') {
+        if (obj.match(/\.(jpg|jpeg|png|tif|tiff|webp|jp2)(\?|$)/i) || obj.endsWith('/info.json')) {
+          images.add(obj);
+        }
+        return;
+      }
+      if (Array.isArray(obj)) {
+        obj.forEach(collect);
+        return;
+      }
+      if (typeof obj !== 'object') return;
+
+      // capture service entries that may be string or object
+      if (obj.service) {
+        const s = Array.isArray(obj.service) ? obj.service : [obj.service];
+        s.forEach(si => {
+          if (!si) return;
+          if (typeof si === 'string') {
+            if (si.endsWith('/info.json') || si.match(/\.(jpg|png|jpeg|jp2|tif|tiff)/i)) images.add(si);
+            else services.add(si);
+            return;
+          }
+          const sid = si['@id'] || si.id || null;
+          if (sid && typeof sid === 'string') services.add(sid);
+          collect(si);
+        });
+      }
+
+      // v2 style resource.service
+      if (obj.resource && obj.resource.service) {
+        const s = Array.isArray(obj.resource.service) ? obj.resource.service : [obj.resource.service];
+        s.forEach(si => {
+          const sid = (si && (si['@id'] || si.id)) || null;
+          if (sid) services.add(sid);
+          else collect(si);
+        });
+      }
+
+      // direct id/@id
+      if (obj['@id'] && typeof obj['@id'] === 'string') {
+        const idv = obj['@id'];
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+        else services.add(idv);
+      }
+      if (obj.id && typeof obj.id === 'string') {
+        const idv = obj.id;
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+        else services.add(idv);
+      }
+
+      // v3 body of type Image
+      if (obj.type && String(obj.type).toLowerCase() === 'image') {
+        if (obj.service) collect(obj.service);
+        if (obj.id) {
+          const idv = obj.id;
+          if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+          else services.add(idv);
+        }
+      }
+
+      // url / href
+      if (obj.url && typeof obj.url === 'string') {
+        const urlv = obj.url;
+        if (urlv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(urlv);
+        if (urlv.endsWith('/info.json')) services.add(urlv);
+      }
+      if (obj.href && typeof obj.href === 'string') {
+        const hv = obj.href;
+        if (hv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(hv);
+        if (hv.endsWith('/info.json')) services.add(hv);
+      }
+
+      // Recurse into all properties
+      for (const k of Object.keys(obj)) {
+        try { collect(obj[k]); } catch (e) { /* ignore */ }
+      }
+    }
+
+    collect(manifest);
+
+    console.debug("KB: fallback parser found services:", Array.from(services), "images:", Array.from(images));
+
+    const tileSources = [];
+
+    // Prefer info.json endpoints where available. For generic service URLs without info.json,
+    // add both: service + '/info.json' (likely to be correct for IIIF Image Service) and a tileSource object.
+    services.forEach(surl => {
+      if (!surl || typeof surl !== 'string') return;
+      if (surl.endsWith('/info.json')) {
+        tileSources.push(surl);
+      } else if (surl.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+        tileSources.push({ type: 'image', url: surl });
+      } else {
+        // add service/info.json candidate
+        const infoCandidate = surl.endsWith('/') ? (surl + 'info.json') : (surl + '/info.json');
+        tileSources.push(infoCandidate);
+        // also add a generic IIIF tileSource object as fallback (OpenSeadragon may accept it)
+        tileSources.push(this._makeIIIFImageTileSource(surl, null));
+      }
+    });
+
+    images.forEach(img => {
+      if (!img || typeof img !== 'string') return;
+      if (img.endsWith('/info.json')) tileSources.push(img);
+      else tileSources.push({ type: 'image', url: img });
+    });
+
+    // Deduplicate while preserving order
+    const seen = new Set();
+    const unique = [];
+    for (const t of tileSources) {
+      const key = (typeof t === 'string') ? t : (t['@id'] || t.url || JSON.stringify(t));
+      if (!seen.has(key)) {
+        seen.add(key);
+        unique.push(t);
+      }
+    }
+
+    return unique;
+  }
+
+  _makeIIIFImageTileSource(serviceUrl, canvasItem) {
+    return {
+      '@context': 'http://iiif.io/api/image/2/context.json',
+      '@id': serviceUrl,
+      protocol: 'http://iiif.io/api/image',
+      profile: 'http://iiif.io/api/image/2/level1.json',
+      width: (canvasItem && canvasItem.width) || 800,
+      height: (canvasItem && canvasItem.height) || 1000,
+      tiles: [{ width: 256, scaleFactors: [1,2,4,8,16] }]
+    };
+  }
+
+  _initOSD(tileSources, container) {
+    try {
+      if (!container.id) {
+        container.id = `osd-viewer-generated-${Math.floor(Math.random()*100000)}`;
+      }
+      const viewer = new OpenSeadragon({
+        id: container.id,
+        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+        sequenceMode: tileSources.length > 1,
+        showReferenceStrip: tileSources.length > 1,
+        tileSources: tileSources,
+        crossOriginPolicy: 'Anonymous',
+        ajaxWithCredentials: false,
+        timeout: 60000,
+        loadTilesWithAjax: true,
+        debugMode: false
+      });
+
+      viewer.addHandler('open-failed', e => console.error("KB: OpenSeadragon open-failed", e));
+      viewer.addHandler('tile-load-failed', e => console.warn("KB: OpenSeadragon tile-load-failed", e));
+      console.log("KB: OpenSeadragon initialized with", tileSources.length, "tileSources on", container.id);
+    } catch (err) {
+      console.error("KB: OSD initialization failed:", err);
+      this._showNoAssets(container);
+    }
+  }
+
+  _showNoAssets(container) {
+    if (container && container.parentElement) {
+      container.parentElement.innerHTML = '<p style="color: #999; padding: 20px; text-align: center;">No digital assets available for this entity.</p>';
+    }
+  }
+
+  /**
+   * D3 rendering logic (unchanged)
+   */
+  _renderD3Graph(graph, mappingData) {
+    const nodeMapping = {};
+    const legendContainer = d3.select("#legend");
+
+    mappingData.forEach(row => {
+      nodeMapping[row.yaml_class] = { color: row.color, image: row.default_image };
+      const item = legendContainer.append("div").attr("class", "legend-item");
+      item.append("span").style("background-color", row.color).attr("class", "legend-circle");
+      item.append("span").text(row.yaml_class);
+    });
+
+    const graphContainer = document.querySelector("#graph-container");
+    const width = graphContainer.clientWidth;
+    const height = 600;
+    const extent = [[0, 0], [width, height]];
+
+    const zoom = d3.zoom()
+      .scaleExtent([0.5, 4])
+      .translateExtent(extent)
+      .on("zoom", (event) => { container.attr("transform", event.transform); });
+
+    const svg = d3.select("#graph-container").append("svg")
+      .attr("width", "100%").attr("height", height)
+      .attr("viewBox", `0 0 ${width} ${height}`)
+      .call(zoom)
+      .on("dblclick.zoom", null);
+
+    svg.append("defs").append("marker")
+      .attr("id", "arrowhead").attr("viewBox", "0 -5 10 10")
+      .attr("refX", 28).attr("refY", 0)
+      .attr("markerWidth", 6).attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path").attr("d", "M0,-5L10,0L0,5").attr("fill", "#999");
+
+    const container = svg.append("g");
+
+    const simulation = d3.forceSimulation(graph.nodes)
+      .force("link", d3.forceLink(graph.links).id(d => d.id).distance(150))
+      .force("charge", d3.forceManyBody().strength(-1000))
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+    const link = container.append("g").attr("stroke", "#999").attr("stroke-opacity", 0.6)
+      .selectAll("line").data(graph.links).join("line").attr("marker-end", "url(#arrowhead)");
+
+    const linkLabels = container.append("g").selectAll("text")
+      .data(graph.links).join("text")
+      .text(d => d.property?.replaceAll("_", " ") || "")
+      .attr("font-size", "10px").attr("fill", "#666").style("display", "none");
+
+    const node = container.append("g").selectAll("g")
+      .data(graph.nodes).join("g").attr("class", "node-group")
+      .on("click", (event, d) => this._openModal(d, nodeMapping))
+      .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended)
+      );
+
+    node.append("circle")
+      .attr("r", 18)
+      .attr("fill", d => nodeMapping[d.class]?.color || "#ccc")
+      .attr("stroke", "#000").attr("stroke-width", 2);
+
+    node.append("image")
+      .attr("xlink:href", d => nodeMapping[d.class]?.image)
+      .attr("x", -12).attr("y", -12).attr("width", 24).attr("height", 24);
+
+    const labels = node.append("text")
+      .text(d => d.label || d.id)
+      .attr("x", 0).attr("y", -25)
+      .attr("text-anchor", "middle")
+      .attr("class", "node-label")
+      .style("font-family", "'Crimson Pro', serif");
+
+    d3.select("#zoom-in").on("click", () => svg.transition().duration(300).call(zoom.scaleBy, 1.4));
+    d3.select("#zoom-out").on("click", () => svg.transition().duration(300).call(zoom.scaleBy, 0.7));
+    d3.select("#toggleLabels").on("change", (e) => labels.style("display", e.target.checked ? "block" : "none"));
+    d3.select("#toggleProperties").on("change", (e) => linkLabels.style("display", e.target.checked ? "block" : "none"));
+
+    d3.select("#search").on("keydown", (event) => {
+      if (event.key === "Enter") {
+        const term = event.target.value.toLowerCase();
+        node.selectAll("circle").transition().duration(500)
+          .attr("r", d => (d.label?.toLowerCase().includes(term)) ? 30 : 18)
+          .attr("stroke", d => (d.label?.toLowerCase().includes(term)) ? "#ffeb3b" : "#000")
+          .attr("stroke-width", d => (d.label?.toLowerCase().includes(term)) ? 6 : 2);
+      }
+    });
+
+    simulation.on("tick", () => {
+      link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+      linkLabels.attr("x", d => (d.source.x + d.target.x) / 2).attr("y", d => (d.source.y + d.target.y) / 2);
+      node.attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+
+    d3.select("#modal-close").on("click", () => {
+      d3.select("#modal-backdrop").style("display", "none").attr("aria-hidden", "true");
+    });
+
+    function dragstarted(event, d) { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+    function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+    function dragended(event, d) { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+  }
+
+  _openModal(d, nodeMapping) {
+    d3.select("#modal-title").text(d.label || d.id);
+    d3.select("#modal-desc").text(d.description || "No description available.");
+    d3.select("#modal-media").html(`<img src="${nodeMapping[d.class]?.image}" style="max-width: 80px; margin-bottom: 10px;">`);
+    d3.select("#modal-link").attr("href", d.id);
+    d3.select("#modal-backdrop").style("display", "flex").attr("aria-hidden", "false");
+  }
+
+  /**
+   * Start watching for DOM changes (handles MkDocs instant navigation)
+   * Debounces rapid mutation bursts and avoids re-entrancy via runPageLogic guard.
+   */
+  startObserver() {
+    if (this._observer) return; // already started
+
+    const observer = new MutationObserver((mutations) => {
+      // debounce: schedule runPageLogic after 150ms of no further mutations
+      if (this._observerTimer) clearTimeout(this._observerTimer);
+      this._observerTimer = setTimeout(() => {
+        try {
+          this.runPageLogic();
+        } catch (e) {
+          console.error("KB: observer-runPageLogic error", e);
+        }
+      }, 150);
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    this._observer = observer;
+
+    // Try initialization on DOMContentLoaded and run once now
+    document.addEventListener('DOMContentLoaded', () => this.runPageLogic());
+    // Also run immediately (safe due to guard)
+    this.runPageLogic();
+  }
+}
+
+// Initialize KB-Light
+const kb = new KBLightInit();
+kb.setup();
+kb.startObserver();
