@@ -19,5 +19,23 @@ instrumentation:
 local_asset_path: ./assets/music_compositions/agostini-quanto_più_voi_Laura_gentil_riguardo
 based_on:
 derivative_work:
-text:
+text: |-
+  Quanto più voi LAURA gentil riguardo,
+  Ogn'hor più ardo,
+  Perché m'aventa Amore,
+  Ma di ciò non mi pento,
+  Anzi ne son contento,
+  Purché voi siate pia,
+  E come vostro io son, voi siate mia.
+language:
+  - "[[Italian]]"
+subject:
+  - "[[praise]]"
+digitized:
+poetic_type: "[[madrigale]]"
+depicts:
+  - "[[woman]]"
+metre:
+  - "[[heptasyllable]]"
+  - "[[hendecasyllable]]"
 ---

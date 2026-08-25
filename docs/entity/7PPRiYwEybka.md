@@ -73,6 +73,10 @@
 ???+ abstract "identifier"
     - [990037984](https://rism.online/sources/990037984)
     - [CNCE044059](https://edit16.iccu.sbn.it/titolo/CNCE044059)
+    - [http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV10420010](https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV10420010)
+
+???+ abstract "described by source"
+    - [RePIM](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv)
 
 ???+ abstract "instance of"
     - [partbook](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGZbeqwxbiop)

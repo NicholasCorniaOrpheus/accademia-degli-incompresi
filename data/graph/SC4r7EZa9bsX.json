@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SC4r7EZa9bsX",
+      "label": "Allegory of Prudence",
+      "class": "Emblem",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Titian_-_Allegorie_der_Zeit.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zo7gdF6vwLoN",
+      "label": "(Bolzoni 2012)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dm4e63JgvD3X",
+      "label": "time",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SC4r7EZa9bsX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zo7gdF6vwLoN",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SC4r7EZa9bsX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dm4e63JgvD3X",
+      "property": "subject"
+    }
+  ]
+}

@@ -7,6 +7,14 @@ member_of:
 occupation:
   - value: "[[patron of the arts]]"
 related_to:
+  - value: "[[Cipriano de Rore]]"
+    relationship: "[[patron of the arts]]"
+    reference:
+      - "[[(Stras 2018)]]"
+  - value: "[[Alvise Castellino]]"
+    relationship: "[[patron of the arts]]"
+    reference:
+      - "[[(Stras 2018)]]"
   - value: "[[Alfonso dalla Viola]]"
     relationship: "[[patron of the arts]]"
     reference:

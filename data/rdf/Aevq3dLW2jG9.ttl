@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Aevq3dLW2jG9-3va4VHt3eVL5 a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/109B7274/> ;
+    bf:heldBy adi:PQ2eSuRquqQB ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:Ut5gfQdSP4WR ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/109B7274> ;
+    rdf:object "Nfec308d0488d4cd29945e0007411b945" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Aevq3dLW2jG9 ;
+    schema:datePublished "1551" .
+
+adi:Aevq3dLW2jG9-J2f8k2VkorDf a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:66jWzPXuDjG8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Aevq3dLW2jG9 .
+
+adi:Aevq3dLW2jG9 a rdfs:Resource ;
+    rdfs:label "Rime diverse del Mutio Iustinopolitano" ;
+    <> adi:66jWzPXuDjG8 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F005930010> ;
+    dcterms:title "Rime diverse del Mutio Iustinopolitano. Tre libri di arte poetica. Tre libri di lettere in rime sciolte, La Europa. Il Davalo di Giulio Camillo tradutto. Con privilegio del sommo pontefice Giulio III & dello illustriss. Senato Veneto & d'altri prencipi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

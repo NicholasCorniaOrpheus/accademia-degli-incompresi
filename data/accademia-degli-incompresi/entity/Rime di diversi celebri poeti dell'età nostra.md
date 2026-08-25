@@ -21,6 +21,8 @@ has_version:
     external_source: https://books.google.it/books?id=RKFP6-8DuOEC
 contributor:
   - role: "[[author]]"
+    value: "[[Angelo Grillo]]"
+  - role: "[[author]]"
     value: "[[Orsola Bertolai]]"
 subject:
 has_part:

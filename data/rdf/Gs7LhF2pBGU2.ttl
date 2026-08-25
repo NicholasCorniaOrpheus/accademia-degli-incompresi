@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Gs7LhF2pBGU2-NbcXoUDLtYAu a rdf:Statement ;
+    rdf:object adi:U396cDbhvLZQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:Gs7LhF2pBGU2 ;
+    ns1:P958 "Poems of Love, 13" .
+
+adi:Gs7LhF2pBGU2-TT6bsGgbqrQu a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:RPt3AF9FDvgd ;
+    rdf:predicate <> ;
+    rdf:subject adi:Gs7LhF2pBGU2 .
+
+adi:Gs7LhF2pBGU2 a rdfs:Resource ;
+    rdfs:label "Ride la terra, e d'ogni parte rende" ;
+    <> adi:RPt3AF9FDvgd,
+        adi:U396cDbhvLZQ ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Ride la terra, e d’ogni parte rende
+mille soavi e dilettosi odori;
+coperta di leggiadri e vaghi fiori
+a guisa d’un bel ciel tutta risplende.
+
+Amor, ch’in tal stagion forza riprende,
+rinova in ogni cor gli antichi amori,
+e mille cari e leggiadretti ardori
+d’ogni fedele amante in petto accende.
+
+Scherzano per le piagge, lascivetti,
+gli animai, l’un l’altro festeggiando,
+ch’Amore insegna lor novi diletti;
+
+sola io, d’ogni mia pace posta in bando,
+offesa da timor, noie, e sospetti,
+lontana dal mio ben vivo penando.""" ;
+    dc:description "The animal kingdom is rejoicing under the guidance of Amor. Everybody is enjoying love, but the author." ;
+    dc:subject adi:3eQerXqUEkt2,
+        adi:oJY5qFoWFwDr ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:U396cDbhvLZQ ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:TRHMAMaRfnLP,
+        adi:ZsNG8yssbKzY ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

@@ -73,6 +73,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dc2SS5eXwSLk",
+      "label": "Dialogo della musica di m. Anton Francesco Doni",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHQNCAeFLdvH",
       "label": "Rime de la signora Laura Terracina",
       "class": "Book",
@@ -83,6 +89,12 @@
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kLWcMLZy9Wvc",
+      "label": "Madonna hor che direte",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YLGgR7kasRh",
@@ -101,6 +113,12 @@
       "label": "Italian Academies Database",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "label": "Madonna hor che direte (Veggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
@@ -213,7 +231,17 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dc2SS5eXwSLk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHQNCAeFLdvH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kLWcMLZy9Wvc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
       "property": "contributor"
     },
@@ -226,6 +254,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SKyewNmUMKH3",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
       "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kCMgyyEYtVB7",
@@ -343,12 +376,22 @@
       "property": "member"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dc2SS5eXwSLk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
+      "property": "has_version"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHQNCAeFLdvH",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
       "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHQNCAeFLdvH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kLWcMLZy9Wvc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
       "property": "contributor"
     },

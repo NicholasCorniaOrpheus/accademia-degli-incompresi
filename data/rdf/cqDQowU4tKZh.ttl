@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:cqDQowU4tKZh-5cWxLCxEVLT4 a rdf:Statement ;
+    rdf:object adi:FSsfkMyDLbzE ;
+    rdf:predicate <> ;
+    rdf:subject adi:cqDQowU4tKZh ;
+    ns1:P958 "Canto XX, 1" .
+
+adi:cqDQowU4tKZh-Wznn2LigtunR a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8qMTBqEnmhVL ;
+    rdf:predicate <> ;
+    rdf:subject adi:cqDQowU4tKZh .
+
+adi:cqDQowU4tKZh a rdfs:Resource ;
+    rdfs:label "Le donne antique hanno mirabil cose" ;
+    <> adi:8qMTBqEnmhVL,
+        adi:FSsfkMyDLbzE ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Le donne antique hanno mirabil cose
+Fatto ne l'arme e ne le sacre Muse
+E di lor opre belle e gloriose
+Gran lume in tutto il mondo si diffuse:
+Arpalice e Camilla son famose
+Perché in battaglia erano esperte et use
+Sapho e Corinna perche furon dotte
+Splendono illustri, e mai non veggon notte.""" ;
+    dc:subject adi:TNEkus8TKX7L ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/019220000101_PPPP00015400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:QumbV58oqxew,
+        adi:gTLFtEKC9ZXS ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

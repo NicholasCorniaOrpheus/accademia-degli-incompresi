@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KvrS562Hic77-TyhebDWxuf5L a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A54EDC/> ;
+    bf:heldBy adi:PQ2eSuRquqQB ;
+    dcterms:publisher adi:fuwRMJC2ciyu ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A54EDC> ;
+    rdf:object "Nc73e3b0f17e24f05a65ac72028c0dbff" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KvrS562Hic77 ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026060> .
+
+adi:KvrS562Hic77-Wz4mn6uVrcpb a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:KGUmK3TLsKkL ;
+    rdf:predicate <> ;
+    rdf:subject adi:KvrS562Hic77 .
+
+adi:KvrS562Hic77 a rdfs:Resource ;
+    rdfs:label "Rime di m. Girolamo Parabosco" ;
+    <> adi:KGUmK3TLsKkL ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE026060>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F006480010> ;
+    dcterms:title "Rime di m. Girolamo Parabosco" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

@@ -31,10 +31,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gs7LhF2pBGU2",
+      "label": "Ride la terra, e d'ogni parte rende",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WqpDJ37eaN3S",
+      "label": "Fiere silvestre, che per lati campi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdDychS6YRZn",
       "label": "Alti son questi monti, et alti sono",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DdMHQTrUG8ie",
+      "label": "Crudel fiera selvaggia (Viola)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     }
   ],
   "links": [
@@ -59,7 +77,22 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gs7LhF2pBGU2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZsNG8yssbKzY",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WqpDJ37eaN3S",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZsNG8yssbKzY",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdDychS6YRZn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZsNG8yssbKzY",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DdMHQTrUG8ie",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZsNG8yssbKzY",
       "property": "depicts"
     }

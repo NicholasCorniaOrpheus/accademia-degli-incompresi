@@ -39,4 +39,8 @@ poetic_type: "[[barzelletta]]"
 depicts:
 metre:
   - "[[hendecasyllable]]"
+identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/290270000010101_000000083600C
+described_by_source:
+  - "[[RePIM]]"
 ---

@@ -281,6 +281,8 @@ class KBLightInit {
       });
   }
 
+
+
   _loadMultipleIIIFManifests(manifests) {
     const fetchPromises = manifests.map(m => {
       if (typeof m === 'object') return Promise.resolve(m);
@@ -352,6 +354,139 @@ class KBLightInit {
     }
 
     return tileSources;
+  }
+
+    /**
+   * Fallback IIIF manifest parser: recursively collects candidate service/info/image URLs
+   * and returns an array of OpenSeadragon tileSources (either info.json URLs or image objects).
+   *
+   * This is conservative and only used when the primary parser fails to return tileSources.
+   */
+  _parseIIIFManifestFallback(manifest) {
+    const services = new Set();
+    const images = new Set();
+
+    function collect(obj) {
+      if (!obj) return;
+      if (typeof obj === 'string') {
+        if (obj.match(/\.(jpg|jpeg|png|tif|tiff|webp|jp2)(\?|$)/i) || obj.endsWith('/info.json')) {
+          images.add(obj);
+        }
+        return;
+      }
+      if (Array.isArray(obj)) {
+        obj.forEach(collect);
+        return;
+      }
+      if (typeof obj !== 'object') return;
+
+      // capture service entries that may be string or object
+      if (obj.service) {
+        const s = Array.isArray(obj.service) ? obj.service : [obj.service];
+        s.forEach(si => {
+          if (!si) return;
+          if (typeof si === 'string') {
+            if (si.endsWith('/info.json') || si.match(/\.(jpg|png|jpeg|jp2|tif|tiff)/i)) images.add(si);
+            else services.add(si);
+            return;
+          }
+          const sid = si['@id'] || si.id || null;
+          if (sid && typeof sid === 'string') services.add(sid);
+          collect(si);
+        });
+      }
+
+      // v2 style resource.service
+      if (obj.resource && obj.resource.service) {
+        const s = Array.isArray(obj.resource.service) ? obj.resource.service : [obj.resource.service];
+        s.forEach(si => {
+          const sid = (si && (si['@id'] || si.id)) || null;
+          if (sid) services.add(sid);
+          else collect(si);
+        });
+      }
+
+      // direct id/@id
+      if (obj['@id'] && typeof obj['@id'] === 'string') {
+        const idv = obj['@id'];
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+        else services.add(idv);
+      }
+      if (obj.id && typeof obj.id === 'string') {
+        const idv = obj.id;
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+        else services.add(idv);
+      }
+
+      // v3 body of type Image
+      if (obj.type && String(obj.type).toLowerCase() === 'image') {
+        if (obj.service) collect(obj.service);
+        if (obj.id) {
+          const idv = obj.id;
+          if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
+          else services.add(idv);
+        }
+      }
+
+      // url / href
+      if (obj.url && typeof obj.url === 'string') {
+        const urlv = obj.url;
+        if (urlv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(urlv);
+        if (urlv.endsWith('/info.json')) services.add(urlv);
+      }
+      if (obj.href && typeof obj.href === 'string') {
+        const hv = obj.href;
+        if (hv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(hv);
+        if (hv.endsWith('/info.json')) services.add(hv);
+      }
+
+      // Recurse into all properties
+      for (const k of Object.keys(obj)) {
+        try { collect(obj[k]); } catch (e) { /* ignore */ }
+      }
+    }
+
+    collect(manifest);
+
+    console.debug("KB: fallback parser found services:", Array.from(services), "images:", Array.from(images));
+
+    const tileSources = [];
+
+    // Prefer info.json endpoints where available. For generic service URLs without info.json,
+    // add both: service + '/info.json' (likely to be correct for IIIF Image Service) and a tileSource object.
+    services.forEach(surl => {
+      if (!surl || typeof surl !== 'string') return;
+      if (surl.endsWith('/info.json')) {
+        tileSources.push(surl);
+      } else if (surl.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+        tileSources.push({ type: 'image', url: surl });
+      } else {
+        // add service/info.json candidate
+        const infoCandidate = surl.endsWith('/') ? (surl + 'info.json') : (surl + '/info.json');
+        tileSources.push(infoCandidate);
+        // also add a generic IIIF tileSource object as fallback (OpenSeadragon may accept it)
+        tileSources.push(this._makeIIIFImageTileSource(surl, null));
+      }
+    });
+
+    images.forEach(img => {
+      if (!img || typeof img !== 'string') return;
+      if (img.endsWith('/info.json')) tileSources.push(img);
+      else tileSources.push({ type: 'image', url: img });
+    });
+
+    // Deduplicate while preserving order
+    const seen = new Set();
+    const unique = [];
+    for (const t of tileSources) {
+      const key = (typeof t === 'string') ? t : (t['@id'] || t.url || JSON.stringify(t));
+      if (!seen.has(key)) {
+        seen.add(key);
+        unique.push(t);
+      }
+    }
+
+    return unique;
   }
 
   _makeIIIFImageTileSource(serviceUrl, canvasItem) {

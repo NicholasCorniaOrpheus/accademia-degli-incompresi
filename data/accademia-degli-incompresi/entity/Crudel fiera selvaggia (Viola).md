@@ -38,8 +38,8 @@ digitized:
 poetic_type: "[[madrigale]]"
 depicts:
   - "[[animal]]"
-  - "[[loyalty|faithfulness]]"
   - "[[martyrdom]]"
+  - "[[loyalty]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"

@@ -13,6 +13,7 @@ The following words and characters have been changed to modern Italian spelling
 | u | v | Modernization of Latin u for words such as "Gioue" (Giove) or "uuole" (vuole) |
 | perche | perché | |
 | poi che| poiché| |
+| pur che| purché| |
 | cosi / si | così / sì | |
 | piu | più | |
 | virtu | virtù |

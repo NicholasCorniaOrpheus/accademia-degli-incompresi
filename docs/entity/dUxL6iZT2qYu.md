@@ -91,6 +91,8 @@
         * external source: [RKFP6-8DuOEC](https://books.google.it/books?id=RKFP6-8DuOEC)
 
 ???+ abstract "contributor"
+    - [Angelo Grillo](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aHnMfL7WCnia)
+        * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
     - [Orsola Bertolai](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o8dUJLYPmTmL)
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 

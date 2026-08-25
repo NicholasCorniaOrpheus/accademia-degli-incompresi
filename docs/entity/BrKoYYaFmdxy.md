@@ -71,10 +71,12 @@
 
 ## Statements
 ???+ abstract "identifier"
+    - [http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV51830010](https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV51830010)
+    - [CNCE036469](https://edit16.iccu.sbn.it/titolo/CNCE036469)
     - [993120641](https://rism.online/sources/993120641)
 
 ???+ abstract "described by source"
-    - [[RISM]]
+    - [RePIM](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv)
 
 ???+ abstract "instance of"
     - [partbook](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGZbeqwxbiop)
@@ -88,7 +90,7 @@
         * publication date: 1577
         * place of publication: [Napoli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq)
         * external source: [R229](http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R229/)
-        * permalink: [NV51830010](https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV51830010)
+        * permalink: [CNCE036469](https://edit16.iccu.sbn.it/titolo/CNCE036469)
         * note: Tenor part is missing
 
 ???+ abstract "contributor"
@@ -109,6 +111,7 @@
 
 ???+ abstract "subject"
     - [arie per cantare](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cgmxQCgD8ucn)
+    - [extemporary poetry](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EizKeQqFBVHG)
 
 ???+ abstract "instrumentation"
     - [bassus](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN)

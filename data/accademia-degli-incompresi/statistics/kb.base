@@ -4,7 +4,7 @@ views:
   - type: table
     name: poems
     filters:
-      and:
+      or:
         - class == "PoeticWork"
     order:
       - file.name
@@ -78,8 +78,12 @@ views:
     order:
       - file.name
       - identifier
+      - digitized
       - contributor
       - text
+    sort:
+      - property: file.name
+        direction: ASC
   - type: table
     name: organizations
     filters:
@@ -113,3 +117,18 @@ views:
       - identifier
       - instance_of
       - opposite_of
+  - type: table
+    name: compositions_with_unique_text
+    filters:
+      and:
+        - class == "MusicComposition"
+        - "!text.isEmpty()"
+    order:
+      - file.name
+      - identifier
+      - digitized
+      - poetic_type
+      - metre
+      - depicts
+      - subject
+      - text
