@@ -8,11 +8,47 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:UsMRWnqq4cw6-HAX4gRAb8deZ a rdf:Statement ;
+adi:UsMRWnqq4cw6-YkdzBgL8PEGp a rdf:Statement ;
+    rdf:object adi:Aevq3dLW2jG9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:UsMRWnqq4cw6 ;
+    ns1:P304 "24-25" ;
+    ns1:P958 "Girolamo Mutio." .
+
+adi:UsMRWnqq4cw6-jkBZAXCQAea7 a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:66jWzPXuDjG8 ;
     rdf:predicate <> ;
     rdf:subject adi:UsMRWnqq4cw6 .
 
-adi:UsMRWnqq4cw6-Q8PvTPyE9kG7 a rdf:Statement ;
-    rdf:object 
+adi:UsMRWnqq4cw6 a rdfs:Resource ;
+    rdfs:label "È veramente ceco" ;
+    <> adi:66jWzPXuDjG8,
+        adi:Aevq3dLW2jG9 ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """DONNA reale, a cui dal Sol superno
+Fu del suo lume data sì gran parte,
+Ch'occhio mortal, non scorge in altra parte
+Più chiaro il fiammeggiar del foco eterno;
+
+Quantunque volte col pensier m'interno
+Al ben, che'l Cielo in voi largo comparte,
+Veggio mancare ingegni, e lingue, e carte,
+A la divinità, ch'in voi discerno.
+
+Ma dapoi che virtù d'humano ingegno,
+Ben ch'ogn'alma gentil di voi s'honori,
+Non può de' merti vostri andare al segno;
+
+Un novo Tempio a' vostri eccelsi honori
+Consacra il Mondo; e veramente è degno,
+Ch'in voi di DIO l'imagine s'adori.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:755zYzGryekA,
+        adi:Af5NyLo5WJPc,
+        adi:PndEj8FtSonb ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

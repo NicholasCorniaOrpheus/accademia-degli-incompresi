@@ -8,17 +8,17 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:TWW764eaLMtM-4n9xUNgotZEA a rdf:Statement ;
-    bf:Role adi:awZyTsJZqrUq ;
-    rdf:object adi:8qMTBqEnmhVL ;
-    rdf:predicate <> ;
-    rdf:subject adi:TWW764eaLMtM .
-
-adi:TWW764eaLMtM-gp9jmZgtDv8b a rdf:Statement ;
+adi:TWW764eaLMtM-A3VNovPh3LeB a rdf:Statement ;
     rdf:object adi:FSsfkMyDLbzE ;
     rdf:predicate <> ;
     rdf:subject adi:TWW764eaLMtM ;
     ns1:P958 "Canto VII, 1" .
+
+adi:TWW764eaLMtM-A8VUDkzedjwU a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:8qMTBqEnmhVL ;
+    rdf:predicate <> ;
+    rdf:subject adi:TWW764eaLMtM .
 
 adi:TWW764eaLMtM a rdfs:Resource ;
     rdfs:label "Chi va lontan da la sua patria, vede" ;
@@ -33,8 +33,8 @@ Che'l sciocco vulgo non gli vuol dar fede,
 Se non le vede e tocca chiare e piane.
 Per questo io so che l'inesperienza
 Farà al mio canto dar poca credenza.""" ;
-    dc:subject <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[discovery]]>,
-        <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[travel]]> ;
+    dc:subject adi:4AZTDzBBYAmC,
+        adi:e6gvuCqGBEJ3 ;
     dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/018540000101_PPPP00015400C>,
         <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=26594> ;
     dcterms:type "PoeticWork" ;

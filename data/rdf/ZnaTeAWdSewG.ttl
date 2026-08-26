@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZnaTeAWdSewG-JiK7JE56tFdZ a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:dnKqeJdTP2sv ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZnaTeAWdSewG .
+
+adi:ZnaTeAWdSewG-jWWiD7WZB6a8 a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZnaTeAWdSewG ;
+    ns1:P304 "37" ;
+    ns1:P958 "Vittoria Colonna." ;
+    schema:volumeNumber "1" .
+
+adi:ZnaTeAWdSewG a rdfs:Resource ;
+    rdfs:label "Parmi, che il Sol non porga il lume usato" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:dnKqeJdTP2sv ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Parmi, che il Sol non porga il lume usato,
+Né che lo dia sì chiaro a sua sorella;
+Non veggio almo pianeta, o vaga stella
+Ruotar lieta i bei rai nel cerchio ornato:
+
+Non veggio cor più di valore armato,
+Fuggito è il vero onor, la gloria bella,
+Nascosa è la virtù giunta con ella,
+Né vive in arbor fronda, o fiore in prato:
+
+Veggio torbide l'acque, e l'aere nero
+Non scalda il foco, né rinfresca il vento;
+Tutti han smarrito la lor propria cura,
+
+D'allor, che il mio bel Sol fu in terra spento:
+O che confuso è l'ordin di Natura
+O il duolo agl'occhi miei nasconde il vero.""" ;
+    dc:description "The natural order of things is falling apart, since the author's lover has vanished." ;
+    dc:subject adi:Bvvit9jGS3mp,
+        adi:MVesHQPbVg5X ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4jQ3H5yuexkm,
+        adi:8hmsnHCi3PMp,
+        adi:DZwg5ijCKnjb,
+        adi:M5s27pP8VYFC,
+        adi:MiEZVRza7UDo,
+        adi:N9C8b89MB3K9,
+        adi:ihyMMKCExRxW .
+

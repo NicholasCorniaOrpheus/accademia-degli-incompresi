@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:PdaKaFrvdidM-AsoAuZbVXD5Y a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:abCcQLTyWPhj ;
+    rdf:predicate <> ;
+    rdf:subject adi:PdaKaFrvdidM .
+
+adi:PdaKaFrvdidM-J5roSXYAz6iB a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:PdaKaFrvdidM .
+
+adi:PdaKaFrvdidM-MxPREWYRnZqY a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Canzoni_del_marchese_Francesco_Maria_San/Sft0aCZ3kwAC> ;
+    rdf:object "Nafbb66d6a99c429e8c7cb0cd949c3d56" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:PdaKaFrvdidM ;
+    schema:datePublished "1659" .
+
+adi:PdaKaFrvdidM a rdfs:Resource ;
+    rdfs:label "Canzoni del Marchese Francesco Maria Santinelli Cameriero Maggiore di Cristina Alessandra Regina di Svezia" ;
+    <> adi:BVavFPBEeQRA,
+        adi:abCcQLTyWPhj ;
+    dcterms:title "Canzoni del Marchese Francesco Maria Santinelli Cameriero Maggiore di Cristina Alessandra Regina di Svetia. Parte Prima" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

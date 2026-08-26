@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Y6HJ35UW5KcR-2geoPQuDo3tu a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:Uj7uWMw9v9H7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y6HJ35UW5KcR .
+
+adi:Y6HJ35UW5KcR-PsfCqPtYnXRS a rdf:Statement ;
+    rdf:object adi:KSxFDVfDSxFT ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y6HJ35UW5KcR ;
+    ns1:P304 "98" ;
+    ns1:P958 "Selva Tertia." .
+
+adi:Y6HJ35UW5KcR a rdfs:Resource ;
+    rdfs:label "Quel spaventevol mar, che a' naviganti" ;
+    <> adi:KSxFDVfDSxFT,
+        adi:Uj7uWMw9v9H7 ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """QUEL Spaventevol Mar, che a' Naviganti
+Promette l’Epicuro sì soave,  
+Solcai gran tempo in feste, gioie, & canti,  
+Finché la Gola il Sonno, & l’Otio m'have  
+Travolto in bande, ove d'acerbi pianti  
+Nel scoglio si fiaccò mia debol nave,  
+Che aperse a l'acque il fondo & ogni sponda ,
+E'n preda mi lasciò de' pesci a l'onda.""" ;
+    dc:subject adi:MVesHQPbVg5X ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:B5cVB65mfsmc,
+        adi:Nf6cF32SCt6E,
+        adi:TjWJBuThoERp,
+        adi:YNz7hZ7AqXJk,
+        adi:dyaxwpBMYT2K ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

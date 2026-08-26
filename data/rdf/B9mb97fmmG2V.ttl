@@ -8,24 +8,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:B9mb97fmmG2V-PFVYJqbzTFEu a rdf:Statement ;
-    rdf:object adi:QHQNCAeFLdvH ;
+adi:B9mb97fmmG2V-3qxenbWveYWT a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:FqBWCu5YvZzH ;
     rdf:predicate <> ;
-    rdf:subject adi:B9mb97fmmG2V ;
-    ns1:P304 "16" ;
-    ns1:P958 "Alla S. Dianora Terracina. Sorella Carissima." .
+    rdf:subject adi:B9mb97fmmG2V .
 
-adi:B9mb97fmmG2V-Riki7ifDit5P a rdf:Statement ;
+adi:B9mb97fmmG2V-DbzqoTRAVsci a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:8cwGVT3ZREMt ;
     rdf:predicate <> ;
     rdf:subject adi:B9mb97fmmG2V .
 
-adi:B9mb97fmmG2V-hQuYW2JdGXea a rdf:Statement ;
-    bf:Role adi:5GmrgRoxsCpY ;
-    rdf:object adi:FqBWCu5YvZzH ;
+adi:B9mb97fmmG2V-Pk3XsTVHtiCe a rdf:Statement ;
+    rdf:object adi:QHQNCAeFLdvH ;
     rdf:predicate <> ;
-    rdf:subject adi:B9mb97fmmG2V .
+    rdf:subject adi:B9mb97fmmG2V ;
+    ns1:P304 "16" ;
+    ns1:P958 "Alla S. Dianora Terracina. Sorella Carissima." .
 
 adi:B9mb97fmmG2V a rdfs:Resource ;
     rdfs:label "Fate in me quel si puote o cieli o sorte" ;
@@ -47,5 +47,6 @@ Prima che colpo di fortuna, o prima.""" ;
     wdt:P1343 adi:LnJe2SznsdSA ;
     wdt:P31 adi:fYpqbjX78ztP ;
     wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:2pB9hiFXgYTg ;
     ns1:P2551 adi:emwSSkhQpsBS .
 

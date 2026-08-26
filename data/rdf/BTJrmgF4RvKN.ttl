@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BTJrmgF4RvKN-9Yy7pvuAUgu3 a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:nMw8jYr9snZK ;
+    rdf:predicate <> ;
+    rdf:subject adi:BTJrmgF4RvKN .
+
+adi:BTJrmgF4RvKN-aW9RzdAjoZQ9 a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:BTJrmgF4RvKN ;
+    ns1:P304 "129" ;
+    ns1:P958 "Veneranda Bragadina. Cavalli." ;
+    schema:volumeNumber "2" .
+
+adi:BTJrmgF4RvKN a rdfs:Resource ;
+    rdfs:label "Dimmi, altero mio cor, che ti lamenti" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:nMw8jYr9snZK ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Dimmi, altero mio cor, che ti lamenti
+Se preda sei, di chi è poco fedele?
+Non ti sovviene, che pianti, e querele
+Di molti avesti a gioco, e i loro tormenti?
+
+Or se questo non neghi, ma consenti,
+Che fosti a chi t'amò sempre crudele;
+Giustissimo mi par, ch'anco infedele,
+Quel, che ti è dato in sorte provi, e senti.
+
+Che far dunque dobbiamo; poiché il Ciel vuole,
+Che ritroviamo ugual la pena al merto,
+Per tor in pace questo odioso laccio?
+
+Miriamo il Cielo, ivi ogni ben si suole
+Unito ritrovar sicuro, e certo,
+Libero, e sciolto da mondan impaccio.""" ;
+    dc:subject adi:2UUH2dSJC9jn,
+        adi:PgcFuPe2GzQH ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:EbB4YoFvmYce,
+        adi:TRHMAMaRfnLP,
+        adi:b4iEGX754ExJ ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

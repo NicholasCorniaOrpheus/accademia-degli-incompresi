@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BENnyRUGAwG9-BnZnPpeEMzxv a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:BENnyRUGAwG9 ;
+    ns1:P304 "155" ;
+    ns1:P958 "Virginia Martini Salvi." ;
+    schema:volumeNumber "1" .
+
+adi:BENnyRUGAwG9-FVegZHZd9ukp a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:cnEPDxq7rFvj ;
+    rdf:predicate <> ;
+    rdf:subject adi:BENnyRUGAwG9 .
+
+adi:BENnyRUGAwG9 a rdfs:Resource ;
+    rdfs:label "Dolci sdegni, e dolc'ire" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:cnEPDxq7rFvj ;
+    pdc:text """Dolci sdegni, e dolc'ire,
+Soavi tregue, e paci,
+Che dolce fate ogni aspro, e rio martire:
+Oh d'Amor liete faci,
+Che ad ambi il petto ardete,
+Con così grato foco,
+Che m'è caro il penar, la morte gioco.
+Frutto raro, che miete
+Un breve sdegno: o più d' altro beato,
+Se mai fin non avesse un tale stato.
+
+Se in sogno ciò sentire,
+Dolce cor mio, mi fate,
+E moro senza mai di vita uscire;
+Ditemi, se m'amate,
+Qual pena esser potria,
+Che fuor del sonno poi
+Agguagliar si potesse a questa mia?
+Deh non vi piaccia, dacché io moro in voi,
+Darmi la morte, e ne' bei vostri lumi
+Dolcemente lasciare, ch'io mi consumi.""" ;
+    dc:subject adi:3eQerXqUEkt2,
+        adi:MFkDrmE7jx9f ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4jQ3H5yuexkm,
+        adi:75hVM9bkJu7t,
+        adi:D3F7Qwb9dCYu,
+        adi:DZwg5ijCKnjb ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

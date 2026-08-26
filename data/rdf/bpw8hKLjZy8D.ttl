@@ -5,12 +5,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:bpw8hKLjZy8D-D7gKtNtLkUB8 a rdf:Statement ;
+adi:bpw8hKLjZy8D-NEFBJbKn5R7z a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
     rdf:object adi:KGUmK3TLsKkL ;
     rdf:predicate <> ;
     rdf:subject adi:bpw8hKLjZy8D .
 
-adi:bpw8hKLjZy8D-GUrMUpG3giqb a rdf:Statement ;
+adi:bpw8hKLjZy8D-WdkwwrqhvPHd a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:oEg8m8oc4mE7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:bpw8hKLjZy8D .
+
+adi:bpw8hKLjZy8D a rdfs:Resource ;
+    rdfs:label "Come potrò narrarvi il dolor mio (Anvilla)" ;
+    <> adi:2fDabMqgM4Qn,
+        adi:KGUmK3TLsKkL,
+        adi:LxyeMrhvSzsL,
+        adi:oEg8m8oc4mE7 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F054940000010101_000000012200C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:85kGqMwffVs7 .
+

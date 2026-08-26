@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "label": "Christina of Sweden",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gup4VoeXGR57",
+      "label": "politician",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdaKaFrvdidM",
+      "label": "Canzoni del Marchese Francesco Maria Santinelli Cameriero Maggiore di Cristina Alessandra Regina di Svezia",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J6uXo2g5NfHE",
+      "label": "Roma",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "label": "patron",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cg4AvGtwt6Bs",
+      "label": "female",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "label": "Accademia Reale di Cristina di Svezia di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "label": "Francesco Maria Santinelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cg4AvGtwt6Bs",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J6uXo2g5NfHE",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gup4VoeXGR57",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdaKaFrvdidM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdaKaFrvdidM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
+      "property": "instance_of"
+    }
+  ]
+}

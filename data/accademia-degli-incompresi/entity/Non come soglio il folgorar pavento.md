@@ -1,5 +1,5 @@
 ---
-class: Emblem
+class: EmblemClass
 label:
 description: The emblem depicts a swan finding shelter from lightnings under a laurel, a tree sacred to Zeus.
 identifier:

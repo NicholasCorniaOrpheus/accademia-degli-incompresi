@@ -5,28 +5,28 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:fFwijPeY28vx-KasbUQqEakHG a rdf:Statement ;
+adi:fFwijPeY28vx-AMNjmiZZ5DwN a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
-    rdf:object "1593" ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1560" ;
     rdf:predicate <> ;
     rdf:subject adi:fFwijPeY28vx .
 
-adi:fFwijPeY28vx-RrCWM9cCj8mr a rdf:Statement ;
+adi:fFwijPeY28vx-KPbwjVS2UkSm a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     rdf:object adi:692cVZSpt5VS ;
     rdf:predicate <> ;
     rdf:subject adi:fFwijPeY28vx .
 
-adi:fFwijPeY28vx-S4nz9stXFaxV a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "103" ;
+adi:fFwijPeY28vx-eGgLwryn3724 a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1593" ;
     rdf:predicate <> ;
     rdf:subject adi:fFwijPeY28vx .
 
-adi:fFwijPeY28vx-bdAMZVPmDQnD a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    wdt:P1480 adi:8LbxJqpVwRJW ;
-    rdf:object "1560" ;
+adi:fFwijPeY28vx-o4LfHxydEtMa a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "103" ;
     rdf:predicate <> ;
     rdf:subject adi:fFwijPeY28vx .
 
@@ -35,5 +35,5 @@ adi:fFwijPeY28vx a rdfs:Resource ;
     <> adi:692cVZSpt5VS,
         adi:bpRYamR8DUKq ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

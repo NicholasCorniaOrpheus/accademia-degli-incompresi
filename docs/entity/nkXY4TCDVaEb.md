@@ -71,7 +71,7 @@
 
 ## Statements
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "location"
     - [Brescia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9g6i2k2ME43Z)

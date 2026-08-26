@@ -1,0 +1,26 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4vGZjVcpavRo-fbwAJqh9gkDM a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "16267" ;
+    rdf:predicate <> ;
+    rdf:subject adi:4vGZjVcpavRo .
+
+adi:4vGZjVcpavRo a rdfs:Resource ;
+    rdfs:label "Francesco De Franceschi" ;
+    <> adi:2hYMECrC2z35,
+        adi:TKTukTBozhcq ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1106262> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:U7bj4Jz7sSuU ;
+    skos:altLabel "Francesco de' Franceschi",
+        "Francesco dei Franceschi" ;
+    schema:gender adi:Sw8LauTZqpYZ .
+

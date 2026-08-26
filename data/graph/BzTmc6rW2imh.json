@@ -7,10 +7,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zc588c7NUicV",
+      "label": "Stella, che fra le stelle",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XzeQyQXbyjmR",
       "label": "poetry collection",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UysXgbEHCAbU",
+      "label": "Bartolomeo Ferrini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
@@ -38,6 +50,31 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzTmc6rW2imh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UysXgbEHCAbU",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzTmc6rW2imh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zc588c7NUicV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzTmc6rW2imh",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zc588c7NUicV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zc588c7NUicV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UysXgbEHCAbU",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zc588c7NUicV",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
       "property": "contributor"
     }

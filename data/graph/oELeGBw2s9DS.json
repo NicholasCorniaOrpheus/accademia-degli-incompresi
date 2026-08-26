@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/akKGDuDZgnxH",
+      "label": "Quel Creator delle cose create",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
       "label": "human",
       "class": "Concept",
@@ -23,6 +29,12 @@
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/avjbxQsjceBd",
+      "label": "Tutti i trionfi, carri, mascherate o canti carnascialeschi andati per Firenze dal tempo del Magnifico Lorenzo",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -40,6 +52,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oELeGBw2s9DS",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVAbik9eKVEW",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/akKGDuDZgnxH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oELeGBw2s9DS",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/avjbxQsjceBd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oELeGBw2s9DS",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/akKGDuDZgnxH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/avjbxQsjceBd",
+      "property": "part_of"
     }
   ]
 }

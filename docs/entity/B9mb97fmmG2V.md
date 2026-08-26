@@ -95,6 +95,9 @@
 ???+ abstract "metre"
     - [hendecasyllable](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emwSSkhQpsBS)
 
+???+ abstract "depicts"
+    - [destiny](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2pB9hiFXgYTg)
+
 ???+ abstract "language"
     - [Italian](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7)
 

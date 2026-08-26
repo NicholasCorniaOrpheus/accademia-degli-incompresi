@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvrS562Hic77",
+      "label": "Rime di m. Girolamo Parabosco",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emwSSkhQpsBS",
       "label": "hendecasyllable",
       "class": "Concept",
@@ -23,6 +29,12 @@
       "label": "torment",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpw8hKLjZy8D",
+      "label": "Come potrò narrarvi il dolor mio (Anvilla)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fYpqbjX78ztP",
@@ -96,6 +108,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2fDabMqgM4Qn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvrS562Hic77",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2fDabMqgM4Qn",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NiFCVHMLTGkp",
       "property": "poetic_type"
     },
@@ -126,6 +143,41 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2fDabMqgM4Qn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpw8hKLjZy8D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2fDabMqgM4Qn",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvrS562Hic77",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvrS562Hic77",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KGUmK3TLsKkL",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvrS562Hic77",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpw8hKLjZy8D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpw8hKLjZy8D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KGUmK3TLsKkL",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpw8hKLjZy8D",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7",
       "property": "language"
     }

@@ -77,7 +77,7 @@
     - [(Pallini 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/efadNg8p9ufB)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "inception"
     - 1525

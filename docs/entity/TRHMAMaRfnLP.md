@@ -10,7 +10,7 @@
 !!! note "metadata"
     - class: Concept
     - label: torment
-    - aliases: tormento
+    - aliases: tormento; affanno; doglia
     - id: TRHMAMaRfnLP
     <div style="clear:both;"></div>
 

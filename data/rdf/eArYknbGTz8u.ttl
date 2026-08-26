@@ -9,6 +9,48 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:eArYknbGTz8u-5NUfszX7HpSN a rdf:Statement ;
+adi:eArYknbGTz8u-dp3CVE4xb8Sd a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:eArYknbGTz8u .
+
+adi:eArYknbGTz8u-oZ8sgSgeR2yG a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:eArYknbGTz8u ;
+    ns1:P304 "62" ;
+    ns1:P958 "Descrittione del Tempo" ;
+    schema:volumeNumber "Rime morali" .
+
+adi:eArYknbGTz8u a rdfs:Resource ;
+    rdfs:label "Di tre corpi è composto il Tempo alato" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Di tre corpi è composto il Tempo alato
+L'uno in mezzo agli due detto è Presente,
+Brevissimo di Mole, e ogni hor cadente,
+Agilissimo al volo, e ogni hor legato.
+
+L'altro, che resta indietro, egli è 'l Passato,
+Quasi ridotto a imaginabil Ente,
+Sembra un Fragmento informe, anzi un niente,
+In cui torna a giacer tutto il Creato.
+
+L'ultimo Corpo suo poscia è 'l Futuro,
+Che di tenebre ignote il volto ingombra,
+Né si ravvisa mai, stando all'oscuro.
+
+Tale il Tempo fugace a l'Huom s'adombra,
+In questo Gerion, ch'esser figuro
+Su tre momenti, un Lampo, un Sogno, un'Ombra.""" ;
+    dc:description "Praise of Time, divided in the three bodies of Present, Past and Future. The three entities are related to a lightning, a dream, and a shadow respectively." ;
+    dc:subject adi:SC4r7EZa9bsX,
+        adi:akHAqpCfXjea ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:dm4e63JgvD3X ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

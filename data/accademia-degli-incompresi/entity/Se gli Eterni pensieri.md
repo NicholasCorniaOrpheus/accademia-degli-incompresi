@@ -21,7 +21,6 @@ based_on:
 derivative_work:
 subject:
   - "[[astrology]]"
-  - "[[astrology|divination]]"
 poetic_type: "[[canzone]]"
 metre:
   - "[[hendecasyllable]]"

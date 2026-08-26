@@ -118,7 +118,7 @@
 
 ???+ abstract "subject"
     - [praise](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfsD5EcdZsxp)
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
     - [salon](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Q6FD2rU7f347)
 
 

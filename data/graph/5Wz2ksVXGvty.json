@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Wz2ksVXGvty",
+      "label": "Latin",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Vr4quyEJjBSq",
+      "label": "language",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hnupGJUDPPMg",
+      "label": "Orbe lunari ferae",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeBrD9zpKiGq",
+      "label": "Urnula quam gemmis auroque; nitere videmus",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cQAmDsXC9TNv",
+      "label": "En volucuis generosa minas sub arundine spernit",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Wz2ksVXGvty",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Vr4quyEJjBSq",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hnupGJUDPPMg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Wz2ksVXGvty",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeBrD9zpKiGq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Wz2ksVXGvty",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cQAmDsXC9TNv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Wz2ksVXGvty",
+      "property": "language"
+    }
+  ]
+}

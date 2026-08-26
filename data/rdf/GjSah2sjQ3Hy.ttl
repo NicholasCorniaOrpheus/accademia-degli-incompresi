@@ -6,30 +6,56 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:GjSah2sjQ3Hy-4K3CSxSuogji a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
-    rdf:predicate <> ;
-    rdf:subject adi:GjSah2sjQ3Hy .
-
-adi:GjSah2sjQ3Hy-8HhaVFJeu8qT a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
-    rdf:predicate <> ;
-    rdf:subject adi:GjSah2sjQ3Hy .
-
-adi:GjSah2sjQ3Hy-9e5Mb69JmtJZ a rdf:Statement ;
+adi:GjSah2sjQ3Hy-8nx7Vqh87mGG a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
     rdf:predicate <> ;
     rdf:subject adi:GjSah2sjQ3Hy .
 
-adi:GjSah2sjQ3Hy-JsxzrA6XfEWP a rdf:Statement ;
+adi:GjSah2sjQ3Hy-9jD4ubxiVAxL a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:GjSah2sjQ3Hy .
+
+adi:GjSah2sjQ3Hy-ADP9EWjyY6QD a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
     rdf:predicate <> ;
     rdf:subject adi:GjSah2sjQ3Hy .
 
-adi:GjSah2sjQ3Hy-bpmkziQPahnJ a rdf:Statement ;
+adi:GjSah2sjQ3Hy-DoFfBSywyRK5 a rdf:Statement ;
     bf:electronicLocator <https://haab-digital.klassik-stiftung.de/viewer/image/874996287/> ;
-    bf:heldBy 
+    bf:heldBy adi:HzbDcvk4qaeG ;
+    dcterms:publisher adi:exKAVeLjzKFZ ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://haab-digital.klassik-stiftung.de/viewer/api/v1/records/874996287/manifest/> ;
+    rdf:object "N230056169ddd446fbfa6be578c5787db" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GjSah2sjQ3Hy ;
+    schema:datePublished "1593" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036495> .
+
+adi:GjSah2sjQ3Hy-E76ssYfYmoyB a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:jQTnqJe6SNWq ;
+    rdf:predicate <> ;
+    rdf:subject adi:GjSah2sjQ3Hy .
+
+adi:GjSah2sjQ3Hy-J4MR9xbLQkDF a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:GjSah2sjQ3Hy .
+
+adi:GjSah2sjQ3Hy a rdfs:Resource ;
+    rdfs:label "Ghirlanda de madrigali a quattro voci di Vittoria Aleotti" ;
+    <> adi:jQTnqJe6SNWq ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE036495>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV00430010>,
+        <https://rism.online/sources/990000823> ;
+    dcterms:title "Ghirlanda de madrigali a quatro voci di Vittoria Aleotti. Nouamente posta in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

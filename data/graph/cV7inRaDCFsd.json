@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MwAaHEnQdsjZ",
+      "label": "Costanza d'Avalos Piccolomini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KsqUZ8dKXxDW",
       "label": "Rime diverse d'alcune nobilissime, et virtuosissime donne",
       "class": "Book",
@@ -14,6 +20,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MwAaHEnQdsjZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cV7inRaDCFsd",
+      "property": "described_by_source"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KsqUZ8dKXxDW",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cV7inRaDCFsd",

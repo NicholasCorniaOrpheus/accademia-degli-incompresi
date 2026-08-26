@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "label": "Accademia Bocchiana di Bologna",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "label": "Innocenzio Ringhiero",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
+      "label": "Bologna",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "label": "academy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "dissolved"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "catalog_identifier"
+    }
+  ]
+}

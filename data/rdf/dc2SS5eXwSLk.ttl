@@ -7,30 +7,62 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:dc2SS5eXwSLk-7yexvivfHYTV a rdf:Statement ;
-    bf:Role adi:dbNtcx3kn4i7 ;
-    rdf:object adi:FJaARznhrRx9 ;
-    rdf:predicate <> ;
-    rdf:subject adi:dc2SS5eXwSLk .
-
-adi:dc2SS5eXwSLk-BRz69zrkabSj a rdf:Statement ;
+adi:dc2SS5eXwSLk-ANjtzcs3mnsA a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
     rdf:predicate <> ;
     rdf:subject adi:dc2SS5eXwSLk .
 
-adi:dc2SS5eXwSLk-EBq6wskATcQm a rdf:Statement ;
+adi:dc2SS5eXwSLk-PUP4s6RU9B8Z a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_B/B149/> ;
+    dcterms:publisher adi:PUiiibUDCxVm ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N28ef6bcdb13149b59a0963c5f438f8e7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:dc2SS5eXwSLk ;
+    schema:datePublished "1544" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE043313> .
+
+adi:dc2SS5eXwSLk-RdZRQwwJqKtU a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
     rdf:predicate <> ;
     rdf:subject adi:dc2SS5eXwSLk .
 
-adi:dc2SS5eXwSLk-W9XzRgqA6qRg a rdf:Statement ;
+adi:dc2SS5eXwSLk-ZqdLBP2db4TM a rdf:Statement ;
+    bf:Role adi:dbNtcx3kn4i7 ;
+    rdf:object adi:FJaARznhrRx9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:dc2SS5eXwSLk .
+
+adi:dc2SS5eXwSLk-eEPEFr8ezRYU a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dc2SS5eXwSLk .
+
+adi:dc2SS5eXwSLk-j3SptiyPgfAj a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
     rdf:predicate <> ;
     rdf:subject adi:dc2SS5eXwSLk .
 
-adi:dc2SS5eXwSLk-kCrTcw46xQZ7 a rdf:Statement ;
+adi:dc2SS5eXwSLk-jubrbWRj4KNn a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:ewRA3Vzr74FY ;
+    rdf:predicate <> ;
+    rdf:subject adi:dc2SS5eXwSLk .
+
+adi:dc2SS5eXwSLk a rdfs:Resource ;
+    rdfs:label "Dialogo della musica di m. Anton Francesco Doni" ;
+    <> adi:FJaARznhrRx9,
+        adi:ewRA3Vzr74FY ;
+    dc:subject adi:2UUH2dSJC9jn ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE043313>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV07290010>,
+        <https://rism.online/sources/993104404> ;
+    dcterms:title "Dialogo della musica di m. Antonfrancesco Doni fiorentino" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

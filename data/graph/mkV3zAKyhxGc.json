@@ -19,8 +19,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N6BSftiSanj9",
+      "label": "Accademia dei Virtuosi di Perugia",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A8zvpBSv7FEi",
       "label": "Sforza degli Oddi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aFwk4aFAcBXw",
+      "label": "Francesco degli Oddi",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
@@ -48,7 +60,17 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N6BSftiSanj9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mkV3zAKyhxGc",
+      "property": "location"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A8zvpBSv7FEi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mkV3zAKyhxGc",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aFwk4aFAcBXw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mkV3zAKyhxGc",
       "property": "work_location"
     }

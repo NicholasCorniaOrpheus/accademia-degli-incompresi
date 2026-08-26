@@ -83,7 +83,7 @@
     - 
         * publication date: 1594
         * external source: [Sp8gPV-8p8gC](https://books.google.it/books?id=Sp8gPV-8p8gC)
-        * publisher: [Francesco de' Franceschi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LKffTyy9kohN)
+        * publisher: [Francesco De Franceschi](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4vGZjVcpavRo)
         * place of publication: [Venezia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq)
         * permalink: [CNCE004211](https://edit16.iccu.sbn.it/titolo/CNCE004211)
 

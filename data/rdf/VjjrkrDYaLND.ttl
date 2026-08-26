@@ -6,14 +6,28 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:VjjrkrDYaLND-in7MdMQQDhxD a rdf:Statement ;
+adi:VjjrkrDYaLND-CE9SxNGQr65o a rdf:Statement ;
     wdt:P291 adi:ekvVXN4tzg9q ;
-    rdf:object "N401e2ca91f984434ae6353b606e4be2f" ;
+    rdf:object "N42952a378d6b4576836df8683e607f27" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:VjjrkrDYaLND ;
     schema:datePublished "1607" ;
     schema:url <http://id.sbn.it/bid/VEAE004394> .
 
-adi:VjjrkrDYaLND-kDwEAjzrdqwQ a rdf:Statement ;
+adi:VjjrkrDYaLND-CoiJKf3sMhFC a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:dZAxHiTJuqCF ;
+    rdf:predicate <> ;
+    rdf:subject adi:VjjrkrDYaLND .
+
+adi:VjjrkrDYaLND a rdfs:Resource ;
+    rdfs:label "Dui dialoghi della vergogna, con alcune prose, et rime, del sig. Annibale Poccaterra" ;
+    <> adi:dZAxHiTJuqCF ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE004394>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F006910010> ;
+    dcterms:title "Dui dialoghi della vergogna, con alcune prose, et rime, del sig. Annibale Poccaterra, Academico ferrarese, dedicati all'illustriss.mo et reuerendiss. sig. cardinale d'Este" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:9m23V9Hha9iA,
+        adi:XzeQyQXbyjmR .
+

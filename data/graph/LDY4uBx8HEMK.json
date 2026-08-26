@@ -25,8 +25,26 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "label": "Tirrena mia il cui colore agguaglia (Colombano)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "label": "Orazio Colombano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
       "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gb7sB4jm4YVo",
+      "label": "Internet Archive",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
@@ -60,13 +78,48 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gb7sB4jm4YVo",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XjfgaSYLR8Go",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jKgm7x2ZisFF",
       "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "occupation"
     }
   ]
 }

@@ -37,6 +37,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ayj9Hkpp35ZJ",
+      "label": "Capricci poetici di diversi autori perugini ascritti all'augustissima Accademia degl'Insensati raccolti da Francesco Degli Oddi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GPCHBSu842TH",
       "label": "Giovanni Battista Lauri",
       "class": "Agent",
@@ -79,10 +85,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aFwk4aFAcBXw",
+      "label": "Francesco degli Oddi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6rYwUPnKokCv",
       "label": "OPAC SBN",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SS22BxV4tioH",
+      "label": "Francesco Maria Calidoni",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SMFVnuxrqTag",
@@ -95,9 +113,20 @@
       "label": "Antonio Bruni",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "label": "academy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
@@ -164,6 +193,11 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ayj9Hkpp35ZJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GPCHBSu842TH",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
       "property": "member_of"
@@ -189,6 +223,16 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aFwk4aFAcBXw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SS22BxV4tioH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
+      "property": "member_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SMFVnuxrqTag",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htvvES2xJL7N",
       "property": "member_of"
@@ -207,6 +251,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eray9JJyRuAc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FhzJj6sXkzSq",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ayj9Hkpp35ZJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aFwk4aFAcBXw",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ayj9Hkpp35ZJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SS22BxV4tioH",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GPCHBSu842TH",

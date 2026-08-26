@@ -6,23 +6,34 @@
 @prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:cygy5Pf8MNNm-BUNGsbgUiQTR a rdf:Statement ;
-    bf:Role adi:awZyTsJZqrUq ;
-    rdf:object adi:dGUWfMNNCYuo ;
+adi:cygy5Pf8MNNm-53ZGhXgEtZx3 a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
     rdf:predicate <> ;
-    rdf:subject adi:cygy5Pf8MNNm .
+    rdf:subject adi:cygy5Pf8MNNm ;
+    ns1:P304 "85" ;
+    ns1:P958 "Gaspara Stampa." ;
+    schema:volumeNumber "1" .
 
-adi:cygy5Pf8MNNm-ieUVYmZwVyQq a rdf:Statement ;
+adi:cygy5Pf8MNNm-RgDQSi8QCDuy a rdf:Statement ;
     rdf:object adi:h3THWXv6qB74 ;
     rdf:predicate <> ;
     rdf:subject adi:cygy5Pf8MNNm ;
     ns1:P304 "54" .
 
+adi:cygy5Pf8MNNm-XzHTjX8Tqs8f a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:dGUWfMNNCYuo ;
+    rdf:predicate <> ;
+    rdf:subject adi:cygy5Pf8MNNm .
+
 adi:cygy5Pf8MNNm a rdfs:Resource ;
     rdfs:label "Oh beata, e dolcissima novella" ;
-    <> adi:dGUWfMNNCYuo,
+    <> adi:ENUbQJ8t6z8B,
+        adi:dGUWfMNNCYuo,
         adi:h3THWXv6qB74 ;
     pdc:poeticType adi:Mzrr2esvFbco ;
     pdc:text """Oh BEATA, e dolcissima novella,
@@ -43,10 +54,15 @@ Quando potrò giamai lodarvi a pieno?
 Come dir, qual nel cor'haggio disio,
 Di che letitia io l'habbia ingombro e pieno?""" ;
     dc:subject adi:8sSx8HhcDxv6,
-        adi:ND6mFMouFeKh ;
+        adi:Bvvit9jGS3mp ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:fYpqbjX78ztP ;
     wdt:P870 adi:85kGqMwffVs7 ;
-    ns1:P180 adi:GunL4YX3Pbtj ;
+    skos:altLabel "O Beata, o dolcissima novella",
+        "Oh Beata, oh dolcissima novella" ;
+    ns1:P180 adi:DZwg5ijCKnjb,
+        adi:GunL4YX3Pbtj,
+        adi:ND6mFMouFeKh,
+        adi:cw9SB9nEpgGt ;
     ns1:P2551 adi:emwSSkhQpsBS .
 

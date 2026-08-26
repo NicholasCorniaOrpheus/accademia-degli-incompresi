@@ -8,5 +8,42 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:6AEVRJuaiSSB-Jjdk82CMWY8E a rdf:Statement ;
-    rdf:object 
+adi:6AEVRJuaiSSB-3vf2SNy6Du5b a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:eDLkvXHFMYdu ;
+    rdf:predicate <> ;
+    rdf:subject adi:6AEVRJuaiSSB .
+
+adi:6AEVRJuaiSSB-eb2f7hWLBvEh a rdf:Statement ;
+    rdf:object adi:KKTrqWEV9nxB ;
+    rdf:predicate <> ;
+    rdf:subject adi:6AEVRJuaiSSB ;
+    ns1:P304 "92" ;
+    ns1:P958 "Parola di Donna amante. LXX." .
+
+adi:6AEVRJuaiSSB a rdfs:Resource ;
+    rdfs:label "T'amo, mia vita, la mia cara vita" ;
+    <> adi:KKTrqWEV9nxB,
+        adi:eDLkvXHFMYdu ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """T'amo, mia vita, la mia cara vita 
+Dolcemente mi dice, e'n questa sola 
+Sì soave parola 
+Par che trasformi lietamente il core, 
+Per farmene signore. 
+Oh voce di dolcezza, e di diletto, 
+Prendila tosto Amore;
+Stampala nel mio petto;
+Spiri solo per lei l'anima mia: 
+T'AMO MIA VITA, la mia vita sia.""" ;
+    dc:subject adi:PgcFuPe2GzQH ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F034390000103_004600010C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:EbB4YoFvmYce,
+        adi:mUmjH8v3mmFT ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

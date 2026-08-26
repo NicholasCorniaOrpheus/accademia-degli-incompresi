@@ -5,22 +5,22 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:iDXucpxaKjZv-72Q8y7aQD6j9 a rdf:Statement ;
+adi:iDXucpxaKjZv-4YAQTBGsAGi3 a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "20" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iDXucpxaKjZv .
+
+adi:iDXucpxaKjZv-BeajUmAir3N6 a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     rdf:object "1540" ;
     rdf:predicate <> ;
     rdf:subject adi:iDXucpxaKjZv .
 
-adi:iDXucpxaKjZv-EGzBMbWL9veW a rdf:Statement ;
+adi:iDXucpxaKjZv-EiSSQZgrb759 a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     wdt:P1480 adi:8LbxJqpVwRJW ;
     rdf:object "1545" ;
-    rdf:predicate <> ;
-    rdf:subject adi:iDXucpxaKjZv .
-
-adi:iDXucpxaKjZv-f4E44TzVknkw a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "20" ;
     rdf:predicate <> ;
     rdf:subject adi:iDXucpxaKjZv .
 
@@ -28,5 +28,5 @@ adi:iDXucpxaKjZv a rdfs:Resource ;
     rdfs:label "Accademia degli Infiammati di Padova" ;
     <> adi:Xcfe7aKfnNfN ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

@@ -14,7 +14,7 @@ inception:
 has_version:
   - publication_date: 1594
     external_source: https://books.google.it/books?id=Sp8gPV-8p8gC
-    publisher: "[[Francesco de' Franceschi]]"
+    publisher: "[[Francesco De Franceschi]]"
     place_of_publication:
       - "[[Venezia]]"
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE004211

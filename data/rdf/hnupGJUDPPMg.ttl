@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hnupGJUDPPMg-CQBV6Zh7cg2M a rdf:Statement ;
+    rdf:object adi:Gq3x2rvyD6i7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:hnupGJUDPPMg ;
+    ns1:P304 "62-65" ;
+    ns1:P958 "IV" .
+
+adi:hnupGJUDPPMg-EQA9ZdRKEahT a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:9PZmwTEUKers ;
+    rdf:predicate <> ;
+    rdf:subject adi:hnupGJUDPPMg .
+
+adi:hnupGJUDPPMg a rdfs:Resource ;
+    rdfs:label "Orbe lunari ferae" ;
+    <> adi:9PZmwTEUKers,
+        adi:Gq3x2rvyD6i7 ;
+    dc:subject adi:TkUXmQEgY6Yz,
+        adi:jpEmjHi9Ym4c ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:5Wz2ksVXGvty ;
+    ns1:P180 adi:MiEZVRza7UDo,
+        adi:N9C8b89MB3K9,
+        adi:ZsNG8yssbKzY .
+

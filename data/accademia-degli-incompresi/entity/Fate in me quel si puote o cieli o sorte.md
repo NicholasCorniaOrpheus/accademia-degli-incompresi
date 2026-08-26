@@ -21,6 +21,7 @@ poetic_type: "[[ottava rima]]"
 metre:
   - "[[hendecasyllable]]"
 depicts:
+  - "[[destiny]]"
 language: "[[Italian]]"
 text: |-
   Fate in me quel si puote o cieli o sorte;

@@ -49,6 +49,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "label": "Innocenzio Ringhiero",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2p4HNEjEbuL",
       "label": "Accademia dei Selvaggi di Bologna",
       "class": "Organisation",
@@ -65,6 +71,12 @@
       "label": "Memorie, imprese, e ritratti de' signor Accademici Gelati",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "label": "Accademia Bocchiana di Bologna",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jjdWLDnqqpF4",
@@ -133,6 +145,11 @@
       "property": "location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
+      "property": "work_location"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G2p4HNEjEbuL",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
       "property": "location"
@@ -146,6 +163,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TGRvGrsWgptp",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
       "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AC4Js3EhuZqL",
+      "property": "location"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jjdWLDnqqpF4",
@@ -175,6 +197,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULfY3kSjSVZr",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcnbqU4wTkFY",
       "property": "member_of"
     },
     {

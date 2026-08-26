@@ -9,6 +9,40 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:XMhFwGdTC5Jp-P5ZtMEgZPkkL a rdf:Statement ;
+adi:XMhFwGdTC5Jp-Dssi3cgJF6ca a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:XMhFwGdTC5Jp .
+
+adi:XMhFwGdTC5Jp-cXCjvc4QHQR7 a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:XMhFwGdTC5Jp ;
+    ns1:P304 "125" ;
+    ns1:P958 "Canto XIV, 6" ;
+    schema:volumeNumber "L'antro e lo coglio di Artefio" .
+
+adi:XMhFwGdTC5Jp a rdfs:Resource ;
+    rdfs:label "Acqua che altro Christal puro riceve" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Acqua che altro Christal puro riceve
+Lucido più, che raffinato Argento
+Presso al di cui candor bruna è la neve
+È il foco al moto suo men violento
+Acqua, ch'è tutta spirito, ed è sì leve
+Che senza il corpo suo vola col vento
+Né fuor che al corpo suo s'unisce e stagna,
+In altra acqua, che lava, e man non bagna.""" ;
+    dc:subject adi:jpEmjHi9Ym4c ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4jQ3H5yuexkm,
+        adi:8hmsnHCi3PMp,
+        adi:BpAmPbZKNmd7,
+        adi:aCkNqyaicMNb ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

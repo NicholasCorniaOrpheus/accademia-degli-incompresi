@@ -5,6 +5,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:4vcnevmGKmha-K6gYyRZ5Bmyg a rdf:Statement ;
+adi:4vcnevmGKmha-UJAhgWZrZtEo a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:jQTnqJe6SNWq ;
+    rdf:predicate <> ;
+    rdf:subject adi:4vcnevmGKmha .
+
+adi:4vcnevmGKmha-mdtN9awRvLp7 a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
-    rdf:object 
+    rdf:object adi:dZAxHiTJuqCF ;
+    rdf:predicate <> ;
+    rdf:subject adi:4vcnevmGKmha .
+
+adi:4vcnevmGKmha a rdfs:Resource ;
+    rdfs:label "Dicesti anima mia (Aleotti)" ;
+    <> adi:GjSah2sjQ3Hy,
+        adi:dZAxHiTJuqCF,
+        adi:jNSpt5G7gvPx,
+        adi:jQTnqJe6SNWq ;
+    dcterms:type "MusicComposition" ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

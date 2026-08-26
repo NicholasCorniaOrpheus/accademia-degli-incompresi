@@ -8,5 +8,51 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:QGTcewmY6ayC-5VgGq6apBYVw a rdf:Statement ;
-    dcterms:references 
+adi:QGTcewmY6ayC-AKCwFfa27mi9 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:GAKXLkQUx9vm ;
+    rdf:predicate <> ;
+    rdf:subject adi:QGTcewmY6ayC .
+
+adi:QGTcewmY6ayC-NDKGAKjbmfrC a rdf:Statement ;
+    dcterms:references adi:XLQTivHFPMny ;
+    rdf:object adi:459mRdBEvCRS ;
+    rdf:predicate <> ;
+    rdf:subject adi:QGTcewmY6ayC .
+
+adi:QGTcewmY6ayC a rdfs:Resource ;
+    rdfs:label "Chi vuol veder un bosco folto e spesso (Vecchi)" ;
+    <> adi:459mRdBEvCRS,
+        adi:CobFHSosJoao,
+        adi:GAKXLkQUx9vm ;
+    pdc:poeticType adi:Nfnr9QAEQVRp ;
+    pdc:text """Chi vuol veder un bosco folto e spesso
+Venga a mirar il misero mio cuore
+Quante saette ci ha tirato Amore.
+
+Chi vuol veder duo fonti d'acqua viva
+Venga a veder quest' occhi egri e dolenti
+Ch'Amor gli ha fatti duo fiumi correnti.
+
+Chi vuol veder com' arde una fornace
+Venga a veder me sol ch'in ogni loco
+Amor m'ha fatto tutto fiamma e foco.
+
+Chi vuol saper di questo la cagione
+Miri costei che sua rara beltade
+M’infiamma ogni hora, e in lei non è pietade.""" ;
+    dc:subject adi:MVesHQPbVg5X ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F050470000020101_000000248400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv,
+        adi:XLQTivHFPMny ;
+    wdt:P31 adi:o37R4hW3emjb ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4jQ3H5yuexkm,
+        adi:E3PKJTAvLpog,
+        adi:FfsDH2wWMAGN,
+        adi:YNz7hZ7AqXJk,
+        adi:cw9SB9nEpgGt,
+        adi:mUmjH8v3mmFT ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

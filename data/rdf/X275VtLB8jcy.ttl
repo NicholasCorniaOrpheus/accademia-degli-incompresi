@@ -7,12 +7,39 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:X275VtLB8jcy-NeWpRevH982v a rdf:Statement ;
+adi:X275VtLB8jcy-DMqDWG4yUca5 a rdf:Statement ;
+    bf:Note "Incipit assonance." ;
+    rdf:object adi:EBzr3Jvs9S89 ;
+    rdf:predicate <> ;
+    rdf:subject adi:X275VtLB8jcy .
+
+adi:X275VtLB8jcy-cFKdXsyKrr4m a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
     rdf:object adi:6ZCFKDvvZwNn ;
     rdf:predicate <> ;
     rdf:subject adi:X275VtLB8jcy .
 
-adi:X275VtLB8jcy-hT6mc8RvD9x7 a rdf:Statement ;
+adi:X275VtLB8jcy-kmVzguhH7FD3 a rdf:Statement ;
     bf:Note "Incipit assonance." ;
-    rdf:object 
+    rdf:object adi:b9EEWzfgsepR ;
+    rdf:predicate <> ;
+    rdf:subject adi:X275VtLB8jcy .
+
+adi:X275VtLB8jcy a rdfs:Resource ;
+    rdfs:label "Alma beat'e bella (Torresani)" ;
+    <> adi:6ZCFKDvvZwNn,
+        adi:7PPRiYwEybka,
+        adi:EBzr3Jvs9S89,
+        adi:b9EEWzfgsepR ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/008930000010101_000000198203C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:DZwg5ijCKnjb,
+        adi:TRHMAMaRfnLP,
+        adi:YNz7hZ7AqXJk ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

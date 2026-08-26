@@ -5,12 +5,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LeesAz9Ffm3s-JpVRJmqYyMyT a rdf:Statement ;
+adi:LeesAz9Ffm3s-6gkhKFUNHASz a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:jQTnqJe6SNWq ;
+    rdf:predicate <> ;
+    rdf:subject adi:LeesAz9Ffm3s .
+
+adi:LeesAz9Ffm3s-JH8Fd2B5GPv3 a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
     rdf:object adi:eDLkvXHFMYdu ;
     rdf:predicate <> ;
     rdf:subject adi:LeesAz9Ffm3s .
 
-adi:LeesAz9Ffm3s-UUQHDCRU2TSX a rdf:Statement ;
-    bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+adi:LeesAz9Ffm3s a rdfs:Resource ;
+    rdfs:label "T'amo, mia vita, la mia cara vita (Aleotti)" ;
+    <> adi:6AEVRJuaiSSB,
+        adi:GjSah2sjQ3Hy,
+        adi:eDLkvXHFMYdu,
+        adi:jQTnqJe6SNWq ;
+    dcterms:type "MusicComposition" ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

@@ -5,21 +5,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:FmeP3YhBTqEh-XbMbp5ZTgPK2 a rdf:Statement ;
+adi:FmeP3YhBTqEh-3ciZNG75Azq3 a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1576" ;
+    rdf:predicate <> ;
+    rdf:subject adi:FmeP3YhBTqEh .
+
+adi:FmeP3YhBTqEh-NDvC8Peg4dKh a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     rdf:object "1573" ;
     rdf:predicate <> ;
     rdf:subject adi:FmeP3YhBTqEh .
 
-adi:FmeP3YhBTqEh-gczCxBGJbrAT a rdf:Statement ;
+adi:FmeP3YhBTqEh-RvmULLm6MuSF a rdf:Statement ;
     bf:heldBy adi:99XEoHF9WPng ;
     rdf:object "26" ;
-    rdf:predicate <> ;
-    rdf:subject adi:FmeP3YhBTqEh .
-
-adi:FmeP3YhBTqEh-jMs5Qs7fY6yR a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    rdf:object "1576" ;
     rdf:predicate <> ;
     rdf:subject adi:FmeP3YhBTqEh .
 
@@ -27,5 +27,5 @@ adi:FmeP3YhBTqEh a rdfs:Resource ;
     rdfs:label "Accademia degli Animosi di Padova" ;
     <> adi:Xcfe7aKfnNfN ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

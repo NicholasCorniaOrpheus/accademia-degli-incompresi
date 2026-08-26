@@ -19,6 +19,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3GeGzceidQYB",
+      "label": "De diversi autori il quarto libro de madrigali a quattro voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fNnw4P8dLQ5w",
       "label": "shadow",
       "class": "Concept",
@@ -35,6 +41,12 @@
       "label": "light beam",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXoy2Cq2fMs4",
+      "label": "anonymous",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kBwkVvdhkrbQ",
@@ -82,6 +94,11 @@
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXoy2Cq2fMs4",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
       "property": "contributor"
     },
@@ -94,6 +111,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVAbik9eKVEW",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3GeGzceidQYB",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
@@ -137,6 +159,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3GeGzceidQYB",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFWerrYngAnv",
       "property": "described_by_source"
     },

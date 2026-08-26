@@ -1,5 +1,5 @@
 ---
-class: Emblem
+class: EmblemClass
 label:
 description:
 identifier:

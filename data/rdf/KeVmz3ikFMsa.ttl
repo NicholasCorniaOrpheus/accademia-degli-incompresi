@@ -9,18 +9,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KeVmz3ikFMsa-Bjgt2fu3DiMQ a rdf:Statement ;
+adi:KeVmz3ikFMsa-FMP7w3Rvv8xw a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:cXoy2Cq2fMs4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:KeVmz3ikFMsa .
+
+adi:KeVmz3ikFMsa-kay5XvTAB6sX a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
     rdf:object adi:dnKqeJdTP2sv ;
     rdf:predicate <> ;
     rdf:subject adi:KeVmz3ikFMsa .
 
-adi:KeVmz3ikFMsa-Y35EqkAmFf7L a rdf:Statement ;
-    bf:Role adi:h24pafkqqHsZ ;
-    rdf:object <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[anonymous]]> ;
-    rdf:predicate <> ;
-    rdf:subject adi:KeVmz3ikFMsa .
-
 adi:KeVmz3ikFMsa a rdfs:Resource ;
     rdfs:label "Oh viver mio noioso oh adversa sorte (Anonymous)" ;
-    <> 
+    <> adi:3GeGzceidQYB,
+        adi:cXoy2Cq2fMs4,
+        adi:dnKqeJdTP2sv ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Oh viver mio noioso oh adversa sorte,
+Cerco l'oscurità fuggo la luce,
+Bramo la morte,
+Quel ch' agli occhi altrui noce a me riluce,
+Perché chiudendo lor s'apron le porte,
+Alla cagion ch'al mio sol mi conduce.""" ;
+    dc:subject adi:3eQerXqUEkt2 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/206900000010101_000000010000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    skos:altLabel "O viver mio noioso o adversa sorte" ;
+    ns1:P180 adi:D3F7Qwb9dCYu,
+        adi:DZwg5ijCKnjb,
+        adi:fNnw4P8dLQ5w ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

@@ -5,21 +5,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:7VHR35QrVpSx-XNGTJKHrFHDc a rdf:Statement ;
+adi:7VHR35QrVpSx-Cij5bK3e5o6Y a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "1554" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7VHR35QrVpSx .
+
+adi:7VHR35QrVpSx-GvyahwcmLKa8 a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     rdf:object adi:J82PkibLWFG6 ;
     rdf:predicate <> ;
     rdf:subject adi:7VHR35QrVpSx .
 
-adi:7VHR35QrVpSx-crFn7wnpG7Nk a rdf:Statement ;
+adi:7VHR35QrVpSx-dVfdTEsDmdXj a rdf:Statement ;
     bf:heldBy adi:99XEoHF9WPng ;
     rdf:object "516" ;
-    rdf:predicate <> ;
-    rdf:subject adi:7VHR35QrVpSx .
-
-adi:7VHR35QrVpSx-jLYcoNobvhKm a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    rdf:object "1554" ;
     rdf:predicate <> ;
     rdf:subject adi:7VHR35QrVpSx .
 
@@ -28,5 +28,5 @@ adi:7VHR35QrVpSx a rdfs:Resource ;
     <> adi:J82PkibLWFG6,
         adi:Ut5gfQdSP4WR ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

@@ -1,5 +1,5 @@
 ---
-class: Emblem
+class: EmblemClass
 label:
 description: Emblem depicting an hedgehog with the Latin motto "Undique tutus" meaning "Everywhere safe".
 identifier:

@@ -37,6 +37,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Xx5Y6nVNESWe",
+      "label": "Le Temerarie Imprese, i strani effetti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
       "label": "Accademia dei Gelati di Bologna",
       "class": "Organisation",
@@ -45,6 +51,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JLv6HZNGtUao",
       "label": "Ricreazioni amorose de gli Academici Gelati di Bologna",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CjEJhyvW4Wcq",
+      "label": "Le imprese illustri del signor Girolamo Ruscelli",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
@@ -94,12 +106,22 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Xx5Y6nVNESWe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGeT8SCG2epE",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
       "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JLv6HZNGtUao",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CjEJhyvW4Wcq",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64",
       "property": "subject"
     },

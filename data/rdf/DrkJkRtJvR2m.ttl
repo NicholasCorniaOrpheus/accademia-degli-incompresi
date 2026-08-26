@@ -6,19 +6,54 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:DrkJkRtJvR2m-34beKGeCojDx a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
-    rdf:predicate <> ;
-    rdf:subject adi:DrkJkRtJvR2m .
-
-adi:DrkJkRtJvR2m-3gRZHhCMzjdF a rdf:Statement ;
+adi:DrkJkRtJvR2m-BoGEGbhYFGgH a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
     rdf:predicate <> ;
     rdf:subject adi:DrkJkRtJvR2m .
 
-adi:DrkJkRtJvR2m-6sCLDf73JfUk a rdf:Statement ;
+adi:DrkJkRtJvR2m-T8bEvEZ5Gmua a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DrkJkRtJvR2m .
+
+adi:DrkJkRtJvR2m-TTF6UGTeRDYM a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DrkJkRtJvR2m .
+
+adi:DrkJkRtJvR2m-TiVNQuhRBicF a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:KjaJCjnYFATB ;
+    rdf:predicate <> ;
+    rdf:subject adi:DrkJkRtJvR2m .
+
+adi:DrkJkRtJvR2m-iYqQkmPi3XPY a rdf:Statement ;
     bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00071897> ;
     bf:heldBy adi:hqjifQ4xf6p6 ;
-    dcterms:publisher 
+    dcterms:publisher adi:FrJd243EjCF2 ;
+    wdt:P291 adi:Ut5gfQdSP4WR ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071897/manifest> ;
+    rdf:object "N34b9bc5ccdb14bb6b33924e80ddf3856" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:DrkJkRtJvR2m ;
+    schema:datePublished "1539" .
+
+adi:DrkJkRtJvR2m-iYzfqqGCoRkN a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DrkJkRtJvR2m .
+
+adi:DrkJkRtJvR2m a rdfs:Resource ;
+    rdfs:label "Primo libro di Madrigali d'Alfonso dalla Viola" ;
+    <> adi:KjaJCjnYFATB ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV00440010>,
+        <https://rism.online/sources/990066687> ;
+    dcterms:title "Primo libro di Madrigali d'Alfonso dalla Viola novamente stampato" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

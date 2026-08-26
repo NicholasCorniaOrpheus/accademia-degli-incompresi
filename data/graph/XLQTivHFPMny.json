@@ -5,7 +5,40 @@
       "label": "(Schleuse 2015)",
       "class": "BibliographicResource",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "label": "Orazio Vecchi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "label": "Chi vuol veder un bosco folto e spesso (Vecchi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "property": "contributor"
+    }
+  ]
 }

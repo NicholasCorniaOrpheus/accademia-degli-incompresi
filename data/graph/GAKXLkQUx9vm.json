@@ -13,10 +13,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CobFHSosJoao",
+      "label": "Canzonette di Orazio Vecchi. Libro primo a quattro voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "label": "Chi vuol veder un bosco folto e spesso (Vecchi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "label": "(Schleuse 2015)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ye88EjEg6hpa",
@@ -38,6 +56,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "described_by_source"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
@@ -62,6 +85,41 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ye88EjEg6hpa",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CobFHSosJoao",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAKXLkQUx9vm",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CobFHSosJoao",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CobFHSosJoao",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QGTcewmY6ayC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XLQTivHFPMny",
+      "property": "based_on"
     }
   ]
 }

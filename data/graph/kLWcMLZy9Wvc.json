@@ -49,6 +49,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "label": "Madonna hor che direte (Veggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NiFCVHMLTGkp",
       "label": "madrigale",
       "class": "Concept",
@@ -119,9 +125,19 @@
       "property": "language"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kLWcMLZy9Wvc",
+      "property": "based_on"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
+      "property": "contributor"
     }
   ]
 }

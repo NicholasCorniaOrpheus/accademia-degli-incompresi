@@ -5,6 +5,26 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:RYdXSKszye3P-apyeqaM5x7LB a rdf:Statement ;
+adi:RYdXSKszye3P-dggcVW2CgAdn a rdf:Statement ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:AjNf7Seeiq55 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RYdXSKszye3P .
+
+adi:RYdXSKszye3P-gXwBZVgraaUB a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:E64tCnVtsG5S ;
+    rdf:predicate <> ;
+    rdf:subject adi:RYdXSKszye3P .
+
+adi:RYdXSKszye3P a rdfs:Resource ;
+    rdfs:label "Fiere silvestre, che per lati campi (Ruffo)" ;
+    <> adi:AjNf7Seeiq55,
+        adi:E64tCnVtsG5S,
+        adi:KEHKemgmNx4m,
+        adi:N9xgD7YncCH3 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F103150000010101_000000215000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

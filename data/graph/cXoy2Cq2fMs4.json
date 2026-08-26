@@ -5,7 +5,41 @@
       "label": "anonymous",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
+      "label": "Oh viver mio noioso oh adversa sorte (Anonymous)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DFBuU9TTtPBa",
+      "label": "Chi è dotto in iscienza",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kM6k23CZSv8v",
+      "label": "Se nel tempo de' fiori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KeVmz3ikFMsa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXoy2Cq2fMs4",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DFBuU9TTtPBa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXoy2Cq2fMs4",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kM6k23CZSv8v",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXoy2Cq2fMs4",
+      "property": "contributor"
+    }
+  ]
 }

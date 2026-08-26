@@ -6,33 +6,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:nMAehWb3F4ta-9RYrhyp4vA4D a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    wdt:P1480 adi:8LbxJqpVwRJW ;
-    rdf:object "1670" ;
+adi:nMAehWb3F4ta-7FtzHyLVWcjP a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "23" ;
     rdf:predicate <> ;
     rdf:subject adi:nMAehWb3F4ta .
 
-adi:nMAehWb3F4ta-9iYq4VZYCR4j a rdf:Statement ;
+adi:nMAehWb3F4ta-HY3JT9it2MqR a rdf:Statement ;
     dcterms:references adi:FhzJj6sXkzSq ;
     rdf:object adi:kjZNzKsoyqmg ;
     rdf:predicate <> ;
     rdf:subject adi:nMAehWb3F4ta ;
     schema:startDate "1608" .
 
-adi:nMAehWb3F4ta-KWJRCtqzaTFJ a rdf:Statement ;
+adi:nMAehWb3F4ta-nPHGu5mZ5o4W a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1670" ;
+    rdf:predicate <> ;
+    rdf:subject adi:nMAehWb3F4ta .
+
+adi:nMAehWb3F4ta-o8ofF9ZuoTtr a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     rdf:object adi:eDLkvXHFMYdu ;
     rdf:predicate <> ;
     rdf:subject adi:nMAehWb3F4ta .
 
-adi:nMAehWb3F4ta-aARJZ8B9TW7p a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "23" ;
-    rdf:predicate <> ;
-    rdf:subject adi:nMAehWb3F4ta .
-
-adi:nMAehWb3F4ta-ckw9pFrSMXct a rdf:Statement ;
+adi:nMAehWb3F4ta-oX3hYMFj3BW7 a rdf:Statement ;
     dcterms:references adi:99XEoHF9WPng ;
     wdt:P1480 adi:8LbxJqpVwRJW ;
     rdf:object "1600" ;
@@ -45,5 +45,5 @@ adi:nMAehWb3F4ta a rdfs:Resource ;
         adi:eDLkvXHFMYdu,
         adi:kjZNzKsoyqmg ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

@@ -5,6 +5,26 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LMQujWRrEUYA-6wBbKGGNs8Df a rdf:Statement ;
+adi:LMQujWRrEUYA-L7xcwoewLwkb a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
-    rdf:object 
+    rdf:object adi:AjNf7Seeiq55 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LMQujWRrEUYA .
+
+adi:LMQujWRrEUYA-WAQU2fvUVPq9 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:PXm2iCS7zpDi ;
+    rdf:predicate <> ;
+    rdf:subject adi:LMQujWRrEUYA .
+
+adi:LMQujWRrEUYA a rdfs:Resource ;
+    rdfs:label "Tirrena mia il cui colore agguaglia (Colombano)" ;
+    <> adi:66ncNNLsnrB8,
+        adi:AjNf7Seeiq55,
+        adi:LDY4uBx8HEMK,
+        adi:PXm2iCS7zpDi ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/286330000010101_000000065600C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

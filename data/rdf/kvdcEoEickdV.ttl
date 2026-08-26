@@ -5,6 +5,26 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:kvdcEoEickdV-HXQkoZo4T5aW a rdf:Statement ;
+adi:kvdcEoEickdV-CdCKMCUqsV5Z a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:E64tCnVtsG5S ;
+    rdf:predicate <> ;
+    rdf:subject adi:kvdcEoEickdV .
+
+adi:kvdcEoEickdV-WDoCAFSGTQke a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
-    rdf:object 
+    rdf:object adi:AjNf7Seeiq55 ;
+    rdf:predicate <> ;
+    rdf:subject adi:kvdcEoEickdV .
+
+adi:kvdcEoEickdV a rdfs:Resource ;
+    rdfs:label "Monti selve fontane piagg'e sassi (Ruffo)" ;
+    <> adi:AjNf7Seeiq55,
+        adi:E64tCnVtsG5S,
+        adi:N9xgD7YncCH3,
+        adi:Nkz6iFG7jYi7 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F165380000010101_000000215000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

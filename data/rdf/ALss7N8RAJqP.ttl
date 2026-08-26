@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ALss7N8RAJqP-9DUyvUtFerfV a rdf:Statement ;
+    rdf:object adi:ENUbQJ8t6z8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:ALss7N8RAJqP ;
+    ns1:P304 "97" ;
+    ns1:P958 "Gaspara Stampa." ;
+    schema:volumeNumber "1" .
+
+adi:ALss7N8RAJqP-SoKtJ5F9MYje a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:dGUWfMNNCYuo ;
+    rdf:predicate <> ;
+    rdf:subject adi:ALss7N8RAJqP .
+
+adi:ALss7N8RAJqP a rdfs:Resource ;
+    rdfs:label "Tu, che agli antichi spirti vai di paro" ;
+    <> adi:ENUbQJ8t6z8B,
+        adi:dGUWfMNNCYuo ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Tu, che agli antichi spirti vai di paro,
+E con le dotte, ed onorate rime
+Rischiari l'acque, e fai fiorir le cime
+Del colle, ove si scende oggi sì raro;
+
+Movi il canto, Molin, canoro, e chiaro,
+Se mai movesti, e il mio Colle sublime
+Fa fiorir fra le cose al Mondo prime;
+Poiché a me il Ciel di farlo è stato avaro?
+
+A me die solo amarlo, e l'amo quanto
+Si puote amar; ma il celebrarlo poi
+È a' altro stil l'incarco, che di Donna.
+
+Qui convien sol la tua cetra, e il tuo canto,
+Chiaro Signor, tu sol descriver puoi.
+Questa del viver mio, salda colonna.""" ;
+    dc:subject adi:ZfsD5EcdZsxp ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:Nf6cF32SCt6E,
+        adi:PnQVizCoWTD4 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

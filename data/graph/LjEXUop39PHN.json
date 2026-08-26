@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CygYkTuAaGgn",
+      "label": "Bernardino Vitali",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G5HRmYcA2riQ",
       "label": "chivalric poem",
       "class": "Concept",
@@ -19,6 +25,42 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "label": "Medoro",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Angelica_and_Medoro_Michele_Desubleo.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBKhLXNtjuXa",
+      "label": "Oh beati color; c'hanno duo cori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FnYdn7QzouZR",
+      "label": "Angelica",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Angelica_Selects_a_Mount_by_Jean-Honor%C3%A9_Fragonard%2C_chalk_and_brown_ink.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emDu59SnnkYC",
+      "label": "Non si curi del ciel chi in terra vive",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
+      "label": "S'amanti provar mai tormenti fieri",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3bt2ieeAeUgg",
+      "label": "(Selepiuc 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8LbxJqpVwRJW",
       "label": "circa",
       "class": "Concept",
@@ -26,6 +68,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3bt2ieeAeUgg",
+      "property": "described_by_source"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G5HRmYcA2riQ",
@@ -38,8 +85,63 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3bt2ieeAeUgg",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
       "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CygYkTuAaGgn",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FnYdn7QzouZR",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "present_in_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBKhLXNtjuXa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FnYdn7QzouZR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "present_in_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emDu59SnnkYC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CygYkTuAaGgn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FnYdn7QzouZR",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "property": "depicts"
     }
   ]
 }

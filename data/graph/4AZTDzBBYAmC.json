@@ -5,7 +5,41 @@
       "label": "travel",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nkz6iFG7jYi7",
+      "label": "Monti selve fontane piagg'e sassi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i7oLJxPWobuw",
+      "label": "En vos adieux dames (Rore)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWW764eaLMtM",
+      "label": "Chi va lontan da la sua patria, vede",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nkz6iFG7jYi7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AZTDzBBYAmC",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i7oLJxPWobuw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AZTDzBBYAmC",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWW764eaLMtM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AZTDzBBYAmC",
+      "property": "subject"
+    }
+  ]
 }

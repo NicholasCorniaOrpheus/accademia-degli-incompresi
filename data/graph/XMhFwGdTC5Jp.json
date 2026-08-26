@@ -31,10 +31,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCkNqyaicMNb",
+      "label": "silver",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jpEmjHi9Ym4c",
       "label": "alchemy",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BpAmPbZKNmd7",
+      "label": "classical elements",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7co2fT7Qfby2",
+      "label": "(Santinelli 1985)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jQ3H5yuexkm",
@@ -53,6 +71,12 @@
       "label": "Italian",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "label": "Francesco Maria Santinelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -63,8 +87,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7co2fT7Qfby2",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
@@ -93,8 +127,23 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCkNqyaicMNb",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BpAmPbZKNmd7",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMhFwGdTC5Jp",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7",
       "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BVavFPBEeQRA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7co2fT7Qfby2",
+      "property": "described_by_source"
     }
   ]
 }

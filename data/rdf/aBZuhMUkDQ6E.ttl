@@ -7,6 +7,52 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:aBZuhMUkDQ6E-YbLq4nwzaFY8 a rdf:Statement ;
+adi:aBZuhMUkDQ6E-9zLCTGcVuFgP a rdf:Statement ;
     bf:Note "Incipit assonance." ;
-    rdf:object 
+    rdf:object adi:b9EEWzfgsepR ;
+    rdf:predicate <> ;
+    rdf:subject adi:aBZuhMUkDQ6E .
+
+adi:aBZuhMUkDQ6E-LUBP7LYaE3R4 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:KjaJCjnYFATB ;
+    rdf:predicate <> ;
+    rdf:subject adi:aBZuhMUkDQ6E .
+
+adi:aBZuhMUkDQ6E-gDU6nXFF5JNY a rdf:Statement ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:66jWzPXuDjG8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:aBZuhMUkDQ6E .
+
+adi:aBZuhMUkDQ6E a rdfs:Resource ;
+    rdfs:label "È veramente ceco (Viola)" ;
+    <> adi:66jWzPXuDjG8,
+        adi:DrkJkRtJvR2m,
+        adi:KjaJCjnYFATB,
+        adi:b9EEWzfgsepR ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Alma beata e bella
+Che a le quiete piume
+Si, proprio mi mostraste il chiaro lume
+Quando tornerà più si lieto il sonno
+Che di voi mi conceda quel che tanti
+Sospir tormenti e pianti
+Interceder ne gratia un qua non ponno,
+Deh se pietade mai pungergli il petto
+Col sogno e con la mia benigna stella
+Ritorna a me sovente
+E si m’opprima l’aﬀannata mente
+Che con quei grati et amorosi gesti
+Sempre io stia seco e mai più non mi desti.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F099140000010101_000000076800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:DZwg5ijCKnjb,
+        adi:TRHMAMaRfnLP,
+        adi:YNz7hZ7AqXJk ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

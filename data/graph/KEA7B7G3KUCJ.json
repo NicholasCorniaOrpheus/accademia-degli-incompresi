@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEA7B7G3KUCJ",
+      "label": "Herzog August Library",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KH7kyCfwutwC",
+      "label": "Arithmologia sive De abditis Numerorum mysteriis",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iqnZy8GBFrUQ",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEA7B7G3KUCJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iqnZy8GBFrUQ",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KH7kyCfwutwC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KEA7B7G3KUCJ",
+      "property": "has_version"
+    }
+  ]
+}

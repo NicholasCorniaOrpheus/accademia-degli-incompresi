@@ -75,7 +75,7 @@
     - [(Vagenheim 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gFgU75BTMKLj)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "inception"
     - 1540

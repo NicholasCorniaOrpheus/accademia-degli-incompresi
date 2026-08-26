@@ -19,16 +19,34 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4vcnevmGKmha",
+      "label": "Dicesti anima mia (Aleotti)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jNSpt5G7gvPx",
+      "label": "Dicesti anima mia",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sw8LauTZqpYZ",
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VjjrkrDYaLND",
+      "label": "Dui dialoghi della vergogna, con alcune prose, et rime, del sig. Annibale Poccaterra",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -51,6 +69,36 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dZAxHiTJuqCF",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gSay5HCzzmqo",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4vcnevmGKmha",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dZAxHiTJuqCF",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jNSpt5G7gvPx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dZAxHiTJuqCF",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VjjrkrDYaLND",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dZAxHiTJuqCF",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4vcnevmGKmha",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVAbik9eKVEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4vcnevmGKmha",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jNSpt5G7gvPx",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jNSpt5G7gvPx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VjjrkrDYaLND",
+      "property": "part_of"
     }
   ]
 }

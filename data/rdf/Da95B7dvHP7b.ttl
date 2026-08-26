@@ -6,26 +6,74 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Da95B7dvHP7b-4mBnqtDpQhgH a rdf:Statement ;
+adi:Da95B7dvHP7b-4m8iyeg249xJ a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:FPwMwUsq27Kf ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
+adi:Da95B7dvHP7b-BXYrxieE5pwY a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:EWJ5DDPUUKY3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
+adi:Da95B7dvHP7b-FDSgrnnB9aGV a rdf:Statement ;
     bf:heldBy adi:99XEoHF9WPng ;
     rdf:object "16499" ;
     rdf:predicate <> ;
     rdf:subject adi:Da95B7dvHP7b .
 
-adi:Da95B7dvHP7b-cyxGZmZnSESB a rdf:Statement ;
-    dcterms:references adi:knnPzKcV2myr ;
+adi:Da95B7dvHP7b-YEGbDCgS4S5c a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:jpEmjHi9Ym4c ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
+adi:Da95B7dvHP7b-ZAD4BXj958PB a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:ja3o7UfjoiHn ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
+adi:Da95B7dvHP7b-eBFSZpTjJeVY a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:kfWdSELgwTFq ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
+adi:Da95B7dvHP7b-jd4DGcPKvuUN a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL,
+        adi:knnPzKcV2myr ;
     rdf:object adi:BGeTASU8PMtY ;
     rdf:predicate <> ;
     rdf:subject adi:Da95B7dvHP7b ;
     schema:OrganizationRole adi:joaxpdFod2Jb .
 
+adi:Da95B7dvHP7b-ndG68ut4pR29 a rdf:Statement ;
+    dcterms:references adi:YD4DY4FQzNjL ;
+    rdf:object adi:DQqcyMMmPTqe ;
+    rdf:predicate <> ;
+    rdf:subject adi:Da95B7dvHP7b .
+
 adi:Da95B7dvHP7b a rdfs:Resource ;
     rdfs:label "Girolamo Ruscelli" ;
     <> adi:2hYMECrC2z35,
-        adi:BGeTASU8PMtY ;
+        adi:BGeTASU8PMtY,
+        adi:DQqcyMMmPTqe,
+        adi:EWJ5DDPUUKY3,
+        adi:FPwMwUsq27Kf,
+        adi:J6uXo2g5NfHE,
+        adi:QMFSYBz2vKMc,
+        adi:TKTukTBozhcq,
+        adi:bpRYamR8DUKq,
+        adi:ja3o7UfjoiHn,
+        adi:jpEmjHi9Ym4c,
+        adi:kfWdSELgwTFq ;
     dcterms:identifier <http://www.wikidata.org/entity/Q2903986> ;
     dcterms:type "Agent" ;
-    wdt:P1343 adi:gVSttRUbFw6e ;
+    wdt:P1343 adi:YD4DY4FQzNjL,
+        adi:gVSttRUbFw6e ;
     wdt:P31 adi:U7bj4Jz7sSuU ;
     schema:gender adi:Sw8LauTZqpYZ .
 

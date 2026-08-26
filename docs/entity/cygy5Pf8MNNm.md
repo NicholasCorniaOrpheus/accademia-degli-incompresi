@@ -11,6 +11,7 @@
 !!! note "metadata"
     - class: PoeticWork
     - label: Oh beata, e dolcissima novella
+    - aliases: Oh Beata, oh dolcissima novella; O Beata, o dolcissima novella
     - id: cygy5Pf8MNNm
     <div style="clear:both;"></div>
 
@@ -81,10 +82,14 @@
 ???+ abstract "part of"
     - [Rime di madonna Gaspara Stampa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h3THWXv6qB74)
         * pages: 54
+    - [Componimenti poetici delle piu' illustri rimatrici d'ogni secolo](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ENUbQJ8t6z8B)
+        * pages: 85
+        * volume: 1
+        * section: Gaspara Stampa.
 
 ???+ abstract "subject"
     - [anaphora](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8sSx8HhcDxv6)
-    - [hope](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ND6mFMouFeKh)
+    - [longing](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bvvit9jGS3mp)
 
 ???+ abstract "poetic type"
     - [sonnet](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mzrr2esvFbco)
@@ -93,7 +98,10 @@
     - [hendecasyllable](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/emwSSkhQpsBS)
 
 ???+ abstract "depicts"
+    - [light beam](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZwg5ijCKnjb)
+    - [hope](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ND6mFMouFeKh)
     - [storm](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GunL4YX3Pbtj)
+    - [river](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cw9SB9nEpgGt)
 
 ???+ abstract "language"
     - [Italian](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7)

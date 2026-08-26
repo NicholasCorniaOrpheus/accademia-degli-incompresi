@@ -7,6 +7,37 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:DdMHQTrUG8ie-QzY5NMpd2gXW a rdf:Statement ;
+adi:DdMHQTrUG8ie-2dEK9tpKqwyo a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:KjaJCjnYFATB ;
+    rdf:predicate <> ;
+    rdf:subject adi:DdMHQTrUG8ie .
+
+adi:DdMHQTrUG8ie a rdfs:Resource ;
+    rdfs:label "Crudel fiera selvaggia (Viola)" ;
+    <> adi:DrkJkRtJvR2m,
+        adi:KjaJCjnYFATB ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Crudel fiera selvaggia
+Contr'un vero fedele
+Tant'ire, tanti sdegni e tai querele
+Il cor m'infoc'acceso
+I miei continui guai 
+Il mio duol, il mio languire
+Dovria haver omai
+Trovar alcun compenso 
+E far conform'al mio vero desire
+E voi per più martire 
+Crudel più che crudele
+Con poco mel mischiat'un tanto fele.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F061730000010101_000000076800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:FS23yoaJjtRG,
+        adi:PgcFuPe2GzQH,
+        adi:ZsNG8yssbKzY ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

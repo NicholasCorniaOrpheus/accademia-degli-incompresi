@@ -74,7 +74,7 @@
     - [(Everson 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mvo9Fng6Hu9m)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "location"
     - [Roma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J6uXo2g5NfHE)

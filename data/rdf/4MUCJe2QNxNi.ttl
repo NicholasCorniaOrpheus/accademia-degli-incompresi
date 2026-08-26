@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4MUCJe2QNxNi-Q9L8VyhxHgVJ a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:Da95B7dvHP7b ;
+    rdf:predicate <> ;
+    rdf:subject adi:4MUCJe2QNxNi .
+
+adi:4MUCJe2QNxNi-QNNAY7yRAP77 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=TPzZcnBALRoC> ;
+    rdf:object "Ncd175211ad7f47778da5dc79b2aa6b9a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:4MUCJe2QNxNi ;
+    schema:datePublished "1567" .
+
+adi:4MUCJe2QNxNi a rdfs:Resource ;
+    rdfs:label "Secreti novi di maravigliosa virtù" ;
+    <> adi:Da95B7dvHP7b ;
+    dc:subject adi:jpEmjHi9Ym4c ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047660> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:YD4DY4FQzNjL ;
+    wdt:P31 adi:9m23V9Hha9iA .
+

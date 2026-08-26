@@ -74,7 +74,7 @@
     - [(Braghi 2011)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gpfw2DBaozXw)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "location"
     - [Piacenza](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GZKk5v5DuKWT)

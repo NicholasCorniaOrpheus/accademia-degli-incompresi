@@ -75,7 +75,7 @@
     - [(Occhipinti 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hf8QuFxNx8Jg)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "inception"
     - 1562-04-21

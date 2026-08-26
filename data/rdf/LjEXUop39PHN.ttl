@@ -7,6 +7,29 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LjEXUop39PHN-CN2qiNKPHx3e a rdf:Statement ;
+adi:LjEXUop39PHN-PnXyuYRzUqr5 a rdf:Statement ;
+    dcterms:references adi:3bt2ieeAeUgg ;
+    wdt:P1480 adi:8LbxJqpVwRJW ;
+    rdf:object "1536" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LjEXUop39PHN .
+
+adi:LjEXUop39PHN-Vgu95eE2bLPN a rdf:Statement ;
     bf:electronicLocator <https://www.google.be/books/edition/D_Angelica_di_M_Pietro_Aretino_due_primi/RkLk2QUtockC> ;
-    dcterms:publisher 
+    dcterms:publisher adi:CygYkTuAaGgn ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "N89eccd12e1e24d08902f33b77f8a2ba0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LjEXUop39PHN ;
+    schema:datePublished "1536" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002366> .
+
+adi:LjEXUop39PHN a rdfs:Resource ;
+    rdfs:label "D'Angelica di m. Pietro Aretino due primi canti" ;
+    dc:subject adi:FnYdn7QzouZR ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002366> ;
+    dcterms:title "D'Angelica di m. Pietro Aretino due primi canti" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:3bt2ieeAeUgg ;
+    wdt:P31 adi:G5HRmYcA2riQ .
+

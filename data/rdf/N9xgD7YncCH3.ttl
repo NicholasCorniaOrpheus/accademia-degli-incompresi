@@ -6,7 +6,96 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:N9xgD7YncCH3-27Z7ZeM8bMPc a rdf:Statement ;
+adi:N9xgD7YncCH3-8YKnTK9LFB2M a rdf:Statement ;
     bf:Note "Basso" ;
     bf:electronicLocator <https://uurl.kbr.be/1562146> ;
-    bf:heldBy 
+    bf:heldBy adi:CnrRhZd3RtuJ ;
+    dcterms:publisher adi:btogkstkNfhe ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://iiif.kbr.be/manifest/v3/33593> ;
+    rdf:object "Nd878ad33f6f742aaa31d4941ba1ab5dc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:N9xgD7YncCH3 ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045689> .
+
+adi:N9xgD7YncCH3-ABu5hJFwQeY6 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:N9xgD7YncCH3 .
+
+adi:N9xgD7YncCH3-HB8Z48jpAb6h a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:N9xgD7YncCH3 .
+
+adi:N9xgD7YncCH3-SGUWEkPURBqs a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:E64tCnVtsG5S ;
+    rdf:predicate <> ;
+    rdf:subject adi:N9xgD7YncCH3 .
+
+adi:N9xgD7YncCH3-SgCcJp4vSJ8N a rdf:Statement ;
+    bf:Note "Alto" ;
+    bf:electronicLocator <https://uurl.kbr.be/1562139> ;
+    bf:heldBy adi:CnrRhZd3RtuJ ;
+    dcterms:publisher adi:btogkstkNfhe ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://iiif.kbr.be/manifest/v3/33595> ;
+    rdf:object "Nd3581adf7d574a55bfdd5699ad7ffe4f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:N9xgD7YncCH3 ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045689> .
+
+adi:N9xgD7YncCH3-TB2tUWLDoBVo a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:N9xgD7YncCH3 .
+
+adi:N9xgD7YncCH3-XezhVbkFypTC a rdf:Statement ;
+    bf:Note "Tenore" ;
+    bf:electronicLocator <https://uurl.kbr.be/1562141> ;
+    bf:heldBy adi:CnrRhZd3RtuJ ;
+    dcterms:publisher adi:btogkstkNfhe ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://iiif.kbr.be/manifest/v3/33594> ;
+    rdf:object "N5f4e7a481ea14c6ab9c8879da866b438" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:N9xgD7YncCH3 ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045689> .
+
+adi:N9xgD7YncCH3-n8g7GjrxwfUN a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:N9xgD7YncCH3 .
+
+adi:N9xgD7YncCH3-nNBuCz9WRiNg a rdf:Statement ;
+    bf:Note "Canto" ;
+    bf:electronicLocator <https://uurl.kbr.be/1562137> ;
+    bf:heldBy adi:CnrRhZd3RtuJ ;
+    dcterms:publisher adi:btogkstkNfhe ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://iiif.kbr.be/manifest/v3/33596> ;
+    rdf:object "Nd6bf84e3ad524715965f96f1835d302f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:N9xgD7YncCH3 ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045689> .
+
+adi:N9xgD7YncCH3 a rdfs:Resource ;
+    rdfs:label "Il primo libro de madrigali, a note negre di Vincenzo Ruffo" ;
+    <> adi:E64tCnVtsG5S ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045689>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV18550010>,
+        <https://rism.online/sources/990056359> ;
+    dcterms:title "Il primo libro de madrigali, a notte negre ... a quattro voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

@@ -132,3 +132,8 @@ views:
       - depicts
       - subject
       - text
+  - type: table
+    name: emblem
+    filters:
+      and:
+        - class == "EmblemClass"

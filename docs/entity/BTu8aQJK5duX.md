@@ -81,13 +81,13 @@
     - [patron of the arts](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM)
 
 ???+ abstract "related to"
-    - [[Cipriano de Rore]]
+    - [Cipriano de Rore](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaqU6ywkhBbi)
         * relationship: [patron of the arts](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM)
         * reference: [(Stras 2018)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RMrG5qDMi6DF)
-    - [[Alvise Castellino]]
+    - [Alvise Castellino](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4iFcw9ct9jUZ)
         * relationship: [patron of the arts](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM)
         * reference: [(Stras 2018)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RMrG5qDMi6DF)
-    - [[Alfonso dalla Viola]]
+    - [Alfonso dalla Viola](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KjaJCjnYFATB)
         * relationship: [patron of the arts](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/84quSACff9vM)
         * reference: [(Stras 2018)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RMrG5qDMi6DF)
     - [Ludovico Ariosto](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8qMTBqEnmhVL)

@@ -6,6 +6,8 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - Oh Beata, oh dolcissima novella
+  - O Beata, o dolcissima novella
 instance_of:
   - "[[poem]]"
 contributor:
@@ -14,17 +16,24 @@ contributor:
 part_of:
   - pages: 54
     value: "[[Rime di madonna Gaspara Stampa]]"
+  - pages: 85
+    value: "[[Componimenti poetici delle piu' illustri rimatrici d'ogni secolo]]"
+    volume: 1
+    section: Gaspara Stampa.
 local_asset_path: ./assets/poems/oh_beata,_e_dolcissima_novella
 based_on:
 derivative_work:
 subject:
   - "[[anaphora]]"
-  - "[[hope]]"
+  - "[[longing]]"
 poetic_type: "[[sonnet]]"
 metre:
   - "[[hendecasyllable]]"
 depicts:
+  - "[[light beam]]"
+  - "[[hope]]"
   - "[[storm]]"
+  - "[[river]]"
 language: "[[Italian]]"
 text: |-
   Oh BEATA, e dolcissima novella,

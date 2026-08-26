@@ -6,17 +6,65 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:L6w6si6wBxkF-5UshED7JeK9r a rdf:Statement ;
+adi:L6w6si6wBxkF-4jsvARSuLPL2 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:HaqU6ywkhBbi ;
+    rdf:predicate <> ;
+    rdf:subject adi:L6w6si6wBxkF .
+
+adi:L6w6si6wBxkF-6Rr3yhoyNvBV a rdf:Statement ;
+    dcterms:publisher adi:FrJd243EjCF2 ;
+    wdt:P291 adi:Ut5gfQdSP4WR ;
+    rdf:object "N76abbe0d502a4878a252d8980709ab5a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:L6w6si6wBxkF ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045368> .
+
+adi:L6w6si6wBxkF-JvHyb3V8LD3K a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:L6w6si6wBxkF .
+
+adi:L6w6si6wBxkF-MCxR3zrHKBV4 a rdf:Statement ;
     bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00072033> ;
     bf:heldBy adi:hqjifQ4xf6p6 ;
     dcterms:publisher adi:btogkstkNfhe ;
     wdt:P291 adi:TKTukTBozhcq ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00072033/manifest> ;
-    rdf:object "Nb0ecd1fdafd54503a00bf1e80d877e3f" ;
+    rdf:object "N605e6b2a46e0435eb852640bea01eed4" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:L6w6si6wBxkF ;
     schema:datePublished "1569" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045505> .
 
-adi:L6w6si6wBxkF-DceJiVtADUoj a rdf:Statement ;
-    dcterms:publisher 
+adi:L6w6si6wBxkF-PVRmNjUGNmho a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:L6w6si6wBxkF .
+
+adi:L6w6si6wBxkF-VDrG5rLZPY9F a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
+    rdf:predicate <> ;
+    rdf:subject adi:L6w6si6wBxkF .
+
+adi:L6w6si6wBxkF-e9hMRnremqKp a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:L6w6si6wBxkF .
+
+adi:L6w6si6wBxkF a rdfs:Resource ;
+    rdfs:label "Il primo libro de madrigali a quattro voci di Cipriano De Rore" ;
+    <> adi:HaqU6ywkhBbi ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045368>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV17920010>,
+        <https://rism.online/sources/990055829> ;
+    dcterms:title "Il primo libro de madrigali a quatro voci di m. Cipriano De Rore" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

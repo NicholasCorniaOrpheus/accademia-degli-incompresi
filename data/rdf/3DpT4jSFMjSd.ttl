@@ -5,6 +5,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3DpT4jSFMjSd-CVeZWZ8444wD a rdf:Statement ;
+adi:3DpT4jSFMjSd-VBA23zHah7xx a rdf:Statement ;
+    bf:Role adi:YVAbik9eKVEW ;
+    rdf:object adi:UysXgbEHCAbU ;
+    rdf:predicate <> ;
+    rdf:subject adi:3DpT4jSFMjSd .
+
+adi:3DpT4jSFMjSd-ZANhRsiwvaBZ a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:KjaJCjnYFATB ;
+    rdf:predicate <> ;
+    rdf:subject adi:3DpT4jSFMjSd .
+
+adi:3DpT4jSFMjSd a rdfs:Resource ;
+    rdfs:label "Stella, che fra le stelle (Viola)" ;
+    <> adi:DrkJkRtJvR2m,
+        adi:KjaJCjnYFATB,
+        adi:UysXgbEHCAbU,
+        adi:Zc588c7NUicV ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/279760000010101_000000076800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:RMrG5qDMi6DF,
+        adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N .
+

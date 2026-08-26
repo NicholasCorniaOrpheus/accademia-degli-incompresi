@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BTJrmgF4RvKN",
+      "label": "Dimmi, altero mio cor, che ti lamenti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k7rYayxjMhLt",
       "label": "Le scorse olimpiche",
       "class": "Book",
@@ -23,6 +29,12 @@
       "label": "Dialogo della musica di m. Anton Francesco Doni",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DFBuU9TTtPBa",
+      "label": "Chi è dotto in iscienza",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8DWzsnTmBegD",
@@ -45,6 +57,11 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BTJrmgF4RvKN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UUH2dSJC9jn",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/k7rYayxjMhLt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UUH2dSJC9jn",
       "property": "instance_of"
@@ -56,6 +73,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dc2SS5eXwSLk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UUH2dSJC9jn",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DFBuU9TTtPBa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2UUH2dSJC9jn",
       "property": "subject"
     },

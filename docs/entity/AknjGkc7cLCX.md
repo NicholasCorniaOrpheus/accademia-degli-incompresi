@@ -7,9 +7,9 @@
 [:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/assets/emblems/Abstruso_Undique_tutus){ .md-button }
 
 
-<img src="https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/emblem.png" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
+<img src="" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
 !!! note "metadata"
-    - class: Emblem
+    - class: EmblemClass
     - label: Undique tutus
     - description: Emblem depicting an hedgehog with the Latin motto "Undique tutus" meaning "Everywhere safe".
     - id: AknjGkc7cLCX

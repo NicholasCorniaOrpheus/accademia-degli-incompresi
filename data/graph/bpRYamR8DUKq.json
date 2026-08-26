@@ -85,6 +85,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Da95B7dvHP7b",
+      "label": "Girolamo Ruscelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/busj5N7wko8B",
       "label": "Dell'arte rappresentativa premeditata, ed all'improviso",
       "class": "Book",
@@ -115,10 +121,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EWJ5DDPUUKY3",
+      "label": "Accademia degli Ardenti di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DzbuNUvSvoJb",
       "label": "Di Donat'Antonio Spano il Primo Libro de Madrigali a cinque voci",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MwAaHEnQdsjZ",
+      "label": "Costanza d'Avalos Piccolomini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "label": "Accademia dei Segreti di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     }
   ],
   "links": [
@@ -188,6 +212,11 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Da95B7dvHP7b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
+      "property": "work_location"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/busj5N7wko8B",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
       "property": "has_version"
@@ -213,9 +242,29 @@
       "property": "location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EWJ5DDPUUKY3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
+      "property": "location"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DzbuNUvSvoJb",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
       "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MwAaHEnQdsjZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EFuUKGrphXjs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AjNf7Seeiq55",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cwGVT3ZREMt",
@@ -231,6 +280,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YaRHxb8zY6pi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BrKoYYaFmdxy",
       "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Da95B7dvHP7b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Da95B7dvHP7b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EWJ5DDPUUKY3",
+      "property": "member_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BrKoYYaFmdxy",

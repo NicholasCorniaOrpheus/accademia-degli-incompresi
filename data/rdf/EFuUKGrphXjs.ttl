@@ -7,14 +7,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:EFuUKGrphXjs-7agrx7AUqWQm a rdf:Statement ;
+adi:EFuUKGrphXjs-BCy8ZCwwNiQB a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:AjNf7Seeiq55 ;
+    rdf:predicate <> ;
+    rdf:subject adi:EFuUKGrphXjs .
+
+adi:EFuUKGrphXjs-GKa4wEmHgi9X a rdf:Statement ;
     wdt:P291 adi:bpRYamR8DUKq ;
-    rdf:object "Nee18046298644c4f823abefbd9a53594" ;
+    rdf:object "N02b222dbf5a54c10bd59b5f9a20abab6" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:EFuUKGrphXjs ;
     schema:datePublished "1504" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE029828> .
 
-adi:EFuUKGrphXjs-YnbzKFwWcxVs a rdf:Statement ;
-    bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+adi:EFuUKGrphXjs a rdfs:Resource ;
+    rdfs:label "Arcadia del Sannazaro" ;
+    <> adi:AjNf7Seeiq55 ;
+    dc:subject adi:kVrAkrexneyx ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE029828> ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:WjkwkY3qDEUr .
+

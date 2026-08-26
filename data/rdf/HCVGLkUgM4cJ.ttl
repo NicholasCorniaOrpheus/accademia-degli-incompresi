@@ -9,6 +9,46 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:HCVGLkUgM4cJ-EuHd7DftDYsV a rdf:Statement ;
+adi:HCVGLkUgM4cJ-3WFRNobzJfh4 a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:HCVGLkUgM4cJ ;
+    ns1:P304 "65" ;
+    ns1:P958 "Contro l'opinione di Democrito" ;
+    schema:volumeNumber "Rime morali" .
+
+adi:HCVGLkUgM4cJ-7xBHU3aRJdJf a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:HCVGLkUgM4cJ .
+
+adi:HCVGLkUgM4cJ a rdfs:Resource ;
+    rdfs:label "Di Democrito rido. A caso ei vuole" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA ;
+    pdc:poeticType adi:Mzrr2esvFbco ;
+    pdc:text """Di Democrito rido. A caso ei vuole,
+Che de gli Atomi fuor sia fatto il Mondo.
+Vuol dar con questi a l'universa mole
+Essere, qualità, misura e pondo.
+
+Dunque a caso ha natura il sen fecondo?
+Dunque nascere il tutto a caso suole?
+Per fortuito concorso è 'l Mar profondo?
+Per fortuito concorso è chiaro il Sole?
+
+Studiata follia, che a riso move.
+Sempre da l'Orto il dì corre a l'Occaso,
+Né mai può traviar per strade nove.
+
+Infallibil Natura ha persuaso,
+Che v'è regola al Tutto, e che là dove
+Stabil Ordine v'è, non entra il Caos.""" ;
+    dc:subject adi:NSjJGir36sPm,
+        adi:akHAqpCfXjea ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

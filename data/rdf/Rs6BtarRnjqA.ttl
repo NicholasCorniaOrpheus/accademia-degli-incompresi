@@ -9,6 +9,37 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Rs6BtarRnjqA-YVoArpsrY9mn a rdf:Statement ;
+adi:Rs6BtarRnjqA-eNHaZXp7GAAJ a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Rs6BtarRnjqA ;
+    ns1:P304 "122" ;
+    ns1:P958 "Canto IX, 59" ;
+    schema:volumeNumber "L'antro e lo coglio di Artefio" .
+
+adi:Rs6BtarRnjqA-g7Pf2LBuuvnc a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:Rs6BtarRnjqA .
+
+adi:Rs6BtarRnjqA a rdfs:Resource ;
+    rdfs:label "Da cento lati il Labirinto aperto" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Da cento lati il Labirinto aperto
+All'intreccio frondoso offre l'ingresso:
+Per entrarvi a chiunque il calle è certo
+Per ritornarnsen poi non è lo stesso,
+Che quanto un più dell'edificio in certo
+Cerca d'uscir, più s'imprigiona in esso,
+E quanto un più s'aggira, erra là dentro,
+Né trova mai circonferenza o Centro.""" ;
+    dc:subject adi:jpEmjHi9Ym4c ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:eq5aEKX9Aai2 ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

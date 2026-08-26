@@ -8,11 +8,35 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:emDu59SnnkYC-Hu7W29K9A4JM a rdf:Statement ;
+adi:emDu59SnnkYC-CARbdatA99fT a rdf:Statement ;
+    rdf:object adi:LjEXUop39PHN ;
+    rdf:predicate <> ;
+    rdf:subject adi:emDu59SnnkYC ;
+    ns1:P958 "Canto II, 1" .
+
+adi:emDu59SnnkYC-SkpXvoVrVoq8 a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:3YLGgR7kasRh ;
     rdf:predicate <> ;
     rdf:subject adi:emDu59SnnkYC .
 
-adi:emDu59SnnkYC-kUWuLKTYTg29 a rdf:Statement ;
-    rdf:object 
+adi:emDu59SnnkYC a rdfs:Resource ;
+    rdfs:label "Non si curi del ciel chi in terra vive" ;
+    <> adi:3YLGgR7kasRh,
+        adi:LjEXUop39PHN ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Non si curi del Ciel, chi in terra vive  
+Felice amando, e del suo amor contento; 
+Né lassù brami fra le cose dive  
+Sentir la gioia, ove ogni spirto è intento;
+Perch'al sommo diletto par che arrive  
+Solo il gioco Amoroso, è in quel momento; 
+Che de la donna sua si bascia il viso,  
+S'ha il medesimo ben, ch'è in Paradiso.""" ;
+    dc:subject adi:MVesHQPbVg5X ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:2ChPz3U9tJ8r ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

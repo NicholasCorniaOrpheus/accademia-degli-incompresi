@@ -95,7 +95,7 @@
         * role: [author](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/awZyTsJZqrUq)
 
 ???+ abstract "subject"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
     - [impresa](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NALenMNqEw64)
 
 

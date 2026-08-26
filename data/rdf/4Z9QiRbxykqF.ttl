@@ -9,5 +9,48 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:4Z9QiRbxykqF-5vcoeJAqSxTS a rdf:Statement ;
-    rdf:object 
+adi:4Z9QiRbxykqF-DnPrizyh3env a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:4Z9QiRbxykqF ;
+    ns1:P304 "96" ;
+    ns1:P958 "Canto VI, 46" ;
+    schema:volumeNumber "Carlo Quinto" .
+
+adi:4Z9QiRbxykqF-KDKQsXQbojiy a rdf:Statement ;
+    bf:Role adi:awZyTsJZqrUq ;
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:4Z9QiRbxykqF .
+
+adi:4Z9QiRbxykqF-PZxrUejzkEDT a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:fwobE2DWRXRY ;
+    rdf:predicate <> ;
+    rdf:subject adi:4Z9QiRbxykqF .
+
+adi:4Z9QiRbxykqF a rdfs:Resource ;
+    rdfs:label "Tal da un impuro Chaos tu sciogli ancora" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA,
+        adi:fwobE2DWRXRY ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Tal da un impuro Chaos tu sciogli ancora
+La purità che in se medesmo serra.
+A un Moto Violento escono fuora
+Da lui pur anche Acqua, Aria, Foco, e Terra.
+Escon rotando, e distillando ogni hora
+Gli elementi alterati in lunga Guerra,
+Né toran mai pacificati insieme,
+Se non puri in vapor, Splendidi in Seme.""" ;
+    dc:subject adi:ZfsD5EcdZsxp,
+        adi:jpEmjHi9Ym4c ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:BpAmPbZKNmd7,
+        adi:MiEZVRza7UDo,
+        adi:R4q38qZbHK3Y,
+        adi:btGKaPHCSbeP ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

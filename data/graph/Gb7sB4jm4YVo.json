@@ -7,10 +7,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "label": "Il Helicone, madrigali de diversi eccellentissimi musici a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iqnZy8GBFrUQ",
       "label": "digital library",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gq3x2rvyD6i7",
+      "label": "Cantilenae intellectuales",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -18,6 +30,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gb7sB4jm4YVo",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iqnZy8GBFrUQ",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gb7sB4jm4YVo",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gq3x2rvyD6i7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gb7sB4jm4YVo",
+      "property": "has_version"
     }
   ]
 }

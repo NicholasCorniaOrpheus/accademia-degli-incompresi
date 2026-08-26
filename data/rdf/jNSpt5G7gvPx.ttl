@@ -9,6 +9,40 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:jNSpt5G7gvPx-UQGBN8iqRann a rdf:Statement ;
+adi:jNSpt5G7gvPx-YTHSX3FvHEag a rdf:Statement ;
+    rdf:object adi:VjjrkrDYaLND ;
+    rdf:predicate <> ;
+    rdf:subject adi:jNSpt5G7gvPx ;
+    ns1:P304 "29" ;
+    schema:volumeNumber "2" .
+
+adi:jNSpt5G7gvPx-kQVqu9xiTu2G a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:dZAxHiTJuqCF ;
+    rdf:predicate <> ;
+    rdf:subject adi:jNSpt5G7gvPx .
+
+adi:jNSpt5G7gvPx a rdfs:Resource ;
+    rdfs:label "Dicesti anima mia" ;
+    <> adi:VjjrkrDYaLND,
+        adi:dZAxHiTJuqCF ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Dicesti anima mia
+Ch'ardi per me d'Amore
+Sol con le labbra
+O col profondo core
+Ah non sia mai ch'io il creda
+Finché dell'amor tuo segno non veda
+Vuoi che sicuro io sia
+Che siano i detti tuoi ﬁdi e veraci
+Sian testimoni e guiramenti i baci.""" ;
+    dc:subject adi:PgcFuPe2GzQH ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F007810000101_PPPP00230700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:2ChPz3U9tJ8r ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

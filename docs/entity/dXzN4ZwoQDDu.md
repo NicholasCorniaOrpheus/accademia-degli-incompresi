@@ -74,7 +74,7 @@
     - [Q3603983](http://www.wikidata.org/entity/Q3603983)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "inception"
     - 1626

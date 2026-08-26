@@ -25,6 +25,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "label": "Medoro",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Angelica_and_Medoro_Michele_Desubleo.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YLGgR7kasRh",
       "label": "Pietro Aretino",
       "class": "Agent",
@@ -35,6 +41,12 @@
       "label": "author",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "label": "D'Angelica di m. Pietro Aretino due primi canti",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7",
@@ -67,6 +79,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QKnFCoKHDFvG",
       "property": "poetic_type"
     },
@@ -77,6 +94,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QD7ZE8NxGr96",
       "property": "depicts"
     },
@@ -84,6 +106,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFmM59FkoJ2k",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/85kGqMwffVs7",
       "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NcLKf8Z7MHen",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LjEXUop39PHN",
+      "property": "present_in_work"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YLGgR7kasRh",

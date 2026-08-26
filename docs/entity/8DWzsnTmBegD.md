@@ -104,7 +104,7 @@
         * role: [literary host](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4KydtJBYz8ts)
 
 ???+ abstract "subject"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
     - [querelle des femmes](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNEkus8TKX7L)
     - [literary host](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4KydtJBYz8ts)
 

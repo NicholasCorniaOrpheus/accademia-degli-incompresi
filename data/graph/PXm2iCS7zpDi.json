@@ -13,6 +13,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "label": "Il Helicone, madrigali de diversi eccellentissimi musici a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "label": "Tirrena mia il cui colore agguaglia (Colombano)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sw8LauTZqpYZ",
       "label": "male",
       "class": "Concept",
@@ -40,6 +52,31 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PXm2iCS7zpDi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h24pafkqqHsZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMQujWRrEUYA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LDY4uBx8HEMK",
+      "property": "part_of"
     }
   ]
 }

@@ -137,6 +137,12 @@
       "label": "Leonardo detto il Furlano",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "label": "Accademia dei Segreti di Napoli",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     }
   ],
   "links": [
@@ -262,6 +268,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kCMgyyEYtVB7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FJaARznhrRx9",
       "property": "related_to"
     },
@@ -431,6 +442,16 @@
       "property": "described_by_source"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dc2SS5eXwSLk",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWLoTcxhPmKJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kLWcMLZy9Wvc",
+      "property": "based_on"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kCMgyyEYtVB7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
       "property": "instance_of"
@@ -449,6 +470,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kCMgyyEYtVB7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2hYMECrC2z35",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SKyewNmUMKH3",
+      "property": "related_to"
     }
   ]
 }

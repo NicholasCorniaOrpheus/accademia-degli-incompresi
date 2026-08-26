@@ -10,6 +10,49 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:WYDNTrXuzmXy-LXhViHyZeHvG a rdf:Statement ;
+adi:WYDNTrXuzmXy-7MLsxfjK2QEL a rdf:Statement ;
+    bf:Role adi:5GmrgRoxsCpY ;
+    rdf:object adi:fwobE2DWRXRY ;
+    rdf:predicate <> ;
+    rdf:subject adi:WYDNTrXuzmXy .
+
+adi:WYDNTrXuzmXy-SSHkDTSErxfR a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:BVavFPBEeQRA ;
+    rdf:predicate <> ;
+    rdf:subject adi:WYDNTrXuzmXy .
+
+adi:WYDNTrXuzmXy-XXT55mgrjXrp a rdf:Statement ;
+    rdf:object adi:7co2fT7Qfby2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:WYDNTrXuzmXy ;
+    ns1:P304 "95-96" ;
+    ns1:P958 "Canto VI, 43" ;
+    schema:volumeNumber "Carlo Quinto" .
+
+adi:WYDNTrXuzmXy a rdfs:Resource ;
+    rdfs:label "Oh Phebo, oh Sole, universal Natura" ;
+    <> adi:7co2fT7Qfby2,
+        adi:BVavFPBEeQRA,
+        adi:fwobE2DWRXRY ;
+    pdc:poeticType adi:QKnFCoKHDFvG ;
+    pdc:text """Oh Phebo, oh Sole, universal Natura
+Dal caotico Mondo al mondo uscita,
+De la Terra, e del Ciel moto, e misura,
+De la luce vital Fonte infinita
+Tu de i quattro Elementi Essenza pura,
+Di questa purità Semplice Vita,
+Tu fluid'Or, Tu l'humido Thesauro,
+Ch'al tuo Lume central s'indura in Auro.""" ;
+    dc:subject adi:ZfsD5EcdZsxp,
+        adi:jpEmjHi9Ym4c ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    skos:altLabel "O Phebo, o Sole, universal Natura" ;
+    ns1:P180 adi:BpAmPbZKNmd7,
+        adi:MiEZVRza7UDo,
+        adi:R4q38qZbHK3Y,
+        adi:cKzqbJWUcRQH ;
+    ns1:P2551 adi:emwSSkhQpsBS .
+

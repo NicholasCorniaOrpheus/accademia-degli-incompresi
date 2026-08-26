@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A4dFpFV9mukz",
+      "label": "Le donne antique hanno mirabil cose (Nollet)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU",
       "label": "human",
       "class": "Concept",
@@ -17,6 +23,12 @@
       "label": "Componimenti poetici delle piu' illustri rimatrici d'ogni secolo",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7hFmyJEJe7X5",
+      "label": "Il primo libro di madrigali de diversi eccellentissimi autori a misura di breve a quattro voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sw8LauTZqpYZ",
@@ -40,6 +52,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dBH4BcJF97Wg",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ENUbQJ8t6z8B",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A4dFpFV9mukz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dBH4BcJF97Wg",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7hFmyJEJe7X5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dBH4BcJF97Wg",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A4dFpFV9mukz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7hFmyJEJe7X5",
+      "property": "part_of"
     }
   ]
 }

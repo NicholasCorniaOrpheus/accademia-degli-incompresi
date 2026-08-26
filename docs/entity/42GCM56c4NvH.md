@@ -74,7 +74,7 @@
     - [(Cox 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9n42gMvHpXdx)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "location"
     - [Firenze](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Hm8LNCNr7Wxn)

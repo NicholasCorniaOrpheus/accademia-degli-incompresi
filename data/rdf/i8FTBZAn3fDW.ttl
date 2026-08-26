@@ -5,15 +5,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:i8FTBZAn3fDW-3qdKpdEVfkD4 a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    rdf:object "Ad invicem" ;
+adi:i8FTBZAn3fDW-MnMirvk4mnDi a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "361" ;
     rdf:predicate <> ;
     rdf:subject adi:i8FTBZAn3fDW .
 
-adi:i8FTBZAn3fDW-oBAfG4SKMGft a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "361" ;
+adi:i8FTBZAn3fDW-UKPMC3cUQe5s a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object "Ad invicem" ;
     rdf:predicate <> ;
     rdf:subject adi:i8FTBZAn3fDW .
 
@@ -21,5 +21,5 @@ adi:i8FTBZAn3fDW a rdfs:Resource ;
     rdfs:label "Accademia dei Desiosi di Venezia" ;
     <> adi:TKTukTBozhcq ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

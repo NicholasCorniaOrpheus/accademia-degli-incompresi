@@ -7,12 +7,52 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:QyTFG76Lys5W-AiPCHta56H4q a rdf:Statement ;
+adi:QyTFG76Lys5W-FmfnYWBNourQ a rdf:Statement ;
     bf:Role adi:YVAbik9eKVEW ;
     rdf:object adi:8qMTBqEnmhVL ;
     rdf:predicate <> ;
     rdf:subject adi:QyTFG76Lys5W .
 
-adi:QyTFG76Lys5W-U26SGgMfrXfg a rdf:Statement ;
+adi:QyTFG76Lys5W-J3Z5ReywFNzD a rdf:Statement ;
     bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+    rdf:object adi:KjaJCjnYFATB ;
+    rdf:predicate <> ;
+    rdf:subject adi:QyTFG76Lys5W .
+
+adi:QyTFG76Lys5W-Xjt8LzwQ7aDS a rdf:Statement ;
+    bf:Note "Incipit assonance." ;
+    rdf:object adi:b9EEWzfgsepR ;
+    rdf:predicate <> ;
+    rdf:subject adi:QyTFG76Lys5W .
+
+adi:QyTFG76Lys5W a rdfs:Resource ;
+    rdfs:label "La rete fu di queste fila d'oro (Viola)" ;
+    <> adi:8qMTBqEnmhVL,
+        adi:DrkJkRtJvR2m,
+        adi:KjaJCjnYFATB,
+        adi:b9EEWzfgsepR ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    pdc:text """Alma beata e bella
+Che a le quiete piume
+Si, proprio mi mostraste il chiaro lume
+Quando tornerà più si lieto il sonno
+Che di voi mi conceda quel che tanti
+Sospir tormenti e pianti
+Interceder ne gratia un qua non ponno,
+Deh se pietade mai pungergli il petto
+Col sogno e con la mia benigna stella
+Ritorna a me sovente
+E si m’opprima l’aﬀannata mente
+Che con quei grati et amorosi gesti
+Sempre io stia seco e mai più non mi desti.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/140310001010101_000000076800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:DZwg5ijCKnjb,
+        adi:TRHMAMaRfnLP,
+        adi:YNz7hZ7AqXJk ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "label": "Accademia Reale di Cristina di Svezia di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "label": "Christina of Sweden",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/joaxpdFod2Jb",
+      "label": "founder",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "label": "academy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "dissolved"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/99XEoHF9WPng",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/abCcQLTyWPhj",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DHGEa8WaU3jz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/joaxpdFod2Jb",
+      "property": "member"
+    }
+  ]
+}

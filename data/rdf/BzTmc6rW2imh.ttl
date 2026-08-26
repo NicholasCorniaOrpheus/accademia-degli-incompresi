@@ -6,6 +6,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:BzTmc6rW2imh-RfoWZcyaK68m a rdf:Statement ;
+adi:BzTmc6rW2imh-G3SKHfD39ai3 a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:UysXgbEHCAbU ;
+    rdf:predicate <> ;
+    rdf:subject adi:BzTmc6rW2imh .
+
+adi:BzTmc6rW2imh-XDRqW9PDkECx a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=O7RdAAAAcAAJ> ;
+    rdf:object "Ne14d1c700a9846dd95bc324d037193eb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BzTmc6rW2imh ;
+    schema:datePublished "1713" .
+
+adi:BzTmc6rW2imh a rdfs:Resource ;
+    rdfs:label "Rime scelte de' poeti ferraresi antichi e moderni" ;
+    <> adi:UysXgbEHCAbU ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F502060010> ;
+    dcterms:title "Rime scelte de' poeti ferraresi antichi e moderni. Aggiuntevi nel fine alcune brevi Notizie istoriche intorno ad essi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:XzeQyQXbyjmR .
+

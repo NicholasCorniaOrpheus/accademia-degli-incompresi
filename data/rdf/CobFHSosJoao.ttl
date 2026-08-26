@@ -6,24 +6,67 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:CobFHSosJoao-8JFueRf29umK a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
-    rdf:predicate <> ;
-    rdf:subject adi:CobFHSosJoao .
-
-adi:CobFHSosJoao-8fmomTGe8bMm a rdf:Statement ;
+adi:CobFHSosJoao-2dRUzuRpqsB2 a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/egtVGoqDNy4L" ;
     rdf:predicate <> ;
     rdf:subject adi:CobFHSosJoao .
 
-adi:CobFHSosJoao-EoEGNYsBUXK5 a rdf:Statement ;
+adi:CobFHSosJoao-5NYxXnpsoqQ9 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VzJ68XN6VVsG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:CobFHSosJoao .
+
+adi:CobFHSosJoao-6a3h3YRHMgs2 a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:GAKXLkQUx9vm ;
+    rdf:predicate <> ;
+    rdf:subject adi:CobFHSosJoao .
+
+adi:CobFHSosJoao-AFHCCDQARN4x a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U263/> ;
+    dcterms:publisher adi:4EaQYo8TMzLM ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    rdf:object "Ne78b3c0dcca14f498d7d14ebe0d5f0c4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CobFHSosJoao ;
+    schema:datePublished "1580" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045803> .
+
+adi:CobFHSosJoao-J2L8U5qXyxgt a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JQL5yoyTLQcN" ;
     rdf:predicate <> ;
     rdf:subject adi:CobFHSosJoao .
 
-adi:CobFHSosJoao-Jwpz79HxpKno a rdf:Statement ;
-    bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+adi:CobFHSosJoao-SsY8A6X4T2d4 a rdf:Statement ;
+    bf:Note "Bassus only." ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb00080510> ;
+    bf:heldBy adi:hqjifQ4xf6p6 ;
+    dcterms:publisher adi:4EaQYo8TMzLM ;
+    wdt:P291 adi:TKTukTBozhcq ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest> ;
+    rdf:object "Nfe3d0e5415ee4b61b6f5dfefc65426ef" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CobFHSosJoao ;
+    schema:datePublished "1580" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045803> .
+
+adi:CobFHSosJoao-mKFAUbSaUGvX a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YpD8xTW34ppx" ;
+    rdf:predicate <> ;
+    rdf:subject adi:CobFHSosJoao .
+
+adi:CobFHSosJoao a rdfs:Resource ;
+    rdfs:label "Canzonette di Orazio Vecchi. Libro primo a quattro voci" ;
+    <> adi:GAKXLkQUx9vm ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045803>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV21290010>,
+        <https://rism.online/sources/990066029> ;
+    dcterms:title "Canzonette di Oratio Vecchi da Modona Libro Primo a quattro voci novamente ristampate" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:UFWerrYngAnv ;
+    wdt:P31 adi:hGZbeqwxbiop .
+

@@ -7,8 +7,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dEf3JNqbYykg",
+      "label": "Cento giuochi liberali, et d'ingegno",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
       "label": "Eleanor of Toledo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "label": "Innocenzio Ringhiero",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
@@ -25,6 +37,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/75hVM9bkJu7t",
+      "label": "game",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CVR6qUUjuTxZ",
       "label": "Le sorti di Francesco Marcolino",
       "class": "Book",
@@ -33,7 +51,22 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GewRJWWph5KT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/75hVM9bkJu7t",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dEf3JNqbYykg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GewRJWWph5KT",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Af7EBC2tVdqi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GewRJWWph5KT",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GewRJWWph5KT",
       "property": "interested_in"
     },
@@ -51,6 +84,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CVR6qUUjuTxZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GewRJWWph5KT",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dEf3JNqbYykg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RQW4HQv9yidY",
+      "property": "contributor"
     }
   ]
 }

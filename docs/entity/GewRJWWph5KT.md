@@ -71,7 +71,7 @@
 
 ## Statements
 ???+ abstract "instance of"
-    - [[game]]
+    - [game](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/75hVM9bkJu7t)
 
 ???+ abstract "identifier"
     - [Q14947863](http://www.wikidata.org/entity/Q14947863)

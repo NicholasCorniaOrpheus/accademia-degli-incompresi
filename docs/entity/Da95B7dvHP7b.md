@@ -75,6 +75,7 @@
 
 ???+ abstract "described by source"
     - [(Faini 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gVSttRUbFw6e)
+    - [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
 
 ???+ abstract "instance of"
     - [human](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7bj4Jz7sSuU)
@@ -82,13 +83,33 @@
 ???+ abstract "gender"
     - [male](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sw8LauTZqpYZ)
 
+???+ abstract "work location"
+    - [Venezia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKTukTBozhcq)
+    - [Milano](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QMFSYBz2vKMc)
+    - [Napoli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bpRYamR8DUKq)
+    - [Roma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/J6uXo2g5NfHE)
+
 ???+ abstract "member of"
+    - [Accademia dei Segreti di Napoli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQqcyMMmPTqe)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
+    - [Accademia Veneziana](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ja3o7UfjoiHn)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
+    - [Compagnia dei Pastori Fratteggianti](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FPwMwUsq27Kf)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
+    - [Accademia dei Dubbiosi di Venezia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kfWdSELgwTFq)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
+    - [Accademia degli Ardenti di Napoli](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EWJ5DDPUUKY3)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
     - [Accademia dello Sdegno di Roma](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BGeTASU8PMtY)
         * role: [founder](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/joaxpdFod2Jb)
-        * reference: [(Procaccioli 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/knnPzKcV2myr)
+        * reference: [(Procaccioli 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/knnPzKcV2myr) ; [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
 
 ???+ abstract "occupation"
     - [publisher](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2hYMECrC2z35)
+
+???+ abstract "interested in"
+    - [alchemy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jpEmjHi9Ym4c)
+        * reference: [(Procaccioli 2020)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YD4DY4FQzNjL)
 
 ???+ abstract "catalog identifier"
     - 16499

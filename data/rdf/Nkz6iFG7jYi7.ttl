@@ -8,6 +8,37 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Nkz6iFG7jYi7-jfjvrvgr6N9W a rdf:Statement ;
+adi:Nkz6iFG7jYi7-2fwMe8npqwf2 a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
-    rdf:object 
+    rdf:object adi:AjNf7Seeiq55 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Nkz6iFG7jYi7 .
+
+adi:Nkz6iFG7jYi7-KAonLYMRPWPH a rdf:Statement ;
+    rdf:object adi:EFuUKGrphXjs ;
+    rdf:predicate <> ;
+    rdf:subject adi:Nkz6iFG7jYi7 ;
+    ns1:P958 "Egloga IV" .
+
+adi:Nkz6iFG7jYi7 a rdfs:Resource ;
+    rdfs:label "Monti selve fontane piagg'e sassi" ;
+    <> adi:AjNf7Seeiq55,
+        adi:EFuUKGrphXjs ;
+    pdc:poeticType adi:Mnb2BoNNxo5h ;
+    pdc:text """Monti selve fontane piagg'e sassi
+Vo cercand’io, se pur potessi un giorno
+In parte rallentar l’acerbo pianto;
+Ma ben veggio or che solo in una valle
+Trovo riposo alle mie stanche rime,
+Che mormorando van per mille campi.""" ;
+    dc:subject adi:kVrAkrexneyx ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F025800000101_PPPP00260406C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:fYpqbjX78ztP ;
+    wdt:P870 adi:85kGqMwffVs7 ;
+    ns1:P180 adi:4AZTDzBBYAmC,
+        adi:TRHMAMaRfnLP,
+        adi:YNz7hZ7AqXJk ;
+    ns1:P2551 adi:emwSSkhQpsBS,
+        adi:kBwkVvdhkrbQ .
+

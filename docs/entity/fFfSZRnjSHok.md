@@ -74,7 +74,7 @@
     - [(Teza 2017)](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FhzJj6sXkzSq)
 
 ???+ abstract "instance of"
-    - [[academy]]
+    - [academy](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuhZnsrVW6Mf)
 
 ???+ abstract "location"
     - [Pavia](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bXhk8iPrKqE)

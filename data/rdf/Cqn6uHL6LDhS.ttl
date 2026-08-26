@@ -5,15 +5,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Cqn6uHL6LDhS-5c7qkwzdztvH a rdf:Statement ;
-    dcterms:references adi:99XEoHF9WPng ;
-    rdf:object adi:LecpVz9RT6xT ;
+adi:Cqn6uHL6LDhS-UTytvLmrMMYW a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "17" ;
     rdf:predicate <> ;
     rdf:subject adi:Cqn6uHL6LDhS .
 
-adi:Cqn6uHL6LDhS-HYbqRSrbYp8y a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "17" ;
+adi:Cqn6uHL6LDhS-bc2mXYwWeLUS a rdf:Statement ;
+    dcterms:references adi:99XEoHF9WPng ;
+    rdf:object adi:LecpVz9RT6xT ;
     rdf:predicate <> ;
     rdf:subject adi:Cqn6uHL6LDhS .
 
@@ -22,5 +22,5 @@ adi:Cqn6uHL6LDhS a rdfs:Resource ;
     <> adi:LecpVz9RT6xT,
         adi:bpRYamR8DUKq ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

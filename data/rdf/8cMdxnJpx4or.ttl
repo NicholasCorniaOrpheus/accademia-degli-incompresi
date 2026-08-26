@@ -6,18 +6,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:8cMdxnJpx4or-HTtAK7E8nJun a rdf:Statement ;
+adi:8cMdxnJpx4or-NLRDL8uaQ4Eu a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "493" ;
+    rdf:predicate <> ;
+    rdf:subject adi:8cMdxnJpx4or .
+
+adi:8cMdxnJpx4or-YTWx7fKRRp2z a rdf:Statement ;
     dcterms:references adi:6o7ptgSPFKW7 ;
     rdf:object adi:UNnUCq2cCygA ;
     rdf:predicate <> ;
     rdf:subject adi:8cMdxnJpx4or ;
     schema:startDate "1565" .
-
-adi:8cMdxnJpx4or-MkLoMUpNctXJ a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "493" ;
-    rdf:predicate <> ;
-    rdf:subject adi:8cMdxnJpx4or .
 
 adi:8cMdxnJpx4or a rdfs:Resource ;
     rdfs:label "Accademia del Disegno di Firenze" ;
@@ -26,5 +26,5 @@ adi:8cMdxnJpx4or a rdfs:Resource ;
         adi:eihJDhFoMudj ;
     dcterms:identifier <http://www.wikidata.org/entity/Q1760178> ;
     dcterms:type "Organisation" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[academy]]> .
+    wdt:P31 adi:TuhZnsrVW6Mf .
 

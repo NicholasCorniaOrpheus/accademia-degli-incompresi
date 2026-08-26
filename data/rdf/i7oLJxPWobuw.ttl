@@ -8,12 +8,32 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:i7oLJxPWobuw-8ieoA7nPq5HW a rdf:Statement ;
+adi:i7oLJxPWobuw-drXGdbeemTXm a rdf:Statement ;
+    bf:Role adi:h24pafkqqHsZ ;
+    rdf:object adi:HaqU6ywkhBbi ;
+    rdf:predicate <> ;
+    rdf:subject adi:i7oLJxPWobuw .
+
+adi:i7oLJxPWobuw-iCKCZghVWdjD a rdf:Statement ;
     bf:Role adi:5GmrgRoxsCpY ;
     rdf:object adi:BTu8aQJK5duX ;
     rdf:predicate <> ;
     rdf:subject adi:i7oLJxPWobuw .
 
-adi:i7oLJxPWobuw-c6CMc45US8yK a rdf:Statement ;
-    bf:Role adi:h24pafkqqHsZ ;
-    rdf:object 
+adi:i7oLJxPWobuw a rdfs:Resource ;
+    rdfs:label "En vos adieux dames (Rore)" ;
+    <> adi:BTu8aQJK5duX,
+        adi:HaqU6ywkhBbi,
+        adi:L6w6si6wBxkF ;
+    pdc:poeticType adi:NiFCVHMLTGkp ;
+    dc:subject adi:4AZTDzBBYAmC,
+        adi:oJY5qFoWFwDr ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F095900000010101_000000211200C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:RMrG5qDMi6DF,
+        adi:UFWerrYngAnv ;
+    wdt:P31 adi:KMtT3sEksj7N ;
+    wdt:P870 adi:QsuP6uRkhNVZ ;
+    ns1:P180 adi:Af5NyLo5WJPc,
+        adi:YNz7hZ7AqXJk .
+
