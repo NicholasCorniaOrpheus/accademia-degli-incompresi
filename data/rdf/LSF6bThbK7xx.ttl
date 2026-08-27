@@ -6,7 +6,13 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LSF6bThbK7xx-RUQg47PaZc3e a rdf:Statement ;
+adi:LSF6bThbK7xx-63cEPAsRKKWv a rdf:Statement ;
+    bf:heldBy adi:99XEoHF9WPng ;
+    rdf:object "19734" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LSF6bThbK7xx .
+
+adi:LSF6bThbK7xx-QJ5SfD4LsMXv a rdf:Statement ;
     dcterms:references adi:9n42gMvHpXdx ;
     rdf:object adi:2ogdnLXMgrhJ ;
     rdf:predicate <> ;
@@ -14,12 +20,6 @@ adi:LSF6bThbK7xx-RUQg47PaZc3e a rdf:Statement ;
     schema:OrganizationRole adi:4NmckkLszZdN ;
     schema:endDate "1547" ;
     schema:startDate "1546" .
-
-adi:LSF6bThbK7xx-jD5emNEq7ktM a rdf:Statement ;
-    bf:heldBy adi:99XEoHF9WPng ;
-    rdf:object "19734" ;
-    rdf:predicate <> ;
-    rdf:subject adi:LSF6bThbK7xx .
 
 adi:LSF6bThbK7xx a rdfs:Resource ;
     rdfs:label "Tullia d'Aragona" ;

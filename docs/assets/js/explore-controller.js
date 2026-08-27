@@ -1,39 +1,108 @@
+// docs/assets/js/explore-controller.js
 document.addEventListener("DOMContentLoaded", async function() {
+    console.debug("Explore: DOMContentLoaded - starting script");
     const resultsGrid = document.getElementById('search-results');
-    if (!resultsGrid) return;
+    if (!resultsGrid) {
+        console.warn("Explore: #search-results not found - aborting script");
+        return;
+    }
 
     const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/advanced_search_index.json';
     const classCsvUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv';
 
+    // Preview constants
+    const PREVIEW_COUNT = 30;
+    let userInteracted = false;
+    function markInteracted() {
+        if (!userInteracted) {
+            userInteracted = true;
+            console.debug("Explore: user interacted - future renders will show full result sets");
+        }
+    }
+
+    // Helper: fetch with timeout
+    async function fetchWithTimeout(url, timeout = 10000) {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), timeout);
+        try {
+            console.debug(`Explore: fetching ${url} (timeout ${timeout}ms)`);
+            const resp = await fetch(url, { signal: controller.signal });
+            clearTimeout(id);
+            return resp;
+        } catch (err) {
+            clearTimeout(id);
+            throw err;
+        }
+    }
+
     try {
-        const response = await fetch(indexUrl);
-        const searchData = await response.json();
+        // 1) Load index.json with timeout and clear logging
+        let response;
+        try {
+            response = await fetchWithTimeout(indexUrl, 15000);
+        } catch (err) {
+            console.error("Explore: failed to fetch index.json:", err);
+            throw new Error("Failed to fetch search index");
+        }
+
+        if (!response.ok) {
+            console.error("Explore: index fetch returned", response.status);
+            throw new Error(`Index fetch HTTP ${response.status}`);
+        }
+
+        let searchData;
+        try {
+            const text = await response.text();
+            console.debug("Explore: index.json size (bytes):", text.length);
+            searchData = JSON.parse(text);
+        } catch (err) {
+            console.error("Explore: failed to parse index JSON:", err);
+            throw new Error("Failed to parse search index JSON");
+        }
+
+        if (!Array.isArray(searchData)) {
+            console.warn("Explore: searchData is not an array; coercing if possible");
+            if (searchData && typeof searchData === 'object') {
+                searchData = Object.values(searchData);
+            } else {
+                searchData = [];
+            }
+        }
+
+        console.debug("Explore: loaded searchData entries:", searchData.length);
 
         // Helper: parse class CSV to get class options (first column)
         async function fetchClassOptions() {
             try {
-                const res = await fetch(classCsvUrl);
-                if (!res.ok) throw new Error(`CSV fetch ${res.status}`);
+                const res = await fetchWithTimeout(classCsvUrl, 8000);
+                if (!res.ok) {
+                    console.warn("Explore: class CSV fetch returned", res.status);
+                    return [];
+                }
                 const txt = await res.text();
                 const lines = txt.split(/\r?\n/).filter(Boolean);
-                // Expect header row; get column index of the yaml_class if present
-                const header = lines.shift().split(',');
-                const firstColName = header[0] ? header[0].trim().toLowerCase() : 'yaml_class';
-                const classes = lines.map(line => {
+                if (lines.length === 0) return [];
+                const headerParts = lines[0].split(',');
+                let dataLines = lines;
+                if (headerParts.some(p => /yaml|class/i.test(p))) {
+                    dataLines = lines.slice(1);
+                }
+                const classes = dataLines.map(line => {
                     const parts = line.split(',');
-                    return parts[0] ? parts[0].trim() : null;
+                    return parts[0] ? parts[0].trim().replace(/^"(.+)"$/, '$1') : null;
                 }).filter(Boolean);
-                // Deduplicate & sort
-                return Array.from(new Set(classes)).sort((a,b) => a.localeCompare(b));
+                const unique = Array.from(new Set(classes)).sort((a,b) => a.localeCompare(b));
+                console.debug("Explore: fetched class options count:", unique.length);
+                return unique;
             } catch (err) {
-                console.warn("Failed to load class CSV:", err);
+                console.warn("Explore: Failed to load class CSV:", err);
                 return [];
             }
         }
 
         const classOptions = await fetchClassOptions();
 
-        // 1. Setup Properties and Date Range
+        // 2) Setup properties and year extraction
         const propertyKeys = new Set();
         let allYears = [];
 
@@ -45,40 +114,41 @@ document.addEventListener("DOMContentLoaded", async function() {
                 return;
             }
             if (typeof val === 'object') {
-                // scan object values
                 Object.values(val).forEach(v => extractIntegersFromValue(v, outArray));
                 return;
             }
-            // primitive (string/number/boolean)
-            // Try to parse integer
             const s = String(val).trim();
             if (!s) return;
-            // find first integer-like token in the string (handles values like "1984-05-01" or "c.1800" or "1800")
+            // find first integer-like token (3-4 digits)
             const m = s.match(/(-?\d{3,4})/);
             if (m) {
                 const n = parseInt(m[1], 10);
-                // accept only plausible year ranges
                 if (!Number.isNaN(n) && n >= 100 && n <= 3000) {
                     outArray.push(n);
                 }
             }
         }
 
-        searchData.forEach(doc => {
+        // Build propertyKeys and allYears
+        for (let i = 0; i < searchData.length; i++) {
+            const doc = searchData[i];
+            if (!doc || typeof doc !== 'object') continue;
             if (doc.properties && typeof doc.properties === 'object') {
                 Object.keys(doc.properties).forEach(k => propertyKeys.add(k));
-                // scan every property value for integer-like year values
-                Object.values(doc.properties).flat().forEach(val => {
-                    extractIntegersFromValue(val, allYears);
-                });
+                for (const v of Object.values(doc.properties)) {
+                    extractIntegersFromValue(v, allYears);
+                }
             }
-        });
+        }
+
+        console.debug("Explore: properties detected:", Array.from(propertyKeys).sort());
+        console.debug("Explore: years extracted (sample count):", allYears.length);
 
         const sortedKeys = Array.from(propertyKeys).sort();
         const minYear = (allYears.length > 0) ? Math.min(...allYears) : 1800;
         const maxYear = (allYears.length > 0) ? Math.max(...allYears) : 1900;
 
-        // 2. Initialise UI
+        // Initialize UI: sliders, displays
         const minSlider = document.getElementById('time-min');
         const maxSlider = document.getElementById('time-max');
         if (minSlider && maxSlider) {
@@ -89,25 +159,26 @@ document.addEventListener("DOMContentLoaded", async function() {
             const maxDisplay = document.getElementById('date-display-max');
             if (minDisplay) minDisplay.innerText = minYear;
             if (maxDisplay) maxDisplay.innerText = maxYear;
+        } else {
+            console.warn("Explore: sliders not found in DOM (#time-min/#time-max)");
         }
 
-        // helper: build the value input (text or class-select) for a given property
+        // Helper to create value control (class dropdown or text input)
         function createValueControlForProperty(prop) {
             if (prop === 'class') {
                 const sel = document.createElement('select');
                 sel.className = 'filter-query';
                 sel.style.padding = '8px';
-                // empty option
                 const empty = document.createElement('option');
                 empty.value = '';
                 empty.textContent = '(any)';
                 sel.appendChild(empty);
-                classOptions.forEach(c => {
+                for (const c of classOptions) {
                     const opt = document.createElement('option');
                     opt.value = c;
                     opt.textContent = c;
                     sel.appendChild(opt);
-                });
+                }
                 return sel;
             } else {
                 const input = document.createElement('input');
@@ -120,20 +191,24 @@ document.addEventListener("DOMContentLoaded", async function() {
             }
         }
 
-        // 3. Filter Row Logic
+        // Build filter UI
         const filterContainer = document.getElementById('filter-rows');
+        if (!filterContainer) {
+            console.warn("Explore: #filter-rows not found - filters UI won't be available");
+        }
+
         function addRow() {
+            if (!filterContainer) return;
+            markInteracted(); // adding a row is user interaction
             const row = document.createElement('div');
             row.className = 'filter-row';
-            row.style = 'display: flex; gap: 10px; margin-bottom: 10px; align-items: center;';
+            row.style = 'display: flex; gap: 10px; margin-bottom: 10px; align-items:center;';
 
-            // property select
             const propSelect = document.createElement('select');
             propSelect.className = 'filter-property';
             propSelect.style.padding = '8px';
             propSelect.innerHTML = sortedKeys.map(k => `<option value="${k}">${k.replace(/_/g, ' ')}</option>`).join('');
 
-            // initial value control depends on selected property
             const initialProp = propSelect.value;
             const valueControl = createValueControlForProperty(initialProp);
 
@@ -149,96 +224,79 @@ document.addEventListener("DOMContentLoaded", async function() {
             row.appendChild(valueControl);
             row.appendChild(removeBtn);
 
-            // events
-            // when property changes, swap the value control appropriately
             propSelect.addEventListener('change', (e) => {
+                markInteracted();
                 const newProp = e.target.value;
                 const existingValueControl = row.querySelector('.filter-query');
                 const newControl = createValueControlForProperty(newProp);
-                // preserve previous string query if switching away from class
                 if (existingValueControl && existingValueControl.tagName === 'INPUT' && newControl.tagName === 'INPUT') {
                     newControl.value = existingValueControl.value;
                 }
-                existingValueControl.replaceWith(newControl);
-                // wire Enter handler for new input
-                if (newControl.tagName === 'INPUT') {
-                    newControl.addEventListener('keydown', ev => { if (ev.key === 'Enter') performSearch(); });
-                } else {
-                    // select change triggers rebuild
-                    newControl.addEventListener('change', () => performSearch());
-                }
-                // trigger search on property change
+                if (existingValueControl) existingValueControl.replaceWith(newControl);
+                if (newControl.tagName === 'INPUT') newControl.addEventListener('keydown', ev => { if (ev.key === 'Enter') performSearch(); });
+                else newControl.addEventListener('change', () => { markInteracted(); performSearch(); });
                 performSearch();
             });
 
-            // Enter on text input triggers
             if (valueControl.tagName === 'INPUT') {
-                valueControl.addEventListener('keydown', e => { if(e.key==='Enter') performSearch(); });
+                valueControl.addEventListener('keydown', e => { if(e.key === 'Enter') { markInteracted(); performSearch(); } });
+                valueControl.addEventListener('input', () => { /* don't mark every keystroke */ });
             } else {
-                valueControl.addEventListener('change', () => performSearch());
+                valueControl.addEventListener('change', () => { markInteracted(); performSearch(); });
             }
 
-            removeBtn.addEventListener('click', () => { row.remove(); performSearch(); });
+            removeBtn.addEventListener('click', () => { markInteracted(); row.remove(); performSearch(); });
 
             filterContainer.appendChild(row);
         }
 
-        // 4. Advanced Search Logic
+        // Search logic
         function performSearch() {
+            console.debug("Explore: performSearch() invoked - userInteracted:", userInteracted);
             const generalEl = document.getElementById('general-search');
-            const general = generalEl ? generalEl.value.toLowerCase() : '';
-            const minV = parseInt(minSlider.value, 10);
-            const maxV = parseInt(maxSlider.value, 10);
+            const general = generalEl ? generalEl.value.trim().toLowerCase() : '';
+            const minV = minSlider ? parseInt(minSlider.value, 10) : minYear;
+            const maxV = maxSlider ? parseInt(maxSlider.value, 10) : maxYear;
             const rows = document.querySelectorAll('.filter-row');
 
             const results = searchData.filter(doc => {
-                // Folder Restriction
+                if (!doc || typeof doc !== 'object') return false;
                 if (!doc.location || !doc.location.startsWith('/entity/')) return false;
 
-                // General Text Search (Search inside the stringified properties)
                 const matchesGeneral = !general || JSON.stringify(doc.properties).toLowerCase().includes(general);
 
-                // Date Range Check: doc passes if ANY integer-like year found within range
-                let inRange = true;
-                // find all integers in this doc's properties
+                // Date range: accept if any integer-like year in doc properties falls within range
                 const docYears = [];
                 if (doc.properties) {
-                    Object.values(doc.properties).flat().forEach(val => {
-                        extractIntegersFromValue(val, docYears);
-                    });
+                    Object.values(doc.properties).forEach(v => extractIntegersFromValue(v, docYears));
                 }
+                let inRange = true;
                 if (docYears.length > 0) {
-                    // require at least one year within [minV, maxV]
-                    const anyIn = docYears.some(y => y >= minV && y <= maxV);
-                    inRange = anyIn;
+                    inRange = docYears.some(y => y >= minV && y <= maxV);
                 } else {
-                    // if no year info at all, treat as in-range (or decide to exclude — current approach is permissive)
-                    inRange = true;
+                    inRange = true; // permissive for docs with no year info
                 }
 
-                // Property Match (AND logic)
+                // Property filters (AND)
                 let matchesAll = true;
                 rows.forEach(row => {
                     const prop = row.querySelector('.filter-property').value;
                     const control = row.querySelector('.filter-query');
-                    let query = '';
                     if (!control) return;
+                    let query = '';
                     if (control.tagName === 'INPUT') {
                         query = control.value.trim().toLowerCase();
                         if (!query) return;
                     } else if (control.tagName === 'SELECT') {
                         query = control.value.trim().toLowerCase();
-                        // if empty selection, skip this row
                         if (!query) return;
                     }
 
                     const vals = doc.properties[prop] || [];
                     const found = vals.some(v => {
-                        // If the property values are objects with .label or simple strings
                         if (v === null || v === undefined) return false;
                         if (typeof v === 'object') {
-                            // If v has a 'label' field, prefer that
-                            const text = v.label || JSON.stringify(v);
+                            const text = v.label || v.value || JSON.stringify(v);
                             return String(text).toLowerCase().includes(query);
                         } else {
                             return String(v).toLowerCase().includes(query);
@@ -249,32 +307,62 @@ document.addEventListener("DOMContentLoaded", async function() {
 
                 return matchesGeneral && inRange && matchesAll;
             });
+
+            console.debug("Explore: results count:", results.length);
             renderResults(results);
         }
 
-        // 5. Render Grid (Handling Array Values)
         function renderResults(results) {
-            resultsGrid.innerHTML = results.map(doc => {
-                // Extract first available label and image from arrays
+            let resultsToShow = results;
+            let prefixNote = '';
+            if (!userInteracted && results.length > PREVIEW_COUNT) {
+                // pick PREVIEW_COUNT random entries
+                const shuffled = results.slice();
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                resultsToShow = shuffled.slice(0, PREVIEW_COUNT);
+                prefixNote = `<p>Showing ${PREVIEW_COUNT} random entities out of ${results.length}. Interact with the filters or sliders to see the full results.</p>`;
+            }
+
+            const html = resultsToShow.map(doc => {
+                // Title extraction (safe guards against null)
                 let title = "Untitled";
-                if (doc.properties.label && Array.isArray(doc.properties.label) && doc.properties.label.length > 0) {
-                    const first = doc.properties.label[0];
-                    title = (typeof first === 'object') ? (first.label || JSON.stringify(first)) : String(first);
-                } else if (doc.properties.label) {
-                    // fallback if label is not an array
-                    const lbl = doc.properties.label;
-                    if (typeof lbl === 'string') title = lbl;
+                if (doc.properties) {
+                    const lab = doc.properties.label;
+                    if (Array.isArray(lab) && lab.length > 0) {
+                        const f = lab[0];
+                        if (f !== null && f !== undefined && typeof f === 'object') {
+                            title = f.label || f.value || JSON.stringify(f);
+                        } else if (f !== null && f !== undefined) {
+                            title = String(f);
+                        }
+                    } else if (lab && typeof lab === 'object') {
+                        title = lab.label || lab.value || JSON.stringify(lab);
+                    } else if (typeof lab === 'string') {
+                        title = lab;
+                    }
                 }
 
-                let imgSrc = "../assets/images/placeholder.jpg";
-                if (doc.properties.image && Array.isArray(doc.properties.image) && doc.properties.image.length > 0) {
-                    const firstImg = doc.properties.image[0];
-                    imgSrc = (typeof firstImg === 'object') ? (firstImg.value || firstImg.url || JSON.stringify(firstImg)) : String(firstImg);
-                } else if (doc.properties.image && typeof doc.properties.image === 'string') {
-                    imgSrc = doc.properties.image;
+                // Image extraction (safe)
+                let imgSrc = "../assets/icons/concept.png";
+                if (doc.properties) {
+                    const img = doc.properties.image;
+                    if (Array.isArray(img) && img.length > 0) {
+                        const f = img[0];
+                        if (f !== null && f !== undefined && typeof f === 'object') {
+                            imgSrc = f.value || f.url || JSON.stringify(f);
+                        } else if (f !== null && f !== undefined) {
+                            imgSrc = String(f);
+                        }
+                    } else if (img && typeof img === 'object') {
+                        imgSrc = img.value || img.url || JSON.stringify(img);
+                    } else if (typeof img === 'string') {
+                        imgSrc = img;
+                    }
                 }
 
-                // Sanitize/normalize src if it's relative and you need to prefix - kept simple here
                 return `
                 <a href="..${doc.location}/" class="card-link">
                     <div class="card" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px; overflow: hidden; height: 100%;">
@@ -287,26 +375,33 @@ document.addEventListener("DOMContentLoaded", async function() {
                     </div>
                 </a>`;
             }).join('') || '<p>No entities found.</p>';
+
+            resultsGrid.innerHTML = prefixNote + html;
         }
 
-        // Event Listeners
+        // Wire UI event listeners
         const addFilterBtn = document.getElementById('add-filter');
-        if (addFilterBtn) addFilterBtn.addEventListener('click', addRow);
+        if (addFilterBtn) addFilterBtn.addEventListener('click', () => { markInteracted(); addRow(); });
+
         const generalInput = document.getElementById('general-search');
-        if (generalInput) generalInput.addEventListener('keydown', e => { if(e.key==='Enter') performSearch(); });
+        if (generalInput) generalInput.addEventListener('keydown', e => { if (e.key === 'Enter') { markInteracted(); performSearch(); } });
+
         if (minSlider && maxSlider) {
             [minSlider, maxSlider].forEach(s => s.addEventListener('input', () => {
                 const minDisplay = document.getElementById('date-display-min');
                 const maxDisplay = document.getElementById('date-display-max');
                 if (minDisplay) minDisplay.innerText = minSlider.value;
                 if (maxDisplay) maxDisplay.innerText = maxSlider.value;
+                markInteracted();
                 performSearch();
             }));
         }
 
-        addRow(); // Start with one row
-        performSearch(); // Initial load
+        // Start UI: initial preview list
+        addRow();
+        performSearch();
 
+        console.debug("Explore: initialization complete (preview shown)");
     } catch (err) {
         console.error("Explore script failed:", err);
     }

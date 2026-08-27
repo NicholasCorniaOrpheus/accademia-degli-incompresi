@@ -7,20 +7,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KH7kyCfwutwC-XP8Qn3uBVGXj a rdf:Statement ;
+adi:KH7kyCfwutwC-EM4gh5KdYsRa a rdf:Statement ;
+    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
+    bf:heldBy adi:KEA7B7G3KUCJ ;
+    wdt:P291 adi:J6uXo2g5NfHE ;
+    rdf:object "N25c4bcc2652d4d6e92d57298a7ffd5d1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KH7kyCfwutwC ;
+    schema:datePublished "1665" .
+
+adi:KH7kyCfwutwC-Ud3miBE8bcQR a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:FtSfAj42F27w ;
     rdf:predicate <> ;
     rdf:subject adi:KH7kyCfwutwC .
-
-adi:KH7kyCfwutwC-djf6HQ8mN5EG a rdf:Statement ;
-    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
-    bf:heldBy adi:KEA7B7G3KUCJ ;
-    wdt:P291 adi:J6uXo2g5NfHE ;
-    rdf:object "N43d28255a56b46b492ec2688b4517983" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:KH7kyCfwutwC ;
-    schema:datePublished "1665" .
 
 adi:KH7kyCfwutwC a rdfs:Resource ;
     rdfs:label "Arithmologia sive De abditis Numerorum mysteriis" ;

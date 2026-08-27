@@ -6,24 +6,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:PdaKaFrvdidM-AsoAuZbVXD5Y a rdf:Statement ;
+adi:PdaKaFrvdidM-6ruCL8UmK2X6 a rdf:Statement ;
     bf:Role adi:5GmrgRoxsCpY ;
     rdf:object adi:abCcQLTyWPhj ;
     rdf:predicate <> ;
     rdf:subject adi:PdaKaFrvdidM .
 
-adi:PdaKaFrvdidM-J5roSXYAz6iB a rdf:Statement ;
+adi:PdaKaFrvdidM-NquAKf5pPKt5 a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Canzoni_del_marchese_Francesco_Maria_San/Sft0aCZ3kwAC> ;
+    rdf:object "N27524dd864fc480389828686d9ddafd5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:PdaKaFrvdidM ;
+    schema:datePublished "1659" .
+
+adi:PdaKaFrvdidM-f65m8CyLKLVX a rdf:Statement ;
     bf:Role adi:awZyTsJZqrUq ;
     rdf:object adi:BVavFPBEeQRA ;
     rdf:predicate <> ;
     rdf:subject adi:PdaKaFrvdidM .
-
-adi:PdaKaFrvdidM-MxPREWYRnZqY a rdf:Statement ;
-    bf:electronicLocator <https://www.google.be/books/edition/Canzoni_del_marchese_Francesco_Maria_San/Sft0aCZ3kwAC> ;
-    rdf:object "Nafbb66d6a99c429e8c7cb0cd949c3d56" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:PdaKaFrvdidM ;
-    schema:datePublished "1659" .
 
 adi:PdaKaFrvdidM a rdfs:Resource ;
     rdfs:label "Canzoni del Marchese Francesco Maria Santinelli Cameriero Maggiore di Cristina Alessandra Regina di Svezia" ;
