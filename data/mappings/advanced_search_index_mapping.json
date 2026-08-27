@@ -1,20 +1,45 @@
 {
-	"label": ["metadata/label","statements/title"],
-	"class": ["metadata/class"],
 	"aliases": ["metadata/aliases"],
-	"description": ["metadata/description"],
-	"instance of": ["statements/instance_of"],
-	"part of": ["statements/part_of"],
-	"date": ["statements/part_of/publication_date","statements/has_version/publication_date","statements/inception","statements/dissolved"],
+	"based on": ["statements/based_on"],
+
+	"class": ["metadata/class"],
+	"citation": ["statements/citation"],
 	"contributor": ["statements/contributor"],
-	"holding institution": ["statements/has_version/holding_institution"],
+	"contributor's role": ["statements/contributor/role"],
+
+	"date (publication, inception, dissolved)": ["statements/has_version/publication_date","statements/inception","statements/dissolved"],
+	"depicts": ["statements/depicts"],
+	"described by source": ["statements/described_by_source"],
+	"description": ["metadata/description"],
+	"gender": ["statements/gender"],
+	"instance of": ["statements/instance_of"],
 	"instrumentation": ["statements/instrumentation"],
+	"holding institution": ["statements/has_version/holding_institution"],
+	"label": ["metadata/label","statements/title"],
 	"language": ["statements/language"],
-	"gender": ["statements/sex_or_gender"],
-	"place": ["statements/has_version/place_of_publication","statements/country","statements/location"],
+	"(has) member": ["statements/member"],
+	"member of": ["statements/member_of"],
+	"motto": ["statements/motto"],
+	"notes content": ["content/markdown_content"],
 	"occupation": ["statements/occupation"],
-	"based_on": ["statements/based_on"],
-	"about": ["statements/about"],
-	"form of creative work": ["statements/form_of_creative_work"],
-	"image": ["assets/image"]
+	"part of": ["statements/part_of"],
+	"place (work, publication, location)": ["statements/has_version/place_of_publication","statements/country","statements/location","statements/work_location"],
+	"present in work": ["statements/present_in_work"],
+	"publisher": ["statements/has_version/publisher"],
+	"related to": ["statements/related_to"],
+	"relationship": ["statements/related_to/relationship"],
+	"subject": ["statements/subject"],
+	"(poetic) text": ["statements/text"],
+	"used by": ["statements/used_by"]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }
