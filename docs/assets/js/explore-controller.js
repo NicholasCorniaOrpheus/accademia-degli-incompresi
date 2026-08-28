@@ -1,4 +1,3 @@
-// docs/assets/js/explore-controller.js
 document.addEventListener("DOMContentLoaded", async function() {
     console.debug("Explore: DOMContentLoaded - starting script");
     const resultsGrid = document.getElementById('search-results');
@@ -9,7 +8,6 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/advanced_search_index.json';
     const classCsvUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv';
-    const date_properties = ["date"];
 
     // Preview constants
     const PREVIEW_COUNT = 30;
@@ -37,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
     try {
-        // 1) Load index.json with timeout and clear logging
+        // 1) Load index.json with timeout
         let response;
         try {
             response = await fetchWithTimeout(indexUrl, 15000);
@@ -72,7 +70,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         console.debug("Explore: loaded searchData entries:", searchData.length);
 
-        // Helper: parse class CSV to get class options (first column)
+        // Helper: parse class CSV to get class options
         async function fetchClassOptions() {
             try {
                 const res = await fetchWithTimeout(classCsvUrl, 8000);
@@ -92,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                     const parts = line.split(',');
                     return parts[0] ? parts[0].trim().replace(/^"(.+)"$/, '$1') : null;
                 }).filter(Boolean);
-                const unique = Array.from(new Set(classes)).sort((a,b) => a.localeCompare(b));
+                const unique = Array.from(new Set(classes)).sort((a, b) => a.localeCompare(b));
                 console.debug("Explore: fetched class options count:", unique.length);
                 return unique;
             } catch (err) {
@@ -103,57 +101,63 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         const classOptions = await fetchClassOptions();
 
-        // 2) Setup properties and year extraction
+        // 2) Setup properties and extract year range ONLY from "date" property
         const propertyKeys = new Set();
         let allYears = [];
 
-        // Recursive extractor that finds integer-like values from any structure
-        function extractIntegersFromValue(val, outArray) {
-            if (val === null || val === undefined) return;
-            if (Array.isArray(val)) {
-                val.forEach(v => extractIntegersFromValue(v, outArray));
-                return;
+        // Helper: extract years from "date" property (arrays of numbers)
+        function extractYearsFromDateProperty(dateValue) {
+            if (dateValue === null || dateValue === undefined) return [];
+            
+            const years = [];
+            
+            // If dateValue is an array (e.g., [1544, 1540])
+            if (Array.isArray(dateValue)) {
+                dateValue.forEach(item => {
+                    if (typeof item === 'number' && !Number.isNaN(item) && item >= 1000 && item <= 3000) {
+                        years.push(item);
+                    }
+                });
             }
-            if (typeof val === 'object') {
-                Object.values(val).forEach(v => extractIntegersFromValue(v, outArray));
-                return;
+            // If dateValue is a single number
+            else if (typeof dateValue === 'number' && !Number.isNaN(dateValue) && dateValue >= 1000 && dateValue <= 3000) {
+                years.push(dateValue);
             }
-            const s = String(val).trim();
-            if (!s) return;
-            // find first integer-like token (3-4 digits)
-            const m = s.match(/(-?\d{3,4})/);
-            if (m) {
-                const n = parseInt(m[1], 10);
-                if (!Number.isNaN(n) && n >= 100 && n <= 3000) {
-                    outArray.push(n);
-                }
-            }
+            
+            return years;
         }
 
-        // Build propertyKeys and allYears
+        // Build propertyKeys and allYears (from date property only)
         for (let i = 0; i < searchData.length; i++) {
             const doc = searchData[i];
             if (!doc || typeof doc !== 'object') continue;
             if (doc.properties && typeof doc.properties === 'object') {
                 Object.keys(doc.properties).forEach(k => propertyKeys.add(k));
-                for (const v of Object.values(doc.properties)) {
-                    extractIntegersFromValue(v, allYears);
+                
+                // Extract years ONLY from the "date" property
+                const dateValue = doc.properties.date;
+                if (dateValue) {
+                    const yearsInDoc = extractYearsFromDateProperty(dateValue);
+                    allYears.push(...yearsInDoc);
                 }
             }
         }
 
         console.debug("Explore: properties detected:", Array.from(propertyKeys).sort());
-        console.debug("Explore: years extracted (sample count):", allYears.length);
+        console.debug("Explore: years extracted from 'date' property:", allYears.length);
 
         const sortedKeys = Array.from(propertyKeys).sort();
-        const minYear = (allYears.length > 0) ? Math.min(...allYears) : 1800;
-        const maxYear = (allYears.length > 0) ? Math.max(...allYears) : 1900;
+        const minYear = (allYears.length > 0) ? Math.min(...allYears) : 0;
+        const maxYear = (allYears.length > 0) ? Math.max(...allYears) : 2030;
 
-        // Initialize UI: sliders, displays
+        // Initialize UI: date range sliders
         const minSlider = document.getElementById('time-min');
         const maxSlider = document.getElementById('time-max');
         if (minSlider && maxSlider) {
-            [minSlider, maxSlider].forEach(s => { s.min = minYear; s.max = maxYear; });
+            [minSlider, maxSlider].forEach(s => { 
+                s.min = minYear; 
+                s.max = maxYear; 
+            });
             minSlider.value = minYear;
             maxSlider.value = maxYear;
             const minDisplay = document.getElementById('date-display-min');
@@ -200,7 +204,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         function addRow() {
             if (!filterContainer) return;
-            markInteracted(); // adding a row is user interaction
+            markInteracted();
             const row = document.createElement('div');
             row.className = 'filter-row';
             row.style = 'display: flex; gap: 10px; margin-bottom: 10px; align-items:center;';
@@ -234,14 +238,16 @@ document.addEventListener("DOMContentLoaded", async function() {
                     newControl.value = existingValueControl.value;
                 }
                 if (existingValueControl) existingValueControl.replaceWith(newControl);
-                if (newControl.tagName === 'INPUT') newControl.addEventListener('keydown', ev => { if (ev.key === 'Enter') performSearch(); });
-                else newControl.addEventListener('change', () => { markInteracted(); performSearch(); });
+                if (newControl.tagName === 'INPUT') {
+                    newControl.addEventListener('keydown', ev => { if (ev.key === 'Enter') performSearch(); });
+                } else {
+                    newControl.addEventListener('change', () => { markInteracted(); performSearch(); });
+                }
                 performSearch();
             });
 
             if (valueControl.tagName === 'INPUT') {
-                valueControl.addEventListener('keydown', e => { if(e.key === 'Enter') { markInteracted(); performSearch(); } });
-                valueControl.addEventListener('input', () => { /* don't mark every keystroke */ });
+                valueControl.addEventListener('keydown', e => { if (e.key === 'Enter') { markInteracted(); performSearch(); } });
             } else {
                 valueControl.addEventListener('change', () => { markInteracted(); performSearch(); });
             }
@@ -266,24 +272,30 @@ document.addEventListener("DOMContentLoaded", async function() {
 
                 const matchesGeneral = !general || JSON.stringify(doc.properties).toLowerCase().includes(general);
 
-                // Date range: accept if any integer-like year in doc properties falls within range
-                const docYears = [];
-                if (doc.properties) {
-                    Object.values(doc.properties).forEach(v => extractIntegersFromValue(v, docYears));
-                }
-                let inRange = true;
-                if (docYears.length > 0) {
-                    inRange = docYears.some(y => y >= minV && y <= maxV);
+                // Date range filter: only check the "date" property
+                let inDateRange = true;
+                const dateValue = doc.properties && doc.properties.date;
+                if (dateValue) {
+                    const docYears = extractYearsFromDateProperty(dateValue);
+                    if (docYears.length > 0) {
+                        // Accept if ANY year in the date property falls within range
+                        inDateRange = docYears.some(y => y >= minV && y <= maxV);
+                    } else {
+                        // No valid years found in date property, include anyway
+                        inDateRange = true;
+                    }
                 } else {
-                    inRange = true; // permissive for docs with no year info
+                    // No date property at all, include anyway (permissive)
+                    inDateRange = true;
                 }
 
-                // Property filters (AND)
+                // Property filters (AND logic)
                 let matchesAll = true;
                 rows.forEach(row => {
                     const prop = row.querySelector('.filter-property').value;
                     const control = row.querySelector('.filter-query');
                     if (!control) return;
+                    
                     let query = '';
                     if (control.tagName === 'INPUT') {
                         query = control.value.trim().toLowerCase();
@@ -306,7 +318,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                     if (!found) matchesAll = false;
                 });
 
-                return matchesGeneral && inRange && matchesAll;
+                return matchesGeneral && inDateRange && matchesAll;
             });
 
             console.debug("Explore: results count:", results.length);
@@ -328,7 +340,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             }
 
             const html = resultsToShow.map(doc => {
-                // Title extraction (safe guards against null)
+                // Title extraction
                 let title = "Untitled";
                 if (doc.properties) {
                     const lab = doc.properties.label;
@@ -346,7 +358,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                     }
                 }
 
-                // Image extraction (safe)
+                // Image extraction
                 let imgSrc = "../assets/icons/concept.png";
                 if (doc.properties) {
                     const img = doc.properties.image;
