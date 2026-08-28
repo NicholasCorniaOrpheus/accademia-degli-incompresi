@@ -1,7 +1,7 @@
 /**
  * KB-Light: Unified component initializer
- * Supports IIIF Presentation API v2 and v3
- * Handles CORS and Image API format issues
+ * Supports IIIF Presentation API v2 and v3 with multiple manifest structure variations
+ * Handles CORS and Image API format issues with comprehensive fallback logic
  */
 
 class KBLightInit {
@@ -9,14 +9,8 @@ class KBLightInit {
     this.d3Initialized = false;
     this.config = window.kbGraphConfig || {};
     this.graphInitialized = false;
-
-    // Guard to avoid re-entrancy when mutations cause runPageLogic to be called again
     this._running = false;
-
-    // debounce timer for MutationObserver
     this._observerTimer = null;
-
-    // store observer reference so we can disconnect if needed
     this._observer = null;
   }
 
@@ -32,55 +26,37 @@ class KBLightInit {
     }
   }
 
-  /**
-   * Move top-level openseadragon containers into the matching admonition (by title).
-   * This avoids emitting indented HTML in markdown while keeping the viewer visually
-   * inside the admonition.
-   *
-   * This function is idempotent: it skips containers that are already inside an admonition
-   * or have already been relocated.
-   */
   _relocateOSDContainersIntoAdmonitions() {
     const containers = Array.from(document.querySelectorAll('[id^="openseadragon-container-"]'));
     if (!containers.length) return;
 
-    // Candidate admonition containers: MkDocs Material uses <details class="abstract"> for "??? abstract"
     const admonitionCandidates = Array.from(document.querySelectorAll('details.abstract, details, .admonition, .md-typeset .admonition'));
 
     containers.forEach(container => {
-      // Skip if we've already relocated this container previously
       if (container.dataset.relocated === "true") return;
 
-      // If container already inside a details/admonition, skip
       const insideAdmon = container.closest('details, .admonition');
       if (insideAdmon) {
         container.dataset.relocated = "true";
         return;
       }
 
-      // title to match (default "Digitised images" — keep consistent with template)
       const targetTitle = (container.dataset.admonitionTitle || 'Digitised images').trim().toLowerCase();
 
-      // Find candidate whose summary or title contains the targetTitle
       let matched = admonitionCandidates.find(ad => {
-        // try <summary>
         const summary = ad.querySelector('summary');
         if (summary && summary.textContent && summary.textContent.toLowerCase().includes(targetTitle)) return true;
-        // try elements that might contain the admonition title
         const heading = ad.querySelector('.admonition-title, .md-typeset > p, .md-typeset > h1, .md-typeset > h2, .md-typeset > h3');
         if (heading && heading.textContent && heading.textContent.toLowerCase().includes(targetTitle)) return true;
-        // fallback: any text start match
         const txt = (ad.textContent || '').trim().toLowerCase();
         return txt.startsWith(targetTitle);
       });
 
       if (!matched) {
-        // fallback to first details.abstract or first details
         matched = document.querySelector('details.abstract') || document.querySelector('details') || null;
       }
 
       if (matched) {
-        // For <details>, append after <summary> if exists
         const summary = matched.querySelector('summary');
         try {
           if (summary && summary.parentNode) {
@@ -88,7 +64,6 @@ class KBLightInit {
           } else {
             matched.appendChild(container);
           }
-          // mark relocated so we don't move again
           container.dataset.relocated = "true";
         } catch (err) {
           console.warn("KB: relocation failed for container", container.id, err);
@@ -97,24 +72,12 @@ class KBLightInit {
     });
   }
 
-  /**
-   * Main per-page initialization. Guarded to prevent reentrancy.
-   */
   async runPageLogic() {
-    if (this._running) {
-      // Already running; ignore this invocation
-      // console.log("KB: runPageLogic already running; skipping re-entry.");
-      return;
-    }
+    if (this._running) return;
     this._running = true;
     try {
       this.initD3Graph();
-
-      // Move OSD containers into the admonition before OSD init so the viewer is created in the final place
-      // Do this synchronously before initOpenSeadragon runs.
       this._relocateOSDContainersIntoAdmonitions();
-
-      // Always check for OpenSeadragon containers
       await this.initOpenSeadragon();
     } catch (err) {
       console.error("KB: runPageLogic error:", err);
@@ -143,14 +106,8 @@ class KBLightInit {
       });
   }
 
-  /**
-   * Initialize OpenSeadragon viewers.
-   * This method supports single manifest (string/object), array of manifests,
-   * and fallback to local images.
-   */
   async initOpenSeadragon() {
     const osdContainers = Array.from(document.querySelectorAll('.osd-viewer'));
-    // Backwards compat - try legacy id
     if (osdContainers.length === 0) {
       const legacy = document.querySelector('#osd-viewer');
       if (legacy) osdContainers.push(legacy);
@@ -161,36 +118,31 @@ class KBLightInit {
 
     const iiif = assets.iiif;
 
-    // If iiif is an array, fetch/parse all manifests and build combined tileSources
     if (Array.isArray(iiif) && iiif.length > 0) {
-      // If there are multiple containers, map manifests to containers by index when possible.
       if (iiif.length === osdContainers.length) {
         for (let idx = 0; idx < iiif.length; idx++) {
           const m = iiif[idx];
           const c = osdContainers[idx];
           if (!c) continue;
           if (c.dataset.osdInitialized === "true") continue;
+          
           if (typeof m === 'object') {
-            const tileSources = this._parseIIIFManifest(m);
+            const tileSources = this._parseIIIFManifestV3(m) || this._parseIIIFManifestV2(m) || [];
             if (tileSources.length) this._initOSD(tileSources, c);
             else this._showNoAssets(c);
-            c.dataset.osdInitialized = "true";
           } else if (typeof m === 'string' && m.trim() !== "") {
             await this._loadIIIFManifest(m, c);
-            c.dataset.osdInitialized = "true";
           } else {
             this._showNoAssets(c);
-            c.dataset.osdInitialized = "true";
           }
+          c.dataset.osdInitialized = "true";
         }
         return;
       }
 
-      // Otherwise, combine all manifests into a single viewer (the common simpler path)
       try {
         const tileSources = await this._loadMultipleIIIFManifests(iiif);
         if (!tileSources || tileSources.length === 0) {
-          // fallback to images on first container
           this._initImagesFallback(assets, osdContainers[0]);
           osdContainers.forEach(c => c.dataset.osdInitialized = "true");
           return;
@@ -207,21 +159,19 @@ class KBLightInit {
       return;
     }
 
-    // If iiif is a single string or a parsed object, use the first available container
     const container = osdContainers[0];
     if (!container) return;
     if (container.dataset.osdInitialized === "true") return;
 
     if (typeof iiif === 'string' && iiif.trim() !== "") {
-      // single manifest URL
       await this._loadIIIFManifest(iiif, container);
       container.dataset.osdInitialized = "true";
       return;
     }
 
     if (typeof iiif === 'object' && iiif !== null) {
-      const tileSources = this._parseIIIFManifest(iiif);
-      if (tileSources && tileSources.length > 0) {
+      const tileSources = this._parseIIIFManifestV3(iiif) || this._parseIIIFManifestV2(iiif) || [];
+      if (tileSources.length > 0) {
         this._initOSD(tileSources, container);
       } else {
         this._initImagesFallback(assets, container);
@@ -230,7 +180,6 @@ class KBLightInit {
       return;
     }
 
-    // fallback: images array
     this._initImagesFallback(assets, container);
     container.dataset.osdInitialized = "true";
   }
@@ -265,11 +214,17 @@ class KBLightInit {
         return response.json();
       })
       .then(manifest => {
-        const tileSources = this._parseIIIFManifest(manifest);
+        const tileSources = this._parseIIIFManifestV3(manifest) || this._parseIIIFManifestV2(manifest) || [];
         if (tileSources && tileSources.length > 0) {
           this._initOSD(tileSources, container);
           return true;
         } else {
+          console.warn("KB: No tileSources found in manifest, trying fallback parser");
+          const fallbackTiles = this._parseIIIFManifestFallback(manifest);
+          if (fallbackTiles && fallbackTiles.length > 0) {
+            this._initOSD(fallbackTiles, container);
+            return true;
+          }
           this._showNoAssets(container);
           return false;
         }
@@ -280,8 +235,6 @@ class KBLightInit {
         return false;
       });
   }
-
-
 
   _loadMultipleIIIFManifests(manifests) {
     const fetchPromises = manifests.map(m => {
@@ -299,7 +252,7 @@ class KBLightInit {
         results.forEach((res, idx) => {
           if (res.status === 'fulfilled' && res.value) {
             try {
-              const tiles = this._parseIIIFManifest(res.value);
+              const tiles = this._parseIIIFManifestV3(res.value) || this._parseIIIFManifestV2(res.value) || this._parseIIIFManifestFallback(res.value);
               if (Array.isArray(tiles) && tiles.length) tileSourcesAll.push(...tiles);
             } catch (e) {
               console.warn("KB: parse manifest failed for index", idx, e);
@@ -312,55 +265,184 @@ class KBLightInit {
       });
   }
 
-  _parseIIIFManifest(manifest) {
+  /**
+   * Parse IIIF Presentation API v3 manifests
+   * Supports multiple structure variations:
+   * - Standard: Manifest→items (Canvas)→items (AnnotationPage)→items (Annotation)→body (Image)
+   * - Annotations: Canvas→annotations→items (Annotation)→body (Image)
+   * - Direct body: Canvas→body (Image)
+   */
+  _parseIIIFManifestV3(manifest) {
     const tileSources = [];
-    const context = manifest['@context'] || '';
-    const isV3 = typeof context === 'string' ? context.includes('presentation/3') :
-      Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/3'));
+    const context = manifest['@context'] || manifest.context || '';
+    
+    const isV3 = typeof context === 'string' 
+      ? context.includes('presentation/3') 
+      : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/3'));
 
-    if (isV3) {
-      const items = manifest.items || [];
-      for (const item of items) {
-        const canvases = item.items || item.body || [];
-        for (const canvasItem of canvases) {
-          if (canvasItem.type === 'Image' && canvasItem.service) {
-            const services = Array.isArray(canvasItem.service) ? canvasItem.service : [canvasItem.service];
-            for (const svc of services) {
-              const serviceUrl = svc['@id'] || svc.id;
-              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvasItem));
+    if (!isV3) return null;
+
+    console.debug("KB: Parsing IIIF v3 manifest");
+
+    const items = manifest.items || [];
+    
+    for (const item of items) {
+      // item is a Canvas
+      const canvasId = item.id || '';
+      const canvasWidth = item.width || 800;
+      const canvasHeight = item.height || 1000;
+
+      console.debug("KB: Processing Canvas:", canvasId);
+
+      // Path 1: Canvas → items (AnnotationPages) → items (Annotations) → body (Image with service)
+      if (item.items && Array.isArray(item.items)) {
+        for (const page of item.items) {
+          if (page.type !== 'AnnotationPage') continue;
+          if (!page.items || !Array.isArray(page.items)) continue;
+
+          for (const annotation of page.items) {
+            if (annotation.type !== 'Annotation') continue;
+            if (annotation.motivation && !['painting', 'supplementing'].includes(annotation.motivation)) continue;
+
+            const body = annotation.body;
+            if (!body) continue;
+
+            // body is an Image with service
+            if (body.type === 'Image' && body.service) {
+              const services = Array.isArray(body.service) ? body.service : [body.service];
+              for (const svc of services) {
+                const serviceId = svc['@id'] || svc.id;
+                if (serviceId) {
+                  tileSources.push(this._makeIIIFImageTileSource(serviceId, body));
+                  console.debug("KB: Added tile source from v3 annotation body.service:", serviceId);
+                }
+              }
+            }
+            // body is an Image with direct URL
+            else if (body.type === 'Image' && (body['@id'] || body.id)) {
+              const url = body['@id'] || body.id;
+              tileSources.push({ type: 'image', url: url });
+              console.debug("KB: Added tile source from v3 annotation body.id:", url);
             }
           }
         }
       }
-    } else {
-      const sequences = manifest.sequences || [];
-      for (const seq of sequences) {
-        const canvases = seq.canvases || [];
-        for (const canvas of canvases) {
-          const images = canvas.images || [];
-          for (const image of images) {
-            const resource = image.resource || {};
-            const service = resource.service || resource['service'];
-            if (service) {
-              const serviceUrl = service['@id'] || service.id;
-              if (serviceUrl) tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
-            } else if (resource && (resource['@id'] || resource.id || resource.url)) {
-              const url = resource['@id'] || resource.id || resource.url;
+
+      // Path 2: Canvas → annotations (AnnotationPages) → items (Annotations) → body
+      if (item.annotations && Array.isArray(item.annotations)) {
+        for (const page of item.annotations) {
+          if (page.type !== 'AnnotationPage') continue;
+          if (!page.items || !Array.isArray(page.items)) continue;
+
+          for (const annotation of page.items) {
+            if (annotation.type !== 'Annotation') continue;
+            if (annotation.motivation && !['painting', 'supplementing'].includes(annotation.motivation)) continue;
+
+            const body = annotation.body;
+            if (!body) continue;
+
+            if (body.type === 'Image' && body.service) {
+              const services = Array.isArray(body.service) ? body.service : [body.service];
+              for (const svc of services) {
+                const serviceId = svc['@id'] || svc.id;
+                if (serviceId) {
+                  tileSources.push(this._makeIIIFImageTileSource(serviceId, body));
+                  console.debug("KB: Added tile source from v3 canvas.annotations:", serviceId);
+                }
+              }
+            } else if (body.type === 'Image' && (body['@id'] || body.id)) {
+              const url = body['@id'] || body.id;
               tileSources.push({ type: 'image', url: url });
+              console.debug("KB: Added tile source from v3 canvas.annotations URL:", url);
+            }
+          }
+        }
+      }
+
+      // Path 3: Canvas → body (direct image on canvas)
+      if (item.body) {
+        const body = Array.isArray(item.body) ? item.body[0] : item.body;
+        if (body && body.type === 'Image') {
+          if (body.service) {
+            const services = Array.isArray(body.service) ? body.service : [body.service];
+            for (const svc of services) {
+              const serviceId = svc['@id'] || svc.id;
+              if (serviceId) {
+                tileSources.push(this._makeIIIFImageTileSource(serviceId, body));
+                console.debug("KB: Added tile source from v3 canvas.body.service:", serviceId);
+              }
+            }
+          } else if (body['@id'] || body.id) {
+            const url = body['@id'] || body.id;
+            tileSources.push({ type: 'image', url: url });
+            console.debug("KB: Added tile source from v3 canvas.body.id:", url);
+          }
+        }
+      }
+
+      // Path 4: Canvas → rendering (for supplementary images)
+      if (item.rendering && Array.isArray(item.rendering)) {
+        for (const render of item.rendering) {
+          if (render['@id'] || render.id) {
+            const url = render['@id'] || render.id;
+            if (url.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+              tileSources.push({ type: 'image', url: url });
+              console.debug("KB: Added tile source from v3 canvas.rendering:", url);
             }
           }
         }
       }
     }
 
-    return tileSources;
+    return tileSources.length > 0 ? tileSources : null;
   }
 
-    /**
+  /**
+   * Parse IIIF Presentation API v2 manifests
+   * Structure: Manifest→sequences (Sequence)→canvases (Canvas)→images (Image)→resource (Resource with service)
+   */
+  _parseIIIFManifestV2(manifest) {
+    const tileSources = [];
+    const context = manifest['@context'] || manifest.context || '';
+    
+    const isV2 = typeof context === 'string' 
+      ? context.includes('presentation/2') 
+      : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/2'));
+
+    if (!isV2) return null;
+
+    console.debug("KB: Parsing IIIF v2 manifest");
+
+    const sequences = manifest.sequences || [];
+    for (const seq of sequences) {
+      const canvases = seq.canvases || [];
+      for (const canvas of canvases) {
+        const images = canvas.images || [];
+        for (const image of images) {
+          const resource = image.resource || {};
+          const service = resource.service || resource['service'];
+          
+          if (service) {
+            const serviceUrl = service['@id'] || service.id;
+            if (serviceUrl) {
+              tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
+              console.debug("KB: Added tile source from v2 canvas resource.service:", serviceUrl);
+            }
+          } else if (resource && (resource['@id'] || resource.id || resource.url)) {
+            const url = resource['@id'] || resource.id || resource.url;
+            tileSources.push({ type: 'image', url: url });
+            console.debug("KB: Added tile source from v2 canvas resource URL:", url);
+          }
+        }
+      }
+    }
+
+    return tileSources.length > 0 ? tileSources : null;
+  }
+
+  /**
    * Fallback IIIF manifest parser: recursively collects candidate service/info/image URLs
-   * and returns an array of OpenSeadragon tileSources (either info.json URLs or image objects).
-   *
-   * This is conservative and only used when the primary parser fails to return tileSources.
+   * Used when primary v2/v3 parsers fail or when manifest has non-standard structure
    */
   _parseIIIFManifestFallback(manifest) {
     const services = new Set();
@@ -380,14 +462,17 @@ class KBLightInit {
       }
       if (typeof obj !== 'object') return;
 
-      // capture service entries that may be string or object
+      // Collect service URLs
       if (obj.service) {
         const s = Array.isArray(obj.service) ? obj.service : [obj.service];
         s.forEach(si => {
           if (!si) return;
           if (typeof si === 'string') {
-            if (si.endsWith('/info.json') || si.match(/\.(jpg|png|jpeg|jp2|tif|tiff)/i)) images.add(si);
-            else services.add(si);
+            if (si.endsWith('/info.json') || si.match(/\.(jpg|png|jpeg|jp2|tif|tiff)/i)) {
+              images.add(si);
+            } else {
+              services.add(si);
+            }
             return;
           }
           const sid = si['@id'] || si.id || null;
@@ -406,16 +491,22 @@ class KBLightInit {
         });
       }
 
-      // direct id/@id
+      // Direct @id / id
       if (obj['@id'] && typeof obj['@id'] === 'string') {
         const idv = obj['@id'];
-        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
-        else services.add(idv);
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+          images.add(idv);
+        } else {
+          services.add(idv);
+        }
       }
       if (obj.id && typeof obj.id === 'string') {
         const idv = obj.id;
-        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
-        else services.add(idv);
+        if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+          images.add(idv);
+        } else {
+          services.add(idv);
+        }
       }
 
       // v3 body of type Image
@@ -423,21 +514,32 @@ class KBLightInit {
         if (obj.service) collect(obj.service);
         if (obj.id) {
           const idv = obj.id;
-          if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(idv);
-          else services.add(idv);
+          if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+            images.add(idv);
+          } else {
+            services.add(idv);
+          }
         }
       }
 
-      // url / href
+      // URL / HREF
       if (obj.url && typeof obj.url === 'string') {
         const urlv = obj.url;
-        if (urlv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(urlv);
-        if (urlv.endsWith('/info.json')) services.add(urlv);
+        if (urlv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+          images.add(urlv);
+        }
+        if (urlv.endsWith('/info.json')) {
+          services.add(urlv);
+        }
       }
       if (obj.href && typeof obj.href === 'string') {
         const hv = obj.href;
-        if (hv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) images.add(hv);
-        if (hv.endsWith('/info.json')) services.add(hv);
+        if (hv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
+          images.add(hv);
+        }
+        if (hv.endsWith('/info.json')) {
+          services.add(hv);
+        }
       }
 
       // Recurse into all properties
@@ -452,8 +554,7 @@ class KBLightInit {
 
     const tileSources = [];
 
-    // Prefer info.json endpoints where available. For generic service URLs without info.json,
-    // add both: service + '/info.json' (likely to be correct for IIIF Image Service) and a tileSource object.
+    // Prefer info.json endpoints
     services.forEach(surl => {
       if (!surl || typeof surl !== 'string') return;
       if (surl.endsWith('/info.json')) {
@@ -461,21 +562,24 @@ class KBLightInit {
       } else if (surl.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
         tileSources.push({ type: 'image', url: surl });
       } else {
-        // add service/info.json candidate
+        // Try service/info.json pattern
         const infoCandidate = surl.endsWith('/') ? (surl + 'info.json') : (surl + '/info.json');
         tileSources.push(infoCandidate);
-        // also add a generic IIIF tileSource object as fallback (OpenSeadragon may accept it)
+        // Also add generic IIIF tileSource object as fallback
         tileSources.push(this._makeIIIFImageTileSource(surl, null));
       }
     });
 
     images.forEach(img => {
       if (!img || typeof img !== 'string') return;
-      if (img.endsWith('/info.json')) tileSources.push(img);
-      else tileSources.push({ type: 'image', url: img });
+      if (img.endsWith('/info.json')) {
+        tileSources.push(img);
+      } else {
+        tileSources.push({ type: 'image', url: img });
+      }
     });
 
-    // Deduplicate while preserving order
+    // Deduplicate
     const seen = new Set();
     const unique = [];
     for (const t of tileSources) {
@@ -486,7 +590,7 @@ class KBLightInit {
       }
     }
 
-    return unique;
+    return unique.length > 0 ? unique : null;
   }
 
   _makeIIIFImageTileSource(serviceUrl, canvasItem) {
@@ -497,14 +601,14 @@ class KBLightInit {
       profile: 'http://iiif.io/api/image/2/level1.json',
       width: (canvasItem && canvasItem.width) || 800,
       height: (canvasItem && canvasItem.height) || 1000,
-      tiles: [{ width: 256, scaleFactors: [1,2,4,8,16] }]
+      tiles: [{ width: 256, scaleFactors: [1, 2, 4, 8, 16] }]
     };
   }
 
   _initOSD(tileSources, container) {
     try {
       if (!container.id) {
-        container.id = `osd-viewer-generated-${Math.floor(Math.random()*100000)}`;
+        container.id = `osd-viewer-generated-${Math.floor(Math.random() * 100000)}`;
       }
       const viewer = new OpenSeadragon({
         id: container.id,
@@ -534,9 +638,6 @@ class KBLightInit {
     }
   }
 
-  /**
-   * D3 rendering logic (unchanged)
-   */
   _renderD3Graph(graph, mappingData) {
     const nodeMapping = {};
     const legendContainer = d3.select("#legend");
@@ -650,15 +751,10 @@ class KBLightInit {
     d3.select("#modal-backdrop").style("display", "flex").attr("aria-hidden", "false");
   }
 
-  /**
-   * Start watching for DOM changes (handles MkDocs instant navigation)
-   * Debounces rapid mutation bursts and avoids re-entrancy via runPageLogic guard.
-   */
   startObserver() {
-    if (this._observer) return; // already started
+    if (this._observer) return;
 
     const observer = new MutationObserver((mutations) => {
-      // debounce: schedule runPageLogic after 150ms of no further mutations
       if (this._observerTimer) clearTimeout(this._observerTimer);
       this._observerTimer = setTimeout(() => {
         try {
@@ -670,12 +766,9 @@ class KBLightInit {
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
-
     this._observer = observer;
 
-    // Try initialization on DOMContentLoaded and run once now
     document.addEventListener('DOMContentLoaded', () => this.runPageLogic());
-    // Also run immediately (safe due to guard)
     this.runPageLogic();
   }
 }
