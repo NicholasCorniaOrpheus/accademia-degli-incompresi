@@ -1,8 +1,13 @@
 # Poetry Dataset
 
+Hundreds of poems written by the imaginary members of the academy have been manually transcribed and made available as plain text accompained by a JPG facsimile.
+
+Use the [Explore](https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/explore) advance search function in order to filter entities with the `PoeticWork` class.
+
+
 ## Notes on transcriptions
 
-The following words and characters have been changed to modern Italian spelling
+We have tried to find a compromise between a purely diplomatic transcription and modern readability of the text. The following words and characters have been changed to modern Italian spelling:
 
 | Character | Modernized version | Notes |
 | --- | --- | --- |
