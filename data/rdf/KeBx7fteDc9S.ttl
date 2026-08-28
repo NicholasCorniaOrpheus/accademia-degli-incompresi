@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KeBx7fteDc9S-3ngiyWq4dxph a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:XxRSTJ4URZ2B ;
+    rdf:predicate <> ;
+    rdf:subject adi:KeBx7fteDc9S .
+
+adi:KeBx7fteDc9S-6HL9XYuPSPXR a rdf:Statement ;
+    rdf:object adi:MQJsV2BJ226x ;
+    rdf:predicate <> ;
+    rdf:subject adi:KeBx7fteDc9S ;
+    ns1:P304 "42" ;
+    ns1:P958 "Di Mad. Diamante Dolfi." .
+
+adi:KeBx7fteDc9S a rdfs:Resource ;
+    rdfs:label "Hoggi, s'Io non m'inganno, è giunto il giorno" ;
+    <> adi:MQJsV2BJ226x,
+        adi:XxRSTJ4URZ2B ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Hoggi, s'Io non m'inganno, è giunto il giorno,
+In cui dee Potria mia co' rai lucenti
+Rischiarar l'aria, & rallegrar le genti,
+Et forse empiere il ciel d'invidia, & scorno.
+
+Già nel suo più leggiadro habito adorno
+Veggiola uscir del nido, e i fiumi, e i venti
+Fermar col riso a rimirarla intenti,
+E insieme hor questi, hor quei stupirle intorno.
+
+Veggiola poi nel sacro tempio assisa,
+Prima devota il Fattor santo adora;
+Poscia i bei lumi honesti intorno gira.
+
+Ahi che pur scorgo il suo pensiero anchora:
+Duolsi, che; mentre hor quinci, hor quindi affisa
+Gli occhi; fra tante Me con Lei non mira.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:24PiFs2FWWtK,
+        adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    skos:altLabel "Oggi, s'Io non m'inganno, è giunto il giorno" ;
+    ns1:P180 adi:gHVGjgKjtq6V,
+        adi:iUnzyAtvGSK8 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

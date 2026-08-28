@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g8YNGqbpcLMa",
+      "label": "sleep",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zb9vrgWFD8r7",
+      "label": "Notte felice, e lieta",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYy9WSfVPp6S",
+      "label": "Sonno, ch'al dolor mio puoi sol dar pace",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Zb9vrgWFD8r7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g8YNGqbpcLMa",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYy9WSfVPp6S",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g8YNGqbpcLMa",
+      "property": "subject"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Q4Rfijj4cGoz-H6Bwv2aRJeGw a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:NqoZxCbzEnSz ;
+    rdf:predicate <> ;
+    rdf:subject adi:Q4Rfijj4cGoz .
+
+adi:Q4Rfijj4cGoz-Nxyb2fxMtxMa a rdf:Statement ;
+    rdf:object adi:AbDZnrEnp7Un ;
+    rdf:predicate <> ;
+    rdf:subject adi:Q4Rfijj4cGoz ;
+    ns1:P304 "2" ;
+    ns1:P958 "Canto I, 3" .
+
+adi:Q4Rfijj4cGoz a rdfs:Resource ;
+    rdfs:label "Musa che meco in basso stil cantasti" ;
+    <> adi:AbDZnrEnp7Un,
+        adi:NqoZxCbzEnSz ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Musa che meco in basso stil cantasti,
+Al dolce canto di garuli Augelli,
+Alla grat'ombra l'aura fermasti
+El mormorio di limpidi Ruscelli:
+Scherzi vari d'Amor, honesti, e casti,
+Di Ninfe, e di Pastor leggiadri, e belli;
+S'audace hora a cantar sì alte imprese
+M'accingo, di favor siemi cortese.""" ;
+    dc:subject adi:3ruLTSyv8VeY,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ByFdYpwqvPWu,
+        adi:Dw8U7c9dKgjv,
+        adi:FA8L7HT8s3Go,
+        adi:PnkoxmTbaCXr,
+        adi:ddw2PSbVUZ6t,
+        adi:iUnzyAtvGSK8 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

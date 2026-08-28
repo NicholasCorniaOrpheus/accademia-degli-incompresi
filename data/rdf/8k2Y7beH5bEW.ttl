@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8k2Y7beH5bEW-23HyQaq9EwKr a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:KkirRe7joUQE ;
+    rdf:predicate <> ;
+    rdf:subject adi:8k2Y7beH5bEW .
+
+adi:8k2Y7beH5bEW-eqZG5aBRPVET a rdf:Statement ;
+    rdf:object adi:fJsWsFf9zJgc ;
+    rdf:predicate <> ;
+    rdf:subject adi:8k2Y7beH5bEW ;
+    ns1:P304 "11" ;
+    ns1:P958 "A Pietro Manelli." .
+
+adi:8k2Y7beH5bEW a rdfs:Resource ;
+    rdfs:label "Se ben pietosa madre unico figlio" ;
+    <> adi:KkirRe7joUQE,
+        adi:fJsWsFf9zJgc ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Se ben pietosa madre unico figlio
+Perde talhora, & nuovo alto dolore
+Le preme il tristo, & sospiroso core,
+Spera conforto almen, spera consiglio;
+
+Se scaltro Capitano in gran periglio
+Mostrando alteramente il suo valore
+Resta vinto, & prigion, spera uscir fuore
+Quando che sia con baldanzoso ciglio:
+
+S'in tempestoso mar giunto si duole
+Spaventato Nocchier già presso a morte,
+Ha speme anchor di rivedersi in porto.
+
+Ma io, s'avvien che perda il mio bel Sole,
+O per mia colpa, o per malvagia sorte,
+Non spero haver, né voglio alcun conforto.""" ;
+    dc:subject adi:gcrqwjgvBQyM,
+        adi:o2i89qrxS3XR ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=22687> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:7c9f6d4Y2VnP,
+        adi:Dzfwa86PTDPj,
+        adi:XF9vnVnjvEzN ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

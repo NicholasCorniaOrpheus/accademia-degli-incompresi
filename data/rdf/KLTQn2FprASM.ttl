@@ -1,0 +1,65 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KLTQn2FprASM-7Pq9Gb7TXGgW a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00083511> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:Ah3xiLm7tVeM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00083511/manifest> ;
+    rdf:object "Nc685df95225b4b859633d21269321dee" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KLTQn2FprASM ;
+    schema:datePublished "1582" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045282> .
+
+adi:KLTQn2FprASM-9JwK3FvBwJqh a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM-CTpaaT5Aa7yc a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM-DmkPCHZteznF a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM-eL62DmHC94sG a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:UE5wVYcJfR6n ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM-hkDBRgWn3AHz a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFmEeeyWJZMt" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM-mdDW4oXB4bNx a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KLTQn2FprASM .
+
+adi:KLTQn2FprASM a rdfs:Resource ;
+    rdfs:label "Di Luca Marenzio il terzo libro de madrigali a cinque voci" ;
+    <> adi:UE5wVYcJfR6n,
+        "1582" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045282> ;
+    dcterms:title "Di Luca Marenzio il terzo libro de madrigali a cinque voci. Nouamente composti & dati in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P31 adi:N6jMCTymbADK .
+

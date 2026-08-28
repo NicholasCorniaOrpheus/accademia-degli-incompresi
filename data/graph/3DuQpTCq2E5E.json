@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3DuQpTCq2E5E",
+      "label": "sin",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3Ea3TN4tYPx",
+      "label": "S'ottenebra la Terra, il Sol s'oscura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ak7HG34jTGEq",
+      "label": "Mesta, e pentita de' miei gravi errori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D3Ea3TN4tYPx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3DuQpTCq2E5E",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ak7HG34jTGEq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3DuQpTCq2E5E",
+      "property": "depicts"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6QVFxHipe8JB-k9oN48BYENmK a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:SkU8K6nXSqeb ;
+    rdf:predicate <> ;
+    rdf:subject adi:6QVFxHipe8JB .
+
+adi:6QVFxHipe8JB-o2PUzakXbWJE a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:XtiKQkt7awAq ;
+    rdf:predicate <> ;
+    rdf:subject adi:6QVFxHipe8JB .
+
+adi:6QVFxHipe8JB a rdfs:Resource ;
+    rdfs:label "Son vecchio innamorao (Agostini)" ;
+    <> adi:SkU8K6nXSqeb,
+        adi:XtiKQkt7awAq,
+        adi:hiE7NEWM6ThN ;
+    pdc:text """Son vecchio innamorao
+E volentiera,
+M'alliegro e canto sono de lauto
+E non in tel mio horto,
+Sunado fighi
+I bianchi negri e zali.
+Può tutti quanti i dago per tributo
+Al viso de Lionora.
+Ch'amando me desseca de hora in hora.""" ;
+    dc:subject adi:KbxBVs3YAzhk,
+        adi:fAjWJgtLnHhs ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F274790000010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:2bhdRbc5uz6o ;
+    wdt:P870 adi:UzQqDq2qMKwd ;
+    ns1:P180 adi:7ZyCaZhcBgFv,
+        adi:DMPR5m5PZxqA,
+        adi:bHJG3dg7VrRb,
+        adi:gHVGjgKjtq6V .
+

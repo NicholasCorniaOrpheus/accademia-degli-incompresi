@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mVByEG7zirhk-9t3qUuHCsa7B a rdf:Statement ;
+    rdf:object adi:JQq3N3zLE9Lo ;
+    rdf:predicate <> ;
+    rdf:subject adi:mVByEG7zirhk ;
+    ns1:P304 "62" ;
+    ns1:P958 "Descrittione del Tempo" ;
+    schema:volumeNumber "Rime morali" .
+
+adi:mVByEG7zirhk-nrG2Ce9a9L8H a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:aS9jDyDiqBTA ;
+    rdf:predicate <> ;
+    rdf:subject adi:mVByEG7zirhk .
+
+adi:mVByEG7zirhk a rdfs:Resource ;
+    rdfs:label "Di tre corpi è composto il Tempo alato" ;
+    <> adi:JQq3N3zLE9Lo,
+        adi:aS9jDyDiqBTA ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Di tre corpi è composto il Tempo alato
+L'uno in mezzo agli due detto è Presente,
+Brevissimo di Mole, e ogni hor cadente,
+Agilissimo al volo, e ogni hor legato.
+
+L'altro, che resta indietro, egli è 'l Passato,
+Quasi ridotto a imaginabil Ente,
+Sembra un Fragmento informe, anzi un niente,
+In cui torna a giacer tutto il Creato.
+
+L'ultimo Corpo suo poscia è 'l Futuro,
+Che di tenebre ignote il volto ingombra,
+Né si ravvisa mai, stando all'oscuro.
+
+Tale il Tempo fugace a l'Huom s'adombra,
+In questo Gerion, ch'esser figuro
+Su tre momenti, un Lampo, un Sogno, un'Ombra.""" ;
+    dc:description "Praise of Time, divided in the three bodies of Present, Past and Future. The three entities are related to a lightning, a dream, and a shadow respectively." ;
+    dc:subject adi:UqnUAQGAvufG,
+        adi:mKfEc82yh2qM ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Q9hnBAQFhpb7 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

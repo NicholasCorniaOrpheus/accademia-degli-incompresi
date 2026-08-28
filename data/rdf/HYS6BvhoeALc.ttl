@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HYS6BvhoeALc-AmWfD3BZw8bf a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:Y7nKeaD2TXLv ;
+    rdf:predicate <> ;
+    rdf:subject adi:HYS6BvhoeALc ;
+    schema:OrganizationRole adi:F4KLdoEW9rAv ;
+    schema:startDate "1580" .
+
+adi:HYS6BvhoeALc-WkGbyWmtGV95 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "19569" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HYS6BvhoeALc .
+
+adi:HYS6BvhoeALc a rdfs:Resource ;
+    rdfs:label "Isabella Pallavicino" ;
+    <> adi:Y7nKeaD2TXLv ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q106614006> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Isabella Pallavicino Lupi" ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

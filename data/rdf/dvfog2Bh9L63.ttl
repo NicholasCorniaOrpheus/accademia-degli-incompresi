@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dvfog2Bh9L63-UJztimVXFTRo a rdf:Statement ;
+    dcterms:references adi:JjLg2AKb7hoK ;
+    rdf:object adi:AtYFns9BtQHt ;
+    rdf:predicate <> ;
+    rdf:subject adi:dvfog2Bh9L63 .
+
+adi:dvfog2Bh9L63-gNc8EE9k5SX2 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16248" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dvfog2Bh9L63 .
+
+adi:dvfog2Bh9L63 a rdfs:Resource ;
+    rdfs:label "Scipione Bargagli" ;
+    <> adi:AtYFns9BtQHt,
+        adi:JCBpTmtUqcFv,
+        adi:MYfqAMA7FA2N ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3952391> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

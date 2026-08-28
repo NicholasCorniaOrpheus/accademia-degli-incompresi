@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iNStXX4UFoEj-9JrMxUTvAX23 a rdf:Statement ;
+    rdf:object adi:ENq7SsHPfC3T ;
+    rdf:predicate <> ;
+    rdf:subject adi:iNStXX4UFoEj ;
+    ns1:P304 "310" ;
+    ns1:P958 "Fausta Tacita." .
+
+adi:iNStXX4UFoEj-NsiTZgdDMCmG a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WVoqVbuogPXu ;
+    rdf:predicate <> ;
+    rdf:subject adi:iNStXX4UFoEj .
+
+adi:iNStXX4UFoEj-fXN6KfCLoKxz a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:drasiKYKtnDo ;
+    rdf:predicate <> ;
+    rdf:subject adi:iNStXX4UFoEj .
+
+adi:iNStXX4UFoEj a rdfs:Resource ;
+    rdfs:label "Non teme oh Dea di questa età gentile" ;
+    <> adi:ENq7SsHPfC3T,
+        adi:WVoqVbuogPXu,
+        adi:drasiKYKtnDo ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Non teme oh Dea di questa età gentile
+La fabrica immortal del Tempio vostro,
+Quanto offende la nostra; e ogni simile
+Ad altrui danno, e per essempio nostro,
+Folgori, tuoni, e l'immutabil stile
+Del tempo crudo, e dispietato monstro;
+Sendo i beati suoi fabricatori
+Alme, eccellenti, e gloriosi cori.""" ;
+    dc:subject adi:WdY5JsWWztUd,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    skos:altLabel "Non teme ò Dea di questa età gentile" ;
+    ns1:P180 adi:Q9hnBAQFhpb7,
+        adi:aZcsYMk8W84Z,
+        adi:drasiKYKtnDo,
+        adi:nGmjWLga97hz ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:J9smHnLN7TwV-GG3fd3yU9AKj a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:J9smHnLN7TwV .
+
+adi:J9smHnLN7TwV-knBCE3dbPkCj a rdf:Statement ;
+    rdf:object adi:ZhFND9vWXDNb ;
+    rdf:predicate <> ;
+    rdf:subject adi:J9smHnLN7TwV ;
+    ns1:P304 "69" ;
+    ns1:P958 "12" .
+
+adi:J9smHnLN7TwV a rdfs:Resource ;
+    rdfs:label "Tosto che'l sol si scopre in orïente" ;
+    <> adi:ZhFND9vWXDNb,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Tosto che'l sol si scopre in orïente
+Lagrimosa tempesta agli occhi sorge,
+Né perché si ricopra in occidente
+Tregua al mio lagrimar la doglia porge.
+Splendan le stell'o sian dal giorno spente
+Sempre più vivo il pianto mio risorge;
+O sia torbida l'ora o sia tranquilla
+In mestissimo umor l'alma si stilla.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/073400000101_PPPP00130600C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:Suq86ApyHSzQ,
+        adi:d6Scakn6F3bd,
+        adi:hmGaXqatDNBT ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MUqEKWsDr6VG-2N27LRevUUAW a rdf:Statement ;
+    bf:Role adi:QCahxhU4Tbt4 ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:MUqEKWsDr6VG .
+
+adi:MUqEKWsDr6VG-TGvXUGjQqPXD a rdf:Statement ;
+    rdf:object adi:8bcRKeoRwLYe ;
+    rdf:predicate <> ;
+    rdf:subject adi:MUqEKWsDr6VG ;
+    ns1:P958 "Chiara Matraini, IV" .
+
+adi:MUqEKWsDr6VG a rdfs:Resource ;
+    rdfs:label "Tu dunque figlio sei morto, che solo" ;
+    <> adi:8bcRKeoRwLYe,
+        adi:UHzA5avQDdMJ ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Tu dunque, figlio, sei morto, che solo
+Eri qui della mia vita conforto,
+E del mio legno travagliato il porto,
+E d'ogn'orrida mia tempesta il polo?
+
+Ahi come presto al Cielo alzato a volo
+Ti sei, lasciando me per questo torto
+Camin, dov'or dubbiosa e stanca porto
+Questa mia vita fral carca di duolo.
+
+Ma poiché così piacque al tuo Fattore,
+Pregal che tempri almeno il dolor mio,
+Che col pianger non turbi il tuo diletto;
+
+E vien talor con filiale amore
+A consolarmi, onde quest'aspro e rio
+Dolor volghi in più caro e santo affetto.""" ;
+    dc:subject adi:VvwqSP8dg3vT ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29251> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:24PiFs2FWWtK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    ns1:P180 adi:7c9f6d4Y2VnP,
+        adi:7iFPYdb9Lkjr,
+        adi:Suq86ApyHSzQ,
+        adi:XBXTcUPpGVNf ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

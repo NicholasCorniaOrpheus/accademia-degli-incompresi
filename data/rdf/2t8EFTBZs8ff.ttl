@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:2t8EFTBZs8ff-AQkqFvcQrU4U a rdf:Statement ;
+    rdf:object adi:NWnCiX3cyfCg ;
+    rdf:predicate <> ;
+    rdf:subject adi:2t8EFTBZs8ff ;
+    ns1:P304 "76" ;
+    ns1:P958 "Bartolomeo Ferrino." .
+
+adi:2t8EFTBZs8ff-QYCbyp26K446 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:PsKxUAuVhYJe ;
+    rdf:predicate <> ;
+    rdf:subject adi:2t8EFTBZs8ff .
+
+adi:2t8EFTBZs8ff a rdfs:Resource ;
+    rdfs:label "Stella, che fra le stelle" ;
+    <> adi:NWnCiX3cyfCg,
+        adi:PsKxUAuVhYJe ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Stella, che fra le stelle,
+Quasi un Sol siedi, e con duo vivi Soli
+Al Sol la luce, & a me il core involi,
+Se Tu fra l'altre belle
+Fossi o men bella, o più cortese un poco,
+Cenerer è tal, che saria ancora foco.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/041210000101_PPPP00117901C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:NbBMYT8M5qdr,
+        adi:n8dKKupcf2zK ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

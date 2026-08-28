@@ -1,0 +1,25 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:n4tarmZUbWB4-jx55X68FDhfJ a rdf:Statement ;
+    dcterms:references adi:HEJhw7aUDJZz ;
+    rdf:object adi:ZeHYJAGwEQHj ;
+    rdf:predicate <> ;
+    rdf:subject adi:n4tarmZUbWB4 ;
+    schema:OrganizationRole adi:GmGq99KvvjdM .
+
+adi:n4tarmZUbWB4 a rdfs:Resource ;
+    rdfs:label "Giovanni Battista Palatino" ;
+    <> adi:P5ipTFsK5dJG,
+        adi:ZeHYJAGwEQHj ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:HEJhw7aUDJZz ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Giovan Battista Palatino" ;
+    schema:gender adi:5bZY447EzsJq .
+

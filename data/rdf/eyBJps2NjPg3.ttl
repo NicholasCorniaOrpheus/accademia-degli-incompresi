@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eyBJps2NjPg3-F23DPUj5xnnc a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:LbcRaEPP7mov ;
+    rdf:predicate <> ;
+    rdf:subject adi:eyBJps2NjPg3 .
+
+adi:eyBJps2NjPg3-HcFBJHeeKXR5 a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080881> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:BAscdG7oumi7 ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080881/manifest> ;
+    rdf:object "N60e7b6e8fc4c4d029a0438137832f339" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:eyBJps2NjPg3 ;
+    schema:datePublished "1542" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044932> .
+
+adi:eyBJps2NjPg3-NuEXoq4SGrzH a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eyBJps2NjPg3 .
+
+adi:eyBJps2NjPg3-Z566GQPCanbs a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eyBJps2NjPg3 .
+
+adi:eyBJps2NjPg3-a7FbEPEWQ58j a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eyBJps2NjPg3 .
+
+adi:eyBJps2NjPg3-gUC4FZaLoDu2 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eyBJps2NjPg3 .
+
+adi:eyBJps2NjPg3 a rdfs:Resource ;
+    rdfs:label "Il primo libro di madrigali de diversi eccellentissimi autori a misura di breve a quattro voci" ;
+    <> adi:LbcRaEPP7mov,
+        "1542" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV50640010>,
+        <https://rism.online/sources/993104334> ;
+    dcterms:title "Il primo libro d' madrigali de diversi eccellentissimi autori a misura di breve a quattro voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

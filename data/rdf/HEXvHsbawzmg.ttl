@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HEXvHsbawzmg-XewaCUSuWLgn a rdf:Statement ;
+    rdf:object adi:Ew34m9NBYVrU ;
+    rdf:predicate <> ;
+    rdf:subject adi:HEXvHsbawzmg ;
+    ns1:P304 "109" ;
+    ns1:P958 "Del Solingo" .
+
+adi:HEXvHsbawzmg-YmjVhWBFtkEj a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jdU8LTzmAMxT ;
+    rdf:predicate <> ;
+    rdf:subject adi:HEXvHsbawzmg .
+
+adi:HEXvHsbawzmg a rdfs:Resource ;
+    rdfs:label "Mentre'l Pianeta gira in Capricorno" ;
+    <> adi:Ew34m9NBYVrU,
+        adi:jdU8LTzmAMxT ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Mentre'l Pianeta gira in Capricorno
+Che scalda hor questo hor quell'altro hemispero;
+Et da noi si diparte'l mio Sol vero,
+Gelido, breve, & nubiloso è il Giorno.
+
+Gli arbori nudi, e i monti stanno intorno
+Vestiti del color contrario al nero;
+Et con sembiante rio, squallido, & fero
+Hor Austro spira, hor' Aquilon dal corno.
+
+Ma se'l mio Sol d'altera luce pieno
+Torna; quantunque l'altro lungi stia;
+Ne ver noi volga pigro il carro leve;
+
+Vedrò temprato'l Dì, lungo & sereno;
+Gli Arbori haver le frondi come pria,
+Fiorir'il Ghiaccio & fiammeggiar la Neve.""" ;
+    dc:subject adi:9R22nChmKScL,
+        adi:T5kQoJ6RQuQc,
+        adi:o2i89qrxS3XR ;
+    dcterms:identifier <https://lyra.unil.ch/poems/13389> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:24PiFs2FWWtK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:EY8rp5qPSPGb,
+        adi:Rkqg3J6afECo,
+        adi:d6Scakn6F3bd ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Kvz8L72mHviv-hvqP5pYZhHnz a rdf:Statement ;
+    rdf:object adi:ntSDGzZoi2Eb ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kvz8L72mHviv ;
+    ns1:P304 "39" ;
+    ns1:P958 "Mad. XV" .
+
+adi:Kvz8L72mHviv-mXMvs2aDDQFv a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kvz8L72mHviv .
+
+adi:Kvz8L72mHviv a rdfs:Resource ;
+    rdfs:label "Al'apparir del Sole" ;
+    <> adi:ke7Y8iiuR8Rg,
+        adi:ntSDGzZoi2Eb ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Al’apparir del Sole
+La neve in liquid'onde
+Per sua natura distillar si suole.
+Io (lassa) quando il mio bel Sol s’asconde
+Verso da gli occhi tanto
+Humor, che tutta mi distillo in pianto.""" ;
+    dc:subject adi:RxPzK5AT4e8P,
+        adi:WziXzP4KdMYo ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Rkqg3J6afECo,
+        adi:Suq86ApyHSzQ,
+        adi:d6Scakn6F3bd ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

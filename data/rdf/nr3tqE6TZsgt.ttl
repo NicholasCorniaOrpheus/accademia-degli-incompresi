@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:nr3tqE6TZsgt-fh9z8W53HTsp a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:NqAa4C6LiGN8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:nr3tqE6TZsgt .
+
+adi:nr3tqE6TZsgt-hEkMqM3vekVa a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=muBICS6rR74C> ;
+    rdf:object "Nfb50b21fdfa74ed2bc2e65eb553499ec" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:nr3tqE6TZsgt ;
+    schema:datePublished "1559" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE029871> .
+
+adi:nr3tqE6TZsgt a rdfs:Resource ;
+    rdfs:label "Del modo di comporre in versi nella lingua italiana, trattato di Girolamo Ruscelli" ;
+    <> adi:NqAa4C6LiGN8,
+        "1559" ;
+    dc:subject adi:BvVWzBztq38s,
+        adi:RmaA75A9H4A7,
+        adi:jh8gsPV8qSg8 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE029871> ;
+    dcterms:title "Del modo di comporre in versi nella lingua italiana, trattato di Girolamo Ruscelli" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:ajgtt88cevRe ;
+    wdt:P31 adi:m7L8ASjPN8nA .
+

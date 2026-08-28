@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6dBGbXyqu7h5-3rZJqUnDHjNo a rdf:Statement ;
+    dcterms:references adi:eqXqmD8qjEdV ;
+    rdf:object adi:UyK6rcL5shtk ;
+    rdf:predicate <> ;
+    rdf:subject adi:6dBGbXyqu7h5 ;
+    schema:startDate "1565" .
+
+adi:6dBGbXyqu7h5-NWfHMckKfDgQ a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "493" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6dBGbXyqu7h5 .
+
+adi:6dBGbXyqu7h5 a rdfs:Resource ;
+    rdfs:label "Accademia del Disegno di Firenze" ;
+    <> adi:GvYVBMCkzMzW,
+        adi:UyK6rcL5shtk,
+        adi:eRj7U7HDLrGe ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1760178> ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:faKgxGgth5dr .
+

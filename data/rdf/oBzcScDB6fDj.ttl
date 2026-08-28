@@ -1,0 +1,27 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oBzcScDB6fDj-jbifLnSWYnYn a rdf:Statement ;
+    rdf:object adi:mWwsLAHpHDwR ;
+    rdf:predicate <> ;
+    rdf:subject adi:oBzcScDB6fDj .
+
+adi:oBzcScDB6fDj-mhBA8aqJ3iCE a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "5031" ;
+    rdf:predicate <> ;
+    rdf:subject adi:oBzcScDB6fDj .
+
+adi:oBzcScDB6fDj a rdfs:Resource ;
+    rdfs:label "Paolo Emilio Balzani" ;
+    <> adi:NAvcJHrBT6mr,
+        adi:mWwsLAHpHDwR ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

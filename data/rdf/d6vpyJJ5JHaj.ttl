@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:d6vpyJJ5JHaj-9smUUo6nb7UF a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7TnLZgFCSpP2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:d6vpyJJ5JHaj .
+
+adi:d6vpyJJ5JHaj-RMdTvt9uNJGT a rdf:Statement ;
+    rdf:object adi:YGHkPLurgTyx ;
+    rdf:predicate <> ;
+    rdf:subject adi:d6vpyJJ5JHaj ;
+    ns1:P304 "45" ;
+    ns1:P958 "Dell'Incolto" .
+
+adi:d6vpyJJ5JHaj a rdfs:Resource ;
+    rdfs:label "Chi può le stelle, o le minute arene" ;
+    <> adi:7TnLZgFCSpP2,
+        adi:YGHkPLurgTyx ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Chi può le stelle, o le minute arene,
+O tutte annoverar l'istabili onde;
+E dir quanto su 'l dorso alto sostiene
+Il siluoso Appennin piant', herbe, e fronde.
+Dirà quant'io martir sostenga, e pene,
+Quante asconda il mio cor piaghe profonde.
+Quanti, lunge da voi, mia bella Aurora,
+Prieghi, pianti, e sospir vi mandi ogn'hora.""" ;
+    dc:description "The author is departed from their lover, who moved on the other side of the Appenines." ;
+    dc:subject adi:RxPzK5AT4e8P ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:hsbyjtxJK8Q5 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

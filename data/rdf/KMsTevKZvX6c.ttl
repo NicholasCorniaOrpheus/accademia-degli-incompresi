@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KMsTevKZvX6c-JC6pv7YCeQpw a rdf:Statement ;
+    rdf:object adi:LgvtnF7kZsg4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:KMsTevKZvX6c ;
+    ns1:P958 "Canto II, 2" .
+
+adi:KMsTevKZvX6c-dyVYR7Wx3nCM a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:3KxURtKJVxAF ;
+    rdf:predicate <> ;
+    rdf:subject adi:KMsTevKZvX6c .
+
+adi:KMsTevKZvX6c a rdfs:Resource ;
+    rdfs:label "Oh beati color; c'hanno duo cori" ;
+    <> adi:3KxURtKJVxAF,
+        adi:LgvtnF7kZsg4 ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Oh beati color ch'hanno duo cori
+In un sol core, è due alme in un'alma,
+Due vite in una vita, è i loro ardori
+Quetano in pace graziosa & alma;
+Beatissimi quei, c'hanno i fervori
+Con desio pari scarchi d'ogni salma,
+Né invidia o gelosia, né avara sorte
+Gli nega alcun piacer sino a la morte.""" ;
+    dc:subject adi:UZuCbSwwuwLY ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    skos:altLabel "O beati color; c'hanno duo cori" ;
+    ns1:P180 adi:VGUgNmuMpvAd ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aHk576iUineE-3h9SbjDrN2pA a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:kFghMqXMQGVb ;
+    rdf:predicate <> ;
+    rdf:subject adi:aHk576iUineE .
+
+adi:aHk576iUineE-DnDX5vGZXAVw a rdf:Statement ;
+    bf:Role adi:WsQJYjxufGKj ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:aHk576iUineE .
+
+adi:aHk576iUineE-SUcYdKvAP9ZV a rdf:Statement ;
+    rdf:object adi:RKTcVMFKo3J8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:aHk576iUineE ;
+    ns1:P304 "10" ;
+    ns1:P958 "All'Ill. Donna Dianora Sanseverina." .
+
+adi:aHk576iUineE a rdfs:Resource ;
+    rdfs:label "Son pochi i giorni, e poche anchor son l'hore" ;
+    <> adi:RKTcVMFKo3J8,
+        adi:UHzA5avQDdMJ,
+        adi:kFghMqXMQGVb ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Son pochi i giorni, e poche anchor son l'hore,
+Che la musa, qual tanto al mondo adoro,
+Porge cotal favore al sacro alloro,
+Ch'ad alteri pensier, rivolge il core.
+
+Io, che vo contemplando il grande amore,
+Di verde speme l'arbor verde infioro;
+Che scenderà virtù da l'alto choro,
+Per cui nascer vedrommi eterno honore,
+
+Et bramando di ciò saperne'l tutto,
+Ritrovo pur chi mi dimostri'l vero,
+E scorgo che d'appresso il ben deriva.
+
+Tostro dic'io; oh aventuroso frutto,
+Oh dolce albergo del celeste impero,
+Cagion che Laura col suo Lauro viva.""" ;
+    dc:subject adi:7WeFjGjWjnCx,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:DGVEXnoNEPuk,
+        adi:PnkoxmTbaCXr ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eD2HQtUhZbtT-HjsgfiKJbV2K a rdf:Statement ;
+    dcterms:references adi:moMvn2zeurCU ;
+    rdf:object adi:5VB64Nf9sroY ;
+    rdf:predicate <> ;
+    rdf:subject adi:eD2HQtUhZbtT .
+
+adi:eD2HQtUhZbtT-ZsVvahSXw7zc a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "18680" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eD2HQtUhZbtT .
+
+adi:eD2HQtUhZbtT a rdfs:Resource ;
+    rdfs:label "Silvio Antoniano" ;
+    <> adi:5VB64Nf9sroY,
+        adi:AwveTDUETzJD,
+        adi:P5ipTFsK5dJG ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q2077568> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

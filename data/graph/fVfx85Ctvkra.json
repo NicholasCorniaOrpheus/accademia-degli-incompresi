@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fVfx85Ctvkra",
+      "label": "(Broccia 2008)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UM9xZgZBDFdw",
+      "label": "Oh tante indarno mie fatiche sparse",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cAY8wr9pyjdc",
+      "label": "Gaspara Stampa",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gaspara_stampa1738.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UM9xZgZBDFdw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fVfx85Ctvkra",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cAY8wr9pyjdc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fVfx85Ctvkra",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UM9xZgZBDFdw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cAY8wr9pyjdc",
+      "property": "contributor"
+    }
+  ]
+}

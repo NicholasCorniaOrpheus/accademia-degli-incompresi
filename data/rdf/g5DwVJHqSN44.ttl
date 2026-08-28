@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:g5DwVJHqSN44-D6cotdSEd8aS a rdf:Statement ;
+    rdf:object adi:5iXwaGiNygMt ;
+    rdf:predicate <> ;
+    rdf:subject adi:g5DwVJHqSN44 ;
+    ns1:P304 "24-25" ;
+    ns1:P958 "Girolamo Mutio." .
+
+adi:g5DwVJHqSN44-ToqnxGHciBoN a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:APcw3ZUjQEAq ;
+    rdf:predicate <> ;
+    rdf:subject adi:g5DwVJHqSN44 .
+
+adi:g5DwVJHqSN44 a rdfs:Resource ;
+    rdfs:label "È veramente ceco" ;
+    <> adi:5iXwaGiNygMt,
+        adi:APcw3ZUjQEAq ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """DONNA reale, a cui dal Sol superno
+Fu del suo lume data sì gran parte,
+Ch'occhio mortal, non scorge in altra parte
+Più chiaro il fiammeggiar del foco eterno;
+
+Quantunque volte col pensier m'interno
+Al ben, che'l Cielo in voi largo comparte,
+Veggio mancare ingegni, e lingue, e carte,
+A la divinità, ch'in voi discerno.
+
+Ma dapoi che virtù d'humano ingegno,
+Ben ch'ogn'alma gentil di voi s'honori,
+Non può de' merti vostri andare al segno;
+
+Un novo Tempio a' vostri eccelsi honori
+Consacra il Mondo; e veramente è degno,
+Ch'in voi di DIO l'imagine s'adori.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BQRZFgW6wAyq,
+        adi:drasiKYKtnDo,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

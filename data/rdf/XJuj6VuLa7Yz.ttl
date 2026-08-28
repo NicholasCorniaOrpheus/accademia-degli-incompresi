@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XJuj6VuLa7Yz-8dPgpGXwvctV a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=6rGMUihnIQsC> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N61e95a1645ea4167a1bc0c8171b1f00e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XJuj6VuLa7Yz ;
+    schema:datePublished "1603" ;
+    schema:url <http://id.sbn.it/bid/BVEE027265> .
+
+adi:XJuj6VuLa7Yz-C2y3ZYgaCBgo a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:PBEhrmkec4qK ;
+    rdf:predicate <> ;
+    rdf:subject adi:XJuj6VuLa7Yz .
+
+adi:XJuj6VuLa7Yz a rdfs:Resource ;
+    rdfs:label "Rime sacre della molto illustre sig. Lucretia Marinella" ;
+    <> adi:PBEhrmkec4qK,
+        "1603" ;
+    dc:subject adi:eRj7U7HDLrGe,
+        adi:kiy25fDKSzMY ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE027265> ;
+    dcterms:title "Rime sacre della molto illustre sig. Lucretia Marinella. Frà le quali è un poemetto, in cui si racconta l'historia della Madonna dipinta da San Luca, che è su'l monte della Guardia nel tenitorio di Bologna" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

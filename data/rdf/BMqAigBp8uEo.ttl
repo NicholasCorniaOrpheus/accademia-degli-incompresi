@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BMqAigBp8uEo-28yje56xYMXH a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:PE5uAEyVKtpe ;
+    rdf:predicate <> ;
+    rdf:subject adi:BMqAigBp8uEo .
+
+adi:BMqAigBp8uEo-48oiuzCVicW4 a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:mWwsLAHpHDwR ;
+    rdf:predicate <> ;
+    rdf:subject adi:BMqAigBp8uEo .
+
+adi:BMqAigBp8uEo-h9CGz7xzRQme a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "5111" ;
+    rdf:predicate <> ;
+    rdf:subject adi:BMqAigBp8uEo .
+
+adi:BMqAigBp8uEo a rdfs:Resource ;
+    rdfs:label "Prospero Bonarelli della Rovere" ;
+    <> adi:4AB2zhiGQJga,
+        adi:PE5uAEyVKtpe,
+        adi:mWwsLAHpHDwR,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/H6ou6HrJ3pgn" ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

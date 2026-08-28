@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9L6LYHSjdpwR-TDKnGTKZYLih a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:9L6LYHSjdpwR .
+
+adi:9L6LYHSjdpwR-eo4LwSSUeRPT a rdf:Statement ;
+    rdf:object adi:ntSDGzZoi2Eb ;
+    rdf:predicate <> ;
+    rdf:subject adi:9L6LYHSjdpwR ;
+    ns1:P304 "106" ;
+    ns1:P958 "Mad. LIII" .
+
+adi:9L6LYHSjdpwR a rdfs:Resource ;
+    rdfs:label "Amorosa mia Clori" ;
+    <> adi:ke7Y8iiuR8Rg,
+        adi:ntSDGzZoi2Eb ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Amorosa mia Clori
+Se ti rimembra un bacio mi donasti
+Lungo questo bel Rio tra questi fiori;
+E s'io tacea giurasti,
+Che mille ancor me ne deresti poi.
+Io'l tacqui, e'l taccio, e s'io no'l fò palese
+Bella Ninfa, e cortese
+Perché non servi i giuramenti tuoi?
+Baciami, che i tuo'baci
+Fien de la lingua mia nodi tenaci.""" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F000350000101_PPPP00011000C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:EKaLD8cqJKoc,
+        adi:GMAwvtJt3st5,
+        adi:PkJjQdNqm3ok,
+        adi:YGRByAyckPA5,
+        adi:npjr3SjemrV3 ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

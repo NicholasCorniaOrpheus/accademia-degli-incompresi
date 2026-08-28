@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YpGL53XSv6SZ-9VabezPJtndV a rdf:Statement ;
+    rdf:object adi:ZYzyG5Kmbf7X ;
+    rdf:predicate <> ;
+    rdf:subject adi:YpGL53XSv6SZ ;
+    ns1:P958 "Egloga I" .
+
+adi:YpGL53XSv6SZ-fnz27ySr7BWx a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:QUHAq7K8fEy9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YpGL53XSv6SZ .
+
+adi:YpGL53XSv6SZ a rdfs:Resource ;
+    rdfs:label "Fiere silvestre, che per lati campi" ;
+    <> adi:QUHAq7K8fEy9,
+        adi:ZYzyG5Kmbf7X ;
+    pdc:poeticType adi:X5mzWGfcQaQ3 ;
+    pdc:text """Fiere silvestre, che per lati campi
+Vagando errate e per acuti sassi,
+Udiste mai sì dolorose rime?
+Ditel, per dio. Udiste in alcun giorno,
+O pur in questa o ver in altra valle,
+Con sì caldi sospir sì lungo pianto?""" ;
+    dc:description "The shepherd asks the wild animals of the forest if they have ever listen to such intense weeping." ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/025800000501_PPPP00260406> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BvVWzBztq38s,
+        adi:JUdJWGgBjkYx,
+        adi:Suq86ApyHSzQ,
+        adi:ddw2PSbVUZ6t ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

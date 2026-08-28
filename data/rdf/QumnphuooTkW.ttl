@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QumnphuooTkW-SEJrUee9N8bf a rdf:Statement ;
+    rdf:object adi:d564otbkr4yr ;
+    rdf:predicate <> ;
+    rdf:subject adi:QumnphuooTkW ;
+    ns1:P304 "56" ;
+    ns1:P958 "Lucia Albana Avogadra." .
+
+adi:QumnphuooTkW-gUWp4sBx66F2 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:NDVE5winoWzB ;
+    rdf:predicate <> ;
+    rdf:subject adi:QumnphuooTkW .
+
+adi:QumnphuooTkW a rdfs:Resource ;
+    rdfs:label "Se satia ancor non sie crudel Fortuna" ;
+    <> adi:NDVE5winoWzB,
+        adi:d564otbkr4yr ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Se SATIA ancor non sie crudel Fortuna
+Di contrastar' ogn'hora a' miei desiri,
+E colmarmi di doglia, e di martiri,
+Di novo contra me tue forze aduna.
+
+Che non sia mai però mai d'Amor digiuna
+La mente mia, e pria pianti, e sospiri
+Saranno in Ciel, né più faran suoi giri
+Le stelle, e fia del Sol la luce bruna;
+
+Ch'Amor disciolga la forte catena,
+Con cui preso, e legato tiemmi il core,
+O ch'in me novo ardor' haggia mai loco.
+
+Perché'l mio destin vuol, ch'ogni mia pena
+Termini, amando infin' a l'ultim'hore,
+Chi fu prima cagion del mio gran foco.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:GMAwvtJt3st5,
+        adi:mRQuwpcHyKRP ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

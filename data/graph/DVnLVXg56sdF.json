@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVnLVXg56sdF",
+      "label": "(Schleuse 2015)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dpY4EJejw4PK",
+      "label": "Orazio Vecchi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8YfdeSpr2y5W",
+      "label": "Chi vuol veder un bosco folto e spesso (Vecchi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dpY4EJejw4PK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVnLVXg56sdF",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8YfdeSpr2y5W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVnLVXg56sdF",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8YfdeSpr2y5W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVnLVXg56sdF",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8YfdeSpr2y5W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dpY4EJejw4PK",
+      "property": "contributor"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HKMJuWuDnECV-7WNmGCd2jC8N a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:XtiKQkt7awAq ;
+    rdf:predicate <> ;
+    rdf:subject adi:HKMJuWuDnECV .
+
+adi:HKMJuWuDnECV-eePD6Jtxxoov a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:HKMJuWuDnECV .
+
+adi:HKMJuWuDnECV a rdfs:Resource ;
+    rdfs:label "Come la notte ogni fiammella è viva (Agostini)" ;
+    <> adi:EBMKwsCza3hd,
+        adi:LRXChf5hPwRX,
+        adi:XtiKQkt7awAq,
+        adi:jPYPYvZuSBLf ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F054270001010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP .
+

@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LZGUG764AwQF-89zfMn2cVhoY a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=F-viq7OXyNoC> ;
+    dcterms:publisher adi:gTea6aAVr5nE ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "Nc126041a57014095a517068de7abcc13" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LZGUG764AwQF ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/VEAE005594> .
+
+adi:LZGUG764AwQF-D5FATpCbUWZ4 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:Ydztdw6QnLAs ;
+    rdf:predicate <> ;
+    rdf:subject adi:LZGUG764AwQF .
+
+adi:LZGUG764AwQF-PceSrVpAu7uU a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:CxoeEPW2RCZ6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LZGUG764AwQF .
+
+adi:LZGUG764AwQF-bT3TLEBw5rgy a rdf:Statement ;
+    bf:heldBy adi:iQ4o46B3wUmP ;
+    rdf:object "E40453-01" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LZGUG764AwQF .
+
+adi:LZGUG764AwQF a rdfs:Resource ;
+    rdfs:label "La Scanderbeide poema heroico della signora Margherita Sarrocchi" ;
+    <> adi:CxoeEPW2RCZ6,
+        adi:MyN8HshJ2LaN,
+        adi:Ydztdw6QnLAs,
+        "1606" ;
+    dc:subject adi:WziXzP4KdMYo,
+        adi:dP6pRwh4sN3U ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE005594> ;
+    dcterms:title "La Scanderbeide poema heroico della signora Margherita Sarrocchi. Dedicato all'ill.ma & ecc.ma sig.ra D. Costanza Colonna Sforza marchesa di Carauaggio" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:PdqQDrJWGC9w,
+        adi:cibGpsivH4gP ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

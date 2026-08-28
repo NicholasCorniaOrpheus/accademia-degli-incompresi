@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YHvT6Bv8jeo3-LsUL8R9W3ZZY a rdf:Statement ;
+    rdf:object adi:PVJ92w9D4VE7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YHvT6Bv8jeo3 ;
+    ns1:P304 "43" ;
+    ns1:P958 "Poems of Love, 5" .
+
+adi:YHvT6Bv8jeo3-hXjM3VZBwznD a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:YHvT6Bv8jeo3 .
+
+adi:YHvT6Bv8jeo3 a rdfs:Resource ;
+    rdfs:label "Così estrema è la doglia" ;
+    <> adi:PVJ92w9D4VE7,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Così estrema è la doglia
+Ch'a così estremo mal mal non arriva,
+E a questo modo me ne resto viva.
+
+Sarei ben morta, omai,
+Ma 'l dolor ch'ho nel cor, sì grave e forte,
+Non dà loco a la morte,
+Né accrescer può né sminuir miei guai.
+
+Ahi, dispietata offesa!
+Come farò diffesa
+Se m'hai sì pien d'angoscia l'alma e 'l petto
+Che fuor non può spirar l'anima accesa
+E vivo al mio dispetto?
+Ma fra tutti i martir quest'è il maggiore:
+Non potermi doler del mio dolore!""" ;
+    dc:description "The speaker’s pain comes from not being able to express her emotions. She is silent because she must conceal her feelings." ;
+    dc:subject adi:gcrqwjgvBQyM,
+        adi:kQJTTbE9Kyg4 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

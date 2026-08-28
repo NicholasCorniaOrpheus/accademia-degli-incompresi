@@ -1,0 +1,22 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mXyV74TVm8LR-ELX9DhXdM2mh a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:BMqAigBp8uEo ;
+    rdf:predicate <> ;
+    rdf:subject adi:mXyV74TVm8LR ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:mXyV74TVm8LR a rdfs:Resource ;
+    rdfs:label "Accademia dei Caliginosi di Ancona" ;
+    <> adi:B3Q5VLN5BsJC,
+        adi:BMqAigBp8uEo ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:25S6pggBXEvH ;
+    wdt:P31 adi:faKgxGgth5dr .
+

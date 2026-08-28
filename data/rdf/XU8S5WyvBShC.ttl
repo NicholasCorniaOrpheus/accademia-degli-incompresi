@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XU8S5WyvBShC-ADzaf9Pi8RHK a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:XU8S5WyvBShC .
+
+adi:XU8S5WyvBShC-MYhZmsYcq6gc a rdf:Statement ;
+    bf:Note "Final edition, including extra canti." ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    rdf:object "N9b53ac45c5754374aefba82f2a25557a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XU8S5WyvBShC ;
+    schema:datePublished "1532" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002566> .
+
+adi:XU8S5WyvBShC-eaWGZCnAkMdF a rdf:Statement ;
+    bf:Note "First edtion." ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    rdf:object "N5af5db128b024b7785981ce003cc70b0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XU8S5WyvBShC ;
+    schema:datePublished "1516" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002541> .
+
+adi:XU8S5WyvBShC a rdfs:Resource ;
+    rdfs:label "Orlando furioso" ;
+    <> adi:EBMKwsCza3hd,
+        "1516" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q48922> ;
+    dcterms:title "Orlando furioso" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:CrKoHGLhLE34 ;
+    skos:altLabel "Orlando Furioso" .
+

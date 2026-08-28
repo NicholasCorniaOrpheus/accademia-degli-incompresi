@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RdmUFK79pAMB-JcSucjjLymTc a rdf:Statement ;
+    rdf:object adi:Rt9dKQ5RaNbH ;
+    rdf:predicate <> ;
+    rdf:subject adi:RdmUFK79pAMB ;
+    ns1:P958 "Del Dubbio." .
+
+adi:RdmUFK79pAMB-azQYnG7wWKPr a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:Lq5GhkB8p6YX ;
+    rdf:predicate <> ;
+    rdf:subject adi:RdmUFK79pAMB .
+
+adi:RdmUFK79pAMB a rdfs:Resource ;
+    rdfs:label "Da meraviglia il nostro dubbio nasce" ;
+    <> adi:Lq5GhkB8p6YX,
+        adi:Rt9dKQ5RaNbH ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Da meraviglia il nostro dubbio nasce
+E dal contrasto delle due ragioni;
+Ch'esser dimostran vere le cagioni,
+Di ch'egualmente nostro cor si pasce.
+
+Indi si scopre, e come Sol rinasce
+Tutt'il leggiadro delle inventioni;
+Perché la mente fatti i paragoni,
+Aviva il ver di cui si nutre in fasce.
+
+Grave cos'è levar il dubbio antico,
+Ma il saggio dubitar sospeso tiene,
+L'intelletto disposto, è al vero amico.
+
+Così la negation ardita viene
+Di quel, che è torto, & al dover nimico:
+O vero l'affermar di quel, ch'è bene.""" ;
+    dc:subject adi:Dkw9yTeHkpNT,
+        adi:dRufTZn93Cc5 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

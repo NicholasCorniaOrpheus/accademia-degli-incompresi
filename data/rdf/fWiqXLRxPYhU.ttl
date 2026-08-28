@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fWiqXLRxPYhU-2LXQxjCyY6mx a rdf:Statement ;
+    rdf:object adi:LZGUG764AwQF ;
+    rdf:predicate <> ;
+    rdf:subject adi:fWiqXLRxPYhU ;
+    ns1:P304 "23" ;
+    ns1:P958 "Canto III, 38" .
+
+adi:fWiqXLRxPYhU-7eMubu2GnEAT a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:CxoeEPW2RCZ6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:fWiqXLRxPYhU .
+
+adi:fWiqXLRxPYhU a rdfs:Resource ;
+    rdfs:label "Penetra con l'acuto alto intelletto" ;
+    <> adi:CxoeEPW2RCZ6,
+        adi:LZGUG764AwQF ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    dc:subject adi:JhRaHtEjNU96,
+        adi:WziXzP4KdMYo ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:PdqQDrJWGC9w ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:YP649PCWPBCK ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

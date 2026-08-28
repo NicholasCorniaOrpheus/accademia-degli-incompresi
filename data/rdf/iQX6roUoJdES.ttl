@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iQX6roUoJdES-9TWJDVRD3YMT a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WsQJYjxufGKj ;
+    rdf:predicate <> ;
+    rdf:subject adi:iQX6roUoJdES .
+
+adi:iQX6roUoJdES-S6SWLCGnSa2y a rdf:Statement ;
+    rdf:object adi:kYUFXdGyHKMe ;
+    rdf:predicate <> ;
+    rdf:subject adi:iQX6roUoJdES ;
+    ns1:P304 "5" ;
+    ns1:P958 "Canto I. All'Illustrissima donna Elionora Sanseverina." .
+
+adi:iQX6roUoJdES-YUb8NDvzZK7C a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:bFtdDNj5Z4mL ;
+    rdf:predicate <> ;
+    rdf:subject adi:iQX6roUoJdES .
+
+adi:iQX6roUoJdES a rdfs:Resource ;
+    rdfs:label "Quanto mi sia dolore, e grieve affanno" ;
+    <> adi:WsQJYjxufGKj,
+        adi:bFtdDNj5Z4mL,
+        adi:kYUFXdGyHKMe ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Quanto mi sia dolore, e grieve affanno,
+Illustrissima mia donna Eleonora
+Del vostro breve tempo e lungo danno
+Che con fedel consorte io vidi allora
+Scemar, ne la più verde età de l'anno,
+Quando in più gioia amor l'arco lavora,
+Ma lascia il duol che sel mortal suo velo
+Giace sotterra l'alma hor viene in Cielo.""" ;
+    dc:description "Ottava rima for the premature death of Eleonora Sanseverino." ;
+    dc:subject adi:VvwqSP8dg3vT,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:bFtdDNj5Z4mL ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

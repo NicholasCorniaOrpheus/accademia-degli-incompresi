@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:TfM57aErsBgz-5PWPYDzATWn4 a rdf:Statement ;
+    rdf:object adi:d564otbkr4yr ;
+    rdf:predicate <> ;
+    rdf:subject adi:TfM57aErsBgz ;
+    ns1:P304 "5" ;
+    ns1:P958 "Veronica Gambara." .
+
+adi:TfM57aErsBgz-HrSbxAAc37sN a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:TfM57aErsBgz .
+
+adi:TfM57aErsBgz a rdfs:Resource ;
+    rdfs:label "Se quando per Adone, over per Marte" ;
+    <> adi:d564otbkr4yr,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Se quando per Adone, over per Marte
+Arse Venere bella,
+Stato fossi Signor visto da lei,
+Quell'ardente facella
+Sol per te, che di lor più degno sei,
+Arsa, e accesa l'havrebbe in ogni parte;
+
+Perché ne l'armi il bellicoso Marte
+Vinci d’assai; e di bellezza Adone
+Cede al tuo paragone.
+Dunque se 'l Ciel t'aspira, e fa immortale,
+Meraviglia non è, poiché sei tale.""" ;
+    dc:description "Poem dedicated to her husband, count Gilberto VII da Correggio." ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:JD38F6WZ6Bni,
+        adi:hheFHb8ZyvdL,
+        adi:itAFZTrSnPxJ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

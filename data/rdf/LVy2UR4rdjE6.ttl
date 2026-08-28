@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LVy2UR4rdjE6-6hdcaPpyZAjK a rdf:Statement ;
+    rdf:object adi:MQJsV2BJ226x ;
+    rdf:predicate <> ;
+    rdf:subject adi:LVy2UR4rdjE6 ;
+    ns1:P304 "164" ;
+    ns1:P958 "Di Mad. Virginia Martini de' Salvi, Senese." .
+
+adi:LVy2UR4rdjE6-EF6Ez8dH67gR a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:XvaLF6gau6Uq ;
+    rdf:predicate <> ;
+    rdf:subject adi:LVy2UR4rdjE6 .
+
+adi:LVy2UR4rdjE6 a rdfs:Resource ;
+    rdfs:label "Piangete meco, afflitti occhi dolenti" ;
+    <> adi:MQJsV2BJ226x,
+        adi:XvaLF6gau6Uq ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    dc:subject adi:Suq86ApyHSzQ ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:494MWJWBbbLj,
+        adi:BQRZFgW6wAyq,
+        adi:Y8F34DC8njH5 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

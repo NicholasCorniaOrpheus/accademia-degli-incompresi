@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LRXChf5hPwRX-n5PvVt7DHRLo a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:LRXChf5hPwRX .
+
+adi:LRXChf5hPwRX-oWscj6WD96Kt a rdf:Statement ;
+    rdf:object adi:XU8S5WyvBShC ;
+    rdf:predicate <> ;
+    rdf:subject adi:LRXChf5hPwRX ;
+    ns1:P958 "Canto XLV, 37" .
+
+adi:LRXChf5hPwRX a rdfs:Resource ;
+    rdfs:label "Come la notte ogni fiammella è viva" ;
+    <> adi:EBMKwsCza3hd,
+        adi:XU8S5WyvBShC ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Come la notte ogni fiamella è viva
+E riman spenta subito ch'aggiorna:
+Così quando il mio sol di sé mi priva
+Mi leva incontra il rio timor le corna,
+Ma non sì tosto all'Orizzonte arriva
+Che'l timor fugge, e la speranza torna,
+Deh torna a me: deh torna oh caro lume
+E scaccia il rio timor che mi consume.""" ;
+    dc:subject adi:8CJumkhmB57N,
+        adi:RxPzK5AT4e8P,
+        adi:o2i89qrxS3XR ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F020520000101_PPPP00015400C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=26632> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:NbBMYT8M5qdr,
+        adi:kUxMMRYHpPZP ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

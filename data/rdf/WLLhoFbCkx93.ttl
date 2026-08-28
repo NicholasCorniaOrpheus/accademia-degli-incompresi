@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WLLhoFbCkx93-39RabtsEmoPy a rdf:Statement ;
+    dcterms:references adi:5ZmX4c5h8CRb ;
+    rdf:object "1538" ;
+    rdf:predicate <> ;
+    rdf:subject adi:WLLhoFbCkx93 .
+
+adi:WLLhoFbCkx93-KBxmY8UDRDWC a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WdSP8EMksryz ;
+    rdf:predicate <> ;
+    rdf:subject adi:WLLhoFbCkx93 .
+
+adi:WLLhoFbCkx93-jaAxCp5tkcZn a rdf:Statement ;
+    bf:Role adi:o2jeCDMBAhqR ;
+    rdf:object adi:BarcvHNHhyjC ;
+    rdf:predicate <> ;
+    rdf:subject adi:WLLhoFbCkx93 .
+
+adi:WLLhoFbCkx93-kbB4rMxiYzZJ a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=J3VJizH9rHkC> ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:8uSppJ4kaCQ5,
+        adi:f43HawKudsFv ;
+    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:38161/datastreams/MMIIIF/content> ;
+    rdf:object "Ndbcdfc9d7e194c3fb8f5b61787ee85f0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:WLLhoFbCkx93 ;
+    schema:datePublished "1542" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE062656> .
+
+adi:WLLhoFbCkx93 a rdfs:Resource ;
+    rdfs:label "Formaggiata di Sere Stentato al serenissimo re della virtude" ;
+    <> adi:BarcvHNHhyjC,
+        adi:WdSP8EMksryz ;
+    dc:subject adi:Dkw9yTeHkpNT,
+        adi:SrVPa4TA2i3P ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE062656> ;
+    dcterms:title "Formaggiata di Sere Stentato al serenissimo re della virtude" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:LaHmy3iDRxQM ;
+    wdt:P31 adi:kNR7wGs7pHDt .
+

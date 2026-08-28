@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3AfCMCvcFLH9-8uPG5ns2G3oF a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:QUHAq7K8fEy9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:3AfCMCvcFLH9 .
+
+adi:3AfCMCvcFLH9-VyJbCnyXS3ar a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:4y4FT2BctVBL ;
+    rdf:predicate <> ;
+    rdf:subject adi:3AfCMCvcFLH9 .
+
+adi:3AfCMCvcFLH9 a rdfs:Resource ;
+    rdfs:label "Tirrena mia il cui colore agguaglia (Colombano)" ;
+    <> adi:4y4FT2BctVBL,
+        adi:QUHAq7K8fEy9,
+        adi:S7Dg2MhyTb44,
+        adi:dPzZKfm3Svjg ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/286330000010101_000000065600C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP .
+

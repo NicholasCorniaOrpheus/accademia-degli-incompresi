@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3u7RPwEQyMmB-DsEQbb94qsZr a rdf:Statement ;
+    dcterms:references adi:J9rnQmjyXd4M ;
+    rdf:object adi:aTk9hoymKNbk ;
+    rdf:predicate <> ;
+    rdf:subject adi:3u7RPwEQyMmB ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:3u7RPwEQyMmB-hxLeGE9SnBXy a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16222" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3u7RPwEQyMmB .
+
+adi:3u7RPwEQyMmB a rdfs:Resource ;
+    rdfs:label "Francesco Sansovino" ;
+    <> adi:P5ipTFsK5dJG,
+        adi:aTk9hoymKNbk ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q724746>,
+        <https://lyra.unil.ch/agents/104> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

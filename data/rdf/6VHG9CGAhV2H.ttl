@@ -1,0 +1,24 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6VHG9CGAhV2H-3yZGxAztUyhs a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:MrXrmuQzW93L ;
+    rdf:predicate <> ;
+    rdf:subject adi:6VHG9CGAhV2H ;
+    schema:startDate "1571" .
+
+adi:6VHG9CGAhV2H a rdfs:Resource ;
+    rdfs:label "Marta Bonanno" ;
+    <> adi:4AB2zhiGQJga,
+        adi:MrXrmuQzW93L,
+        adi:oGKLKS85gr5i ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

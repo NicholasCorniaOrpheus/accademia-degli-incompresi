@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:S7Dg2MhyTb44-FoZSuSraPBQk a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/g-32-helicone-madrigali-0011> ;
+    bf:heldBy adi:o8BzAGqSmxpP ;
+    dcterms:publisher adi:JKRGSeVa7GaK ;
+    wdt:P291 adi:hke846QYoVbD ;
+    rdf:object "N0f064d4cc6974a85ba28baedd990754a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:S7Dg2MhyTb44 ;
+    schema:datePublished "1616" ;
+    schema:url <http://id.sbn.it/bid/MUS0062511> .
+
+adi:S7Dg2MhyTb44-VpYG3iW6DbZb a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:4y4FT2BctVBL ;
+    rdf:predicate <> ;
+    rdf:subject adi:S7Dg2MhyTb44 .
+
+adi:S7Dg2MhyTb44 a rdfs:Resource ;
+    rdfs:label "Il Helicone, madrigali de diversi eccellentissimi musici a cinque voci" ;
+    <> adi:4y4FT2BctVBL,
+        "1616" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0062511>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV53840010>,
+        <https://rism.online/sources/993121420> ;
+    dcterms:title "Il Helicone, madrigali de diversi eccellentissimi musici a cinque voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

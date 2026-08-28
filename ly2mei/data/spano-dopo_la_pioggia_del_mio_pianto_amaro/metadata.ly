@@ -1,0 +1,7 @@
+title = "Dopo la pioggia del mio paint'amaro"
+madrigal_book = "Di Donat'Antonio Spano il Primo Libro de Madrigali a cinque voci"
+year = "1608"
+composer = "Donato Spano"
+publisher="Giovanni Battista Sottile"
+poet = "Isabella Andreini"
+collection = ""

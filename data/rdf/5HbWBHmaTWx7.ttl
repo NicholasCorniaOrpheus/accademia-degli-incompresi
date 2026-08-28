@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5HbWBHmaTWx7-KBp9YcYzd6pF a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ewPgHKZpLaZe ;
+    rdf:predicate <> ;
+    rdf:subject adi:5HbWBHmaTWx7 .
+
+adi:5HbWBHmaTWx7-QynetPGPwwAC a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=OIusG9Td-fwC> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N27ba5a3274ba4c6290af821a42ee0d99" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5HbWBHmaTWx7 ;
+    schema:datePublished "1544" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009895> .
+
+adi:5HbWBHmaTWx7 a rdfs:Resource ;
+    rdfs:label "Madrigali del magnifico signor cavalier Luigi Cassola" ;
+    <> adi:ewPgHKZpLaZe,
+        "1544" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE009895>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/002250010> ;
+    dcterms:title "Madrigali del magnifico signor cauallier Luigi Cassola piacentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

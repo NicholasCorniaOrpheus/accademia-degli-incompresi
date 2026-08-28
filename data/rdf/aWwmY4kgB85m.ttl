@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aWwmY4kgB85m-FaYERVYkzuUg a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWwmY4kgB85m .
+
+adi:aWwmY4kgB85m-Kh9ZgRLLnhvZ a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00071908> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:BAscdG7oumi7 ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071908/manifest> ;
+    rdf:object "N874a0c1349bf4edeb1e12ca1e4347b56" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:aWwmY4kgB85m ;
+    schema:datePublished "1554" ;
+    schema:url <http://id.sbn.it/bid/MUS0132078> .
+
+adi:aWwmY4kgB85m-P59kVHc5XFe5 a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:36jLqrwt8vLG ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWwmY4kgB85m .
+
+adi:aWwmY4kgB85m-UiNjrprUMfNJ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWwmY4kgB85m .
+
+adi:aWwmY4kgB85m-YkEdmaPJYt5R a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWwmY4kgB85m .
+
+adi:aWwmY4kgB85m-cHDr4MXkfRyJ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWwmY4kgB85m .
+
+adi:aWwmY4kgB85m a rdfs:Resource ;
+    rdfs:label "Di Giulio Fiesco il primo libro di madrigali a quattro voci," ;
+    <> adi:36jLqrwt8vLG,
+        "1554" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0132078>,
+        <https://rism.online/sources/990017938> ;
+    dcterms:title "Di Giulio Fiesco il primo libro di madrigali a quattro voci, nouamente da lui composti, & da Antonio Gardane con somma diligentia stampati, & dati in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P31 adi:N6jMCTymbADK .
+

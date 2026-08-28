@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iGt8KDryoG2i-TXFHfgJfzJza a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cAY8wr9pyjdc ;
+    rdf:predicate <> ;
+    rdf:subject adi:iGt8KDryoG2i .
+
+adi:iGt8KDryoG2i-XNzXwaEPCRWx a rdf:Statement ;
+    rdf:object adi:LNxSnoqrbvDw ;
+    rdf:predicate <> ;
+    rdf:subject adi:iGt8KDryoG2i ;
+    ns1:P304 "84" .
+
+adi:iGt8KDryoG2i a rdfs:Resource ;
+    rdfs:label "Deh lasciate Signor le maggior cure" ;
+    <> adi:LNxSnoqrbvDw,
+        adi:cAY8wr9pyjdc ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Deh lasciate Signor le maggior cure
+D'ir procacciando in questa età fiorita
+Con fatiche, e periglio de la vita
+Alti pregi, alti honori, alte venture.
+
+E in questi colli, in queste alme e sicure
+Valli, e campagne, dove Amor n'invita,
+Viviamo insieme vita alma e gradita,
+Fin che'l Sol de' nostr'occhi al fin s'oscure.
+
+Perché tante fatiche, e tanti stenti
+Fan la vita più dura; e tanti honori
+Restan per Morte poi subito spenti.
+
+Qui coglieremo a tempo e rose, e fiori,
+Et herbe, e frutti, e con dolci concenti
+Canterem con gli uccelli i nostri Amori.""" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=11982> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:FA8L7HT8s3Go,
+        adi:bHJG3dg7VrRb ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

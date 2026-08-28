@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VLkpDywwCP56-Ea498dffXqSw a rdf:Statement ;
+    rdf:object adi:PVJ92w9D4VE7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:VLkpDywwCP56 ;
+    ns1:P958 "Poems of Love, 15" .
+
+adi:VLkpDywwCP56-JrCB7Hp25BKQ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:VLkpDywwCP56 .
+
+adi:VLkpDywwCP56 a rdfs:Resource ;
+    rdfs:label "Poiché Fortuna volse farmi priva" ;
+    <> adi:PVJ92w9D4VE7,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Poiché Fortuna volse farmi priva
+di te, Signor mio car, deh! tolto almeno
+m'avesse la memoria, che 'l cor pieno
+tien de' martiri che da lei deriva.
+
+Che dich'io, stolta? senza lei non viva
+sarei, perché, pensando a quello ameno
+piacer ond'io mi pasco e vengo meno,
+se ben mi spinge in mar può trarmi a riva.
+
+La memoria mantienmi e mi disface;
+la memoria mi fa lieta e scontenta;
+ne la memoria il ben e 'l mal mio iace.
+
+La memoria m'allegra e mi tormenta;
+dunque da la memoria ho guerra e pace,
+e in tal variar lei sola mi contenta.""" ;
+    dc:description "Fortune has deprived the author from her beloved, but his memory keeps a sweet-bitter remembrance in her thoughts." ;
+    dc:subject adi:RxPzK5AT4e8P ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:PVJ92w9D4VE7 ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:7x36KYFM8h7h,
+        adi:ACTN7uuqiNiD,
+        adi:mRQuwpcHyKRP ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

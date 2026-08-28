@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MyN8HshJ2LaN-bAGBnD4DLXhP a rdf:Statement ;
+    bf:Note "First authorized version by the author." ;
+    bf:electronicLocator <https://books.google.it/books?id=sNl2gF6WThgC> ;
+    dcterms:publisher adi:UWRwVeh9kWAP ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k71664j/manifest.json> ;
+    rdf:object "Nb935078c6a2148a785c2a9c17b4d1507" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MyN8HshJ2LaN ;
+    schema:datePublished "1581" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE030115> .
+
+adi:MyN8HshJ2LaN-eme3mmJYjveL a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:YvLbpbXURbTT ;
+    rdf:predicate <> ;
+    rdf:subject adi:MyN8HshJ2LaN .
+
+adi:MyN8HshJ2LaN-hSB4h4GASjw5 a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:bC6enjnsorhU ;
+    rdf:predicate <> ;
+    rdf:subject adi:MyN8HshJ2LaN .
+
+adi:MyN8HshJ2LaN a rdfs:Resource ;
+    rdfs:label "Gierusalemme liberata, poema heroico del sig. Torquato Tasso" ;
+    <> adi:YvLbpbXURbTT,
+        adi:bC6enjnsorhU,
+        "1575" ;
+    dc:subject adi:gRCmoRbw2n22 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1053313>,
+        <https://edit16.iccu.sbn.it/titolo/CNCE030115> ;
+    dcterms:title "Gierusalemme liberata, poema heroico del sig. Torquato Tasso ... Tratta dal vero originale, con aggiunta di quanto manca nell'altre edittioni, et con l'allegoria dello stesso autore et con gli argomenti a ciascun canto del s. Horatio Ariosti" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

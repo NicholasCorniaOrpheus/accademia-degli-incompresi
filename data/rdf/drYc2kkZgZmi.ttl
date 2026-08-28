@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:drYc2kkZgZmi-5q8a7nLoaZjR a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:QNnWoWDC9jbb ;
+    rdf:predicate <> ;
+    rdf:subject adi:drYc2kkZgZmi .
+
+adi:drYc2kkZgZmi-9aYd4kY8gDa6 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16027" ;
+    rdf:predicate <> ;
+    rdf:subject adi:drYc2kkZgZmi .
+
+adi:drYc2kkZgZmi a rdfs:Resource ;
+    rdfs:label "Innocenzio Ringhiero" ;
+    <> adi:JCBpTmtUqcFv,
+        adi:NAvcJHrBT6mr,
+        adi:QNnWoWDC9jbb ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q41617826> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:5U7zDmFybPEx,
+        adi:6vbkjLKhy4Lt ;
+    skos:altLabel "Innocentio Ringhieri",
+        "Innocenzio Ringhieri",
+        "Innocenzo Ringhieri" .
+

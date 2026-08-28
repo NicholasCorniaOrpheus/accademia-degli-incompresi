@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RzPofTtv4LjT-JbTYzAek99uV a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:Cz5znbGcax89 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RzPofTtv4LjT .
+
+adi:RzPofTtv4LjT-KW5XdfLdYgXY a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=x0WjAEwzJ2QC> ;
+    dcterms:publisher adi:2t3NaVuM5zYN ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "N295c3fb6a458476c9de40688ad43e5fd" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:RzPofTtv4LjT ;
+    schema:datePublished "1631" ;
+    schema:url <http://id.sbn.it/bid/BVEE026890> .
+
+adi:RzPofTtv4LjT-ScDF3H7mCXDK a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:bgExG22ootgh ;
+    rdf:predicate <> ;
+    rdf:subject adi:RzPofTtv4LjT .
+
+adi:RzPofTtv4LjT a rdfs:Resource ;
+    rdfs:label "Drammi musicali di Ottavio Tronsarelli" ;
+    <> adi:Cz5znbGcax89,
+        adi:bgExG22ootgh,
+        "1631" ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE026890> ;
+    dcterms:title "Drammi musicali di Ottauio Tronsarelli" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:DRgiAyYDLPZb .
+

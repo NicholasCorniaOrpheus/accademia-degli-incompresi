@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5492HqBdJibK-7uDqZwZAySM3 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WsQJYjxufGKj ;
+    rdf:predicate <> ;
+    rdf:subject adi:5492HqBdJibK .
+
+adi:5492HqBdJibK-CgxQJZ6KwEqf a rdf:Statement ;
+    rdf:object adi:3h5YPRvaDuan ;
+    rdf:predicate <> ;
+    rdf:subject adi:5492HqBdJibK ;
+    ns1:P304 "198" ;
+    ns1:P958 "Lamento d'Isabella AF. S." .
+
+adi:5492HqBdJibK a rdfs:Resource ;
+    rdfs:label "Io so che ti conturbi del mio duolo" ;
+    <> adi:3h5YPRvaDuan,
+        adi:WsQJYjxufGKj,
+        adi:XU8S5WyvBShC ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Io so che ti conturbi del mio duolo,
+et io del tuo dolor morir mi sento,
+Tu zerbin mio, pur ti lamenti solo,
+et io sala mi doglio, et mi lamento.
+Tu non hai di piacer alcun consuolo,
+et io quetar non posso un sol momento,
+Talché se tu zerbin mio pati un'hora
+io mille volte il dì convien ch'io mora.""" ;
+    dc:subject adi:ACTN7uuqiNiD,
+        adi:XLktudVaMszu ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:74A96yzGx4d7,
+        adi:PkJjQdNqm3ok,
+        adi:bfs7vFWVUD9P ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

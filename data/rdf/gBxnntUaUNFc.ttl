@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gBxnntUaUNFc-HydeyAkq6kca a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:gBxnntUaUNFc .
+
+adi:gBxnntUaUNFc-ZnTsVVaDPQzo a rdf:Statement ;
+    rdf:object adi:d564otbkr4yr ;
+    rdf:predicate <> ;
+    rdf:subject adi:gBxnntUaUNFc ;
+    ns1:P304 "10" ;
+    ns1:P958 "Veronica Gambara." .
+
+adi:gBxnntUaUNFc a rdfs:Resource ;
+    rdfs:label "Quanti son poi, che divenuti amanti" ;
+    <> adi:d564otbkr4yr,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Quanti son, poi, che divenuti amanti
+Di due begli occhi, e d'un leggiadro viso,
+Si pascon sol di dolorosi pianti,
+Da se stessi tenendo il cor diviso,
+Né gioia né piacer sono bastanti
+Trar lor del petto, se non finto riso,
+E se lieti tal'hor si mostran fuori,
+Hanno per un piacer, mille dolori.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:PkJjQdNqm3ok,
+        adi:Suq86ApyHSzQ,
+        adi:UZuCbSwwuwLY ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

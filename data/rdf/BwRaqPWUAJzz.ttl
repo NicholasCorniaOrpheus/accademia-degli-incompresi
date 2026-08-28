@@ -1,0 +1,84 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BwRaqPWUAJzz-4SHHMokmC9GK a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:YvLbpbXURbTT ;
+    rdf:predicate <> ;
+    rdf:subject adi:BwRaqPWUAJzz .
+
+adi:BwRaqPWUAJzz-PA7r9ePsbq22 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:BwRaqPWUAJzz .
+
+adi:BwRaqPWUAJzz-R8vQVpzeACxF a rdf:Statement ;
+    bf:Note "volume 4: Le Lodi" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758719> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:FHfrJCTj4ffP ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758719/manifest> ;
+    rdf:object "Ncfab3c9f78f544bfb1663e66184f9152" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BwRaqPWUAJzz ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/TO0E013665> .
+
+adi:BwRaqPWUAJzz-VqwNW8hsbsnX a rdf:Statement ;
+    bf:Note "volume 3: Madrigali Morali, & Heroici" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758718> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:FHfrJCTj4ffP ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758718/manifest> ;
+    rdf:object "Nb5a6ea4c87614e018eb17671523c70eb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BwRaqPWUAJzz ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/TO0E013665> .
+
+adi:BwRaqPWUAJzz-ciFm74gniExc a rdf:Statement ;
+    bf:Note "volume 1: Bellezza" ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A54FBD/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:FHfrJCTj4ffP ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A54FBD> ;
+    rdf:object "N48da952c99bd4123aa3fc3c6991b8b25" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BwRaqPWUAJzz ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/TO0E013665> .
+
+adi:BwRaqPWUAJzz-gb82oNy4JAMu a rdf:Statement ;
+    bf:Note "volume 2: Madrigali Amorosi" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758717> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:FHfrJCTj4ffP ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758717/manifest> ;
+    rdf:object "N3f4960ac25064fd98a9930c22aec5f6d" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BwRaqPWUAJzz ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/TO0E013665> .
+
+adi:BwRaqPWUAJzz a rdfs:Resource ;
+    rdfs:label "Il Gareggiamento poetico del Confuso Accademico Ordito" ;
+    <> adi:YvLbpbXURbTT,
+        adi:ke7Y8iiuR8Rg,
+        "1611" ;
+    dcterms:identifier <http://id.sbn.it/bid/TO0E013665>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F501770010> ;
+    dcterms:title "Il Gareggiamento poetico del Confuso Accademico Ordito. Madrigali amorosi graui, e piaceuoli ne' quali si vede il bello, il leggiadro. & il vivace de i più illustri poeti d'Italia ..." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LkvgDpxVTCeF-dUSJ745MRPo9 a rdf:Statement ;
+    bf:Note "2nd edition" ;
+    dcterms:publisher adi:7WrJEDFusjSa ;
+    wdt:P291 adi:QhXTZwxob5AG ;
+    wdt:P6108 <https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/7195C77696164BEEBBE8FF76CE0A4BBD/manifest/8CD3E271E04A48309E29F1CB51D5F2D0> ;
+    rdf:object "N1690ddb869b44ae4b4bb169850e602c5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LkvgDpxVTCeF ;
+    schema:datePublished "1586" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE060552> .
+
+adi:LkvgDpxVTCeF-m9W7Mkq9RCnP a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=tbALDiLvlKsC> ;
+    dcterms:publisher adi:7WrJEDFusjSa ;
+    wdt:P291 adi:QhXTZwxob5AG ;
+    wdt:P6108 <https://public-api.prod.os01.ocp.cineca.it/api/v1/apipublic/resource/9C4ABA2CE1FD40C88974AF5E4AE7C974/manifest/65CD8DD0A3FE4A00AE6B23AFA6F2BABA> ;
+    rdf:object "N6f538bd2ad644d09bcec10c5e3c0a96c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LkvgDpxVTCeF ;
+    schema:datePublished "1575" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE039122> .
+
+adi:LkvgDpxVTCeF-o2grpzzXW6mS a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:AiN5RxqDLXgg ;
+    rdf:predicate <> ;
+    rdf:subject adi:LkvgDpxVTCeF .
+
+adi:LkvgDpxVTCeF a rdfs:Resource ;
+    rdfs:label "Rime amorose del conte Pomponio Torelli" ;
+    <> adi:AiN5RxqDLXgg,
+        "1575" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE039122> ;
+    dcterms:title "Rime amorose del conte Pomponio Torelli detto il Perduto, nell'Academia de gli illustri signori Innominati di Parma" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

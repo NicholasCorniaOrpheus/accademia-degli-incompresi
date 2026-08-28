@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RNjzDZHr9irq-XnH8B6YcveBy a rdf:Statement ;
+    rdf:object adi:DzT52g7L9k39 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RNjzDZHr9irq ;
+    ns1:P304 "354" ;
+    ns1:P958 "Loda la Sig. Margherita N. di belleza, e di virtù." .
+
+adi:RNjzDZHr9irq-oThLnGqEzBHn a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:bgExG22ootgh ;
+    rdf:predicate <> ;
+    rdf:subject adi:RNjzDZHr9irq .
+
+adi:RNjzDZHr9irq a rdfs:Resource ;
+    rdfs:label "Altri pur dica. Che ne' falsi chiostri" ;
+    <> adi:DzT52g7L9k39,
+        adi:bgExG22ootgh ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Altri pur dica. Che ne' falsi chiostri,
+Ove il terrore ha rigido ricetto,
+Traggan la vita portentosi mostri
+Di fiere luci, e di mortale aspetto,
+Che, se di rimirar gli aurori, e gli ostri
+Del sen, del volto tuo non m'è disdetto,
+Altro ridir non puon quest'occhi miei,
+Se non, che di bellezza un mostro sei.""" ;
+    dc:subject adi:T5kQoJ6RQuQc,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:DKaPi8XQJjLG,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

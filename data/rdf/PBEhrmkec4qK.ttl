@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:PBEhrmkec4qK-m3zfiKDpGQEf a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:5jRWaYbHHcZc ;
+    rdf:predicate <> ;
+    rdf:subject adi:PBEhrmkec4qK ;
+    schema:OrganizationRole adi:SqGAEzjPvbze ;
+    schema:startDate "1590" .
+
+adi:PBEhrmkec4qK a rdfs:Resource ;
+    rdfs:label "Lucrezia Marinella" ;
+    <> adi:5jRWaYbHHcZc,
+        adi:F4Q6mPjKkDUQ,
+        adi:UHzA5avQDdMJ,
+        adi:f43HawKudsFv ;
+    dcterms:identifier ns1:Q1873744 ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:PdqQDrJWGC9w,
+        adi:R66mFXC4Cubc,
+        adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    ns1:P800 adi:564DtyF99hEw,
+        adi:WShmLq8ZHqk5 ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

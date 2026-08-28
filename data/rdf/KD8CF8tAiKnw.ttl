@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KD8CF8tAiKnw-5bSKDinsK9D6 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ne3BHXniMVmN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KD8CF8tAiKnw .
+
+adi:KD8CF8tAiKnw-98QCcxt4R52w a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k1280276p> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    dcterms:publisher adi:h98jfRjMidFB ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1280276p/manifest.json> ;
+    rdf:object "N40ceebd156134cef80cdf90ab755cdea" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KD8CF8tAiKnw ;
+    schema:datePublished "1606" ;
+    schema:url <http://catalogue.bnf.fr/ark:/12148/cb397816351> .
+
+adi:KD8CF8tAiKnw-WLxc78cBqULz a rdf:Statement ;
+    bf:Note "Dedication poem to the author." ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:HdyaPc6TBosQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:KD8CF8tAiKnw .
+
+adi:KD8CF8tAiKnw-ZHbhqxt6MN8n a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:Sr3NvpXZHRto ;
+    rdf:predicate <> ;
+    rdf:subject adi:KD8CF8tAiKnw .
+
+adi:KD8CF8tAiKnw-mcwexrEy6iN3 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BE4kxtAbpReH" ;
+    rdf:predicate <> ;
+    rdf:subject adi:KD8CF8tAiKnw .
+
+adi:KD8CF8tAiKnw a rdfs:Resource ;
+    rdfs:label "L'Euterpe di Domenico Brunetti" ;
+    <> adi:HdyaPc6TBosQ,
+        adi:Sr3NvpXZHRto,
+        "1606" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV03640010>,
+        <https://rism.online/sources/990007264> ;
+    dcterms:title "L'Euterpe di Domenico Brunetti bolognese, opera musicale di Madrigali, Canzonette, Arie, Stanze e Scherzi diversi, in Dialoghi & Echo, a una, due, tre et quattro voci, da cantarsi in theorba, arpicordo & altri stromenti. All'ill.mo & rev.mo sig. Scipione card.le Borghese, nepote di N.S. Paolo V" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:AbuDB4awtRQP .
+

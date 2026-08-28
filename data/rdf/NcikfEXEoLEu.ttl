@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NcikfEXEoLEu-G8dRsdj4uvNg a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:SNDFZU9awXfx ;
+    rdf:predicate <> ;
+    rdf:subject adi:NcikfEXEoLEu .
+
+adi:NcikfEXEoLEu-XXPGp8dS8B3B a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object "1609" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NcikfEXEoLEu .
+
+adi:NcikfEXEoLEu-iCQDZ3fXMXFQ a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:NKZzcNCSYTa3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:NcikfEXEoLEu .
+
+adi:NcikfEXEoLEu-mzZGtjjtbCdn a rdf:Statement ;
+    bf:electronicLocator <https://edl.cultura.gov.it/item/2xjk43mgrz> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest> ;
+    rdf:object "N31639c1fc45b47a29ab4684ce193b1ca" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NcikfEXEoLEu ;
+    schema:datePublished "1612" ;
+    schema:url <http://id.sbn.it/bid/BVEE024046> .
+
+adi:NcikfEXEoLEu a rdfs:Resource ;
+    rdfs:label "Mirinda fauola pastorale del c. Marc'Antonio Ferretti" ;
+    <> adi:NKZzcNCSYTa3,
+        adi:SNDFZU9awXfx ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE024046> ;
+    dcterms:title "Mirinda fauola pastorale del c. Marc'Antonio Ferretti nell'Accademia de Ss.ri Innominati di Parma detto il Rugginoso all'ill.ma et ecc.ma sig.ra D. Giulia Orsina de Conti duchessa di Poli" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:25S6pggBXEvH ;
+    wdt:P31 adi:AYqoxRbyDh4i .
+

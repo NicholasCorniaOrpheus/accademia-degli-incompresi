@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EmKLDSN2LeAM-QzHwYnEm7Y4c a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "19366" ;
+    rdf:predicate <> ;
+    rdf:subject adi:EmKLDSN2LeAM .
+
+adi:EmKLDSN2LeAM-g8p7d9N3Lgea a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:jbw4BmXheHcJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:EmKLDSN2LeAM ;
+    schema:startDate "1609" .
+
+adi:EmKLDSN2LeAM a rdfs:Resource ;
+    rdfs:label "Lavinia Fontana" ;
+    <> adi:9EG2tE8aFH7w,
+        adi:KbxBVs3YAzhk,
+        adi:jbw4BmXheHcJ ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q236050> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

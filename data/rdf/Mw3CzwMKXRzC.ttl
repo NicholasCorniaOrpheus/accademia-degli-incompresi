@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Mw3CzwMKXRzC-2sKjW7SuDLzR a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:Mw3CzwMKXRzC .
+
+adi:Mw3CzwMKXRzC-48iTKtTUbeWD a rdf:Statement ;
+    rdf:object adi:BwRaqPWUAJzz ;
+    rdf:predicate <> ;
+    rdf:subject adi:Mw3CzwMKXRzC ;
+    ns1:P304 "179" ;
+    ns1:P958 "Fede Rotta. Alla Illustre Signora Lucietta da l\"oca Spinelli. Isabella Andreini" ;
+    schema:volumeNumber "5" .
+
+adi:Mw3CzwMKXRzC a rdfs:Resource ;
+    rdfs:label "Già l'alma ti donai" ;
+    <> adi:BwRaqPWUAJzz,
+        adi:ke7Y8iiuR8Rg ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Già l'alma ti donai
+Vivendo sol de la tua vista lieta;
+Ma poi che rio pianeta
+Mi costrinse a partire,
+Per non vedermi inanzi a te morire
+Pietoso mi dicesti
+Vivi oh mia Filli, e l'alma mi rendesti.
+Hor perché di te priva
+Questa vita m'è schiva,
+E sol morir desio
+La dolent'alma a te di novo invio.""" ;
+    dc:subject adi:6UgHPJzzmPCX ;
+    dcterms:identifier <https://lyra.unil.ch/poems/20881>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/078890000101_PPPP00011000C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:ndCJMutbF4oJ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

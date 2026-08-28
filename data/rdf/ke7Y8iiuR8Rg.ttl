@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ke7Y8iiuR8Rg-885iV6WmEh7G a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "19358" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ke7Y8iiuR8Rg .
+
+adi:ke7Y8iiuR8Rg-NxiED7imcZG4 a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:RDPU3aR5Ve6g ;
+    rdf:predicate <> ;
+    rdf:subject adi:ke7Y8iiuR8Rg ;
+    schema:OrganizationRole adi:SqGAEzjPvbze .
+
+adi:ke7Y8iiuR8Rg-hz8pYbGhqtKS a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:8hZp9HQiGCja ;
+    rdf:predicate <> ;
+    rdf:subject adi:ke7Y8iiuR8Rg ;
+    schema:startDate "1601" .
+
+adi:ke7Y8iiuR8Rg a rdfs:Resource ;
+    rdfs:label "Isabella Andreini" ;
+    <> adi:4AB2zhiGQJga,
+        adi:8hZp9HQiGCja,
+        adi:RDPU3aR5Ve6g,
+        adi:fAjWJgtLnHhs,
+        adi:imEvebZ5kR6C,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cS2ZRx7FP2Cu" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q2632451> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:BuXqPehRWFkp,
+        adi:HJvNcoXxJHJF,
+        adi:WbLfAPPmoPxy,
+        adi:YhoLzyEiNUbp,
+        adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Isabella Canali Andreini" ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

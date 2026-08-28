@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CxoeEPW2RCZ6-7RymUvf56wq8 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "15090" ;
+    rdf:predicate <> ;
+    rdf:subject adi:CxoeEPW2RCZ6 .
+
+adi:CxoeEPW2RCZ6-QFHcV47EnAxd a rdf:Statement ;
+    bf:heldBy adi:iQ4o46B3wUmP ;
+    rdf:object "A0259" ;
+    rdf:predicate <> ;
+    rdf:subject adi:CxoeEPW2RCZ6 .
+
+adi:CxoeEPW2RCZ6-W2Qo7cqH44Dn a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:HgeP9DKTPBeR ;
+    rdf:predicate <> ;
+    rdf:subject adi:CxoeEPW2RCZ6 ;
+    schema:startDate "1611" .
+
+adi:CxoeEPW2RCZ6-csWXYs6zH9g2 a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:bC9ap7cjMHkW ;
+    rdf:predicate <> ;
+    rdf:subject adi:CxoeEPW2RCZ6 ;
+    schema:startDate "1608" .
+
+adi:CxoeEPW2RCZ6-fhbcsXSMjiwU a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:PE5uAEyVKtpe ;
+    rdf:predicate <> ;
+    rdf:subject adi:CxoeEPW2RCZ6 ;
+    schema:startDate "1602" .
+
+adi:CxoeEPW2RCZ6 a rdfs:Resource ;
+    rdfs:label "Margherita Sarrocchi" ;
+    <> adi:4AB2zhiGQJga,
+        adi:HgeP9DKTPBeR,
+        adi:PE5uAEyVKtpe,
+        adi:bC9ap7cjMHkW ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3846961> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:PdqQDrJWGC9w,
+        adi:cibGpsivH4gP,
+        adi:iQ4o46B3wUmP ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Margherita Sarocchi" ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

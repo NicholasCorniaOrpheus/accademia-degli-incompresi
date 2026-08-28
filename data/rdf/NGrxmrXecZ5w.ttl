@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NGrxmrXecZ5w-MTEgTNgAeN6j a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:mtmLGiiqGNUj ;
+    rdf:predicate <> ;
+    rdf:subject adi:NGrxmrXecZ5w .
+
+adi:NGrxmrXecZ5w-fgGMrKW3Z5aG a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=v-OXeOIc6bMC> ;
+    dcterms:publisher adi:RDU3Exp4cMDF ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "N71a66f7367c143e7b56f21e215e41b93" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NGrxmrXecZ5w ;
+    schema:datePublished "1628" ;
+    schema:url <http://id.sbn.it/bid/RMLE040048> .
+
+adi:NGrxmrXecZ5w a rdfs:Resource ;
+    rdfs:label "La distruzione di Gierusalemme" ;
+    <> adi:MyN8HshJ2LaN,
+        adi:mtmLGiiqGNUj,
+        "1628" ;
+    dc:subject adi:gRCmoRbw2n22 ;
+    dcterms:title "La destruttione di Gierusalemme del sig. conte Ridolfo Campeggi, e la prigionia del Santo Sepolcro di Christo, del signor Girolamo Tortoletti" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5NSrnQP9HyFU-BELftJivVMpx a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:ERc4zrd6LiHT ;
+    rdf:predicate <> ;
+    rdf:subject adi:5NSrnQP9HyFU .
+
+adi:5NSrnQP9HyFU-bGLR9SPeS7vt a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:5NSrnQP9HyFU .
+
+adi:5NSrnQP9HyFU a rdfs:Resource ;
+    rdfs:label "Oh lagrime, ch'ad arte (Orlandi)" ;
+    <> adi:ERc4zrd6LiHT,
+        adi:bpVQ6pUqEgbQ,
+        adi:ke7Y8iiuR8Rg,
+        adi:nL3WZGMgLoL5 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/196100000010101_000000175200C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP .
+

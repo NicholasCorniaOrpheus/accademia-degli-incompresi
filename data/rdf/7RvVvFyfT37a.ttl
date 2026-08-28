@@ -1,0 +1,72 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7RvVvFyfT37a-6tzvHDpryur8 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7RvVvFyfT37a .
+
+adi:7RvVvFyfT37a-U998nZWCZxqZ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7RvVvFyfT37a .
+
+adi:7RvVvFyfT37a-Zad4mNVYcxkW a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:3BXdqoQfZNZt ;
+    rdf:predicate <> ;
+    rdf:subject adi:7RvVvFyfT37a .
+
+adi:7RvVvFyfT37a-f9MfGhzVaA2K a rdf:Statement ;
+    bf:Note "Bassus" ;
+    bf:electronicLocator <https://orka.bibliothek.uni-kassel.de/viewer/image/1460706239454/> ;
+    bf:heldBy adi:QYqEZxiwMRcT ;
+    dcterms:publisher adi:Ah3xiLm7tVeM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://orka.bibliothek.uni-kassel.de/viewer/api/v1/records/1460706239454/manifest/> ;
+    rdf:object "N92ba69de14c9425e81466a0068a79fb2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7RvVvFyfT37a ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044516> .
+
+adi:7RvVvFyfT37a-gDqxiNBpKXnP a rdf:Statement ;
+    bf:Note "Cantus" ;
+    bf:electronicLocator <https://orka.bibliothek.uni-kassel.de/viewer/image/1460706078272/89/> ;
+    bf:heldBy adi:QYqEZxiwMRcT ;
+    dcterms:publisher adi:Ah3xiLm7tVeM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://orka.bibliothek.uni-kassel.de/viewer/api/v1/records/1460706078272/manifest/> ;
+    rdf:object "N8c4f2ac93bda48a69b9de9eb725b16b9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7RvVvFyfT37a ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044516> .
+
+adi:7RvVvFyfT37a-jwM2UHo7bZWS a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7RvVvFyfT37a .
+
+adi:7RvVvFyfT37a a rdfs:Resource ;
+    rdfs:label "Di Vincenzo Neriti di Salò il terzo libro di canzonette a quattro voci" ;
+    <> adi:3BXdqoQfZNZt,
+        "1599" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE044516>,
+        <https://musicare.beniculturali.unipd.it/database/editions/005804.html>,
+        <https://rism.online/sources/990046963> ;
+    dcterms:title "Di Vincenzo Neriti maestro di capella nella Chiesa Maggiore di Salò il terzo libro di canzonette a quattro voci, con un dialogo a sette, e una a otto nel fine, nouamente composte, et date in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ,
+        adi:dmwyPyczveEX ;
+    wdt:P31 adi:N6jMCTymbADK,
+        adi:f7SkukMmayjC .
+

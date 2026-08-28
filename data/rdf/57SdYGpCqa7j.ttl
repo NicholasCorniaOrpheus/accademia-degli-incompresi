@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:57SdYGpCqa7j-FDiPj4LaxHiN a rdf:Statement ;
+    dcterms:publisher adi:Fu9K9tXH5mRg ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N39d5a51891f84c9dafa9205a99848967" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:57SdYGpCqa7j ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE041632> .
+
+adi:57SdYGpCqa7j-MBEmLQEd2TNf a rdf:Statement ;
+    dcterms:references adi:S65kVD9i4yVe,
+        adi:ipSJVTEhEkc6 ;
+    rdf:object "1544" ;
+    rdf:predicate <> ;
+    rdf:subject adi:57SdYGpCqa7j .
+
+adi:57SdYGpCqa7j-MfHZNVKtSJ7M a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:kFghMqXMQGVb ;
+    rdf:predicate <> ;
+    rdf:subject adi:57SdYGpCqa7j .
+
+adi:57SdYGpCqa7j a rdfs:Resource ;
+    rdfs:label "Stanze transmutate del Ariosto con una canzone bellissima pastorale" ;
+    <> adi:XU8S5WyvBShC,
+        adi:kFghMqXMQGVb ;
+    dc:description "Fictional academy created by Anton Francesco Doni" ;
+    dc:subject adi:JjrdtVHFL2hc,
+        adi:nkvGUfVFSUHZ ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE041632> ;
+    dcterms:title "Stanze transmutate del Ariosto con una canzone bellissima pastorale" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:S65kVD9i4yVe,
+        adi:ipSJVTEhEkc6 ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

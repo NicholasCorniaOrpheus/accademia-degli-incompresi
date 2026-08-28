@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CGXVU36q9thw-B8JcrKkxXAwm a rdf:Statement ;
+    dcterms:references adi:eFqHfpSQSasp ;
+    rdf:object adi:bC9ap7cjMHkW ;
+    rdf:predicate <> ;
+    rdf:subject adi:CGXVU36q9thw ;
+    schema:startDate "1613" .
+
+adi:CGXVU36q9thw-Ltq5qjeWsNS7 a rdf:Statement ;
+    dcterms:references adi:eqXqmD8qjEdV ;
+    rdf:object adi:UJz77hnWWSNh ;
+    rdf:predicate <> ;
+    rdf:subject adi:CGXVU36q9thw .
+
+adi:CGXVU36q9thw a rdfs:Resource ;
+    rdfs:label "Gaspare Murtola" ;
+    <> adi:4AB2zhiGQJga,
+        adi:UJz77hnWWSNh,
+        adi:bC9ap7cjMHkW ;
+    dcterms:identifier <https://lyra.unil.ch/agents/1303> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Gasparo Murtola" ;
+    schema:gender adi:5bZY447EzsJq .
+

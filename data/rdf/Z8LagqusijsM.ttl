@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z8LagqusijsM-La5dPHr7EGyt a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:MCpqmQ2EH76N ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z8LagqusijsM .
+
+adi:Z8LagqusijsM-Lnoqg5DC6eWz a rdf:Statement ;
+    rdf:object adi:bJYR7sBHWsEt ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z8LagqusijsM ;
+    ns1:P304 "21" ;
+    ns1:P958 "Alla S. Hortensia Colonna" .
+
+adi:Z8LagqusijsM-gd2EmUnznynz a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:M6n3D9mxj5sQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z8LagqusijsM .
+
+adi:Z8LagqusijsM a rdfs:Resource ;
+    rdfs:label "Nasce la vita mia dal mio morire" ;
+    <> adi:M6n3D9mxj5sQ,
+        adi:MCpqmQ2EH76N,
+        adi:bJYR7sBHWsEt ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Nasce la vita mia dal mio morire,
+E s'egli avvien, che mille volte io mora, 
+Ritorna il viver mio più bello alhora,
+E vien lo scampo mio dal mio perire;
+
+Oh miracol d'Amor, dal mio languire
+Nasce il gioir che sì forte m'accora,
+Quanto scema la speme d'hora, in hora,
+Tanto sormonta più l'alto desire.
+
+Ch'il crederà, che dall'aspro tormento
+Venga la gioia, ch'ogni gioia avanza 
+E che tanto piacere il duol m'apporte?
+
+Chi crederà, che morta la speranza
+Viva il disio? e che'l mio gran contento 
+Nasca dalla cagion della mia morte?""" ;
+    dc:subject adi:T5kQoJ6RQuQc,
+        adi:XLktudVaMszu,
+        adi:e7Y5Z2NL3Nkv ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:U7zcAeoxQTDK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:PkJjQdNqm3ok,
+        adi:aeKYuTWbvRkf ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

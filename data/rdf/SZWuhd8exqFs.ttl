@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SZWuhd8exqFs-3tewaZAhFpF6 a rdf:Statement ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N9cc72e1bcd9049fca305555f6f96ae6a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:SZWuhd8exqFs ;
+    schema:datePublished "1627" ;
+    schema:url <http://id.sbn.it/bid/ANAE040380> .
+
+adi:SZWuhd8exqFs-PAW2x9c7DqDo a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:SNDFZU9awXfx ;
+    rdf:predicate <> ;
+    rdf:subject adi:SZWuhd8exqFs .
+
+adi:SZWuhd8exqFs a rdfs:Resource ;
+    rdfs:label "Madrigali del conte Marc'Antonio Ferretti" ;
+    <> adi:SNDFZU9awXfx,
+        "1627" ;
+    dc:subject adi:eRj7U7HDLrGe ;
+    dcterms:identifier <http://id.sbn.it/bid/ANAE040380> ;
+    dcterms:title "Madrigali del conte Marc'Antonio Ferretti, ne' quali si contengono lodi, & honesti amori, lagrime, e morti, pitture, e scolture, e diuotioni" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8KYymJrnduRQ-UgEgPCHeuumf a rdf:Statement ;
+    rdf:object adi:LgvtnF7kZsg4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:8KYymJrnduRQ ;
+    ns1:P958 "Canto I, 11" .
+
+adi:8KYymJrnduRQ-f5EoqnCpAjrE a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:3KxURtKJVxAF ;
+    rdf:predicate <> ;
+    rdf:subject adi:8KYymJrnduRQ .
+
+adi:8KYymJrnduRQ a rdfs:Resource ;
+    rdfs:label "S'amanti provar mai tormenti fieri" ;
+    <> adi:3KxURtKJVxAF,
+        adi:LgvtnF7kZsg4 ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """S'Amanti provar mai tormenti fieri  
+Con lagrime provargli, e con sospiri  
+D'Angelica gli accesi Cavalieri,  
+Che meritar Corona di martiri;
+Quel dì, che in mezzo de lor Cori alteri  
+Già colmi di speranze, e di desiri,  
+Sonò come il felice, e bel Medoro  
+Sentiti i frutti havea del sudor loro.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Fgb2i9ph7wYA,
+        adi:hLuZufPFJhy2 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

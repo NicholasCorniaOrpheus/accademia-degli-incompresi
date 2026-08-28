@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FH4Qpne4sWzF-6rG6oDv5aejd a rdf:Statement ;
+    bf:electronicLocator <https://lyra.unil.ch/books/12/images> ;
+    bf:heldBy adi:24PiFs2FWWtK ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N390e8537ec6a4f12939ce1c23cd8b2c7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:FH4Qpne4sWzF ;
+    schema:datePublished "1556" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027134> .
+
+adi:FH4Qpne4sWzF-VoaDpo3zVtdS a rdf:Statement ;
+    bf:Role adi:FJzQoB8QSGjd ;
+    rdf:object adi:gNdzPXA2ZGEx ;
+    rdf:predicate <> ;
+    rdf:subject adi:FH4Qpne4sWzF .
+
+adi:FH4Qpne4sWzF a rdfs:Resource ;
+    rdfs:label "Rime di diversi signori napoletani Libro settimo" ;
+    <> adi:gNdzPXA2ZGEx,
+        "1556" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE027134>,
+        <https://lyra.unil.ch/books/12> ;
+    dcterms:title "Rime di diuersi signori napolitani, e d'altri. Nuouamente raccolte et impresse. Libro settimo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:24PiFs2FWWtK,
+        adi:6VsWMJ2RVTg7 ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

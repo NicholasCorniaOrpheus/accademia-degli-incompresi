@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ty532fD3uiFg-5tuWrbRZn47G a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00074123> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:EaDmr6ppAvfM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00074123/manifest> ;
+    rdf:object "N9f2ce590dd79473a9b6967678a8a8ed1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Ty532fD3uiFg ;
+    schema:datePublished "1570" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE037180> .
+
+adi:Ty532fD3uiFg-69hY7BWJwJaj a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:WVZrkshWg3EB ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ty532fD3uiFg .
+
+adi:Ty532fD3uiFg-FZ4PVzwH7HZs a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ty532fD3uiFg .
+
+adi:Ty532fD3uiFg-JnVciC4GA2eL a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ty532fD3uiFg .
+
+adi:Ty532fD3uiFg-QTXBAhewH4Wa a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ty532fD3uiFg .
+
+adi:Ty532fD3uiFg-fYAxeMbBaAvB a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ty532fD3uiFg .
+
+adi:Ty532fD3uiFg a rdfs:Resource ;
+    rdfs:label "Di Maddalena Casulana il secondo libro de madrigali a quattro voci" ;
+    <> adi:WVZrkshWg3EB,
+        "1570" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV04470010>,
+        <https://rism.online/sources/990009168> ;
+    dcterms:title "Di Maddalena Casulana il secondo libro de madrigali a quatro voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P31 adi:N6jMCTymbADK .
+

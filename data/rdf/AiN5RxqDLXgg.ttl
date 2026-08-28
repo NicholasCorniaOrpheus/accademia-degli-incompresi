@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AiN5RxqDLXgg-MSC73zcemSWB a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "9144" ;
+    rdf:predicate <> ;
+    rdf:subject adi:AiN5RxqDLXgg .
+
+adi:AiN5RxqDLXgg-jsLh8tgxPV2Z a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:ixoXEAX9M2DD ;
+    rdf:predicate <> ;
+    rdf:subject adi:AiN5RxqDLXgg ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:AiN5RxqDLXgg a rdfs:Resource ;
+    rdfs:label "Pomponio Torelli" ;
+    <> adi:4AB2zhiGQJga,
+        adi:QhXTZwxob5AG,
+        adi:ixoXEAX9M2DD ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

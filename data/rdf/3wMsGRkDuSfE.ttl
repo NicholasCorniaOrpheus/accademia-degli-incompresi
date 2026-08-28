@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3wMsGRkDuSfE-82Zzu3XEvmqq a rdf:Statement ;
+    bf:Role adi:QCahxhU4Tbt4 ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:3wMsGRkDuSfE .
+
+adi:3wMsGRkDuSfE-Up3i4ZARpg68 a rdf:Statement ;
+    rdf:object adi:FH4Qpne4sWzF ;
+    rdf:predicate <> ;
+    rdf:subject adi:3wMsGRkDuSfE ;
+    ns1:P304 "59" .
+
+adi:3wMsGRkDuSfE a rdfs:Resource ;
+    rdfs:label "Fera, son'io di quest'ombroso loco" ;
+    <> adi:FH4Qpne4sWzF,
+        adi:UHzA5avQDdMJ ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Fera, son'io di quest'ombroso loco,
+Che vo' con la saetta in mezzo il core
+Fuggendo (lassa) il fin del mio dolore;
+E cerco chi mi strugge a poco, a poco.
+
+E come Augel, che fra le penne il foco
+Si sent'appeso, ond'ei volando fore
+Del dolce nido suo, mentre l’ardore
+Fugge, con l’ali più raccende il foco:
+
+Tal'io fra queste frondi a l'aura estiva
+Con l’ali del desio volando in alto
+Cerco il foco fuggir, che meco porto.
+
+Ma quanto vado più di riva in riva
+Per fuggir'il mio mal, con fiero assalto
+Lunga morte procaccio al viver corto.""" ;
+    dc:subject adi:6UgHPJzzmPCX,
+        adi:gcrqwjgvBQyM,
+        adi:o2i89qrxS3XR ;
+    dcterms:identifier <https://lyra.unil.ch/poems/2524>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29221> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:24PiFs2FWWtK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    ns1:P180 adi:FA8L7HT8s3Go,
+        adi:NbBMYT8M5qdr ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:92XDcRc6YX23-4stGAJ6U3cs4 a rdf:Statement ;
+    rdf:object adi:Xu3FeGq6EtRs ;
+    rdf:predicate <> ;
+    rdf:subject adi:92XDcRc6YX23 ;
+    ns1:P304 "21" ;
+    ns1:P958 "Al Signor Lodovico Domenichi." .
+
+adi:92XDcRc6YX23-GbWzVYXdUuxD a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:44NBTod6K3M3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:92XDcRc6YX23 .
+
+adi:92XDcRc6YX23-i3AmeiYQEjz3 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:gNdzPXA2ZGEx ;
+    rdf:predicate <> ;
+    rdf:subject adi:92XDcRc6YX23 .
+
+adi:92XDcRc6YX23 a rdfs:Resource ;
+    rdfs:label "Mi duol non haver stile" ;
+    <> adi:44NBTod6K3M3,
+        adi:Xu3FeGq6EtRs,
+        adi:gNdzPXA2ZGEx ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Mi duol non haver stile
+Uguale a i meriti vostri
+DOMENICHI gentile,
+Acciò potessi in parte
+Così, com'ho il desio
+Dirne una qualche parte:
+Ma non potendo più vi dono il core,
+E vi prego a tener a mente ch'io
+Sì come mio maggiore
+Vi riverisco, e bramo farvi honore.""" ;
+    dc:subject adi:duqiuAVT6ZNg,
+        adi:knEhuwD9cHVP ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F055200000101_PPPP00042300C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BQRZFgW6wAyq,
+        adi:X6tpZpZf34Lu ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

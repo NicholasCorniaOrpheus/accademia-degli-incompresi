@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fCjbG5YBLddB-KQUpYXVPxfKN a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fCjbG5YBLddB .
+
+adi:fCjbG5YBLddB-Mv5vDDY6FEgq a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fCjbG5YBLddB .
+
+adi:fCjbG5YBLddB-Rkjo26HJ6h23 a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00071901> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:BAscdG7oumi7 ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071901/manifest> ;
+    rdf:object "Ne67634fe8f8b4826a47910c314b6c552" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:fCjbG5YBLddB ;
+    schema:datePublished "1554" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE042999> .
+
+adi:fCjbG5YBLddB-hc686ZH7H43v a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fCjbG5YBLddB .
+
+adi:fCjbG5YBLddB-oFmSZ7kGFWpA a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:fCjbG5YBLddB .
+
+adi:fCjbG5YBLddB a rdfs:Resource ;
+    rdfs:label "De diversi autori il quarto libro de madrigali a quattro voci" ;
+    <> "1554" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE042999>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV50850010>,
+        <https://rism.online/sources/993104334> ;
+    dcterms:title "De diversi autori il quarto libro de madrigali a quatro voci" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

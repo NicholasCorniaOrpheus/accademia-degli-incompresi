@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oHEN8oosek3P-5edrQoY6Cogm a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:HdyaPc6TBosQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:oHEN8oosek3P .
+
+adi:oHEN8oosek3P-EMpebRpgBUUj a rdf:Statement ;
+    rdf:object adi:KD8CF8tAiKnw ;
+    rdf:predicate <> ;
+    rdf:subject adi:oHEN8oosek3P ;
+    ns1:P958 "Di Cesare Abelli il Soligno Accademico Selvaggio, all'auttore." .
+
+adi:oHEN8oosek3P-azKKFhckeLsq a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:Sr3NvpXZHRto ;
+    rdf:predicate <> ;
+    rdf:subject adi:oHEN8oosek3P .
+
+adi:oHEN8oosek3P a rdfs:Resource ;
+    rdfs:label "Brunetti al suon de tuoi pregiati accenti" ;
+    <> adi:HdyaPc6TBosQ,
+        adi:KD8CF8tAiKnw,
+        adi:Sr3NvpXZHRto ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """BRUNETTI al suon de tuoi pregiati accenti
+Perde il moto l'error, l'Aura i sospiri,
+Sì che frenati i lor loquaci giri,
+Fermansi per lo Ciel taciti i Venti.
+
+Ed io qualhora, inteso a' bei concenti,
+Bebbi incantata pace a' miei martiri,
+Né più tranquilli i torbidi desiri,
+Né sentì mai più dolci i mei tormenti.
+
+Oh se quando paigommi iniquo Amore,
+A te correr mi fea mio perfid'Astro,
+Hor mi fora per te sanato il core.
+
+Così d'angue crudel medico mastro
+Less'io guarire il morso, e'l rio dolore
+Di soave armonia canoro empiastro.""" ;
+    dc:subject adi:aPTpWcuQe7Uj,
+        adi:duqiuAVT6ZNg,
+        adi:o2i89qrxS3XR ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:Sr3NvpXZHRto,
+        adi:bHJG3dg7VrRb,
+        adi:bRregcw3FA5L ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

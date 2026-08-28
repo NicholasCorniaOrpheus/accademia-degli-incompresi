@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtcdpKoAasW",
+      "label": "Domenico Mazzocchi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bgExG22ootgh",
+      "label": "Ottavio Tronsarelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZjFvAdM6R83B",
+      "label": "La Catena d'Adone",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtcdpKoAasW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZjFvAdM6R83B",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bgExG22ootgh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtcdpKoAasW",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZjFvAdM6R83B",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtcdpKoAasW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bgExG22ootgh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZjFvAdM6R83B",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZjFvAdM6R83B",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bgExG22ootgh",
+      "property": "contributor"
+    }
+  ]
+}

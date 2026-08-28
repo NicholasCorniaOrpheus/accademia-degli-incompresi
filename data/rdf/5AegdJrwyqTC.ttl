@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5AegdJrwyqTC-Q6zDFYn24kH8 a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:2BfZ8jdaqi8B ;
+    rdf:predicate <> ;
+    rdf:subject adi:5AegdJrwyqTC .
+
+adi:5AegdJrwyqTC-cyiHraU3TiXL a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:baADqnLF4t7X ;
+    rdf:predicate <> ;
+    rdf:subject adi:5AegdJrwyqTC .
+
+adi:5AegdJrwyqTC a rdfs:Resource ;
+    rdfs:label "La luce occhi miei lassi (Fontanelli)" ;
+    <> adi:2BfZ8jdaqi8B,
+        adi:W4hc7Ek6tXJ3,
+        adi:baADqnLF4t7X,
+        adi:fevWXG5EMqmW ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F137400000010101_000000104000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP .
+

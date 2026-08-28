@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KUoPxmsLGh4t-GAKawhijcP5R a rdf:Statement ;
+    rdf:object adi:ntSDGzZoi2Eb ;
+    rdf:predicate <> ;
+    rdf:subject adi:KUoPxmsLGh4t ;
+    ns1:P304 "26" ;
+    ns1:P958 "Sonetto XXV." .
+
+adi:KUoPxmsLGh4t-UiLW3SvPGPBY a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:KUoPxmsLGh4t .
+
+adi:KUoPxmsLGh4t a rdfs:Resource ;
+    rdfs:label "Già vidi occhi leggiadri, occhi, ond'Amore" ;
+    <> adi:ke7Y8iiuR8Rg,
+        adi:ntSDGzZoi2Eb ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Già vidi occhi leggiadri, occhi, ond'Amore  
+M'incende, in voi bella pietà scolpita  
+Che dolce lusingando al mio dolore,  
+Al mio fido servir promise aita.
+
+Hor veggio (lassa) il troppo folle errore  
+D’ingannato pensier, d’alma tradita;  
+Veggio, che discacciata (ohimè) dal core  
+La pietade ne gli occhi era fuggita. 
+
+Oh sospirati in van dolci riposi  
+Quali havranno i miei giorni hore tranquille?  
+Qual guiderdone i miei martiri ascosi?
+
+Deh potessero almeno in voi le stille  
+De l'amaro mio pianto occhi amorosi  
+Quel, che possono in me vostre faville.""" ;
+    dc:description "The author speaks to the eyes (mirror of the soul) of her beloved, who has betrayed her. When shall she find rest from her distress?" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:494MWJWBbbLj,
+        adi:ACTN7uuqiNiD,
+        adi:SXrVe27zaz8x,
+        adi:Suq86ApyHSzQ ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

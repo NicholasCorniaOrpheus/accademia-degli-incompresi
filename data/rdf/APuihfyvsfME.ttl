@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:APuihfyvsfME-hiVDiHz2GDhY a rdf:Statement ;
+    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
+    bf:heldBy adi:C2TRdPGCZXK5 ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "Nb8672bfbce1e4a85bfe13fd26260a93c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:APuihfyvsfME ;
+    schema:datePublished "1665" .
+
+adi:APuihfyvsfME-iKrHBa9P6Fcz a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:gGnmBbze2MnW ;
+    rdf:predicate <> ;
+    rdf:subject adi:APuihfyvsfME .
+
+adi:APuihfyvsfME a rdfs:Resource ;
+    rdfs:label "Arithmologia sive De abditis Numerorum mysteriis" ;
+    <> adi:gGnmBbze2MnW,
+        "1665" ;
+    dc:subject adi:JhRaHtEjNU96,
+        adi:RmaA75A9H4A7 ;
+    dcterms:title "Arithmologia sive De abditis Numerorum mysteriis" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Kh6VwMSVUp3m ;
+    wdt:P31 adi:m7L8ASjPN8nA .
+

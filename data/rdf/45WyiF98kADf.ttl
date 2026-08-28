@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:45WyiF98kADf-8Ph6rx4MvFHc a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:3KxURtKJVxAF ;
+    rdf:predicate <> ;
+    rdf:subject adi:45WyiF98kADf .
+
+adi:45WyiF98kADf-DTaPt28L794L a rdf:Statement ;
+    rdf:object adi:f7WmdoicdMZx ;
+    rdf:predicate <> ;
+    rdf:subject adi:45WyiF98kADf ;
+    ns1:P958 "Canto I, 4" .
+
+adi:45WyiF98kADf a rdfs:Resource ;
+    rdfs:label "Dir male, & dire il ver genera sdegno" ;
+    <> adi:3KxURtKJVxAF,
+        adi:f7WmdoicdMZx ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Dir male, & dire il ver genera sdegno
+Sogliono dire gl'ipocriti e Piangioni
+chi ben dice, & mal fa di morte è degno
+come fanno i cagnacci hipocritoni. 
+A buon sotii l'orecchia a grattar vegno
+Non a gli adulator, non a poltroni, 
+Non è vitio più pregno di veleno 
+Ch'ornar di lode, chi di biasmo è pieno.""" ;
+    dc:subject adi:SrVPa4TA2i3P ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:mzQMzWpG79QK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

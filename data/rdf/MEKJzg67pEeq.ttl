@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MEKJzg67pEeq-3U7yeyDUEWDY a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=xGqzcJOdVaQC> ;
+    wdt:P291 adi:4G4zUCvYBvXZ ;
+    rdf:object "N16799981631b4cf8bf5306063b687958" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MEKJzg67pEeq ;
+    schema:datePublished "1754" ;
+    schema:url <http://id.sbn.it/bid/LO1E004175> .
+
+adi:MEKJzg67pEeq-E2gDrWnH68UE a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:55W2N4Jbdjz3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:MEKJzg67pEeq .
+
+adi:MEKJzg67pEeq-GzUvHyMY728M a rdf:Statement ;
+    bf:Role adi:baADqnLF4t7X ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:MEKJzg67pEeq .
+
+adi:MEKJzg67pEeq a rdfs:Resource ;
+    rdfs:label "Poesie e prose, italiane e latine inedite di Francesco Maria, e di Tarquinia Molza, ed altre a loro dirette" ;
+    <> adi:55W2N4Jbdjz3,
+        adi:UHzA5avQDdMJ,
+        "1754" ;
+    dcterms:identifier <http://id.sbn.it/bid/LO1E004175> ;
+    dcterms:title "3: Volume terzo, contenente poesie e prose, italiane e latine inedite di Francesco Maria, e di Tarquinia Molza, ed altre a loro dirette" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

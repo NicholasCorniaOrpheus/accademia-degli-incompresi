@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:c5MGh5tVD8CQ-8iB9aqWMMq4L a rdf:Statement ;
+    dcterms:references adi:4Ggw3HkdGbzX ;
+    rdf:object adi:ZeHYJAGwEQHj ;
+    rdf:predicate <> ;
+    rdf:subject adi:c5MGh5tVD8CQ ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:c5MGh5tVD8CQ-SXrZVNo3kqp9 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "18119" ;
+    rdf:predicate <> ;
+    rdf:subject adi:c5MGh5tVD8CQ .
+
+adi:c5MGh5tVD8CQ a rdfs:Resource ;
+    rdfs:label "Tommaso Spica" ;
+    <> adi:4AB2zhiGQJga,
+        adi:P5ipTFsK5dJG,
+        adi:ZeHYJAGwEQHj ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q140849598>,
+        <https://lyra.unil.ch/agents/340> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:24PiFs2FWWtK ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

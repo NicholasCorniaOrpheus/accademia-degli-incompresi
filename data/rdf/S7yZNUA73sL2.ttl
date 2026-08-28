@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:S7yZNUA73sL2-N43zKpsd6zFQ a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:44NBTod6K3M3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:S7yZNUA73sL2 .
+
+adi:S7yZNUA73sL2-i2Ad3cWRcRip a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:XtiKQkt7awAq ;
+    rdf:predicate <> ;
+    rdf:subject adi:S7yZNUA73sL2 .
+
+adi:S7yZNUA73sL2 a rdfs:Resource ;
+    rdfs:label "Mi duol non haver stile (Agostini)" ;
+    <> adi:44NBTod6K3M3,
+        adi:92XDcRc6YX23,
+        adi:XtiKQkt7awAq,
+        adi:jPYPYvZuSBLf ;
+    dc:description "The composer changed the dedication from Lodovico Domenichi to Alessandro Andriasi." ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F161280000010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:FfrXyTmswQB2,
+        adi:a7Qa4z8ocEzP .
+

@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z9THwZjVZaBR-EWGzGYYwgvap a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "19592" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z9THwZjVZaBR .
+
+adi:Z9THwZjVZaBR-QpJaQHNSdzDe a rdf:Statement ;
+    rdf:object adi:TDR5WPegxK2L ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z9THwZjVZaBR ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:Z9THwZjVZaBR a rdfs:Resource ;
+    rdfs:label "Francesco Barozzi" ;
+    <> adi:JRHGHuFJvBqm,
+        adi:TDR5WPegxK2L,
+        adi:evGvtjqjNjf9 ;
+    dc:description "Italian mathematician" ;
+    dcterms:identifier ns1:Q657600 ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    ns1:P800 adi:Y3ZT8BZwpJhF ;
+    schema:gender adi:5bZY447EzsJq .
+

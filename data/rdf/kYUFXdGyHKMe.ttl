@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kYUFXdGyHKMe-58GA86LfCFL9 a rdf:Statement ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N5abe62c05a494bd5b389fb841d0ffe78" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kYUFXdGyHKMe ;
+    schema:datePublished "1549" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054714> .
+
+adi:kYUFXdGyHKMe-Ys2ZcqpS3jge a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758640> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:GvYVBMCkzMzW ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest> ;
+    rdf:object "N36d45ec67bf64bdb85b42406cb8ebaaa" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kYUFXdGyHKMe ;
+    schema:datePublished "1570" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10758640> .
+
+adi:kYUFXdGyHKMe-aS67Cvd78jfy a rdf:Statement ;
+    bf:Note "Reprint." ;
+    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N73874f0a9546496abf2b977effd9a930" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kYUFXdGyHKMe ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
+
+adi:kYUFXdGyHKMe a rdfs:Resource ;
+    rdfs:label "Discorso sopra tutti li primi canti d'Orlando Furioso" ;
+    <> adi:XU8S5WyvBShC,
+        "1549" ;
+    dc:description "Commentary in ottava rima of the chivalry poem Orlando Furioso by Ludovico Ariosto. At the end of each canto, the author dedicates a stanza for members of her intellectual and social network." ;
+    dc:subject adi:DGSCrAkq6Uwt ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE054714> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:cibGpsivH4gP ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

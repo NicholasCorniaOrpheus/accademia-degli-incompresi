@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kuMLasLJztzq-FzaVMCNsEyGD a rdf:Statement ;
+    rdf:object "Na797e230c6e94c64abff13cbf46164a4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kuMLasLJztzq ;
+    schema:datePublished "1590" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036264> .
+
+adi:kuMLasLJztzq-MrWjAiDTZLcM a rdf:Statement ;
+    bf:Role adi:FJzQoB8QSGjd ;
+    rdf:object adi:3mr9S7Z4tCWu ;
+    rdf:predicate <> ;
+    rdf:subject adi:kuMLasLJztzq .
+
+adi:kuMLasLJztzq a rdfs:Resource ;
+    rdfs:label "Della nova scelta di rime di diversi eccellenti scrittori de l'età nostra parte prima" ;
+    <> adi:3mr9S7Z4tCWu,
+        "1590" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE036264> ;
+    dcterms:title "Della noua scelta di rime di diuersi eccellenti scrittori de l'età nostra parte prima nouamente raccolte et mandate in luce per Benedetto Varoli" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

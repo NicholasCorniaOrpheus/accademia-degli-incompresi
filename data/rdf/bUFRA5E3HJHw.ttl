@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bUFRA5E3HJHw-7UpP3AiH6cim a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cAY8wr9pyjdc ;
+    rdf:predicate <> ;
+    rdf:subject adi:bUFRA5E3HJHw .
+
+adi:bUFRA5E3HJHw-eYD9an297YUM a rdf:Statement ;
+    rdf:object adi:LNxSnoqrbvDw ;
+    rdf:predicate <> ;
+    rdf:subject adi:bUFRA5E3HJHw ;
+    ns1:P304 "81" .
+
+adi:bUFRA5E3HJHw a rdfs:Resource ;
+    rdfs:label "Se poteste Signor con l'occhio interno" ;
+    <> adi:LNxSnoqrbvDw,
+        adi:cAY8wr9pyjdc ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Se poteste Signor con l'occhio interno
+Penetrar'i segreti del mio core,
+Come vedete queste ombre di fuore,
+Apertamente con questo occhio esterno,
+
+Vi vedreste le pene de l'Inferno,
+Un abisso infinito di dolore,
+Quanta mai gelosia, quanto timore
+Amor'ha dato, o può dar'in eterno.
+
+E vedreste voi stesso seder donno
+In mezo a l'alma, cui tanti tormenti
+Non han potuto mai cavarvi, o ponno.
+
+E tutti altri disir vedreste spenti,
+Od oppressi da grave et alto sonno,
+E sol quei d'haver voi, desti & ardenti.""" ;
+    dc:subject adi:ACTN7uuqiNiD ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:494MWJWBbbLj,
+        adi:SjAbGui7MhdK,
+        adi:eGmwytrWZC3u ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

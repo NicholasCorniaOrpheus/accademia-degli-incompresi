@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:TUZaQCSQ3zzX-34YgoRL8iFQF a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:TUZaQCSQ3zzX .
+
+adi:TUZaQCSQ3zzX-NUS5T8jRq6gV a rdf:Statement ;
+    rdf:object adi:ntSDGzZoi2Eb ;
+    rdf:predicate <> ;
+    rdf:subject adi:TUZaQCSQ3zzX ;
+    ns1:P304 "151" ;
+    ns1:P958 "Mad. LXXX." .
+
+adi:TUZaQCSQ3zzX a rdfs:Resource ;
+    rdfs:label "Per pietà di me stesso" ;
+    <> adi:ke7Y8iiuR8Rg,
+        adi:ntSDGzZoi2Eb ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Per pietà di me stesso
+Me medesmo bandisco
+Da quel bel volto, ch'ho ne l'alma impresso;
+Perché qualhor ardisco
+D'avvicinarmi a quei duo soli ardenti
+Provo per un piacer mille tormenti.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/000430000101_PPPP00011000C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:494MWJWBbbLj,
+        adi:ACTN7uuqiNiD,
+        adi:PkJjQdNqm3ok,
+        adi:SXrVe27zaz8x ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

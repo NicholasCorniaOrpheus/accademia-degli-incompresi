@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eguk9iCCpewq-4b8mekcVWByi a rdf:Statement ;
+    dcterms:references adi:g9JEkvm2QvzR,
+        adi:m8sBpVgB8XmV ;
+    rdf:object adi:SoT8HEa6ZEYG ;
+    rdf:predicate <> ;
+    rdf:subject adi:eguk9iCCpewq ;
+    schema:OrganizationRole adi:F4KLdoEW9rAv .
+
+adi:eguk9iCCpewq a rdfs:Resource ;
+    rdfs:label "Lucrezia Gonzaga" ;
+    <> adi:F4KLdoEW9rAv,
+        adi:LyEatsU6bs4d,
+        adi:SoT8HEa6ZEYG,
+        adi:cA2ZGRKmQjw9 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3839024> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:g9JEkvm2QvzR,
+        adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

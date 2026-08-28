@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBaaDcSW6iHF",
+      "label": "husband",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/do9B9qUzrfei",
+      "label": "Ercole II d'Este",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C65NpuAXpJan",
+      "label": "spouse",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ikLPqBsoWwKi",
+      "label": "Alfonso II d'Este",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBaaDcSW6iHF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C65NpuAXpJan",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/do9B9qUzrfei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBaaDcSW6iHF",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C65NpuAXpJan",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBaaDcSW6iHF",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ikLPqBsoWwKi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WBaaDcSW6iHF",
+      "property": "related_to"
+    }
+  ]
+}

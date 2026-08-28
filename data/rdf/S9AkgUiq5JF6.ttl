@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:S9AkgUiq5JF6-2tNsGEoN79Mm a rdf:Statement ;
+    dcterms:references adi:JjLg2AKb7hoK ;
+    rdf:object adi:PE5uAEyVKtpe ;
+    rdf:predicate <> ;
+    rdf:subject adi:S9AkgUiq5JF6 .
+
+adi:S9AkgUiq5JF6-VyPemUSSQbbK a rdf:Statement ;
+    dcterms:references adi:JjLg2AKb7hoK ;
+    rdf:object adi:4AB2zhiGQJga ;
+    rdf:predicate <> ;
+    rdf:subject adi:S9AkgUiq5JF6 .
+
+adi:S9AkgUiq5JF6 a rdfs:Resource ;
+    rdfs:label "Torquato Perotti" ;
+    <> adi:28LwdsHRy7RZ,
+        adi:4AB2zhiGQJga,
+        adi:P5ipTFsK5dJG,
+        adi:PE5uAEyVKtpe,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PY53AmNeqYZX" ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

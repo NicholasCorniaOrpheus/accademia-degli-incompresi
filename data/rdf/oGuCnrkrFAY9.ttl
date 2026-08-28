@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oGuCnrkrFAY9-DFCBRfsAvi5j a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "15028" ;
+    rdf:predicate <> ;
+    rdf:subject adi:oGuCnrkrFAY9 .
+
+adi:oGuCnrkrFAY9-gbu5wkeKcWvV a rdf:Statement ;
+    dcterms:references adi:T9A9Qv8Z2mX8 ;
+    rdf:object adi:ixoXEAX9M2DD ;
+    rdf:predicate <> ;
+    rdf:subject adi:oGuCnrkrFAY9 .
+
+adi:oGuCnrkrFAY9 a rdfs:Resource ;
+    rdfs:label "Angelo Grillo" ;
+    <> adi:4AB2zhiGQJga,
+        adi:QhXTZwxob5AG,
+        adi:ixoXEAX9M2DD ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q4762891> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Don Agelo Grillo",
+        "Livio Celiano" ;
+    schema:gender adi:5bZY447EzsJq .
+

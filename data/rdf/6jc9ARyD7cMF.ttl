@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6jc9ARyD7cMF-PvFMEGu7FaVh a rdf:Statement ;
+    dcterms:references adi:JjLg2AKb7hoK ;
+    rdf:object adi:UJz77hnWWSNh ;
+    rdf:predicate <> ;
+    rdf:subject adi:6jc9ARyD7cMF .
+
+adi:6jc9ARyD7cMF-cHyj6tr3sySj a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "9001" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6jc9ARyD7cMF .
+
+adi:6jc9ARyD7cMF a rdfs:Resource ;
+    rdfs:label "Sforza degli Oddi" ;
+    <> adi:65G5PeyB3GE6,
+        adi:7ot3ZWvYYdmA,
+        adi:UJz77hnWWSNh ;
+    dcterms:identifier ns1:Q16268327 ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Sforza Oddi" ;
+    ns1:P800 adi:YmA7pRGECn4y ;
+    schema:gender adi:5bZY447EzsJq .
+

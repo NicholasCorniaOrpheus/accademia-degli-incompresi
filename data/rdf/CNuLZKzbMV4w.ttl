@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CNuLZKzbMV4w-annFTk9DjqFE a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jZuvVuSH7U3b ;
+    rdf:predicate <> ;
+    rdf:subject adi:CNuLZKzbMV4w .
+
+adi:CNuLZKzbMV4w-g3McAGdvHCkm a rdf:Statement ;
+    rdf:object adi:d564otbkr4yr ;
+    rdf:predicate <> ;
+    rdf:subject adi:CNuLZKzbMV4w ;
+    ns1:P304 "2" ;
+    ns1:P958 "Veronica Gambara." .
+
+adi:CNuLZKzbMV4w a rdfs:Resource ;
+    rdfs:label "Vinca gli sdegni e l'odio vostro antico" ;
+    <> adi:d564otbkr4yr,
+        adi:jZuvVuSH7U3b ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Vinca gli sdegni e l'odio vostro antico
+Carlo e Francesco, il nome sacro e santo
+Di CRISTO, e di sua fé vi caglia tanto,
+Quanto a voi più d'ogni altro è stato amico.
+
+L'armi vostre a domar l'empio nemico
+Di lui, sian pronte; e non tenete in pianto
+Non pur l'Italia; ma l'Europa, e quanto
+Bagna il mar, cinge valle, o colle aprico.
+
+Il gran Pastor; a cui le chiavi date
+Furon del Cielo, a voi si volge e prega,
+Che de le greggie sue pietà vi prenda,
+
+Possa più de lo sdegno in voi la pietate
+Coppia reale; un sol desio v'accenda
+Di vendicar chi CRISTO sprezza e nega.""" ;
+    dc:subject adi:4EaRhTQBuzNf,
+        adi:d3toCwWjFK73 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:2nGWLcPAXiBE,
+        adi:BM2Fg8iJ24DH,
+        adi:amsWLwoeb6WE,
+        adi:kcWr3rLLCUsP ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

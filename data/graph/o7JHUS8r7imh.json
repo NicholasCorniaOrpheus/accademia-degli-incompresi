@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7JHUS8r7imh",
+      "label": "University of Cambridge",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3qVLehb99pkQ",
+      "label": "Album Amicorum of Abraham Ortelius",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3qVLehb99pkQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7JHUS8r7imh",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3qVLehb99pkQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7JHUS8r7imh",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3qVLehb99pkQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7JHUS8r7imh",
+      "property": "catalog_identifier"
+    }
+  ]
+}

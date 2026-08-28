@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:chpVB5vmgi3P-24wp53moTnW8 a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:aTk9hoymKNbk ;
+    rdf:predicate <> ;
+    rdf:subject adi:chpVB5vmgi3P .
+
+adi:chpVB5vmgi3P-nhHQFJPyvwLG a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "18091" ;
+    rdf:predicate <> ;
+    rdf:subject adi:chpVB5vmgi3P .
+
+adi:chpVB5vmgi3P a rdfs:Resource ;
+    rdfs:label "Marcantonio Flaminio" ;
+    <> adi:Dkw9yTeHkpNT,
+        adi:aTk9hoymKNbk,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FX9tMBFoYMbH",
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YJP9QUN4Mbfw" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q351485> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

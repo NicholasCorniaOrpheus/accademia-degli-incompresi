@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4ZML5eP7iYqa-6frjkhGtp7qx a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10166540> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:mBuz2DVvb28R ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10166540/manifest> ;
+    rdf:object "N01a18019a7bc40ecbaa19855106effa1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:4ZML5eP7iYqa ;
+    schema:datePublished "1598" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE021980> .
+
+adi:4ZML5eP7iYqa-hkTEBqApA6uf a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2hzh3As9hqrE ;
+    rdf:predicate <> ;
+    rdf:subject adi:4ZML5eP7iYqa .
+
+adi:4ZML5eP7iYqa a rdfs:Resource ;
+    rdfs:label "Rime del molto illustre signor cavaliere Battista Guarini" ;
+    <> adi:2hzh3As9hqrE,
+        "1598" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE021980> ;
+    dcterms:title "Rime del molto illustre signor caualiere Battista Guarini dedicate all'illustrissimo, et reuerendissimo signor cardinale Pietro Aldobrandini. Sopraintendente generale dello stato ecclesiastico per tutta Italia, et legato a latere et vicario generale in temporale, et spirituale nella città, et ducato di Fearrara [!] &c" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

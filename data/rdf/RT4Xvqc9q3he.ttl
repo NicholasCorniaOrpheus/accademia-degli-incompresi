@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RT4Xvqc9q3he-bvmiBSMHubfK a rdf:Statement ;
+    dcterms:references adi:J9rnQmjyXd4M ;
+    rdf:object adi:aTk9hoymKNbk ;
+    rdf:predicate <> ;
+    rdf:subject adi:RT4Xvqc9q3he ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:RT4Xvqc9q3he-jszRZNuv2Y3J a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "18093" ;
+    rdf:predicate <> ;
+    rdf:subject adi:RT4Xvqc9q3he .
+
+adi:RT4Xvqc9q3he a rdfs:Resource ;
+    rdfs:label "Bernardino Maffei" ;
+    <> adi:AwveTDUETzJD,
+        adi:P5ipTFsK5dJG,
+        adi:aTk9hoymKNbk ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

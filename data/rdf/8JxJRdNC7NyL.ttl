@@ -1,0 +1,59 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8JxJRdNC7NyL-FQWgWwGiGUvL a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:Ds7Pd3msZjeC ;
+    rdf:predicate <> ;
+    rdf:subject adi:8JxJRdNC7NyL .
+
+adi:8JxJRdNC7NyL-QF3GBDbJBmoD a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:drasiKYKtnDo ;
+    rdf:predicate <> ;
+    rdf:subject adi:8JxJRdNC7NyL .
+
+adi:8JxJRdNC7NyL-QsdMak5cBtSs a rdf:Statement ;
+    rdf:object adi:ENq7SsHPfC3T ;
+    rdf:predicate <> ;
+    rdf:subject adi:8JxJRdNC7NyL ;
+    ns1:P304 "52" ;
+    ns1:P958 "Annibal Caro." .
+
+adi:8JxJRdNC7NyL a rdfs:Resource ;
+    rdfs:label "A voi Donna reale, al vostro immenso" ;
+    <> adi:Ds7Pd3msZjeC,
+        adi:ENq7SsHPfC3T,
+        adi:drasiKYKtnDo ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """A voi Donna reale, al vostro immenso
+Valore, a l'accortezza, a l'honestate,
+A quella serenissima beltate,
+Ond'havete d'amore il mondo incenso,
+
+A l'alta incontra al fato, e'ncontra al senso,
+Costante, inespugnabile humiltate,
+A la vostra divina humanitate
+Erge quest'ara universal consenso.
+
+A cui sacra d'intorno, e la virtute,
+E la gloria de' vostri, e'l nostro merto,
+Tante di vero honor, chiare facelle;
+
+Che le rozze mie Muse, e fredde, e mute,
+Ma solo offrendo, e questo picciol serto,
+Lassan l'Eternità che ne favelle.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:drasiKYKtnDo ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

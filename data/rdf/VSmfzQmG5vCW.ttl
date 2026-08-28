@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VSmfzQmG5vCW-A7rTi7U596Mo a rdf:Statement ;
+    rdf:object adi:X6oJBh3kUpHc ;
+    rdf:predicate <> ;
+    rdf:subject adi:VSmfzQmG5vCW ;
+    ns1:P304 "29" ;
+    schema:volumeNumber "2" .
+
+adi:VSmfzQmG5vCW-DCVE3QBtE28q a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:52JsT9MZeipF ;
+    rdf:predicate <> ;
+    rdf:subject adi:VSmfzQmG5vCW .
+
+adi:VSmfzQmG5vCW a rdfs:Resource ;
+    rdfs:label "Dicesti anima mia" ;
+    <> adi:52JsT9MZeipF,
+        adi:X6oJBh3kUpHc ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Dicesti anima mia
+Ch'ardi per me d'Amore
+Sol con le labbra
+O col profondo core
+Ah non sia mai ch'io il creda
+Finché dell'amor tuo segno non veda
+Vuoi che sicuro io sia
+Che siano i detti tuoi ﬁdi e veraci
+Sian testimoni e guiramenti i baci.""" ;
+    dc:subject adi:ddyPTXYyiFzq ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F007810000101_PPPP00230700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:YGRByAyckPA5 ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

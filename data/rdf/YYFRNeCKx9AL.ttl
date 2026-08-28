@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YYFRNeCKx9AL-3cyM8FviPtSQ a rdf:Statement ;
+    bf:Note "volume 2" ;
+    bf:electronicLocator <https://books.google.it/books?id=j0JeDQd826AC> ;
+    dcterms:publisher adi:ZE6VZDoef66Y ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N154c8fd0c33b4d1fb1d95a58acc4c4e3" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YYFRNeCKx9AL ;
+    schema:datePublished "1605" ;
+    schema:url <http://id.sbn.it/bid/UM1E012216> .
+
+adi:YYFRNeCKx9AL-hULVC4JwZZUW a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2VaeG8vKXxbY ;
+    rdf:predicate <> ;
+    rdf:subject adi:YYFRNeCKx9AL .
+
+adi:YYFRNeCKx9AL a rdfs:Resource ;
+    rdfs:label "Della corona di Apollo composta del piu vago de' fiori di permesso. Da Piergirolamo Gentile" ;
+    <> adi:2VaeG8vKXxbY,
+        "1605" ;
+    dcterms:identifier <http://id.sbn.it/bid/UM1E012216>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F501650010> ;
+    dcterms:title "Della corona di Apollo composta del piu vago de' fiori di permesso. Da Piergirolamo Gentile. Parte [prima]-seconda" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

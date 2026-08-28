@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WpytQRQrs9Qx-DsieXzeKqxPn a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:aS9jDyDiqBTA ;
+    rdf:predicate <> ;
+    rdf:subject adi:WpytQRQrs9Qx .
+
+adi:WpytQRQrs9Qx-eiBZRNCwofjc a rdf:Statement ;
+    rdf:object adi:JQq3N3zLE9Lo ;
+    rdf:predicate <> ;
+    rdf:subject adi:WpytQRQrs9Qx ;
+    ns1:P304 "65" ;
+    ns1:P958 "Contro l'opinione di Democrito" ;
+    schema:volumeNumber "Rime morali" .
+
+adi:WpytQRQrs9Qx a rdfs:Resource ;
+    rdfs:label "Di Democrito rido. A caso ei vuole" ;
+    <> adi:JQq3N3zLE9Lo,
+        adi:aS9jDyDiqBTA ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Di Democrito rido. A caso ei vuole,
+Che de gli Atomi fuor sia fatto il Mondo.
+Vuol dar con questi a l'universa mole
+Essere, qualità, misura e pondo.
+
+Dunque a caso ha natura il sen fecondo?
+Dunque nascere il tutto a caso suole?
+Per fortuito concorso è 'l Mar profondo?
+Per fortuito concorso è chiaro il Sole?
+
+Studiata follia, che a riso move.
+Sempre da l'Orto il dì corre a l'Occaso,
+Né mai può traviar per strade nove.
+
+Infallibil Natura ha persuaso,
+Che v'è regola al Tutto, e che là dove
+Stabil Ordine v'è, non entra il Caos.""" ;
+    dc:subject adi:NzeNuh8wFzPv,
+        adi:mKfEc82yh2qM ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

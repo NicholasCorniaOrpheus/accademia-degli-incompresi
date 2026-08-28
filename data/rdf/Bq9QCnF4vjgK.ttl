@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Bq9QCnF4vjgK-HQjwn6ou5P46 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:6FSwyQUqdeCQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:Bq9QCnF4vjgK .
+
+adi:Bq9QCnF4vjgK-ajF2bNWQateB a rdf:Statement ;
+    rdf:object adi:ZmhzcSbPoocH ;
+    rdf:predicate <> ;
+    rdf:subject adi:Bq9QCnF4vjgK ;
+    ns1:P304 "215" ;
+    ns1:P958 "Della Sig. Cavalletta" .
+
+adi:Bq9QCnF4vjgK-k5HRox8wv9PA a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:RWJhybDuQZd4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Bq9QCnF4vjgK .
+
+adi:Bq9QCnF4vjgK a rdfs:Resource ;
+    rdfs:label "M'è pur stato dal core" ;
+    <> adi:6FSwyQUqdeCQ,
+        adi:RWJhybDuQZd4,
+        adi:ZmhzcSbPoocH ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """M'è pur stato dal core
+Furtivamente il Lauro
+Svelto, che già tu vi piantasti Amore.
+E tu'l vedi, e consenti,
+Che quel, che l'ha rapito
+Non debba esser punito?
+Ma temo, che paventi
+Punir chi l'ha rubato,
+Sol perch'ancor tu sei di furto nato.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F160220000010101_000000090400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:DGVEXnoNEPuk,
+        adi:WkSZD3Bh98rq ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

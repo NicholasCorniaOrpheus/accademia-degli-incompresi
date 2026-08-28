@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5rx8Yfsa7CCe-8jscywr9YJte a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:Ts84ndzSUdKS ;
+    rdf:predicate <> ;
+    rdf:subject adi:5rx8Yfsa7CCe .
+
+adi:5rx8Yfsa7CCe-BZwTzdQKVCtY a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:44NBTod6K3M3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:5rx8Yfsa7CCe .
+
+adi:5rx8Yfsa7CCe-RgqLKzVW8Ean a rdf:Statement ;
+    rdf:object adi:Xu3FeGq6EtRs ;
+    rdf:predicate <> ;
+    rdf:subject adi:5rx8Yfsa7CCe ;
+    ns1:P304 "34" ;
+    ns1:P958 "Sonetto della Sig. Issicratea Monte al C.B.F." ;
+    schema:volumeNumber "2nd edition" .
+
+adi:5rx8Yfsa7CCe a rdfs:Resource ;
+    rdfs:label "Mentre lontana sol contemplo quella" ;
+    <> adi:44NBTod6K3M3,
+        adi:Ts84ndzSUdKS,
+        adi:Xu3FeGq6EtRs ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Mentre lontana sol contemplo quella
+Vostra rara virtù, degna di rima
+Spinge ad alzarmi all'alta cagion prima
+Un non so, che divin, ch'io scorgo in ella.
+
+Quinci s'apre la via, diritta, e bella,
+Onde il mio nome poggi in ogni clima
+Ne'l bagni oblio di lete, o roda lima
+D'invida o furi mai proterva stella.
+
+Quinci l'alma produce, un pensier saggio,
+Che mi cerca inalzar, con bianche piume,
+E portar dalli Esperi, a lidi Eoi,
+
+Se dunque luce in me benigno raggio,
+O si scopre virtù del divin lume
+Tutto BONARDO sol nasce da voi.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:44NBTod6K3M3 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

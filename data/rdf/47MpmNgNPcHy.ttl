@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:47MpmNgNPcHy-5rRhY4aQoGuY a rdf:Statement ;
+    bf:Role adi:cA2ZGRKmQjw9 ;
+    rdf:object adi:drasiKYKtnDo ;
+    rdf:predicate <> ;
+    rdf:subject adi:47MpmNgNPcHy .
+
+adi:47MpmNgNPcHy-NaxJbmhkrkdC a rdf:Statement ;
+    bf:electronicLocator <https://bdt.bibcom.trento.it/Testi-a-stampa/16076> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:956/datastreams/MMIIIF/content> ;
+    rdf:object "Ndb34dcb6f9414d688ee931443d84558f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:47MpmNgNPcHy ;
+    schema:datePublished "1557" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE005675> .
+
+adi:47MpmNgNPcHy-exbJcrfNvRdy a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:cZCQX49qGcQ2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:47MpmNgNPcHy .
+
+adi:47MpmNgNPcHy-hPFdwVL4qv5Q a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:9mUm66UReTNd ;
+    rdf:predicate <> ;
+    rdf:subject adi:47MpmNgNPcHy .
+
+adi:47MpmNgNPcHy-nFttVoff9mYg a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:YJP9QUN4Mbfw ;
+    rdf:predicate <> ;
+    rdf:subject adi:47MpmNgNPcHy .
+
+adi:47MpmNgNPcHy a rdfs:Resource ;
+    rdfs:label "Le immagini del tempio della signora donna Giovanna Aragona" ;
+    <> adi:9mUm66UReTNd,
+        adi:YJP9QUN4Mbfw,
+        adi:cZCQX49qGcQ2,
+        adi:drasiKYKtnDo,
+        "1557" ;
+    dc:description "(Fictional) dialogues from academic gatherings of salonnière Giovanna d'Aragona." ;
+    dc:subject adi:F4Q6mPjKkDUQ,
+        adi:cA2ZGRKmQjw9,
+        adi:faKgxGgth5dr ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE005675> ;
+    dcterms:title "Le imagini del tempio della signora donna Giouanna Aragona, dialogo di m. Giuseppe Betussi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:DJam8o3efkSd ;
+    wdt:P31 adi:BgmxnNpBupRa,
+        adi:QXGbSHBTa8pT ;
+    skos:altLabel "Le insegne del tempio della signora donna Giovanna d'Aragona" .
+

@@ -1,0 +1,59 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ad9FxgKNvq6D-KGdsoMrZRz9G a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:PBEhrmkec4qK ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ad9FxgKNvq6D .
+
+adi:Ad9FxgKNvq6D-VXm5GvtY9DkE a rdf:Statement ;
+    rdf:object adi:WShmLq8ZHqk5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ad9FxgKNvq6D ;
+    ns1:P958 "Sonetto del molto Illustre Signor. Il Sig. Oratio Visdomini. Alla molto Magnifica Sig. La Signora Lucretia Marinella." .
+
+adi:Ad9FxgKNvq6D-W92sCRdtzq4r a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2WkCBmYy3BbW ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ad9FxgKNvq6D .
+
+adi:Ad9FxgKNvq6D a rdfs:Resource ;
+    rdfs:label "Poco è il mostrar, ch'a noi rispende il Sole" ;
+    <> adi:2WkCBmYy3BbW,
+        adi:PBEhrmkec4qK,
+        adi:WShmLq8ZHqk5 ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Poco è il mostrar, ch' a noi rispende il Sole:
+Ch'arde il foco, il Ciel gira, e bagnan l' onde,
+Che di Febo al venir l'horror s'asconde,
+E che Flora habbia in sen rose, e viole.
+
+Meno è scoprir, che l' eccellenza invole,
+La donna à l' huom con sue virtù profonde,
+Ch'uopo non è mostrar quel, che diffonde,
+Luce per sé d' alte bellezze sole.
+
+Sai tu, che saria l'huom privo di questo,
+Di Natura, e del Ciel gran meraviglia,
+Donna, gran don di Dio, luce del mondo?
+
+Una bestia selvaggia, & un molesto,
+Peso a la terra, ch'al mal sol s'appiglia.
+Forsennato, crudel, vile, & immondo.""" ;
+    dc:subject adi:F4Q6mPjKkDUQ,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

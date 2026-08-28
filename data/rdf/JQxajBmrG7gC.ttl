@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JQxajBmrG7gC-ZEMUrQjQgYN8 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BarcvHNHhyjC ;
+    rdf:predicate <> ;
+    rdf:subject adi:JQxajBmrG7gC .
+
+adi:JQxajBmrG7gC-mXKvnrisH5J9 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=jlX8x6ARFJsC> ;
+    dcterms:publisher adi:Ugjg95iYkpuR ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Nacd137eb6dee4a9abefb664a064db59c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JQxajBmrG7gC ;
+    schema:datePublished "1551" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017686> .
+
+adi:JQxajBmrG7gC a rdfs:Resource ;
+    rdfs:label "La seconda libraria del Doni" ;
+    <> adi:BarcvHNHhyjC,
+        "1551" ;
+    dc:description "Alphabetic list of academies and their members, some of them fictive." ;
+    dc:subject adi:SrVPa4TA2i3P,
+        adi:faKgxGgth5dr ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE017686> ;
+    dcterms:title "La seconda libraria del Doni" ;
+    dcterms:type "Book" ;
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[catalogue]]>,
+        <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[dictionary]]> .
+

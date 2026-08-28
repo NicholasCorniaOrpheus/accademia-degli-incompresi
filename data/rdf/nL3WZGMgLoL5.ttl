@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:nL3WZGMgLoL5-MUgp7s3VubRs a rdf:Statement ;
+    rdf:object adi:ntSDGzZoi2Eb ;
+    rdf:predicate <> ;
+    rdf:subject adi:nL3WZGMgLoL5 ;
+    ns1:P304 "48" ;
+    ns1:P958 "Mad. XVIII." .
+
+adi:nL3WZGMgLoL5-QjPEjoDZcgxa a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:nL3WZGMgLoL5 .
+
+adi:nL3WZGMgLoL5 a rdfs:Resource ;
+    rdfs:label "Oh lagrime, ch'ad arte" ;
+    <> adi:ke7Y8iiuR8Rg,
+        adi:ntSDGzZoi2Eb ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Oh lagrime, ch'ad arte
+Ho tante volte sparte in questo Rio,
+Lagrime in cui s'asconde il foco, ond'io
+MI struggo a parte, a parte
+Quando talhor bagnate
+Le delicate membra
+Di colei, che del Ciel Diva rassembra
+Dite lagrime ingrate
+Perché de l'amor mio non l'infiammate?""" ;
+    dc:subject adi:BgmxnNpBupRa,
+        adi:Suq86ApyHSzQ ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F000380000101_PPPP00011000C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    skos:altLabel "O lagrime, ch'ad arte" ;
+    ns1:P180 adi:NbBMYT8M5qdr ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

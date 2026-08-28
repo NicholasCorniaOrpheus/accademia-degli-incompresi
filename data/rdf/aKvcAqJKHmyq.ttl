@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aKvcAqJKHmyq-8hBDEAdLGrj3 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:drYc2kkZgZmi ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKvcAqJKHmyq .
+
+adi:aKvcAqJKHmyq-nzLhy6E9dxdC a rdf:Statement ;
+    rdf:object adi:XLmkQV9MHrnh ;
+    rdf:predicate <> ;
+    rdf:subject adi:aKvcAqJKHmyq ;
+    ns1:P304 "14" ;
+    ns1:P958 "Madrigale da cantarsi per le sirene." ;
+    schema:volumeNumber "3" .
+
+adi:aKvcAqJKHmyq a rdfs:Resource ;
+    rdfs:label "Almo delle false onde" ;
+    <> adi:XLmkQV9MHrnh,
+        adi:drYc2kkZgZmi ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """ALMO delle false onde,
+Immortal Re felice,
+Cui vive ogni beltà che in lor s'asconde,
+Se di pregar ne lice,
+Dal più quieto ascolta
+Tuo Gorgo, di Sirene il dolce canto,
+E in liete schiere accolta,
+Oda tutta del Mar l'humida gente,
+E danzi tocchi i fermi Lidi involta,
+Mentre a l'alto s'invia
+Da l'Indo il Sol nascente a l'Armonia.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:5PPMvehXX5tk,
+        adi:ACvoYRbWWiw7,
+        adi:Dw8U7c9dKgjv,
+        adi:SdFEzi7he4AR ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:55W2N4Jbdjz3-3X88TEE6uRmd a rdf:Statement ;
+    dcterms:references adi:J9rnQmjyXd4M ;
+    rdf:object adi:aTk9hoymKNbk ;
+    rdf:predicate <> ;
+    rdf:subject adi:55W2N4Jbdjz3 ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:55W2N4Jbdjz3-LUMNHMDboNkV a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "18090" ;
+    rdf:predicate <> ;
+    rdf:subject adi:55W2N4Jbdjz3 .
+
+adi:55W2N4Jbdjz3 a rdfs:Resource ;
+    rdfs:label "Francesco Maria Molza" ;
+    <> adi:4AB2zhiGQJga,
+        adi:Kw3fHBF6Lnp4,
+        adi:P5ipTFsK5dJG,
+        adi:ZeHYJAGwEQHj,
+        adi:aTk9hoymKNbk,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JeipotRf6rFA" ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:male .
+

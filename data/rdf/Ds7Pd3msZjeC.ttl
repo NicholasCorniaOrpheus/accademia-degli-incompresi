@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ds7Pd3msZjeC-KxqT8mjR3eVF a rdf:Statement ;
+    dcterms:references adi:5ZmX4c5h8CRb ;
+    rdf:object adi:aTk9hoymKNbk ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ds7Pd3msZjeC .
+
+adi:Ds7Pd3msZjeC-Mr2jyxzkihGw a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "17497" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ds7Pd3msZjeC .
+
+adi:Ds7Pd3msZjeC a rdfs:Resource ;
+    rdfs:label "Annibale Caro" ;
+    <> adi:4AB2zhiGQJga,
+        adi:aTk9hoymKNbk,
+        adi:kNR7wGs7pHDt ;
+    dcterms:identifier ns1:Q566851 ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    ns1:P800 adi:QpFJa6z5UT68 ;
+    schema:gender adi:5bZY447EzsJq .
+

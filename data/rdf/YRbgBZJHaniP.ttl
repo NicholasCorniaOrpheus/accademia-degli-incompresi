@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YRbgBZJHaniP-NsC3ZpMmR22C a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=DjArT3tJ1JIC> ;
+    wdt:P291 adi:NAvcJHrBT6mr ;
+    rdf:object "N15a82704437941f49996a3095b807eec" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YRbgBZJHaniP ;
+    schema:datePublished "1672" ;
+    schema:url <http://id.sbn.it/bid/UBOE000655> .
+
+adi:YRbgBZJHaniP a rdfs:Resource ;
+    rdfs:label "Memorie, imprese, e ritratti de' signor Accademici Gelati" ;
+    <> "1672" ;
+    dc:subject adi:AtYFns9BtQHt ;
+    dcterms:identifier <http://id.sbn.it/bid/UBOE000655> ;
+    dcterms:title "Memorie imprese, e ritratti de' signori Accademici Gelati di Bologna raccolte nel principato del signor conte Valerio Zani il Ritardato" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:cvnPagTJkSUk ;
+    wdt:P31 adi:bgt4RadKQanj .
+

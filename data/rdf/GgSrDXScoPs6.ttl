@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GgSrDXScoPs6-4drshvuae9cE a rdf:Statement ;
+    rdf:object adi:YGHkPLurgTyx ;
+    rdf:predicate <> ;
+    rdf:subject adi:GgSrDXScoPs6 ;
+    ns1:P304 "16" ;
+    ns1:P958 "Dell'Immaturo" .
+
+adi:GgSrDXScoPs6-FuzmewHgpZom a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:F83FXwvvhCvA ;
+    rdf:predicate <> ;
+    rdf:subject adi:GgSrDXScoPs6 .
+
+adi:GgSrDXScoPs6 a rdfs:Resource ;
+    rdfs:label "Non temete più, amanti" ;
+    <> adi:F83FXwvvhCvA,
+        adi:YGHkPLurgTyx ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Non temete più, amanti,
+Che vi saetti Amore,
+Che vota ha la faretra nel mio core:
+Né del suo foco alcun habbia sospetto,
+Ch' arso havendomi il petto
+Ascosa ha la facella
+Né i raggi del mia lucente stella.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:NbBMYT8M5qdr,
+        adi:Rq5MFqmMSfYb,
+        adi:UZuCbSwwuwLY ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

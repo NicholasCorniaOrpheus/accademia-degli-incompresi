@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7wySFAWbc2Gc-2i7PoSLwnQdm a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ksGcW9hPLv6x ;
+    rdf:predicate <> ;
+    rdf:subject adi:7wySFAWbc2Gc .
+
+adi:7wySFAWbc2Gc-cZ66oYoNuwyP a rdf:Statement ;
+    rdf:object adi:8bcRKeoRwLYe ;
+    rdf:predicate <> ;
+    rdf:subject adi:7wySFAWbc2Gc ;
+    ns1:P958 "Barbara Torelli, 1" .
+
+adi:7wySFAWbc2Gc a rdfs:Resource ;
+    rdfs:label "Spenta è d'Amor la face, il dardo è rotto" ;
+    <> adi:8bcRKeoRwLYe,
+        adi:ksGcW9hPLv6x ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Spenta è d’Amor la face, il dardo è rotto,
+E l’arco e la faretra e ogni sua possa,
+Poi che ha Morte crudel la pianta scossa,
+A la cui ombra cheta io dormia sotto.
+
+Deh perché non poss’io la breve fossa
+Seco entrar, dove l’ha il destin condotto,
+Colui che appena cinque giorni e otto
+Amor legò pria de la gran percossa?
+
+Vorrei col foco mio quel freddo ghiaccio
+Intepidire, e rimpastar col pianto
+La polve, e ravvivarla a nuova vita:
+
+E vorrei poscia, baldanzosa e ardita,
+Mostrarlo a lui, che ruppe il caro laccio,
+E dirgli: – Amor, mostro crudel, può tanto.""" ;
+    dc:subject adi:n3tGuCy85e5j ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

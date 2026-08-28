@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:b3XLHPeUxc5s-CMLaPEw2FcMp a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:cAg4ZC7SGWum ;
+    rdf:predicate <> ;
+    rdf:subject adi:b3XLHPeUxc5s .
+
+adi:b3XLHPeUxc5s-XqX4VZML6784 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:c6NfMc4aLaby ;
+    rdf:predicate <> ;
+    rdf:subject adi:b3XLHPeUxc5s .
+
+adi:b3XLHPeUxc5s-hcdGVht5mjfP a rdf:Statement ;
+    rdf:object adi:gzpHxiKuPzSn ;
+    rdf:predicate <> ;
+    rdf:subject adi:b3XLHPeUxc5s ;
+    ns1:P304 "38" ;
+    ns1:P958 "Favole, Pallade che visita le Muse" .
+
+adi:b3XLHPeUxc5s a rdfs:Resource ;
+    rdfs:label "Ben giunga, oh saggia Diva" ;
+    <> adi:c6NfMc4aLaby,
+        adi:cAg4ZC7SGWum,
+        adi:gzpHxiKuPzSn ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Ben giunga, oh saggia Diva,
+De le Muse sorella, in fra le nove
+Figlie del sommo Giove
+La tua presenza al sacro monte ombroso,
+Che de' Cigni al riposo
+ben si convien là dove
+Riga Hippocren la sempreverde riva
+Tra gli allori l'oliva.""" ;
+    dc:subject adi:eRj7U7HDLrGe,
+        adi:iMsLAWZsRpYq ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=17016> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:PnkoxmTbaCXr ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

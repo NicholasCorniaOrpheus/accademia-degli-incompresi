@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NdoMgsS6yGTo-AGauZHcKhfg7 a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A5531C/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A5531C> ;
+    rdf:object "N86cdf21e83c34e56aa14ed0f13abcfd4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NdoMgsS6yGTo ;
+    schema:datePublished "1548" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026144> .
+
+adi:NdoMgsS6yGTo-BsfTKhXHJjDE a rdf:Statement ;
+    bf:Note "Contribution in the 1553 reprint." ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BarcvHNHhyjC ;
+    rdf:predicate <> ;
+    rdf:subject adi:NdoMgsS6yGTo .
+
+adi:NdoMgsS6yGTo-YctG9ihKBG9B a rdf:Statement ;
+    bf:Note "Contribution by Anton Francesco Doni" ;
+    bf:electronicLocator <http://badigit.comune.bologna.it/books/sol/36001_INV.pdf> ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Nd804d70fd1574e1a9cab283ddef0e2ea" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NdoMgsS6yGTo ;
+    schema:datePublished "1553" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054756> .
+
+adi:NdoMgsS6yGTo-oWr5M5bxKTUd a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WsQJYjxufGKj ;
+    rdf:predicate <> ;
+    rdf:subject adi:NdoMgsS6yGTo .
+
+adi:NdoMgsS6yGTo a rdfs:Resource ;
+    rdfs:label "Rime de la signora Laura Terracina" ;
+    <> adi:BarcvHNHhyjC,
+        adi:WsQJYjxufGKj,
+        "1548" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE026144> ;
+    dcterms:title "Rime de la signora Laura Terracina" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

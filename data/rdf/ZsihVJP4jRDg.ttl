@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZsihVJP4jRDg-4DkPEj5yypcQ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:NqAa4C6LiGN8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZsihVJP4jRDg .
+
+adi:ZsihVJP4jRDg-4kUcVDgxe4yH a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=Egmkr8C6J0IC> ;
+    dcterms:publisher adi:gEVtMk8GxHjh ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Ne5a1c7ff33c2499085c99ffe0c116ba5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ZsihVJP4jRDg ;
+    schema:datePublished "1584" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047664> .
+
+adi:ZsihVJP4jRDg a rdfs:Resource ;
+    rdfs:label "Le imprese illustri del signor Girolamo Ruscelli" ;
+    <> adi:NqAa4C6LiGN8,
+        "1584" ;
+    dc:subject adi:AtYFns9BtQHt ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047664> ;
+    dcterms:title "Le imprese illustri del s.or Ieronimo Ruscelli. Aggiuntoui nuouam.te il quarto libro da Vincenzo Ruscelli da Viterbo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:ajgtt88cevRe ;
+    wdt:P31 adi:hwqY4Vjzk6Cb .
+

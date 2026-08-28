@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XkoPJFDEW3gm-BD9Xf99Yxj5t a rdf:Statement ;
+    rdf:object adi:ENq7SsHPfC3T ;
+    rdf:predicate <> ;
+    rdf:subject adi:XkoPJFDEW3gm ;
+    ns1:P304 "149" ;
+    ns1:P958 "Giovan Battista Giraldi Cinthio." .
+
+adi:XkoPJFDEW3gm-QCp88PLLEAtJ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cAY8wr9pyjdc ;
+    rdf:predicate <> ;
+    rdf:subject adi:XkoPJFDEW3gm .
+
+adi:XkoPJFDEW3gm-eT8iwLwpgvpN a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:drasiKYKtnDo ;
+    rdf:predicate <> ;
+    rdf:subject adi:XkoPJFDEW3gm .
+
+adi:XkoPJFDEW3gm a rdfs:Resource ;
+    rdfs:label "Questo felice, e glorioso Tempio" ;
+    <> adi:ENq7SsHPfC3T,
+        adi:cAY8wr9pyjdc,
+        adi:drasiKYKtnDo ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """QUESTO felice, e glorioso Tempio
+De la più chiara Dea, ch'oggi s'honori,
+Poi ch'io non ho condegni incensi, e fiori
+Colpa del duro mio destino, & empio,
+
+Dietro a voi, che di morte fate scempio
+Fra i famosi, e più saggi scrittori
+Dotti figli d'Esperia almi pastori
+Di queste belle rime adorno, & empio;
+
+Che se m'havesse il Cielo alzata, dove
+Alzato ha lei, alzato ha'l vostro stile,
+Oh me beata, e paghi i desir miei.
+
+Voi dunque in rime disusate, e nove,
+Fate udire il suo nome a Battro, e a Tile,
+E tutto quel ch'io volli, e non potei.""" ;
+    dc:subject adi:WdY5JsWWztUd,
+        adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BvVWzBztq38s,
+        adi:SoT8HEa6ZEYG,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

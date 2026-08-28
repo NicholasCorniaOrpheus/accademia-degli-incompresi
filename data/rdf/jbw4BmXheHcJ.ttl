@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jbw4BmXheHcJ-EQxAddPFHssE a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "159" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jbw4BmXheHcJ .
+
+adi:jbw4BmXheHcJ-XysqpqmF7KTW a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object "1593" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jbw4BmXheHcJ .
+
+adi:jbw4BmXheHcJ-Zj4kzFmcVMYB a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:UyK6rcL5shtk ;
+    rdf:predicate <> ;
+    rdf:subject adi:jbw4BmXheHcJ .
+
+adi:jbw4BmXheHcJ a rdfs:Resource ;
+    rdfs:label "Accademia di San Luca di Roma" ;
+    <> adi:P5ipTFsK5dJG,
+        adi:UyK6rcL5shtk,
+        adi:eRj7U7HDLrGe ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q338523> ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:faKgxGgth5dr ;
+    skos:altLabel "Accademia del Disegno di Roma" .
+

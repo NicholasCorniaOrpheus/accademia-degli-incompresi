@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JY6qvS7L9qLE-EXgCiARzgpx3 a rdf:Statement ;
+    rdf:object adi:YGHkPLurgTyx ;
+    rdf:predicate <> ;
+    rdf:subject adi:JY6qvS7L9qLE ;
+    ns1:P304 "38" ;
+    ns1:P958 "Del Tenebroso" .
+
+adi:JY6qvS7L9qLE-fiDPwNdra454 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:hGWk3kKYpoWd ;
+    rdf:predicate <> ;
+    rdf:subject adi:JY6qvS7L9qLE .
+
+adi:JY6qvS7L9qLE a rdfs:Resource ;
+    rdfs:label "Filli caro ben mio" ;
+    <> adi:YGHkPLurgTyx,
+        adi:hGWk3kKYpoWd ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Filli caro ben mio,
+Da quelle dolci labbia
+Deh fa ch'un bacio solo, un sol bacio habbia,
+Prendilo Alessi, ch'io
+O dar non lo saprei,
+O dandolo morrei.
+Oh dolci baci, dolcemente impressi,
+Oh mia Filli, o mio Alessi.""" ;
+    dc:description "Poem depicting the return of light after the darkness of night, thanks to the Sun." ;
+    dc:subject adi:XLktudVaMszu ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:HnxuMdc6Fiog,
+        adi:YGRByAyckPA5,
+        adi:ndCJMutbF4oJ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

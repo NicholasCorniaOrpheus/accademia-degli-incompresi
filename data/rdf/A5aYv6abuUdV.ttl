@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:A5aYv6abuUdV-EBsZUVzVjuJZ a rdf:Statement ;
+    bf:Note "Incipit assonance." ;
+    rdf:object adi:27cy82yr7S7z ;
+    rdf:predicate <> ;
+    rdf:subject adi:A5aYv6abuUdV .
+
+adi:A5aYv6abuUdV-a48Eiavb6eyb a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:GvrgfY6eM6QQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:A5aYv6abuUdV .
+
+adi:A5aYv6abuUdV-b6DKSSvCryMx a rdf:Statement ;
+    bf:Note "Incipit assonance." ;
+    rdf:object adi:XvkjJBUota2S ;
+    rdf:predicate <> ;
+    rdf:subject adi:A5aYv6abuUdV .
+
+adi:A5aYv6abuUdV a rdfs:Resource ;
+    rdfs:label "Alma beat'e bella (Torresani)" ;
+    <> adi:27cy82yr7S7z,
+        adi:GvrgfY6eM6QQ,
+        adi:P7AXeJcnPriq,
+        adi:XvkjJBUota2S ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/008930000010101_000000198203C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:SXrVe27zaz8x,
+        adi:Suq86ApyHSzQ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

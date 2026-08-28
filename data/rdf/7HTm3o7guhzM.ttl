@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7HTm3o7guhzM-8BeUomjyq9G9 a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16311" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7HTm3o7guhzM .
+
+adi:7HTm3o7guhzM-WGg3tFQ9Uyga a rdf:Statement ;
+    bf:heldBy adi:iQ4o46B3wUmP ;
+    rdf:object "A0275" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7HTm3o7guhzM .
+
+adi:7HTm3o7guhzM-XfsRqsCbUTsR a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:UJz77hnWWSNh ;
+    rdf:predicate <> ;
+    rdf:subject adi:7HTm3o7guhzM ;
+    schema:startDate "1590" .
+
+adi:7HTm3o7guhzM a rdfs:Resource ;
+    rdfs:label "Francesca Turina Bufalini" ;
+    <> adi:UJz77hnWWSNh ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:iQ4o46B3wUmP,
+        adi:m8sBpVgB8XmV ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Francesca Turina",
+        "Francesca Turini Bufalini" ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

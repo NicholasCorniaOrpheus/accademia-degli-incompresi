@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VfXvKbubUY6q-N4YNu7f6Ek8c a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "5149" ;
+    rdf:predicate <> ;
+    rdf:subject adi:VfXvKbubUY6q .
+
+adi:VfXvKbubUY6q-NvF2yCsvDMgz a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:HgeP9DKTPBeR ;
+    rdf:predicate <> ;
+    rdf:subject adi:VfXvKbubUY6q .
+
+adi:VfXvKbubUY6q-ZFk6kidvTz3o a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:PE5uAEyVKtpe ;
+    rdf:predicate <> ;
+    rdf:subject adi:VfXvKbubUY6q .
+
+adi:VfXvKbubUY6q a rdfs:Resource ;
+    rdfs:label "Giovanni Francesco Maia Materdona" ;
+    <> adi:4AB2zhiGQJga,
+        adi:HgeP9DKTPBeR,
+        adi:PE5uAEyVKtpe ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3766123> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Gianfrancesco Maia Materdona" ;
+    schema:gender adi:5bZY447EzsJq .
+

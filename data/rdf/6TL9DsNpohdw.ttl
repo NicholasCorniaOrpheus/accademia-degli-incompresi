@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6TL9DsNpohdw-DXkvSEsQMmhi a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:mFyFdDPj6fDu ;
+    rdf:predicate <> ;
+    rdf:subject adi:6TL9DsNpohdw .
+
+adi:6TL9DsNpohdw-GmYQ8Lcfeyzi a rdf:Statement ;
+    rdf:object adi:AbDZnrEnp7Un ;
+    rdf:predicate <> ;
+    rdf:subject adi:6TL9DsNpohdw ;
+    ns1:P958 "In lode della Signora Barbera Tigliamochi degli Albizi. Sonetto del Signor Girolamo Bartolommei." .
+
+adi:6TL9DsNpohdw-JwUHnoFFfszP a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:NqoZxCbzEnSz ;
+    rdf:predicate <> ;
+    rdf:subject adi:6TL9DsNpohdw .
+
+adi:6TL9DsNpohdw a rdfs:Resource ;
+    rdfs:label "Qual Sirena apparì nell'età nostra?" ;
+    <> adi:AbDZnrEnp7Un,
+        adi:NqoZxCbzEnSz,
+        adi:mFyFdDPj6fDu ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Qual Sirena apparì nell'età nostra?
+Qual nova Musa arguta sì nel canto,
+Che sfida il Cigno; onde si pregia Manto,
+Reso a gara Ilion Campo di giostra?
+
+Del Padre la pietà quegli dimostra,
+Questa il valor del Figlio, e in arme il vanto.
+Scese all'Inferno Enea s'in mortal manto;
+Contro suoi mostri Ascanio Errante giostra.
+
+Udì Roma quel Plettro; ode gioconda
+D'Arno la Reggio estò, che dolce suona
+Le sue glorie, ond'appresta illustre fronda.
+
+Maron di Lauro s'orni in Elicona:
+Barbara il pregio tuo su Tosca sponda
+Di Regia QUERCIA al crin fregiar corona.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACvoYRbWWiw7,
+        adi:DJFhRHGa4FSM,
+        adi:DMPR5m5PZxqA,
+        adi:P5ipTFsK5dJG,
+        adi:bHJG3dg7VrRb,
+        adi:iUnzyAtvGSK8 ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

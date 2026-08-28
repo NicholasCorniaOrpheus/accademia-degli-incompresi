@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AXEquMqgnKRG-7WogzjjDKLs3 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:4yrdHqNxsZtz ;
+    rdf:predicate <> ;
+    rdf:subject adi:AXEquMqgnKRG .
+
+adi:AXEquMqgnKRG-AZNCGXCpxtGi a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=ogbj49_s2awC> ;
+    dcterms:publisher adi:hMewta6Vr8Jy ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "N58b8fb13fb944131a7e6aa8ac79afb33" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AXEquMqgnKRG ;
+    schema:datePublished "1630" ;
+    schema:url <http://id.sbn.it/bid/BVEE044103> .
+
+adi:AXEquMqgnKRG-SqJEB3zCCuKa a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:efKsbXJYLn9w ;
+    rdf:predicate <> ;
+    rdf:subject adi:AXEquMqgnKRG .
+
+adi:AXEquMqgnKRG-WQNJ2MkFHXZ9 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:YX7fAHFFMJr8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:AXEquMqgnKRG .
+
+adi:AXEquMqgnKRG-ficgNLfFK7x6 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:iRuAAvQiEwKY ;
+    rdf:predicate <> ;
+    rdf:subject adi:AXEquMqgnKRG .
+
+adi:AXEquMqgnKRG a rdfs:Resource ;
+    rdfs:label "La roccella espugnata di Francesco Bracciolini dell'Api" ;
+    <> adi:4yrdHqNxsZtz,
+        adi:MyN8HshJ2LaN,
+        adi:YX7fAHFFMJr8,
+        adi:efKsbXJYLn9w,
+        adi:iRuAAvQiEwKY,
+        "1630" ;
+    dc:subject adi:d3toCwWjFK73 ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE044103> ;
+    dcterms:title "La roccella espugnata di Francesco Bracciolini dell'Api: al christianissimo rè di Francia Lodouico il Giusto. Con gl'argomenti à ciascun canto del sig. Desiderio Montemagni" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Zq9ksBtTYP9n ;
+    wdt:P31 adi:CrKoHGLhLE34 ;
+    skos:altLabel "Rocella espugnata" .
+

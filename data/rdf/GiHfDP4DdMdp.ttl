@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GiHfDP4DdMdp-9fyZ5CJX6XHt a rdf:Statement ;
+    dcterms:references adi:m8sBpVgB8XmV ;
+    rdf:object adi:JGcXMZEzmdpU ;
+    rdf:predicate <> ;
+    rdf:subject adi:GiHfDP4DdMdp .
+
+adi:GiHfDP4DdMdp-RoSqFtwmWdLA a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:Wyd2YHjqWKjo ;
+    rdf:predicate <> ;
+    rdf:subject adi:GiHfDP4DdMdp .
+
+adi:GiHfDP4DdMdp-hFv9jeHt8f2v a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object "1661" ;
+    rdf:predicate <> ;
+    rdf:subject adi:GiHfDP4DdMdp .
+
+adi:GiHfDP4DdMdp-hZi8CGrp7t9x a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "150" ;
+    rdf:predicate <> ;
+    rdf:subject adi:GiHfDP4DdMdp .
+
+adi:GiHfDP4DdMdp-j82UPGgjFrQ7 a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    wdt:P1480 adi:QWmtzgCRQ9wY ;
+    rdf:object "1626" ;
+    rdf:predicate <> ;
+    rdf:subject adi:GiHfDP4DdMdp .
+
+adi:GiHfDP4DdMdp a rdfs:Resource ;
+    rdfs:label "Accademia degli Incogniti di Venezia" ;
+    <> adi:JGcXMZEzmdpU,
+        adi:Wyd2YHjqWKjo,
+        adi:f43HawKudsFv ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3603983> ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:faKgxGgth5dr .
+

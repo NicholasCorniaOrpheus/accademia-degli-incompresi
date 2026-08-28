@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Nc779FfuJrfW-SsG352y4ogBa a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:MCpqmQ2EH76N ;
+    rdf:predicate <> ;
+    rdf:subject adi:Nc779FfuJrfW .
+
+adi:Nc779FfuJrfW-YGLu5KR4kNV9 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:M6n3D9mxj5sQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:Nc779FfuJrfW .
+
+adi:Nc779FfuJrfW-gM6FwiRFJ9Rd a rdf:Statement ;
+    rdf:object adi:bJYR7sBHWsEt ;
+    rdf:predicate <> ;
+    rdf:subject adi:Nc779FfuJrfW ;
+    ns1:P304 "28" ;
+    ns1:P958 "Alla S. Eufemia" .
+
+adi:Nc779FfuJrfW a rdfs:Resource ;
+    rdfs:label "Quando nell'ocean l'altera fonte" ;
+    <> adi:M6n3D9mxj5sQ,
+        adi:MCpqmQ2EH76N,
+        adi:bJYR7sBHWsEt ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Quando nell'ocean l'altera fronte
+Inchina il Sole, e 'l nostro Mondo imbruna,
+E dal più basso Ciel la fredda Luna
+Sormonta, e fa d'argento ogn'altro monte.
+
+Partesi il buon Pastor dal chiaro fonte,
+E la sua greggie, alla sua mandra aduna,
+E'l stanco pellegrin raccoglie in una
+Le forze stanche al suo voler mal pronte;
+
+Et io che veggio avvicinar la notte,
+E volar l'hore, e i giorni, gli anni, e i lustri,
+E già dal quinto indietro mi rivolgo.
+
+Il passo affretto, e prima che s'annotte,
+Lo stuol de'pensier miei sparsi raccolgo
+Per fargli in Cielo eternamente illustri.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:ZrQCbqiD2eU2,
+        adi:d6Scakn6F3bd,
+        adi:ddw2PSbVUZ6t,
+        adi:kUxMMRYHpPZP ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

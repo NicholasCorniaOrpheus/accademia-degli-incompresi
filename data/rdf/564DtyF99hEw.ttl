@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:564DtyF99hEw-CLaQX3Gjf8NX a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=SbpdAAAAcAAJ> ;
+    dcterms:publisher adi:mBuz2DVvb28R ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Nf227ac9a72634935a99c2348445ff6c6" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:564DtyF99hEw ;
+    schema:datePublished "1605" ;
+    schema:url <http://id.sbn.it/bid/BVEE041824> .
+
+adi:564DtyF99hEw-JHhjU65qnZJy a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:fg7MNeVSQWGp ;
+    rdf:predicate <> ;
+    rdf:subject adi:564DtyF99hEw .
+
+adi:564DtyF99hEw-ck84Zdroe2cN a rdf:Statement ;
+    bf:heldBy adi:iQ4o46B3wUmP ;
+    rdf:object "E20113-01" ;
+    rdf:predicate <> ;
+    rdf:subject adi:564DtyF99hEw .
+
+adi:564DtyF99hEw-jn6htzDNMGTJ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:PBEhrmkec4qK ;
+    rdf:predicate <> ;
+    rdf:subject adi:564DtyF99hEw .
+
+adi:564DtyF99hEw a rdfs:Resource ;
+    rdfs:label "Arcadia felice" ;
+    <> adi:PBEhrmkec4qK,
+        adi:fg7MNeVSQWGp,
+        "1605" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE041824> ;
+    dcterms:title "Arcadia felice di Lucretia Marinella. Dedicata alla serenissima Madama Leonora Medici Gonzaga" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:PdqQDrJWGC9w,
+        adi:R66mFXC4Cubc ;
+    wdt:P31 adi:AYqoxRbyDh4i .
+

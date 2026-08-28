@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5DNfHWgjqYed-c5wFx3yyM227 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WsQJYjxufGKj ;
+    rdf:predicate <> ;
+    rdf:subject adi:5DNfHWgjqYed .
+
+adi:5DNfHWgjqYed-jagGXY6uQgDn a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:kFghMqXMQGVb ;
+    rdf:predicate <> ;
+    rdf:subject adi:5DNfHWgjqYed .
+
+adi:5DNfHWgjqYed-o3Sr5QpjW6Dq a rdf:Statement ;
+    rdf:object adi:NdoMgsS6yGTo ;
+    rdf:predicate <> ;
+    rdf:subject adi:5DNfHWgjqYed ;
+    ns1:P304 "16" ;
+    ns1:P958 "Alla S. Dianora Terracina. Sorella Carissima." .
+
+adi:5DNfHWgjqYed a rdfs:Resource ;
+    rdfs:label "Fate in me quel si puote o cieli o sorte" ;
+    <> adi:NdoMgsS6yGTo,
+        adi:WsQJYjxufGKj,
+        adi:kFghMqXMQGVb ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Fate in me quel si puote o cieli o sorte;
+Et fiammi contra tutti i vostri inganni;
+Che un voler manterrò fino a la morte,
+Un cor & un pensier fra tanti affanni.
+Starò nell'esser mio costante e forte,
+Così ne i primi, qual ne gli ultimi anni:
+Anzi morrò, se ben il ver s'estima,
+Prima che colpo di fortuna, o prima.""" ;
+    dc:subject adi:4yA7EuAeTMCw,
+        adi:ddyPTXYyiFzq ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:ipSJVTEhEkc6 ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:TPCCdMb4KspG ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

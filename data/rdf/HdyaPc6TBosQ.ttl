@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HdyaPc6TBosQ-9rrAj2jVPwzw a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "5100" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HdyaPc6TBosQ .
+
+adi:HdyaPc6TBosQ-TQ5pSZmYVFL3 a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV,
+        adi:KD8CF8tAiKnw ;
+    rdf:object adi:eaDP4ShYyXLq ;
+    rdf:predicate <> ;
+    rdf:subject adi:HdyaPc6TBosQ .
+
+adi:HdyaPc6TBosQ a rdfs:Resource ;
+    rdfs:label "Cesare Abelli" ;
+    <> adi:NAvcJHrBT6mr,
+        adi:eaDP4ShYyXLq ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

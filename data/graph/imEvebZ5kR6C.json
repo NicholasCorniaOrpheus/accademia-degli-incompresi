@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "label": "actor",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cS2ZRx7FP2Cu",
+      "label": "Giambattista Andreini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9Mw7QoxKsjuz",
+      "label": "Notizie istoriche de' comici italiani che fiorirono intorno all'anno 1550",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mg8U6QhVqEqK",
+      "label": "Adriano Valerini",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/AdrianoValerini.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ke7Y8iiuR8Rg",
+      "label": "Isabella Andreini",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rime_d%27Isabella_Andreini_1603%2C_frontispiece%2C_engraved_portrait_-_Gallica_2014_%28adjusted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6SyznTvmmGGy",
+      "label": "Deh Florinda gratiosa",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SkU8K6nXSqeb",
+      "label": "Andrea Calmo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPH3aNn2RnWp",
+      "label": "Vincenza Armani",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cS2ZRx7FP2Cu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9Mw7QoxKsjuz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mg8U6QhVqEqK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ke7Y8iiuR8Rg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6SyznTvmmGGy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SkU8K6nXSqeb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPH3aNn2RnWp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mg8U6QhVqEqK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPH3aNn2RnWp",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ke7Y8iiuR8Rg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cS2ZRx7FP2Cu",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPH3aNn2RnWp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mg8U6QhVqEqK",
+      "property": "related_to"
+    }
+  ]
+}

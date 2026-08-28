@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Mensural Partbook Transcription Test</title>
+        <respStmt>
+          <persName role="encoder">AI Assistant</persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <pubPlace>Ghent</pubPlace>
+        <date isodate="2026-08-27"/>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title>Transcription Sample</title>
+          </titleStmt>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="5.0">
+          <name>MEI Mensural Generator</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv xml:id="mdiv_01">
+        <score xml:id="score_01">
+          <scoreDef xml:id="scoreDef_01">
+            <staffGrp xml:id="staffGrp_01">
+              <staffDef xml:id="staffDef_01" n="1" lines="5" notationtype="mensural">
+                <clef xml:id="clef_01" shape="C" line="3"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="section_01">
+            <staff xml:id="staff_01" n="1">
+              <layer xml:id="layer_01" n="1">
+                <!-- Tempus perfectum, prolatio imperfecta (O) -->
+                <mensur xml:id="mensur_01" tempus="3" prolatio="2" sign="O"/>
+                <note xml:id="note_01" pname="c" oct="4" dur="brevis" quality="perfect"/>
+                <note xml:id="note_02" pname="d" oct="4" dur="semibrevis"/>
+                <note xml:id="note_03" pname="e" oct="4" dur="semibrevis"/>
+                <note xml:id="note_04" pname="f" oct="4" dur="semibrevis"/>
+                <note xml:id="note_05" pname="g" oct="4" dur="brevis"/>
+                <rest xml:id="rest_01" dur="brevis"/>
+                <!-- Simple Ligature Example -->
+                <ligature xml:id="ligature_01">
+                  <note xml:id="note_06" pname="a" oct="4" dur="longa"/>
+                  <note xml:id="note_07" pname="g" oct="4" dur="longa"/>
+                </ligature>
+                <note xml:id="note_08" pname="f" oct="4" dur="maxima"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

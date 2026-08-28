@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BdQ35zSx7Uvq-Hf5S4ms4hyB8 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:6i2dMd6jYqCG ;
+    rdf:predicate <> ;
+    rdf:subject adi:BdQ35zSx7Uvq .
+
+adi:BdQ35zSx7Uvq-J7JgdNp292TN a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A54EDC/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A54EDC> ;
+    rdf:object "Nb2eeb7d676d541d79d3cc0e5471a9821" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BdQ35zSx7Uvq ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026060> .
+
+adi:BdQ35zSx7Uvq a rdfs:Resource ;
+    rdfs:label "Rime di m. Girolamo Parabosco" ;
+    <> adi:6i2dMd6jYqCG,
+        "1547" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE026060>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F006480010> ;
+    dcterms:title "Rime di m. Girolamo Parabosco" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

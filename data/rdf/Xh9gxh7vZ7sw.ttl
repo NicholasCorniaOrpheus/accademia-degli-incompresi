@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Xh9gxh7vZ7sw-RwDtkNVkHe2N a rdf:Statement ;
+    rdf:object adi:AqfSVRY3KtFh ;
+    rdf:predicate <> ;
+    rdf:subject adi:Xh9gxh7vZ7sw ;
+    ns1:P304 "78" ;
+    ns1:P958 "Gaspara Stampa" .
+
+adi:Xh9gxh7vZ7sw-nryk7oTuZN7f a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cAY8wr9pyjdc ;
+    rdf:predicate <> ;
+    rdf:subject adi:Xh9gxh7vZ7sw .
+
+adi:Xh9gxh7vZ7sw a rdfs:Resource ;
+    rdfs:label "Chi vuol conoscer, Donne, il mio Signore" ;
+    <> adi:AqfSVRY3KtFh,
+        adi:cAY8wr9pyjdc ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """Chi vuol conoscer, Donne, il mio Signore,  
+Miri un Signor di vago, e dolce aspetto,  
+Giovane d'anni, e vecchio d'intelletto,  
+Immagin della gloria, e del valore:
+
+Di pelo biondo, e di vivo colore,  
+Di persona alta, e spazioso petto,  
+E finalmente in ogni opra perfetto,  
+Fuor, che un poco (ohimè lassa!) empio in amore. 
+
+E chi vuol poi conoscer me, rimiri  
+Una Donna in effetti, ed in sembiante  
+Immagin de la morte e de' martiri.
+
+Un' albergo di fé salda, e costante,  
+Una, che perché pianga, arda, e sospiri,  
+Non fa pietoso il suo crudele amante.""" ;
+    dc:subject adi:aKwdk5uSxc8v ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:4yA7EuAeTMCw,
+        adi:GJNhc2VqDoFL,
+        adi:JD38F6WZ6Bni ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

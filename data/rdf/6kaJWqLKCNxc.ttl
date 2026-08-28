@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6kaJWqLKCNxc-CtrDBJ4XuqfW a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ne3BHXniMVmN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6kaJWqLKCNxc .
+
+adi:6kaJWqLKCNxc-NuPGjFFKxNtK a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:KjAY94RouFtJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:6kaJWqLKCNxc .
+
+adi:6kaJWqLKCNxc-fqAGruVgnXwF a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BE4kxtAbpReH" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6kaJWqLKCNxc .
+
+adi:6kaJWqLKCNxc-kQL43mRpc9Xm a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB309/> ;
+    dcterms:publisher adi:U6A7AEa9PvuU ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N91838231bfb2473a9769bb8d6683edd9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6kaJWqLKCNxc ;
+    schema:datePublished "1620" ;
+    schema:url <http://id.sbn.it/bid/MUS0238448> .
+
+adi:6kaJWqLKCNxc a rdfs:Resource ;
+    rdfs:label "Le seconde musiche di Claudio Saracini" ;
+    <> adi:KjAY94RouFtJ,
+        "1620" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0238448>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV19200010>,
+        <https://rism.online/sources/990057389> ;
+    dcterms:title "Le seconde musiche di Claudio Saracini detto il Palusi nobile senese per cantar et sonar nel chitarrone arpicordo et altri istromenti. Et nel fine il lamento della Madonna in stile recitativo" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:AbuDB4awtRQP .
+

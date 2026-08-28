@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e7Y5Z2NL3Nkv",
+      "label": "Petrarchism",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z8LagqusijsM",
+      "label": "Nasce la vita mia dal mio morire",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MCpqmQ2EH76N",
+      "label": "Laura Battiferri",
+      "class": "Agent",
+      "image": "https://commons.wikimedia.org/wiki/File:Laura_Battiferri_by_Angelo_Bronzino.jpg"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z8LagqusijsM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e7Y5Z2NL3Nkv",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MCpqmQ2EH76N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e7Y5Z2NL3Nkv",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z8LagqusijsM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MCpqmQ2EH76N",
+      "property": "contributor"
+    }
+  ]
+}
