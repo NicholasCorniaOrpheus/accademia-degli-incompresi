@@ -12,7 +12,6 @@
   bottom-margin = 1 \cm
   left-margin = 1.5 \cm
   right-margin = 1.5 \cm
-  page-breaking = #ly:one-line-breaking
   #(define fonts
     (make-pango-font-tree "Linux Libertine O"
                           "Nimbus Sans, Nimbus Sans L"

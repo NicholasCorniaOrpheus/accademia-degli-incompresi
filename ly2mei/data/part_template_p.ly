@@ -1,4 +1,4 @@
-%WOIS - PartBooks Project Template
+%Performance Edition Part Template
 
 % Variables
 
@@ -25,7 +25,7 @@
 \score{
   <<
  \new MensuralVoice = "voice" \with {
-    \consists "Ambitus_engraver"} <<
+    \consists "Ambitus_engraver" \consists "Melody_engraver"} <<
    %\override Staff.StaffSymbol.ledger-line-thickness = #'(1.0 . 1.0)
    \transpose c c{
     \voiceMusic

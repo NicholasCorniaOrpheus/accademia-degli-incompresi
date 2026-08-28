@@ -27,57 +27,62 @@ ficta = { \once \set suggestAccidentals = ##t }
     % --- CANTO ---
     \new Staff \with { 
       \include "../voice_options_score.ly" 
+      \omit Stem.direction
       instrumentName = "Canto"
       shortInstrumentName = "C."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "canto" { \clef "treble" \cadenzaOn \autoBeamOff \include "./c_music_d.ly" }
+      \new Voice = "canto" {  \include "./c_music_p.ly" }
     >>
-    \new Lyrics \lyricsto "canto" { \include "./c_lyrics_d.ly" }
+    \new Lyrics \lyricsto "canto" { \include "./c_lyrics_p.ly" }
     
-    % --- CANTO ---
+    % --- QUINTO ---
     \new Staff \with { 
       \include "../voice_options_score.ly" 
+      \omit Stem.direction
       instrumentName = "Quinto"
       shortInstrumentName = "Q."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "quinto" { \clef "treble" \cadenzaOn \autoBeamOff \include "./q_music_d.ly" }
+      \new Voice = "quinto" {  \include "./q_music_p.ly" }
     >>
-    \new Lyrics \lyricsto "quinto" { \include "./q_lyrics_d.ly" }
+    \new Lyrics \lyricsto "quinto" { \include "./q_lyrics_p.ly" }
     
     % --- ALTO ---
     \new Staff \with { 
-      \include "../voice_options_score.ly" 
+      \include "../voice_options_score.ly"
+      \omit Stem.direction
       instrumentName = "Alto"
       shortInstrumentName = "A."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "alto" {\clef "treble" \cadenzaOn \autoBeamOff \include "./a_music_d.ly" }
+      \new Voice = "alto" { \include "./a_music_p.ly" }
     >>
-    \new Lyrics \lyricsto "alto" { \include "./a_lyrics_d.ly" }
+    \new Lyrics \lyricsto "alto" { \include "./a_lyrics_p.ly" }
     
     % --- TENORE ---
     \new Staff \with { 
       \include "../voice_options_score.ly" 
+      \omit Stem.direction
       instrumentName = "Tenore"
       shortInstrumentName = "T."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "tenore" {\clef "treble_8" \cadenzaOn \autoBeamOff \include "./t_music_d.ly" }
+      \new Voice = "tenore" { \include "./t_music_p.ly" }
     >>
-    \new Lyrics \lyricsto "tenore" { \include "./t_lyrics_d.ly" }
+    \new Lyrics \lyricsto "tenore" { \include "./t_lyrics_p.ly" }
 
     % --- BASSO ---
     \new Staff \with { 
       \include "../voice_options_score.ly" 
+      \omit Stem.direction
       instrumentName = "Basso"
       shortInstrumentName = "B."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "basso" {\clef "bass" \cadenzaOn \autoBeamOff \include "./b_music_d.ly" }
+      \new Voice = "basso" { \include "./b_music_p.ly" }
     >>
-    \new Lyrics \lyricsto "basso" { \include "./b_lyrics_d.ly" }
+    \new Lyrics \lyricsto "basso" { \include "./b_lyrics_p.ly" }
  
   >> 
  
