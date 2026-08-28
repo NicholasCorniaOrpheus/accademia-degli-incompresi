@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/advanced_search_index.json';
     const classCsvUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv';
-    const dateCsvUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/date_properties.csv';
+    const date_properties = ["date"];
 
     // Preview constants
     const PREVIEW_COUNT = 30;
