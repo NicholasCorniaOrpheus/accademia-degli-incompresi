@@ -139,6 +139,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jH3MryomRxvL",
+      "label": "La famosa disputa fatta tra l'armi, e le lettere con la definizione, quali di loro cedino in nobiltà",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RhfimLfmqPRs",
       "label": "De sonetti di m. Benedetto Varchi, parte prima",
       "class": "Book",
@@ -191,6 +197,12 @@
       "label": "Accademia del Disegno di Firenze",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/neVsZzX9EjAy",
+      "label": "Francesco Tosi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -305,6 +317,11 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jH3MryomRxvL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvYVBMCkzMzW",
+      "property": "has_version"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RhfimLfmqPRs",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvYVBMCkzMzW",
       "property": "has_version"
@@ -348,6 +365,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6dBGbXyqu7h5",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvYVBMCkzMzW",
       "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/neVsZzX9EjAy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvYVBMCkzMzW",
+      "property": "work_location"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZrXjAaQeUNk",
@@ -423,6 +445,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WRsDFDbd5TpG",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6dBGbXyqu7h5",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jH3MryomRxvL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/neVsZzX9EjAy",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jH3MryomRxvL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jZoTyFnAARjr",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4DMhgmZERe9r",

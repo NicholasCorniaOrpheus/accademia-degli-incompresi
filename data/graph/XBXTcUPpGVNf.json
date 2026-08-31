@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jZoTyFnAARjr",
+      "label": "Don Giovanni de' Medici",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EGhZrKVC8j78",
       "label": "parent",
       "class": "Concept",
@@ -17,6 +23,12 @@
       "label": "Tu dunque figlio sei morto, che solo",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RGkwj2SrHSi5",
+      "label": "Giovanni Battista Andreini",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Angelo_Caroselli_-_Man_reading_a_book_by_Tacitus%2C_portrait_of_Giambattista_Andreini.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AcgXJzoKSEkJ",
@@ -32,6 +44,11 @@
       "property": "opposite_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jZoTyFnAARjr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XBXTcUPpGVNf",
+      "property": "related_to"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EGhZrKVC8j78",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XBXTcUPpGVNf",
       "property": "opposite_of"
@@ -40,6 +57,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MUqEKWsDr6VG",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XBXTcUPpGVNf",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RGkwj2SrHSi5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XBXTcUPpGVNf",
+      "property": "related_to"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AcgXJzoKSEkJ",

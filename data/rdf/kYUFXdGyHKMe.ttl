@@ -7,36 +7,36 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:kYUFXdGyHKMe-58GA86LfCFL9 a rdf:Statement ;
+adi:kYUFXdGyHKMe-4UCyybirXHGW a rdf:Statement ;
+    bf:Note "Reprint." ;
+    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
     dcterms:publisher adi:dt83qSxSrD7X ;
     wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "N5abe62c05a494bd5b389fb841d0ffe78" ;
+    rdf:object "N817f2aa4073c4109ad6a6e563650d5e4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kYUFXdGyHKMe ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
+
+adi:kYUFXdGyHKMe-7XUCcmiZJQkp a rdf:Statement ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N0193e84616404f2396a98bd011a957a4" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:kYUFXdGyHKMe ;
     schema:datePublished "1549" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054714> .
 
-adi:kYUFXdGyHKMe-Ys2ZcqpS3jge a rdf:Statement ;
+adi:kYUFXdGyHKMe-jQLDbbcPyGmK a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758640> ;
     bf:heldBy adi:Vr34aVTZvrrW ;
     wdt:P291 adi:GvYVBMCkzMzW ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest> ;
-    rdf:object "N36d45ec67bf64bdb85b42406cb8ebaaa" ;
+    rdf:object "Nf2c44c142e7e407382885273b531057b" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:kYUFXdGyHKMe ;
     schema:datePublished "1570" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10758640> .
-
-adi:kYUFXdGyHKMe-aS67Cvd78jfy a rdf:Statement ;
-    bf:Note "Reprint." ;
-    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
-    dcterms:publisher adi:dt83qSxSrD7X ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "N73874f0a9546496abf2b977effd9a930" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:kYUFXdGyHKMe ;
-    schema:datePublished "1550" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
 
 adi:kYUFXdGyHKMe a rdfs:Resource ;
     rdfs:label "Discorso sopra tutti li primi canti d'Orlando Furioso" ;

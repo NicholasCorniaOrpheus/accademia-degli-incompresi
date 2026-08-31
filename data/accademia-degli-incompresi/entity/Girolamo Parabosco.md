@@ -5,7 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q29300
 described_by_source:
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/f/ff/Girolamo_Parabosco_by_Giuseppe_Calendi.jpg?utm_source=it.wikisource.org&utm_campaign=imageinfo&utm_content=original
 aliases:
 instance_of:
   - "[[human]]"

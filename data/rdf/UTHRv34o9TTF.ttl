@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UTHRv34o9TTF-TAgrsn2SzZLw a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:mYbAUyG2xjYe ;
+    rdf:predicate <> ;
+    rdf:subject adi:UTHRv34o9TTF .
+
+adi:UTHRv34o9TTF-TdYeLRmjEuEm a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=qNKJbHy_GXAC> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N60617c2f668e48c19dd5ade2d26ff424" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UTHRv34o9TTF ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE001591> .
+
+adi:UTHRv34o9TTF-Z4TRMbL5VNEB a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "17367" ;
+    rdf:predicate <> ;
+    rdf:subject adi:UTHRv34o9TTF .
+
+adi:UTHRv34o9TTF-gTXgEp7SvQMa a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:jZoTyFnAARjr ;
+    rdf:predicate <> ;
+    rdf:subject adi:UTHRv34o9TTF .
+
+adi:UTHRv34o9TTF a rdfs:Resource ;
+    rdfs:label "Della segretezza" ;
+    <> adi:jZoTyFnAARjr,
+        adi:mYbAUyG2xjYe,
+        "1599" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE001591> ;
+    dcterms:title "Scipione Ammirato Della segretezza, all'illustriss. et eccellentiss. signore, il sig. don Giouanni de Medici" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:m7L8ASjPN8nA .
+

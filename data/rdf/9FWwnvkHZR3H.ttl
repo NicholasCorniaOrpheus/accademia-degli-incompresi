@@ -1,0 +1,21 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9FWwnvkHZR3H-nw6hBhwBuZpK a rdf:Statement ;
+    dcterms:references adi:FNy2MyAhi2eX ;
+    rdf:object adi:kifVnb8v7aDc ;
+    rdf:predicate <> ;
+    rdf:subject adi:9FWwnvkHZR3H ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:9FWwnvkHZR3H a rdfs:Resource ;
+    rdfs:label "Comici Accesi" ;
+    <> adi:kifVnb8v7aDc ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:YDVJE5nqGm7o .
+

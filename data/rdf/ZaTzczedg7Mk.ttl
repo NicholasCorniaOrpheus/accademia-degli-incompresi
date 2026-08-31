@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZaTzczedg7Mk-8MVNwBVyKDvP a rdf:Statement ;
+    wdt:P1480 adi:QWmtzgCRQ9wY ;
+    rdf:object "1585" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZaTzczedg7Mk .
+
+adi:ZaTzczedg7Mk-RN3pHy2tgPzN a rdf:Statement ;
+    bf:electronicLocator <http://badigit.comune.bologna.it/croce/sfoglia.aspx?Num_Lib=551> ;
+    dcterms:publisher adi:ZeQ7gLhjHjkc ;
+    wdt:P291 adi:NAvcJHrBT6mr ;
+    rdf:object "N20595bb346464bf382d37b962bd2ce1c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ZaTzczedg7Mk ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014326> .
+
+adi:ZaTzczedg7Mk a rdfs:Resource ;
+    rdfs:label "La gran vittoria di Pedrolino contra il dottor Gratiano, per amor de la bella Franceschina" ;
+    <> adi:ZfF8tq3cpZ9P ;
+    dc:subject adi:bno4K4k5MDJK,
+        adi:ekDAyv7WiddR,
+        adi:fAjWJgtLnHhs ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE014326> ;
+    dcterms:title "La gran vittoria di Pedrolino contra il dottor Gratiano, per amor de la bella Franceschina. ... Di Giulio Ces. Croce" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:TxUhBPCn3SQb .
+

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "label": "Francesco Gabrielli",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Carlo_biffi-gabrielli.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNy2MyAhi2eX",
+      "label": "(Ferrone 2011)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "label": "commedia dell'arte",
+      "class": "Concept",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Zanni%2C_Harlequin_and_Lucretia.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/25bYJWyLYHmp",
+      "label": "Compagnia dei Confidenti",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "label": "actor",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNy2MyAhi2eX",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imEvebZ5kR6C",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/25bYJWyLYHmp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eXuh6QnkB8ei",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/25bYJWyLYHmp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNy2MyAhi2eX",
+      "property": "described_by_source"
+    }
+  ]
+}

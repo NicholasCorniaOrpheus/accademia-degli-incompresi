@@ -28,7 +28,7 @@ has_version:
       - "[[Venezia]]"
     publication_date: 1611
     publisher: "[[Barezzo Barezzi]]"
-    holding_institution: "[[Austrian National Library]]"
+    holding_institution: "[[Munich Digitization Center]]"
     external_source: https://www.digitale-sammlungen.de/en/view/bsb10758717
     note: "volume 2: Madrigali Amorosi"
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758717/manifest
@@ -37,7 +37,7 @@ has_version:
       - "[[Venezia]]"
     publication_date: 1611
     publisher: "[[Barezzo Barezzi]]"
-    holding_institution: "[[Austrian National Library]]"
+    holding_institution: "[[Munich Digitization Center]]"
     external_source: https://www.digitale-sammlungen.de/en/view/bsb10758718
     note: "volume 3: Madrigali Morali, & Heroici"
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758718/manifest
@@ -46,7 +46,7 @@ has_version:
       - "[[Venezia]]"
     publication_date: 1611
     publisher: "[[Barezzo Barezzi]]"
-    holding_institution: "[[Austrian National Library]]"
+    holding_institution: "[[Munich Digitization Center]]"
     external_source: https://www.digitale-sammlungen.de/en/view/bsb10758719
     note: "volume 4: Le Lodi"
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758719/manifest

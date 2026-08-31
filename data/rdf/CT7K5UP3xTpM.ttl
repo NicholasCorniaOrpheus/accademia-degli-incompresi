@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CT7K5UP3xTpM-FJrVDXDC33eh a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:Toq3FPHGLEDw ;
+    rdf:predicate <> ;
+    rdf:subject adi:CT7K5UP3xTpM .
+
+adi:CT7K5UP3xTpM-G9aGeSkyn3fp a rdf:Statement ;
+    rdf:object adi:K2FLUmMBN9Ho ;
+    rdf:predicate <> ;
+    rdf:subject adi:CT7K5UP3xTpM ;
+    ns1:P304 "2" ;
+    ns1:P958 "Sonetto in Iscusatione della Inventrice." .
+
+adi:CT7K5UP3xTpM a rdfs:Resource ;
+    rdfs:label "Io che già vissi in libertade & sciolta" ;
+    <> adi:K2FLUmMBN9Ho,
+        adi:Toq3FPHGLEDw ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """IO CHE già vissi in libertade & sciolta
+Fui d'human seme come l'altre nata,
+Forma cangiai, per troppo esser amata
+Al mal mio grado, ch'a l'hor mi fu tolta.
+
+La propria imago & in frondi rivolta
+Et divenni in un lauro transformata.
+Hor son di novo in marmo risformata,
+Et fatta schiava da chi m'ha insepolta.
+
+Pur convienmi diporre ogn'odio & sdegno
+Per darvi alcun de pomi di mie fronde,
+Acciò gustiate il vario sapor loro.
+
+Chi di spremerli più farà dissegno
+Più ne trarrà il liquor che'n lor s'asconde
+Et troverallo più chiaro che l'oro.""" ;
+    dc:subject adi:BL66bhcML892 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:DGVEXnoNEPuk,
+        adi:JtFVPwAgP7uA,
+        adi:aKuWLNzVACqe,
+        adi:nn6vV9hVaERD ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

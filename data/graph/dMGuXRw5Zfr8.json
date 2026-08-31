@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "label": "I diporti di m. Girolamo Parabosco",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MoHvpzT28S9a",
+      "label": "novella",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dr2LauGgWric",
+      "label": "Domenico Giglio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMoQEYPeMePf",
+      "label": "short story collection",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QWmtzgCRQ9wY",
+      "label": "circa",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "label": "Venezia",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6i2dMd6jYqCG",
+      "label": "Girolamo Parabosco",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Girolamo_Parabosco_by_Giuseppe_Calendi.jpg?utm_source=it.wikisource.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BL66bhcML892",
+      "label": "riddle",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "label": "author",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMoQEYPeMePf",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QWmtzgCRQ9wY",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dr2LauGgWric",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6i2dMd6jYqCG",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BL66bhcML892",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dMGuXRw5Zfr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MoHvpzT28S9a",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dr2LauGgWric",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "property": "work_location"
+    }
+  ]
+}

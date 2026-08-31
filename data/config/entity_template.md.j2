@@ -7,6 +7,9 @@
 {%- if assets and assets.local_asset_path %}
 [:material-github: assets folder](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ assets.local_asset_path | replace('./', '') }}){ .md-button }
 {%- endif %}
+{%- if assets and assets.bibtex %}
+[:octicons-book-16: BibTeX](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ assets.bibtex | replace('./', '') }}){ .md-button }
+{%- endif %}
 
 {# 2. Metadata Admonition - Filtering out n_id, base_name, and filename #}
 <img src="{{ assets.image }}" width="200" height="300" style="float:left; margin-right:20px; border: 1px solid #eee;">
@@ -111,12 +114,6 @@
 {%- if content.markdown_content %}
 ## Notes
 {{ content.markdown_content }}
-{% endif %}
-
-{# ==== BIBLATEX ====}
-{% if bibtex %}
-## BibTeX Citation
-[:octicons-book-16: Download citation](https://github.com/NicholasCorniaOrpheus/accademia-degli-incompresi/tree/main/data/accademia-degli-incompresi/{{ bibtex | replace('./', '') }}){ .md-button }
 {% endif %}
 
 {# ========== 6. DIGITAL ASSETS (OPENSEADRAGON) ========== #}

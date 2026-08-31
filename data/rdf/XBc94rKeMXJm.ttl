@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XBc94rKeMXJm-4scp3EKNse9E a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:PMuzKdL3eLhe ;
+    rdf:predicate <> ;
+    rdf:subject adi:XBc94rKeMXJm .
+
+adi:XBc94rKeMXJm-N8o8h2dLVCGx a rdf:Statement ;
+    bf:Note "Inspired by de' Medici troupe, according to (Ferrone 2011)." ;
+    bf:Role adi:jZoTyFnAARjr ;
+    rdf:object adi:N822a32211d7c4598a68db62290acdf1c ;
+    rdf:predicate <> ;
+    rdf:subject adi:XBc94rKeMXJm .
+
+adi:XBc94rKeMXJm-bhp7R9FyUCg2 a rdf:Statement ;
+    bf:electronicLocator <http://www.urfm.braidense.it/rd/01896.pdf> ;
+    wdt:P291 adi:ZkFJYwSwU62p ;
+    rdf:object "N401d837afe6049dca9059c4bf01ea700" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XBc94rKeMXJm ;
+    schema:datePublished "1629" ;
+    schema:url <http://id.sbn.it/bid/BVEE024145> .
+
+adi:XBc94rKeMXJm a rdfs:Resource ;
+    rdfs:label "L' inavvertito comedia di Nicolo Barbieri" ;
+    <> adi:PMuzKdL3eLhe,
+        "1629" ;
+    dc:subject adi:fAjWJgtLnHhs ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE024145> ;
+    dcterms:title "L' inauertito comedia di Nicolo Barbieri detto Beltrame comico" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:TxUhBPCn3SQb .
+

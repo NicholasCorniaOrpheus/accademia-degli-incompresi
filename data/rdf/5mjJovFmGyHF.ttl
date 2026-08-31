@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5mjJovFmGyHF-37fdPWo3uEaw a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:hk9opoYyzkNU ;
+    rdf:predicate <> ;
+    rdf:subject adi:5mjJovFmGyHF .
+
+adi:5mjJovFmGyHF-WRRVRbTDtEos a rdf:Statement ;
+    bf:Role adi:FJzQoB8QSGjd ;
+    rdf:object adi:8B7RQ8QV38Sj ;
+    rdf:predicate <> ;
+    rdf:subject adi:5mjJovFmGyHF .
+
+adi:5mjJovFmGyHF-cXTHaS9uZdwF a rdf:Statement ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N8e5c1ab5937a4b8c8f5d91d1f8c2c16e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5mjJovFmGyHF ;
+    schema:datePublished "1613" ;
+    schema:url <http://id.sbn.it/bid/VEAE005062> .
+
+adi:5mjJovFmGyHF a rdfs:Resource ;
+    rdfs:label "Le funebri rime, di diversi eccellentissimi autori, in morte della signora Camilla Rocca Nobili" ;
+    <> adi:8B7RQ8QV38Sj,
+        adi:hk9opoYyzkNU,
+        "1613" ;
+    dcterms:title "Le funebri rime, di diuersi eccellentissimi autori, in morte della signora Camilla Rocha Nobili Comica Confidente, detta Delia, raccolte da Francesco Antonazzoni Comico Confidente detto Ortensio, ..." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:nBK2YJxBwhRw ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

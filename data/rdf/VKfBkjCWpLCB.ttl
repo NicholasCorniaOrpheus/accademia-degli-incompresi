@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VKfBkjCWpLCB-2k3xwtZ9oMms a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ZfF8tq3cpZ9P ;
+    rdf:predicate <> ;
+    rdf:subject adi:VKfBkjCWpLCB .
+
+adi:VKfBkjCWpLCB-DWvktipqrisH a rdf:Statement ;
+    bf:electronicLocator <https://edit16.iccu.sbn.it/titolo/CNCE014418> ;
+    wdt:P291 adi:PvBHcFy5Dvdr ;
+    wdt:P6108 <https://brixiana.jarvis.memooria.org/meta/iiif/36f75618-be81-4a3b-a705-38eeaeec7a97/manifest> ;
+    rdf:object "N8540c0b3298842aabb6cd06b11ae27ee" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:VKfBkjCWpLCB ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014418> .
+
+adi:VKfBkjCWpLCB a rdfs:Resource ;
+    rdfs:label "Notte solazzevole di cento enigmi da indovinare" ;
+    <> adi:ZfF8tq3cpZ9P,
+        "1599" ;
+    dc:subject adi:BL66bhcML892 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE014418> ;
+    dcterms:title "Notte solazzeuole di cento enigmi da indouinare, aggiontoui altri sette sonetti nel medesimo genere ... Di Giulio Cesare dalla Croce" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

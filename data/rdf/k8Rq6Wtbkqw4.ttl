@@ -7,20 +7,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:k8Rq6Wtbkqw4-2G6eLNwPuGhD a rdf:Statement ;
+adi:k8Rq6Wtbkqw4-4Fd8uccvBK4v a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/b33019617> ;
+    bf:heldBy adi:o8BzAGqSmxpP ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    rdf:object "N4308f75ba1ac445b8feff9df6da3b9ef" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:k8Rq6Wtbkqw4 ;
+    schema:datePublished "1758" .
+
+adi:k8Rq6Wtbkqw4-WiMoqH4wcxFZ a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:R6p8tmcvoNZA ;
     rdf:predicate <> ;
     rdf:subject adi:k8Rq6Wtbkqw4 .
-
-adi:k8Rq6Wtbkqw4-4TMK89uSV8jR a rdf:Statement ;
-    bf:electronicLocator <https://archive.org/details/b33019617> ;
-    bf:heldBy adi:o8BzAGqSmxpP ;
-    wdt:P291 adi:dhbQrFWynqRh ;
-    rdf:object "Nd8cd1e82ad1946b8bbca5ed3de9bfdb8" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:k8Rq6Wtbkqw4 ;
-    schema:datePublished "1758" .
 
 adi:k8Rq6Wtbkqw4 a rdfs:Resource ;
     rdfs:label "Cantilenae intellectuales" ;

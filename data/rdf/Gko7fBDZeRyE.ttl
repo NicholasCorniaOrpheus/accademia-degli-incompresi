@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Gko7fBDZeRyE-AsGwabc9dAjt a rdf:Statement ;
+    dcterms:references adi:FNy2MyAhi2eX ;
+    rdf:object adi:RGkwj2SrHSi5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Gko7fBDZeRyE ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:Gko7fBDZeRyE-aP9VXWyLPriP a rdf:Statement ;
+    dcterms:references adi:FNy2MyAhi2eX ;
+    rdf:object adi:fichLUAEWcmA ;
+    rdf:predicate <> ;
+    rdf:subject adi:Gko7fBDZeRyE ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:Gko7fBDZeRyE a rdfs:Resource ;
+    rdfs:label "Comici Fedeli" ;
+    <> adi:RGkwj2SrHSi5,
+        adi:fichLUAEWcmA ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:YDVJE5nqGm7o .
+

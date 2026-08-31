@@ -1,15 +1,27 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
+adi:YX7fAHFFMJr8-NMn2qGALbvAG a rdf:Statement ;
+    dcterms:references adi:FNy2MyAhi2eX ;
+    rdf:object adi:fAjWJgtLnHhs ;
+    rdf:predicate <> ;
+    rdf:subject adi:YX7fAHFFMJr8 .
+
 adi:YX7fAHFFMJr8 a rdfs:Resource ;
     rdfs:label "Maria de' Medici" ;
     <> adi:LyEatsU6bs4d,
+        adi:fAjWJgtLnHhs,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9FWwnvkHZR3H",
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gko7fBDZeRyE",
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K9scK2PaQ63d",
         "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iRuAAvQiEwKY" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q182021> ;
     dcterms:type "Agent" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
     wdt:P31 adi:GB3DPeNtxqwb ;
     schema:gender adi:KpnNUHk7FWq5 .
 

@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:25bYJWyLYHmp-NgMbJT8XcsnK a rdf:Statement ;
+    rdf:object adi:KasacuRRNbZB ;
+    rdf:predicate <> ;
+    rdf:subject adi:25bYJWyLYHmp .
+
+adi:25bYJWyLYHmp-UBH6NYLd7Auu a rdf:Statement ;
+    rdf:object adi:hk9opoYyzkNU ;
+    rdf:predicate <> ;
+    rdf:subject adi:25bYJWyLYHmp .
+
+adi:25bYJWyLYHmp-UcjxuVaJHuyb a rdf:Statement ;
+    rdf:object adi:8B7RQ8QV38Sj ;
+    rdf:predicate <> ;
+    rdf:subject adi:25bYJWyLYHmp .
+
+adi:25bYJWyLYHmp-dAdf3GW3E69A a rdf:Statement ;
+    rdf:object adi:eXuh6QnkB8ei ;
+    rdf:predicate <> ;
+    rdf:subject adi:25bYJWyLYHmp ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:25bYJWyLYHmp a rdfs:Resource ;
+    rdfs:label "Compagnia dei Confidenti" ;
+    <> adi:8B7RQ8QV38Sj,
+        adi:KasacuRRNbZB,
+        adi:eXuh6QnkB8ei,
+        adi:hk9opoYyzkNU ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:YDVJE5nqGm7o .
+

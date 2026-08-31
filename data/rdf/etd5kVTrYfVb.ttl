@@ -10,7 +10,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:etd5kVTrYfVb-TgTkMQawZUum a rdf:Statement ;
+adi:etd5kVTrYfVb-e3akimn2hRPh a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cAY8wr9pyjdc ;
+    rdf:predicate <> ;
+    rdf:subject adi:etd5kVTrYfVb .
+
+adi:etd5kVTrYfVb-eEcE6e74LZZV a rdf:Statement ;
     rdf:object adi:AqfSVRY3KtFh ;
     rdf:predicate <> ;
     rdf:subject adi:etd5kVTrYfVb ;
@@ -18,17 +24,11 @@ adi:etd5kVTrYfVb-TgTkMQawZUum a rdf:Statement ;
     ns1:P958 "Gaspara Stampa." ;
     schema:volumeNumber "1" .
 
-adi:etd5kVTrYfVb-ZM2x9Ys7EVbf a rdf:Statement ;
+adi:etd5kVTrYfVb-oUB6sPbTPozn a rdf:Statement ;
     rdf:object adi:LNxSnoqrbvDw ;
     rdf:predicate <> ;
     rdf:subject adi:etd5kVTrYfVb ;
     ns1:P304 "54" .
-
-adi:etd5kVTrYfVb-eGLABbnM4E7Y a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:cAY8wr9pyjdc ;
-    rdf:predicate <> ;
-    rdf:subject adi:etd5kVTrYfVb .
 
 adi:etd5kVTrYfVb a rdfs:Resource ;
     rdfs:label "Oh beata, e dolcissima novella" ;
