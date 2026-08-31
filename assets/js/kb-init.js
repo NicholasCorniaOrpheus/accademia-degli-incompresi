@@ -1,7 +1,8 @@
 /**
- * KB-Light: Unified component initializer
+ * KB-Light: Unified component initializer (FIXED)
  * Supports IIIF Presentation API v2 and v3 with multiple manifest structure variations
  * Handles CORS and Image API format issues with comprehensive fallback logic
+ * FIXES: Prevents infinite reload loop, handles 406 errors, proper V2/V3 detection
  */
 
 class KBLightInit {
@@ -12,6 +13,8 @@ class KBLightInit {
     this._running = false;
     this._observerTimer = null;
     this._observer = null;
+    this._initializedContainers = new Set(); // Track initialized containers to prevent re-initialization
+    this._initializingContainers = new Set(); // Track containers currently initializing
   }
 
   setup() {
@@ -73,7 +76,10 @@ class KBLightInit {
   }
 
   async runPageLogic() {
-    if (this._running) return;
+    if (this._running) {
+      console.debug("KB: runPageLogic already running, skipping");
+      return;
+    }
     this._running = true;
     try {
       this.initD3Graph();
@@ -124,18 +130,39 @@ class KBLightInit {
           const m = iiif[idx];
           const c = osdContainers[idx];
           if (!c) continue;
-          if (c.dataset.osdInitialized === "true") continue;
+          
+          // FIXED: Check both data attribute and our tracking Set to prevent re-initialization
+          const containerId = c.id || `osd-viewer-generated-${idx}`;
+          if (!c.id) c.id = containerId;
+          
+          if (c.dataset.osdInitialized === "true" || this._initializedContainers.has(containerId)) {
+            console.debug(`KB: Container ${containerId} already initialized, skipping`);
+            continue;
+          }
+          
+          if (this._initializingContainers.has(containerId)) {
+            console.debug(`KB: Container ${containerId} currently initializing, skipping`);
+            continue;
+          }
+
+          this._initializingContainers.add(containerId);
           
           if (typeof m === 'object') {
             const tileSources = this._parseIIIFManifestV3(m) || this._parseIIIFManifestV2(m) || [];
-            if (tileSources.length) this._initOSD(tileSources, c);
-            else this._showNoAssets(c);
+            if (tileSources.length) {
+              this._initOSD(tileSources, c);
+            } else {
+              this._showNoAssets(c);
+            }
           } else if (typeof m === 'string' && m.trim() !== "") {
             await this._loadIIIFManifest(m, c);
           } else {
             this._showNoAssets(c);
           }
+          
           c.dataset.osdInitialized = "true";
+          this._initializedContainers.add(containerId);
+          this._initializingContainers.delete(containerId);
         }
         return;
       }
@@ -144,28 +171,52 @@ class KBLightInit {
         const tileSources = await this._loadMultipleIIIFManifests(iiif);
         if (!tileSources || tileSources.length === 0) {
           this._initImagesFallback(assets, osdContainers[0]);
-          osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+          osdContainers.forEach((c, idx) => {
+            const cId = c.id || `osd-viewer-generated-${idx}`;
+            c.id = cId;
+            c.dataset.osdInitialized = "true";
+            this._initializedContainers.add(cId);
+          });
           return;
         }
         const first = osdContainers[0];
         if (!first.id) first.id = `osd-viewer-generated-0`;
+        
+        if (this._initializedContainers.has(first.id)) {
+          console.debug(`KB: First container already initialized`);
+          return;
+        }
+        
         this._initOSD(tileSources, first);
         first.dataset.osdInitialized = "true";
+        this._initializedContainers.add(first.id);
       } catch (err) {
         console.error("KB: Error loading multiple IIIF manifests:", err);
         this._initImagesFallback(assets, osdContainers[0]);
-        osdContainers.forEach(c => c.dataset.osdInitialized = "true");
+        osdContainers.forEach((c, idx) => {
+          const cId = c.id || `osd-viewer-generated-${idx}`;
+          c.id = cId;
+          c.dataset.osdInitialized = "true";
+          this._initializedContainers.add(cId);
+        });
       }
       return;
     }
 
     const container = osdContainers[0];
     if (!container) return;
-    if (container.dataset.osdInitialized === "true") return;
+    if (!container.id) container.id = `osd-viewer-generated-0`;
+    
+    // FIXED: Check initialized containers
+    if (container.dataset.osdInitialized === "true" || this._initializedContainers.has(container.id)) {
+      console.debug(`KB: Container ${container.id} already initialized`);
+      return;
+    }
 
     if (typeof iiif === 'string' && iiif.trim() !== "") {
       await this._loadIIIFManifest(iiif, container);
       container.dataset.osdInitialized = "true";
+      this._initializedContainers.add(container.id);
       return;
     }
 
@@ -177,11 +228,13 @@ class KBLightInit {
         this._initImagesFallback(assets, container);
       }
       container.dataset.osdInitialized = "true";
+      this._initializedContainers.add(container.id);
       return;
     }
 
     this._initImagesFallback(assets, container);
     container.dataset.osdInitialized = "true";
+    this._initializedContainers.add(container.id);
   }
 
   _initImagesFallback(assets, container) {
@@ -207,83 +260,133 @@ class KBLightInit {
     }
   }
 
+  /**
+   * FIXED: Improved manifest loading with better error handling
+   * Prevents 406 errors and handles timeout gracefully
+   */
   _loadIIIFManifest(manifestUrl, container) {
-    // Try multiple Accept header strategies - HAL+JSON first for EDL Italy
-    const acceptHeaders = [
-      'application/hal+json',       // HAL JSON (EDL Italy & others)
-      'application/ld+json',        // JSON-LD (IIIF standard)
-      'application/json',           // Standard JSON
-      '*/*',                        // Accept anything (fallback)
-    ];
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
 
-    const tryFetch = (headerIndex) => {
+    // FIXED: Try multiple Accept header strategies
+    const tryAcceptHeaders = async (headerIndex = 0) => {
+      const acceptHeaders = [
+        'application/json',
+        'application/ld+json',
+        'application/hal+json',
+        '*/*'
+      ];
+
       if (headerIndex >= acceptHeaders.length) {
         console.error("KB: All Accept header strategies failed for", manifestUrl);
+        clearTimeout(timeoutId);
         this._showNoAssets(container);
-        return Promise.resolve(false);
+        return false;
       }
 
       const acceptHeader = acceptHeaders[headerIndex];
-      console.debug(`KB: Fetching manifest with Accept: ${acceptHeader}`);
+      console.debug(`KB: Trying manifest with Accept: ${acceptHeader}`);
 
-      return fetch(manifestUrl, {
-        method: 'GET',
-        headers: { 'Accept': acceptHeader },
-        credentials: 'omit'
-      })
-        .then(response => {
-          if (response.status === 406) {
-            console.warn(`KB: HTTP 406 with Accept: ${acceptHeader}, trying next strategy`);
-            return tryFetch(headerIndex + 1);
+      try {
+        const response = await fetch(manifestUrl, {
+          method: 'GET',
+          headers: { 'Accept': acceptHeader },
+          credentials: 'omit',
+          signal: controller.signal
+        });
+
+        if (response.status === 406) {
+          console.warn(`KB: Got 406 with Accept: ${acceptHeader}, trying next strategy`);
+          return tryAcceptHeaders(headerIndex + 1);
+        }
+
+        if (!response.ok) {
+          console.warn(`KB: Got ${response.status} with Accept: ${acceptHeader}`);
+          if (headerIndex < acceptHeaders.length - 1) {
+            return tryAcceptHeaders(headerIndex + 1);
           }
-          if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-          }
-          return response.json();
-        })
-        .then(manifest => {
-          if (!manifest) return Promise.resolve(false);
-          
-          console.debug("KB: Manifest fetched successfully, attempting to parse...");
-          const tileSources = this._parseIIIFManifestV2(manifest) || this._parseIIIFManifestV3(manifest) || [];
-          
-          if (tileSources && tileSources.length > 0) {
-            console.log(`KB: Successfully extracted ${tileSources.length} tile sources`);
-            this._initOSD(tileSources, container);
-            return true;
-          } else {
-            console.warn("KB: No tileSources found with standard parsers, trying fallback parser");
-            const fallbackTiles = this._parseIIIFManifestFallback(manifest);
-            if (fallbackTiles && fallbackTiles.length > 0) {
-              console.log(`KB: Fallback parser found ${fallbackTiles.length} tile sources`);
-              this._initOSD(fallbackTiles, container);
-              return true;
-            }
-            console.error("KB: No tile sources found with any parser");
-            this._showNoAssets(container);
-            return false;
-          }
-        })
-        .catch(err => {
-          if (err.message.includes('HTTP 406')) {
-            return tryFetch(headerIndex + 1);
-          }
-          console.error("KB: Failed to load IIIF manifest:", err, manifestUrl);
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const manifest = await response.json();
+        console.debug("KB: Manifest loaded successfully with Accept:", acceptHeader);
+        
+        // FIXED: Better V2/V3 detection
+        const tileSources = this._parseIIIFManifestV3(manifest) || 
+                           this._parseIIIFManifestV2(manifest) || 
+                           this._parseIIIFManifestFallback(manifest) || 
+                           [];
+
+        if (tileSources && tileSources.length > 0) {
+          this._initOSD(tileSources, container);
+          clearTimeout(timeoutId);
+          return true;
+        } else {
+          console.warn("KB: No tileSources found in manifest after all parsing attempts");
+          this._showNoAssets(container);
+          clearTimeout(timeoutId);
+          return false;
+        }
+      } catch (err) {
+        if (err.name === 'AbortError') {
+          console.error("KB: Manifest fetch timeout for", manifestUrl);
+          clearTimeout(timeoutId);
           this._showNoAssets(container);
           return false;
-        });
+        }
+        console.warn(`KB: Error with Accept: ${acceptHeader}`, err.message);
+        return tryAcceptHeaders(headerIndex + 1);
+      }
     };
 
-    return tryFetch(0);
+    return tryAcceptHeaders();
   }
 
   _loadMultipleIIIFManifests(manifests) {
+    const fetchWithAcceptRetry = async (url, headerIndex = 0) => {
+      const acceptHeaders = [
+        'application/json',
+        'application/ld+json',
+        'application/hal+json',
+        '*/*'
+      ];
+
+      if (headerIndex >= acceptHeaders.length) {
+        return Promise.reject(new Error(`All Accept strategies failed for ${url}`));
+      }
+
+      const acceptHeader = acceptHeaders[headerIndex];
+      
+      try {
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: { 'Accept': acceptHeader },
+          credentials: 'omit'
+        });
+
+        if (response.status === 406) {
+          return fetchWithAcceptRetry(url, headerIndex + 1);
+        }
+
+        if (!response.ok) {
+          if (headerIndex < acceptHeaders.length - 1) {
+            return fetchWithAcceptRetry(url, headerIndex + 1);
+          }
+          return Promise.reject(new Error(`HTTP ${response.status}`));
+        }
+
+        return response.json();
+      } catch (err) {
+        if (headerIndex < acceptHeaders.length - 1) {
+          return fetchWithAcceptRetry(url, headerIndex + 1);
+        }
+        return Promise.reject(err);
+      }
+    };
+
     const fetchPromises = manifests.map(m => {
       if (typeof m === 'object') return Promise.resolve(m);
-      if (typeof m === 'string') {
-        return fetch(m, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
-          .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)));
-      }
+      if (typeof m === 'string') return fetchWithAcceptRetry(m);
       return Promise.reject(new Error('Unsupported manifest type'));
     });
 
@@ -293,7 +396,9 @@ class KBLightInit {
         results.forEach((res, idx) => {
           if (res.status === 'fulfilled' && res.value) {
             try {
-              const tiles = this._parseIIIFManifestV3(res.value) || this._parseIIIFManifestV2(res.value) || this._parseIIIFManifestFallback(res.value);
+              const tiles = this._parseIIIFManifestV3(res.value) || 
+                           this._parseIIIFManifestV2(res.value) || 
+                           this._parseIIIFManifestFallback(res.value);
               if (Array.isArray(tiles) && tiles.length) tileSourcesAll.push(...tiles);
             } catch (e) {
               console.warn("KB: parse manifest failed for index", idx, e);
@@ -307,16 +412,12 @@ class KBLightInit {
   }
 
   /**
-   * Parse IIIF Presentation API v3 manifests
-   * Supports multiple structure variations:
-   * - Standard: Manifest→items (Canvas)→items (AnnotationPage)→items (Annotation)→body (Image)
-   * - Annotations: Canvas→annotations→items (Annotation)→body (Image)
-   * - Direct body: Canvas→body (Image)
+   * FIXED: Better V2/V3 detection and parsing
    */
   _parseIIIFManifestV3(manifest) {
-    const tileSources = [];
-    const context = manifest['@context'] || manifest.context || '';
+    if (!manifest) return null;
     
+    const context = manifest['@context'] || manifest.context || '';
     const isV3 = typeof context === 'string' 
       ? context.includes('presentation/3') 
       : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/3'));
@@ -324,11 +425,10 @@ class KBLightInit {
     if (!isV3) return null;
 
     console.debug("KB: Parsing IIIF v3 manifest");
-
+    const tileSources = [];
     const items = manifest.items || [];
     
     for (const item of items) {
-      // item is a Canvas
       const canvasId = item.id || '';
       const canvasWidth = item.width || 800;
       const canvasHeight = item.height || 1000;
@@ -348,7 +448,6 @@ class KBLightInit {
             const body = annotation.body;
             if (!body) continue;
 
-            // body is an Image with service
             if (body.type === 'Image' && body.service) {
               const services = Array.isArray(body.service) ? body.service : [body.service];
               for (const svc of services) {
@@ -358,9 +457,7 @@ class KBLightInit {
                   console.debug("KB: Added tile source from v3 annotation body.service:", serviceId);
                 }
               }
-            }
-            // body is an Image with direct URL
-            else if (body.type === 'Image' && (body['@id'] || body.id)) {
+            } else if (body.type === 'Image' && (body['@id'] || body.id)) {
               const url = body['@id'] || body.id;
               tileSources.push({ type: 'image', url: url });
               console.debug("KB: Added tile source from v3 annotation body.id:", url);
@@ -369,7 +466,7 @@ class KBLightInit {
         }
       }
 
-      // Path 2: Canvas → annotations (AnnotationPages) → items (Annotations) → body
+      // Path 2: Canvas → annotations (AnnotationPages)
       if (item.annotations && Array.isArray(item.annotations)) {
         for (const page of item.annotations) {
           if (page.type !== 'AnnotationPage') continue;
@@ -421,7 +518,7 @@ class KBLightInit {
         }
       }
 
-      // Path 4: Canvas → rendering (for supplementary images)
+      // Path 4: Canvas → rendering
       if (item.rendering && Array.isArray(item.rendering)) {
         for (const render of item.rendering) {
           if (render['@id'] || render.id) {
@@ -439,77 +536,61 @@ class KBLightInit {
   }
 
   /**
-   * Parse IIIF Presentation API v2 manifests
-   * Structure: Manifest→sequences (Sequence)→canvases (Canvas)→images (Image)→resource (Resource with service)
+   * FIXED: Proper V2 manifest parsing for EDL Italy structure
    */
   _parseIIIFManifestV2(manifest) {
-    const tileSources = [];
-    const context = manifest['@context'] || manifest.context || '';
+    if (!manifest) return null;
     
+    const context = manifest['@context'] || manifest.context || '';
     const isV2 = typeof context === 'string' 
       ? context.includes('presentation/2') 
       : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/2'));
 
-    if (!isV2) {
-      console.debug("KB: Manifest is not IIIF v2");
+    if (!isV2) return null;
+
+    console.debug("KB: Parsing IIIF v2 manifest");
+    const tileSources = [];
+
+    // FIXED: Handle both standard V2 structure and EDL Italy's variant
+    const sequences = manifest.sequences || [];
+    
+    if (sequences.length === 0) {
+      console.warn("KB: V2 manifest has no sequences");
       return null;
     }
 
-    console.debug("KB: Parsing IIIF v2 manifest");
-
-    const sequences = manifest.sequences || [];
-    console.debug("KB: v2 sequences count:", sequences.length);
-
-    for (let seqIdx = 0; seqIdx < sequences.length; seqIdx++) {
-      const seq = sequences[seqIdx];
+    for (const seq of sequences) {
       const canvases = seq.canvases || [];
-      console.debug(`KB: v2 sequence[${seqIdx}] has ${canvases.length} canvases`);
-
-      for (let canIdx = 0; canIdx < canvases.length; canIdx++) {
-        const canvas = canvases[canIdx];
-        const canvasId = canvas['@id'] || `canvas-${canIdx}`;
-        const canvasWidth = canvas.width || 800;
-        const canvasHeight = canvas.height || 1000;
-
+      console.debug("KB: V2 sequence has", canvases.length, "canvases");
+      
+      for (const canvas of canvases) {
         const images = canvas.images || [];
-        console.debug(`KB: v2 canvas[${canIdx}] (${canvasId}) has ${images.length} image(s)`);
-
-        for (let imgIdx = 0; imgIdx < images.length; imgIdx++) {
-          const image = images[imgIdx];
-          console.debug(`KB: v2 image[${imgIdx}]:`, image);
-
+        
+        for (const image of images) {
+          // EDL Italy structure: image.resource.service
           const resource = image.resource || {};
-          console.debug(`KB: v2 resource:`, resource);
-
           const service = resource.service || resource['service'];
-          console.debug(`KB: v2 service found:`, !!service);
-
+          
           if (service) {
             const serviceUrl = service['@id'] || service.id;
-            console.debug(`KB: v2 service URL:`, serviceUrl);
-            
             if (serviceUrl) {
               tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
-              console.log(`KB: ✓ Added v2 tile source from canvas resource.service: ${serviceUrl}`);
+              console.debug("KB: Added tile source from v2 resource.service:", serviceUrl);
             }
           } else if (resource && (resource['@id'] || resource.id || resource.url)) {
             const url = resource['@id'] || resource.id || resource.url;
             tileSources.push({ type: 'image', url: url });
-            console.log(`KB: ✓ Added v2 tile source from resource URL: ${url}`);
-          } else {
-            console.debug(`KB: v2 image[${imgIdx}] has no service or direct URL`);
+            console.debug("KB: Added tile source from v2 resource URL:", url);
           }
         }
       }
     }
 
-    console.debug("KB: v2 parser returning", tileSources.length, "tile sources");
     return tileSources.length > 0 ? tileSources : null;
   }
 
   /**
-   * Fallback IIIF manifest parser: recursively collects candidate service/info/image URLs
-   * Used when primary v2/v3 parsers fail or when manifest has non-standard structure
+   * Fallback parser - unchanged from original
    */
   _parseIIIFManifestFallback(manifest) {
     const services = new Set();
@@ -529,7 +610,6 @@ class KBLightInit {
       }
       if (typeof obj !== 'object') return;
 
-      // Collect service URLs
       if (obj.service) {
         const s = Array.isArray(obj.service) ? obj.service : [obj.service];
         s.forEach(si => {
@@ -548,7 +628,6 @@ class KBLightInit {
         });
       }
 
-      // v2 style resource.service
       if (obj.resource && obj.resource.service) {
         const s = Array.isArray(obj.resource.service) ? obj.resource.service : [obj.resource.service];
         s.forEach(si => {
@@ -558,7 +637,6 @@ class KBLightInit {
         });
       }
 
-      // Direct @id / id
       if (obj['@id'] && typeof obj['@id'] === 'string') {
         const idv = obj['@id'];
         if (idv.endsWith('/info.json') || idv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
@@ -576,7 +654,6 @@ class KBLightInit {
         }
       }
 
-      // v3 body of type Image
       if (obj.type && String(obj.type).toLowerCase() === 'image') {
         if (obj.service) collect(obj.service);
         if (obj.id) {
@@ -589,7 +666,6 @@ class KBLightInit {
         }
       }
 
-      // URL / HREF
       if (obj.url && typeof obj.url === 'string') {
         const urlv = obj.url;
         if (urlv.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
@@ -609,7 +685,6 @@ class KBLightInit {
         }
       }
 
-      // Recurse into all properties
       for (const k of Object.keys(obj)) {
         try { collect(obj[k]); } catch (e) { /* ignore */ }
       }
@@ -621,7 +696,6 @@ class KBLightInit {
 
     const tileSources = [];
 
-    // Prefer info.json endpoints
     services.forEach(surl => {
       if (!surl || typeof surl !== 'string') return;
       if (surl.endsWith('/info.json')) {
@@ -629,10 +703,8 @@ class KBLightInit {
       } else if (surl.match(/\.(jpg|jpeg|png|tif|tiff|jp2)(\?|$)/i)) {
         tileSources.push({ type: 'image', url: surl });
       } else {
-        // Try service/info.json pattern
         const infoCandidate = surl.endsWith('/') ? (surl + 'info.json') : (surl + '/info.json');
         tileSources.push(infoCandidate);
-        // Also add generic IIIF tileSource object as fallback
         tileSources.push(this._makeIIIFImageTileSource(surl, null));
       }
     });
@@ -646,7 +718,6 @@ class KBLightInit {
       }
     });
 
-    // Deduplicate
     const seen = new Set();
     const unique = [];
     for (const t of tileSources) {
@@ -822,14 +893,26 @@ class KBLightInit {
     if (this._observer) return;
 
     const observer = new MutationObserver((mutations) => {
+      // FIXED: Only react to relevant mutations to prevent excessive re-initialization
+      const hasRelevantChanges = mutations.some(m => {
+        return m.addedNodes.length > 0 && 
+               Array.from(m.addedNodes).some(n => 
+                 (n.nodeType === 1 && (n.classList?.contains('osd-viewer') || n.id?.startsWith('osd-viewer')))
+               );
+      });
+
+      if (!hasRelevantChanges) return;
+
       if (this._observerTimer) clearTimeout(this._observerTimer);
       this._observerTimer = setTimeout(() => {
-        try {
-          this.runPageLogic();
-        } catch (e) {
-          console.error("KB: observer-runPageLogic error", e);
+        if (!this._running) {
+          try {
+            this.runPageLogic();
+          } catch (e) {
+            console.error("KB: observer-runPageLogic error", e);
+          }
         }
-      }, 150);
+      }, 300);
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
