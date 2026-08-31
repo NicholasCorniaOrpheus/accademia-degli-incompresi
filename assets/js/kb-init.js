@@ -208,32 +208,73 @@ class KBLightInit {
   }
 
   _loadIIIFManifest(manifestUrl, container) {
-    return fetch(manifestUrl, { method: 'GET', headers: { 'Accept': 'application/json' }, credentials: 'omit' })
-      .then(response => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.json();
+    // Try multiple Accept header strategies - HAL+JSON first for EDL Italy
+    const acceptHeaders = [
+      'application/hal+json',       // HAL JSON (EDL Italy & others)
+      'application/ld+json',        // JSON-LD (IIIF standard)
+      'application/json',           // Standard JSON
+      '*/*',                        // Accept anything (fallback)
+    ];
+
+    const tryFetch = (headerIndex) => {
+      if (headerIndex >= acceptHeaders.length) {
+        console.error("KB: All Accept header strategies failed for", manifestUrl);
+        this._showNoAssets(container);
+        return Promise.resolve(false);
+      }
+
+      const acceptHeader = acceptHeaders[headerIndex];
+      console.debug(`KB: Fetching manifest with Accept: ${acceptHeader}`);
+
+      return fetch(manifestUrl, {
+        method: 'GET',
+        headers: { 'Accept': acceptHeader },
+        credentials: 'omit'
       })
-      .then(manifest => {
-        const tileSources = this._parseIIIFManifestV3(manifest) || this._parseIIIFManifestV2(manifest) || [];
-        if (tileSources && tileSources.length > 0) {
-          this._initOSD(tileSources, container);
-          return true;
-        } else {
-          console.warn("KB: No tileSources found in manifest, trying fallback parser");
-          const fallbackTiles = this._parseIIIFManifestFallback(manifest);
-          if (fallbackTiles && fallbackTiles.length > 0) {
-            this._initOSD(fallbackTiles, container);
-            return true;
+        .then(response => {
+          if (response.status === 406) {
+            console.warn(`KB: HTTP 406 with Accept: ${acceptHeader}, trying next strategy`);
+            return tryFetch(headerIndex + 1);
           }
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(manifest => {
+          if (!manifest) return Promise.resolve(false);
+          
+          console.debug("KB: Manifest fetched successfully, attempting to parse...");
+          const tileSources = this._parseIIIFManifestV2(manifest) || this._parseIIIFManifestV3(manifest) || [];
+          
+          if (tileSources && tileSources.length > 0) {
+            console.log(`KB: Successfully extracted ${tileSources.length} tile sources`);
+            this._initOSD(tileSources, container);
+            return true;
+          } else {
+            console.warn("KB: No tileSources found with standard parsers, trying fallback parser");
+            const fallbackTiles = this._parseIIIFManifestFallback(manifest);
+            if (fallbackTiles && fallbackTiles.length > 0) {
+              console.log(`KB: Fallback parser found ${fallbackTiles.length} tile sources`);
+              this._initOSD(fallbackTiles, container);
+              return true;
+            }
+            console.error("KB: No tile sources found with any parser");
+            this._showNoAssets(container);
+            return false;
+          }
+        })
+        .catch(err => {
+          if (err.message.includes('HTTP 406')) {
+            return tryFetch(headerIndex + 1);
+          }
+          console.error("KB: Failed to load IIIF manifest:", err, manifestUrl);
           this._showNoAssets(container);
           return false;
-        }
-      })
-      .catch(err => {
-        console.error("KB: Failed to load IIIF manifest:", err, manifestUrl);
-        this._showNoAssets(container);
-        return false;
-      });
+        });
+    };
+
+    return tryFetch(0);
   }
 
   _loadMultipleIIIFManifests(manifests) {
@@ -409,34 +450,60 @@ class KBLightInit {
       ? context.includes('presentation/2') 
       : Array.isArray(context) && context.some(c => typeof c === 'string' && c.includes('presentation/2'));
 
-    if (!isV2) return null;
+    if (!isV2) {
+      console.debug("KB: Manifest is not IIIF v2");
+      return null;
+    }
 
     console.debug("KB: Parsing IIIF v2 manifest");
 
     const sequences = manifest.sequences || [];
-    for (const seq of sequences) {
+    console.debug("KB: v2 sequences count:", sequences.length);
+
+    for (let seqIdx = 0; seqIdx < sequences.length; seqIdx++) {
+      const seq = sequences[seqIdx];
       const canvases = seq.canvases || [];
-      for (const canvas of canvases) {
+      console.debug(`KB: v2 sequence[${seqIdx}] has ${canvases.length} canvases`);
+
+      for (let canIdx = 0; canIdx < canvases.length; canIdx++) {
+        const canvas = canvases[canIdx];
+        const canvasId = canvas['@id'] || `canvas-${canIdx}`;
+        const canvasWidth = canvas.width || 800;
+        const canvasHeight = canvas.height || 1000;
+
         const images = canvas.images || [];
-        for (const image of images) {
+        console.debug(`KB: v2 canvas[${canIdx}] (${canvasId}) has ${images.length} image(s)`);
+
+        for (let imgIdx = 0; imgIdx < images.length; imgIdx++) {
+          const image = images[imgIdx];
+          console.debug(`KB: v2 image[${imgIdx}]:`, image);
+
           const resource = image.resource || {};
+          console.debug(`KB: v2 resource:`, resource);
+
           const service = resource.service || resource['service'];
-          
+          console.debug(`KB: v2 service found:`, !!service);
+
           if (service) {
             const serviceUrl = service['@id'] || service.id;
+            console.debug(`KB: v2 service URL:`, serviceUrl);
+            
             if (serviceUrl) {
               tileSources.push(this._makeIIIFImageTileSource(serviceUrl, canvas));
-              console.debug("KB: Added tile source from v2 canvas resource.service:", serviceUrl);
+              console.log(`KB: ✓ Added v2 tile source from canvas resource.service: ${serviceUrl}`);
             }
           } else if (resource && (resource['@id'] || resource.id || resource.url)) {
             const url = resource['@id'] || resource.id || resource.url;
             tileSources.push({ type: 'image', url: url });
-            console.debug("KB: Added tile source from v2 canvas resource URL:", url);
+            console.log(`KB: ✓ Added v2 tile source from resource URL: ${url}`);
+          } else {
+            console.debug(`KB: v2 image[${imgIdx}] has no service or direct URL`);
           }
         }
       }
     }
 
+    console.debug("KB: v2 parser returning", tileSources.length, "tile sources");
     return tileSources.length > 0 ? tileSources : null;
   }
 
