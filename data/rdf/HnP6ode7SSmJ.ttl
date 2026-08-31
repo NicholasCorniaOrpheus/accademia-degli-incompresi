@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HnP6ode7SSmJ-Pj3rgUsyNarx a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k3175268> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    wdt:P291 adi:Z7p2YqqXmSnd ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3175268/manifest.json> ;
+    rdf:object "N9a313b5cba554dbda4ca40cb0275cee0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HnP6ode7SSmJ ;
+    schema:datePublished "1624" ;
+    schema:url <http://ark.bnf.fr/ark:/12148/cb301534561> .
+
+adi:HnP6ode7SSmJ-SCKccpvdC6JB a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:HFwy3rG5oguY ;
+    rdf:predicate <> ;
+    rdf:subject adi:HnP6ode7SSmJ .
+
+adi:HnP6ode7SSmJ a rdfs:Resource ;
+    rdfs:label "Bizzarria di varie figure" ;
+    <> adi:HFwy3rG5oguY,
+        "1624" ;
+    dc:subject adi:KbxBVs3YAzhk,
+        adi:eRj7U7HDLrGe ;
+    dcterms:identifier <https://catalogue.bnf.fr/ark:/12148/cb301534561> ;
+    dcterms:title "Bizzarie di varie figure , di Giovanbatista Braccelli, pittore fiorentino, all' ill.mo S. Don Pietro Medici" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:S8XWwiEFCvS3 ;
+    wdt:P31 adi:EQa8x6MU8Hoz .
+

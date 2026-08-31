@@ -7,26 +7,26 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:AbDZnrEnp7Un-B9FwK39oEAXA a rdf:Statement ;
+adi:AbDZnrEnp7Un-9RbGAs2u35rz a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/_/ezPNQ5j0YUcC> ;
+    wdt:P291 adi:GvYVBMCkzMzW ;
+    rdf:object "N953385e61e884467a2b98a1c8e3beacd" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AbDZnrEnp7Un ;
+    schema:datePublished "1640" ;
+    schema:url <http://id.sbn.it/bid/CFIE004827> .
+
+adi:AbDZnrEnp7Un-C5uKQTcbNPHA a rdf:Statement ;
     bf:Role adi:CBJEfZgNCiU3 ;
     rdf:object adi:X4biz7FmNDEb ;
     rdf:predicate <> ;
     rdf:subject adi:AbDZnrEnp7Un .
 
-adi:AbDZnrEnp7Un-aAdridS5ZJ7e a rdf:Statement ;
+adi:AbDZnrEnp7Un-MH2epMePzQ8H a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:NqoZxCbzEnSz ;
     rdf:predicate <> ;
     rdf:subject adi:AbDZnrEnp7Un .
-
-adi:AbDZnrEnp7Un-g2Loqa6gNZZF a rdf:Statement ;
-    bf:electronicLocator <https://www.google.be/books/edition/_/ezPNQ5j0YUcC> ;
-    wdt:P291 adi:GvYVBMCkzMzW ;
-    rdf:object "N6a7c097486d945e083d431ec07436dfe" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:AbDZnrEnp7Un ;
-    schema:datePublished "1640" ;
-    schema:url <http://id.sbn.it/bid/CFIE004827> .
 
 adi:AbDZnrEnp7Un a rdfs:Resource ;
     rdfs:label "Ascanio errante" ;

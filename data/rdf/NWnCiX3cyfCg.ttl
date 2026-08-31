@@ -6,18 +6,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:NWnCiX3cyfCg-4BJNLY6wSNPu a rdf:Statement ;
+adi:NWnCiX3cyfCg-9c2vnf3sRHVg a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=O7RdAAAAcAAJ> ;
+    rdf:object "Ne681618743e54679aa2b63d806332919" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NWnCiX3cyfCg ;
+    schema:datePublished "1713" .
+
+adi:NWnCiX3cyfCg-ZQd7mKTdahXJ a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:PsKxUAuVhYJe ;
     rdf:predicate <> ;
     rdf:subject adi:NWnCiX3cyfCg .
-
-adi:NWnCiX3cyfCg-Fo52MEuroVve a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=O7RdAAAAcAAJ> ;
-    rdf:object "N68d82e288b2c45fe958b3dfe49965dcc" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:NWnCiX3cyfCg ;
-    schema:datePublished "1713" .
 
 adi:NWnCiX3cyfCg a rdfs:Resource ;
     rdfs:label "Rime scelte de' poeti ferraresi antichi e moderni" ;

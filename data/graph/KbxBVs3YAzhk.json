@@ -31,6 +31,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lavinia_Fontana_-_Autoritratto_%28ca._1577-85%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HFwy3rG5oguY",
+      "label": "Giovanni Battista Bracelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VW6eakq8m9xe",
       "label": "Occhi lusenti onesti e amorosetti (Agostini)",
       "class": "MusicComposition",
@@ -41,6 +47,12 @@
       "label": "Son vecchio innamorao (Agostini)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HnP6ode7SSmJ",
+      "label": "Bizzarria di varie figure",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TBmTYygpXuDU",
@@ -77,12 +89,22 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HFwy3rG5oguY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KbxBVs3YAzhk",
+      "property": "interested_in"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VW6eakq8m9xe",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KbxBVs3YAzhk",
       "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6QVFxHipe8JB",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KbxBVs3YAzhk",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HnP6ode7SSmJ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KbxBVs3YAzhk",
       "property": "subject"
     },
@@ -130,6 +152,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6QVFxHipe8JB",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hiE7NEWM6ThN",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HnP6ode7SSmJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HFwy3rG5oguY",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TBmTYygpXuDU",
