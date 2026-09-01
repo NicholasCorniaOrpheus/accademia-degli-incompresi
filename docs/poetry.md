@@ -27,5 +27,6 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | ã | an | Expliciting tilda abbreviation |
 | õ | on | Expliciting tilda abbreviation |
 | ẽ | en | Expliciting tilda abbreviation |
+| anchora | àncora | Differentiating the words for "anchor" (àncora) and "still" (ancora) |
 
 We have kept double consonants in the original spelling, such as "essempi". Likewise original spellings with a single consonant have not been doubled.

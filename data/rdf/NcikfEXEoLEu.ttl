@@ -6,33 +6,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:NcikfEXEoLEu-JWj7RSYsWJ5P a rdf:Statement ;
+adi:NcikfEXEoLEu-KB3TtnVDCPgi a rdf:Statement ;
+    bf:electronicLocator <https://edl.cultura.gov.it/item/2xjk43mgrz> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest> ;
+    rdf:object "N2071e2cdae52446fa9a9d8c8e3d225c6" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NcikfEXEoLEu ;
+    schema:datePublished "1612" ;
+    schema:url <http://id.sbn.it/bid/BVEE024046> .
+
+adi:NcikfEXEoLEu-NxnCaFNXTWQX a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:SNDFZU9awXfx ;
     rdf:predicate <> ;
     rdf:subject adi:NcikfEXEoLEu .
 
-adi:NcikfEXEoLEu-VJjYDmMhW35u a rdf:Statement ;
-    bf:Role adi:CBJEfZgNCiU3 ;
-    rdf:object adi:NKZzcNCSYTa3 ;
-    rdf:predicate <> ;
-    rdf:subject adi:NcikfEXEoLEu .
-
-adi:NcikfEXEoLEu-hJc8d7DrqzUW a rdf:Statement ;
+adi:NcikfEXEoLEu-hnLFnDUiP8BN a rdf:Statement ;
     dcterms:references adi:25S6pggBXEvH ;
     rdf:object "1609" ;
     rdf:predicate <> ;
     rdf:subject adi:NcikfEXEoLEu .
 
-adi:NcikfEXEoLEu-mTemyNERKqHL a rdf:Statement ;
-    bf:electronicLocator <https://edl.cultura.gov.it/item/2xjk43mgrz> ;
-    wdt:P291 adi:f43HawKudsFv ;
-    wdt:P6108 <https://edl-jarvis.cultura.gov.it/meta/iiif/b29175f9-fc82-49be-b583-70e3019b6ac7/manifest> ;
-    rdf:object "Ne79274054ec74ecda94d56abf78514fd" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:NcikfEXEoLEu ;
-    schema:datePublished "1612" ;
-    schema:url <http://id.sbn.it/bid/BVEE024046> .
+adi:NcikfEXEoLEu-kr8gcAosd24C a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:NKZzcNCSYTa3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:NcikfEXEoLEu .
 
 adi:NcikfEXEoLEu a rdfs:Resource ;
     rdfs:label "Mirinda fauola pastorale del c. Marc'Antonio Ferretti" ;

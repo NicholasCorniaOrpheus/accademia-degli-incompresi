@@ -1,5 +1,34 @@
 # Transcription Guidelines
 
+## Voice codes
+
+Polyphonic voices are encoded according to the following mapping:
+
+| Voice Name  | Alternative Name | Code |
+| --- | --- |
+| Cantus | Canto, Superius | c |
+| Altus | Alto, Contratenor |  a |
+| Tenor | Tenore | t |
+| Bassus | Basso | b |
+| Quintus | Quinto, Quinta Vox | q |
+| Sextus | Sesto, Sexta Vox | sx |
+| Septimus | Settimo, Septima Vox | st |
+| Octavus | Ottavo, Octava Vox | o |
+| Full Score | fs |
+
+Voices, like "Cantus II" or "Bassus I" are encoded y adding an integer after the code, giving "c2" and "b1" respectively.
+
+## Music & Lyrics
+
+Musical and lyrics context is store in two separate Lilypond files, with suffix "\_music" and "\_lyrics" respectively.
+
+Music transcriptions use the `\relative` notation for pitches.
+
+Lyrics uses the standard `\lyricmode`. Notes without syllables are skipped via the `\skip4` element.
+
+## 
+
+
 ## Diplomatic edition
 
 Each partbook is presented in a diplomatic editon, respecting all original notes, lyrics and eventual printing mistakes, and a performance edition with needed adustments and modernizations.
@@ -35,3 +64,5 @@ My custom solution is to use Lilypond's `\musicglyph` elements inside a markup o
 ### Alteration
 
 No musica ficta will be provided, trying to be faithful to the actual notation. Alteration on the page are always followed by a `!` sign in the Lilypond notation. Sharp signs intended as a natural one, like on a B are encoded as `bs!` even if its meaning is `b!`.
+
+In the performance edition, suggested alterations are indicated via the `\ficta` custom command, placing the alteration above the note.

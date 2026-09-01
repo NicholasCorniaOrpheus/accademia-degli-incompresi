@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:L5FPZbYsS2Uw-h7hZZB7PeUrf a rdf:Statement ;
+    rdf:object adi:NaH87wQeSvh2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:L5FPZbYsS2Uw ;
+    ns1:P958 "Dialogo Terzo." .
+
+adi:L5FPZbYsS2Uw-k2VL4fi9zP9o a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2brEqdcLsYfo ;
+    rdf:predicate <> ;
+    rdf:subject adi:L5FPZbYsS2Uw .
+
+adi:L5FPZbYsS2Uw a rdfs:Resource ;
+    rdfs:label "Bench'a tanti martir mi fai suggetto" ;
+    <> adi:2brEqdcLsYfo,
+        adi:NaH87wQeSvh2 ;
+    pdc:poeticType adi:LEWu9yEF83UP,
+        adi:nkvGUfVFSUHZ ;
+    pdc:text """Bench'a tanti martir mi fai suggetto,
+Pur ti ringratio, e assai ti deggio Amore,
+Che con sì nobil piaga apriste il petto,
+E tal impadroniste del mio core,
+Per cui fia ver ch'un divo et viv'oggetto
+De Dio più bella imago'n terr'adore;
+Pensi chi vuol ch'il mio destin sia rio,
+Ch'uccid'in speme, e fa viv'in desio.
+
+Pascomi in alt'impresa;
+Et bench'il fin bramato non consegua,
+E'n tanto studio l'alma si dilegua;
+Basta che sia sì nobilment'accesa,
+basta ch'alto mi tolsi,
+Et da l'ignobil numero mi sciolsi.""" ;
+    dc:subject adi:T5kQoJ6RQuQc ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:Rq5MFqmMSfYb,
+        adi:VvvKdb9JT3jF,
+        adi:aeKYuTWbvRkf ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verovio MEI 5.1 Mensural Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f9f9;
+            color: #333;
+        }
+        header {
+            border-bottom: 2px solid #009485;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #009485;
+            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+        }
+        p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        #viewer-container {
+            background-color: #fff;
+            border: 1px solid #e1e4e5;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            padding: 20px;
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: auto;
+        }
+        #svg-canvas {
+            width: 100%;
+            height: auto;
+        }
+        .status-message {
+            font-size: 1.1rem;
+            color: #888;
+        }
+    </style>
+    <!-- Load the Verovio JavaScript toolkit from a robust, stable CDN -->
+    <script src="https://www.verovio.org/javascript/develop/verovio-toolkit.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Verovio Partbook Viewer</h1>
+        <p>Diplomatic &amp; Performance Mensural Music Reader</p>
+    </header>
+
+    <div id="viewer-container">
+        <div id="svg-canvas" class="status-message">Loading Verovio Toolkit...</div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Wait for Verovio script to load completely
+            const checkVerovio = setInterval(() => {
+                if (typeof verovio !== "undefined") {
+                    clearInterval(checkVerovio);
+                    initVerovio();
+                }
+            }, 100);
+        });
+
+        async function initVerovio() {
+            const canvas = document.getElementById("svg-canvas");
+            canvas.innerText = "Initializing toolkit...";
+
+            try {
+                // 1. Instantiate the toolkit module
+                const tk = new verovio.toolkit();
+
+                // 2. Configure options for early-music mensural notation with manual encoded breaks
+                tk.setOptions({
+                    breaks: "encoded",          // Tell Verovio to obey your <sb/> tags explicitly
+                    notationType: "mensural",   // Render mensural note shapes (longa, brevis, minima, etc.)
+                    adjustPageHeight: true,
+                    pageWidth: 1600,
+                    pageHeight: 1200,
+                    scale: 35,
+                    spacingStaff: 12,
+                    lyricSize: 4.0
+                });
+
+                canvas.innerText = "Fetching local MEI file...";
+
+                // 3. Fetch your local MEI partbook from its subdirectory
+                // Update this path to match your specific file (e.g., './01_Dopo_la_pioggia/01_Dopo_la_pioggia_a_d.mei')
+                const response = await fetch('./data/spano-quella_bocca_di_rose/spano-quella_bocca_di_rose_a_d.mei');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const meiData = await response.text();
+
+                canvas.innerText = "Rendering notation...";
+
+                // 4. Load the MEI data into Verovio
+                tk.loadData(meiData);
+
+                // 5. Render the first page into standard vector SVG
+                const svg = tk.renderToSVG(1, {});
+
+                // 6. Inject the generated SVG directly into your webpage
+                canvas.innerHTML = svg;
+
+            } catch (error) {
+                console.error("Verovio Error: ", error);
+                canvas.innerHTML = `<span style="color: #d9534f; font-weight: bold;">Failed to load notation:</span> ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -23,4 +23,5 @@ based_on:
   - value: "[[Dopo la pioggia del mio pianto amaro]]"
 derivative_work:
 text:
+digitized: true
 ---

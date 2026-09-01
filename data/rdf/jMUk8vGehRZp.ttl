@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jMUk8vGehRZp-Ti6EB269Ldiw a rdf:Statement ;
+    rdf:object adi:N7f1e8e03dbba42af824ea40472b15ebf ;
+    rdf:predicate <> ;
+    rdf:subject adi:jMUk8vGehRZp ;
+    ns1:P958 "Madrigale di Filippo Hainhofer, Cittadino d'Augusta." .
+
+adi:jMUk8vGehRZp-iJDvMwYoNX99 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:MwEGezR4nEB7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:jMUk8vGehRZp .
+
+adi:jMUk8vGehRZp-miUZewFT7gqG a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:LStkRDBxc8jf ;
+    rdf:predicate <> ;
+    rdf:subject adi:jMUk8vGehRZp .
+
+adi:jMUk8vGehRZp a rdfs:Resource ;
+    rdfs:label "Chiuso in angusta parte Augusto parto" ;
+    <> adi:LStkRDBxc8jf,
+        adi:MwEGezR4nEB7 ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """CHiuso in angusta parte Augusto parto,
+Non starai, che lodato
+Da l'ingegni più rari
+Andrai col Tempo al pari,
+Ovunque Febo snoda il crin aurato,
+Come nascosto, come
+Privo sarà di nome,
+Chi tenta altrui scuoprire
+quanto può mai celar l'arte nel dire?
+Né palesati suoi secreti l'Arte
+Scoprirà te secreto in ogni parte.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:AYVR3qzVaKdp,
+        adi:BQRZFgW6wAyq,
+        adi:Q9hnBAQFhpb7,
+        adi:YTAdfrxKFqwZ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

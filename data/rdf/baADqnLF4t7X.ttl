@@ -6,7 +6,13 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:baADqnLF4t7X-H7vFhy6mX7By a rdf:Statement ;
+adi:baADqnLF4t7X-fnaFvEpPMpin a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16263" ;
+    rdf:predicate <> ;
+    rdf:subject adi:baADqnLF4t7X .
+
+adi:baADqnLF4t7X-gAPpcDdHQWuj a rdf:Statement ;
     dcterms:references adi:DoWoU567wmiV,
         adi:T9A9Qv8Z2mX8,
         adi:m8sBpVgB8XmV ;
@@ -14,12 +20,6 @@ adi:baADqnLF4t7X-H7vFhy6mX7By a rdf:Statement ;
     rdf:predicate <> ;
     rdf:subject adi:baADqnLF4t7X ;
     schema:startDate "1580" .
-
-adi:baADqnLF4t7X-UoEQgjc5H4pj a rdf:Statement ;
-    bf:heldBy adi:DoWoU567wmiV ;
-    rdf:object "16263" ;
-    rdf:predicate <> ;
-    rdf:subject adi:baADqnLF4t7X .
 
 adi:baADqnLF4t7X a rdfs:Resource ;
     rdfs:label "Tarquinia Molza" ;

@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "label": "(Yates 1964)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "label": "De gli eroici furori",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "label": "De l'infinito universo et mondi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "label": "Giordano Bruno",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "property": "contributor"
+    }
+  ]
+}

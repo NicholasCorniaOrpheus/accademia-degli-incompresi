@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:S2wh6w7KrUG9-5VQ595uHs3cS a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2brEqdcLsYfo ;
+    rdf:predicate <> ;
+    rdf:subject adi:S2wh6w7KrUG9 .
+
+adi:S2wh6w7KrUG9-bNxR4KaRqhqe a rdf:Statement ;
+    rdf:object adi:NaH87wQeSvh2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:S2wh6w7KrUG9 ;
+    ns1:P958 "Iscusazion del Nolano. Alle più virtuose, et leggiadre dame." .
+
+adi:S2wh6w7KrUG9 a rdfs:Resource ;
+    rdfs:label "De l'Inghilterra, oh vaghe Ninfe et belle" ;
+    <> adi:2brEqdcLsYfo,
+        adi:NaH87wQeSvh2 ;
+    pdc:poeticType adi:BbJB7Gc6gwek ;
+    pdc:text """De l'Inghilterra, oh vaghe Ninfe et belle,
+Non voi ha nostro spirt'in schif', e sdegna;
+Né per mettervi giù suo stil s'ingegna,
+Se non convien che femine v'appelle.
+
+Né computar, né eccettuar da quelle,
+Son certo che voi dive mi convegna,
+Se l'influsso commun in voi non regna,
+Et siete in terra quel ch'in ciel le stelle.
+
+De voi oh Dame la beltà sovrana
+Nostro rigor né morder può, né vuole,
+Che non fa mira a specie sopr'humana.
+
+Lungi arsenico tal quindi s'invole,
+Dove si scorge l'unica Diana,
+Qual è tra voi quel che tra gli astri il sole.
+
+L'ingegno, le parole
+El mio (qualunque sia) vergar di carte
+Faranv' ossequio s'il studio, e l'arte.""" ;
+    dc:description "Praise of English women by Giordano Bruno." ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BQRZFgW6wAyq,
+        adi:JZcMnFUyKqYJ,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

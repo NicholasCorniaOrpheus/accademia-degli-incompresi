@@ -5,6 +5,8 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q36330
 described_by_source:
+  - "[[(Canone 2007)]]"
+  - "[[(Yates 1964)]]"
 image:
 aliases:
 instance_of:

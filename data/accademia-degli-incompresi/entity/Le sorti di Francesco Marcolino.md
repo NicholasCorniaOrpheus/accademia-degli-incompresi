@@ -30,6 +30,9 @@ contributor:
   - role: "[[author]]"
     value: "[[Francesco Marcolini]]"
 subject:
+  - "[[astrology]]"
+  - "[[ars combinatoria]]"
+  - "[[destiny]]"
 has_part:
 based_on:
 ---

@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RqckzyEusUXL-T9J7KbAxaBpi a rdf:Statement ;
+    rdf:object adi:NaH87wQeSvh2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RqckzyEusUXL ;
+    ns1:P958 "Dialogo Primo." .
+
+adi:RqckzyEusUXL-fny3koG24fN4 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2brEqdcLsYfo ;
+    rdf:predicate <> ;
+    rdf:subject adi:RqckzyEusUXL .
+
+adi:RqckzyEusUXL a rdfs:Resource ;
+    rdfs:label "Muse che tante volte ributtai" ;
+    <> adi:2brEqdcLsYfo,
+        adi:NaH87wQeSvh2 ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Muse che tante volte ributtai,
+Importune correte a' miei dolori;
+Per consolarmi sole ne' miei guai
+Con tai versi, tai rime, e tai furori,
+Con quali ad altri vi mostraste mai,
+Che de mirti si vantan, et allori;
+Hor fia appò voi mia aura, àncora, et porto,
+Se non mi lice altrov'ira diporto.
+Oh monte, oh dive, oh fonte
+Ov'habito, converso e mi nodrisco;
+Dove quieto imparo et imbellisco;
+Alzo, avviv', orno, il cor', il spirto, et fronte:
+Morte, cipressi, inferni
+Cangiate in vita, in lauri, in astri eterni.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:9R22nChmKScL,
+        adi:BvVWzBztq38s,
+        adi:DGVEXnoNEPuk,
+        adi:Dzfwa86PTDPj,
+        adi:JdkY2CAbEjzJ,
+        adi:JtFVPwAgP7uA,
+        adi:PnkoxmTbaCXr,
+        adi:XiX6EsWKP6ht ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

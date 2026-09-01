@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:DQMYFeP5dcAi-LHZ4JaddP2x9 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2brEqdcLsYfo ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQMYFeP5dcAi .
+
+adi:DQMYFeP5dcAi-MdCCxcvUNgnA a rdf:Statement ;
+    rdf:object adi:NaH87wQeSvh2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQMYFeP5dcAi ;
+    ns1:P958 "Dialogo Terzo." .
+
+adi:DQMYFeP5dcAi a rdfs:Resource ;
+    rdfs:label "Se la farfalla al suo splendor ameno" ;
+    <> adi:2brEqdcLsYfo,
+        adi:NaH87wQeSvh2 ;
+    pdc:poeticType adi:LEWu9yEF83UP,
+        adi:nkvGUfVFSUHZ ;
+    pdc:text """Se la farfalla al suo splendor ameno
+Vola, non sa ch'è fiamm'al fin discara:
+Se quand'il cervio per sete vien meno,
+Al rio va, non sa della freccia amara;
+S'il lioncorno corre al casto seno,
+Non vede il laccio che se gli prepara:
+I' al lum', al font', al grembo del mio bene,
+Veggio le fiamme, i strali e le cathene.
+
+S'è dolce il mio languire,
+Perché quell'altra face sì m'appaga,
+Perché l'arco divin sì dolce impiaga,
+Perché in quel nodo è avolto il mio desire;
+Mi fien eterni impacci
+Fiamme al cor, strali al petto, a l'alma lacci.""" ;
+    dc:subject adi:aKwdk5uSxc8v,
+        adi:o2i89qrxS3XR ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:DqHJq2jmhRJf,
+        adi:GMAwvtJt3st5,
+        adi:NbBMYT8M5qdr,
+        adi:iUnzyAtvGSK8,
+        adi:kP2NxcnivHFi,
+        adi:n8dKKupcf2zK ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

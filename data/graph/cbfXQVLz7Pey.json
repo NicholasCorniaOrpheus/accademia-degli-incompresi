@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "label": "London",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9j3JohZFoFx4",
+      "label": "United Kingdom",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "label": "De gli eroici furori",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "label": "De l'infinito universo et mondi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n2tqChZSQcZQ",
+      "label": "John Charlewood",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9j3JohZFoFx4",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n2tqChZSQcZQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cbfXQVLz7Pey",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n2tqChZSQcZQ",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n2tqChZSQcZQ",
+      "property": "has_version"
+    }
+  ]
+}

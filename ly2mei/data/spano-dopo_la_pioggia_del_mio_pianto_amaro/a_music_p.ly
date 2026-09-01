@@ -5,5 +5,5 @@
  g4. g8 g2 g r4 a2 f8 f f4. f8 f2 f r4 bf g c8 bf a g f4 \break
  f8  d  a'2 g8 f  e4 e r\breve r1 \tripla  fs!4 \ficta fs4 g4 a2 f4 g4. f8  e4 e d2  \break
  \time 2/2 e2 e2. a4. g8 f8  e  f4 g r g2 a8 bf f1  e2 r  g2. a4 bf a8 g \break
- f2 a2. g8 f g2 f1 a4 bf c2. bf8 a g1 f  e4 d e2 f1 e2 f\longa*1/4 \bar"||"
+ f2 a2. g8 f g2 f1 a4 bf c2. bf8 a g1 f  e4 d e2 f1 e2 f\longa*1/4 \bar "||"
 }

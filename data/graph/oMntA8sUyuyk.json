@@ -7,17 +7,60 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "label": "De l'infinito universo et mondi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
+      "label": "Mio passar solitario a quelle parti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fzzm58RfqpwM",
       "label": "Oh dolorosi amanti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QY4ES3ZqAWaL",
+      "label": "E chi mi impenna, e chi mi scald'il core",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMntA8sUyuyk",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMntA8sUyuyk",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fzzm58RfqpwM",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMntA8sUyuyk",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QY4ES3ZqAWaL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMntA8sUyuyk",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QY4ES3ZqAWaL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
+      "property": "part_of"
     }
   ]
 }

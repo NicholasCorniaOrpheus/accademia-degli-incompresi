@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:TKWxpLWVo24V-5cfVUrsGDnCt a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:LStkRDBxc8jf ;
+    rdf:predicate <> ;
+    rdf:subject adi:TKWxpLWVo24V .
+
+adi:TKWxpLWVo24V-LoLcSuxe42f9 a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb11057746> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11057746/manifest> ;
+    rdf:object "N6eaef5d72fba4665b550e694d0643949" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:TKWxpLWVo24V ;
+    schema:datePublished "1624" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11057746> .
+
+adi:TKWxpLWVo24V a rdfs:Resource ;
+    rdfs:label "Cryptomenytices et Cryptographiae libri IX" ;
+    <> adi:LStkRDBxc8jf,
+        "1624" ;
+    dc:subject adi:RmaA75A9H4A7,
+        adi:Z5Lk6MjzEKdY ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Kh6VwMSVUp3m ;
+    wdt:P31 adi:m7L8ASjPN8nA ;
+    ns1:P180 adi:oSZYuCbHEuRt .
+
