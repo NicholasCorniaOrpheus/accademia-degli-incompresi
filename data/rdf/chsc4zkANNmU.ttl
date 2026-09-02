@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:chsc4zkANNmU-PU8MGnkR5qkj a rdf:Statement ;
+    rdf:object adi:XU8S5WyvBShC ;
+    rdf:predicate <> ;
+    rdf:subject adi:chsc4zkANNmU ;
+    ns1:P958 "Canto XXXII, 19" .
+
+adi:chsc4zkANNmU-fpJANhBE8WoJ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:chsc4zkANNmU .
+
+adi:chsc4zkANNmU a rdfs:Resource ;
+    rdfs:label "Sa questo altier ch'io l'amo e ch'io l'adoro" ;
+    <> adi:EBMKwsCza3hd,
+        adi:XU8S5WyvBShC ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Sa questo altier ch'io l'amo e ch'io l'adoro,
+Né mi vuol per amante né per serva.
+Il crudel sa che per lui spasmo e moro,
+E dopo morte a darmi aiuto serva.
+E perché io non gli narri il mio martoro
+Atto a piegar la sua voglia proterva,
+Da me s'asconde, come aspide suole,
+Che, per star empio, il canto udir non vuole.""" ;
+    dc:subject adi:8CJumkhmB57N ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F247580000020101_000000133700C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=26619> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Dw8U7c9dKgjv,
+        adi:GJNhc2VqDoFL,
+        adi:QcHkWZUZDi75,
+        adi:S5rgXsLyRcxB ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

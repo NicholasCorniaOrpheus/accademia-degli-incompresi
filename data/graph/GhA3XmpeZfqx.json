@@ -7,17 +7,102 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xNP2ajjoXtt",
+      "label": "La bella Bradamante che se stessa (Martoretta)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/THDdx5np8gBo",
+      "label": "Giandomenico Martoretta",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fZPeoEnLhn6z",
+      "label": "Oh dolce mia nemica (Martoretta)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nr3gA3aGGaey",
+      "label": "Sa quest'altier ch'io l'amo e ch'io l'adoro (Martoretta)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sb8fPnR73AZ",
       "label": "Aeri racolti insieme",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "label": "De lo eccellentissimo musico La Martoretta li madrigali a quattro voci",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
     }
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xNP2ajjoXtt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/THDdx5np8gBo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fZPeoEnLhn6z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nr3gA3aGGaey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sb8fPnR73AZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GhA3XmpeZfqx",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xNP2ajjoXtt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/THDdx5np8gBo",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xNP2ajjoXtt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fZPeoEnLhn6z",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nr3gA3aGGaey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/THDdx5np8gBo",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nr3gA3aGGaey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdRLRxnHkEJT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/THDdx5np8gBo",
+      "property": "contributor"
     }
   ]
 }

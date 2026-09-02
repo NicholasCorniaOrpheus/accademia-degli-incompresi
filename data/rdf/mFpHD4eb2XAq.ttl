@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mFpHD4eb2XAq-DrSRsA5w2EgR a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb11220889> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:kgz6CqVHQzvw ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11220889/manifest> ;
+    rdf:object "N3f7471867a3b4d2fb06f1c4ddb8dbd89" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:mFpHD4eb2XAq ;
+    schema:datePublished "1562" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11220889> .
+
+adi:mFpHD4eb2XAq-Ljs3PExqLZE5 a rdf:Statement ;
+    bf:Note "Volume 2" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb11220890> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:kgz6CqVHQzvw ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11220890/manifest> ;
+    rdf:object "N232059a5c4dc4035abb24646bdfe2e8e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:mFpHD4eb2XAq ;
+    schema:datePublished "1562" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11220889> .
+
+adi:mFpHD4eb2XAq-XrgvFnB3d8cT a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:jpQ6pKz4YsX6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:mFpHD4eb2XAq .
+
+adi:mFpHD4eb2XAq a rdfs:Resource ;
+    rdfs:label "Somniorum synesiorum, omnis generis insomina explicantes Libri IIII" ;
+    <> adi:jpQ6pKz4YsX6,
+        "1562" ;
+    dc:subject adi:AYVR3qzVaKdp,
+        adi:WziXzP4KdMYo,
+        adi:mKfEc82yh2qM ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:PdqQDrJWGC9w ;
+    wdt:P31 adi:m7L8ASjPN8nA ;
+    skos:altLabel "De secretis" .
+

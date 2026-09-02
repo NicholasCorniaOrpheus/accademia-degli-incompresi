@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jpQ6pKz4YsX6",
+      "label": "Gerolamo Cardano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YP649PCWPBCK",
       "label": "Calidora",
       "class": "Agent",
@@ -17,6 +23,12 @@
       "label": "Lucrezia Marinella",
       "class": "Agent",
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lucrezia_Marinella_by_Giacomo_Piccini%2C_1652_%28cropped%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFpHD4eb2XAq",
+      "label": "Somniorum synesiorum, omnis generis insomina explicantes Libri IIII",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CxoeEPW2RCZ6",
@@ -51,12 +63,22 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jpQ6pKz4YsX6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdqQDrJWGC9w",
+      "property": "described_by_source"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YP649PCWPBCK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdqQDrJWGC9w",
       "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PBEhrmkec4qK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdqQDrJWGC9w",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFpHD4eb2XAq",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PdqQDrJWGC9w",
       "property": "described_by_source"
     },
@@ -94,6 +116,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PBEhrmkec4qK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/564DtyF99hEw",
       "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFpHD4eb2XAq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jpQ6pKz4YsX6",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5KD4s67EKYnu",

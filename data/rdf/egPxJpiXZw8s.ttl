@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:egPxJpiXZw8s-8TBVvXp9t3NS a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:QG8DUy9nrgZ9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:egPxJpiXZw8s .
+
+adi:egPxJpiXZw8s-AzFDmF4wwKs7 a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:THDdx5np8gBo ;
+    rdf:predicate <> ;
+    rdf:subject adi:egPxJpiXZw8s .
+
+adi:egPxJpiXZw8s a rdfs:Resource ;
+    rdfs:label "S'è ver quel che si legge (Martoretta)" ;
+    <> adi:QG8DUy9nrgZ9,
+        adi:THDdx5np8gBo,
+        adi:bdRLRxnHkEJT ;
+    pdc:text """S'È ver quel che si legge
+L'amante nell'amata si trasforma
+Presa l'amata forma
+Non sono più quel ch'era ma son voi 
+Se cosa dunqu'ho detto che v'annoi
+Non incolpate donn'il parlar mio
+Che la dicesti voi non la diss'io.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F263400000010101_000000134800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP ;
+    skos:altLabel "Se'l ver quel che si legge" .
+

@@ -9,19 +9,19 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:7JWRH3yXTik5-2QgyBkCsuGyZ a rdf:Statement ;
+adi:7JWRH3yXTik5-4qhXgKa7bftq a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:aS9jDyDiqBTA ;
+    rdf:predicate <> ;
+    rdf:subject adi:7JWRH3yXTik5 .
+
+adi:7JWRH3yXTik5-R3o2uPdSgoG6 a rdf:Statement ;
     rdf:object adi:JQq3N3zLE9Lo ;
     rdf:predicate <> ;
     rdf:subject adi:7JWRH3yXTik5 ;
     ns1:P304 "122" ;
     ns1:P958 "Canto IX, 59" ;
     schema:volumeNumber "L'antro e lo coglio di Artefio" .
-
-adi:7JWRH3yXTik5-4h7uuX3uKvcb a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:aS9jDyDiqBTA ;
-    rdf:predicate <> ;
-    rdf:subject adi:7JWRH3yXTik5 .
 
 adi:7JWRH3yXTik5 a rdfs:Resource ;
     rdfs:label "Da cento lati il Labirinto aperto" ;

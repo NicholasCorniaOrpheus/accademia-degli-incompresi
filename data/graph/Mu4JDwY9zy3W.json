@@ -13,6 +13,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWUDgDCHvdwH",
+      "label": "Antonio Barré",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UsohUmJMA6Ln",
+      "label": "Oh dolce mia nemica (Lupacchino)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
       "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
       "class": "Organisation",
@@ -23,6 +35,12 @@
       "label": "partbook",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AsVXdHbvfD4X",
+      "label": "Royal Holloway University of London",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
@@ -71,6 +89,12 @@
       "label": "Venezia",
       "class": "Place",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P5ipTFsK5dJG",
+      "label": "Roma",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
     }
   ],
   "links": [
@@ -86,12 +110,27 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BAscdG7oumi7",
       "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AsVXdHbvfD4X",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWUDgDCHvdwH",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P5ipTFsK5dJG",
       "property": "has_version"
     },
     {
@@ -125,9 +164,29 @@
       "property": "instrumentation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UsohUmJMA6Ln",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
+      "property": "part_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XGYD68C7bXBP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mu4JDwY9zy3W",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWUDgDCHvdwH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P5ipTFsK5dJG",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UsohUmJMA6Ln",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UsohUmJMA6Ln",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7U6R2yxkegZz",

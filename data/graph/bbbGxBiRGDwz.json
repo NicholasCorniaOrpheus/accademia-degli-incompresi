@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",
+      "label": "Urania",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f2FEyateEsYj",
+      "label": "astronomy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PnkoxmTbaCXr",
+      "label": "Muse",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
+      "label": "Uranie vatem sublimes duxit in aedeis",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "label": "mythical character",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PnkoxmTbaCXr",
+      "property": "subclass_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f2FEyateEsYj",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PnkoxmTbaCXr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
+    }
+  ]
+}

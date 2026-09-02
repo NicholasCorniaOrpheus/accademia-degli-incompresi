@@ -6,26 +6,26 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:MEKJzg67pEeq-VeeqECxWZVVa a rdf:Statement ;
+adi:MEKJzg67pEeq-66DJ6hQks7qc a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=xGqzcJOdVaQC> ;
+    wdt:P291 adi:4G4zUCvYBvXZ ;
+    rdf:object "N280d83b3990341259a5bfc0e9b30f222" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MEKJzg67pEeq ;
+    schema:datePublished "1754" ;
+    schema:url <http://id.sbn.it/bid/LO1E004175> .
+
+adi:MEKJzg67pEeq-G8cGsV5oXvjR a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:55W2N4Jbdjz3 ;
     rdf:predicate <> ;
     rdf:subject adi:MEKJzg67pEeq .
 
-adi:MEKJzg67pEeq-Yg8eo5j6iviM a rdf:Statement ;
+adi:MEKJzg67pEeq-PqE7vNZrjaxy a rdf:Statement ;
     bf:Role adi:baADqnLF4t7X ;
     rdf:object adi:UHzA5avQDdMJ ;
     rdf:predicate <> ;
     rdf:subject adi:MEKJzg67pEeq .
-
-adi:MEKJzg67pEeq-ZyWgnbSFoGji a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=xGqzcJOdVaQC> ;
-    wdt:P291 adi:4G4zUCvYBvXZ ;
-    rdf:object "N672e761a5653488dbacac43c61e7383d" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:MEKJzg67pEeq ;
-    schema:datePublished "1754" ;
-    schema:url <http://id.sbn.it/bid/LO1E004175> .
 
 adi:MEKJzg67pEeq a rdfs:Resource ;
     rdfs:label "Poesie e prose, italiane e latine inedite di Francesco Maria, e di Tarquinia Molza, ed altre a loro dirette" ;

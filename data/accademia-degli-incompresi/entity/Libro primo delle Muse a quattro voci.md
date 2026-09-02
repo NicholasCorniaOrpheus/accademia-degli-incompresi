@@ -15,6 +15,18 @@ instance_of:
 title: Madregali ariosi a quatro voci composti da diversi eccellentissimi autori, et per Antonio Gardano nuouamente con somma diligentia stampati. Libro primo delle Muse a quatro voci
 inception:
 has_version:
+  - place_of_publication:
+      - "[[Venezia]]"
+    publication_date: 1565
+    publisher: "[[Antonio Gardano]]"
+    holding_institution: "[[Royal Holloway University of London]]"
+    permalink: https://edit16.iccu.sbn.it/titolo/CNCE044600
+    external_source: https://repository.royalholloway.ac.uk/items/104ae069-afd2-74d2-ef5a-6ca1103f5a0a/1/?search=%2Fsearching.do&index=1&available=20
+  - publisher: "[[Antonio Barré]]"
+    publication_date: 1555
+    place_of_publication:
+      - "[[Roma]]"
+    permalink: http://id.sbn.it/bid/MUS0062579
   - publisher: "[[Antonio Gardano]]"
     publication_date: 1557
     place_of_publication:

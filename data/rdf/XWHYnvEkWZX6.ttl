@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XWHYnvEkWZX6-Mh5gtsEh2656 a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10208311> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10208311/manifest> ;
+    rdf:object "N3692dd878a7946f8a1d6248421d15884" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XWHYnvEkWZX6 ;
+    schema:datePublished "1582" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10208311> .
+
+adi:XWHYnvEkWZX6-gxZoB3N6wKJd a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2brEqdcLsYfo ;
+    rdf:predicate <> ;
+    rdf:subject adi:XWHYnvEkWZX6 .
+
+adi:XWHYnvEkWZX6 a rdfs:Resource ;
+    rdfs:label "De umbris idearum" ;
+    <> adi:2brEqdcLsYfo,
+        "1582" ;
+    dc:subject adi:JhRaHtEjNU96,
+        adi:RmaA75A9H4A7,
+        adi:mKfEc82yh2qM,
+        adi:mpPwPhnXcb3d ;
+    dcterms:identifier <https://mdz-nbn-resolving.de/details:bsb10208311> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:JSkdZ5YkGGne,
+        adi:V863VaniCEeW,
+        adi:jxrai4ybnrrd ;
+    wdt:P31 adi:m7L8ASjPN8nA ;
+    ns1:P180 adi:oSZYuCbHEuRt .
+

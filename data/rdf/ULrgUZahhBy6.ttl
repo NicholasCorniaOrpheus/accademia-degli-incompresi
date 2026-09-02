@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ULrgUZahhBy6-2Eoyp6CoxpjW a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:QG8DUy9nrgZ9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ULrgUZahhBy6 .
+
+adi:ULrgUZahhBy6-Bjw9TusCM338 a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:9FW3RNWgLo6H ;
+    rdf:predicate <> ;
+    rdf:subject adi:ULrgUZahhBy6 .
+
+adi:ULrgUZahhBy6 a rdfs:Resource ;
+    rdfs:label "S'è ver quel che si legge (Lando)" ;
+    <> adi:9FW3RNWgLo6H,
+        adi:QG8DUy9nrgZ9,
+        adi:hMZuHnuTemgu ;
+    pdc:text """Se'l ver quel che si legge
+che l'amante in quel ch'ama si trasforma
+presa l'amata forma
+Io non so quel ch'i m'era ma son voi 
+se cosa dunque ho detto che v'annoi
+Non incolpate donna il parlar mio
+che la diceste voi non la diss'io.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F263400000010101_000000134800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:a7Qa4z8ocEzP ;
+    skos:altLabel "Se'l ver quel che si legge" .
+

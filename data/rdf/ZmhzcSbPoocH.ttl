@@ -6,27 +6,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:ZmhzcSbPoocH-4RtK7rDEi896 a rdf:Statement ;
+adi:ZmhzcSbPoocH-3D4aQbPftu2n a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=RKFP6-8DuOEC> ;
+    dcterms:publisher adi:iG7WWQ4U3KTG ;
+    wdt:P291 adi:4G4zUCvYBvXZ ;
+    rdf:object "Nc32d466757074ede9b9005de3ed46185" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ZmhzcSbPoocH ;
+    schema:datePublished "1587" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE038182> .
+
+adi:ZmhzcSbPoocH-iVaYcdJFaDGL a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:oGuCnrkrFAY9 ;
     rdf:predicate <> ;
     rdf:subject adi:ZmhzcSbPoocH .
 
-adi:ZmhzcSbPoocH-C7nXZdiFHD5a a rdf:Statement ;
+adi:ZmhzcSbPoocH-na7iXycwjn8h a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:6FSwyQUqdeCQ ;
     rdf:predicate <> ;
     rdf:subject adi:ZmhzcSbPoocH .
-
-adi:ZmhzcSbPoocH-NyFtuzGCmSJL a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=RKFP6-8DuOEC> ;
-    dcterms:publisher adi:iG7WWQ4U3KTG ;
-    wdt:P291 adi:4G4zUCvYBvXZ ;
-    rdf:object "N4c2cfd98604b445395a1088e28fda032" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:ZmhzcSbPoocH ;
-    schema:datePublished "1587" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE038182> .
 
 adi:ZmhzcSbPoocH a rdfs:Resource ;
     rdfs:label "Rime di diversi celebri poeti dell'età nostra" ;

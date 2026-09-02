@@ -47,6 +47,12 @@
       "label": "literary character",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/chsc4zkANNmU",
+      "label": "Sa questo altier ch'io l'amo e ch'io l'adoro",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -86,6 +92,11 @@
       "property": "depicts"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/chsc4zkANNmU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S5rgXsLyRcxB",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ipSYHRQgqztR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XU8S5WyvBShC",
       "property": "part_of"
@@ -109,6 +120,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcHkWZUZDi75",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XU8S5WyvBShC",
       "property": "present_in_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/chsc4zkANNmU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XU8S5WyvBShC",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/chsc4zkANNmU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcHkWZUZDi75",
+      "property": "depicts"
     }
   ]
 }

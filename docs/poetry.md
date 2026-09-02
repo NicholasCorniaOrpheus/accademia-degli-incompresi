@@ -14,6 +14,7 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | à | a | It has been kept only for words with final tonic accent on a, such as "podestà" |
 | ò / o | oh | Modernization of exclamation in order to differentiate it from conjunction |
 | ß | ss | Modernization of esszett |
+| æ | ae | |
 | ſ | s | Modernization of long s |
 | u | v | Modernization of Latin u for words such as "Gioue" (Giove) or "uuole" (vuole) |
 | perche | perché | |

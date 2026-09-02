@@ -67,8 +67,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "label": "De umbris idearum",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
       "label": "Mio passar solitario a quelle parti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
+      "label": "Uranie vatem sublimes duxit in aedeis",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -95,6 +107,12 @@
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2pQnTYaHUWhy",
+      "label": "Dux gregis, armenti regem sublatus in iram",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gPbPASvGPG6h",
@@ -232,7 +250,17 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
       "property": "contributor"
     },
@@ -243,6 +271,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2wh6w7KrUG9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2pQnTYaHUWhy",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2brEqdcLsYfo",
       "property": "contributor"
     },
@@ -337,9 +370,34 @@
       "property": "part_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V863VaniCEeW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mpPwPhnXcb3d",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JvFQe8MJKqzV",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EZyWiRFbTrfU",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n2tqChZSQcZQ",
@@ -354,6 +412,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2wh6w7KrUG9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NaH87wQeSvh2",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2pQnTYaHUWhy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
       "property": "part_of"
     },
     {

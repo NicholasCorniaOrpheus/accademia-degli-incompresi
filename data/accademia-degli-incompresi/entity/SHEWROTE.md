@@ -1,6 +1,6 @@
 ---
 class: Organisation
-label: SHWWROTE
+label:
 description:
 identifier:
   - http://www.wikidata.org/entity/Q22811588
