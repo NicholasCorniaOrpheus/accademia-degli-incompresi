@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - polyphonic book
+instance_of:
+  - "[[notated music]]"
 ---

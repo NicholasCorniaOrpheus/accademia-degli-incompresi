@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[fruit]]"
 subclass_of:
 opposite_of:
 identifier:

@@ -12,4 +12,6 @@ aliases:
   - ciuchino
   - somaro
   - jackass
+instance_of:
+  - "[[animal]]"
 ---

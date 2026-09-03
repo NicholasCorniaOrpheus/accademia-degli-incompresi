@@ -61,8 +61,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6nALZyKdNVww",
+      "label": "Mercury",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nZgAbVHnJRKY",
       "label": "Venus",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NnMCa2tbLs4d",
+      "label": "Atlas",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
@@ -109,6 +121,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MMELqmioWuJf",
+      "label": "Athena",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YTAdfrxKFqwZ",
       "label": "Apollo",
       "class": "Concept",
@@ -125,6 +143,12 @@
       "label": "Artemisia Gentileschi",
       "class": "Agent",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKWBXKiEyath",
+      "label": "giant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     }
   ],
   "links": [
@@ -174,7 +198,17 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6nALZyKdNVww",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nZgAbVHnJRKY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NnMCa2tbLs4d",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
       "property": "instance_of"
     },
@@ -214,6 +248,11 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MMELqmioWuJf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YTAdfrxKFqwZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
       "property": "instance_of"
@@ -227,6 +266,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WRsDFDbd5TpG",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKWBXKiEyath",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Sase3zEpuPuV",
+      "property": "instance_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bbbGxBiRGDwz",

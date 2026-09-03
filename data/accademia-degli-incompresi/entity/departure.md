@@ -9,4 +9,6 @@ image:
 aliases:
   - leaving
   - separation
+instance_of:
+  - "[[activity]]"
 ---

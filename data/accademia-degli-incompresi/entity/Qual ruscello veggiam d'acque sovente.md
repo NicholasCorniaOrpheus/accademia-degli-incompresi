@@ -28,6 +28,7 @@ depicts:
   - "[[river]]"
   - "[[ocean]]"
   - "[[Cupid]]"
+  - "[[tyrant]]"
 language: "[[Italian]]"
 text: |-
   Qual Ruscello veggiam d’acque sovente

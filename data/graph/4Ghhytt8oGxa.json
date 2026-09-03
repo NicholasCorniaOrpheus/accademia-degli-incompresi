@@ -7,6 +7,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
+      "label": "La bella Urania mia (Coma)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "label": "natural phenomenon",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZjN6k9T78CE",
       "label": "Fatto è pittor'il Sol di raro ingegno",
       "class": "PoeticWork",
@@ -26,6 +38,16 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Ghhytt8oGxa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Ghhytt8oGxa",
+      "property": "depicts"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZjN6k9T78CE",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Ghhytt8oGxa",

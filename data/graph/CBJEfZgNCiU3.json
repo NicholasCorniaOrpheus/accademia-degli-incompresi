@@ -61,6 +61,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWqMey9cVuah",
+      "label": "Delle rime di Cesare Rinaldi bolognese parte terza",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hcRphtnKntnY",
       "label": "Un bel ricco Ocean di chiari pianti",
       "class": "PoeticWork",
@@ -77,6 +83,12 @@
       "label": "Corona della morte dell'illustre signore Anibal Caro",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jxQEF9JCgxuJ",
+      "label": "Canta Urania dal ciel la vostra stella (Caracciolo)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nWS4erMcLLL8",
@@ -131,6 +143,12 @@
       "label": "Poiché del vostro canto (Agostini)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6NUirZun9AtP",
@@ -301,6 +319,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
+      "label": "La natura compose",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YmA7pRGECn4y",
       "label": "I morti vivi commedia del molto eccel. signor Sforza d'Oddi",
       "class": "Book",
@@ -421,6 +445,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "label": "Mentre in voci canore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nswGH37G7DMP",
       "label": "Se forse per pietà del mio languire",
       "class": "PoeticWork",
@@ -452,6 +482,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
@@ -503,6 +538,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWqMey9cVuah",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hcRphtnKntnY",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
       "property": "contributor"
@@ -514,6 +554,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4yT45zzaDpt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jxQEF9JCgxuJ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
       "property": "contributor"
     },
@@ -703,6 +748,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YmA7pRGECn4y",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
       "property": "contributor"
@@ -803,6 +853,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nswGH37G7DMP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CBJEfZgNCiU3",
       "property": "contributor"
@@ -869,6 +924,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gTeKoVeDkj7i",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LWqMey9cVuah",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
       "property": "contributor"
     },
@@ -1073,6 +1133,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YmA7pRGECn4y",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
       "property": "contributor"
@@ -1178,6 +1243,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nswGH37G7DMP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
       "property": "contributor"
@@ -1186,6 +1256,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nswGH37G7DMP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fJsWsFf9zJgc",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "property": "instance_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oHEN8oosek3P",

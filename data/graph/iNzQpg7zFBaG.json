@@ -7,8 +7,26 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "label": "plant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "label": "rose",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Dijque4HtUo",
       "label": "Colma di fasto, io me ne già cantando",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
+      "label": "La natura compose",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -17,11 +35,32 @@
       "label": "D'Astrea sudando a' gravi studi intorno",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Dijque4HtUo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
       "property": "depicts"
     },
@@ -29,6 +68,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EWoH4wYnnA2n",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
     }
   ]
 }

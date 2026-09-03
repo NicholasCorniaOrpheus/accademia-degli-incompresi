@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "label": "Mentre pomposa, Te ne stai Rosa",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LVy2UR4rdjE6",
       "label": "Piangete meco, afflitti occhi dolenti",
       "class": "PoeticWork",
@@ -25,6 +31,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
+      "label": "La natura compose",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "label": "natural entity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AvLcScTgq67Y",
       "label": "Ch'il crederia? felice era il mio stato",
       "class": "PoeticWork",
@@ -32,6 +50,16 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8F34DC8njH5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8F34DC8njH5",
+      "property": "depicts"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LVy2UR4rdjE6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8F34DC8njH5",
@@ -44,6 +72,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4FjpsWCA2QsS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8F34DC8njH5",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kpdqXbDj2gkV",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8F34DC8njH5",
       "property": "depicts"
     },

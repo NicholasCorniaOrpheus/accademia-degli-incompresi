@@ -7,27 +7,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:f7WmdoicdMZx-A6fngyigmqmd a rdf:Statement ;
+adi:f7WmdoicdMZx-5EjLfdHx7p6u a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k725844> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k725844/manifest.json> ;
+    rdf:object "Nf7a1f3ce886f4a9a8f73e6ec33d935c2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:f7WmdoicdMZx ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE080106> .
+
+adi:f7WmdoicdMZx-ENurEx27LPgC a rdf:Statement ;
     dcterms:references adi:mzQMzWpG79QK ;
     wdt:P1480 adi:QWmtzgCRQ9wY ;
     rdf:object "1547" ;
     rdf:predicate <> ;
     rdf:subject adi:f7WmdoicdMZx .
 
-adi:f7WmdoicdMZx-LySUXhXptCMt a rdf:Statement ;
+adi:f7WmdoicdMZx-FEPBHudsbcAy a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:3KxURtKJVxAF ;
     rdf:predicate <> ;
     rdf:subject adi:f7WmdoicdMZx .
-
-adi:f7WmdoicdMZx-hBmXYhVmp7Mk a rdf:Statement ;
-    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k725844> ;
-    bf:heldBy adi:S8XWwiEFCvS3 ;
-    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k725844/manifest.json> ;
-    rdf:object "Na800b524929d419685a0035a9bca0c5b" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:f7WmdoicdMZx ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE080106> .
 
 adi:f7WmdoicdMZx a rdfs:Resource ;
     rdfs:label "Astolfeide del divino Pietro Aretino" ;

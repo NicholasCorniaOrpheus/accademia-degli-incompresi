@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "label": "rose",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "label": "Mentre pomposa, Te ne stai Rosa",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "label": "plant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "label": "flower",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dts27GrDPL26",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNzQpg7zFBaG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
+    }
+  ]
+}

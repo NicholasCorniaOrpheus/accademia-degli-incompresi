@@ -7,6 +7,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g4TPeea9wGN7",
+      "label": "form of creative work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "label": "Quest'amore, Quest'arsura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JCBpTmtUqcFv",
       "label": "parlour game",
       "class": "Concept",
@@ -17,9 +29,31 @@
       "label": "Dolci sdegni, e dolc'ire",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CfCKH5p6584g",
+      "label": "board game",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtwxJGbNdUY",
+      "label": "tarot card game",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g4TPeea9wGN7",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
+      "property": "depicts"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JCBpTmtUqcFv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
@@ -29,6 +63,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M58XnmGyEVXz",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CfCKH5p6584g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtwxJGbNdUY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
+      "property": "instance_of"
     }
   ]
 }

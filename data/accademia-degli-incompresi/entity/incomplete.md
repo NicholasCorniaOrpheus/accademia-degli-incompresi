@@ -9,4 +9,6 @@ described_by_source:
 image:
 aliases:
   - partially
+instance_of:
+  - "[[quality]]"
 ---

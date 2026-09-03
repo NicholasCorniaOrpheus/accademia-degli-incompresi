@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
+      "label": "myrtle",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ji6CBr5MkQ5C",
       "label": "Cinta di fiori un giorno (Casulana)",
       "class": "MusicComposition",
@@ -17,6 +23,12 @@
       "label": "Mentre'l Pianeta gira in Capricorno",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "label": "plant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DGVEXnoNEPuk",
@@ -38,6 +50,16 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ji6CBr5MkQ5C",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
@@ -62,6 +84,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DCR3mYQLKzo7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
     }
   ]
 }

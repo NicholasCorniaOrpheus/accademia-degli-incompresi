@@ -9,4 +9,6 @@ image:
 aliases:
   - wheel chart
   - combinatorial wheel
+instance_of:
+  - "[[artificial object]]"
 ---

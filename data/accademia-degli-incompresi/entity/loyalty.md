@@ -10,4 +10,6 @@ aliases:
   - faithfulness
   - allegiance
   - lealtà
+instance_of:
+  - "[[personality trait]]"
 ---

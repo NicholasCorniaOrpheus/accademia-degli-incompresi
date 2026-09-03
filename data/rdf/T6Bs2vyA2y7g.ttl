@@ -1,9 +1,13 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:T6Bs2vyA2y7g a rdfs:Resource ;
     rdfs:label "heliocentrism" ;
-    dcterms:identifier <http://www.wikidata.org/entity/Q103983> ;
-    dcterms:type "Concept" .
+    dcterms:identifier ns1:Q103983 ;
+    dcterms:type "Concept" ;
+    wdt:P31 adi:LSenUpbhXggw ;
+    ns1:P461 adi:VGbtWp2Ek2YY .
 

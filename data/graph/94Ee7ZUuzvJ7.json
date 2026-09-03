@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/94Ee7ZUuzvJ7",
+      "label": "Jagiellonian Library",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M8DkfPxU28Gc",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eKf7zw7YBfBf",
+      "label": "Il Primo Libro de Madrigali concertati a quattro, cinque, sei, sette, et otto voci, con il suo basso continuo di Tarquinio Merula",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/94Ee7ZUuzvJ7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M8DkfPxU28Gc",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eKf7zw7YBfBf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/94Ee7ZUuzvJ7",
+      "property": "has_version"
+    }
+  ]
+}

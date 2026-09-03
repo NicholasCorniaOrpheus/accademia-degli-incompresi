@@ -2,10 +2,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:9R22nChmKScL a rdfs:Resource ;
     rdfs:label "celestial body" ;
     dc:description "natural object visible in the sky to the naked eye" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q1519541> ;
-    dcterms:type "Concept" .
+    dcterms:type "Concept" ;
+    wdt:P31 adi:3XraWsE54wKL .
 

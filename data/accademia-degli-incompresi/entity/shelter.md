@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[location]]"
 subclass_of:
 aliases:
   - refuge

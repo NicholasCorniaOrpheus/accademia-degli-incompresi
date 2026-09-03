@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Q9ywq9G3uHcN-Sf4UNWusF26A a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BVmVM3rL2WcH ;
+    rdf:predicate <> ;
+    rdf:subject adi:Q9ywq9G3uHcN .
+
+adi:Q9ywq9G3uHcN-hhphEAa4yN9L a rdf:Statement ;
+    rdf:object adi:LWqMey9cVuah ;
+    rdf:predicate <> ;
+    rdf:subject adi:Q9ywq9G3uHcN ;
+    ns1:P304 "79" .
+
+adi:Q9ywq9G3uHcN a rdfs:Resource ;
+    rdfs:label "Scherza nel canto e piace" ;
+    <> adi:BVmVM3rL2WcH,
+        adi:LWqMey9cVuah ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Scherza nel canto e piace,
+Madonna hor poggia hor scende,
+Hor con veloce ed hor con lenta voce,
+allett' e sface ,
+Escon le note care,
+Da belle labbia ond' ard' ogn' hor si vago,
+Ch'al udir ch'al mirar due sensi appago,
+Oh dolce variare,
+Pago in due modi hor sono,
+Godon gl'occhi ai Rubin, gl'orecchi al suono.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/011470000101_PPPP00245600C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Dw8U7c9dKgjv,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - desio
+instance_of:
+  - "[[emotion]]"
 ---

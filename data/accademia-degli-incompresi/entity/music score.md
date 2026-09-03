@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[notated music]]"
 subclass_of:
 aliases:
   - sheet music

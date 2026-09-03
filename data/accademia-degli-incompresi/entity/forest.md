@@ -9,4 +9,6 @@ image:
 aliases:
   - selva
   - wood
+instance_of:
+  - "[[plant]]"
 ---

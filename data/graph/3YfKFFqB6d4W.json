@@ -7,10 +7,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nPiNkmzNYMpM",
+      "label": "artificial object",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mWwsLAHpHDwR",
       "label": "Accademia dei Gelati di Bologna",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VDabzYmYzEGH",
+      "label": "wheel of Fortune",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/R6p8tmcvoNZA",
@@ -21,9 +33,19 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YfKFFqB6d4W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nPiNkmzNYMpM",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mWwsLAHpHDwR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YfKFFqB6d4W",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VDabzYmYzEGH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3YfKFFqB6d4W",
+      "property": "instance_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/R6p8tmcvoNZA",

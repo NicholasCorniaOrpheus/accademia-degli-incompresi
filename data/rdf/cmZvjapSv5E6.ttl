@@ -1,0 +1,86 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:cmZvjapSv5E6-6xAyXiExPZ7L a rdf:Statement ;
+    rdf:object adi:YYFRNeCKx9AL ;
+    rdf:predicate <> ;
+    rdf:subject adi:cmZvjapSv5E6 ;
+    ns1:P304 "71-72" ;
+    ns1:P958 "Scherzo I. Di Tiresia Academico Trasformato. Loda della Verginità." ;
+    schema:volumeNumber "1" .
+
+adi:cmZvjapSv5E6-LMcXY4rXxyWv a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:9ENdykkNtf6X ;
+    rdf:predicate <> ;
+    rdf:subject adi:cmZvjapSv5E6 .
+
+adi:cmZvjapSv5E6 a rdfs:Resource ;
+    rdfs:label "Mentre pomposa, Te ne stai Rosa" ;
+    <> adi:9ENdykkNtf6X,
+        adi:YYFRNeCKx9AL ;
+    pdc:poeticType adi:ngTwYTt8Gx5h ;
+    pdc:text """Mentre pomposa
+Te ne stai Rosa
+Sulla tua verde spina,
+De' vaghi fiori,
+De' grati odori
+Sola tu sei Regina.
+
+Cedon gl'Acanti,
+E gl'Amaranti,
+E la gentil mortella,
+Rosa polita,
+Rosa gradita,
+Rosa leggiadra, e bella.
+
+Per te vien fuora
+La lieta aurora
+Perché il color le presti.
+Venere infonde
+Gratie feconde
+Se con l'odor la desti.
+
+Ma s'una volta
+Tu resti colta
+Da man rapace avara
+Il color fugge
+L'odor si strugge
+Rosa non sei più cara.
+
+Tu verginetta
+Se ti diletta
+Essermi sempre grata
+Soave intrico
+Laccio pudico
+Dov'ho l'alma legata.
+
+In questo fiore
+Specchia l'onore
+E tua gentil sembianza;
+Ch'ogni bellezza
+Ogni vaghezza
+VERGINITATE avanza.""" ;
+    dc:subject adi:QtnsQQMPkrt8,
+        adi:XLktudVaMszu,
+        adi:o2i89qrxS3XR ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F036650000101_PPPP00289700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:BX9BJxZwtkNA,
+        adi:Y8F34DC8njH5,
+        adi:dts27GrDPL26,
+        adi:hmGaXqatDNBT ;
+    ns1:P2551 adi:GLCE7ThNuWsF,
+        adi:YZkrDgDqrsaF .
+

@@ -7,4 +7,7 @@ identifier:
 described_by_source:
 image:
 aliases:
+subclass_of:
+instance_of:
+  - "[[game]]"
 ---

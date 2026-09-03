@@ -9,6 +9,7 @@ image:
 aliases:
   - intellectual heritage
 instance_of:
+  - "[[philosophical concept]]"
 subclass_of:
 opposite_of: "[[student]]"
 ---

@@ -7,10 +7,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "label": "Quest'amore, Quest'arsura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cBJV9SeGc3Sw",
       "label": "Giaches de Wert",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fzzm58RfqpwM",
@@ -55,6 +67,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xLrmqnLuB79",
       "label": "Chi vive senza mai sentir riposo",
       "class": "PoeticWork",
@@ -74,6 +92,16 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UZuCbSwwuwLY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UZuCbSwwuwLY",
+      "property": "depicts"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cBJV9SeGc3Sw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UZuCbSwwuwLY",
@@ -113,6 +141,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bfs7vFWVUD9P",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UZuCbSwwuwLY",
       "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UZuCbSwwuwLY",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xLrmqnLuB79",

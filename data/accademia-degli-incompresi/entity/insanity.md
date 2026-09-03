@@ -10,4 +10,6 @@ aliases:
   - follia
   - pazzia
   - madness
+instance_of:
+  - "[[personality trait]]"
 ---

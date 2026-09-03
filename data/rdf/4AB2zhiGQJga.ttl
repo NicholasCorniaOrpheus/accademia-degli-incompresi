@@ -2,10 +2,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:4AB2zhiGQJga a rdfs:Resource ;
     rdfs:label "poet" ;
     dc:description "person who writes poetry" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q49757> ;
-    dcterms:type "Concept" .
+    dcterms:type "Concept" ;
+    wdt:P31 adi:Et64EF5pK79G .
 

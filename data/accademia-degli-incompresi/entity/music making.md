@@ -11,4 +11,6 @@ aliases:
   - music-making
   - concento
   - concerto
+instance_of:
+  - "[[activity]]"
 ---

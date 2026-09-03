@@ -1,23 +1,43 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:YYFRNeCKx9AL-BbG4gosyY9WL a rdf:Statement ;
+adi:YYFRNeCKx9AL-8UrFWnEcTAej a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://www.google.be/books/edition/Della_corona_di_Apollo_composta_del_piu/BxFJAAAAcAAJ> ;
+    dcterms:publisher adi:ZE6VZDoef66Y ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N94b755d0ce2545728327657ca952aaa8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YYFRNeCKx9AL ;
+    schema:datePublished "1610" .
+
+adi:YYFRNeCKx9AL-C3vTxeFyKQBB a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:2VaeG8vKXxbY ;
     rdf:predicate <> ;
     rdf:subject adi:YYFRNeCKx9AL .
 
-adi:YYFRNeCKx9AL-QpjEoDBYkMiX a rdf:Statement ;
+adi:YYFRNeCKx9AL-DiugTbr5r68K a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=UW70o2UQOUwC> ;
+    dcterms:publisher adi:ZE6VZDoef66Y ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N8fd5486f59bd4879bc1b6e8eb83a6d84" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YYFRNeCKx9AL ;
+    schema:datePublished "1610" .
+
+adi:YYFRNeCKx9AL-jFFgUgDfhUE6 a rdf:Statement ;
     bf:Note "volume 2" ;
     bf:electronicLocator <https://books.google.it/books?id=j0JeDQd826AC> ;
     dcterms:publisher adi:ZE6VZDoef66Y ;
     wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Ndaaa96953de74bb5baa51145a64266d9" ;
+    rdf:object "N5d03167c5b384e00af2e744fa7f8f8a6" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:YYFRNeCKx9AL ;
     schema:datePublished "1605" ;
@@ -27,10 +47,12 @@ adi:YYFRNeCKx9AL a rdfs:Resource ;
     rdfs:label "Della corona di Apollo composta del piu vago de' fiori di permesso. Da Piergirolamo Gentile" ;
     <> adi:2VaeG8vKXxbY,
         "1605" ;
+    dc:subject adi:faKgxGgth5dr ;
     dcterms:identifier <http://id.sbn.it/bid/UM1E012216>,
         <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F501650010> ;
     dcterms:title "Della corona di Apollo composta del piu vago de' fiori di permesso. Da Piergirolamo Gentile. Parte [prima]-seconda" ;
     dcterms:type "Book" ;
     wdt:P1343 adi:dM6ceQfzK2pQ ;
-    wdt:P31 adi:QXGbSHBTa8pT .
+    wdt:P31 adi:DRgiAyYDLPZb,
+        adi:QXGbSHBTa8pT .
 

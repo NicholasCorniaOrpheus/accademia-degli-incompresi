@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[artificial object]]"
 subclass_of:
 opposite_of:
 identifier:

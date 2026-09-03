@@ -11,11 +11,33 @@
       "label": "Bastami un guardo solo",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
+      "label": "La bella Urania mia (Coma)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "label": "activity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     }
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V9gBMagpTVV8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iAQMdQ5viroN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V9gBMagpTVV8",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V9gBMagpTVV8",
       "property": "depicts"
     }

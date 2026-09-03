@@ -13,8 +13,32 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "label": "activity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dqs3BxMFoMBD",
       "label": "Costor, che voi vedete arditi, e fieri",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SbKYkp8QBv5M",
+      "label": "Che non è lieve trionfar de l'alme",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a7w4yst2zNff",
+      "label": "Armate voi l'infaticabil mano",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3KeUeBxqsGEy",
+      "label": "Voi che a gl'aringhi miei dolci contese",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -33,12 +57,32 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7Bnx4ZvAsPSd",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
       "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dqs3BxMFoMBD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SbKYkp8QBv5M",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a7w4yst2zNff",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3KeUeBxqsGEy",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/86Q2aWNHHazc",
       "property": "depicts"
     },

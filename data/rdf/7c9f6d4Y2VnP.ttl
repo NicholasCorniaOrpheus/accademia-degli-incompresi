@@ -2,11 +2,13 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:7c9f6d4Y2VnP a rdfs:Resource ;
     rdfs:label "storm" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q81054> ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:bHdCw4BecfGK ;
     skos:altLabel "procella",
         "tempest",
         "tempesta" .

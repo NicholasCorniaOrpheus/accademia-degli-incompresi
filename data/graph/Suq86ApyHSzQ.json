@@ -13,8 +13,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "label": "activity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LVy2UR4rdjE6",
       "label": "Piangete meco, afflitti occhi dolenti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "label": "Quest'amore, Quest'arsura",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -115,8 +127,8 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FjacjaxEZGxw",
-      "label": "La rete fu di queste fila d'oro (Viola)",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvSRSQE4AepF",
+      "label": "Ahi, ahi che se ne van tutte le notti",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
@@ -171,6 +183,11 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Suq86ApyHSzQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NipdbPwHTGmA",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TxniBSgttkTX",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Suq86ApyHSzQ",
       "property": "depicts"
@@ -179,6 +196,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LVy2UR4rdjE6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Suq86ApyHSzQ",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Suq86ApyHSzQ",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MUqEKWsDr6VG",
@@ -261,7 +283,7 @@
       "property": "depicts"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FjacjaxEZGxw",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvSRSQE4AepF",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Suq86ApyHSzQ",
       "property": "depicts"
     },

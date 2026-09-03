@@ -19,6 +19,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/TITIAN%3B_Portrait_of_Jacopo_Sannazaro_%281514-18%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
+      "label": "La bella Urania mia (Coma)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ji6CBr5MkQ5C",
       "label": "Cinta di fiori un giorno (Casulana)",
       "class": "MusicComposition",
@@ -103,6 +109,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AGNhrVxei8Gy",
+      "label": "art movement",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Dijque4HtUo",
       "label": "Colma di fasto, io me ne già cantando",
       "class": "PoeticWork",
@@ -117,6 +129,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4RWZMdpaBJsr",
       "label": "Fra queste piaggie apriche e chiusi horrori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -147,6 +165,11 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AGNhrVxei8Gy",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iGt8KDryoG2i",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
       "property": "subject"
@@ -155,6 +178,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QUHAq7K8fEy9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mePf2oXuSacd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ji6CBr5MkQ5C",
@@ -238,6 +266,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4RWZMdpaBJsr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ruLTSyv8VeY",
       "property": "subject"
     },

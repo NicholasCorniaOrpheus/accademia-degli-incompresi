@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VpHh9RAMw8sA-EMbUeUCFp4iT a rdf:Statement ;
+    rdf:object adi:YYFRNeCKx9AL ;
+    rdf:predicate <> ;
+    rdf:subject adi:VpHh9RAMw8sA ;
+    ns1:P304 "42" ;
+    ns1:P958 "Amore. Del Sig. Cavalliero Vincenzo Panciatichi. Cartello Primo" ;
+    schema:volumeNumber "1" .
+
+adi:VpHh9RAMw8sA-UUPnm3kGLgsg a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:fXurj2BzALG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:VpHh9RAMw8sA .
+
+adi:VpHh9RAMw8sA a rdfs:Resource ;
+    rdfs:label "Voi scoglio a sostener, novelli Atlanti" ;
+    <> adi:YYFRNeCKx9AL,
+        adi:fXurj2BzALG4 ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Voi scoglio a sostener, novelli Atlanti,
+Il Ciel de le mie glorie a voi sol lice,
+Or che novo furor d'empi Giganti
+Guerra crudele al mio bel Regno indice,
+A voi ricorro avventurieri amanti
+Movete contra lor la mano ultrice;
+Io sarò vosco, e feritor preggiati
+Di loro farovvi, e vincitor beati.""" ;
+    dc:subject adi:8GvHmwR26GRn,
+        adi:o2i89qrxS3XR ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:Fgb2i9ph7wYA,
+        adi:NnMCa2tbLs4d,
+        adi:TKWBXKiEyath,
+        adi:UMZHj49VFcAe,
+        adi:oR7FTqvaDM4E ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

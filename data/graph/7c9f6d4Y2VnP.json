@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "label": "natural phenomenon",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/etd5kVTrYfVb",
       "label": "Oh beata, e dolcissima novella",
       "class": "PoeticWork",
@@ -35,9 +41,20 @@
       "label": "Dalle tenebre oscure al lume chiaro",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "label": "Mentre in voci canore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c9f6d4Y2VnP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QrhgcHKpPJ2C",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c9f6d4Y2VnP",
@@ -60,6 +77,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ehRPaGWpmwik",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c9f6d4Y2VnP",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c9f6d4Y2VnP",
       "property": "depicts"
     }

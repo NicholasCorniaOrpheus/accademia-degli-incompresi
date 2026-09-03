@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[natural entity]]"
 subclass_of:
 opposite_of:
 aliases:

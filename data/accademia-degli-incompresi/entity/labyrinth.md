@@ -9,4 +9,6 @@ image:
 aliases:
   - laberinto
   - labirinto
+instance_of:
+  - "[[location]]"
 ---

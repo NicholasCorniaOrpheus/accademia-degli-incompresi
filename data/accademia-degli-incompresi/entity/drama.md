@@ -10,4 +10,6 @@ aliases:
   - theatrical play
   - theatre play
   - staged dramatic work
+instance_of:
+  - "[[form of creative work]]"
 ---

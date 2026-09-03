@@ -11,4 +11,10 @@ aliases:
   - wizard
   - sorcerer
   - sorceress
+  - megera
+  - maga
+  - fattucchiera
+  - mago
+instance_of:
+  - "[[occupation]]"
 ---

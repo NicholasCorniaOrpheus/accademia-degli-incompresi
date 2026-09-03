@@ -9,4 +9,6 @@ image:
 aliases:
   - tarocchi
   - tarot
+instance_of:
+  - "[[game]]"
 ---

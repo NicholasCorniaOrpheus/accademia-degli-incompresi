@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "label": "Stefano Bernardi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "label": "Mentre pomposa, Te ne stai Rosa (Bernardi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvBHcFy5Dvdr",
+      "label": "Verona",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oHApKU4NZCDr",
+      "label": "Il terzo libro de madrigali a cinque voci, concertati con il basso continuo per suonare di Stefano Bernardi Maestro",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvBHcFy5Dvdr",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oHApKU4NZCDr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/E4XxwxTyLXp7",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oHApKU4NZCDr",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oHApKU4NZCDr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    }
+  ]
+}

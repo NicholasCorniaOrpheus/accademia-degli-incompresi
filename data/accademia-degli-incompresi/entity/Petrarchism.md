@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - Petrarchismo
+instance_of:
+  - "[[art movement]]"
 ---

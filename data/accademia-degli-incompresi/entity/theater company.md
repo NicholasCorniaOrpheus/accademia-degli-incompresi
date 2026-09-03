@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[artist collective]]"
 subclass_of:
 opposite_of:
 identifier:

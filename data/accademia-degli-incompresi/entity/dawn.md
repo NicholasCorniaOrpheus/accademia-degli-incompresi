@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - aurora
+instance_of:
+  - "[[natural phenomenon]]"
 ---

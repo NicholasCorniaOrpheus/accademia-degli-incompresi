@@ -1,5 +1,9 @@
 ---
 class: Agent
+identifier:
+  - http://www.wikidata.org/entity/Q3769560
+described_by_source:
+  - "[[(Wistreich 2016)]]"
 instance_of:
   - "[[human]]"
 gender: "[[male]]"
@@ -16,6 +20,4 @@ interested_in:
   - value: "[[quarrel of arms and letters]]"
 catalog_identifier:
 present_in_work:
-identifier:
-  - http://www.wikidata.org/entity/Q3769560
 ---

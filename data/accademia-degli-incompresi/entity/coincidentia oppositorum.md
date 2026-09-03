@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - unity of opposites
+instance_of:
+  - "[[philosophical concept]]"
 ---

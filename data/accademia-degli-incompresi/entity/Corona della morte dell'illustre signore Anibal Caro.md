@@ -14,6 +14,13 @@ instance_of:
 title: Corona della morte dell'illustre signore, il sig. comendator Anibal Caro. Di nouo posta in luce per Giulio Bonagionta da S. Genesi
 inception:
 has_version:
+  - holding_institution: "[[Marsh's Library of Dublin]]"
+    note: Tenor and Quintus.
+    place_of_publication:
+      - "[[Venezia]]"
+    publication_date: 1568
+    publisher: "[[Girolamo Scotto]]"
+    permalink: https://edit16.iccu.sbn.it/titolo/CNCE036882
   - publication_date: 1568
     publisher: "[[Girolamo Scotto]]"
     holding_institution: "[[Royal Holloway University of London]]"

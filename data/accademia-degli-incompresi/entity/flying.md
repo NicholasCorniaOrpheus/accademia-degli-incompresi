@@ -11,4 +11,6 @@ aliases:
   - volare
   - involare
   - flight
+instance_of:
+  - "[[activity]]"
 ---

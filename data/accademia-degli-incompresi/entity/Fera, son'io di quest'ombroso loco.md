@@ -26,7 +26,7 @@ subject:
 poetic_type: "[[sonnet]]"
 metre: "[[hendecasyllable]]"
 depicts:
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[flame]]"
 text: |-
   Fera, son'io di quest'ombroso loco,

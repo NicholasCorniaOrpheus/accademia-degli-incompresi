@@ -39,7 +39,7 @@ poetic_type: "[[madrigale]]"
 depicts:
   - "[[nymph]]"
   - "[[tree]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[singing]]"
 metre:
   - "[[heptasyllable]]"

@@ -6,6 +6,7 @@ identifier:
 described_by_source:
 image:
 aliases:
-instance_of: 
-subclass_of: 
+instance_of:
+  - "[[form of creative work]]"
+subclass_of:
 ---

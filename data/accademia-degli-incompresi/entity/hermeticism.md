@@ -8,5 +8,6 @@ described_by_source:
 image:
 aliases:
 instance_of:
+  - "[[philosophical concept]]"
 part_of:
 ---

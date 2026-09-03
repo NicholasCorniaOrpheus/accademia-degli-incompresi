@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[anatomical entity]]"
 subclass_of:
 aliases:
   - core

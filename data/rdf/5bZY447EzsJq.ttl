@@ -2,10 +2,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:5bZY447EzsJq a rdfs:Resource ;
     rdfs:label "male" ;
     dcterms:identifier ns1:Q6581097 ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:fgfWxFv2gTMo ;
     ns1:P461 adi:KpnNUHk7FWq5 .
 

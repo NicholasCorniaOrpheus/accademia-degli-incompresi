@@ -1,0 +1,15 @@
+---
+class: BibliographicResource
+label:
+description:
+identifier:
+described_by_source:
+image:
+aliases:
+  - wistreichWarriorCourtierCinger2016
+part_of:
+bibtex: ./assets/bibtex/wistreichWarriorCourtierCinger2016.bib
+citation: "Wistreich, Richard. 2016. Warrior, Courtier, Cinger: Giulio Cesare Brancaccio and the Performance of Identity in the Late Renaissance. London New York: Routledge, Taylor & Francic Group."
+isbn:
+  - "9781138263000"
+---

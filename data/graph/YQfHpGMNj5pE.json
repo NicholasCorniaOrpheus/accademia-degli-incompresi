@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
+      "label": "Nicosia",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZkFJYwSwU62p",
       "label": "Torino",
       "class": "Place",
@@ -65,6 +71,12 @@
       "label": "Salerno",
       "class": "Place",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/giX4moeighDe",
+      "label": "location",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8tPVnRB4bHFR",
@@ -201,7 +213,17 @@
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/giX4moeighDe",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z7p2YqqXmSnd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
       "property": "instance_of"
     },

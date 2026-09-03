@@ -43,6 +43,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "label": "natural entity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YTmGmKp5HjTx",
       "label": "Ruscelli, onde sì lungo, e chiaro fiume",
       "class": "PoeticWork",
@@ -61,6 +67,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BMh3TpkVtxmy",
       "label": "Qual ruscello veggiam d'acque sovente",
       "class": "PoeticWork",
@@ -74,6 +86,11 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iUnzyAtvGSK8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQMYFeP5dcAi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iUnzyAtvGSK8",
@@ -116,6 +133,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8YfdeSpr2y5W",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iUnzyAtvGSK8",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iUnzyAtvGSK8",
       "property": "depicts"
     },

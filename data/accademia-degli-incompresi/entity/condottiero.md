@@ -9,4 +9,6 @@ image:
 aliases:
   - condottiere
   - venture captain
+instance_of:
+  - "[[occupation]]"
 ---

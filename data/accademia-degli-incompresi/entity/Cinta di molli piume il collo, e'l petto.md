@@ -26,7 +26,7 @@ metre:
 depicts:
   - "[[Philomela]]"
   - "[[forest]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[singing]]"
 language: "[[Italian]]"
 text: |-

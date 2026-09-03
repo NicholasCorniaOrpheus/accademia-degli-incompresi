@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - Act of placing two (contrasting) elements side by side
+instance_of:
+  - "[[rhetorical figure]]"
 ---

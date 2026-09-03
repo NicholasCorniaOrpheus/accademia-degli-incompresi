@@ -7,4 +7,5 @@ identifier:
 described_by_source:
 image:
 aliases:
+instance_of:
 ---

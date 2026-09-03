@@ -7,6 +7,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "label": "Mentre pomposa, Te ne stai Rosa",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "label": "natural phenomenon",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenB7cAJ6Zbv",
       "label": "Care gioie, che le noie",
       "class": "PoeticWork",
@@ -43,6 +55,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "label": "Mentre in voci canore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HjPFvYtsAmQp",
       "label": "Già'l carro ardente, che conduce il giorno",
       "class": "PoeticWork",
@@ -50,6 +68,16 @@
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hmGaXqatDNBT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cmZvjapSv5E6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hmGaXqatDNBT",
+      "property": "depicts"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenB7cAJ6Zbv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hmGaXqatDNBT",
@@ -77,6 +105,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/do5GPsDuK6Gw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hmGaXqatDNBT",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hmGaXqatDNBT",
       "property": "depicts"
     },

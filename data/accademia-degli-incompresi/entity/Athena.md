@@ -11,4 +11,6 @@ aliases:
   - Pallade
   - Atena
   - Palla
+instance_of:
+  - "[[mythical character]]"
 ---

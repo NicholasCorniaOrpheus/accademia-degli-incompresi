@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[document]]"
 subclass_of:
 opposite_of:
 aliases:

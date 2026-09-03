@@ -9,4 +9,6 @@ image:
 aliases:
   - naufragio
   - shipwrecking
+instance_of:
+  - "[[activity]]"
 ---

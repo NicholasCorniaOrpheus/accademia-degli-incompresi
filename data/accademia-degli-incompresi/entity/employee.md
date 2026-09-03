@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
 opposite_of: "[[employer]]"
+instance_of:
+  - "[[occupation]]"
 ---

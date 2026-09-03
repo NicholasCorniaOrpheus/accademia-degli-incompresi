@@ -4,12 +4,14 @@
 @prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:CqoJRNHkatyF a rdfs:Resource ;
     rdfs:label "artistic legacy" ;
     dc:description "Intellectual heritage of an artist or work of art." ;
     dcterms:identifier ns1:Q122761756 ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:TYSwPAjmpAM9 ;
     skos:altLabel "intellectual heritage" ;
     ns1:P461 adi:PisMNabZrMmn .
 

@@ -10,4 +10,6 @@ aliases:
   - spina
   - pickle
   - spinose structure
+instance_of:
+  - "[[natural entity]]"
 ---

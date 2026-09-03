@@ -10,4 +10,6 @@ aliases:
   - rio
   - fiume
   - ruscello
+instance_of:
+  - "[[natural entity]]"
 ---

@@ -7,17 +7,44 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSenUpbhXggw",
+      "label": "scientific concept",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9XD4UG6WvsXp",
       "label": "Al dolce vostro canto",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T6Bs2vyA2y7g",
+      "label": "heliocentrism",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     }
   ],
   "links": [
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGbtWp2Ek2YY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSenUpbhXggw",
+      "property": "instance_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9XD4UG6WvsXp",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGbtWp2Ek2YY",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T6Bs2vyA2y7g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGbtWp2Ek2YY",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T6Bs2vyA2y7g",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LSenUpbhXggw",
+      "property": "instance_of"
     }
   ]
 }

@@ -17,9 +17,26 @@
       "label": "Quando il Sol torna al Cancro, e cangiat'hanno",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "label": "natural entity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiX6EsWKP6ht",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3XraWsE54wKL",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RqckzyEusUXL",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiX6EsWKP6ht",
@@ -27,6 +44,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aqGrMkBfwctH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiX6EsWKP6ht",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XiX6EsWKP6ht",
       "property": "depicts"
     }

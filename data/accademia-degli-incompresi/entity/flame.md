@@ -12,4 +12,6 @@ aliases:
   - fuoco
   - foco
   - fire
+instance_of:
+  - "[[natural entity]]"
 ---

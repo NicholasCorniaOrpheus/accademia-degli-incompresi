@@ -9,4 +9,6 @@ image:
 aliases:
   - rite-de-passage
   - rito di iniziazione
+instance_of:
+  - "[[activity]]"
 ---

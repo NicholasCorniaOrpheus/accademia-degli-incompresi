@@ -9,4 +9,6 @@ image:
 aliases:
   - old person
   - elderly person
+instance_of:
+  - "[[quality]]"
 ---

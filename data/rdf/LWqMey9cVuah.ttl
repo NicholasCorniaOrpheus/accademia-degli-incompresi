@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LWqMey9cVuah-MXzngHVxVfNJ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BVmVM3rL2WcH ;
+    rdf:predicate <> ;
+    rdf:subject adi:LWqMey9cVuah .
+
+adi:LWqMey9cVuah-VTra3QNViULZ a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:Mt9ZZcGQWahk ;
+    rdf:predicate <> ;
+    rdf:subject adi:LWqMey9cVuah .
+
+adi:LWqMey9cVuah-nE32HEwmsZ3X a rdf:Statement ;
+    dcterms:publisher adi:SFgnYFwb3ueW ;
+    wdt:P291 adi:NAvcJHrBT6mr ;
+    rdf:object "N3759724c8c804ff982985661a7a19866" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LWqMey9cVuah ;
+    schema:datePublished "1590" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE073048> .
+
+adi:LWqMey9cVuah a rdfs:Resource ;
+    rdfs:label "Delle rime di Cesare Rinaldi bolognese parte terza" ;
+    <> adi:BVmVM3rL2WcH,
+        adi:Mt9ZZcGQWahk,
+        "1590" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE073048>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/007410010> ;
+    dcterms:title "Delle rime di Cesare Rinaldi bolognese parte terza alla ill.ma et ecc.ma sig.ra la sig.ra Pellegrina Capello Bentiuoglia" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

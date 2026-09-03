@@ -20,7 +20,11 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | perche | perché | |
 | poi che| poiché| |
 | pur che| purché| |
+| ò pur | oppur | |
 | cosi / si | così / sì | |
+| sù la | sulla | |
+| fà | fa | |
+| fù | fu | |
 | piu | più | |
 | virtu | virtù |
 | vò | vo | The first person of the verb "andare" does not need any accent or apostrophe in modern italian| 

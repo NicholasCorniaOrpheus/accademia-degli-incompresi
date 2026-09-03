@@ -11,4 +11,6 @@ aliases:
   - umiltà
   - modestyy
   - humbleness
+instance_of:
+  - "[[personality trait]]"
 ---

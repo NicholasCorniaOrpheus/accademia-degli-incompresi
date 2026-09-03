@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - abisso
+instance_of:
+  - "[[location]]"
 ---

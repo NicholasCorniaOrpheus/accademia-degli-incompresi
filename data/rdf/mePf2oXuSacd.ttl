@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mePf2oXuSacd-55i4cwwTtQGE a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:6ZQiude4mdQw ;
+    rdf:predicate <> ;
+    rdf:subject adi:mePf2oXuSacd .
+
+adi:mePf2oXuSacd a rdfs:Resource ;
+    rdfs:label "La bella Urania mia (Coma)" ;
+    <> adi:6ZQiude4mdQw,
+        adi:eNi6i8S5ZgM8 ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """La bella Urania mia
+Quando tal'hor mi mira
+se ne ride e fuggie e poi sospira
+All'hor s'oscura il cielo
+e si cangia il mio cor per tema in gelo.""" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:type "MusicComposition" ;
+    wdt:P31 adi:a7Qa4z8ocEzP ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:4Ghhytt8oGxa,
+        adi:GiYPc75HZAb3,
+        adi:Rkqg3J6afECo,
+        adi:V9gBMagpTVV8,
+        adi:bbbGxBiRGDwz,
+        adi:iWa8EnwdNBqa ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

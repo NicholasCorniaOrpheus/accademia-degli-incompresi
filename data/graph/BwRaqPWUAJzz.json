@@ -31,6 +31,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVpEEB8YRkBe",
+      "label": "Canta Urania la parte",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UwTkUJm3SQTb",
       "label": "Austrian National Library",
       "class": "Organisation",
@@ -47,6 +53,12 @@
       "label": "Venezia",
       "class": "Place",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mG7ucGK9Wzem",
+      "label": "Qual fu, qual è, qual fia",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PkREKU5PxNwv",
@@ -143,7 +155,17 @@
       "property": "part_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVpEEB8YRkBe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BwRaqPWUAJzz",
+      "property": "part_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DvcgA42Equkr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BwRaqPWUAJzz",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mG7ucGK9Wzem",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BwRaqPWUAJzz",
       "property": "part_of"
     },
@@ -178,12 +200,32 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVpEEB8YRkBe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EVpEEB8YRkBe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DvcgA42Equkr",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
       "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DvcgA42Equkr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mG7ucGK9Wzem",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mG7ucGK9Wzem",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
       "property": "contributor"
     },

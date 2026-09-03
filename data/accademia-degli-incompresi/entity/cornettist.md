@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - cornetto player
+instance_of:
+  - "[[occupation]]"
 ---

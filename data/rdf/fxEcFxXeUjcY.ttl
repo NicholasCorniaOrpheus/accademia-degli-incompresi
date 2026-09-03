@@ -2,11 +2,13 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:fxEcFxXeUjcY a rdfs:Resource ;
     rdfs:label "warrior" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q1250916> ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:Et64EF5pK79G ;
     skos:altLabel "fighter",
         "guerriera",
         "guerriero" .

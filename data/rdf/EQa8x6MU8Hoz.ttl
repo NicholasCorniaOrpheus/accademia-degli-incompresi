@@ -3,12 +3,14 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:EQa8x6MU8Hoz a rdfs:Resource ;
     rdfs:label "art print" ;
     dc:description "Artwork printed with several techniques." ;
     dcterms:identifier <http://www.wikidata.org/entity/Q11060274> ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:JHrGKtEArQaq ;
     skos:altLabel "art plates",
         "etching print",
         "plate collection",

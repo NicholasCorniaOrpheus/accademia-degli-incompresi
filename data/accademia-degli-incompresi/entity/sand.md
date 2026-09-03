@@ -9,4 +9,6 @@ image:
 aliases:
   - arena
   - rena
+instance_of:
+  - "[[natural entity]]"
 ---

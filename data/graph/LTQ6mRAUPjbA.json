@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LTQ6mRAUPjbA",
+      "label": "tyrant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "label": "Quest'amore, Quest'arsura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7CDzm55xbzRw",
+      "label": "Gionto in Alfea con temerario orgoglio",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BMh3TpkVtxmy",
+      "label": "Qual ruscello veggiam d'acque sovente",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LTQ6mRAUPjbA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Et64EF5pK79G",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LTQ6mRAUPjbA",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7CDzm55xbzRw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LTQ6mRAUPjbA",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BMh3TpkVtxmy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LTQ6mRAUPjbA",
+      "property": "depicts"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FLuc8PnpH5Xq",
+      "label": "cornetto",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "label": "Mentre pomposa, Te ne stai Rosa (Bernardi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6AYmYVgGGYKR",
+      "label": "type of musical instrument",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FLuc8PnpH5Xq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6AYmYVgGGYKR",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyZ4cy4uuBqH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FLuc8PnpH5Xq",
+      "property": "instrumentation"
+    }
+  ]
+}

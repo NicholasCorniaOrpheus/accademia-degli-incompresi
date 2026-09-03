@@ -8,4 +8,6 @@ image:
 aliases:
   - disputa delle armi e delle lettere
   - duello delle armi e delle lettere
+instance_of:
+  - "[[philosophical concept]]"
 ---

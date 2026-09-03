@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - transmutation
+instance_of:
+  - "[[philosophical concept]]"
 ---

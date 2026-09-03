@@ -9,4 +9,6 @@ image:
 aliases:
   - harbour
   - porto
+instance_of:
+  - "[[location]]"
 ---

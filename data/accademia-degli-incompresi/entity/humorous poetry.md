@@ -9,4 +9,6 @@ image:
 aliases:
   - poesia burlesca
   - comic poetry
+instance_of:
+  - "[[form of creative work]]"
 ---

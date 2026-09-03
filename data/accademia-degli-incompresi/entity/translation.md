@@ -9,4 +9,6 @@ image:
 aliases:
   - version
   - edition
+instance_of:
+  - "[[activity]]"
 ---

@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:PVDneYJqv6sX-HaZGonDTk4Dq a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:YvLbpbXURbTT ;
+    rdf:predicate <> ;
+    rdf:subject adi:PVDneYJqv6sX .
+
+adi:PVDneYJqv6sX-cjv6CmiCJDeK a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:5n6E2xua9xN3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:PVDneYJqv6sX .
+
+adi:PVDneYJqv6sX a rdfs:Resource ;
+    rdfs:label "La natura compose (del Mel)" ;
+    <> adi:5n6E2xua9xN3,
+        adi:JWr76UXJFZjt,
+        adi:YvLbpbXURbTT,
+        adi:kpdqXbDj2gkV ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F138800000010101_000000157100C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ .
+

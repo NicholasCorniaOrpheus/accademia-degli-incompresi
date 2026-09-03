@@ -3,11 +3,13 @@
 @prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:7iFPYdb9Lkjr a rdfs:Resource ;
     rdfs:label "death" ;
     dcterms:identifier ns1:Q4 ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:bHdCw4BecfGK ;
     skos:altLabel "morir",
         "morte",
         "oblio" ;

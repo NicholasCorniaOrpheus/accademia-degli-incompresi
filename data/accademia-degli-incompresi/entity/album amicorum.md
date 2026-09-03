@@ -1,7 +1,8 @@
 ---
 class: Concept
 instance_of:
-subclass_of:
+  - "[[document]]"
+subclass_of: "[[emblem book]]"
 identifier:
   - http://www.wikidata.org/entity/Q457843
 aliases:

@@ -19,6 +19,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "label": "natural phenomenon",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iNStXX4UFoEj",
       "label": "Non teme oh Dea di questa età gentile",
       "class": "PoeticWork",
@@ -35,9 +41,20 @@
       "label": "Non come soglio il folgorar pavento",
       "class": "EmblemClass",
       "image": ""
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "label": "Mentre in voci canore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nGmjWLga97hz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bHdCw4BecfGK",
+      "property": "instance_of"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QDAMjL3k5SHS",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nGmjWLga97hz",
@@ -62,6 +79,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/773W5CgoABXb",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nGmjWLga97hz",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HdCTZHfssSgt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nGmjWLga97hz",
+      "property": "depicts"
     }
   ]
 }

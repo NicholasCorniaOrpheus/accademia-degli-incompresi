@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7H8qw9tLGaES-RP8Kr4Lnkd8z a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:GiHfDP4DdMdp ;
+    rdf:predicate <> ;
+    rdf:subject adi:7H8qw9tLGaES .
+
+adi:7H8qw9tLGaES-Z64Pn2Vwx7iQ a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "20101" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7H8qw9tLGaES .
+
+adi:7H8qw9tLGaES a rdfs:Resource ;
+    rdfs:label "Ansaldo Cebà" ;
+    <> adi:4AB2zhiGQJga,
+        adi:GiHfDP4DdMdp ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q17453187> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

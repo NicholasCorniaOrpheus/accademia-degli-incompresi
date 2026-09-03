@@ -7,29 +7,29 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:gzpHxiKuPzSn-TJCTXY5PsUEn a rdf:Statement ;
+adi:gzpHxiKuPzSn-4mJYWjgHxTJq a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:c6NfMc4aLaby ;
     rdf:predicate <> ;
     rdf:subject adi:gzpHxiKuPzSn .
 
-adi:gzpHxiKuPzSn-bckWoocttRAf a rdf:Statement ;
+adi:gzpHxiKuPzSn-PLbFb8kQ26u6 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=cmj518mOFcYC> ;
+    dcterms:publisher adi:mBuz2DVvb28R ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/UW01alpnX18_/b2FpOmJuY2YuZmlyZW56ZS5zYm4uaXQ6MjE6RkkwMDk4Ok1hZ2xpYWJlY2hpOlVCT0UwMzUyMDk_/manifest.json> ;
+    rdf:object "N7eaff1d6cf3c480eb3e0d45a6e3f8d68" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gzpHxiKuPzSn ;
+    schema:datePublished "1630" ;
+    schema:url <http://id.sbn.it/bid/UBOE035209> .
+
+adi:gzpHxiKuPzSn-jsZboMqS9aGJ a rdf:Statement ;
     bf:Note "Two paintings by Roncalli are set to poems, respectively 'Pallade che visita le Muse' and 'San Pietro piangente'. " ;
     bf:Role adi:CBJEfZgNCiU3 ;
     rdf:object adi:cAg4ZC7SGWum ;
     rdf:predicate <> ;
     rdf:subject adi:gzpHxiKuPzSn .
-
-adi:gzpHxiKuPzSn-nRfSZkBzMGWj a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=cmj518mOFcYC> ;
-    dcterms:publisher adi:mBuz2DVvb28R ;
-    wdt:P291 adi:f43HawKudsFv ;
-    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/UW01alpnX18_/b2FpOmJuY2YuZmlyZW56ZS5zYm4uaXQ6MjE6RkkwMDk4Ok1hZ2xpYWJlY2hpOlVCT0UwMzUyMDk_/manifest.json> ;
-    rdf:object "Nda804f61de6f4060b245c0989d75ee3d" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:gzpHxiKuPzSn ;
-    schema:datePublished "1630" ;
-    schema:url <http://id.sbn.it/bid/UBOE035209> .
 
 adi:gzpHxiKuPzSn a rdfs:Resource ;
     rdfs:label "La galeria del caualier Marino. Distinta in pitture & sculture" ;

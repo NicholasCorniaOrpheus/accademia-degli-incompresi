@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UHcuWbcjDVDA-HCmgiGMivDTj a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A55350/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:dtLAfP3ZfkKV ;
+    wdt:P291 adi:hke846QYoVbD ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A55350> ;
+    rdf:object "Nf57b7f283b314bebb88c95693f801738" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UHcuWbcjDVDA ;
+    schema:datePublished "1596" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE010622> .
+
+adi:UHcuWbcjDVDA-NTE2nWcpHwx8 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7H8qw9tLGaES ;
+    rdf:predicate <> ;
+    rdf:subject adi:UHcuWbcjDVDA .
+
+adi:UHcuWbcjDVDA a rdfs:Resource ;
+    rdfs:label "Rime d'Ansaldo Cebà" ;
+    <> adi:7H8qw9tLGaES,
+        "1596" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE010622>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F002400010> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

@@ -10,4 +10,6 @@ aliases:
   - wizardry
   - witchcraft
   - magia
+instance_of:
+  - "[[field of study]]"
 ---

@@ -14,6 +14,6 @@ official_website: https://www.treccani.it/vocabolario/
 catalog_identifier:
 member:
 interested_in:
-  - value: "[[Italian language]]"
+  - value: "[[Italian]]"
 notable_work:
 ---

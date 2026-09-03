@@ -2,10 +2,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:WBaaDcSW6iHF a rdfs:Resource ;
     rdfs:label "husband" ;
     dcterms:identifier ns1:Q212878 ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:Et64EF5pK79G ;
     ns1:P461 adi:C65NpuAXpJan .
 

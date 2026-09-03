@@ -10,4 +10,6 @@ aliases:
   - inganno
   - deceit
   - trickery
+instance_of:
+  - "[[activity]]"
 ---

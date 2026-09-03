@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
+      "label": "tree",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RqckzyEusUXL",
       "label": "Muse che tante volte ributtai",
       "class": "PoeticWork",
@@ -22,6 +28,11 @@
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
       "property": "instance_of"
     },
@@ -29,6 +40,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RqckzyEusUXL",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdkY2CAbEjzJ",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EY8rp5qPSPGb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g6w9WMyeoMXb",
+      "property": "instance_of"
     }
   ]
 }

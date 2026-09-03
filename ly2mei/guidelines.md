@@ -14,7 +14,10 @@ Polyphonic voices are encoded according to the following mapping:
 | Sextus | Sesto, Sexta Vox | sx |
 | Septimus | Settimo, Septima Vox | st |
 | Octavus | Ottavo, Octava Vox | o |
-| Full Score | fs |
+| Full Score | | fs |
+| Basso Continuo | Continuo | bc |
+| Violino | Violin | vl |
+| Cornetto | Zink | cr | 
 
 Voices, like "Cantus II" or "Bassus I" are encoded y adding an integer after the code, giving "c2" and "b1" respectively.
 

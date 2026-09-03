@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jD4gJt5iXgrm-9YvkMsy355HD a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:m3PTirRVb5FF ;
+    rdf:predicate <> ;
+    rdf:subject adi:jD4gJt5iXgrm .
+
+adi:jD4gJt5iXgrm-KRHY4vAFZe9m a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB210/> ;
+    dcterms:publisher adi:BH2jtMMUakEo ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N5ebb881477e749fbb7b53ded2add3398" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:jD4gJt5iXgrm ;
+    schema:datePublished "1610" ;
+    schema:url <http://id.sbn.it/bid/MUS0276112> .
+
+adi:jD4gJt5iXgrm-aFnWuoCDHUX6 a rdf:Statement ;
+    wdt:P1114 "2" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ne3BHXniMVmN" ;
+    rdf:predicate <> ;
+    rdf:subject adi:jD4gJt5iXgrm .
+
+adi:jD4gJt5iXgrm a rdfs:Resource ;
+    rdfs:label "Il Quarto Libro delle Canzonette Madrigali, et Arie alla romana a due voci di Radesca Enrico" ;
+    <> adi:m3PTirRVb5FF,
+        "1610" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0276112>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV17290010>,
+        <https://rism.online/sources/990053445> ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:AbuDB4awtRQP .
+

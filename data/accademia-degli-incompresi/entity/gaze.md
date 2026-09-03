@@ -9,4 +9,6 @@ image:
 aliases:
   - sguardo
   - guardo
+instance_of:
+  - "[[activity]]"
 ---

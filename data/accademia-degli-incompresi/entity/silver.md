@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - argento
+instance_of:
+  - "[[metal]]"
 ---

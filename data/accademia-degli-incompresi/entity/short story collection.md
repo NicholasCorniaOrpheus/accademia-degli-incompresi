@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - novella collection
+instance_of:
+  - "[[document]]"
 ---

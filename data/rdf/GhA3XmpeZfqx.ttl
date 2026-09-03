@@ -2,9 +2,11 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:GhA3XmpeZfqx a rdfs:Resource ;
     rdfs:label "arie per cantare" ;
     dc:description "Musical compositional patterns for singers in order to accompany stanzas of poems, such as ottava rimas, tercets and sonnets." ;
-    dcterms:type "Concept" .
+    dcterms:type "Concept" ;
+    wdt:P31 adi:g4TPeea9wGN7 .
 

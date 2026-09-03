@@ -12,4 +12,6 @@ aliases:
   - xylography
   - woodcut engraving print
   - plate collection
+instance_of:
+  - "[[document]]"
 ---

@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - falsification
+instance_of:
+  - "[[form of creative work]]"
 ---

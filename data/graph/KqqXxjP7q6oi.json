@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
+      "label": "Nicosia",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MK34kE4AB5yU",
+      "label": "Paolo Caracciolo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fCq9Z2C2Jbrg",
+      "label": "Italy",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YQfHpGMNj5pE",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fCq9Z2C2Jbrg",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MK34kE4AB5yU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KqqXxjP7q6oi",
+      "property": "work_location"
+    }
+  ]
+}

@@ -10,5 +10,6 @@ aliases:
   - mirto
   - mirtillo
 instance_of:
+  - "[[tree]]"
   - "[[plant]]"
 ---

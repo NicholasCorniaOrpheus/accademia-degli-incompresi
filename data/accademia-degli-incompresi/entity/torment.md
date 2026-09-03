@@ -10,4 +10,7 @@ aliases:
   - tormento
   - affanno
   - doglia
+  - cordoglio
+instance_of:
+  - "[[emotion]]"
 ---

@@ -10,4 +10,6 @@ aliases:
   - folgore
   - fulmine
   - saetta
+instance_of:
+  - "[[natural phenomenon]]"
 ---

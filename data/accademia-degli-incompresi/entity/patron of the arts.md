@@ -8,4 +8,6 @@ image:
 aliases:
   - mecenate
   - art patron
+instance_of:
+  - "[[occupation]]"
 ---

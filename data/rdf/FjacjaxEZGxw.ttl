@@ -1,58 +1,30 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://www.wikidata.org/entity/> .
-@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:FjacjaxEZGxw-2ZypxzLeS6sx a rdf:Statement ;
-    bf:Role adi:4AB2zhiGQJga ;
-    rdf:object adi:EBMKwsCza3hd ;
-    rdf:predicate <> ;
-    rdf:subject adi:FjacjaxEZGxw .
-
-adi:FjacjaxEZGxw-8Dheuj5WjZYL a rdf:Statement ;
-    bf:Note "Incipit assonance." ;
-    rdf:object adi:27cy82yr7S7z ;
-    rdf:predicate <> ;
-    rdf:subject adi:FjacjaxEZGxw .
-
-adi:FjacjaxEZGxw-JzohqC8GavwD a rdf:Statement ;
+adi:FjacjaxEZGxw-PteunywRqZwB a rdf:Statement ;
     bf:Role adi:LeNVLHNHKPVp ;
     rdf:object adi:7Y29ffZ8xr7v ;
     rdf:predicate <> ;
     rdf:subject adi:FjacjaxEZGxw .
 
+adi:FjacjaxEZGxw-Wg4woYTc4RFs a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:FjacjaxEZGxw .
+
 adi:FjacjaxEZGxw a rdfs:Resource ;
     rdfs:label "La rete fu di queste fila d'oro (Viola)" ;
-    <> adi:27cy82yr7S7z,
-        adi:7Y29ffZ8xr7v,
+    <> adi:7Y29ffZ8xr7v,
         adi:EBMKwsCza3hd,
+        adi:MxToRnWxqoK2,
         adi:f98iEviKik3n ;
-    pdc:poeticType adi:LEWu9yEF83UP ;
-    pdc:text """Alma beata e bella
-Che a le quiete piume
-Si, proprio mi mostraste il chiaro lume
-Quando tornerà più si lieto il sonno
-Che di voi mi conceda quel che tanti
-Sospir tormenti e pianti
-Interceder ne gratia un qua non ponno,
-Deh se pietade mai pungergli il petto
-Col sogno e con la mia benigna stella
-Ritorna a me sovente
-E si m’opprima l’aﬀannata mente
-Che con quei grati et amorosi gesti
-Sempre io stia seco e mai più non mi desti.""" ;
     dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/140310001010101_000000076800C> ;
     dcterms:type "MusicComposition" ;
     wdt:P1343 adi:dM6ceQfzK2pQ ;
-    wdt:P31 adi:a7Qa4z8ocEzP ;
-    wdt:P870 adi:nKCWTNSaUJQU ;
-    ns1:P180 adi:ACTN7uuqiNiD,
-        adi:SXrVe27zaz8x,
-        adi:Suq86ApyHSzQ ;
-    ns1:P2551 adi:FPYzaHuDcPWK,
-        adi:YZkrDgDqrsaF .
+    wdt:P31 adi:a7Qa4z8ocEzP .
 

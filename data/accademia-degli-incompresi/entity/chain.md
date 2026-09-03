@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - laccio
+instance_of:
+  - "[[artificial object]]"
 ---

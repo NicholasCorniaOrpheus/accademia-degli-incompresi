@@ -10,4 +10,6 @@ aliases:
   - fortune
   - fate
   - fortuna
+instance_of:
+  - "[[philosophical concept]]"
 ---

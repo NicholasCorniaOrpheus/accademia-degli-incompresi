@@ -11,4 +11,6 @@ aliases:
   - baci
   - basia
   - basium
+instance_of:
+  - "[[activity]]"
 ---

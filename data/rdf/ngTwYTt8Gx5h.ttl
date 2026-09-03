@@ -3,11 +3,13 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
 
 adi:ngTwYTt8Gx5h a rdfs:Resource ;
     rdfs:label "barzelletta" ;
     dc:description "Light poetic form using octosyllable verses." ;
     dcterms:identifier <http://www.wikidata.org/entity/Q3635495> ;
     dcterms:type "Concept" ;
+    wdt:P31 adi:d8pY5kFd7FsT ;
     skos:altLabel "scherzo" .
 

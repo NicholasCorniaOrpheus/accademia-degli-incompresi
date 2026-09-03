@@ -11,4 +11,6 @@ aliases:
   - furia
   - ira
   - ire
+instance_of:
+  - "[[emotion]]"
 ---

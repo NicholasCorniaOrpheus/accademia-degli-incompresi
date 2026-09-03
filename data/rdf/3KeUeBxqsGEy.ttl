@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3KeUeBxqsGEy-MzUrAzNL8nqY a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:fXurj2BzALG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:3KeUeBxqsGEy .
+
+adi:3KeUeBxqsGEy-oSKBQpDdjC3N a rdf:Statement ;
+    rdf:object adi:YYFRNeCKx9AL ;
+    rdf:predicate <> ;
+    rdf:subject adi:3KeUeBxqsGEy ;
+    ns1:P304 "41" ;
+    ns1:P958 "Amore. Del Sig. Cavalliero Vincenzo Panciatichi. Cartello Primo" ;
+    schema:volumeNumber "1" .
+
+adi:3KeUeBxqsGEy a rdfs:Resource ;
+    rdfs:label "Voi che a gl'aringhi miei dolci contese" ;
+    <> adi:XU8S5WyvBShC,
+        adi:YYFRNeCKx9AL,
+        adi:fXurj2BzALG4 ;
+    pdc:poeticType adi:nkvGUfVFSUHZ ;
+    pdc:text """Voi che a gl'aringhi miei dolci contese
+Ma di fero velen sovente armate,
+Aman i Cavallier con Donne accese
+Di sdegno haveste a' merti vostri ingrate;
+Vedeste al fin, che di superbe offese,
+Onde languisce il cor fur disarmate;
+E così amici, in cari nodi avvinti;
+Non conosceste o vincitori, o vinti.""" ;
+    dc:subject adi:8GvHmwR26GRn,
+        adi:o2i89qrxS3XR ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:86Q2aWNHHazc,
+        adi:Fgb2i9ph7wYA,
+        adi:GMAwvtJt3st5,
+        adi:bQEbyzNZYNAJ,
+        adi:gHVGjgKjtq6V ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

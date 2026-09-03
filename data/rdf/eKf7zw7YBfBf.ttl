@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eKf7zw7YBfBf-LKk8JmzZtSHp a rdf:Statement ;
+    bf:Note "Altus" ;
+    bf:electronicLocator adi:cmVzdWx0cz9hY3Rpb249QWR2YW5jZWRTZWFyY2hBY3Rpb24mdHlwZT0tMyZxZjE9YXZhaWxhYmlsaXR5OkF2YWlsYWJsZSZ2YWwxPUNyZWF0b3I6TWVydWxhJTJDK1RhcnF1aW5pbyslNUMoYy4rMTU5NSslRTIlODAlOTMrMTY2NSU1QykmaXBwPTI1 ;
+    bf:heldBy adi:94Ee7ZUuzvJ7 ;
+    dcterms:publisher adi:U6A7AEa9PvuU ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N3f5836b2a6b64338bd33bdb6cf270fd8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:eKf7zw7YBfBf ;
+    schema:datePublished "1624" ;
+    schema:url <https://fbc.pionier.net.pl/id/oai:jbc.bj.uj.edu.pl:929207> .
+
+adi:eKf7zw7YBfBf-S5gJhNzJXt7b a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:QWHwQ3aJXMEn ;
+    rdf:predicate <> ;
+    rdf:subject adi:eKf7zw7YBfBf .
+
+adi:eKf7zw7YBfBf-fUNyR8rpKAot a rdf:Statement ;
+    bf:Note "Altus missing." ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA296/> ;
+    dcterms:publisher adi:U6A7AEa9PvuU ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N32ad667e0598439c88af85c8f5608c41" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:eKf7zw7YBfBf ;
+    schema:datePublished "1624" ;
+    schema:url <http://id.sbn.it/bid/MUS0156720> .
+
+adi:eKf7zw7YBfBf a rdfs:Resource ;
+    rdfs:label "Il Primo Libro de Madrigali concertati a quattro, cinque, sei, sette, et otto voci, con il suo basso continuo di Tarquinio Merula" ;
+    <> adi:QWHwQ3aJXMEn,
+        "1624" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0156720>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV13600010>,
+        <https://rism.online/sources/990041020> ;
+    dcterms:title "Il Primo Libro de Madrigali concertati a quattro, cinque, sei, sette, et otto voci, con il suo basso continuo di Tarquinio Merula Organista di Chiesa, e Camera del Serenissimo, & Invittissimo Rè di Polonia, e Svetia, & c. Opera Quinta" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

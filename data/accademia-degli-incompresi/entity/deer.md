@@ -10,4 +10,6 @@ aliases:
   - damma
   - cervo
   - cervus
+instance_of:
+  - "[[animal]]"
 ---

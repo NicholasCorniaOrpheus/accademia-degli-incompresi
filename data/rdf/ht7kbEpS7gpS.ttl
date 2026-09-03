@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ht7kbEpS7gpS-MrWTXB6o6jS8 a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://books.google.it/books?id=wXSHRrk0uTQC> ;
+    dcterms:publisher adi:ETdYkUnuXfEw ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N0b92dae2e95e411b84d368d3d5825323" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ht7kbEpS7gpS ;
+    schema:datePublished "1582" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027617> .
+
+adi:ht7kbEpS7gpS-nMvK3k6yZsbU a rdf:Statement ;
+    bf:Note "Volume 2" ;
+    bf:electronicLocator <https://books.google.it/books?id=ooxqLK6qcdwC> ;
+    dcterms:publisher adi:ETdYkUnuXfEw ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N6ee6b7ccc05a43c1b3f52ef5f1d718d0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ht7kbEpS7gpS ;
+    schema:datePublished "1582" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027617> .
+
+adi:ht7kbEpS7gpS-oNb3KLPHpeMK a rdf:Statement ;
+    bf:Role adi:YvLbpbXURbTT ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:ht7kbEpS7gpS .
+
+adi:ht7kbEpS7gpS a rdfs:Resource ;
+    rdfs:label "Delle rime del signor Torquato Tasso. Parte prima (-seconda) insieme con altri componimenti del medesimo" ;
+    <> adi:UHzA5avQDdMJ,
+        "1582" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE027617>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FLIBX00006655> ;
+    dcterms:title "Delle rime del signor Torquato Tasso. Parte prima [-seconda] insieme con altri componimenti del medesimo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    ns1:P180 adi:2hE2ZsuJLTNE .
+

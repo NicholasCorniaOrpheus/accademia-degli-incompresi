@@ -9,4 +9,6 @@ image:
 aliases:
   - poema cavalleresco
   - chivalric romance
+instance_of:
+  - "[[form of creative work]]"
 ---

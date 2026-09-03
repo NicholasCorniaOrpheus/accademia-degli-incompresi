@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - commedia all'improvviso
+instance_of:
+  - "[[form of creative work]]"
 ---

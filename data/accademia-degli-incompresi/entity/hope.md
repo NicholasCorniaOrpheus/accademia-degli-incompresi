@@ -9,4 +9,6 @@ image:
 aliases:
   - speme
   - speranza
+instance_of:
+  - "[[emotion]]"
 ---

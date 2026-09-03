@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - Rota Fortunae
+instance_of:
+  - "[[emblem]]"
 ---

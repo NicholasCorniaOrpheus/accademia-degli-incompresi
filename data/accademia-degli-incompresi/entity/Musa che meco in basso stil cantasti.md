@@ -29,7 +29,7 @@ depicts:
   - "[[river]]"
   - "[[nymph]]"
   - "[[shepherd]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[singing]]"
 language:
   - "[[Italian]]"

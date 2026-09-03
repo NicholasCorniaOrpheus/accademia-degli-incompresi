@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - devozione
+instance_of:
+  - "[[personality trait]]"
 ---

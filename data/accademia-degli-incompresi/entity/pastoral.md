@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - bucolic
+instance_of:
+  - "[[art movement]]"
 ---

@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "label": "Quest'amore, Quest'arsura (Saracini)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "label": "Quest'amore, Quest'arsura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N3wwHPgkup37",
+      "label": "aria",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KjAY94RouFtJ",
+      "label": "Claudio Saracini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6kaJWqLKCNxc",
+      "label": "Le seconde musiche di Claudio Saracini",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N3wwHPgkup37",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KjAY94RouFtJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6kaJWqLKCNxc",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TuVPUJmvi6Ci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5o8cEMHwHFYa",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KjAY94RouFtJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6kaJWqLKCNxc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6kaJWqLKCNxc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KjAY94RouFtJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6kaJWqLKCNxc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    }
+  ]
+}

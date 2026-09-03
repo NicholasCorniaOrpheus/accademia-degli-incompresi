@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[philosophical concept]]"
 subclass_of:
 aliases:
   - humoral theory

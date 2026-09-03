@@ -31,7 +31,7 @@ metre:
 depicts:
   - "[[flame]]"
   - "[[weeping]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[martyrdom]]"
   - "[[singing]]"
 language: "[[Italian]]"

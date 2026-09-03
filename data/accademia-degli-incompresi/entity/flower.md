@@ -10,4 +10,6 @@ aliases:
   - fiore
   - blossom
   - bloom
+instance_of:
+  - "[[plant]]"
 ---

@@ -9,4 +9,6 @@ image:
 aliases:
   - libertà
   - liberty
+instance_of:
+  - "[[emotion]]"
 ---

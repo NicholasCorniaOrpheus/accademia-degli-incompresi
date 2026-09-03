@@ -9,4 +9,6 @@ image:
 aliases:
   - astrologia
   - divination
+instance_of:
+  - "[[field of study]]"
 ---

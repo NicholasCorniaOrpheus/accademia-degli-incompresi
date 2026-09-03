@@ -9,4 +9,6 @@ described_by_source:
 image:
 aliases:
   - Hermes
+instance_of:
+  - "[[mythical character]]"
 ---

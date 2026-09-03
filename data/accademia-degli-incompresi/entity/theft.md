@@ -9,4 +9,6 @@ image:
 aliases:
   - stealing
   - furto
+instance_of:
+  - "[[activity]]"
 ---

@@ -10,4 +10,6 @@ aliases:
   - guerriero
   - guerriera
   - fighter
+instance_of:
+  - "[[occupation]]"
 ---

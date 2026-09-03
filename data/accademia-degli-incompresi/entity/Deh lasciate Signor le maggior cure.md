@@ -25,7 +25,7 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[music making]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
 language: "[[Italian]]"
 text: |-
   Deh lasciate Signor le maggior cure

@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[form of creative work]]"
 subclass_of:
 opposite_of:
 aliases:

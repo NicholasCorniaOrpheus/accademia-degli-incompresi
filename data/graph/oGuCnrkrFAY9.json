@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PCFDtKfx7Vw4",
+      "label": "Quando Urania rimira (Scaletta)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixoXEAX9M2DD",
       "label": "Accademia degli Innominati di Parma",
       "class": "Organisation",
@@ -59,6 +65,12 @@
       "label": "poet",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "label": "Porta nel viso Aprile",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -98,6 +110,11 @@
       "property": "catalog_identifier"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PCFDtKfx7Vw4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oGuCnrkrFAY9",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixoXEAX9M2DD",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oGuCnrkrFAY9",
       "property": "member"
@@ -111,6 +128,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmhzcSbPoocH",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oGuCnrkrFAY9",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oGuCnrkrFAY9",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PCFDtKfx7Vw4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PCFDtKfx7Vw4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
+      "property": "based_on"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixoXEAX9M2DD",
@@ -139,6 +171,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jnuZkbCNwDq6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmhzcSbPoocH",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DVFhAKCsw75c",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmhzcSbPoocH",
       "property": "part_of"
     }

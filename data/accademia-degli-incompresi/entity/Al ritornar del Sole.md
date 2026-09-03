@@ -26,7 +26,7 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[singing]]"
-  - "[[songbirds]]"
+  - "[[songbird]]"
   - "[[swan]]"
 language: "[[Italian]]"
 text: |-

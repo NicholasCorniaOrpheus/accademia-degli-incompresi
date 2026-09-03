@@ -1,6 +1,7 @@
 ---
 class: Concept
 instance_of:
+  - "[[natural phenomenon]]"
 subclass_of:
 aliases:
   - raggio

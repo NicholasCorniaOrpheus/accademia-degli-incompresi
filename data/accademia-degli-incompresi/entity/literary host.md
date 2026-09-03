@@ -8,4 +8,6 @@ image:
 aliases:
   - salonnier
   - salonnière
+instance_of:
+  - "[[occupation]]"
 ---

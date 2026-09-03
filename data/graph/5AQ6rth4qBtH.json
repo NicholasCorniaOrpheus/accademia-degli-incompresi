@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "label": "Apri Urania il puro fonte (Radesca)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Amk76nLGSdfy",
+      "label": "canzonetta",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jD4gJt5iXgrm",
+      "label": "Il Quarto Libro delle Canzonette Madrigali, et Arie alla romana a due voci di Radesca Enrico",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5sSSisVoyiFo",
+      "label": "Apri Urania il puro fonte",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Amk76nLGSdfy",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jD4gJt5iXgrm",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5AQ6rth4qBtH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5sSSisVoyiFo",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jD4gJt5iXgrm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jD4gJt5iXgrm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5sSSisVoyiFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    }
+  ]
+}

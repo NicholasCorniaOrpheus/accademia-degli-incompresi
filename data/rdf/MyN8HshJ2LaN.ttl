@@ -7,29 +7,29 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:MyN8HshJ2LaN-KRBbr8TSxj9w a rdf:Statement ;
+adi:MyN8HshJ2LaN-2npKLst59JAK a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:bC6enjnsorhU ;
+    rdf:predicate <> ;
+    rdf:subject adi:MyN8HshJ2LaN .
+
+adi:MyN8HshJ2LaN-CcahdhJ3Vukv a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:YvLbpbXURbTT ;
     rdf:predicate <> ;
     rdf:subject adi:MyN8HshJ2LaN .
 
-adi:MyN8HshJ2LaN-PYcU8gChuDZX a rdf:Statement ;
+adi:MyN8HshJ2LaN-bMJyqScMgmq8 a rdf:Statement ;
     bf:Note "First authorized version by the author." ;
     bf:electronicLocator <https://books.google.it/books?id=sNl2gF6WThgC> ;
     dcterms:publisher adi:UWRwVeh9kWAP ;
     wdt:P291 adi:4rNwxjw3kNQo ;
     wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k71664j/manifest.json> ;
-    rdf:object "Nedb3b05df11646d39f067db9fd2b2670" ;
+    rdf:object "N4f5e8f98b0f64f639ca4246214c0306e" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:MyN8HshJ2LaN ;
     schema:datePublished "1581" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE030115> .
-
-adi:MyN8HshJ2LaN-gbHrLhKVefj2 a rdf:Statement ;
-    bf:Role adi:7pUzikYB2CFB ;
-    rdf:object adi:bC6enjnsorhU ;
-    rdf:predicate <> ;
-    rdf:subject adi:MyN8HshJ2LaN .
 
 adi:MyN8HshJ2LaN a rdfs:Resource ;
     rdfs:label "Gierusalemme liberata, poema heroico del sig. Torquato Tasso" ;

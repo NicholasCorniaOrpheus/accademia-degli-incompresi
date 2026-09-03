@@ -10,4 +10,6 @@ aliases:
   - orecchio
   - orecchie
   - ears
+instance_of:
+  - "[[anatomical entity]]"
 ---

@@ -8,4 +8,6 @@ described_by_source:
 image:
 aliases:
   - misoginia
+instance_of:
+  - "[[philosophical concept]]"
 ---

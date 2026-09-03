@@ -9,4 +9,6 @@ image:
 aliases:
   - dramatic performance
   - recitation
+instance_of:
+  - "[[activity]]"
 ---

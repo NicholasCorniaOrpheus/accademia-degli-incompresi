@@ -25,7 +25,7 @@ related_to:
       - "[[(Sangalli 2020)]]"
 notable_work:
 interested_in:
-  - value: "[[Italian language]]"
+  - value: "[[Italian]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 9674

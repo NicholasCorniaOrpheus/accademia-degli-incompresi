@@ -9,38 +9,38 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:NaH87wQeSvh2-MhLELwh684n5 a rdf:Statement ;
+adi:NaH87wQeSvh2-GgnCHf9Lp5Rj a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
+    rdf:object "N4ea091ce2ef4405bb6a210a95276231f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NaH87wQeSvh2 ;
+    schema:datePublished "1585" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
+
+adi:NaH87wQeSvh2-RFpo4DDwrz4x a rdf:Statement ;
     dcterms:publisher adi:n2tqChZSQcZQ ;
     wdt:P291 adi:cbfXQVLz7Pey,
         adi:dhbQrFWynqRh ;
-    rdf:object "Nb91e7600acae4489b106717e9ebb93b0" ;
+    rdf:object "N5409c6f7ca054b6db09aca9e90fa4b6a" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:NaH87wQeSvh2 ;
     schema:datePublished "1585" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
 
-adi:NaH87wQeSvh2-U7XZcyCufjzh a rdf:Statement ;
+adi:NaH87wQeSvh2-SYitPEibDkdR a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:2brEqdcLsYfo ;
     rdf:predicate <> ;
     rdf:subject adi:NaH87wQeSvh2 .
 
-adi:NaH87wQeSvh2-VdY4rXQfdXGQ a rdf:Statement ;
+adi:NaH87wQeSvh2-eSqznVY8Pzox a rdf:Statement ;
     dcterms:references adi:V863VaniCEeW,
         adi:gPbPASvGPG6h ;
     rdf:object "1583" ;
     rdf:predicate <> ;
     rdf:subject adi:NaH87wQeSvh2 .
-
-adi:NaH87wQeSvh2-iVNB3nCSdzXf a rdf:Statement ;
-    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
-    wdt:P291 adi:dhbQrFWynqRh ;
-    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
-    rdf:object "N865005cf1e0543e1a09ae458091d6ec9" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:NaH87wQeSvh2 ;
-    schema:datePublished "1585" ;
-    schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
 
 adi:NaH87wQeSvh2 a rdfs:Resource ;
     rdfs:label "De gli eroici furori" ;
