@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ALznK9Pa7h2H-EsjB9uygtoSd a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10AA1E4D/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10AA1E4D> ;
+    rdf:object "N386250ad89e4446cba0bbbacd2a03ead" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ALznK9Pa7h2H ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026070> .
+
+adi:ALznK9Pa7h2H-SKK65CGEqGs2 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:V5TVPGB5izXm ;
+    rdf:predicate <> ;
+    rdf:subject adi:ALznK9Pa7h2H .
+
+adi:ALznK9Pa7h2H a rdfs:Resource ;
+    rdfs:label "Rime di diversi nobili uomini et eccellenti poeti nella lingua toscana. Libro secondo" ;
+    <> adi:V5TVPGB5izXm,
+        "1547" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE026070>,
+        <https://lyra.unil.ch/books/4>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F500170010> ;
+    dcterms:title "Rime di diuersi nobili huomini et eccellenti poeti nella lingua thoscana. Libro secondo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:24PiFs2FWWtK,
+        adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

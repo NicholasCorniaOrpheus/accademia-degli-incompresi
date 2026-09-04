@@ -22,14 +22,15 @@ based_on:
 derivative_work:
 subject:
   - "[[praise]]"
+  - "[[metaphor]]"
 poetic_type: "[[madrigale]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"
 depicts:
-  - "[[celestial body]]"
   - "[[flame]]"
   - "[[flying]]"
+  - "[[star]]"
 language: "[[Italian]]"
 text: |-
   Stella, che fra le stelle,

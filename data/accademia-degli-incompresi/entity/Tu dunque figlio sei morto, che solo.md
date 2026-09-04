@@ -2,10 +2,8 @@
 class: PoeticWork
 label:
 description:
-identifier:
-  - https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29251
+identifier: https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29251
 described_by_source:
-  - "[[Progetto Lyra]]"
 image:
 aliases:
 instance_of: "[[poem]]"

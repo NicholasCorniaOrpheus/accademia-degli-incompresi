@@ -31,6 +31,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "label": "Per aspri boschi e solitari horore (Ruffo)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
       "label": "human",
       "class": "Concept",
@@ -51,6 +57,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BoXomFyBQPPP",
       "label": "Il primo libro de madrigali, a note negre di Vincenzo Ruffo",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Virc3i5ASSn3",
+      "label": "Di Vincenzo Ruffo il Primo libro de madrigali a cinque voci",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
     }
@@ -82,6 +94,11 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go55DKPGdH54",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gej3d8QnRUTi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go55DKPGdH54",
       "property": "contributor"
@@ -93,6 +110,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BoXomFyBQPPP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go55DKPGdH54",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Virc3i5ASSn3",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go55DKPGdH54",
       "property": "contributor"
     },
@@ -117,6 +139,16 @@
       "property": "part_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Virc3i5ASSn3",
+      "property": "part_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gej3d8QnRUTi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
       "property": "contributor"
@@ -138,6 +170,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BoXomFyBQPPP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Virc3i5ASSn3",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
       "property": "contributor"
     }

@@ -29,6 +29,7 @@ depicts:
   - "[[Venus]]"
   - "[[Cupid]]"
   - "[[Saint Philomena]]"
+  - "[[star]]"
 language: "[[Italian]]"
 text: |-
   Qual vaga Philomena, che fuggita

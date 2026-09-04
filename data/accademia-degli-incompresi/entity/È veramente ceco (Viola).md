@@ -45,6 +45,7 @@ depicts:
   - "[[light beam]]"
   - "[[torment]]"
   - "[[weeping]]"
+  - "[[star]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"

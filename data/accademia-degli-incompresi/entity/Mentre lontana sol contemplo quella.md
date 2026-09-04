@@ -28,6 +28,7 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[Giovanni Maria Bonardo]]"
+  - "[[star]]"
 language: "[[Italian]]"
 text: |-
   Mentre lontana sol contemplo quella

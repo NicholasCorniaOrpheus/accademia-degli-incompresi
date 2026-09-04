@@ -13,8 +13,8 @@ instance_of:
 contributor:
   - role: "[[poet]]"
     value: "[[Anton Francesco Doni]]"
-  - role: "[[Claudio Veggio]]"
-    value: "[[composer]]"
+  - role: "[[composer]]"
+    value: "[[Claudio Veggio]]"
 part_of:
   - value: "[[Dialogo della musica di m. Anton Francesco Doni]]"
 instrumentation:

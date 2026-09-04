@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:c62TngB2PHxs-T83AxjipugjM a rdf:Statement ;
+    rdf:object adi:FH4Qpne4sWzF ;
+    rdf:predicate <> ;
+    rdf:subject adi:c62TngB2PHxs ;
+    ns1:P304 "104" .
+
+adi:c62TngB2PHxs-hCKZKAL88oUV a rdf:Statement ;
+    bf:Role adi:QCahxhU4Tbt4 ;
+    rdf:object adi:UHzA5avQDdMJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:c62TngB2PHxs .
+
+adi:c62TngB2PHxs a rdfs:Resource ;
+    rdfs:label "Quant'ho più da lontan l'aspetto vostro" ;
+    <> adi:FH4Qpne4sWzF,
+        adi:UHzA5avQDdMJ ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """QUANT'HO più da lontan l'aspetto vostro
+Più lo sento ne l'alma a parte a parte
+Scolpito, e vivo, e'n ciascheduna parte
+Insignorirsi del mortal suo chiostro:
+
+Né poggio, sasso, o valle Amor m'ha mostro
+Fin, dove il Serchio arriva, o donde parte,
+Ch'io non vi veda con mirabil arte
+Scritto il nome, ch'adorna il secol nostro.
+
+Così potesse del mio amor far fede
+Il cor, che nel partir vi lassai in pegno,
+ond'ugual fosse amor sempre tra noi;
+
+Che sì nel petto il bel nodo mi sede,
+Ch'unqua nol cangerà tempo né sdegno;
+Ma sempre v’amerò viva, e dapoi.""" ;
+    dc:subject adi:RxPzK5AT4e8P,
+        adi:ddyPTXYyiFzq ;
+    dcterms:identifier <https://lyra.unil.ch/poems/6023>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29136> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:24PiFs2FWWtK ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    ns1:P180 adi:6UgHPJzzmPCX,
+        adi:VGUgNmuMpvAd ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

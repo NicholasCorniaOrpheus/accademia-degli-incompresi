@@ -26,6 +26,9 @@ metre:
   - "[[hendecasyllable]]"
 depicts:
   - "[[chain]]"
+  - "[[star]]"
+  - "[[destiny]]"
+  - "[[ingenuity]]"
 text: |-
   Quel nodo, in cui la mia beata sorte,
   Per ordine del Ciel legommi e strinse
@@ -41,7 +44,7 @@ text: |-
   Troppo lontana a quella, ove il bel viso
   Risplende sopra ogni lucente stella,
 
-  Mitigato ha il furor: (che ingeno, od arte
+  Mitigato ha il furor: (che ingegno, od arte
   Far nol potea) sperando in Paradiso
   L'alma vedere oltra le belle bella.
 language: "[[Italian]]"

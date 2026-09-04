@@ -38,6 +38,7 @@ depicts:
   - "[[Moon]]"
   - "[[celestial body]]"
   - "[[Sun]]"
+  - "[[star]]"
 metre:
   - "[[octosyllable]]"
 ---

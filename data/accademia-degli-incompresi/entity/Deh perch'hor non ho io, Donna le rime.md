@@ -28,7 +28,7 @@ metre:
 depicts:
   - "[[Giovanna d'Aragona]]"
   - "[[woman]]"
-  - "[[gemstome]]"
+  - "[[gemstone]]"
 text: |-
   Deh perch'hor non ho io, DONNA le rime
   Atte a spiegare i maggior pregi vostri?

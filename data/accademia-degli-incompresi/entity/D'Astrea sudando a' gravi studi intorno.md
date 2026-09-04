@@ -34,7 +34,7 @@ depicts:
   - "[[flower]]"
   - "[[poet]]"
   - "[[laurel]]"
-  - "[[celestial body]]"
+  - "[[star]]"
 language:
   - "[[Italian]]"
 text: |-

@@ -8,17 +8,17 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:27cy82yr7S7z-ihDzVzhD4v2m a rdf:Statement ;
-    rdf:object adi:ZYzyG5Kmbf7X ;
-    rdf:predicate <> ;
-    rdf:subject adi:27cy82yr7S7z ;
-    ns1:P958 "Egloga V" .
-
-adi:27cy82yr7S7z-nax6kVCHp58E a rdf:Statement ;
+adi:27cy82yr7S7z-DeVKBjyN8YxN a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:QUHAq7K8fEy9 ;
     rdf:predicate <> ;
     rdf:subject adi:27cy82yr7S7z .
+
+adi:27cy82yr7S7z-eaG32fKLoq7c a rdf:Statement ;
+    rdf:object adi:ZYzyG5Kmbf7X ;
+    rdf:predicate <> ;
+    rdf:subject adi:27cy82yr7S7z ;
+    ns1:P958 "Egloga V" .
 
 adi:27cy82yr7S7z a rdfs:Resource ;
     rdfs:label "Alma beata e bella" ;
@@ -38,13 +38,15 @@ Calchi le stelle erranti;
 E tra pure fontane e sacri mirti
 Pasci celesti greggi,
 E i tuoi cari pastori indi correggi.""" ;
-    dc:subject adi:3ruLTSyv8VeY ;
+    dc:subject adi:3ruLTSyv8VeY,
+        adi:f2FEyateEsYj ;
     dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/025810000101_PPPP00260406> ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:Wvnraxko77uh ;
     wdt:P870 adi:nKCWTNSaUJQU ;
     ns1:P180 adi:9R22nChmKScL,
-        adi:ddw2PSbVUZ6t ;
+        adi:ddw2PSbVUZ6t,
+        adi:kEaU6QpCkpAA ;
     ns1:P2551 adi:FPYzaHuDcPWK,
         adi:YZkrDgDqrsaF .
 

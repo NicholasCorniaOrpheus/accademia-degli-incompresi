@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9QCS8BX4gKN2-6FKE6ZnZHvkb a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QCS8BX4gKN2 .
+
+adi:9QCS8BX4gKN2-Di9WRBjrubqL a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QCS8BX4gKN2 .
+
+adi:9QCS8BX4gKN2-F4RH2XkM84na a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:Qp9KXrKkaTXi ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QCS8BX4gKN2 .
+
+adi:9QCS8BX4gKN2-RVePuifMQTDZ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QCS8BX4gKN2 .
+
+adi:9QCS8BX4gKN2-kRMcV38vEa6P a rdf:Statement ;
+    bf:Note "Tenor only." ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U374/> ;
+    dcterms:publisher adi:BAscdG7oumi7 ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N3df1cc5e61e9490487e1e3ed3d6495a1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9QCS8BX4gKN2 ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE043620> .
+
+adi:9QCS8BX4gKN2-nFUBHtjiqEGc a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QCS8BX4gKN2 .
+
+adi:9QCS8BX4gKN2 a rdfs:Resource ;
+    rdfs:label "Di Francesco Viola il primo libro de madrigali a quattro voci" ;
+    <> adi:Qp9KXrKkaTXi,
+        "1550" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE043620>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV08450010>,
+        <https://rism.online/sources/990066689> ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

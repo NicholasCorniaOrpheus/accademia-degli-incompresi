@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:g96FYp27wF6G-244nHyHK7TNz a rdf:Statement ;
+    bf:Note "The partbooks miss pages 19-22." ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080490> ;
+    dcterms:publisher adi:Ah3xiLm7tVeM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N7df5eba85df74345a3b958b77caba6a7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:g96FYp27wF6G ;
+    schema:datePublished "1583" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045793> .
+
+adi:g96FYp27wF6G a rdfs:Resource ;
+    rdfs:label "Libro terzo de madrigali a cinque voci, di m. Bartolomeo Spontone" ;
+    <> "1583" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045793>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV19950010>,
+        <https://rism.online/sources/990060500> ;
+    dcterms:title "Libro terzo de madrigali a cinque voci, di m. Bartolomeo Spontone nouamente composti, & dati in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

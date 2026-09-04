@@ -7,35 +7,35 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:WLLhoFbCkx93-EBox76QN2uwh a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=J3VJizH9rHkC> ;
-    dcterms:publisher adi:dt83qSxSrD7X ;
-    wdt:P291 adi:8uSppJ4kaCQ5,
-        adi:f43HawKudsFv ;
-    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:38161/datastreams/MMIIIF/content> ;
-    rdf:object "N7297ffb5ea9d4eeabbc9cb7cc662c637" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:WLLhoFbCkx93 ;
-    schema:datePublished "1542" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE062656> .
-
-adi:WLLhoFbCkx93-Eu5YS6vnE9pg a rdf:Statement ;
-    bf:Role adi:o2jeCDMBAhqR ;
-    rdf:object adi:BarcvHNHhyjC ;
+adi:WLLhoFbCkx93-5vc9FDBACajz a rdf:Statement ;
+    dcterms:references adi:5ZmX4c5h8CRb ;
+    rdf:object "1538" ;
     rdf:predicate <> ;
     rdf:subject adi:WLLhoFbCkx93 .
 
-adi:WLLhoFbCkx93-gcv94t8dpUux a rdf:Statement ;
+adi:WLLhoFbCkx93-8gSYgs72Q4F4 a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:WdSP8EMksryz ;
     rdf:predicate <> ;
     rdf:subject adi:WLLhoFbCkx93 .
 
-adi:WLLhoFbCkx93-kppjxCyrU3r4 a rdf:Statement ;
-    dcterms:references adi:5ZmX4c5h8CRb ;
-    rdf:object "1538" ;
+adi:WLLhoFbCkx93-W46EhQuVfAFo a rdf:Statement ;
+    bf:Role adi:o2jeCDMBAhqR ;
+    rdf:object adi:BarcvHNHhyjC ;
     rdf:predicate <> ;
     rdf:subject adi:WLLhoFbCkx93 .
+
+adi:WLLhoFbCkx93-ckcDsjTd5hot a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=J3VJizH9rHkC> ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:8uSppJ4kaCQ5,
+        adi:f43HawKudsFv ;
+    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:38161/datastreams/MMIIIF/content> ;
+    rdf:object "N05e7b57b6f9340e3808e250a13f39282" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:WLLhoFbCkx93 ;
+    schema:datePublished "1542" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE062656> .
 
 adi:WLLhoFbCkx93 a rdfs:Resource ;
     rdfs:label "Formaggiata di Sere Stentato al serenissimo re della virtude" ;

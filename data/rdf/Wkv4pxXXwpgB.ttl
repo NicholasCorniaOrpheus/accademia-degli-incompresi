@@ -7,18 +7,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Wkv4pxXXwpgB-c7q7DgxWnxrH a rdf:Statement ;
+adi:Wkv4pxXXwpgB-7jiTMfBL4C7M a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=TPzZcnBALRoC> ;
+    rdf:object "Na45fd0da53204f53b844ab26d675ef68" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Wkv4pxXXwpgB ;
+    schema:datePublished "1567" .
+
+adi:Wkv4pxXXwpgB-g5tDNfbHDPjQ a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:NqAa4C6LiGN8 ;
     rdf:predicate <> ;
     rdf:subject adi:Wkv4pxXXwpgB .
-
-adi:Wkv4pxXXwpgB-cwMDrqFkSmv4 a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=TPzZcnBALRoC> ;
-    rdf:object "N1a056f9eb6854b0a96baa20e3ba1fdb3" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:Wkv4pxXXwpgB ;
-    schema:datePublished "1567" .
 
 adi:Wkv4pxXXwpgB a rdfs:Resource ;
     rdfs:label "Secreti novi di maravigliosa virtù" ;

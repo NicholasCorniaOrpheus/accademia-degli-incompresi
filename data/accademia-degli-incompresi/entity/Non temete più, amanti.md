@@ -26,6 +26,7 @@ depicts:
   - "[[lover]]"
   - "[[Cupid]]"
   - "[[flame]]"
+  - "[[star]]"
 language: "[[Italian]]"
 text: |-
   Non temete più, amanti,

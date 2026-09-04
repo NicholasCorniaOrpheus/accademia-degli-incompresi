@@ -15,12 +15,14 @@ based_on:
 derivative_work:
 subject:
   - "[[pastoral]]"
+  - "[[astronomy]]"
 poetic_type: "[[eclogue]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"
 depicts:
   - "[[shepherd]]"
+  - "[[star]]"
   - "[[celestial body]]"
 language: "[[Italian]]"
 text: |-

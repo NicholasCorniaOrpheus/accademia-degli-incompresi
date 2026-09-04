@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:G6nQquS3B9os-5dUV9m5wevNK a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:QQU75XRhzWKV ;
+    rdf:predicate <> ;
+    rdf:subject adi:G6nQquS3B9os .
+
+adi:G6nQquS3B9os-B5yxWQwCp8Dk a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10802DA4/> ;
+    bf:heldBy adi:UwTkUJm3SQTb ;
+    wdt:P291 adi:GvYVBMCkzMzW ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10802DA4> ;
+    rdf:object "N3e4817a71b45434dbd54ec1d697eac98" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:G6nQquS3B9os ;
+    schema:datePublished "1593" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE033937> .
+
+adi:G6nQquS3B9os a rdfs:Resource ;
+    rdfs:label "Madrigali di Giovambattista Strozzi" ;
+    <> adi:QQU75XRhzWKV,
+        "1593" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE033937> ;
+    dcterms:title "Madrigali di Giouambatista Strozzi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT .
+

@@ -7,27 +7,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:XBc94rKeMXJm-VmJEA6gByxWq a rdf:Statement ;
+adi:XBc94rKeMXJm-FMi5tSGxMQDV a rdf:Statement ;
+    bf:electronicLocator <http://www.urfm.braidense.it/rd/01896.pdf> ;
+    wdt:P291 adi:ZkFJYwSwU62p ;
+    rdf:object "Nb23b5de0f24b46b197fc8a7ac650d3dc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XBc94rKeMXJm ;
+    schema:datePublished "1629" ;
+    schema:url <http://id.sbn.it/bid/BVEE024145> .
+
+adi:XBc94rKeMXJm-VQf2Nsnr27Kt a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:PMuzKdL3eLhe ;
     rdf:predicate <> ;
     rdf:subject adi:XBc94rKeMXJm .
 
-adi:XBc94rKeMXJm-XSn8CNFWa2ge a rdf:Statement ;
+adi:XBc94rKeMXJm-WoqadN7sqjMy a rdf:Statement ;
     bf:Note "Inspired by de' Medici troupe, according to (Ferrone 2011)." ;
     bf:Role adi:jZoTyFnAARjr ;
-    rdf:object adi:N06556fa109c44b128728bc3d0adbdba1 ;
+    rdf:object adi:Nd49e52eb344a46d895e1890a85854104 ;
     rdf:predicate <> ;
     rdf:subject adi:XBc94rKeMXJm .
-
-adi:XBc94rKeMXJm-Zr5B76z37qeL a rdf:Statement ;
-    bf:electronicLocator <http://www.urfm.braidense.it/rd/01896.pdf> ;
-    wdt:P291 adi:ZkFJYwSwU62p ;
-    rdf:object "N061da7f243594d018cde5bc7073ba117" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:XBc94rKeMXJm ;
-    schema:datePublished "1629" ;
-    schema:url <http://id.sbn.it/bid/BVEE024145> .
 
 adi:XBc94rKeMXJm a rdfs:Resource ;
     rdfs:label "L' inavvertito comedia di Nicolo Barbieri" ;

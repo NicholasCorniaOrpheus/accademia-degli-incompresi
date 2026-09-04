@@ -19,8 +19,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "label": "Per aspri boschi e solitari horore (Ruffo)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LRXChf5hPwRX",
       "label": "Come la notte ogni fiammella è viva",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VaYzvU3qL3pE",
+      "label": "Ruggiadose dolcezze in matutini",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -41,6 +53,12 @@
       "label": "Ahi, ahi che se ne van tutte le notti",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aE2LyiRvVXws",
+      "label": "La fosca notte già con l'ali tese",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -55,7 +73,17 @@
       "property": "depicts"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fPnARBbLFp22",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kUxMMRYHpPZP",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LRXChf5hPwRX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kUxMMRYHpPZP",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VaYzvU3qL3pE",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kUxMMRYHpPZP",
       "property": "depicts"
     },
@@ -71,6 +99,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GvSRSQE4AepF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kUxMMRYHpPZP",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aE2LyiRvVXws",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kUxMMRYHpPZP",
       "property": "depicts"
     }

@@ -24,8 +24,13 @@ poetic_type: "[[ottava rima]]"
 metre:
   - "[[hendecasyllable]]"
 depicts:
-  - "[[celestial body]]"
   - "[[mountain]]"
+  - "[[sand]]"
+  - "[[star]]"
+  - "[[martyrdom]]"
+  - "[[dawn]]"
+  - "[[weeping]]"
+  - "[[sigh]]"
 language: "[[Italian]]"
 text: |-
   Chi può le stelle, o le minute arene,

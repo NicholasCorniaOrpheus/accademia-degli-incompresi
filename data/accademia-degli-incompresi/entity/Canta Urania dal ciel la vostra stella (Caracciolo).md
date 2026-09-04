@@ -43,7 +43,7 @@ poetic_type:
 depicts:
   - "[[singing]]"
   - "[[Urania]]"
-  - "[[celestial body]]"
+  - "[[star]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"

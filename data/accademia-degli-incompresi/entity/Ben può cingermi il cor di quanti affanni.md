@@ -29,6 +29,7 @@ depicts:
   - "[[Moon]]"
   - "[[Fortuna]]"
   - "[[torment]]"
+  - "[[thousand]]"
 language:
   - "[[Italian]]"
 text: |-
