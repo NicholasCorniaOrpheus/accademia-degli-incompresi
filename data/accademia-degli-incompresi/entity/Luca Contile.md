@@ -16,7 +16,7 @@ member_of:
   - value: "[[Accademia Veneziana]]"
     reference:
       - "[[Italian Academies Database]]"
-  - value: "[[Accademia delle Virtù]]"
+  - value: "[[Accademia delle Virtù di Roma]]"
     reference:
       - "[[(Moroncini 2017)]]"
       - "[[(Corso 2017)]]"

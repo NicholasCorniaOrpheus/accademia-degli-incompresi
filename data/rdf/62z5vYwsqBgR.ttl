@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:62z5vYwsqBgR-3McebFfvFkBs a rdf:Statement ;
+    dcterms:publisher adi:UWRwVeh9kWAP ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    rdf:object "N55e16843f1c24225b2d27c531ecaec3c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:62z5vYwsqBgR ;
+    schema:datePublished "1586" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009207> .
+
+adi:62z5vYwsqBgR-3NvSSVT9BtfK a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:ke7Y8iiuR8Rg ;
+    rdf:predicate <> ;
+    rdf:subject adi:62z5vYwsqBgR .
+
+adi:62z5vYwsqBgR-JLrk38E2XaoV a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cDXocHJozvQ7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:62z5vYwsqBgR .
+
+adi:62z5vYwsqBgR-drYYtSoGuvka a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7Y969p9irXR5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:62z5vYwsqBgR .
+
+adi:62z5vYwsqBgR-j86o9poQinVT a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10189765> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:jFBX7Vi5QibB ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10189765/manifest> ;
+    rdf:object "N73313db65b454f668b16c62537c00a8f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:62z5vYwsqBgR ;
+    schema:datePublished "1590" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009212> .
+
+adi:62z5vYwsqBgR a rdfs:Resource ;
+    rdfs:label "Rime piacevoli Cesare Caporali, del Mauro, et d'altri autori" ;
+    <> adi:7Y969p9irXR5,
+        adi:cDXocHJozvQ7,
+        adi:ke7Y8iiuR8Rg,
+        "1586" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE009207> ;
+    dcterms:title "Rime piaceuoli di Cesare Caporali, del Mauro, et d'altri auttori. Accresciute in questa quarta impressione di molte rime graui, & burlesche del sig. Torq. Tasso e di diuersi nobiliss. ingegni" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

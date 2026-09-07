@@ -4,6 +4,7 @@ label: Accademia dei Riaccesi di Palermo
 description:
 identifier:
 described_by_source:
+  - "[[(Bagni 2020)]]"
 image:
 aliases:
   - Accademia degli Accesi di Palermo

@@ -5,6 +5,7 @@ description:
 identifier:
 described_by_source:
   - "[[(Cox 2020)]]"
+  - "[[(Bagni 2020)]]"
 image:
 aliases:
 instance_of:

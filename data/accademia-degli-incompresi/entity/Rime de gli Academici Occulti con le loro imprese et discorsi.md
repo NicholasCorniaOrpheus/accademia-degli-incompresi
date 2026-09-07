@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE000055
   - https://lyra.unil.ch/books/54
 described_by_source:
+  - "[[(Bagni 2020)]]"
 image:
 aliases:
 instance_of:

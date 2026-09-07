@@ -6,23 +6,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3u7RPwEQyMmB-XVLCeqYogsy3 a rdf:Statement ;
+adi:3u7RPwEQyMmB-GCyeNqciDerf a rdf:Statement ;
+    dcterms:references adi:J9rnQmjyXd4M ;
+    rdf:object adi:AaLj6CFL44sm ;
+    rdf:predicate <> ;
+    rdf:subject adi:3u7RPwEQyMmB ;
+    schema:OrganizationRole adi:QJd3XfmEAuxc .
+
+adi:3u7RPwEQyMmB-Uz6wD84teHz8 a rdf:Statement ;
     bf:heldBy adi:DoWoU567wmiV ;
     rdf:object "16222" ;
     rdf:predicate <> ;
     rdf:subject adi:3u7RPwEQyMmB .
 
-adi:3u7RPwEQyMmB-bf23mgRHBakC a rdf:Statement ;
-    dcterms:references adi:J9rnQmjyXd4M ;
-    rdf:object adi:aTk9hoymKNbk ;
-    rdf:predicate <> ;
-    rdf:subject adi:3u7RPwEQyMmB ;
-    schema:OrganizationRole adi:QJd3XfmEAuxc .
-
 adi:3u7RPwEQyMmB a rdfs:Resource ;
     rdfs:label "Francesco Sansovino" ;
-    <> adi:P5ipTFsK5dJG,
-        adi:aTk9hoymKNbk ;
+    <> adi:AaLj6CFL44sm,
+        adi:P5ipTFsK5dJG ;
     dcterms:identifier <http://www.wikidata.org/entity/Q724746>,
         <https://lyra.unil.ch/agents/104> ;
     dcterms:type "Agent" ;

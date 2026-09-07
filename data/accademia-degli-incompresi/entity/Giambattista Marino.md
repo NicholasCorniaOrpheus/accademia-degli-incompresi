@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q332489
 described_by_source:
+  - "[[(Sacchini 2020)]]"
 image:
 aliases:
   - Giovanni Battista Marino
@@ -16,6 +17,9 @@ member_of:
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
       - "[[(Moralejo Ortega 2017)]]"
+      - "[[(Sacchini 2020)]]"
+    start_date: 1602
+    end_date: 1602
 occupation:
   - value: "[[poet]]"
 related_to:

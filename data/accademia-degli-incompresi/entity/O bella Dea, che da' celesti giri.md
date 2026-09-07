@@ -11,7 +11,7 @@ based_on:
 derivative_work:
 subject:
   - "[[praise]]"
-  - "[[Accademia delle Virtù]]"
+  - "[[Accademia delle Virtù di Roma]]"
 poetic_type:
 metre: "[[hendecasyllable]]"
 depicts:

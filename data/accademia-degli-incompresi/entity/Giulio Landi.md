@@ -12,7 +12,7 @@ instance_of:
 gender: "[[male]]"
 work_location:
 member_of:
-  - value: "[[Accademia delle Virtù]]"
+  - value: "[[Accademia delle Virtù di Roma]]"
 occupation:
 related_to:
 notable_work:

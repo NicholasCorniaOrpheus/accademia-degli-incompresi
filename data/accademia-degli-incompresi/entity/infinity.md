@@ -7,6 +7,10 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - eterno
+  - infinito
+  - infiniti
+  - eterna
 instance_of:
   - "[[philosophical concept]]"
 ---

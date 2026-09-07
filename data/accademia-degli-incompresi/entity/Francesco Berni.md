@@ -13,7 +13,7 @@ gender: "[[male]]"
 work_location:
   - value: "[[Roma]]"
 member_of:
-  - value: "[[Accademia delle Virtù]]"
+  - value: "[[Accademia delle Virtù di Roma]]"
     reference:
       - "[[(Moroncini 2017)]]"
 occupation:

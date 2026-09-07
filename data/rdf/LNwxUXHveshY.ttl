@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LNwxUXHveshY-3FghYHk76ZMX a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:LNwxUXHveshY .
+
+adi:LNwxUXHveshY-XBCeLcJqJk9R a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:PhRS4QbDydfh ;
+    rdf:predicate <> ;
+    rdf:subject adi:LNwxUXHveshY .
+
+adi:LNwxUXHveshY-dEoVRPnR7DiY a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10165918> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10165918/manifest> ;
+    rdf:object "N6a507298bce34be8a2e97c4e246870a5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LNwxUXHveshY ;
+    schema:datePublished "1543" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10165918> .
+
+adi:LNwxUXHveshY-h3fT5hGRjDof a rdf:Statement ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N6e58fffc5e0a482aa9e07ec76c3c4ab0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LNwxUXHveshY ;
+    schema:datePublished "1542" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002628> .
+
+adi:LNwxUXHveshY a rdfs:Resource ;
+    rdfs:label "Orlando furioso di m. Ludovico Ariosto novissimamente alla sua integrità ridotto et ornato di varie figure. Con alcune stanze del s. Aluigi Gonzaga in lode del medesmo" ;
+    <> adi:EBMKwsCza3hd,
+        adi:PhRS4QbDydfh,
+        adi:XU8S5WyvBShC,
+        "1542" ;
+    dc:subject adi:EQa8x6MU8Hoz ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002628> ;
+    dcterms:title "Orlando furioso di m. Ludouico Ariosto nouissimamente alla sua integrita ridotto et ornato di varie figure. Con alcune stanze del s. Aluigi Gonzaga in lode del medesmo. Aggiuntoui per ciascun canto alcune allegorie et nel fine vna breue espositione et tauola di tutto quello, che nell'opera si contiene" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

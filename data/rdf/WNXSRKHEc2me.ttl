@@ -1,0 +1,23 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+adi:WNXSRKHEc2me-BBusiviyVQLk a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:WseEXdd2ezUW ;
+    rdf:predicate <> ;
+    rdf:subject adi:WNXSRKHEc2me .
+
+adi:WNXSRKHEc2me a rdfs:Resource ;
+    rdfs:label "Metamorphoses" ;
+    <> adi:WseEXdd2ezUW ;
+    dc:subject adi:JtFVPwAgP7uA,
+        adi:iMsLAWZsRpYq ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q184742> ;
+    dcterms:type "Book" ;
+    skos:altLabel "Metamorfosi" .
+

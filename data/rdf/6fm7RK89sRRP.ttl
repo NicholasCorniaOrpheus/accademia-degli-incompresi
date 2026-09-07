@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6fm7RK89sRRP-72CUaAFkJfdM a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10165929> ;
+    dcterms:publisher adi:3vWFDkJPoCzX ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10165929/manifest> ;
+    rdf:object "Nb1ed254bc9fe42a5ad1342b0db261e46" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6fm7RK89sRRP ;
+    schema:datePublished "1565" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10165929> .
+
+adi:6fm7RK89sRRP-99oThPqszUot a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:6fm7RK89sRRP .
+
+adi:6fm7RK89sRRP-W8avTBUpJztH a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bd6t5772384v> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    dcterms:publisher adi:3vWFDkJPoCzX ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bd6t5772384v/manifest.json> ;
+    rdf:object "Nc386ac12b67543e899643cc465f5f4b1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6fm7RK89sRRP ;
+    schema:datePublished "1556" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002697> .
+
+adi:6fm7RK89sRRP-gNTHggHE5Muj a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:NqAa4C6LiGN8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:6fm7RK89sRRP .
+
+adi:6fm7RK89sRRP a rdfs:Resource ;
+    rdfs:label "Orlando furioso di m. Lodovico Ariosto, tutto ricorretto et di nuove figure adornato. Alquale di nuovo sono aggiunte le Annotazioni, gli avvertimenti, et le dichiarazioni di Girolamo Ruscelli" ;
+    <> adi:EBMKwsCza3hd,
+        adi:NqAa4C6LiGN8,
+        adi:XU8S5WyvBShC,
+        "1556" ;
+    dc:subject adi:EQa8x6MU8Hoz ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002697> ;
+    dcterms:title "Orlando furioso. Di m. Lodovico Ariosto, tutto ricorretto et di nuoue figure adornato. Alquale [!] di nuouo sono aggiunte le Annotationi, gli auuertimenti, et le dichiarationi di Girolamo Ruscelli, la vita dell'autore, descritta dal signor Giouambattista Pigna" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

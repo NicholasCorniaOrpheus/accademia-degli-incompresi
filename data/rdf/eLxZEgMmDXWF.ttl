@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eLxZEgMmDXWF-2rymuoN7vbT5 a rdf:Statement ;
+    dcterms:references adi:8PbDdJzRgVyg ;
+    rdf:object adi:kNR7wGs7pHDt ;
+    rdf:predicate <> ;
+    rdf:subject adi:eLxZEgMmDXWF .
+
+adi:eLxZEgMmDXWF-UcPuDK6Qxpsy a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "20758" ;
+    rdf:predicate <> ;
+    rdf:subject adi:eLxZEgMmDXWF .
+
+adi:eLxZEgMmDXWF a rdfs:Resource ;
+    rdfs:label "Giovanni Mauro" ;
+    <> adi:AaLj6CFL44sm,
+        adi:P5ipTFsK5dJG,
+        adi:kNR7wGs7pHDt ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q63928896> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Giovanni Mauro d'Arcano" ;
+    schema:gender adi:5bZY447EzsJq .
+

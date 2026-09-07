@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iBfCR98WRw2Y-5DFjxxCPY4Bv a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7Y969p9irXR5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:iBfCR98WRw2Y .
+
+adi:iBfCR98WRw2Y-JhP5hVRuMNSm a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cDXocHJozvQ7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:iBfCR98WRw2Y .
+
+adi:iBfCR98WRw2Y-QpvTCKa7KWfG a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10208014> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:hqMRV6EiJGbK ;
+    wdt:P291 adi:gLeh7vn7FH8w ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10208014/manifest> ;
+    rdf:object "N640c5f93ed5948f19282d31454627625" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:iBfCR98WRw2Y ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009206> .
+
+adi:iBfCR98WRw2Y a rdfs:Resource ;
+    rdfs:label "Le piacevoli rime di Cesare Caporali" ;
+    <> adi:7Y969p9irXR5,
+        adi:cDXocHJozvQ7,
+        "1585" ;
+    dcterms:title "Le piaceuoli rime di Cesare Caporali. Di nuouo in questa terza impressione accresciute d'altre graui, per l'adietro non più date in luce" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

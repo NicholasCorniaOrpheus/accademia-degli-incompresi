@@ -25,6 +25,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/TITIAN%3B_Portrait_of_Jacopo_Sannazaro_%281514-18%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VM85GBF4pL3f",
+      "label": "Antonio Bulifon",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NqAa4C6LiGN8",
       "label": "Girolamo Ruscelli",
       "class": "Agent",
@@ -83,6 +89,12 @@
       "label": "Accademia dei Segreti di Napoli",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h6rbpvv44fCy",
+      "label": "Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AEYAQZcHRz3S",
@@ -168,6 +180,11 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VM85GBF4pL3f",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbLYmsbE7QZL",
+      "property": "work_location"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NqAa4C6LiGN8",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbLYmsbE7QZL",
       "property": "work_location"
@@ -216,6 +233,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n4LerF42HfPJ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbLYmsbE7QZL",
       "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h6rbpvv44fCy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gbLYmsbE7QZL",
+      "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AEYAQZcHRz3S",
@@ -273,6 +295,11 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VM85GBF4pL3f",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h6rbpvv44fCy",
+      "property": "notable_work"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NqAa4C6LiGN8",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n4LerF42HfPJ",
       "property": "member_of"
@@ -300,6 +327,16 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sb8fPnR73AZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kj8PrHbstvRV",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h6rbpvv44fCy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VM85GBF4pL3f",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/h6rbpvv44fCy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VM85GBF4pL3f",
       "property": "contributor"
     },
     {

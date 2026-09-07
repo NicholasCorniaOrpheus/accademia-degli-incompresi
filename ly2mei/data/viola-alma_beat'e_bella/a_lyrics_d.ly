@@ -1,0 +1,8 @@
+\lyricmode { 
+Al ma be a t'e bel la \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 ch' a le quie te piu me ch' a le que te piu me mi mo stra ste si pro prio'il
+chia ro lu me \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 si pro prio'il chia ro lu me quan do tor ne ra piu \skip4 si lie t'il so \skip4 no \skip4 \skip4 \skip4 che \skip4 di voi \skip4 mi \skip4  con ce- \skip4 \skip4 \skip4 \skip4 
+da quel \skip4  ch' tan ti \skip4  so spir tor men \skip4  t'e pian ti \skip4 in ter ce der \skip4 \skip4  ne gra tia un qua \skip4  non pon no \skip4  un qua non pon \skip4  no \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 
+\skip4 \skip4 \skip4 \skip4  deh se pie ta de mai pun ger \skip4  gli'il \skip4  pet to \skip4 \skip4 \skip4 \skip4 col so gn'e con la mia be ni gna \skip4 \skip4 \skip4 \skip4  stel la \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 
+\skip4  ri tor n'a me so ven te a me so ven te e si m'op pri ma \skip4 \skip4 \skip4 \skip4 l'af fan na ta men te \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 che con quei gra t'et a mo ro \skip4 si \skip4 
+\skip4 \skip4 ge \skip4 sti \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 sem pr'io sti a se c'e \skip4 \skip4  mai piu \skip4  non mi \skip4  de sti \skip4 \skip4 \skip4 \skip4 sem pr'io sti a se c'e mai \skip4 \skip4  piu non \skip4  mi de sti. \skip4 \skip4
+}

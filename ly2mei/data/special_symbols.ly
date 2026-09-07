@@ -6,3 +6,6 @@ turnBlack = {
   \once \override NoteHead.font-size = #2
 }
 hiddenTime = {\once \omit Staff.TimeSignature}
+
+corr = { } % used for correction of original score for performance edition
+endCorr = { }

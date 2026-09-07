@@ -1,8 +1,15 @@
 \lyricmode { 
-Do -- po la piog -- \skip4\skip4\skip4\skip4\skip4\skip4 gia del mio 
-pian -- t'a -- ma ro Co -- me so ven -- t'ei suo -- le Co  -- me so --  ven -- t'ei
-suo -- le Più de l'u -- sa -- to chia -- ro Più de l'u -- sa -- to chia -- ro
-Al cui rag --  \skip4\skip4\skip4\skip4 g'im -- prov -- vi -- so Di più co -- lo -- ri mi si 
-tin -- s'il vi -- so On -- d'I ri -- de  no -- vel -- la io so -- n'in tan -- to 
-In vir -- tù del suo lu -- m'e del mio pian -- to.
+Quel -- la boc -- ca di ro -- se 
+La mia va -- ga Li -- co ri
+\override Lyrics.LyricText.font-shape = #'italic
+la mia va -- ga Li -- co ri
+\revert Lyrics.LyricText.font-shape
+In pre -- mi'al fin
+de miei gra -- vi do -- lo -- ri Mi por -- ge lie -- ta Ahi
+scal -- tra pa -- sto -- rel -- la Ch'in boc -- c'a -- scon -- de l'a -- mo --
+ro -- \skip4 \skip4 \skip4 \skip4 se fa -- ci M'in cen  -- de l'al -- ma
+\override Lyrics.LyricText.font-shape = #'italic
+m'in -- cen -- de l'al -- ma 
+\revert Lyrics.LyricText.font-shape
+con suoi dol -- ci ba -- ci.
 }

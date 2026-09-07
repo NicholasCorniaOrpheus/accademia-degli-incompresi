@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oQsd8MrHSmcQ-NXB86szdHhhD a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BarcvHNHhyjC ;
+    rdf:predicate <> ;
+    rdf:subject adi:oQsd8MrHSmcQ .
+
+adi:oQsd8MrHSmcQ-ZdXDtg6FLaTr a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10163838> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:Ugjg95iYkpuR ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10163838/manifest> ;
+    rdf:object "N36cb7fe213dc4da6b69f08dd351107c2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:oQsd8MrHSmcQ ;
+    schema:datePublished "1552" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017692> .
+
+adi:oQsd8MrHSmcQ a rdfs:Resource ;
+    rdfs:label "I marmi del Doni, academico peregrino" ;
+    <> adi:BarcvHNHhyjC,
+        adi:nRjVfw37DWEf,
+        "1552" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE017692> ;
+    dcterms:title "I marmi del Doni, academico peregrino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 .
+

@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YLiN8XPnjHhU-4CRdsCLFP3Xt a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10609710> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:7ot3ZWvYYdmA ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10609710/manifest> ;
+    rdf:object "N9b7bfa5514744618a82eba104d96a36a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YLiN8XPnjHhU ;
+    schema:datePublished "1606" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10609710> .
+
+adi:YLiN8XPnjHhU a rdfs:Resource ;
+    rdfs:label "Academicorum Insensator. Carmina" ;
+    <> adi:UJz77hnWWSNh,
+        "1606" ;
+    dc:subject adi:faKgxGgth5dr ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE040577> ;
+    dcterms:title "Aurelii Ursii, Maphaei Barbarini, Claudii Contuli, Jo. Baptistae Lauri, Vincentii Palettarii, M. Ant. Bonciarii, Academicorum Insensator. Carmina" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:S2kSCsCknAf3 ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:7yyPzh3hWuXs .
+

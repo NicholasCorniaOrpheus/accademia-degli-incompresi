@@ -7,41 +7,41 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:YYFRNeCKx9AL-7mVzu7SyamBf a rdf:Statement ;
+adi:YYFRNeCKx9AL-RAq3fmtUp7KP a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=UW70o2UQOUwC> ;
+    dcterms:publisher adi:ZE6VZDoef66Y ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Ne009e037b05d4ea0a06b6c7d3265a199" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YYFRNeCKx9AL ;
+    schema:datePublished "1610" .
+
+adi:YYFRNeCKx9AL-cxdptgagPaq9 a rdf:Statement ;
     bf:Note "volume 2" ;
     bf:electronicLocator <https://books.google.it/books?id=j0JeDQd826AC> ;
     dcterms:publisher adi:ZE6VZDoef66Y ;
     wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "N2476f75f226142f39c21908aad8cd089" ;
+    rdf:object "Nd77e7c55862a429d88162c999bb6f688" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:YYFRNeCKx9AL ;
     schema:datePublished "1605" ;
     schema:url <http://id.sbn.it/bid/UM1E012216> .
 
-adi:YYFRNeCKx9AL-QU3VWtod7XsU a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=UW70o2UQOUwC> ;
-    dcterms:publisher adi:ZE6VZDoef66Y ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Nc30c12147fbb40d2865f4fb8601e4388" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:YYFRNeCKx9AL ;
-    schema:datePublished "1610" .
-
-adi:YYFRNeCKx9AL-ZmLoYYBMdnMj a rdf:Statement ;
-    bf:Note "Volume 1" ;
-    bf:electronicLocator <https://www.google.be/books/edition/Della_corona_di_Apollo_composta_del_piu/BxFJAAAAcAAJ> ;
-    dcterms:publisher adi:ZE6VZDoef66Y ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Ne2440940071142cfa0922ee44382b00e" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:YYFRNeCKx9AL ;
-    schema:datePublished "1610" .
-
-adi:YYFRNeCKx9AL-as7ftuZ4vpZF a rdf:Statement ;
+adi:YYFRNeCKx9AL-htLkELWSUjFq a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:2VaeG8vKXxbY ;
     rdf:predicate <> ;
     rdf:subject adi:YYFRNeCKx9AL .
+
+adi:YYFRNeCKx9AL-oQyzfn6Xjinx a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://www.google.be/books/edition/Della_corona_di_Apollo_composta_del_piu/BxFJAAAAcAAJ> ;
+    dcterms:publisher adi:ZE6VZDoef66Y ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N411fe8e3a5214ab4b3c6a02d480cb553" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YYFRNeCKx9AL ;
+    schema:datePublished "1610" .
 
 adi:YYFRNeCKx9AL a rdfs:Resource ;
     rdfs:label "Della corona di Apollo composta del piu vago de' fiori di permesso. Da Piergirolamo Gentile" ;

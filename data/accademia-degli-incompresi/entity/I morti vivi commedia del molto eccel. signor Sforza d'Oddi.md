@@ -24,4 +24,6 @@ based_on:
 label: I morti vivi commedia del molto eccel. signor Sforza d'Oddi
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE023740
+described_by_source:
+  - "[[(Sacchini 2020)]]"
 ---

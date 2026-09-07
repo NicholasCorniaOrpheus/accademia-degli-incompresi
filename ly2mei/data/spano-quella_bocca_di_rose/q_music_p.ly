@@ -1,9 +1,11 @@
 \relative c'{
- \clef "petrucci-g2" \key f \major \time 2/2  f2.  a8 bf c4. bf8 a   g f g a1 c r2 c1  b!2 d1. a1 c \break
- b!2 c2 r c4 a8 a a4. c8 b!2 \ficta b2 r2 c4 a8 a a4. c8 b!2 \ficta b r2 \break
- r1 c4  f,8 g  a4. bf8 c1 d2 r4 d2 d8 d d4 b!2 c b!4 r4 c2 c8 c \break
- c4 a2 bf a4 r2 r\breve r1 r8 a8 a bf c4 a bf8 a  g8 g fs!4 g2 fs!4 g2 \break
- \tripla a4 a c c2 bf4 bf4. bf8  g4 g g2 \time 2/2 g1 r4  a2 d4. c8 bf a bf2 \break
- bf2. c8 d a2 a r1 r2  g4  a bf a8  g f1 e2  a2. bf4 c bf8 a \break
-  g2 g  c4 d ef! d8 c bf2 a1.  g4 f g1  a\longa*1/4 \bar"||"
+ \clef "petrucci-g2" \key f \major \time 4/4  a'2 a4 bf4. bf8 a4  g2 g  bf2 bf4 bf4. bf8  g4  a2 a4 a 
+ d4 d4. d8 b!4 c2 a1 r2 r4  e2  a4 a4. a8  fs!4 g2 fs!4 g2 d2. e8 f 
+ g4  a bf2  g2 r4 g  c4. bf8 a4  f  bf4. a8  g2 r1 a1  a2 c1 bf a2 
+ g1 a4 a2  f8  c' a2  f4 g2 e8  a8  f4. e16 d g1. fs!2 a\breve r2 
+ r4 g4. f8 d e fs!1 g2  d'2. bf8 a bf4  g4  d'2 b! r4 bf2 a8  g 
+ f2 f1  bf4. c8 d c bf a  g4.  a8 bf2 a r2 r  g4.  a8 bf4 c b!2 
+ c2 r r4 a2 a8 a d2 a r r4  e2 e8 e  a2  e2 f4 f8 f  bf2 
+  f2 r1 r2  a4 bf c  f, bf1  a4  g4 a1  b!\longa*1/4 \bar "||"
+ 
 }

@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5v7sGf2Kt7xn-AsZFHNTBKcGH a rdf:Statement ;
+    dcterms:publisher adi:SyEcdpw8fUFq ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N1f49081ffe0d4a3c9a229fa65e69ef73" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5v7sGf2Kt7xn ;
+    schema:datePublished "1553" .
+
+adi:5v7sGf2Kt7xn-KZjyM93g4mWC a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:5v7sGf2Kt7xn .
+
+adi:5v7sGf2Kt7xn a rdfs:Resource ;
+    rdfs:label "Orlando furioso ornato di nuove figure & Allegorie in ciascun Canto" ;
+    <> adi:EBMKwsCza3hd,
+        adi:XU8S5WyvBShC,
+        "1553" ;
+    dc:subject adi:EQa8x6MU8Hoz ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002676> ;
+    dcterms:title "Orlando furioso ... Aggiuntoui nel fine l'espositione de' luoghi difficili" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

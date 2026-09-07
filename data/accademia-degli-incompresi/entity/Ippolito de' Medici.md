@@ -13,7 +13,7 @@ gender: "[[male]]"
 work_location:
   - value: "[[Roma]]"
 member_of:
-  - value: "[[Accademia delle Virtù]]"
+  - value: "[[Accademia delle Virtù di Roma]]"
     role: "[[patron of the arts]]"
     reference:
       - "[[(Corso 2017)]]"

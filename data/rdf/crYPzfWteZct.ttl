@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:crYPzfWteZct-APSsEkPM2kfG a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:crYPzfWteZct .
+
+adi:crYPzfWteZct-LXJKsQMvvbxn a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://books.google.td/books?id=eZTJg49TXPwC> ;
+    dcterms:publisher adi:eW2vqFAWDKzS ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Ne20ba7e4c9ff4c61984ff6faef2eee96" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:crYPzfWteZct ;
+    schema:datePublished "1568" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002761> .
+
+adi:crYPzfWteZct-RGvaNbtRBPFL a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:gNdzPXA2ZGEx ;
+    rdf:predicate <> ;
+    rdf:subject adi:crYPzfWteZct .
+
+adi:crYPzfWteZct-h2juNWqtpSTL a rdf:Statement ;
+    bf:Role adi:7pUzikYB2CFB ;
+    rdf:object adi:cbdksKHcMGHH ;
+    rdf:predicate <> ;
+    rdf:subject adi:crYPzfWteZct .
+
+adi:crYPzfWteZct a rdfs:Resource ;
+    rdfs:label "Orlando furioso di m. Lodovico Ariosto, corretto e dichiarato da m. Lodovico Dolce, con gli argomenti di Gio. Andrea dell'Anguillara" ;
+    <> adi:EBMKwsCza3hd,
+        adi:XU8S5WyvBShC,
+        adi:cbdksKHcMGHH,
+        adi:gNdzPXA2ZGEx,
+        "1568" ;
+    dc:subject adi:EQa8x6MU8Hoz ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002761> ;
+    dcterms:title "Orlando furioso di m. Lodouico Ariosto, corretto e dichiarato da m. Lodouico Dolce, con gli argomenti di Gio. Andrea dell'Anguillara" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

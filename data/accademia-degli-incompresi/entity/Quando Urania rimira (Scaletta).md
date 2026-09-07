@@ -9,7 +9,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
-  - "[[madrigal]]"
+  - "[[canzonetta]]"
 contributor:
   - role: "[[poet]]"
     value: "[[Angelo Grillo]]"
@@ -18,7 +18,7 @@ contributor:
 part_of:
   - value: "[[Effetti d'amore a quattro voci con una mascherata nel fine. Libro primo di Orazio Scaletta]]"
 instrumentation:
-local_asset_path:
+local_asset_path: ./assets/music_compositions/scaletta-quando_urania_rimira
 based_on:
   - value: "[[Porta nel viso Aprile]]"
     note: The musical setting presents only a fraction of the original text.

@@ -6,33 +6,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:YmA7pRGECn4y-6tdSbGTvNNqv a rdf:Statement ;
+adi:YmA7pRGECn4y-9xPqMhyP7Bmx a rdf:Statement ;
     dcterms:references adi:JjLg2AKb7hoK ;
     rdf:object "1576" ;
     rdf:predicate <> ;
     rdf:subject adi:YmA7pRGECn4y .
 
-adi:YmA7pRGECn4y-MPZ4j8vLgZH3 a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:6jc9ARyD7cMF ;
-    rdf:predicate <> ;
-    rdf:subject adi:YmA7pRGECn4y .
-
-adi:YmA7pRGECn4y-NC7GMsUFFHoZ a rdf:Statement ;
+adi:YmA7pRGECn4y-CF9LLtEWjzpL a rdf:Statement ;
     bf:Role adi:CBJEfZgNCiU3 ;
     rdf:object adi:HKoXAX3reA2Z ;
     rdf:predicate <> ;
     rdf:subject adi:YmA7pRGECn4y .
 
-adi:YmA7pRGECn4y-kiEsSuP39Rqb a rdf:Statement ;
+adi:YmA7pRGECn4y-H6vHDNQf7cjz a rdf:Statement ;
     bf:electronicLocator <https://books.google.it/books?id=MjuvBubyGBsC> ;
     dcterms:publisher adi:SpCo6UgRVUsK ;
     wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Nd82af0357fdd497f97ce9a3cebe1604c" ;
+    rdf:object "N7d38ac8e87714c14b69057bc5b5cd18d" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:YmA7pRGECn4y ;
     schema:datePublished "1595" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE023740> .
+
+adi:YmA7pRGECn4y-NH7MevwkYmNT a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:6jc9ARyD7cMF ;
+    rdf:predicate <> ;
+    rdf:subject adi:YmA7pRGECn4y .
 
 adi:YmA7pRGECn4y a rdfs:Resource ;
     rdfs:label "I morti vivi commedia del molto eccel. signor Sforza d'Oddi" ;
@@ -40,5 +40,6 @@ adi:YmA7pRGECn4y a rdfs:Resource ;
         adi:HKoXAX3reA2Z ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE023740> ;
     dcterms:title "I morti viui comedia del molto eccel. signor Sforza d'Oddi, nell'Academia de gli Insensati detto il Forsennato" ;
-    dcterms:type "Book" .
+    dcterms:type "Book" ;
+    wdt:P1343 adi:S2kSCsCknAf3 .
 

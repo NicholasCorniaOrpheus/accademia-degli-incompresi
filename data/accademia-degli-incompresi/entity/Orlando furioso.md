@@ -24,6 +24,7 @@ has_version:
       - "[[Ferrara]]"
     publication_date: 1516
 contributor:
+  - 
   - role: "[[author]]"
     value: "[[Ludovico Ariosto]]"
 subject:

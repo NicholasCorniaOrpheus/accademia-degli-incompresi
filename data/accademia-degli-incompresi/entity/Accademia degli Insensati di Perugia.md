@@ -4,6 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
+  - "[[(Sacchini 2020)]]"
 image:
 aliases:
 instance_of:

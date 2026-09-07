@@ -1,9 +1,24 @@
 \lyricmode { 
-Do -- po la piog -- \skip4\skip4\skip4\skip4\skip4\skip4 gia del mio pian -- t'a -- ma --
-\skip4 ro Co -- me so -- ven -- t'ei suo -- le ij \skip4\skip4\skip4\skip4\skip4\skip4
-M'ap -- par -- v'il mio bel So -- le Più de l'u -- sa -- to chia -- ro ij \skip4\skip4
-\skip4\skip4\skip4\skip4 Di più co -- lo -- ri mi si tin -- s'il vi -- \skip4\skip4 so
-Di più co -- lo -- ri mi si tin -- s'il vi -- so On -- d'I ri -- de no -- vel --
-l'io so -- n'in tan -- to  In vir -- tù del suo lu -- me In vir -- tù del suo 
-lu -- me In vir -- tù del suo lu -- m'e del mio pian -- to.
+Quel -- la boc -- ca di ro -- se 
+\override Lyrics.LyricText.font-shape = #'italic
+quel -- la boc -- ca di ro -- se
+\revert Lyrics.LyricText.font-shape
+La mia va -- ga Li -- co -- ri
+\override Lyrics.LyricText.font-shape = #'italic
+la mia va -- ga Li -- co -- \skip4 ri
+\revert Lyrics.LyricText.font-shape
+Tut -- ta ri -- den -- t'e bel -- la In pre -- mi'al fin In pre -- mi'al fin de miei gra -- 
+vi do -- lo -- ri Mi por -- ge lie -- ta 
+\override Lyrics.LyricText.font-shape = #'italic
+mi por -- ge lie -- \skip4 \skip4 \skip4 ta
+\revert Lyrics.LyricText.font-shape
+ahi scal -- tra pa -- sto --
+rel -- la 
+Ec -- c'io la ba -- ci'ed el -- la. Ch'in boc -- c'a -- scon -- de
+l'a -- mo -- ro -- \skip4 \skip4 \skip4 \skip4 se fa -- ci 
+l'a -- mo -- ro -- se fa -- ci
+M'in cen  -- de l'al -- ma
+M'in -- cen -- de l'al -- ma 
+M'in -- cen -- de l'al -- ma
+con suoi dol -- ci ba -- \skip4 \skip4 \skip4 ci.
 }

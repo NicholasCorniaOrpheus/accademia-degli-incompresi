@@ -6,24 +6,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:dNLP5km9mpwL-Pv7yXkpvR5hd a rdf:Statement ;
-    dcterms:references adi:J9rnQmjyXd4M ;
-    rdf:object adi:aTk9hoymKNbk ;
-    rdf:predicate <> ;
-    rdf:subject adi:dNLP5km9mpwL ;
-    schema:OrganizationRole adi:F4KLdoEW9rAv .
-
-adi:dNLP5km9mpwL-SP5QRPqWnbXh a rdf:Statement ;
+adi:dNLP5km9mpwL-5RbuFeUWcJDZ a rdf:Statement ;
     bf:heldBy adi:DoWoU567wmiV ;
     rdf:object "17990" ;
     rdf:predicate <> ;
     rdf:subject adi:dNLP5km9mpwL .
 
+adi:dNLP5km9mpwL-cD49Dp4kGooT a rdf:Statement ;
+    dcterms:references adi:J9rnQmjyXd4M ;
+    rdf:object adi:AaLj6CFL44sm ;
+    rdf:predicate <> ;
+    rdf:subject adi:dNLP5km9mpwL ;
+    schema:OrganizationRole adi:F4KLdoEW9rAv .
+
 adi:dNLP5km9mpwL a rdfs:Resource ;
     rdfs:label "Ippolito de' Medici" ;
-    <> adi:AwveTDUETzJD,
-        adi:P5ipTFsK5dJG,
-        adi:aTk9hoymKNbk ;
+    <> adi:AaLj6CFL44sm,
+        adi:AwveTDUETzJD,
+        adi:P5ipTFsK5dJG ;
     dcterms:identifier <http://www.wikidata.org/entity/Q378185> ;
     dcterms:type "Agent" ;
     wdt:P31 adi:GB3DPeNtxqwb ;

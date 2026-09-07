@@ -1,15 +1,42 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CbZs3TGRJnn2-34NXYVjifyuv a rdf:Statement ;
+    dcterms:references adi:8PbDdJzRgVyg ;
+    rdf:object adi:UzZNWJEs6Uvu ;
+    rdf:predicate <> ;
+    rdf:subject adi:CbZs3TGRJnn2 ;
+    schema:startDate "1514" .
+
+adi:CbZs3TGRJnn2-Lq4m7Q9PQZUp a rdf:Statement ;
+    dcterms:references adi:8PbDdJzRgVyg ;
+    rdf:object adi:kNR7wGs7pHDt ;
+    rdf:predicate <> ;
+    rdf:subject adi:CbZs3TGRJnn2 .
+
+adi:CbZs3TGRJnn2-UAYaKdG8nptT a rdf:Statement ;
+    dcterms:references adi:8PbDdJzRgVyg ;
+    rdf:object adi:Dkw9yTeHkpNT ;
+    rdf:predicate <> ;
+    rdf:subject adi:CbZs3TGRJnn2 .
 
 adi:CbZs3TGRJnn2 a rdfs:Resource ;
     rdfs:label "Angelo Bronzino" ;
-    <> adi:9EG2tE8aFH7w,
+    <> adi:4AB2zhiGQJga,
+        adi:9EG2tE8aFH7w,
+        adi:Dkw9yTeHkpNT,
+        adi:UzZNWJEs6Uvu,
+        adi:kNR7wGs7pHDt,
         "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hybEFcuqMtfz" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q7803> ;
     dcterms:type "Agent" ;
+    wdt:P1343 adi:8PbDdJzRgVyg ;
     wdt:P31 adi:GB3DPeNtxqwb ;
+    skos:altLabel "Agnolo di Cosimo" ;
     schema:gender adi:5bZY447EzsJq .
 

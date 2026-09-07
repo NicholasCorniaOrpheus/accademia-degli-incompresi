@@ -6,11 +6,12 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE054714
 described_by_source:
   - "[[(Lucioli 2024)]]"
+  - "[[(Bolzoni and Girotto 2013)]]"
 image:
 aliases:
 instance_of:
   - "[[poetry collection]]"
-title:
+title: Discorso sopra tutti li primi canti d'Orlando Furioso fatti [!] per la signora Laura Terracina
 inception:
 has_version:
   - IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest
@@ -25,7 +26,7 @@ has_version:
     place_of_publication:
       - "[[Venezia]]"
     publication_date: 1550
-    note: Reprint.
+    note: Reprint with original engravings.
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE027004
   - publisher: "[[Gabriele Giolito de' Ferrari]]"
     publication_date: 1549
@@ -33,8 +34,11 @@ has_version:
       - "[[Venezia]]"
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE054714
 contributor:
+  - role: "[[author]]"
+    value: "[[Laura Terracina]]"
 subject:
   - "[[commentary]]"
+  - "[[art print]]"
 has_part:
 based_on:
   - value: "[[Orlando furioso]]"

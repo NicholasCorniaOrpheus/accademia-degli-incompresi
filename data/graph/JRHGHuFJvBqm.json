@@ -13,12 +13,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aTk9hoymKNbk",
-      "label": "Accademia delle Virtù",
-      "class": "Organisation",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nBSHoo6k6yBs",
       "label": "Dialogo sopra la particolare dichiaratione del giuoco di Pitagora",
       "class": "Book",
@@ -35,6 +29,12 @@
       "label": "Francesco Barozzi",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AaLj6CFL44sm",
+      "label": "Accademia delle Virtù di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     }
   ],
   "links": [
@@ -49,17 +49,17 @@
       "property": "subject"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aTk9hoymKNbk",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JRHGHuFJvBqm",
-      "property": "interested_in"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nBSHoo6k6yBs",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JRHGHuFJvBqm",
       "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z9THwZjVZaBR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JRHGHuFJvBqm",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AaLj6CFL44sm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JRHGHuFJvBqm",
       "property": "interested_in"
     },

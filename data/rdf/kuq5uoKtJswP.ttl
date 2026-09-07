@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kuq5uoKtJswP-B3kSY46v9QAB a rdf:Statement ;
+    bf:Role adi:KbRyHy5gL3JT ;
+    rdf:object adi:mHrjzwpL9Tfa ;
+    rdf:predicate <> ;
+    rdf:subject adi:kuq5uoKtJswP .
+
+adi:kuq5uoKtJswP-Gv5yG6nEjZWQ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:EBMKwsCza3hd ;
+    rdf:predicate <> ;
+    rdf:subject adi:kuq5uoKtJswP .
+
+adi:kuq5uoKtJswP-arXXWmMZXjZq a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10165933> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:gEVtMk8GxHjh ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10165933/manifest> ;
+    rdf:object "N66df16faeee44027b41686da8d238cd5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kuq5uoKtJswP ;
+    schema:datePublished "1584" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002807> .
+
+adi:kuq5uoKtJswP a rdfs:Resource ;
+    rdfs:label "Orlando furioso di m. Lodouico Ariosto nuovamente adornato di figure di rame da Girolamo Porro" ;
+    <> adi:EBMKwsCza3hd,
+        adi:XU8S5WyvBShC,
+        adi:mHrjzwpL9Tfa,
+        "1584" ;
+    dc:subject adi:EQa8x6MU8Hoz ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002807> ;
+    dcterms:title "Orlando furioso di m. Lodouico Ariosto nuouamente adornato di figure di rame da Girolamo Porro padouano et di altre cose che saranno notate nella seguente facciata" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:97PuKNkGqtm2 ;
+    wdt:P31 adi:CrKoHGLhLE34 .
+

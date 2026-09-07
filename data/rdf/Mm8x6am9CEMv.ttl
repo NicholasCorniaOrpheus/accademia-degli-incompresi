@@ -5,8 +5,9 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Mm8x6am9CEMv-bcqoYj4PLFdP a rdf:Statement ;
-    dcterms:references adi:JjLg2AKb7hoK ;
+adi:Mm8x6am9CEMv-PqquB2kY8TMr a rdf:Statement ;
+    dcterms:references adi:JjLg2AKb7hoK,
+        adi:S2kSCsCknAf3 ;
     rdf:object adi:UJz77hnWWSNh ;
     rdf:predicate <> ;
     rdf:subject adi:Mm8x6am9CEMv .
@@ -18,6 +19,7 @@ adi:Mm8x6am9CEMv a rdfs:Resource ;
         adi:UJz77hnWWSNh ;
     dcterms:identifier <http://www.wikidata.org/entity/Q55226811> ;
     dcterms:type "Agent" ;
+    wdt:P1343 adi:S2kSCsCknAf3 ;
     wdt:P31 adi:GB3DPeNtxqwb ;
     schema:gender adi:5bZY447EzsJq .
 

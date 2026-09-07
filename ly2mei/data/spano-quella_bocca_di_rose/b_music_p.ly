@@ -1,8 +1,8 @@
 \relative c{
- \clef "petrucci-f4" \key f \major \time 2/2 r\breve r2  f2.  a8 bf c4. bf8 a g  f  g a2 g1 g1.  fs!2 \break
-  a2  e2 g1 c,2 r4  c'2  f,8 f f4.  c8  g'2 g r4 c2  f,8 f f4. c8 \break
- g'2 g1 r\longa r4  g2 g8 g g4  e  g2  c, r4 f2 f8 f f4 d f2 bf, \break
-  bf'4 g c8 bf a g  f2. f8 d  a'2 a r\breve r1 \tripla  d,4 d c f2 bf,4 ef!4. bf8 \break
- c4 c g'2 \time 2/2 c,2 c2. f4. e8 d c d4 g, r2 r1 r4  a'2 bf8 c g1 g \break
- d1.  e2 f1. e4 d c1. d1 c4 bf c\breve  f\longa*1/4 \bar"||"
+ \clef "petrucci-f4" \key f \major \time 4/4 r\breve r2  g'2 g4 ef!4. \ficta ef8  b!4 d2 d r1 r4 c4  f f4. f8  d4 
+  g2  c, r4 a d d4. d8 b!4 d2 g, r\breve r1 r2 r4 d'  g4. f8 ef!2 
+ r2  d2 d f1 ef! d2 c\breve f,1 r r2 r4 bf2 g8  g' ef!2 d1 f\breve 
+ r2 r4 ef!4.  d8 bf c d1 g,2 r\breve r2 r4  g'2  d8  ef!8  bf2 bf1 r\breve r1 r4  g'8 a 
+ bf a g f ef!4. f8 g2  c,2 r2 r1 d2. d8 d  g2 e r2 r4  a,2 a8 a 
+ d2 bf1 r2 d4 e f1.  bf,2 d\breve g,\longa*1/4 \bar "||"
 }

@@ -85,6 +85,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8RnVLviott3T",
+      "label": "Marco Antonio Ingegneri",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hMZuHnuTemgu",
       "label": "Di Stefano Lando il primo libro de madrigali a quattro voci",
       "class": "NotatedMusic",
@@ -603,6 +609,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ggJxfSD9NLZQ",
       "label": "In un boschetto adorno (Sabino)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iptoxe9bQjy9",
+      "label": "Chi mi sente a cantar per certo dice (Scaletta)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
@@ -1531,6 +1543,11 @@
       "property": "occupation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8RnVLviott3T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "occupation"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hMZuHnuTemgu",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
       "property": "contributor"
@@ -1957,6 +1974,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ggJxfSD9NLZQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iptoxe9bQjy9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
       "property": "contributor"
     },
@@ -3278,6 +3300,16 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ggJxfSD9NLZQ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XGkeBGmi2NSj",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iptoxe9bQjy9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AXYpZsPSgBjk",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iptoxe9bQjy9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RzrhZRFj6KG3",
       "property": "part_of"
     },
     {

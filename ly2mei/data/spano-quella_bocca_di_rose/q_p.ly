@@ -1,4 +1,4 @@
-% Basso Part
+% Quinto Part
 
 % portrait option
 #(set-default-paper-size "a4" 'portrait)

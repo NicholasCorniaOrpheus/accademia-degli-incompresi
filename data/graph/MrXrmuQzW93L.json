@@ -35,9 +35,20 @@
       "label": "Italian Academies Database",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hjsfvPKzE3R7",
+      "label": "(Bagni 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     }
   ],
   "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MrXrmuQzW93L",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hjsfvPKzE3R7",
+      "property": "described_by_source"
+    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MrXrmuQzW93L",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/faKgxGgth5dr",
@@ -72,6 +83,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6VHG9CGAhV2H",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MrXrmuQzW93L",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6VHG9CGAhV2H",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hjsfvPKzE3R7",
+      "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6VHG9CGAhV2H",

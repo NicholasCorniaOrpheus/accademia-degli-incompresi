@@ -19,6 +19,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2kSCsCknAf3",
+      "label": "(Sacchini 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UJz77hnWWSNh",
       "label": "Accademia degli Insensati di Perugia",
       "class": "Organisation",
@@ -46,6 +52,11 @@
   "links": [
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm8x6am9CEMv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2kSCsCknAf3",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm8x6am9CEMv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
       "property": "instance_of"
     },
@@ -71,8 +82,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm8x6am9CEMv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2kSCsCknAf3",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm8x6am9CEMv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4GV6wBhpBTG5",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UJz77hnWWSNh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2kSCsCknAf3",
+      "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UJz77hnWWSNh",

@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iptoxe9bQjy9-BmPkUtca3hYh a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:AXYpZsPSgBjk ;
+    rdf:predicate <> ;
+    rdf:subject adi:iptoxe9bQjy9 .
+
+adi:iptoxe9bQjy9-YsYyJoVw53qL a rdf:Statement ;
+    bf:Role adi:4AB2zhiGQJga ;
+    rdf:object adi:i9LehTD6b73x ;
+    rdf:predicate <> ;
+    rdf:subject adi:iptoxe9bQjy9 .
+
+adi:iptoxe9bQjy9 a rdfs:Resource ;
+    rdfs:label "Chi mi sente a cantar per certo dice (Scaletta)" ;
+    <> adi:AXYpZsPSgBjk,
+        adi:RzrhZRFj6KG3,
+        adi:i9LehTD6b73x ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """Chi mi sente a cantar per certo dice
+Non è di quest'amant'il più felice
+Ma lo sa questo core
+S'io canto per piacer o per dolore.
+
+E se rider ancor alcun mi vede
+Ch'io viva contentissimo si crede
+Ma lo sa questo petto
+S'io rido per piacer o per diletto.
+
+Chi mi vede gioir in ogni loco
+Crede ch'in me non sia fiamma né foco
+Ma lo sa l'alma mia
+Se questo è per piacer o gelosia.
+
+E però se tal'hor io rido e canto
+Faccio per isfogar l'acervo pianto
+E per celar l'ardore
+Talhora canto che mi piange il core.""" ;
+    dc:subject adi:gcrqwjgvBQyM ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F046950000010203_000000221100C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Amk76nLGSdfy ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ACTN7uuqiNiD,
+        adi:Dw8U7c9dKgjv,
+        adi:SjAbGui7MhdK,
+        adi:Suq86ApyHSzQ ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+
