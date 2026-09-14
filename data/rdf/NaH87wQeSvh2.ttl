@@ -9,38 +9,38 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:NaH87wQeSvh2-KeaDCyzALA7e a rdf:Statement ;
+adi:NaH87wQeSvh2-EAVWms2RCsVZ a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
+    rdf:object "N62beaed3ac434d16a430be41876c68a3" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NaH87wQeSvh2 ;
+    schema:datePublished "1585" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
+
+adi:NaH87wQeSvh2-KzYdpuwoAUVM a rdf:Statement ;
+    dcterms:publisher adi:n2tqChZSQcZQ ;
+    wdt:P291 adi:cbfXQVLz7Pey,
+        adi:dhbQrFWynqRh ;
+    rdf:object "Na334d735c0d64459a13047ecedbfd1f2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NaH87wQeSvh2 ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
+
+adi:NaH87wQeSvh2-NN263g3gkQUb a rdf:Statement ;
     dcterms:references adi:V863VaniCEeW,
         adi:gPbPASvGPG6h ;
     rdf:object "1583" ;
     rdf:predicate <> ;
     rdf:subject adi:NaH87wQeSvh2 .
 
-adi:NaH87wQeSvh2-NYpzM6SwiR9a a rdf:Statement ;
+adi:NaH87wQeSvh2-bTkTxRfpVRHb a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:2brEqdcLsYfo ;
     rdf:predicate <> ;
     rdf:subject adi:NaH87wQeSvh2 .
-
-adi:NaH87wQeSvh2-NpZYELQmCaVP a rdf:Statement ;
-    dcterms:publisher adi:n2tqChZSQcZQ ;
-    wdt:P291 adi:cbfXQVLz7Pey,
-        adi:dhbQrFWynqRh ;
-    rdf:object "Ned54e5b943a944d4a75a04bb293c8a6f" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:NaH87wQeSvh2 ;
-    schema:datePublished "1585" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
-
-adi:NaH87wQeSvh2-n2AHfaBgm98g a rdf:Statement ;
-    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
-    wdt:P291 adi:dhbQrFWynqRh ;
-    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
-    rdf:object "Naca345fecccf4524bdc90cb2c3855ed7" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:NaH87wQeSvh2 ;
-    schema:datePublished "1585" ;
-    schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
 
 adi:NaH87wQeSvh2 a rdfs:Resource ;
     rdfs:label "De gli eroici furori" ;

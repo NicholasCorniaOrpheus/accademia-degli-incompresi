@@ -7,33 +7,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3qVLehb99pkQ-GRuLwaXPeVNy a rdf:Statement ;
+adi:3qVLehb99pkQ-JNmmMWq2nHea a rdf:Statement ;
+    bf:heldBy adi:o7JHUS8r7imh ;
+    rdf:object "MS LC.2.113" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3qVLehb99pkQ .
+
+adi:3qVLehb99pkQ-XEuFWfk7X3Ec a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:P8ZrGgLYzuwX ;
     rdf:predicate <> ;
     rdf:subject adi:3qVLehb99pkQ .
 
-adi:3qVLehb99pkQ-J4WKsiuFo6hw a rdf:Statement ;
+adi:3qVLehb99pkQ-dgSrqzFtVYda a rdf:Statement ;
     dcterms:references adi:42Sx4NtoqEJx ;
     rdf:object "1573" ;
     rdf:predicate <> ;
     rdf:subject adi:3qVLehb99pkQ .
 
-adi:3qVLehb99pkQ-gvWBCmwnRVBG a rdf:Statement ;
+adi:3qVLehb99pkQ-jEux8LPoGN37 a rdf:Statement ;
     bf:electronicLocator <https://cudl.lib.cam.ac.uk/mirador/MS-LC-00002-00113/0> ;
     bf:heldBy adi:o7JHUS8r7imh ;
     wdt:P6108 <https://cudl.lib.cam.ac.uk//iiif/MS-LC-00002-00113> ;
-    rdf:object "N1709d73336f7438c9286560be57bae17" ;
+    rdf:object "Nf8896f4fbeca4a9eafe91ce3b7fc6e33" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:3qVLehb99pkQ ;
     schema:datePublished "1573" ;
     schema:url <https://cudl.lib.cam.ac.uk/view/MS-LC-00002-00113> .
-
-adi:3qVLehb99pkQ-j8pP3Nj7aVxL a rdf:Statement ;
-    bf:heldBy adi:o7JHUS8r7imh ;
-    rdf:object "MS LC.2.113" ;
-    rdf:predicate <> ;
-    rdf:subject adi:3qVLehb99pkQ .
 
 adi:3qVLehb99pkQ a rdfs:Resource ;
     rdfs:label "Album Amicorum of Abraham Ortelius" ;

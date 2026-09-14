@@ -9,18 +9,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:oPurYErB6AHU-6T4jDnytnmNb a rdf:Statement ;
+adi:oPurYErB6AHU-5EofUyrJitGo a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:4yirr4fPGSu5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:oPurYErB6AHU .
+
+adi:oPurYErB6AHU-BjTgDctYybXg a rdf:Statement ;
     rdf:object adi:7NoiV6BUEEEb ;
     rdf:predicate <> ;
     rdf:subject adi:oPurYErB6AHU ;
     ns1:P304 "36" ;
     schema:volumeNumber "R. Il Signor Orsino." .
-
-adi:oPurYErB6AHU-dzwDv6YbvH4P a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:4yirr4fPGSu5 ;
-    rdf:predicate <> ;
-    rdf:subject adi:oPurYErB6AHU .
 
 adi:oPurYErB6AHU a rdfs:Resource ;
     rdfs:label "Se Morte è fin d'ogni tormento mio" ;
