@@ -35,4 +35,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

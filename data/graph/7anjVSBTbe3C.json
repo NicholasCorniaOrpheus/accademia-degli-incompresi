@@ -25,6 +25,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXB4Hhoxitii",
+      "label": "Il Fidamante. Poema eroico dell'illustriss.mo sign. Curtio Gonzaga",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRnv8MiTxCW9",
+      "label": "Poggia, oh mia Flori al volo dietro, ardita",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SqGAEzjPvbze",
       "label": "visitor",
       "class": "Concept",
@@ -41,6 +53,12 @@
       "label": "poet",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AcZTTxreq22N",
+      "label": "Flori favola boscareccia di Maddalena Campiglia",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -78,6 +96,26 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7anjVSBTbe3C",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
       "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXB4Hhoxitii",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7anjVSBTbe3C",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRnv8MiTxCW9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7anjVSBTbe3C",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AcZTTxreq22N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7anjVSBTbe3C",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRnv8MiTxCW9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AcZTTxreq22N",
+      "property": "part_of"
     }
   ]
 }

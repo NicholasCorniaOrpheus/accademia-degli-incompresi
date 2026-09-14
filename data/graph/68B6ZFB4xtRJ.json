@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "label": "Di Luca Marenzio il nono libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UE5wVYcJfR6n",
+      "label": "Luca Marenzio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "label": "Repertorio della Poesia Italiana in Musica, 1500-1700",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N6jMCTymbADK",
+      "label": "partbook",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ah3xiLm7tVeM",
+      "label": "Angelo Gardano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "label": "Così nel mio parlar voglio esser aspro (Marenzio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "label": "Venezia",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "label": "(Refini 2025)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "label": "author",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dM6ceQfzK2pQ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N6jMCTymbADK",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ah3xiLm7tVeM",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UE5wVYcJfR6n",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UHzA5avQDdMJ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ah3xiLm7tVeM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f43HawKudsFv",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UE5wVYcJfR6n",
+      "property": "contributor"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ identifier:
   - http://id.sbn.it/bid/UBOE035209
   - http://www.bibliotecaitaliana.it/testo/bibit000657
 described_by_source:
+  - "[[(Ferrone 2011)]]"
 image:
 aliases:
 instance_of:
@@ -31,4 +32,9 @@ subject:
   - "[[visual arts]]"
 has_part:
 based_on:
+catalog_identifier:
+depicts:
+  - "[[Virginia Ramponi-Andreini]]"
+language:
 ---
+According to [[(Ferrone 2011)]], Marino describes _Florinda_, alias [[Virginia Ramponi-Andreini]], in the act of posing for a portrait now lost.

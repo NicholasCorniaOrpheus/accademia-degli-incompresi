@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "label": "(Refini 2025)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "label": "Così nel mio parlar voglio esser aspro (Marenzio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "label": "Quivi sospiri pianti ed alti guai (Renaldi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "label": "Di Luca Marenzio il nono libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AvqrDxK5gCzS",
+      "label": "Dante Alighieri",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AvqrDxK5gCzS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NoVukKRyZHC2",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AvqrDxK5gCzS",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7c3WtjuqNwJN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/68B6ZFB4xtRJ",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AvqrDxK5gCzS",
+      "property": "contributor"
+    }
+  ]
+}

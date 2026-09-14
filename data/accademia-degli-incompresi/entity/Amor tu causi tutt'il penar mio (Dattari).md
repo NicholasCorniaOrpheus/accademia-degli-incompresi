@@ -16,7 +16,7 @@ contributor:
   - role: "[[composer]]"
     value: "[[Ghindolfo Dattari]]"
 part_of:
-  - value: "[[Amor tu causi tutt'il penar mio (Dattari)]]"
+  - value: "[[Di Ghinolfo Dattari bolognese le Villanelle, a tre, a quattro & a cinque voci]]"
 instrumentation:
 local_asset_path: ./assets/music_compositions/dattari-amor_tu_causi_tutto_il_penar_mio
 based_on:

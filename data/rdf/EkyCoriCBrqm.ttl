@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EkyCoriCBrqm-GZj9FHQBPYcX a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10686422> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:kGHvG3x3xJSm ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10686422/manifest> ;
+    rdf:object "N7b195c9ca2634dd5bc7cfb33cadc4ace" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:EkyCoriCBrqm ;
+    schema:datePublished "1607" ;
+    schema:url <http://id.sbn.it/bid/RMLE031635> .
+
+adi:EkyCoriCBrqm-SDhBxLRrSrT5 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:5tyj9gRyxuZn ;
+    rdf:predicate <> ;
+    rdf:subject adi:EkyCoriCBrqm .
+
+adi:EkyCoriCBrqm a rdfs:Resource ;
+    rdfs:label "Le bravure del capitano Spavento" ;
+    <> adi:5tyj9gRyxuZn,
+        "1607" ;
+    dc:subject adi:fAjWJgtLnHhs ;
+    dcterms:identifier <http://id.sbn.it/bid/RMLE031635> ;
+    dcterms:title "Le brauure del capitano Spauento; diuise in molti ragionamenti in forma di dialogo, di Francesco Andreini da Pistoia Comico Geloso" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:BgmxnNpBupRa ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

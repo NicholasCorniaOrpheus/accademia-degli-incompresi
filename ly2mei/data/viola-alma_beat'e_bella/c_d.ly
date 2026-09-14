@@ -1,9 +1,9 @@
 % Canto Part
 
 % portrait option
-#(set-default-paper-size "a4" 'portrait)
+%#(set-default-paper-size "a4" 'portrait)
 % landscape option
-%#(set-default-paper-size "a4" 'landscape)
+#(set-default-paper-size "a4" 'landscape)
 
 
 
@@ -15,7 +15,7 @@
 \include "./metadata.ly"
 
 partname = \markup{\fontsize #2 \bold "CANTO"}
-voiceName = \markup{\fontsize #10 \bold "D"}
+voiceName = \markup{\fontsize #10 \bold "A"}
 voiceMusic = \include "./c_music_d.ly"
 voiceLyrics = \include "./c_lyrics_d.ly"
   

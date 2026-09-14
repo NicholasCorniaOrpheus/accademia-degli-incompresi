@@ -32,4 +32,5 @@ instrumentation:
     value: "[[tenor]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

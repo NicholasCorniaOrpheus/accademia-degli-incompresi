@@ -67,6 +67,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5moYc4WLTYdA",
+      "label": "Della fabrica del mondo di m. Francesco Alunno",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KugcvVLtTHNa",
       "label": "Bellezze del Furioso di M. Lodovico Ariosto scelte da Orazio Toscanella",
       "class": "Book",
@@ -81,6 +87,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gGnmBbze2MnW",
       "label": "Athanasius Kircher",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PuUHPWqDuuV8",
+      "label": "Francesco Alunno",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
@@ -155,6 +167,11 @@
       "property": "subject"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5moYc4WLTYdA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KugcvVLtTHNa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
       "property": "subject"
@@ -166,6 +183,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gGnmBbze2MnW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PuUHPWqDuuV8",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RmaA75A9H4A7",
       "property": "interested_in"
     },
@@ -208,6 +230,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P9biesbWMZx6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XWHYnvEkWZX6",
       "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5moYc4WLTYdA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PuUHPWqDuuV8",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KugcvVLtTHNa",

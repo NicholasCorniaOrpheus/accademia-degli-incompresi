@@ -14,12 +14,17 @@ gender: "[[male]]"
 work_location:
 member_of:
 occupation:
+  - value: "[[playwright]]"
+  - value: "[[forger]]"
+    reference:
+      - "[[(Ferrone 2011)]]"
   - value: "[[actor]]"
     reference:
       - "[[(Ferrone 2011)]]"
   - value: "[[poet]]"
 related_to:
 notable_work:
+  - "[[L'alchimista comedia di m. Bernardino Lombardi]]"
 interested_in:
   - value: "[[forgery]]"
     reference:

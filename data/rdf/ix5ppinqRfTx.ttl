@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ix5ppinqRfTx-R7RCsVZZuuuk a rdf:Statement ;
+    wdt:P291 adi:Bj2JQvStXBT3 ;
+    rdf:object "Ncee87f19ef1a4f64816cb5354a80d989" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ix5ppinqRfTx ;
+    schema:datePublished "1608" ;
+    schema:url <http://id.sbn.it/bid/LO1E000434> .
+
+adi:ix5ppinqRfTx-fJH8UBHvtkQt a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:YvLbpbXURbTT ;
+    rdf:predicate <> ;
+    rdf:subject adi:ix5ppinqRfTx .
+
+adi:ix5ppinqRfTx-fnxW8MXARhgY a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758223> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    wdt:P291 adi:o5mMq5iaHfFT ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758223/manifest> ;
+    rdf:object "Nf7512ff1175a438cadb55d748d8da197" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ix5ppinqRfTx ;
+    schema:datePublished "1607" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10758223> .
+
+adi:ix5ppinqRfTx a rdfs:Resource ;
+    rdfs:label "Le sette giornate del mondo creato del s. Torquato Tasso" ;
+    <> adi:YvLbpbXURbTT,
+        "1607" ;
+    dc:subject adi:CrKoHGLhLE34 ;
+    dcterms:identifier <http://id.sbn.it/bid/LO1E000434> ;
+    dcterms:title "Le sette giornate del mondo creato del s. Torquato Tasso" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:SU3pQXxUvDMC ;
+    wdt:P31 adi:XMoQEYPeMePf ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

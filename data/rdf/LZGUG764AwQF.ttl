@@ -7,31 +7,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LZGUG764AwQF-JcuXCwfydvcJ a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:CxoeEPW2RCZ6 ;
+adi:LZGUG764AwQF-BehaXFcRft4D a rdf:Statement ;
+    bf:heldBy adi:iQ4o46B3wUmP ;
+    rdf:object "E40453-01" ;
     rdf:predicate <> ;
     rdf:subject adi:LZGUG764AwQF .
 
-adi:LZGUG764AwQF-c6p9z5YnS6jJ a rdf:Statement ;
+adi:LZGUG764AwQF-VqyjmZL3yxEv a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=F-viq7OXyNoC> ;
     dcterms:publisher adi:gTea6aAVr5nE ;
     wdt:P291 adi:P5ipTFsK5dJG ;
-    rdf:object "N8f90bce7452a4745ad47cea591d037b6" ;
+    rdf:object "N8bb60280f6bf4a948770671cdabeb28b" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:LZGUG764AwQF ;
     schema:datePublished "1606" ;
     schema:url <http://id.sbn.it/bid/VEAE005594> .
 
-adi:LZGUG764AwQF-gNUshabkF3V2 a rdf:Statement ;
+adi:LZGUG764AwQF-bdFaomZcEfj2 a rdf:Statement ;
     bf:Role adi:CBJEfZgNCiU3 ;
     rdf:object adi:Ydztdw6QnLAs ;
     rdf:predicate <> ;
     rdf:subject adi:LZGUG764AwQF .
 
-adi:LZGUG764AwQF-h9KDAqSnBkbz a rdf:Statement ;
-    bf:heldBy adi:iQ4o46B3wUmP ;
-    rdf:object "E40453-01" ;
+adi:LZGUG764AwQF-g8Y3PoQYhiro a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:CxoeEPW2RCZ6 ;
     rdf:predicate <> ;
     rdf:subject adi:LZGUG764AwQF .
 
@@ -47,6 +47,7 @@ adi:LZGUG764AwQF a rdfs:Resource ;
     dcterms:title "La Scanderbeide poema heroico della signora Margherita Sarrocchi. Dedicato all'ill.ma & ecc.ma sig.ra D. Costanza Colonna Sforza marchesa di Carauaggio" ;
     dcterms:type "Book" ;
     wdt:P1343 adi:PdqQDrJWGC9w,
+        adi:SU3pQXxUvDMC,
         adi:cibGpsivH4gP ;
     wdt:P31 adi:CrKoHGLhLE34 .
 

@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q3766123
 described_by_source:
+  - "[[(Nocerino 2014)]]"
 image:
 aliases:
   - Gianfrancesco Maia Materdona

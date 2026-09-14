@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ep87S24LfQPo-XftSYejFnh3x a rdf:Statement ;
+    dcterms:publisher adi:UWRwVeh9kWAP ;
+    wdt:P291 adi:4rNwxjw3kNQo ;
+    rdf:object "N0648aa80dbf049c8868c8fe3365d16d8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ep87S24LfQPo ;
+    schema:datePublished "1584" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE016589> .
+
+adi:ep87S24LfQPo-jGSMZSr8w3q5 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:45CaEEfabDR5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ep87S24LfQPo .
+
+adi:ep87S24LfQPo a rdfs:Resource ;
+    rdfs:label "Fillide. Egloga pastorale. Di Camillo Della Valle" ;
+    <> adi:45CaEEfabDR5,
+        "1584" ;
+    dcterms:title "Fillide. Egloga pastorale. Di Camillo Della Valle .." ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:AYqoxRbyDh4i ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:ndCJMutbF4oJ .
+

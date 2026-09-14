@@ -94,4 +94,4 @@ ficta = { \once \set suggestAccidentals = ##t }
 
 }
 
-\include "./stanzas.ly"
+%\include "./stanzas.ly"

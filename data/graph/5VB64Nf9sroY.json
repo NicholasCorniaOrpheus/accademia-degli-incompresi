@@ -53,6 +53,12 @@
       "label": "Roma",
       "class": "Place",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BSeohJFTgcue",
+      "label": "Curzio Gonzaga",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -127,6 +133,11 @@
       "property": "member_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BSeohJFTgcue",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5VB64Nf9sroY",
+      "property": "member_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eD2HQtUhZbtT",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P5ipTFsK5dJG",
       "property": "work_location"
@@ -178,6 +189,16 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M3LQemJfY4di",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DoWoU567wmiV",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BSeohJFTgcue",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DoWoU567wmiV",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BSeohJFTgcue",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DoWoU567wmiV",
       "property": "catalog_identifier"
     }

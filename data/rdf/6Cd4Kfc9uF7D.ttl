@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6Cd4Kfc9uF7D-5UkMxscCzijQ a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:GfNhWec4EkAr ;
+    rdf:predicate <> ;
+    rdf:subject adi:6Cd4Kfc9uF7D .
+
+adi:6Cd4Kfc9uF7D-dyj2XeCfWLH2 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=SHHnHUCVoTwC> ;
+    dcterms:publisher adi:iYTS9qGmP3jb ;
+    wdt:P291 adi:GvYVBMCkzMzW ;
+    rdf:object "Nc7582839b00b4131b7794b7a40f67bf5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6Cd4Kfc9uF7D ;
+    schema:datePublished "1532" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000596> .
+
+adi:6Cd4Kfc9uF7D a rdfs:Resource ;
+    rdfs:label "Opere toscane di Luigi Alamanni" ;
+    <> adi:GfNhWec4EkAr,
+        "1532" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE000596>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/LIBX00005982> ;
+    dcterms:title "Opere toscane di Luigi Alamanni al christianissimo rè Francesco primo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

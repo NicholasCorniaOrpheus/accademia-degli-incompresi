@@ -6,13 +6,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:cbdksKHcMGHH-6TdVUDTmRGHL a rdf:Statement ;
+adi:cbdksKHcMGHH-3XZrw2Jv42Pi a rdf:Statement ;
+    dcterms:references adi:HQ5MLFdsoJ6d ;
+    rdf:object adi:CrKoHGLhLE34 ;
+    rdf:predicate <> ;
+    rdf:subject adi:cbdksKHcMGHH .
+
+adi:cbdksKHcMGHH-CEXreNeGq97v a rdf:Statement ;
     bf:heldBy adi:DoWoU567wmiV ;
     rdf:object "15713" ;
     rdf:predicate <> ;
     rdf:subject adi:cbdksKHcMGHH .
 
-adi:cbdksKHcMGHH-VQ6UyLDYin6B a rdf:Statement ;
+adi:cbdksKHcMGHH-SVtc85ANcdbK a rdf:Statement ;
+    dcterms:references adi:HQ5MLFdsoJ6d ;
+    rdf:object adi:7pUzikYB2CFB ;
+    rdf:predicate <> ;
+    rdf:subject adi:cbdksKHcMGHH .
+
+adi:cbdksKHcMGHH-VgmD8BxoyN8D a rdf:Statement ;
     dcterms:references adi:DoWoU567wmiV ;
     rdf:object adi:ZeHYJAGwEQHj ;
     rdf:predicate <> ;
@@ -21,8 +33,12 @@ adi:cbdksKHcMGHH-VQ6UyLDYin6B a rdf:Statement ;
 adi:cbdksKHcMGHH a rdfs:Resource ;
     rdfs:label "Giovanni Andrea dell'Anguillara" ;
     <> adi:4AB2zhiGQJga,
+        adi:7pUzikYB2CFB,
+        adi:CrKoHGLhLE34,
         adi:ZeHYJAGwEQHj ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3107000> ;
     dcterms:type "Agent" ;
+    wdt:P1343 adi:HQ5MLFdsoJ6d ;
     wdt:P31 adi:GB3DPeNtxqwb ;
     schema:gender adi:5bZY447EzsJq .
 

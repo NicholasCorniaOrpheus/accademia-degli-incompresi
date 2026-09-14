@@ -43,8 +43,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "label": "Quivi sospiri pianti ed alti guai (Renaldi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nKCWTNSaUJQU",
       "label": "Italian",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMgmQoUY6Nmt",
+      "label": "Neapolitan",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
@@ -87,7 +99,17 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jh8gsPV8qSg8",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nKCWTNSaUJQU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jh8gsPV8qSg8",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oMgmQoUY6Nmt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jh8gsPV8qSg8",
       "property": "instance_of"
     },
@@ -95,6 +117,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5TbsBoiCPSeZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jh8gsPV8qSg8",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mK3Bkaz9hodK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nKCWTNSaUJQU",
+      "property": "language"
     }
   ]
 }

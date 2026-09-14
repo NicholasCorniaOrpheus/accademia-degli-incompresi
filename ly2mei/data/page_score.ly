@@ -7,6 +7,8 @@
   top-system-spacing.basic-distance = #10
   system-system-spacing.basic-distance = #15
   last-bottom-spacing.basic-distance = #10
+  keep-inside-line = ##t
+  page-breaking = #ly:page-turn-breaking
   %horizontal-shift = #7
   top-margin = 1.5 \cm
   bottom-margin = 1 \cm

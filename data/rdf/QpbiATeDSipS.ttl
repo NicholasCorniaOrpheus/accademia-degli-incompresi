@@ -6,27 +6,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:QpbiATeDSipS-A4PHpgixjntE a rdf:Statement ;
-    bf:electronicLocator <https://arbor.medialibrary.it/item/8f7d76c6-7005-4f66-a940-d2a3dee05079> ;
-    wdt:P291 adi:GvYVBMCkzMzW ;
-    wdt:P6108 <https://archiginnasio.jarvis.memooria.org/meta/iiif/8f7d76c6-7005-4f66-a940-d2a3dee05079/manifest> ;
-    rdf:object "N59105dfcd07e444dba2cf2e0b8ccc059" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:QpbiATeDSipS ;
-    schema:datePublished "1625" ;
-    schema:url <http://id.sbn.it/bid/BVEE023175> .
+adi:QpbiATeDSipS-aAjECcZ73szz a rdf:Statement ;
+    dcterms:references adi:7vxisZ6ZVsMK ;
+    rdf:object "1623" ;
+    rdf:predicate <> ;
+    rdf:subject adi:QpbiATeDSipS .
 
-adi:QpbiATeDSipS-CoWVhWhovfXg a rdf:Statement ;
+adi:QpbiATeDSipS-iEpeLgSiuwvp a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:fDvB94aRWTb5 ;
     rdf:predicate <> ;
     rdf:subject adi:QpbiATeDSipS .
 
-adi:QpbiATeDSipS-hmGS4JVqEjb2 a rdf:Statement ;
-    dcterms:references adi:7vxisZ6ZVsMK ;
-    rdf:object "1623" ;
-    rdf:predicate <> ;
-    rdf:subject adi:QpbiATeDSipS .
+adi:QpbiATeDSipS-jRscbVFfXpsG a rdf:Statement ;
+    bf:electronicLocator <https://arbor.medialibrary.it/item/8f7d76c6-7005-4f66-a940-d2a3dee05079> ;
+    wdt:P291 adi:GvYVBMCkzMzW ;
+    wdt:P6108 <https://archiginnasio.jarvis.memooria.org/meta/iiif/8f7d76c6-7005-4f66-a940-d2a3dee05079/manifest> ;
+    rdf:object "Nbcdfdd0f28e5444a807f0c7dd48753a5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:QpbiATeDSipS ;
+    schema:datePublished "1625" ;
+    schema:url <http://id.sbn.it/bid/BVEE023175> .
 
 adi:QpbiATeDSipS a rdfs:Resource ;
     rdfs:label "La finta mora" ;
@@ -37,6 +37,6 @@ adi:QpbiATeDSipS a rdfs:Resource ;
     dcterms:type "Book" ;
     wdt:P1343 adi:7vxisZ6ZVsMK,
         adi:SCcjxHTsbE6i ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[comedy]]>,
+    wdt:P31 adi:T4QqNLwvD5Lj,
         <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[libretto]]> .
 

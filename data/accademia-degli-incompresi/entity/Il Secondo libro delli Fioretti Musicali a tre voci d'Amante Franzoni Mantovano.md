@@ -15,7 +15,15 @@ instance_of:
 title: Il Secondo libro delli Fioretti Musicali a tre voci d'Amante Franzoni Mantouano. Co 'l Basso continuo per il Clauecimbalo, Chitarrone, et stromenti simili. Raccolto dal R. Don Francesco Dognazzi, Seruitore dell'Altezza Serenissima di Mantoa
 inception:
 has_version:
+  - publisher: "[[Ricciardo Amadino]]"
+    external_source: http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z159/
+    place_of_publication:
+      - "[[Venezia]]"
+    publication_date: 1607
+    permalink: http://id.sbn.it/bid/MUS0063665
 contributor:
+  - role: "[[composer]]"
+    value: "[[Amante Franzoni]]"
 subject:
 has_part:
 instrumentation:

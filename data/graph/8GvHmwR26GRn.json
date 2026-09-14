@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WzC4uAhzQRBw",
+      "label": "Girone il cortese di Luigi Alamanni",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SbKYkp8QBv5M",
       "label": "Che non è lieve trionfar de l'alme",
       "class": "PoeticWork",
@@ -31,8 +37,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXB4Hhoxitii",
+      "label": "Il Fidamante. Poema eroico dell'illustriss.mo sign. Curtio Gonzaga",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3KeUeBxqsGEy",
       "label": "Voi che a gl'aringhi miei dolci contese",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KFBcTPzv2qZo",
+      "label": "Io che giovin cantai d'ardenti amori",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -53,6 +71,12 @@
       "label": "Gionto in Alfea con temerario orgoglio",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2FS7sVvFihi",
+      "label": "Le donne i cavallier l'arme gli amori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -60,6 +84,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TYSwPAjmpAM9",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WzC4uAhzQRBw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SbKYkp8QBv5M",
@@ -77,7 +106,17 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cXB4Hhoxitii",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3KeUeBxqsGEy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KFBcTPzv2qZo",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
       "property": "subject"
     },
@@ -95,6 +134,26 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7CDzm55xbzRw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2FS7sVvFihi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8GvHmwR26GRn",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KFBcTPzv2qZo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WzC4uAhzQRBw",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KFBcTPzv2qZo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2FS7sVvFihi",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2FS7sVvFihi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EBMKwsCza3hd",
+      "property": "contributor"
     }
   ]
 }

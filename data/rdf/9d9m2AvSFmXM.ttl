@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9d9m2AvSFmXM-GTCxHchoAuV2 a rdf:Statement ;
+    rdf:object adi:6Cd4Kfc9uF7D ;
+    rdf:predicate <> ;
+    rdf:subject adi:9d9m2AvSFmXM ;
+    ns1:P304 "209" .
+
+adi:9d9m2AvSFmXM-g6BEMA4priFV a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:GfNhWec4EkAr ;
+    rdf:predicate <> ;
+    rdf:subject adi:9d9m2AvSFmXM .
+
+adi:9d9m2AvSFmXM a rdfs:Resource ;
+    rdfs:label "Ohimè la bella fera" ;
+    <> adi:6Cd4Kfc9uF7D,
+        adi:GfNhWec4EkAr ;
+    pdc:poeticType adi:BbJB7Gc6gwek ;
+    pdc:text """Ohimè la bella fera 
+Ch'io cacciai tanto invano;
+Tolta al mio desiar d'altrui fu preda,
+L'antica primavera 
+Lasciando me lontano 
+Conviene hormai ch'al pigro verno ceda, 
+Amante più non creda
+A' liete frondi & fiori
+Che frutto poi non nasce, 
+Et mentre indarno pasce 
+Folle speranza de lor falsi honori;
+Siam poi carchi alla fine 
+Di secchi rami, & di pungenti spine.""" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:JUdJWGgBjkYx,
+        adi:Y8F34DC8njH5 ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

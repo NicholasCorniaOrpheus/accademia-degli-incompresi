@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/CFIE004827
 described_by_source:
-  - "[[OPAC SBN]]"
+  - "[[(Driscoll 2022)]]"
 image:
 aliases:
 instance_of: "[[chivalric poem]]"

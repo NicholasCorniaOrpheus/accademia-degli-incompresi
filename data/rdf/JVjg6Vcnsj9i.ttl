@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JVjg6Vcnsj9i-cYXguMunTYzV a rdf:Statement ;
+    bf:electronicLocator <http://www.urfm.braidense.it/rd/04359_2.pdf> ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    rdf:object "N8d696cb29ce74900aaa6557f3b13b0b2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JVjg6Vcnsj9i ;
+    schema:datePublished "1622" ;
+    schema:url <http://id.sbn.it/bid/MILE044470> .
+
+adi:JVjg6Vcnsj9i-jJZM7FndSGJc a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cS2ZRx7FP2Cu ;
+    rdf:predicate <> ;
+    rdf:subject adi:JVjg6Vcnsj9i .
+
+adi:JVjg6Vcnsj9i-k3vmAyKqYupR a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bd6t57527070> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bd6t57527070/manifest.json> ;
+    rdf:object "N13d962b4c12a4f389f354d1daf4b1b57" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JVjg6Vcnsj9i ;
+    schema:datePublished "1622" ;
+    schema:url <https://catalogue.bnf.fr/ark:/12148/cb300197658> .
+
+adi:JVjg6Vcnsj9i a rdfs:Resource ;
+    rdfs:label "Amor nello specchio commedia. Di Gio. Battista Andreini" ;
+    <> adi:cS2ZRx7FP2Cu,
+        "1622" ;
+    dc:subject adi:fAjWJgtLnHhs ;
+    dcterms:title "Amor nello specchio commedia. Di Gio. Battista Andreini fiorentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:6T8C3Mhfb3et,
+        adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:T4QqNLwvD5Lj ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:dP6pRwh4sN3U,
+        adi:exx9vvCvYu9x,
+        adi:hv8yc3uHYXr2 .
+

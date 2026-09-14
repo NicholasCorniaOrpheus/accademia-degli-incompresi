@@ -25,10 +25,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7aZB2XibYztP",
+      "label": "basilisk",
+      "class": "EmblemClass",
+      "image": ""
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJFhRHGa4FSM",
       "label": "swan",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hHuEAkUZNX4H",
+      "label": "Donna se di fier Orso",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5irjzhzsfNsC",
@@ -45,6 +57,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XrmysBajyRTc",
       "label": "Questa è la fede tua",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9d9m2AvSFmXM",
+      "label": "Ohimè la bella fera",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -85,6 +103,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NqF6draRmsCN",
+      "label": "Vivo su questo scoglio orrido e solo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DqHJq2jmhRJf",
       "label": "butterfly",
       "class": "Concept",
@@ -120,9 +144,19 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7aZB2XibYztP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJFhRHGa4FSM",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hHuEAkUZNX4H",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5irjzhzsfNsC",
@@ -136,6 +170,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XrmysBajyRTc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9d9m2AvSFmXM",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
       "property": "depicts"
     },
@@ -170,6 +209,11 @@
       "property": "depicts"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NqF6draRmsCN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DqHJq2jmhRJf",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
       "property": "instance_of"
@@ -182,6 +226,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VBxyHKkz6Zpw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JUdJWGgBjkYx",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hHuEAkUZNX4H",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7aZB2XibYztP",
       "property": "depicts"
     }
   ]

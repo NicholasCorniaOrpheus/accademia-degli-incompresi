@@ -1,9 +1,9 @@
 % Alto Part
 
 % portrait option
-#(set-default-paper-size "a4" 'portrait)
+%#(set-default-paper-size "a4" 'portrait)
 % landscape option
-%#(set-default-paper-size "a4" 'landscape)
+#(set-default-paper-size "a4" 'landscape)
 
 
 

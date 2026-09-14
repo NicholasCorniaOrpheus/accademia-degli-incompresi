@@ -1,5 +1,7 @@
 ---
 class: PoeticWork
+identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/001390000101_000000087200
 instance_of:
   - "[[poem]]"
 contributor:
@@ -31,6 +33,4 @@ text: |-
   Deggio aprirvi il mio cor madonna udite
   Poiché sì cruda sete
   In tutto l'amor mio perduto havete.
-identifier:
-  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/001390000101_000000087200
 ---

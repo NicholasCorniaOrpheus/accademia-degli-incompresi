@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AcZTTxreq22N-4g8NJcboJegC a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:HYS6BvhoeALc ;
+    rdf:predicate <> ;
+    rdf:subject adi:AcZTTxreq22N .
+
+adi:AcZTTxreq22N-9Kdi7zyfpfMy a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7anjVSBTbe3C ;
+    rdf:predicate <> ;
+    rdf:subject adi:AcZTTxreq22N .
+
+adi:AcZTTxreq22N-bCsA8zbpw65N a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=UPVV0yzUG8kC> ;
+    wdt:P291 adi:TLkQscNVwwqb ;
+    rdf:object "N0e87f9049e6a4fdc87c7c5133f423ff6" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AcZTTxreq22N ;
+    schema:datePublished "1588" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE008837> .
+
+adi:AcZTTxreq22N a rdfs:Resource ;
+    rdfs:label "Flori favola boscareccia di Maddalena Campiglia" ;
+    <> adi:7anjVSBTbe3C,
+        adi:HYS6BvhoeALc,
+        "1588" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE008837> ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:AYqoxRbyDh4i ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

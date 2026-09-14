@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:c7LBCneCWNWM-8FeTvF8uc6QE a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=syrkW5qLdloC> ;
+    dcterms:publisher adi:4XfyGZs6iYqV ;
+    wdt:P291 adi:gLeh7vn7FH8w ;
+    rdf:object "N97ff5d6523684317a4d32b755aedbca0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:c7LBCneCWNWM ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/BVEE025465> .
+
+adi:c7LBCneCWNWM-EDz2v8CxEjWN a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cS2ZRx7FP2Cu ;
+    rdf:predicate <> ;
+    rdf:subject adi:c7LBCneCWNWM .
+
+adi:c7LBCneCWNWM-ifkod7g33N44 a rdf:Statement ;
+    bf:Note "Manuscript" ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b100343863> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b100343863/manifest.json> ;
+    rdf:object "N34803ddfd6cc4e55a91541dd64319791" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:c7LBCneCWNWM ;
+    schema:url <https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101819> .
+
+adi:c7LBCneCWNWM a rdfs:Resource ;
+    rdfs:label "La Florinda tragedia di Gio. Battista Andreini comico Fedele" ;
+    <> adi:cS2ZRx7FP2Cu,
+        "1606" ;
+    dc:subject adi:fAjWJgtLnHhs ;
+    dcterms:title "La Florinda tragedia di Gio. Battista Andreini comico Fedele. All'illustriss.mo & eccellentiss.mo sig.re, d. Pietro Enrichez de Azevedo, conte di Fuentes" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:TxUhBPCn3SQb ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:fichLUAEWcmA .
+

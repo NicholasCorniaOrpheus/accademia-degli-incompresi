@@ -18,7 +18,7 @@ contributor:
 part_of:
   - value: "[[Il Primo Libro de Madrigali a quattro, a cinque et a sei voci di Gio. Battista Moscaglia intitolati gl'Amorosi Gigli]]"
 instrumentation:
-local_asset_path:
+local_asset_path: ./assets/music_compositions/moscaglia-tu,_che_secondo_l'alta_roma_honora
 based_on:
   - value: "[[Tu, che secondo l'alta Roma honora]]"
 derivative_work:

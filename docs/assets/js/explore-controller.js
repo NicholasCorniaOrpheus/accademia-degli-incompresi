@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", async function() {
         return;
     }
 
-    const indexUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/advanced_search_index.json';
-    const classCsvUrl = 'https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/mappings/yaml_classes2lod.csv';
+    const reponame = "NicholasCorniaOrpheus/accademia-degli-incompresi"
+
+    const indexUrl = `https://raw.githubusercontent.com/${reponame}/main/data/advanced_search_index.json`;
+    const classCsvUrl = `https://raw.githubusercontent.com/${reponame}/main/data/mappings/yaml_classes2lod.csv`;
 
     // Preview constants
     const PREVIEW_COUNT = 30;

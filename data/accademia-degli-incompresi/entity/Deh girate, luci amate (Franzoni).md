@@ -23,4 +23,5 @@ based_on:
   - value: "[[Deh girate, luci amate]]"
 derivative_work:
 text:
+digitized: true
 ---

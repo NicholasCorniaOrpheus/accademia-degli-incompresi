@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EpGZ2EhuBLfS-DF4UkLnnNheq a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:VfXvKbubUY6q ;
+    rdf:predicate <> ;
+    rdf:subject adi:EpGZ2EhuBLfS .
+
+adi:EpGZ2EhuBLfS-W9NfyKTwQ6ek a rdf:Statement ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N3a97c2a043364bd48e634371d18b873f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:EpGZ2EhuBLfS ;
+    schema:datePublished "1623" ;
+    schema:url <http://id.sbn.it/bid/UBOE133607> .
+
+adi:EpGZ2EhuBLfS-aoRdjZbRY9rs a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:WhwwfwR9cjj9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:EpGZ2EhuBLfS .
+
+adi:EpGZ2EhuBLfS a rdfs:Resource ;
+    rdfs:label "Il teatro delle glorie della signora Adriana Basile" ;
+    <> adi:VfXvKbubUY6q,
+        adi:WhwwfwR9cjj9,
+        "1623" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:identifier <http://id.sbn.it/bid/UBOE133607> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:VrEW7dXepBZR ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:WhwwfwR9cjj9 .
+

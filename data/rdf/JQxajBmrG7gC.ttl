@@ -7,21 +7,21 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JQxajBmrG7gC-5kveJMm29hGt a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=jlX8x6ARFJsC> ;
-    dcterms:publisher adi:Ugjg95iYkpuR ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Nbfbf5940501545af8cc3936967dd2969" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:JQxajBmrG7gC ;
-    schema:datePublished "1551" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017686> .
-
-adi:JQxajBmrG7gC-KDnHxzHTDGZj a rdf:Statement ;
+adi:JQxajBmrG7gC-fsPcLWzzqN8p a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:BarcvHNHhyjC ;
     rdf:predicate <> ;
     rdf:subject adi:JQxajBmrG7gC .
+
+adi:JQxajBmrG7gC-jfet24ssuNN5 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=jlX8x6ARFJsC> ;
+    dcterms:publisher adi:Ugjg95iYkpuR ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Nf940d6ad8bd9493b93c64cb4f7574f5c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JQxajBmrG7gC ;
+    schema:datePublished "1551" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017686> .
 
 adi:JQxajBmrG7gC a rdfs:Resource ;
     rdfs:label "La seconda libraria del Doni" ;
@@ -33,6 +33,6 @@ adi:JQxajBmrG7gC a rdfs:Resource ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE017686> ;
     dcterms:title "La seconda libraria del Doni" ;
     dcterms:type "Book" ;
-    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[catalogue]]>,
-        <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[dictionary]]> .
+    wdt:P31 <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/[[dictionary]]>,
+        adi:f9VxNiphXPML .
 

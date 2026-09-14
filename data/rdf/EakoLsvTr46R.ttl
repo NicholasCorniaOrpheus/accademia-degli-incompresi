@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EakoLsvTr46R-7YpFMi4FNyx2 a rdf:Statement ;
+    wdt:P291 adi:Bj2JQvStXBT3 ;
+    rdf:object "Ndd171818370642609b21d2042a52ba47" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:EakoLsvTr46R ;
+    schema:datePublished "1603" ;
+    schema:url <http://id.sbn.it/bid/RMLE068155> .
+
+adi:EakoLsvTr46R-MxjhWyPxdPiL a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:nXkPKNmo3NoD ;
+    rdf:predicate <> ;
+    rdf:subject adi:EakoLsvTr46R .
+
+adi:EakoLsvTr46R-fzBBrxcXX7oh a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:fichLUAEWcmA ;
+    rdf:predicate <> ;
+    rdf:subject adi:EakoLsvTr46R .
+
+adi:EakoLsvTr46R a rdfs:Resource ;
+    rdfs:label "Rime di Giouanni Soranzo gentilhuomo venetiano, fatte in lode della Litterata disputante Florinda" ;
+    <> adi:c7LBCneCWNWM,
+        adi:fichLUAEWcmA,
+        adi:nXkPKNmo3NoD,
+        "1603" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:identifier <http://id.sbn.it/bid/RMLE068155> ;
+    dcterms:title "Rime di Giouanni Soranzo gentilhuomo venetiano, fatte in lode della Litterata disputante Florinda; Attione rappresentata nella Sereniss. città di Genoua dalla Sig. Virginia Andreini comica fedele" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

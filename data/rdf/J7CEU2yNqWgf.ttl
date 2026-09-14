@@ -7,19 +7,19 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:J7CEU2yNqWgf-Fja5Nhyg8MU5 a rdf:Statement ;
+adi:J7CEU2yNqWgf-JHTxebj4SuPD a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=jWFRAAAAcAAJ> ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N6dd8a28c771942a3847d11f2fd4e69f7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:J7CEU2yNqWgf ;
+    schema:datePublished "1638" .
+
+adi:J7CEU2yNqWgf-V3jF28djxHam a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:AjSwMKwVrJp7 ;
     rdf:predicate <> ;
     rdf:subject adi:J7CEU2yNqWgf .
-
-adi:J7CEU2yNqWgf-SUHSPRkLNg7G a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=jWFRAAAAcAAJ> ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Nbb903357e2a443d3b9cea0edbd51f01c" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:J7CEU2yNqWgf ;
-    schema:datePublished "1638" .
 
 adi:J7CEU2yNqWgf a rdfs:Resource ;
     rdfs:label "La Dianea di Gio. Francesco Loredano" ;

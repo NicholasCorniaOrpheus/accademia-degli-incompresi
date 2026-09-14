@@ -1,6 +1,7 @@
 \layout{
   \context {
     \Score
+    measureBarType = #"!"
     \override StaffGrouper.staff-staff-spacing.padding = #5
     \override StaffGrouper.staff-staff-spacing.basic-distance = #5
     \override StaffGrouper.staffgroup-staff-spacing.basic-distance = #5
@@ -13,10 +14,6 @@
   \context {      \Dynamics
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.basic-distance = #10
    }
-   \context {
-    \Staff
-    %measureBarType = "-span|"
-  }
 
   \context {      
     \Dynamics

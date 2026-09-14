@@ -2,34 +2,35 @@
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:gzpHxiKuPzSn-RjTtdtqte847 a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:c6NfMc4aLaby ;
-    rdf:predicate <> ;
-    rdf:subject adi:gzpHxiKuPzSn .
+adi:gzpHxiKuPzSn-3WWQr6NJpwD5 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=cmj518mOFcYC> ;
+    dcterms:publisher adi:mBuz2DVvb28R ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/UW01alpnX18_/b2FpOmJuY2YuZmlyZW56ZS5zYm4uaXQ6MjE6RkkwMDk4Ok1hZ2xpYWJlY2hpOlVCT0UwMzUyMDk_/manifest.json> ;
+    rdf:object "N8c31cca11d70499d8e5cb9b32c49819c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gzpHxiKuPzSn ;
+    schema:datePublished "1630" ;
+    schema:url <http://id.sbn.it/bid/UBOE035209> .
 
-adi:gzpHxiKuPzSn-XP9Eyqqydocq a rdf:Statement ;
+adi:gzpHxiKuPzSn-PYj3nLwwwppD a rdf:Statement ;
     bf:Note "Two paintings by Roncalli are set to poems, respectively 'Pallade che visita le Muse' and 'San Pietro piangente'. " ;
     bf:Role adi:CBJEfZgNCiU3 ;
     rdf:object adi:cAg4ZC7SGWum ;
     rdf:predicate <> ;
     rdf:subject adi:gzpHxiKuPzSn .
 
-adi:gzpHxiKuPzSn-nCFZS4FTk6UU a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=cmj518mOFcYC> ;
-    dcterms:publisher adi:mBuz2DVvb28R ;
-    wdt:P291 adi:f43HawKudsFv ;
-    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/UW01alpnX18_/b2FpOmJuY2YuZmlyZW56ZS5zYm4uaXQ6MjE6RkkwMDk4Ok1hZ2xpYWJlY2hpOlVCT0UwMzUyMDk_/manifest.json> ;
-    rdf:object "N8ebd1c8db374436da1b912c26f310c13" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:gzpHxiKuPzSn ;
-    schema:datePublished "1630" ;
-    schema:url <http://id.sbn.it/bid/UBOE035209> .
+adi:gzpHxiKuPzSn-b78Y88AgkAaD a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:c6NfMc4aLaby ;
+    rdf:predicate <> ;
+    rdf:subject adi:gzpHxiKuPzSn .
 
 adi:gzpHxiKuPzSn a rdfs:Resource ;
     rdfs:label "La galeria del caualier Marino. Distinta in pitture & sculture" ;
@@ -41,5 +42,7 @@ adi:gzpHxiKuPzSn a rdfs:Resource ;
         <http://www.bibliotecaitaliana.it/testo/bibit000657> ;
     dcterms:title "La galeria del caualier Marino. Distinta in pitture & sculture" ;
     dcterms:type "Book" ;
-    wdt:P31 adi:QXGbSHBTa8pT .
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    ns1:P180 adi:fichLUAEWcmA .
 

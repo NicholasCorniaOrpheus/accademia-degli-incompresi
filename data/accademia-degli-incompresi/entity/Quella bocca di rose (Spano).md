@@ -23,4 +23,5 @@ based_on:
   - value: "[[Quella bocca di rose]]"
 derivative_work:
 text:
+digitized: true
 ---

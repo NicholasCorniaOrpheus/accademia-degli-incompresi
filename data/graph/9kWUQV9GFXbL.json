@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "label": "(Grafton 1990)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eSp4TWfcjPcL",
+      "label": "Carlo Sigonio",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Carlo_Sigonio_by_Follower_of_Bartolomeo_Passerotti.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSpRJMnv2qAA",
+      "label": "Isaac Casaubon",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2u2A45PaK3Ey",
+      "label": "Curzio Inghirami",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cqcj2Aqa3VXi",
+      "label": "M. Tullii Ciceronis Consolatio, vel De luctu minuendo. Fragmenta eius a Carolo Sigonio, & Andrea Patritio exposita",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eSp4TWfcjPcL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eSp4TWfcjPcL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSpRJMnv2qAA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2u2A45PaK3Ey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2u2A45PaK3Ey",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cqcj2Aqa3VXi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9kWUQV9GFXbL",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cqcj2Aqa3VXi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eSp4TWfcjPcL",
+      "property": "contributor"
+    }
+  ]
+}

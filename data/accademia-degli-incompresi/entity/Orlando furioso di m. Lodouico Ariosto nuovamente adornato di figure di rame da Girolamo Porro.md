@@ -5,6 +5,7 @@ description:
 identifier: https://edit16.iccu.sbn.it/titolo/CNCE002807
 described_by_source:
   - "[[(Bolzoni and Girotto 2013)]]"
+  - "[[(Urbaniak 2018)]]"
 image:
 aliases:
 instance_of:
@@ -16,7 +17,7 @@ has_version:
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE002807
     external_source: https://www.digitale-sammlungen.de/en/view/bsb10165933
     publication_date: 1584
-    note: 
+    note:
     place_of_publication:
       - "[[Venezia]]"
     holding_institution: "[[Munich Digitization Center]]"

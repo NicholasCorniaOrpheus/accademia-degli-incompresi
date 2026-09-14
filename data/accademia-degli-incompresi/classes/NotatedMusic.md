@@ -128,7 +128,19 @@ fields:
     options: {}
     path: OZJyAI
     id: TLowRs
-version: "2.47"
+  - name: digitized
+    type: Select
+    options:
+      sourceType: ValuesList
+      valuesList:
+        "1": complete
+        "2": partial
+        "3": requested
+        "4": not available
+        "5": copyright restriction (statement)
+    path: ""
+    id: pjCpNG
+version: "2.51"
 limit: 20
 mapWithTag: false
 icon: package
@@ -140,6 +152,7 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - pjCpNG
   - rhQ87v
   - NcmQK7
   - d2ugzl

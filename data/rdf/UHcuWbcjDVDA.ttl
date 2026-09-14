@@ -6,23 +6,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:UHcuWbcjDVDA-A8gnoVzkUQzp a rdf:Statement ;
+adi:UHcuWbcjDVDA-dFvxe5wqj3Y4 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7H8qw9tLGaES ;
+    rdf:predicate <> ;
+    rdf:subject adi:UHcuWbcjDVDA .
+
+adi:UHcuWbcjDVDA-gXs5SJopYExU a rdf:Statement ;
     bf:electronicLocator <https://viewer.onb.ac.at/10A55350/> ;
     bf:heldBy adi:UwTkUJm3SQTb ;
     dcterms:publisher adi:dtLAfP3ZfkKV ;
     wdt:P291 adi:hke846QYoVbD ;
     wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A55350> ;
-    rdf:object "N71c347308346499ca1d8864cf9b46814" ;
+    rdf:object "Nae158450260c4edc8eff3251d8108d3b" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:UHcuWbcjDVDA ;
     schema:datePublished "1596" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE010622> .
-
-adi:UHcuWbcjDVDA-JtoE6q9xa9hJ a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:7H8qw9tLGaES ;
-    rdf:predicate <> ;
-    rdf:subject adi:UHcuWbcjDVDA .
 
 adi:UHcuWbcjDVDA a rdfs:Resource ;
     rdfs:label "Rime d'Ansaldo Cebà" ;

@@ -7,21 +7,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:VfXvKbubUY6q-8GaNp7dfPPoW a rdf:Statement ;
+adi:VfXvKbubUY6q-4iFYPCcjFGhQ a rdf:Statement ;
     dcterms:references adi:25S6pggBXEvH ;
     rdf:object adi:PE5uAEyVKtpe ;
     rdf:predicate <> ;
     rdf:subject adi:VfXvKbubUY6q .
 
-adi:VfXvKbubUY6q-MZue9YvTRbnC a rdf:Statement ;
-    bf:heldBy adi:DoWoU567wmiV ;
-    rdf:object "5149" ;
+adi:VfXvKbubUY6q-HQmgpCg7oYEy a rdf:Statement ;
+    dcterms:references adi:25S6pggBXEvH ;
+    rdf:object adi:HgeP9DKTPBeR ;
     rdf:predicate <> ;
     rdf:subject adi:VfXvKbubUY6q .
 
-adi:VfXvKbubUY6q-mXLH2vfPyQaC a rdf:Statement ;
-    dcterms:references adi:25S6pggBXEvH ;
-    rdf:object adi:HgeP9DKTPBeR ;
+adi:VfXvKbubUY6q-jpqE8ab8CqKd a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "5149" ;
     rdf:predicate <> ;
     rdf:subject adi:VfXvKbubUY6q .
 
@@ -32,6 +32,7 @@ adi:VfXvKbubUY6q a rdfs:Resource ;
         adi:PE5uAEyVKtpe ;
     dcterms:identifier <http://www.wikidata.org/entity/Q3766123> ;
     dcterms:type "Agent" ;
+    wdt:P1343 adi:VrEW7dXepBZR ;
     wdt:P31 adi:GB3DPeNtxqwb ;
     skos:altLabel "Gianfrancesco Maia Materdona" ;
     schema:gender adi:5bZY447EzsJq .

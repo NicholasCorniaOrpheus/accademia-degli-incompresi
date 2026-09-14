@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE048459
 described_by_source:
   - "[[(Bolzoni 2012)]]"
+  - "[[(Malato 1993)]]"
 image:
 aliases:
 instance_of:

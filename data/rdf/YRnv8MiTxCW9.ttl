@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YRnv8MiTxCW9-gXPGuJ4CqzPG a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:7anjVSBTbe3C ;
+    rdf:predicate <> ;
+    rdf:subject adi:YRnv8MiTxCW9 .
+
+adi:YRnv8MiTxCW9-nNpHryYHVDtA a rdf:Statement ;
+    rdf:object adi:AcZTTxreq22N ;
+    rdf:predicate <> ;
+    rdf:subject adi:YRnv8MiTxCW9 ;
+    ns1:P304 "65" ;
+    ns1:P958 "Maddalena Campiglia. Alla sua Flori." .
+
+adi:YRnv8MiTxCW9 a rdfs:Resource ;
+    rdfs:label "Poggia, oh mia Flori al volo dietro, ardita" ;
+    <> adi:7anjVSBTbe3C,
+        adi:AcZTTxreq22N ;
+    pdc:poeticType adi:B7F6S9cQhDK7 ;
+    pdc:text """POGGIA, oh mia FLORI, al volo dietro, ardita,
+Di raro stuol di Cigni, e mostra quanto
+L'altrui lagrime belle, un vago pianto
+Sovente ha in gentil cor virtù infinita.
+
+La santa, e del tuo petto alta ferita
+Aperta mostra fuor, che averrà intanto,
+Ch'appaghi il mondo d'un eterno vanto
+La candidezza tua, se fia gradita.
+
+E mentre di tua fiamma al puro ardore
+Si scalda ogn'Alma più d' Amor rubella,
+E divien molle ogni più saldo petto.
+
+Dica il tuo caro ALESSI, il tuo diletto
+Oh me felice sovra ogni Pastore,
+Se m'unì à tanta fé benigna stella.""" ;
+    dc:subject adi:3ruLTSyv8VeY ;
+    dcterms:identifier <https://artflsrv04.uchicago.edu/philologic5/IWW/navigate/261/2/8> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:iQ4o46B3wUmP ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:DJFhRHGa4FSM,
+        adi:NbBMYT8M5qdr,
+        adi:P5EucBKm3UVh,
+        adi:Rq5MFqmMSfYb,
+        adi:Suq86ApyHSzQ,
+        adi:YoDNNDAxiCJF,
+        adi:ddw2PSbVUZ6t,
+        adi:kEaU6QpCkpAA ;
+    ns1:P2551 adi:FPYzaHuDcPWK .
+

@@ -32,7 +32,7 @@ ficta = { \once \set suggestAccidentals = ##t }
       shortInstrumentName = "C."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "canto" {  \include "./c_music_p.ly" }
+      %\new Voice = "canto" {  \include "./c_music_p.ly" }
     >>
     \new Lyrics \lyricsto "canto" { \include "./c_lyrics_p.ly" }
     
@@ -44,7 +44,7 @@ ficta = { \once \set suggestAccidentals = ##t }
       shortInstrumentName = "Q."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "quinto" {  \include "./q_music_p.ly" }
+      %\new Voice = "quinto" {  \include "./q_music_p.ly" }
     >>
     \new Lyrics \lyricsto "quinto" { \include "./q_lyrics_p.ly" }
     
@@ -68,7 +68,7 @@ ficta = { \once \set suggestAccidentals = ##t }
       shortInstrumentName = "T."
       midiInstrument = "choir aahs"
     } <<
-      \new Voice = "tenore" { \include "./t_music_p.ly" }
+      %\new Voice = "tenore" { \include "./t_music_p.ly" }
     >>
     \new Lyrics \lyricsto "tenore" { \include "./t_lyrics_p.ly" }
 

@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9KkjiNeoXJSF-CgNo7MZMvKwB a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:GPUAXAA7MpJN ;
+    rdf:predicate <> ;
+    rdf:subject adi:9KkjiNeoXJSF .
+
+adi:9KkjiNeoXJSF-YHndhnseagvu a rdf:Statement ;
+    bf:electronicLocator <https://dl.unito.it/it/ricerca/digitale/?id=mag:39707> ;
+    wdt:P291 adi:dhbQrFWynqRh ;
+    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:39707/datastreams/MMIIIF/content> ;
+    rdf:object "N4643ae65a3b849f9b10dee058b93150a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9KkjiNeoXJSF ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE016362> .
+
+adi:9KkjiNeoXJSF a rdfs:Resource ;
+    rdfs:label "Angelica, comedia de Fabritio de Fornaris" ;
+    <> adi:GPUAXAA7MpJN,
+        adi:XU8S5WyvBShC,
+        "1585" ;
+    dc:subject adi:CrKoHGLhLE34,
+        adi:fAjWJgtLnHhs ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE016362> ;
+    dcterms:title "Angelica, comedia de Fabritio de Fornaris napolitano ditto il Capitano Coccodrillo Comico Confidente" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:FNy2MyAhi2eX ;
+    wdt:P31 adi:T4QqNLwvD5Lj ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:KdpUz4v9w5E3 .
+

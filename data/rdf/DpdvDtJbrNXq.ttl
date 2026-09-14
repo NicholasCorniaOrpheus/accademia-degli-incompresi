@@ -8,20 +8,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:DpdvDtJbrNXq-EZzwJBtRRAxB a rdf:Statement ;
+adi:DpdvDtJbrNXq-M68UjRaBG2xQ a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/cosmographiaapia00apia> ;
+    bf:heldBy adi:o8BzAGqSmxpP ;
+    wdt:P291 adi:hke846QYoVbD ;
+    rdf:object "N01246fd8be0f4be6ad982fee43fedd67" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:DpdvDtJbrNXq ;
+    schema:datePublished "1564" .
+
+adi:DpdvDtJbrNXq-fdcv6QqrSaNj a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:aa56E8kTgAo3 ;
     rdf:predicate <> ;
     rdf:subject adi:DpdvDtJbrNXq .
-
-adi:DpdvDtJbrNXq-Tkz6dc8AEjBS a rdf:Statement ;
-    bf:electronicLocator <https://archive.org/details/cosmographiaapia00apia> ;
-    bf:heldBy adi:o8BzAGqSmxpP ;
-    wdt:P291 adi:hke846QYoVbD ;
-    rdf:object "Nb0a63f6d63134b82b188ef091ee00be2" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:DpdvDtJbrNXq ;
-    schema:datePublished "1564" .
 
 adi:DpdvDtJbrNXq a rdfs:Resource ;
     rdfs:label "Cosmographia Petri Apiani" ;

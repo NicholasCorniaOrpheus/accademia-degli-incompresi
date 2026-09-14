@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iicB3emqvaJP-EtJTS4Hn6vwR a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "20774" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iicB3emqvaJP .
+
+adi:iicB3emqvaJP-JU4DzZ9sRK4Y a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:2uSronTLfPLh ;
+    rdf:predicate <> ;
+    rdf:subject adi:iicB3emqvaJP .
+
+adi:iicB3emqvaJP a rdfs:Resource ;
+    rdfs:label "Veronica Franco" ;
+    <> adi:2uSronTLfPLh,
+        adi:4AB2zhiGQJga,
+        adi:bKuQkt4rpM43,
+        adi:f43HawKudsFv ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q257493> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:KpnNUHk7FWq5 .
+

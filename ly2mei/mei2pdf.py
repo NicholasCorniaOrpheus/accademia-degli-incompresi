@@ -42,7 +42,8 @@ def convert_mei_to_pdf(mei_file_path: str):
         writer.add_page(reader.pages[0])
 
     # 3. Export to a clean, cohesive PDF file
-    output_filename = Path(mei_file_path).with_suffix(".pdf")
+    output_filename = Path(mei_file_path)
+    output_filename = output_filename.with_name(f"{output_filename.stem}_mei.pdf")
     with open(output_filename, "wb") as f_out:
         writer.write(f_out)
 

@@ -24,10 +24,11 @@
 
 \score{
   <<
- \new MensuralVoice = "voice" \with {
-    \consists "Ambitus_engraver" \consists "Melody_engraver"} <<
+ \new Voice = "voice" \with {
+    \consists "Ambitus_engraver" \consists "Bar_engraver"} <<
    %\override Staff.StaffSymbol.ledger-line-thickness = #'(1.0 . 1.0)
    \transpose c c{
+    \autoBeamOff
     \voiceMusic
    }
    \set Staff.instrumentName = \voiceName
@@ -41,7 +42,9 @@
   
   % Layout
 
-  \include "./layout.ly"
+  \include "./layout_p.ly"
+  
+  
   
 }
 

@@ -11,6 +11,7 @@ member_of:
 occupation:
 related_to:
 notable_work:
+  - "[[Cento giuochi liberali, et d'ingegno]]"
 interested_in:
   - value: "[[parlour game]]"
 catalog_identifier:
@@ -26,4 +27,5 @@ aliases:
 described_by_source:
   - "[[(Haar 1962)]]"
   - "[[(Bolzoni 2012)]]"
+  - "[[(Malato 1993)]]"
 ---

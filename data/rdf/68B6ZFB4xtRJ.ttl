@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:68B6ZFB4xtRJ-3yjLoQUfzkNP a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:UE5wVYcJfR6n ;
+    rdf:predicate <> ;
+    rdf:subject adi:68B6ZFB4xtRJ .
+
+adi:68B6ZFB4xtRJ-VgQPPJV7cDek a rdf:Statement ;
+    bf:Note "Quintus is from the 1601 edition." ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T029/> ;
+    dcterms:publisher adi:Ah3xiLm7tVeM ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N4948862e64b747799e4108a00ada3c31" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:68B6ZFB4xtRJ ;
+    schema:datePublished "1599" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE046254> .
+
+adi:68B6ZFB4xtRJ a rdfs:Resource ;
+    rdfs:label "Di Luca Marenzio il nono libro de madrigali a cinque voci" ;
+    <> adi:UE5wVYcJfR6n,
+        "1599" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE046254>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV12410010>,
+        <https://rism.online/sources/990039310> ;
+    dcterms:title "Di Luca Marenzio il nono libro de madrigali a cinque voci nouamente composto, & dato in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:NoVukKRyZHC2,
+        adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:N6jMCTymbADK .
+

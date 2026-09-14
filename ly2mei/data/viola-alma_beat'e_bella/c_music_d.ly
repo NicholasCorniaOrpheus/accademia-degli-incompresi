@@ -1,9 +1,8 @@
-\relative c''{
- \clef "petrucci-g2" \key f \major \time 2/2 r2 \stemDown f2. e8 d c \stemUp bf a g f g a bf \stemDown c2 \stemUp f,2 f'1 \stemDown e2 g\breve \break
- d1 e d r4 g2 c,8 c c4. \stemUp f,8 \stemDown c'2 d r4 g2 c,8 c c4. \stemUp f,8 \stemDown c'2 d \break
- r\breve r4 f2 c8 d e4. f8 g1 fs!2 r4 g2 g8 g g4 g d2 e r4 f2 c8 c \break
- c4 \stemUp bf4 \stemDown c2 d r\breve r1 r2 r8 c8 c d ef!4 c d8 c \stemUp bf8 bf a2 bs! \tripla \break
- \stemDown d4 d e \turnBlack f1 d4 ef!4. d8 c4 c \turnBlack bs!1 c1 r4 c2 f4. e8 d c d4 \stemUp g,4 \break
- r2 \stemDown d'2. e8 f c1 bs! r2 d2. e4 f e8 d c2 d4 c8 \stemUp bf \stemDown c2 \stemUp f,2 \break
- r2 \stemDown e'2. f4 g f8 e d2 d r4 f e d c1. c\longa \bar "||"
+\relative c'{
+ \clef "petrucci-c3" \key f \major \time 2/2  d\breve d d1 c \stemUp a2 d1 c4 bf c1 d\breve g,\breve d'1\breve bf1 c d ef!1. \stemDown d2 c1 \stemUp bs!2 d1 d2 d1 d d\breve bf1 a r2 f'1 f2 d1 \stemDown d2 d \stemUp bf2. a4 g f g2 f1 \break 
+ bf1 \stemUp a2 g1 f4 e f1 g r2 fs!1 f2 a2 a bf1 a2 bf1 a4 g d'\breve \stemDown d2 c1 \stemUp bf4 a bs!1 c2. d4 e1 f1. \stemDown f2 g\breve f r2 d1 \stemUp c4 bf c1 d \stemDown d2 d e1 d d1. d2 \break 
+ d\breve d1 r2 d1 \stemUp g,2 bf2. c4 \stemDown d2 e d4 \stemUp c bf a g2 c2. bf4 a g a1 bf2 g a bf g1 a2 d1 c2 a bf2. a4 bf c \stemDown d2 \stemUp bf c bf2. a4 g f g1. f4 e f1 g2 g bs! bf \break
+ \stemUp c2. bf4 a2 g a2. bf4 c1 d r2 a2 a bf g1 a\breve bf1 a \stemDown d2 d d d e e f2. e4 d2 \stemUp bf c \stemDown d \stemUp bf2. a4 g f g2 f1 bf c f,2 \stemDown f' f f d d d1 \stemUp bs!2 \stemDown d \break
+ \stemDown d2 ef!2 d2. \stemUp c8 bf \stemDown d2 c2. bf4 bf1 a2 bf d1 c1 bf2 c1 d\breve r2 g1 \stemDown f2 ef! e d1 \stemUp g,2 g'1 \stemDown f2 ef!2. d8 c \stemUp bf2 c \stemDown d2. \stemUp c8 bf a4 g a2 bf g a bf c \stemDown d \break %page-02
+ c2 f1 \stemDown f2. e4 e d8 e f1 d g\breve fs!1 r2 d1 \stemUp g,2 bf2. c4 \stemDown d2 d e1 f e2 d1 \stemUp c2 \stemDown d f2. e4 e d8 c d\breve \stemUp bf2 d1 g,2 g'1. \stemDown f2 ef! d \stemUp c c bf bf e\breve \stemDown d\longa \bar"||"
 }
