@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "label": "(Novellari 1993)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j6Ej6DkEsLWN",
+      "label": "Giuoco piacevole d'Ascanio de Mori",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUUiEuLm92Dh",
+      "label": "Ascanio Mori",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n5cEfEKg8tiU",
+      "label": "Della fabrica del mondo di m. Francesco Alunno",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BQJFFpiRZoZ6",
+      "label": "(Malato 1993)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BQJFFpiRZoZ6",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j6Ej6DkEsLWN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUUiEuLm92Dh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUUiEuLm92Dh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n5cEfEKg8tiU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XvfHfVCV3UdP",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j6Ej6DkEsLWN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUUiEuLm92Dh",
+      "property": "contributor"
+    }
+  ]
+}

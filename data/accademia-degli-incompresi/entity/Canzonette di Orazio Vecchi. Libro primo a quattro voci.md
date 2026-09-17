@@ -27,7 +27,7 @@ has_version:
     publication_date: 1580
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE045803
     external_source: https://www.digitale-sammlungen.de/en/view/bsb00080510
-    iiif_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
+    IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
     note: Bassus only.
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
     holding_institution: "[[Munich Digitization Center]]"

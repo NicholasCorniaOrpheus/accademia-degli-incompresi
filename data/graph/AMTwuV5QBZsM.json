@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "label": "musician",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VhMgHKXQMeyf",
+      "label": "Angelica, se'l mondo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bwHmfBBuZ9eN",
+      "label": "Ippolita Benigni Manfredi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go7nvKrnL7uC",
+      "label": "Forse è cagion l'Aurora",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KJ6jgBKDBpxA",
+      "label": "Brunetti al suon de tuoi pregiati accenti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VhMgHKXQMeyf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VhMgHKXQMeyf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bwHmfBBuZ9eN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/go7nvKrnL7uC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KJ6jgBKDBpxA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AMTwuV5QBZsM",
+      "property": "subject"
+    }
+  ]
+}

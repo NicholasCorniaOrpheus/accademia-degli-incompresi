@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "label": "Marcantonio I Colonna",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7vSWUj48ajkM",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6wfR74wiu4DR",
+      "label": "Ortensia Colonna",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/keLiopKDY9nL",
+      "label": "condottiero",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CiwmwLJaoE9g",
+      "label": "parent",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7vSWUj48ajkM",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/keLiopKDY9nL",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6wfR74wiu4DR",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YRVnbudVT4wT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CiwmwLJaoE9g",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6wfR74wiu4DR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "property": "instance_of"
+    }
+  ]
+}

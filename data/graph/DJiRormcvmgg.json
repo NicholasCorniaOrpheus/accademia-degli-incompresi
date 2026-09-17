@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJiRormcvmgg",
+      "label": "life",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2WJrLvoQRE3d",
+      "label": "death",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SmmQkLcc6azn",
+      "label": "Ahi, ahi che se ne van tutte le notti",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HqyAeW8XLh8v",
+      "label": "Ov'è (misera me) quell'aureo crine",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJiRormcvmgg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2WJrLvoQRE3d",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2WJrLvoQRE3d",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJiRormcvmgg",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SmmQkLcc6azn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJiRormcvmgg",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HqyAeW8XLh8v",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DJiRormcvmgg",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HqyAeW8XLh8v",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2WJrLvoQRE3d",
+      "property": "depicts"
+    }
+  ]
+}

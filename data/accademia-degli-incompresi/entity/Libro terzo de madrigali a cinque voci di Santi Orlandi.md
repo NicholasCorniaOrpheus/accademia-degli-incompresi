@@ -16,6 +16,11 @@ instance_of:
 title: Libro terzo de madrigali a cinque voci di Santi Orlandi
 inception:
 has_version:
+  - holding_institution: "[[Bodleian Library]]"
+    note: Cantus and Quintus
+    permalink: https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/rl48sd/alma990136534450107026
+    publication_date: 1605
+    publisher: "[[Angelo Gardano]]"
   - place_of_publication:
       - "[[Venezia]]"
     publisher: "[[Angelo Gardano]]"
@@ -47,4 +52,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: partial
 ---

@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Up3JPoUhPHLL-Dit3fPpdELKQ a rdf:Statement ;
+    bf:Role adi:FJzQoB8QSGjd ;
+    rdf:object adi:gNdzPXA2ZGEx ;
+    rdf:predicate <> ;
+    rdf:subject adi:Up3JPoUhPHLL .
+
+adi:Up3JPoUhPHLL-JHGWzdycQZtL a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=fodIAQAAMAAJ> ;
+    dcterms:publisher adi:dt83qSxSrD7X ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "N75616f4f78074a2ea40b12e522bf6677" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Up3JPoUhPHLL ;
+    schema:datePublished "1555" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047945> .
+
+adi:Up3JPoUhPHLL a rdfs:Resource ;
+    rdfs:label "Libro quinto delle rime di diversi illustri signori napoletani" ;
+    <> adi:gNdzPXA2ZGEx,
+        "1555" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047945>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F500290020> ;
+    dcterms:title "Libro quinto delle rime di diuersi illustri signori napoletani, e d'altri nobilissimi ingegni. Nuouamente raccolte, e con noua additione ristampate" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU .
+

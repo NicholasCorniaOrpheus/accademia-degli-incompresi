@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d3Pdz7eDJvhX",
+      "label": "France",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7YuKFAeE7ed",
+      "label": "Lyon",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WJ7zRqqJ2bkR",
+      "label": "country",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ZZPxgwagmdY",
+      "label": "Paris",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c64MMwyep6Uk",
+      "label": "Caterina de' Medici",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d3Pdz7eDJvhX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WJ7zRqqJ2bkR",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U7YuKFAeE7ed",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d3Pdz7eDJvhX",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3ZZPxgwagmdY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d3Pdz7eDJvhX",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/c64MMwyep6Uk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d3Pdz7eDJvhX",
+      "property": "work_location"
+    }
+  ]
+}

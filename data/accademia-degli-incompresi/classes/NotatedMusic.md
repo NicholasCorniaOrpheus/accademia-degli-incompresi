@@ -140,7 +140,29 @@ fields:
         "5": copyright restriction (statement)
     path: ""
     id: pjCpNG
-version: "2.51"
+  - name: based_on
+    type: ObjectList
+    options:
+      displayTemplate: ""
+      itemDisplayTemplate: ""
+    path: ""
+    id: HuKvbq
+  - name: note
+    type: Input
+    options: {}
+    path: HuKvbq
+    id: 322Ldx
+  - name: reference
+    type: MultiFile
+    options: {}
+    path: HuKvbq
+    id: wS3mh3
+  - name: value
+    type: File
+    options: {}
+    path: HuKvbq
+    id: uUEOJe
+version: "2.56"
 limit: 20
 mapWithTag: false
 icon: package
@@ -152,6 +174,10 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - HuKvbq
+  - uUEOJe
+  - wS3mh3
+  - 322Ldx
   - pjCpNG
   - rhQ87v
   - NcmQK7

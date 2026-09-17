@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mH55mB8S8cQz",
+      "label": "Bracciano",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "label": "Italy",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bFjQhjPDGSg4",
+      "label": "Applausi poetici alle glorie della signora Leonora Baroni",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mH55mB8S8cQz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mH55mB8S8cQz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bFjQhjPDGSg4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mH55mB8S8cQz",
+      "property": "has_version"
+    }
+  ]
+}

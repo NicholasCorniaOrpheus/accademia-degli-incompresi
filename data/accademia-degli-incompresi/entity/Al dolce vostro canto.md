@@ -15,7 +15,7 @@ contributor:
     value: "[[Giovanni Battista Amalteo]]"
 part_of:
   - pages: 89
-    value: "[[Libro terzo de le rime di diuersi nobilissimi et eccellentissimi autori nuouamente raccolte]]"
+    value: "[[Libro terzo de le rime di diversi nobilissimi et eccellentissimi autori nuovamente raccolte]]"
 local_asset_path: ./assets/poems/al_dolce_vostro_canto
 based_on:
 derivative_work:

@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6ovhTnhdXz8n",
+      "label": "Urbino",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PGbP9Q6sWgvE",
+      "label": "Bernardo Accolti",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bernardo_Accolti_cropped.png?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ALDbVCLp2pZ2",
+      "label": "Accademia degli Assorditi di Urbino",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "label": "Italy",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6ovhTnhdXz8n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6ovhTnhdXz8n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PGbP9Q6sWgvE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6ovhTnhdXz8n",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ALDbVCLp2pZ2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6ovhTnhdXz8n",
+      "property": "location"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8oLJPeTzevM",
+      "label": "myrtle",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oUoK9Cf3y3pL",
+      "label": "tree",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DTv6MLfjSVvr",
+      "label": "Muse che tante volte ributtai",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mcCZXqrPHJE3",
+      "label": "plant",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8oLJPeTzevM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oUoK9Cf3y3pL",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8oLJPeTzevM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mcCZXqrPHJE3",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DTv6MLfjSVvr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8oLJPeTzevM",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oUoK9Cf3y3pL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mcCZXqrPHJE3",
+      "property": "instance_of"
+    }
+  ]
+}

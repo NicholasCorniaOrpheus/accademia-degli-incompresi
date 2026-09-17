@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BsPaMiCea7jJ",
+      "label": "The Other Voice in Early Modern Europe: The Toronto Series",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MxjSLTNWxHfX",
+      "label": "(Gambara 2014)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4PQnfxkVNTU7",
+      "label": "(Torelli Benedetti 2013)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LsyH95mrRucc",
+      "label": "querelle des femmes",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BsPaMiCea7jJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LsyH95mrRucc",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MxjSLTNWxHfX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BsPaMiCea7jJ",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4PQnfxkVNTU7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BsPaMiCea7jJ",
+      "property": "part_of"
+    }
+  ]
+}

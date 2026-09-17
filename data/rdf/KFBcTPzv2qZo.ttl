@@ -9,18 +9,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KFBcTPzv2qZo-5oAPvSFE9AYJ a rdf:Statement ;
+adi:KFBcTPzv2qZo-L8sjs7ybfatj a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:GfNhWec4EkAr ;
+    rdf:predicate <> ;
+    rdf:subject adi:KFBcTPzv2qZo .
+
+adi:KFBcTPzv2qZo-dCtAQMmJABnm a rdf:Statement ;
     rdf:object adi:WzC4uAhzQRBw ;
     rdf:predicate <> ;
     rdf:subject adi:KFBcTPzv2qZo ;
     ns1:P958 "Canto I, 1" ;
     schema:volumeNumber "1" .
-
-adi:KFBcTPzv2qZo-jX8UbN6PFAyc a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:GfNhWec4EkAr ;
-    rdf:predicate <> ;
-    rdf:subject adi:KFBcTPzv2qZo .
 
 adi:KFBcTPzv2qZo a rdfs:Resource ;
     rdfs:label "Io che giovin cantai d'ardenti amori" ;

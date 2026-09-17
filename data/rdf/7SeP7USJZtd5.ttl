@@ -8,22 +8,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:7SeP7USJZtd5-4FWFPLvWebrM a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:dAMKocC6THAK ;
-    rdf:predicate <> ;
-    rdf:subject adi:7SeP7USJZtd5 .
-
-adi:7SeP7USJZtd5-RJUgivoLYKAC a rdf:Statement ;
+adi:7SeP7USJZtd5-7wUpT3Cdg9Lp a rdf:Statement ;
     rdf:object adi:h6rbpvv44fCy ;
     rdf:predicate <> ;
     rdf:subject adi:7SeP7USJZtd5 ;
     ns1:P304 "15" ;
     ns1:P958 "Isabella di Morra." .
 
+adi:7SeP7USJZtd5-BqnSv35mGYw6 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:dAMKocC6THAK ;
+    rdf:predicate <> ;
+    rdf:subject adi:7SeP7USJZtd5 .
+
+adi:7SeP7USJZtd5-gXM2PmWMGLXt a rdf:Statement ;
+    rdf:object adi:Up3JPoUhPHLL ;
+    rdf:predicate <> ;
+    rdf:subject adi:7SeP7USJZtd5 ;
+    ns1:P304 "310" ;
+    ns1:P958 "Isabella di Morra." .
+
 adi:7SeP7USJZtd5 a rdfs:Resource ;
     rdfs:label "D'un alto monte; ove si scorge il mare" ;
-    <> adi:dAMKocC6THAK,
+    <> adi:Up3JPoUhPHLL,
+        adi:dAMKocC6THAK,
         adi:h6rbpvv44fCy ;
     pdc:poeticType adi:B7F6S9cQhDK7 ;
     pdc:text """D'Un'alto monte; onde si scorge il mare,

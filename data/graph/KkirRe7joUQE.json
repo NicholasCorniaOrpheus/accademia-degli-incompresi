@@ -61,6 +61,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HowYBHGSRRpM",
+      "label": "De' Filosofi antichi, e de' Poeti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SqGAEzjPvbze",
       "label": "visitor",
       "class": "Concept",
@@ -89,6 +95,12 @@
       "label": "Qual vaga Philomena, che fuggita",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PW6j4RFLTyaa",
+      "label": "Il Meschino, altramente detto il Guerrino, fatto in ottava rima dalla signora Tullia d'Aragona",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UzZNWJEs6Uvu",
@@ -180,7 +192,17 @@
       "property": "related_to"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HowYBHGSRRpM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkirRe7joUQE",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwV6FqLNRz7V",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkirRe7joUQE",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PW6j4RFLTyaa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KkirRe7joUQE",
       "property": "contributor"
     },
@@ -248,6 +270,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9btJxu6ZTaQm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8sBpVgB8XmV",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HowYBHGSRRpM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PW6j4RFLTyaa",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HowYBHGSRRpM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwV6FqLNRz7V",

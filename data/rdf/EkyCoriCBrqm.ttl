@@ -7,23 +7,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:EkyCoriCBrqm-8vcDPd7NMJ2Y a rdf:Statement ;
+adi:EkyCoriCBrqm-daGs5yQb6bW9 a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:5tyj9gRyxuZn ;
+    rdf:predicate <> ;
+    rdf:subject adi:EkyCoriCBrqm .
+
+adi:EkyCoriCBrqm-faG5JhGqCHcw a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10686422> ;
     bf:heldBy adi:Vr34aVTZvrrW ;
     dcterms:publisher adi:kGHvG3x3xJSm ;
     wdt:P291 adi:f43HawKudsFv ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10686422/manifest> ;
-    rdf:object "N51bff7e283154cdab3e374783003e421" ;
+    rdf:object "N18e676d8d83e45c3a9f3ad21a5158392" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:EkyCoriCBrqm ;
     schema:datePublished "1607" ;
     schema:url <http://id.sbn.it/bid/RMLE031635> .
-
-adi:EkyCoriCBrqm-C3FsfoJxFWz8 a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:5tyj9gRyxuZn ;
-    rdf:predicate <> ;
-    rdf:subject adi:EkyCoriCBrqm .
 
 adi:EkyCoriCBrqm a rdfs:Resource ;
     rdfs:label "Le bravure del capitano Spavento" ;

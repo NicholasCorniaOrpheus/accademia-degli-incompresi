@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDGwYKXLMDxY",
+      "label": "secret",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C4vKBcnhcfRc",
+      "label": "Somniorum synesiorum, omnis generis insomina explicantes Libri IIII",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/82QpBSVi9MVV",
+      "label": "Chiuso in angusta parte Augusto parto",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C4vKBcnhcfRc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDGwYKXLMDxY",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/82QpBSVi9MVV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KDGwYKXLMDxY",
+      "property": "depicts"
+    }
+  ]
+}

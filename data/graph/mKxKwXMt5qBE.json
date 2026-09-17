@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mKxKwXMt5qBE",
+      "label": "(Palmer 2016)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AoyvxxG7MF4e",
+      "label": "Lorenzo Gualtieri",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5waSYNWy2kLi",
+      "label": "Libro de la sorte",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AoyvxxG7MF4e",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mKxKwXMt5qBE",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5waSYNWy2kLi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mKxKwXMt5qBE",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5waSYNWy2kLi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AoyvxxG7MF4e",
+      "property": "contributor"
+    }
+  ]
+}

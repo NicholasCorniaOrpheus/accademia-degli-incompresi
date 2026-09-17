@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5hqKMSxEexxW",
+      "label": "(Wilbourne 2009)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSXD5RFakPsM",
+      "label": "Virginia Ramponi-Andreini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N54BVqy5ih39",
+      "label": "Amor nello specchio commedia. Di Gio. Battista Andreini",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSXD5RFakPsM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5hqKMSxEexxW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N54BVqy5ih39",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5hqKMSxEexxW",
+      "property": "described_by_source"
+    }
+  ]
+}

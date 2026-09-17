@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BWRwWGKopnw8",
+      "label": "Library of Congress",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SxJC5rM8U5gG",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PmjEfBujwe6p",
+      "label": "Il Primo libro de Madrigali a cinque voci de Rinaldo Del Mel",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RUJmYEX88796",
+      "label": "Di Pietro Vinci Il terzo libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BWRwWGKopnw8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SxJC5rM8U5gG",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PmjEfBujwe6p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BWRwWGKopnw8",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RUJmYEX88796",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BWRwWGKopnw8",
+      "property": "has_version"
+    }
+  ]
+}

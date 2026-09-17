@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNAqJhKwTpci",
+      "label": "chaos",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JAnXs3dAvn7E",
+      "label": "Arte meravigliosa, ah, ben comprendo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwCskBRgvuFt",
+      "label": "philosophical concept",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eMbmy5t9onR6",
+      "label": "Tal da un impuro Chaos tu sciogli ancora",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNAqJhKwTpci",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwCskBRgvuFt",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JAnXs3dAvn7E",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNAqJhKwTpci",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eMbmy5t9onR6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TNAqJhKwTpci",
+      "property": "depicts"
+    }
+  ]
+}

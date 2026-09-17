@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "label": "Lucca",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2dqqasfTubaS",
+      "label": "Rime diverse d'alcune nobilissime, et virtuosissime donne",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aiMP77e9n6jm",
+      "label": "Vincenzo Busdraghi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXmiWNx4q2dL",
+      "label": "Accademia degli Oscuri di Lucca",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YW62bT6Q8Bv2",
+      "label": "Giovan Lorenzo Malpigli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "label": "Italy",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4iHmcMgjVRcQ",
+      "label": "Le seste rime della signora Laura Terracina di Napoli",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DW6rpfBNcoWe",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4oH8xYACJYfZ",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2dqqasfTubaS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aiMP77e9n6jm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXmiWNx4q2dL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YW62bT6Q8Bv2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4iHmcMgjVRcQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VCJUcFkyTK4q",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2dqqasfTubaS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aiMP77e9n6jm",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXmiWNx4q2dL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YW62bT6Q8Bv2",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YW62bT6Q8Bv2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dXmiWNx4q2dL",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4iHmcMgjVRcQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aiMP77e9n6jm",
+      "property": "has_version"
+    }
+  ]
+}

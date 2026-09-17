@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VZtqWesWUR6j",
+      "label": "Bischöfliche Zentralbibliothek Regensburg",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SxJC5rM8U5gG",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i4gnj2EQa9Th",
+      "label": "Effetti d'amore a quattro voci con una mascherata nel fine. Libro primo di Orazio Scaletta",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MMUQtRbdKJ9j",
+      "label": "Di Vincenzo Ruffo il Primo libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VZtqWesWUR6j",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SxJC5rM8U5gG",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i4gnj2EQa9Th",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VZtqWesWUR6j",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MMUQtRbdKJ9j",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VZtqWesWUR6j",
+      "property": "has_version"
+    }
+  ]
+}

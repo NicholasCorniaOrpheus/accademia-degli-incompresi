@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "label": "Alessandro Striggio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "label": "male",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "label": "Il cicalamento delle donne al bucato, et la caccia di Alessandro Striggio, a quattro, cinque, sei et sette voci. Con il gioco di primiera a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "label": "commedia dell'arte",
+      "class": "Concept",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Zanni%2C_Harlequin_and_Lucretia.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UXHYHXJAUCjA",
+      "label": "Il cicalamento delle donne al bucato. Et la caccia di Alessandro Striggio, con un lamento di Didone ad Enea, per la sua partenza",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "label": "Al vago e incerto gioco di primiera (Striggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GB3DPeNtxqwb",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5bZY447EzsJq",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UXHYHXJAUCjA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tXtVLNjEeQy",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UXHYHXJAUCjA",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UXHYHXJAUCjA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UXHYHXJAUCjA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LeNVLHNHKPVp",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kAeHmSyQi4Y8",
+      "property": "part_of"
+    }
+  ]
+}

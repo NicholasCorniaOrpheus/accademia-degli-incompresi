@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "label": "visitor",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3jeazDjq7nDh",
+      "label": "Isabella Andreini",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rime_d%27Isabella_Andreini_1603%2C_frontispiece%2C_engraved_portrait_-_Gallica_2014_%28adjusted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QdFW44M4GJNK",
+      "label": "Vincenza Armani",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QU5s8ryxpxQo",
+      "label": "Maddalena Campiglia",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "label": "Lucrezia Marinella",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lucrezia_Marinella_by_Giacomo_Piccini%2C_1652_%28cropped%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eC6CYv4dSnR8",
+      "label": "Accademia degli Innominati di Parma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C2WPmSh7SVps",
+      "label": "Tullia d'Aragona",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3jeazDjq7nDh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QdFW44M4GJNK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QU5s8ryxpxQo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eC6CYv4dSnR8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/C2WPmSh7SVps",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZV9CqTUYjUbx",
+      "property": "member_of"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "label": "Rime di Giouanni Soranzo gentilhuomo venetiano, fatte in lode della Litterata disputante Florinda",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SNid8LkJHvGj",
+      "label": "Giovanni Soranzo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSXD5RFakPsM",
+      "label": "Virginia Ramponi-Andreini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XeYHRQ8pYMmZ",
+      "label": "author",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RepeDD87PGtC",
+      "label": "Italian",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XZGwgoKdfsah",
+      "label": "dedicatee",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xBb3pZ9eMV5",
+      "label": "poetry collection",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V2FBabG88cac",
+      "label": "La Florinda tragedia di Gio. Battista Andreini comico Fedele",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lnq34dYLvLnq",
+      "label": "Genova",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CaXkJfwGDZN9",
+      "label": "praise",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5xBb3pZ9eMV5",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lnq34dYLvLnq",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSXD5RFakPsM",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XZGwgoKdfsah",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SNid8LkJHvGj",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XeYHRQ8pYMmZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CaXkJfwGDZN9",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V2FBabG88cac",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QxSFHQCcQvHH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RepeDD87PGtC",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XZGwgoKdfsah",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XeYHRQ8pYMmZ",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V2FBabG88cac",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XeYHRQ8pYMmZ",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V2FBabG88cac",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSXD5RFakPsM",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/V2FBabG88cac",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RepeDD87PGtC",
+      "property": "language"
+    }
+  ]
+}

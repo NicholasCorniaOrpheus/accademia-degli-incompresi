@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "label": "philosopher",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8yywG2JWB6Af",
+      "label": "Giulio Camillo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BHhHMh8JTPBA",
+      "label": "Annibale Pocaterra",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JxE7fAqmQiif",
+      "label": "Francesco Patrizi",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Frane_Petric.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j7xeN9rhukBE",
+      "label": "Giordano Bruno",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iy5xgVpqFxAh",
+      "label": "Giovanni Battista Della Porta",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XmybWPWk4TWJ",
+      "label": "Elena Cornaro Piscopia",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/by5LKsA9nKA2",
+      "label": "De' Filosofi antichi, e de' Poeti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZXSC9MhzoBEq",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8yywG2JWB6Af",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BHhHMh8JTPBA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JxE7fAqmQiif",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j7xeN9rhukBE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iy5xgVpqFxAh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XmybWPWk4TWJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/by5LKsA9nKA2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4ncKEnkuV7wU",
+      "property": "depicts"
+    }
+  ]
+}

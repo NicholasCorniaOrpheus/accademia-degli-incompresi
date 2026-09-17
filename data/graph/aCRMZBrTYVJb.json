@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "label": "(Schleuse 2015)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LpbTnRZ85Krt",
+      "label": "Il cicalamento delle donne al bucato, et la caccia di Alessandro Striggio, a quattro, cinque, sei et sette voci. Con il gioco di primiera a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KX7gkNCJn3uz",
+      "label": "Al vago e incerto gioco di primiera (Striggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "label": "madrigal comedy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HvpAaYzn7rFg",
+      "label": "Chi vuol veder un bosco folto e spesso (Vecchi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CjUe8L7qzipp",
+      "label": "Gerolamo Cardano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ibLveGZJsopp",
+      "label": "Orazio Vecchi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LpbTnRZ85Krt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KX7gkNCJn3uz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HvpAaYzn7rFg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HvpAaYzn7rFg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "based_on"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CjUe8L7qzipp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ibLveGZJsopp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KX7gkNCJn3uz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LpbTnRZ85Krt",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HvpAaYzn7rFg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ibLveGZJsopp",
+      "property": "contributor"
+    }
+  ]
+}

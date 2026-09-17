@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "label": "Isabella Villamarina",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bjsRqpx8Vu9N",
+      "label": "patron",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WLdMsB3oWAX5",
+      "label": "Salerno",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jdbLaMLgM4wp",
+      "label": "(Faini 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "label": "Ortensio Lando",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8nwjvXMDyYNf",
+      "label": "female",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FZTm4foWTqLh",
+      "label": "Quattro libri de dubbi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8nwjvXMDyYNf",
+      "property": "gender"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WLdMsB3oWAX5",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bjsRqpx8Vu9N",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bjsRqpx8Vu9N",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jdbLaMLgM4wp",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FZTm4foWTqLh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5fQm5GwADuPz",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gu2ipyuGjmKZ",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FZTm4foWTqLh",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jdbLaMLgM4wp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FZTm4foWTqLh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jdbLaMLgM4wp",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FZTm4foWTqLh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e2yrMwv3uyWt",
+      "property": "contributor"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WDdC9EyGBbTC",
+      "label": "gemstone",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tNzEMLhsGQf",
+      "label": "Noi siam Pastori che cantand'insieme (Fiesco)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qn97ecZyF55p",
+      "label": "natural entity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFYz5LeyB6Tf",
+      "label": "Deh perch'hor non ho io, Donna le rime",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WDdC9EyGBbTC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qn97ecZyF55p",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4tNzEMLhsGQf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WDdC9EyGBbTC",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UFYz5LeyB6Tf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WDdC9EyGBbTC",
+      "property": "depicts"
+    }
+  ]
+}

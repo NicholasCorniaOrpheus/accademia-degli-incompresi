@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VojhcGVfSfyV",
+      "label": "theatrical genre",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "label": "commedia dell'arte",
+      "class": "Concept",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Zanni%2C_Harlequin_and_Lucretia.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YUjZkmp5GSh5",
+      "label": "comedy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VojhcGVfSfyV",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YUjZkmp5GSh5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VojhcGVfSfyV",
+      "property": "instance_of"
+    }
+  ]
+}

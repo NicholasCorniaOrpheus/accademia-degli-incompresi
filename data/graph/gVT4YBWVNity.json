@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gVT4YBWVNity",
+      "label": "(Faricelli 2024)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8ZKKVmmMj48T",
+      "label": "Stanze transmutate del Ariosto con una canzone bellissima pastorale",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQ8g4ZKoGBa9",
+      "label": "Leonardo detto il Furlano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8ZKKVmmMj48T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gVT4YBWVNity",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8ZKKVmmMj48T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gVT4YBWVNity",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQ8g4ZKoGBa9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gVT4YBWVNity",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8ZKKVmmMj48T",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQ8g4ZKoGBa9",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQ8g4ZKoGBa9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8ZKKVmmMj48T",
+      "property": "notable_work"
+    }
+  ]
+}

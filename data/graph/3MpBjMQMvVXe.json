@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3MpBjMQMvVXe",
+      "label": "(Procaccioli 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SvGbARxCXVPx",
+      "label": "Girolamo Ruscelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3dPiCc7oQgAh",
+      "label": "Dionigi Atanagi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VkpbZgwzvqBN",
+      "label": "(Chiummo, Geremicca, and Tosini 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MPongyWkvHR5",
+      "label": "Tommaso Spica",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3MpBjMQMvVXe",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VkpbZgwzvqBN",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SvGbARxCXVPx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3MpBjMQMvVXe",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3dPiCc7oQgAh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3MpBjMQMvVXe",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MPongyWkvHR5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3MpBjMQMvVXe",
+      "property": "member_of"
+    }
+  ]
+}

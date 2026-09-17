@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W6KbmrghRZMo",
+      "label": "cetra",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "label": "type of musical instrument",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5YwjK4aAPTrS",
+      "label": "Vaghi augelletti, che tra frondi, e fiori",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W6KbmrghRZMo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5YwjK4aAPTrS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W6KbmrghRZMo",
+      "property": "depicts"
+    }
+  ]
+}

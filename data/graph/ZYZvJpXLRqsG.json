@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "label": "Allegory of Prudence",
+      "class": "EmblemClass",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Titian_-_Allegorie_der_Zeit.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HjmiZ5Zo5jQs",
+      "label": "Qual fu, qual è, qual fia",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Xq69CpzPScpJ",
+      "label": "(Bolzoni 2012)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G4hyrEMGWwkV",
+      "label": "time",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fBqLcjhp6tWB",
+      "label": "Tiziano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Td4oXnp6d2bf",
+      "label": "Di tre corpi è composto il Tempo alato",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Xq69CpzPScpJ",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G4hyrEMGWwkV",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fBqLcjhp6tWB",
+      "property": "used_by"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HjmiZ5Zo5jQs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Td4oXnp6d2bf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZYZvJpXLRqsG",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Td4oXnp6d2bf",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/G4hyrEMGWwkV",
+      "property": "depicts"
+    }
+  ]
+}

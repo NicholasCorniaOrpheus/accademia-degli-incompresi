@@ -15,6 +15,9 @@ contributor:
   - role: "[[author]]"
     value: "[[Isabella di Morra]]"
 part_of:
+  - value: "[[Libro quinto delle rime di diversi illustri signori napoletani]]"
+    section: Isabella di Morra.
+    pages: 310
   - section: Isabella di Morra.
     pages: 15
     value: "[[Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon]]"

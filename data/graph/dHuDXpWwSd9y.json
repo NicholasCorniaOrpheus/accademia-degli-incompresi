@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "label": "(Moroncini 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNkq3ERnjU5b",
+      "label": "(Everson, Reidy, and Sampson 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9m7sz2zTctQU",
+      "label": "Giuoco delle Virtù",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jUd3z8wfS9cS",
+      "label": "Accademia delle Virtù di Roma",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQUikgK2NzhE",
+      "label": "Commento di ser Agresto da Ficaruolo sopra la prima ficata del padre Siceo",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Ah6cUGVHpA4",
+      "label": "Formaggiata di Sere Stentato al serenissimo re della virtude",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNkq3ERnjU5b",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9m7sz2zTctQU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jUd3z8wfS9cS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jUd3z8wfS9cS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQUikgK2NzhE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQUikgK2NzhE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5Ah6cUGVHpA4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dHuDXpWwSd9y",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jUd3z8wfS9cS",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9m7sz2zTctQU",
+      "property": "notable_work"
+    }
+  ]
+}

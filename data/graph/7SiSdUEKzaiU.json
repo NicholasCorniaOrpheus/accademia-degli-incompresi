@@ -43,6 +43,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "label": "Al vago e incerto gioco di primiera (Striggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtwxJGbNdUY",
       "label": "tarot card game",
       "class": "Concept",
@@ -81,9 +87,19 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtwxJGbNdUY",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SiSdUEKzaiU",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9CeVDhwbT4n",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cJtwxJGbNdUY",
+      "property": "depicts"
     }
   ]
 }

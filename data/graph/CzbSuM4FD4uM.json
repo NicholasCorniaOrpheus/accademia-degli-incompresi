@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CzbSuM4FD4uM",
+      "label": "shelter",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M7qSLVxcShvC",
+      "label": "location",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AzHuTQW7Ci8A",
+      "label": "Non come soglio il folgorar pavento",
+      "class": "EmblemClass",
+      "image": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CzbSuM4FD4uM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M7qSLVxcShvC",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AzHuTQW7Ci8A",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CzbSuM4FD4uM",
+      "property": "subject"
+    }
+  ]
+}

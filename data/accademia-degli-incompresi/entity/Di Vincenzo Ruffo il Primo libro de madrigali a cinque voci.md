@@ -28,7 +28,7 @@ has_version:
     publisher: "[[Antonio Gardano]]"
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE045694
     external_source: https://gallica.bnf.fr/ark:/12148/bpt6k4500244v
-    iiif_manifest: https://gallica.bnf.fr/iiif/ark:/12148/bpt6k4500244v/manifest.json
+    IIIF_manifest: https://gallica.bnf.fr/iiif/ark:/12148/bpt6k4500244v/manifest.json
     note: Tenor only.
     holding_institution: "[[Bibliothèque nationale de France]]"
   - place_of_publication:

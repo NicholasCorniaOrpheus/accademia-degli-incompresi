@@ -8,22 +8,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LePW9MwKsiKm-R9s4EpiafwRq a rdf:Statement ;
+adi:LePW9MwKsiKm-AJop5itt5qZJ a rdf:Statement ;
     rdf:object adi:h6rbpvv44fCy ;
     rdf:predicate <> ;
     rdf:subject adi:LePW9MwKsiKm ;
     ns1:P304 "19" ;
     ns1:P958 "Isabella di Morra." .
 
-adi:LePW9MwKsiKm-fxivZ9CKrygK a rdf:Statement ;
+adi:LePW9MwKsiKm-PTU5JbsC2bUN a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:dAMKocC6THAK ;
     rdf:predicate <> ;
     rdf:subject adi:LePW9MwKsiKm .
 
+adi:LePW9MwKsiKm-kTJ37dPoxFPh a rdf:Statement ;
+    rdf:object adi:Up3JPoUhPHLL ;
+    rdf:predicate <> ;
+    rdf:subject adi:LePW9MwKsiKm ;
+    ns1:P304 "312" ;
+    ns1:P958 "Isabella di Morra." .
+
 adi:LePW9MwKsiKm a rdfs:Resource ;
     rdfs:label "Ecco ch'una altra volta oh valle inferna" ;
-    <> adi:dAMKocC6THAK,
+    <> adi:Up3JPoUhPHLL,
+        adi:dAMKocC6THAK,
         adi:h6rbpvv44fCy ;
     pdc:poeticType adi:B7F6S9cQhDK7 ;
     pdc:text """Ecco ch'una altra volta oh valle inferna;

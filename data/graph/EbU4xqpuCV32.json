@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EbU4xqpuCV32",
+      "label": "(Ross 2010)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "label": "Lucrezia Marinella",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lucrezia_Marinella_by_Giacomo_Piccini%2C_1652_%28cropped%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YueWzhZubzMz",
+      "label": "Arcadia felice",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EbU4xqpuCV32",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YueWzhZubzMz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EbU4xqpuCV32",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YueWzhZubzMz",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YueWzhZubzMz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YjAvRKuMTVFo",
+      "property": "contributor"
+    }
+  ]
+}

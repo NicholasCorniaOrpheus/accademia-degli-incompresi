@@ -7,22 +7,22 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LgvtnF7kZsg4-CaWZnSB2GWGU a rdf:Statement ;
+adi:LgvtnF7kZsg4-a32otaeARfmb a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/D_Angelica_di_M_Pietro_Aretino_due_primi/RkLk2QUtockC> ;
+    dcterms:publisher adi:hSAAJJdRXhj6 ;
+    wdt:P291 adi:f43HawKudsFv ;
+    rdf:object "Na88ea87d32724cd4a39a6f5763debf07" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LgvtnF7kZsg4 ;
+    schema:datePublished "1536" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002366> .
+
+adi:LgvtnF7kZsg4-fEpdPDwkHv5E a rdf:Statement ;
     dcterms:references adi:mzQMzWpG79QK ;
     wdt:P1480 adi:QWmtzgCRQ9wY ;
     rdf:object "1536" ;
     rdf:predicate <> ;
     rdf:subject adi:LgvtnF7kZsg4 .
-
-adi:LgvtnF7kZsg4-LnsfPph2cagn a rdf:Statement ;
-    bf:electronicLocator <https://www.google.be/books/edition/D_Angelica_di_M_Pietro_Aretino_due_primi/RkLk2QUtockC> ;
-    dcterms:publisher adi:hSAAJJdRXhj6 ;
-    wdt:P291 adi:f43HawKudsFv ;
-    rdf:object "Na851da040c5e4a74be3ca126d77747d6" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:LgvtnF7kZsg4 ;
-    schema:datePublished "1536" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002366> .
 
 adi:LgvtnF7kZsg4 a rdfs:Resource ;
     rdfs:label "D'Angelica di m. Pietro Aretino due primi canti" ;

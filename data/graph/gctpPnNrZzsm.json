@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "label": "voice",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "label": "type of musical instrument",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bSvCmhLAfnPA",
+      "label": "Le seconde musiche di Claudio Saracini",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g346b35RPBrr",
+      "label": "Madrigali e pazzarelle a due voci. Libro primo di Nicolò Rubini",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aejSY39eA7sc",
+      "label": "L'Euterpe di Domenico Brunetti",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZ873Dtk96c5",
+      "label": "Il Quarto Libro delle Canzonette Madrigali, et Arie alla romana a due voci di Radesca Enrico",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mDRnyuxVBEdo",
+      "label": "La Catena d'Adone",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bSvCmhLAfnPA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "property": "instrumentation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g346b35RPBrr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "property": "instrumentation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aejSY39eA7sc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "property": "instrumentation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZ873Dtk96c5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "property": "instrumentation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mDRnyuxVBEdo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gctpPnNrZzsm",
+      "property": "instrumentation"
+    }
+  ]
+}

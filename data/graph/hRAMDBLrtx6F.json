@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "label": "madrigal comedy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9BfqXeFh8xY",
+      "label": "Il cicalamento delle donne al bucato. Et la caccia di Alessandro Striggio, con un lamento di Didone ad Enea, per la sua partenza",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7XsN4YDhHwub",
+      "label": "type of musical work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "label": "(Schleuse 2015)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aCRMZBrTYVJb",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7XsN4YDhHwub",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M9BfqXeFh8xY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRAMDBLrtx6F",
+      "property": "subject"
+    }
+  ]
+}

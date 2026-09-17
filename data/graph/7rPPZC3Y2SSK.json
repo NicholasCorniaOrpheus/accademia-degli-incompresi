@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7rPPZC3Y2SSK",
+      "label": "lute",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "label": "type of musical instrument",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FeuTSPUyhPRd",
+      "label": "Qual Sirena apparì nell'età nostra?",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgG8uLdYMA2Y",
+      "label": "D'Astrea sudando a' gravi studi intorno",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fMoSqJm5tqAK",
+      "label": "Son vecchio innamorao (Agostini)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7rPPZC3Y2SSK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4jAMoEQW3zN5",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FeuTSPUyhPRd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7rPPZC3Y2SSK",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DgG8uLdYMA2Y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7rPPZC3Y2SSK",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fMoSqJm5tqAK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7rPPZC3Y2SSK",
+      "property": "depicts"
+    }
+  ]
+}

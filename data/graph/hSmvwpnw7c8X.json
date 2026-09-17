@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "label": "Dell'arte rappresentativa premeditata, ed all'improviso",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4c3gFMeeAsB",
+      "label": "Napoli",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "label": "commedia dell'arte",
+      "class": "Concept",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Zanni%2C_Harlequin_and_Lucretia.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGZmf8AyRAMD",
+      "label": "treatise",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SCUT4x7xqD6m",
+      "label": "S'odono e varie lingue, e personaggi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VK9WQmTrqeLg",
+      "label": "(Perrucci [1699] 2008)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MURmz6wcA7hV",
+      "label": "improvisational theater",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LhrfbfqSBr2p",
+      "label": "Andrea Perrucci",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VK9WQmTrqeLg",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hGZmf8AyRAMD",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4c3gFMeeAsB",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MURmz6wcA7hV",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SCUT4x7xqD6m",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LhrfbfqSBr2p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hSmvwpnw7c8X",
+      "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SCUT4x7xqD6m",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VK9WQmTrqeLg",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SCUT4x7xqD6m",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MURmz6wcA7hV",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SCUT4x7xqD6m",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LhrfbfqSBr2p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VK9WQmTrqeLg",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LhrfbfqSBr2p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MURmz6wcA7hV",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LhrfbfqSBr2p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AQtsVM7WaQnq",
+      "property": "interested_in"
+    }
+  ]
+}

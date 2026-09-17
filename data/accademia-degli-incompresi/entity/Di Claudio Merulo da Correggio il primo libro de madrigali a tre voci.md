@@ -23,7 +23,7 @@ has_version:
     publisher: "[[Angelo Gardano]]"
   - permalink: https://edit16.iccu.sbn.it/titolo/CNCE046902
     external_source: https://uurl.kbr.be/1562498
-    iiif_manifest: https://iiif.kbr.be/manifest/v3/56282
+    IIIF_manifest: https://iiif.kbr.be/manifest/v3/56282
     place_of_publication:
       - "[[Venezia]]"
     publication_date: 1580
@@ -31,7 +31,7 @@ has_version:
     note: Cantus
   - permalink: https://edit16.iccu.sbn.it/titolo/CNCE046902
     external_source: https://uurl.kbr.be/1562500
-    iiif_manifest: https://iiif.kbr.be/manifest/v3/56281
+    IIIF_manifest: https://iiif.kbr.be/manifest/v3/56281
     place_of_publication:
       - "[[Venezia]]"
     publication_date: 1580
@@ -39,7 +39,7 @@ has_version:
     note: Tenor
   - permalink: https://edit16.iccu.sbn.it/titolo/CNCE046902
     external_source: https://uurl.kbr.be/1562502
-    iiif_manifest: https://iiif.kbr.be/manifest/v3/56280
+    IIIF_manifest: https://iiif.kbr.be/manifest/v3/56280
     place_of_publication:
       - "[[Venezia]]"
     publication_date: 1580

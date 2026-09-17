@@ -6,23 +6,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:oQsd8MrHSmcQ-JzaS98WBAdV9 a rdf:Statement ;
+adi:oQsd8MrHSmcQ-7F9KW5MqrEFw a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:BarcvHNHhyjC ;
+    rdf:predicate <> ;
+    rdf:subject adi:oQsd8MrHSmcQ .
+
+adi:oQsd8MrHSmcQ-HTEKrteWaQZx a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10163838> ;
     bf:heldBy adi:Vr34aVTZvrrW ;
     dcterms:publisher adi:Ugjg95iYkpuR ;
     wdt:P291 adi:f43HawKudsFv ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10163838/manifest> ;
-    rdf:object "N68050baee62144ba946d02cc43b66e0b" ;
+    rdf:object "N1b33369854104a58a16d088edb750687" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:oQsd8MrHSmcQ ;
     schema:datePublished "1552" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017692> .
-
-adi:oQsd8MrHSmcQ-NRvNk3gdKYuT a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:BarcvHNHhyjC ;
-    rdf:predicate <> ;
-    rdf:subject adi:oQsd8MrHSmcQ .
 
 adi:oQsd8MrHSmcQ a rdfs:Resource ;
     rdfs:label "I marmi del Doni, academico peregrino" ;

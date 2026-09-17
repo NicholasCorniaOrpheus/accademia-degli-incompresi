@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gtYL2WpaK23p",
+      "label": "contrafactum",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lng6uEwyXVcT",
+      "label": "Donna qual sempre fui tal'esser voglio (Viola)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B9yvS6TTv4D2",
+      "label": "form of creative work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hdC4usG8tNNU",
+      "label": "Mi duol non haver stile (Agostini)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gtYL2WpaK23p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/B9yvS6TTv4D2",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lng6uEwyXVcT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gtYL2WpaK23p",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hdC4usG8tNNU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gtYL2WpaK23p",
+      "property": "instance_of"
+    }
+  ]
+}

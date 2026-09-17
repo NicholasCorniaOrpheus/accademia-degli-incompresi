@@ -14,6 +14,9 @@ contributor:
     value: "[[Isabella di Morra]]"
 part_of:
   - section: Isabella di Morra.
+    pages: 312
+    value: "[[Libro quinto delle rime di diversi illustri signori napoletani]]"
+  - section: Isabella di Morra.
     pages: 19
     value: "[[Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon]]"
 local_asset_path: ./assets/poems/ecco_ch'una_altra_volta_oh_valle_inferna

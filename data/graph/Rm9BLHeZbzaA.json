@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Rm9BLHeZbzaA",
+      "label": "pride",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XFqPh4DeRHYD",
+      "label": "Gionto in Alfea con temerario orgoglio",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TMqYm7jx32G4",
+      "label": "personality trait",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBUty6nohHqM",
+      "label": "Armate voi l'infaticabil mano",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Rm9BLHeZbzaA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TMqYm7jx32G4",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XFqPh4DeRHYD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Rm9BLHeZbzaA",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBUty6nohHqM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Rm9BLHeZbzaA",
+      "property": "depicts"
+    }
+  ]
+}
