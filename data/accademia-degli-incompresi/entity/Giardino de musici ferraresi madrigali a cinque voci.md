@@ -28,6 +28,8 @@ has_version:
     note: Only altus, tenor and bassus survive.
 contributor:
   - role: "[[composer]]"
+    value: "[[Alessandro Milleville]]"
+  - role: "[[composer]]"
     value: "[[Lodovico Agostini]]"
   - role: "[[composer]]"
     value: "[[Giulio Eremita]]"
@@ -44,4 +46,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: partial
 ---

@@ -20,6 +20,7 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | perche | perché | |
 | poi che| poiché| |
 | pur che| purché| |
+| fin che| finché| |
 | ò pur | oppur | |
 | cosi / si | così / sì | |
 | sù la | sulla | |

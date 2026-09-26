@@ -19,6 +19,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XgMMtHD9aPsW",
+      "label": "Donne leggiadre, ne' cui lumi ardenti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NAvcJHrBT6mr",
       "label": "Bologna",
       "class": "Place",
@@ -37,10 +43,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/98pYVVkGSz2R",
+      "label": "Anchor che da voi stelle siate tali",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "label": "La gloria delle donne di Giulio Cesare Croce",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvSLCUUSbsiN",
       "label": "Astuzie sottilissime di Bertoldo",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZzN3nqMYX3Vj",
+      "label": "Non dimen sento in me, sì grave sdegno",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VKfBkjCWpLCB",
@@ -93,7 +117,27 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XgMMtHD9aPsW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfF8tq3cpZ9P",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/98pYVVkGSz2R",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfF8tq3cpZ9P",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfF8tq3cpZ9P",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvSLCUUSbsiN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfF8tq3cpZ9P",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZzN3nqMYX3Vj",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZfF8tq3cpZ9P",
       "property": "contributor"
     },
@@ -108,6 +152,21 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XgMMtHD9aPsW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/98pYVVkGSz2R",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NAvcJHrBT6mr",
+      "property": "has_version"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvSLCUUSbsiN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NAvcJHrBT6mr",
       "property": "has_version"
@@ -116,6 +175,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PvSLCUUSbsiN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAjWJgtLnHhs",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZzN3nqMYX3Vj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dApepuXKvEo3",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZaTzczedg7Mk",

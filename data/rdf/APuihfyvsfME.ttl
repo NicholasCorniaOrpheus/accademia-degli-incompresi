@@ -7,20 +7,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:APuihfyvsfME-TnnTciqft2Sx a rdf:Statement ;
+adi:APuihfyvsfME-JvpmuroUYMw6 a rdf:Statement ;
+    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
+    bf:heldBy adi:C2TRdPGCZXK5 ;
+    wdt:P291 adi:P5ipTFsK5dJG ;
+    rdf:object "N5d4b483b42514c6dbce0237845ae50be" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:APuihfyvsfME ;
+    schema:datePublished "1665" .
+
+adi:APuihfyvsfME-frYGHsK9E8Dy a rdf:Statement ;
     bf:Role adi:UHzA5avQDdMJ ;
     rdf:object adi:gGnmBbze2MnW ;
     rdf:predicate <> ;
     rdf:subject adi:APuihfyvsfME .
-
-adi:APuihfyvsfME-V9yBjyMti3dL a rdf:Statement ;
-    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
-    bf:heldBy adi:C2TRdPGCZXK5 ;
-    wdt:P291 adi:P5ipTFsK5dJG ;
-    rdf:object "N25d7c7b2ca294d57ad0a79ceb42e2fb4" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:APuihfyvsfME ;
-    schema:datePublished "1665" .
 
 adi:APuihfyvsfME a rdfs:Resource ;
     rdfs:label "Arithmologia sive De abditis Numerorum mysteriis" ;

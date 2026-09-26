@@ -17,9 +17,13 @@ has_version:
   - place_of_publication:
       - "[[Torino]]"
     permalink: https://edit16.iccu.sbn.it/titolo/CNCE045522
-    note: 
+    note:
     external_source: https://www.loc.gov/item/2010456603
+    publication_date: 1581
+    holding_institution: "[[Library of Congress]]"
 contributor:
+  - role: "[[composer]]"
+    value: "[[Giovanni Pietro Cottone]]"
 subject:
 has_part:
 instrumentation:
@@ -33,4 +37,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

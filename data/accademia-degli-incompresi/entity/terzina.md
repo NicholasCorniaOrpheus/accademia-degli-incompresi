@@ -7,5 +7,7 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - tercet
+  - terza rima
 instance_of: "[[poetic form]]"
 ---

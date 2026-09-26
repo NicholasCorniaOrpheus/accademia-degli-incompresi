@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SH5N6QtfPwuj-5ApA29fZXQus a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:Lr49pffXW4Ah ;
+    rdf:predicate <> ;
+    rdf:subject adi:SH5N6QtfPwuj .
+
+adi:SH5N6QtfPwuj-RoN2QEEPdEJp a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10813392> ;
+    bf:heldBy adi:Vr34aVTZvrrW ;
+    dcterms:publisher adi:3CAnZDwk8HLj ;
+    wdt:P291 adi:f43HawKudsFv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10813392/manifest> ;
+    rdf:object "N925f5cffaf444a4aa3c034fbd16a2033" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:SH5N6QtfPwuj ;
+    schema:datePublished "1602" ;
+    schema:url <http://id.sbn.it/bid/UBOE029483> .
+
+adi:SH5N6QtfPwuj a rdfs:Resource ;
+    rdfs:label "I tre giardini de' madrigali del Costante, Academico Cospirante, Maurizio Moro" ;
+    <> adi:Lr49pffXW4Ah,
+        "1602" ;
+    dcterms:identifier <http://id.sbn.it/bid/UBOE029483>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F005770020> ;
+    dcterms:title "I tre giardini de' madrigali del Costante, Academico Cospirante, Mauritio Moro Vinetiano. Con Il ghiaccio, et il foco d'Amore, le Furie ultrici, & il Ritratto delle Cortigiane. Giardino primo (-terzo)" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:QXGbSHBTa8pT ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:NbBMYT8M5qdr,
+        adi:Rkqg3J6afECo,
+        adi:bKuQkt4rpM43,
+        adi:moueSHsQUEmf .
+

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QLwvubfvzef7",
+      "label": "House of Sanseverino",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "label": "Barbara Sanseverino",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Barbara_Sanseverino.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/22qpxCwj4NSZ",
+      "label": "family",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QLwvubfvzef7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/22qpxCwj4NSZ",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QLwvubfvzef7",
+      "property": "member_of"
+    }
+  ]
+}

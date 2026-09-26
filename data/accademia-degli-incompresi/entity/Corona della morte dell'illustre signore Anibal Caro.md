@@ -31,7 +31,7 @@ has_version:
     note: Altus and Bassus only.
   - publication_date: 1568
     publisher: "[[Girolamo Scotto]]"
-    holding_institution: 
+    holding_institution:
     external_source: http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R220/
     place_of_publication:
       - "[[Venezia]]"
@@ -54,4 +54,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

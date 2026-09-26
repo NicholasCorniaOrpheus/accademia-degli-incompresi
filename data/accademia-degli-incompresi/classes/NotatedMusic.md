@@ -17,11 +17,6 @@ fields:
       itemDisplayTemplate: ""
     path: ""
     id: 6K9W9I
-  - name: reference
-    type: Input
-    options: {}
-    path: 6K9W9I
-    id: N1Vv4b
   - name: sourcing_circumstances
     type: File
     options: {}
@@ -162,7 +157,12 @@ fields:
     options: {}
     path: HuKvbq
     id: uUEOJe
-version: "2.56"
+  - name: reference
+    type: File
+    options: {}
+    path: 6K9W9I
+    id: tZbqgY
+version: "2.60"
 limit: 20
 mapWithTag: false
 icon: package
@@ -186,7 +186,7 @@ fieldsOrder:
   - 6K9W9I
   - zybiuh
   - Ad4FlQ
-  - N1Vv4b
+  - tZbqgY
   - ZE4Q64
   - 3k5SLn
   - GOUnZr

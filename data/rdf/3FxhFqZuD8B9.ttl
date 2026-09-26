@@ -6,39 +6,47 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3FxhFqZuD8B9-342K85KE7cb2 a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFmEeeyWJZMt" ;
-    rdf:predicate <> ;
-    rdf:subject adi:3FxhFqZuD8B9 .
-
-adi:3FxhFqZuD8B9-3pwYy7MymMwC a rdf:Statement ;
-    wdt:P1114 "1" ;
-    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
-    rdf:predicate <> ;
-    rdf:subject adi:3FxhFqZuD8B9 .
-
-adi:3FxhFqZuD8B9-8Ma5AYovLHTw a rdf:Statement ;
+adi:3FxhFqZuD8B9-3KDdUb7Ac7dh a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UffZZ8mohzzQ" ;
     rdf:predicate <> ;
     rdf:subject adi:3FxhFqZuD8B9 .
 
-adi:3FxhFqZuD8B9-Kf6VDCRpuS5o a rdf:Statement ;
+adi:3FxhFqZuD8B9-BeHMBBvwajeB a rdf:Statement ;
     bf:electronicLocator <https://www.loc.gov/item/2010456603> ;
+    bf:heldBy adi:hAGyHnPbU7PY ;
     wdt:P291 adi:ZkFJYwSwU62p ;
-    rdf:object "Nfbc6023fe76e47b38e171c2d0a2951a2" ;
+    rdf:object "N95d88fa8484e4a9e8b3648f63a973ca2" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:3FxhFqZuD8B9 ;
+    schema:datePublished "1581" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045522> .
 
-adi:3FxhFqZuD8B9-gChDf74DjwsJ a rdf:Statement ;
+adi:3FxhFqZuD8B9-KkNjNrqQWwrt a rdf:Statement ;
+    bf:Role adi:LeNVLHNHKPVp ;
+    rdf:object adi:oBBFNavtyhgZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:3FxhFqZuD8B9 .
+
+adi:3FxhFqZuD8B9-R4WyG3ENk4dv a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6xVaVEAi3tdM" ;
     rdf:predicate <> ;
     rdf:subject adi:3FxhFqZuD8B9 .
 
-adi:3FxhFqZuD8B9-ikEb3eWsPF7c a rdf:Statement ;
+adi:3FxhFqZuD8B9-RLUPxFRBipuL a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mFmEeeyWJZMt" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3FxhFqZuD8B9 .
+
+adi:3FxhFqZuD8B9-gr5h9AAyyoeM a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5uHH8y5Q43eU" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3FxhFqZuD8B9 .
+
+adi:3FxhFqZuD8B9-nKtuXDReoeso a rdf:Statement ;
     wdt:P1114 "1" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kSRFAFQb4mfa" ;
     rdf:predicate <> ;
@@ -46,6 +54,8 @@ adi:3FxhFqZuD8B9-ikEb3eWsPF7c a rdf:Statement ;
 
 adi:3FxhFqZuD8B9 a rdfs:Resource ;
     rdfs:label "Di Giovan Pietro Cottone musico del serenissimo duca di Savoia, il secondo libro de madrigali a cinque voci" ;
+    <> adi:oBBFNavtyhgZ,
+        "1581" ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045522>,
         <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV05760010>,
         <https://rism.online/sources/990011621> ;

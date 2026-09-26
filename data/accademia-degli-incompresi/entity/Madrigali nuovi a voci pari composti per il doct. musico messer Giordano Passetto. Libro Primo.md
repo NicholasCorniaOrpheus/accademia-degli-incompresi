@@ -22,6 +22,16 @@ has_version:
     holding_institution: "[[Munich Digitization Center]]"
     external_source: https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00088762
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00088762/manifest
+    note: Tenor
+  - permalink: https://edit16.iccu.sbn.it/titolo/CNCE044997
+    publisher: "[[Antonio Gardano]]"
+    publication_date: 1541
+    place_of_publication:
+      - "[[Venezia]]"
+    holding_institution: "[[Austrian National Library]]"
+    external_source:
+    IIIF_manifest: 
+    note: Cantus, Altus and Bassus digitized.
   - permalink: https://edit16.iccu.sbn.it/titolo/CNCE044997
     publisher: "[[Antonio Gardano]]"
     publication_date: 1541
@@ -41,4 +51,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

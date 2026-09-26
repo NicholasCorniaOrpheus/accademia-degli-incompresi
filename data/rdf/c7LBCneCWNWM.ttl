@@ -8,31 +8,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:c7LBCneCWNWM-HGnJKnZJgZMU a rdf:Statement ;
-    bf:Role adi:UHzA5avQDdMJ ;
-    rdf:object adi:cS2ZRx7FP2Cu ;
-    rdf:predicate <> ;
-    rdf:subject adi:c7LBCneCWNWM .
+adi:c7LBCneCWNWM-CybfZP9jLCLe a rdf:Statement ;
+    bf:Note "Manuscript" ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b100343863> ;
+    bf:heldBy adi:S8XWwiEFCvS3 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b100343863/manifest.json> ;
+    rdf:object "N1e07684fb3b74749a4cee3842ea0e0e5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:c7LBCneCWNWM ;
+    schema:url <https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101819> .
 
-adi:c7LBCneCWNWM-MzkHed9ExPbv a rdf:Statement ;
+adi:c7LBCneCWNWM-TzAVNAuzijUc a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=syrkW5qLdloC> ;
     dcterms:publisher adi:4XfyGZs6iYqV ;
     wdt:P291 adi:gLeh7vn7FH8w ;
-    rdf:object "Ncc665ee5224b4162a9ac0a6656c89669" ;
+    rdf:object "N608ac03f628140c7b88cb811fdcb31b6" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:c7LBCneCWNWM ;
     schema:datePublished "1606" ;
     schema:url <http://id.sbn.it/bid/BVEE025465> .
 
-adi:c7LBCneCWNWM-YxAnhuXEV2rA a rdf:Statement ;
-    bf:Note "Manuscript" ;
-    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b100343863> ;
-    bf:heldBy adi:S8XWwiEFCvS3 ;
-    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b100343863/manifest.json> ;
-    rdf:object "Nfc2170d6529b4c16b169fdd274f20425" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:c7LBCneCWNWM ;
-    schema:url <https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101819> .
+adi:c7LBCneCWNWM-fZs28fDgCrad a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:cS2ZRx7FP2Cu ;
+    rdf:predicate <> ;
+    rdf:subject adi:c7LBCneCWNWM .
 
 adi:c7LBCneCWNWM a rdfs:Resource ;
     rdfs:label "La Florinda tragedia di Gio. Battista Andreini comico Fedele" ;

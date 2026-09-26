@@ -39,6 +39,14 @@ has_version:
     external_source: 
     note: Cantus, Altus, Bassus and Quintus.
     holding_institution: "[[Bischöfliche Zentralbibliothek Regensburg]]"
+  - place_of_publication:
+      - "[[Venezia]]"
+    publication_date: 1555
+    publisher: "[[Antonio Gardano]]"
+    permalink: https://mdz-nbn-resolving.de/details:bsb00080889
+    external_source: https://www.digitale-sammlungen.de/en/view/bsb00080889
+    IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080889/manifest
+    holding_institution: "[[Munich Digitization Center]]"
 contributor:
   - role: "[[composer]]"
     value: "[[Vincenzo Ruffo]]"

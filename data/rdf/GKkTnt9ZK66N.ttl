@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GKkTnt9ZK66N-E35G8cn5qRXu a rdf:Statement ;
+    bf:Role adi:UHzA5avQDdMJ ;
+    rdf:object adi:2hzh3As9hqrE ;
+    rdf:predicate <> ;
+    rdf:subject adi:GKkTnt9ZK66N .
+
+adi:GKkTnt9ZK66N-bwQUcAg4yovm a rdf:Statement ;
+    rdf:object adi:ZmhzcSbPoocH ;
+    rdf:predicate <> ;
+    rdf:subject adi:GKkTnt9ZK66N ;
+    ns1:P304 "194" ;
+    ns1:P958 "Del S. Cavalier Guerini." .
+
+adi:GKkTnt9ZK66N-izJbs6rZ9Dx3 a rdf:Statement ;
+    bf:Role adi:CBJEfZgNCiU3 ;
+    rdf:object adi:54b5UuCREMA4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:GKkTnt9ZK66N .
+
+adi:GKkTnt9ZK66N a rdfs:Resource ;
+    rdfs:label "Ama, ben dice Amore" ;
+    <> adi:2hzh3As9hqrE,
+        adi:54b5UuCREMA4,
+        adi:ZmhzcSbPoocH ;
+    pdc:poeticType adi:LEWu9yEF83UP ;
+    pdc:text """AMA, ben dice Amore,
+Gli occhi, il viso, le chiome
+Di questa Dea; ch'angelica beltate
+Non sta senza pietate.
+Ma, lasso, il fero nome
+Par che nel cor mi dica,
+Fuggi d'Amor, e di pietà nemica
+Barbara Donna, che gli amanti ancide;
+Poi li burla, e sen'ride.""" ;
+    dc:subject adi:duqiuAVT6ZNg ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/034300000101_PPPP00148700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:CZntFEbttASU,
+        adi:dM6ceQfzK2pQ ;
+    wdt:P31 adi:Wvnraxko77uh ;
+    wdt:P870 adi:nKCWTNSaUJQU ;
+    ns1:P180 adi:54b5UuCREMA4,
+        adi:GiYPc75HZAb3,
+        adi:Rq5MFqmMSfYb,
+        adi:iWa8EnwdNBqa ;
+    ns1:P2551 adi:FPYzaHuDcPWK,
+        adi:YZkrDgDqrsaF .
+

@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZVdvfFv78KNu-5FKHcYPcQSEU a rdf:Statement ;
+    bf:heldBy adi:DoWoU567wmiV ;
+    rdf:object "16454" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZVdvfFv78KNu .
+
+adi:ZVdvfFv78KNu-mYu3cF5yNzgq a rdf:Statement ;
+    dcterms:references adi:DoWoU567wmiV ;
+    rdf:object adi:5jRWaYbHHcZc ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZVdvfFv78KNu .
+
+adi:ZVdvfFv78KNu a rdfs:Resource ;
+    rdfs:label "Gioseffo Zarlino" ;
+    <> adi:5jRWaYbHHcZc,
+        adi:LeNVLHNHKPVp,
+        adi:Ytfg3zGZnRZ8,
+        adi:f43HawKudsFv ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:GB3DPeNtxqwb ;
+    schema:gender adi:5bZY447EzsJq .
+

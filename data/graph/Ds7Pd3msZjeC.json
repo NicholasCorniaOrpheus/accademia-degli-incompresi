@@ -49,6 +49,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a8urfriJNwUr",
+      "label": "Mentre del mio buon Caro il fin ripenso (Zarlino)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ENq7SsHPfC3T",
       "label": "Del tempio alla divina signora donna Giovanna d'Aragona",
       "class": "Book",
@@ -59,6 +65,12 @@
       "label": "(Moroncini 2017)",
       "class": "BibliographicResource",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3SUbnt6q7i4J",
+      "label": "Poiché son le due luci al pianto intense (Grisonio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DoWoU567wmiV",
@@ -130,9 +142,19 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a8urfriJNwUr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ds7Pd3msZjeC",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ENq7SsHPfC3T",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ds7Pd3msZjeC",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3SUbnt6q7i4J",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ds7Pd3msZjeC",
+      "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8JxJRdNC7NyL",
@@ -183,6 +205,31 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AaLj6CFL44sm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5ZmX4c5h8CRb",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a8urfriJNwUr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a8urfriJNwUr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4yT45zzaDpt",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a8urfriJNwUr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3SUbnt6q7i4J",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4AB2zhiGQJga",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3SUbnt6q7i4J",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4yT45zzaDpt",
+      "property": "part_of"
     }
   ]
 }

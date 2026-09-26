@@ -12,7 +12,7 @@ described_by_source:
 image:
 aliases:
 instance_of:
-  - "[[music score]]"
+  - "[[partbook]]"
 title: Canzonette ed arie a tre voci di Gio. Ghizzolo da B rescia novamente composte, et date in luce. Libro Primo
 inception:
 has_version:
@@ -22,6 +22,13 @@ has_version:
       - "[[Venezia]]"
     publisher: "[[Alessandro Raverio]]"
     external_source: http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z217/
+  - permalink: http://id.sbn.it/bid/MUS0151843
+    publication_date: 1609
+    place_of_publication:
+      - "[[Venezia]]"
+    publisher: "[[Alessandro Raverio]]"
+    holding_institution: "[[Austrian National Library]]"
+    note: Cantus or Tenor part digitized
 contributor:
   - role: "[[composer]]"
     value: "[[Giovanni Ghizzolo]]"
@@ -32,4 +39,5 @@ instrumentation:
     value: "[[bassus]]"
   - quantity: 2
     value: "[[cantus]]"
+digitized: complete
 ---

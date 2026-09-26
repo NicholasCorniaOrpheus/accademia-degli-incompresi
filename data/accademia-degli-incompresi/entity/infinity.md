@@ -11,6 +11,7 @@ aliases:
   - infinito
   - infiniti
   - eterna
+  - eternity
 instance_of:
   - "[[philosophical concept]]"
 ---

@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "label": "(Durante and Martellotti 2000)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bqqxFsTtJfNv",
+      "label": "Manuscript F. 1358 della Biblioteca Estense di Modena",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GKkTnt9ZK66N",
+      "label": "Ama, ben dice Amore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CRzsbegDL9Sk",
+      "label": "Ama, ben dice Amore (Virchi)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BQbXxv5E9Srh",
+      "label": "Paolo Virchi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "label": "Barbara Sanseverino",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Barbara_Sanseverino.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bqqxFsTtJfNv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GKkTnt9ZK66N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CRzsbegDL9Sk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BQbXxv5E9Srh",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CZntFEbttASU",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bqqxFsTtJfNv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BQbXxv5E9Srh",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GKkTnt9ZK66N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GKkTnt9ZK66N",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/54b5UuCREMA4",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CRzsbegDL9Sk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bqqxFsTtJfNv",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CRzsbegDL9Sk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GKkTnt9ZK66N",
+      "property": "based_on"
+    }
+  ]
+}
