@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:e9NexiYwPaEc-QfZfZG4iwjXE a rdf:Statement ;
+    rdf:object adi:6PtpfEAH4kyX ;
+    rdf:predicate <> ;
+    rdf:subject adi:e9NexiYwPaEc ;
+    ns1:P304 "43" ;
+    ns1:P958 "Amore. Del Sig. Cavalliero Vincenzo Panciatichi. Cartello Primo" ;
+    schema:volumeNumber "1" .
+
+adi:e9NexiYwPaEc-RgD5ChTSGEKR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Ran6edubGcts ;
+    rdf:predicate <> ;
+    rdf:subject adi:e9NexiYwPaEc .
+
+adi:e9NexiYwPaEc a rdfs:Resource ;
+    rdfs:label "Vibrate altere Donne a'sen che tardi" ;
+    <> adi:6PtpfEAH4kyX,
+        adi:Ran6edubGcts ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Vibrate altere Donne a' sen che tardi
+Conosciuti han di voi l'eterno pregio,
+In vece d'armi gl'amorosi sguardi;
+E portate di lor superbo fregio
+Io perché nullo indugio a me ritardi,
+Vittoria eccelsa, feritore egregio
+Ne' vaghi volti vostri il tempo, e l'armi
+Sceglio, de l'aspra ingiuria a vendicarmi.""" ;
+    dc:subject adi:KuorvRGvXbTz,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:ErtwweV8Gvuw,
+        adi:LBUMoVayqW8X ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

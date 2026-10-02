@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4ngWnihZYSUK-3LTLzyktGuJs a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6AzxMx4vDePE ;
+    rdf:predicate <> ;
+    rdf:subject adi:4ngWnihZYSUK .
+
+adi:4ngWnihZYSUK-hRn2iuKQx5HQ a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=Nl0Yj06GQqQC> ;
+    dcterms:publisher adi:FL4UQDb2xruF ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "Nab18e2719ff04f42b12932beb6773a8b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:4ngWnihZYSUK ;
+    schema:datePublished "1549" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE019198> .
+
+adi:4ngWnihZYSUK a rdfs:Resource ;
+    rdfs:label "Le rime di m. Agnolo Firenzuola fiorentino" ;
+    <> adi:6AzxMx4vDePE,
+        "1549" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE019198>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F003930010> ;
+    dcterms:title "Le rime di m. Agnolo Firenzuola fiorentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:W3mUzumwy75A-RT9Npo4CS7jV a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:W3mUzumwy75A .
+
+adi:W3mUzumwy75A-j9FpVtvYdJwz a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:8Kq7n5TZxTnW ;
+    rdf:predicate <> ;
+    rdf:subject adi:W3mUzumwy75A .
+
+adi:W3mUzumwy75A a rdfs:Resource ;
+    rdfs:label "Ruggiadose dolcezze in matutini (Mosto)" ;
+    <> adi:8Hc54xeA8ihZ,
+        adi:8Kq7n5TZxTnW,
+        adi:KHnKLLVoA5yf,
+        adi:ezkf6CsiwvNL ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

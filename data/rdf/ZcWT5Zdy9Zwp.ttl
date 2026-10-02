@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZcWT5Zdy9Zwp-6iJNYM4zmaKq a rdf:Statement ;
+    dcterms:references adi:6TbtBehFUF3E ;
+    rdf:object adi:cn2nwNxEPhn9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZcWT5Zdy9Zwp .
+
+adi:ZcWT5Zdy9Zwp-8BhM3rNWcQat a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "20353" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZcWT5Zdy9Zwp .
+
+adi:ZcWT5Zdy9Zwp-EGWczesNAGpn a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:NHx6kTUABgvu ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZcWT5Zdy9Zwp .
+
+adi:ZcWT5Zdy9Zwp a rdfs:Resource ;
+    rdfs:label "Girolamo Parabosco" ;
+    <> adi:3pU843Lma47u,
+        adi:LwQKHQGXaPrg,
+        adi:NHx6kTUABgvu,
+        adi:cn2nwNxEPhn9 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q29300> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

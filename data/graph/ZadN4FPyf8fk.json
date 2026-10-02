@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZadN4FPyf8fk",
+      "label": "Zeus",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AimPNFABwR38",
+      "label": "Non come soglio il folgorar pavento",
+      "class": "EmblemClass",
+      "image": ""
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9w8iYcz955Kd",
+      "label": "mythical character",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CyK3nNqd9PsU",
+      "label": "Quel Vivo Sol, ch'a la mia vita oscura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQN5zh3RvnSg",
+      "label": "Care gioie, che le noie",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZadN4FPyf8fk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9w8iYcz955Kd",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AimPNFABwR38",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZadN4FPyf8fk",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CyK3nNqd9PsU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZadN4FPyf8fk",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQN5zh3RvnSg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZadN4FPyf8fk",
+      "property": "depicts"
+    }
+  ]
+}

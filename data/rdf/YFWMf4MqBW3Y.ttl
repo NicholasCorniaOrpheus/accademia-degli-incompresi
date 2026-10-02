@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YFWMf4MqBW3Y-6nDZmx2nxoxo a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=IxBsOqwFe44C> ;
+    dcterms:publisher adi:DVCyvwTPCuKw ;
+    wdt:P291 adi:PSSozWnHJJHx ;
+    rdf:object "N168a754ae84d42c68779a58dd7ab7820" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YFWMf4MqBW3Y ;
+    schema:datePublished "1558" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055621> .
+
+adi:YFWMf4MqBW3Y-KkAacJnCG5JY a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4qz9ARSJbUuJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:YFWMf4MqBW3Y .
+
+adi:YFWMf4MqBW3Y a rdfs:Resource ;
+    rdfs:label "Le seste rime della signora Laura Terracina di Napoli" ;
+    <> adi:4qz9ARSJbUuJ,
+        "1558" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE055621>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/009070010> ;
+    dcterms:title "Le seste rime della signora Laura Terracina di Napoli. Nuouamente stampate" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:PXXpcDi5cmLa,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

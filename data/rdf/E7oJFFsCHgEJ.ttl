@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:E7oJFFsCHgEJ-LbdGrzhEFMcA a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:S5X6hHgiMruv ;
+    rdf:predicate <> ;
+    rdf:subject adi:E7oJFFsCHgEJ .
+
+adi:E7oJFFsCHgEJ-ezWkBxF3fr2S a rdf:Statement ;
+    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/VFdGblZHVmpZU0F0SUVsRFExVV8_/b2FpOnd3dy5pbnRlcm5ldGN1bHR1cmFsZS5zYm4uaXQvVGVjYToyMDpOVDAwMDA6TjpVTTFFMDA4MDgx/manifest.json> ;
+    rdf:object "N6f405d9c1dcb422c9e270e5c358fe839" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:E7oJFFsCHgEJ ;
+    schema:datePublished "1628" ;
+    schema:url <http://id.sbn.it/bid/UM1E008081> .
+
+adi:E7oJFFsCHgEJ a rdfs:Resource ;
+    rdfs:label "Rime di Francesca Turina Bufalini" ;
+    <> adi:S5X6hHgiMruv,
+        "1628" ;
+    dcterms:identifier <http://id.sbn.it/bid/UM1E008081> ;
+    dcterms:title "Rime di Francesca Turina Bufalini, da Città di Castello. All'illustris. & eccellentis. signora donna Anna Colonna" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

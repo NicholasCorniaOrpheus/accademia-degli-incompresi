@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MZhwN3rRpy8x-QgYR6VXrAj8v a rdf:Statement ;
+    bf:electronicLocator <https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t7fr2qs3j> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N3076d49e6d72484abc338125bdd2638e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MZhwN3rRpy8x ;
+    schema:datePublished "1545" ;
+    schema:url <https://hdl.handle.net/2027/gri.ark:/13960/t7fr2qs3j> .
+
+adi:MZhwN3rRpy8x-VFS5ho3CYdXF a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=OIusG9Td-fwC> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nfb900941f9d64d25b20334719678e4ca" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MZhwN3rRpy8x ;
+    schema:datePublished "1544" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009895> .
+
+adi:MZhwN3rRpy8x-XBdCNonPkNgM a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:VGVHbg5uSE8V ;
+    rdf:predicate <> ;
+    rdf:subject adi:MZhwN3rRpy8x .
+
+adi:MZhwN3rRpy8x a rdfs:Resource ;
+    rdfs:label "Madrigali del magnifico signor cavalier Luigi Cassola" ;
+    <> adi:VGVHbg5uSE8V,
+        "1544" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE009895>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/002250010> ;
+    dcterms:title "Madrigali del magnifico signor cauallier Luigi Cassola piacentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

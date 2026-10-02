@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3pjXu8dNW596-Bw4SYZP2MnQ8 a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1799" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3pjXu8dNW596 .
+
+adi:3pjXu8dNW596-MZdiekuKUEt9 a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "1" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3pjXu8dNW596 .
+
+adi:3pjXu8dNW596-fhaCfpXUxYG6 a rdf:Statement ;
+    dcterms:references adi:VJ5rjP86CXEj ;
+    rdf:object adi:FzrdyPjZDVz9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:3pjXu8dNW596 .
+
+adi:3pjXu8dNW596-h4xW4Acwu9k8 a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1588" ;
+    rdf:predicate <> ;
+    rdf:subject adi:3pjXu8dNW596 .
+
+adi:3pjXu8dNW596 a rdfs:Resource ;
+    rdfs:label "Accademia dei Gelati di Bologna" ;
+    <> adi:FzrdyPjZDVz9,
+        adi:L6aLzmbRvQqS,
+        adi:PAfwtQUEB4mS,
+        adi:m5jx85vV2PXo ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q106701551> ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:SXT3ByQCDj49 ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

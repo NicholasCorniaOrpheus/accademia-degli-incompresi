@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eb6STScmE9uT-23XGyHpbDuPU a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZnAwJRxKMGDX ;
+    rdf:predicate <> ;
+    rdf:subject adi:eb6STScmE9uT .
+
+adi:eb6STScmE9uT-M8hfwT3f59cb a rdf:Statement ;
+    rdf:object adi:4827Mbm9Sta6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:eb6STScmE9uT ;
+    ns1:P958 "Frotispiece" .
+
+adi:eb6STScmE9uT a rdfs:Resource ;
+    rdfs:label "En volucuis generosa minas sub arundine spernit" ;
+    <> adi:4827Mbm9Sta6,
+        adi:ZnAwJRxKMGDX ;
+    pdc:text """En volucuis generosa minas sub arundine spernit.
+Aspera dum ficto cortice fovent.
+Sic tibi securam iungis Nadasdie pasem,
+Sola cui, armorum tristior umbra, quies""" ;
+    dc:description """Opening poem of the treatise Arithmologia, dedicated to the Nádasdy family. An English translation of the text is "Behold, the generous bird scorns the threats under the reed.
+While they cherish the rough, forged bark.
+Thus you join to yourself the secure pasture of Nadasdie,
+To whom alone, the sadder shadow of weapons, rest
+Behold, the generous bird scorns the threats under the reed.
+While they cherish the rough, forged bark.
+Thus you join to yourself the secure pasture of Nadasdie,
+To whom alone, the sadder shadow of weapons, rest".""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P2551 adi:LdZT89xoVRXU .
+

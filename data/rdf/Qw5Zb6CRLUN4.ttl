@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Qw5Zb6CRLUN4-UoMH5Kbqs7WB a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:XMWeuXsQK4ED ;
+    rdf:predicate <> ;
+    rdf:subject adi:Qw5Zb6CRLUN4 .
+
+adi:Qw5Zb6CRLUN4-hQmepGpWqaQr a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:McrW73AUvkY7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Qw5Zb6CRLUN4 .
+
+adi:Qw5Zb6CRLUN4 a rdfs:Resource ;
+    rdfs:label "Donna se di fier Orso" ;
+    <> adi:McrW73AUvkY7,
+        adi:XMWeuXsQK4ED,
+        adi:e6n9NhgGxtDK ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """DONNA se di fier ORSO
+Havete il nome è ben ragion che sia
+A quello somigliante il vitio, e'l morso,
+Ma se spietata, e ria
+Morder un BASILISCO vi credete
+Cieca voi non vedete,
+Che s'in voi sono denti, ed ugnia trista
+Egli ha velen nel fiato, e ne la vista?""" ;
+    dc:subject adi:9w8iYcz955Kd,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:6UFUJo2JAXCT ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CawKsiNZXBxK,
+        adi:LBUMoVayqW8X,
+        adi:NRGRu3F3dpBh,
+        adi:nMTi968tSsXp ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

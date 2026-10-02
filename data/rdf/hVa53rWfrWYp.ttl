@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hVa53rWfrWYp-5Rw7Gy84Xo66 a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z159/> ;
+    dcterms:publisher adi:ES6YsgRBW7Rp ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ne03b6830f31145fdb465fae3407829da" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:hVa53rWfrWYp ;
+    schema:datePublished "1607" ;
+    schema:url <http://id.sbn.it/bid/MUS0063665> .
+
+adi:hVa53rWfrWYp-Jf9bGqo8AAcA a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:hVa53rWfrWYp .
+
+adi:hVa53rWfrWYp-XKqKneWMKwzX a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:Apsy5vZoHe9a ;
+    rdf:predicate <> ;
+    rdf:subject adi:hVa53rWfrWYp .
+
+adi:hVa53rWfrWYp-jQYxiYNHu8EX a rdf:Statement ;
+    wdt:P1114 "2" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:hVa53rWfrWYp .
+
+adi:hVa53rWfrWYp-nk8uUrSypjns a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MFRZ6pAZFnbn" ;
+    rdf:predicate <> ;
+    rdf:subject adi:hVa53rWfrWYp .
+
+adi:hVa53rWfrWYp a rdfs:Resource ;
+    rdfs:label "Il Secondo libro delli Fioretti Musicali a tre voci d'Amante Franzoni Mantovano" ;
+    <> adi:Apsy5vZoHe9a,
+        "1607" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0063665>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV08480010>,
+        <https://rism.online/sources/990018974> ;
+    dcterms:title "Il Secondo libro delli Fioretti Musicali a tre voci d'Amante Franzoni Mantouano. Co 'l Basso continuo per il Clauecimbalo, Chitarrone, et stromenti simili. Raccolto dal R. Don Francesco Dognazzi, Seruitore dell'Altezza Serenissima di Mantoa" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

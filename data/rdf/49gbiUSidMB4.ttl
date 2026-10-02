@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:49gbiUSidMB4-9Yw5qyAs6zFK a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:49gbiUSidMB4 .
+
+adi:49gbiUSidMB4-RUpryCZdZtSc a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00074124> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:Gzqem5g838fp ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00074124/manifest> ;
+    rdf:object "N61924ad70e0b4d96a66d31093975f267" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:49gbiUSidMB4 ;
+    schema:datePublished "1566" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036871> .
+
+adi:49gbiUSidMB4-SdrpSnMuBLVi a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:kws5Bs7CbGE8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:49gbiUSidMB4 .
+
+adi:49gbiUSidMB4-Uz3bpughLcCB a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:49gbiUSidMB4 .
+
+adi:49gbiUSidMB4-dF5oFUUYMYZQ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:49gbiUSidMB4 .
+
+adi:49gbiUSidMB4-o427oWZqHE3F a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:49gbiUSidMB4 .
+
+adi:49gbiUSidMB4 a rdfs:Resource ;
+    rdfs:label "Il desiderio. Primo libro de diversi eccellentissimi autori a quattro voci" ;
+    <> adi:kws5Bs7CbGE8,
+        "1566" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE036871>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV51320010>,
+        <https://rism.online/sources/993120395> ;
+    dcterms:title "Primo libro de diuersi eccellent.mi auttori a quattro voci, intitulato Il desiderio. Nouamente posti in luce, per Giulio Bonagionta da S. Genesi, musico dell'illustriss. sig. di Vineggia" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

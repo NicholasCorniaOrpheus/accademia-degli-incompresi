@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7y9GosMVcaHQ-cwVPwqpgq8CD a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:Kq4PswoDPxtR ;
+    rdf:predicate <> ;
+    rdf:subject adi:7y9GosMVcaHQ .
+
+adi:7y9GosMVcaHQ-miEDd52TbaxL a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:J4GCGhBtmbuU ;
+    rdf:predicate <> ;
+    rdf:subject adi:7y9GosMVcaHQ .
+
+adi:7y9GosMVcaHQ a rdfs:Resource ;
+    rdfs:label "Canta Urania la parte (Merula)" ;
+    <> adi:J4GCGhBtmbuU,
+        adi:KoJRngEjE7d7,
+        adi:Kq4PswoDPxtR,
+        adi:aGFSMJpbq9LY ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/037180000040101_000000159300C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

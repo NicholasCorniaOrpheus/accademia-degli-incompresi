@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:i2EmLTkC88Nm-AoqeJbWZosM6 a rdf:Statement ;
+    rdf:object adi:23rCvdgVPxoA ;
+    rdf:predicate <> ;
+    rdf:subject adi:i2EmLTkC88Nm ;
+    ns1:P958 "Egloga IV" .
+
+adi:i2EmLTkC88Nm-TweDRxVCyNeG a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:dbbU5aPBAxvp ;
+    rdf:predicate <> ;
+    rdf:subject adi:i2EmLTkC88Nm .
+
+adi:i2EmLTkC88Nm a rdfs:Resource ;
+    rdfs:label "Monti selve fontane piagg'e sassi" ;
+    <> adi:23rCvdgVPxoA,
+        adi:dbbU5aPBAxvp ;
+    pdc:poeticType adi:8cSCusLrr4RD ;
+    pdc:text """Monti selve fontane piagg'e sassi
+Vo cercand’io, se pur potessi un giorno
+In parte rallentar l’acerbo pianto;
+Ma ben veggio or che solo in una valle
+Trovo riposo alle mie stanche rime,
+Che mormorando van per mille campi.""" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F025800000101_PPPP00260406C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:VFabTiMFEU5U,
+        adi:W9eRxiUsP4C5,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

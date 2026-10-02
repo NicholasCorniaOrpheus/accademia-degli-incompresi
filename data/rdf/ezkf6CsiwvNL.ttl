@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ezkf6CsiwvNL-5QMVw2CZxieU a rdf:Statement ;
+    rdf:object adi:KTS4KPKRX4gX ;
+    rdf:predicate <> ;
+    rdf:subject adi:ezkf6CsiwvNL ;
+    ns1:P304 "253" ;
+    ns1:P958 "Rime di M. Giulio Camillo." .
+
+adi:ezkf6CsiwvNL-nToLC96RzkBg a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:ezkf6CsiwvNL .
+
+adi:ezkf6CsiwvNL a rdfs:Resource ;
+    rdfs:label "Ruggiadose dolcezze in matutini" ;
+    <> adi:8Hc54xeA8ihZ,
+        adi:KTS4KPKRX4gX ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Ruggiadose dolcezze in matutini
+Celesti humor, che i boschi inargentate
+Dolci canne da noi tanto pregiate;
+Et voi doni de l'alpi alti & divini;
+
+Hor tra gli oscuri e i lucidi confini
+De la notte & del dì (cose beate)
+In due labra dolcissime rosate
+Gustato ho i vostri alberghi pellegrini.
+
+Deh chi mi ruppe il sonno al gran bisogno;
+Et da le braccia mie, da i nuovi ardori
+Trasse il mio bene; & fece il dolce vano?
+
+Il sogno mio, Diva LUCRETIA, il sogno
+Ne suoi più dolci & gratiosi errori
+Vi fa pietosa; e'l ver fors'è lontano.""" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F013070000101_PPPP00058200C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:ByPQWJQU37nM,
+        adi:C77NpKqFFwN9,
+        adi:LBUMoVayqW8X,
+        adi:R7sbNmdF69BB,
+        adi:UnSYC86kgoNx ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

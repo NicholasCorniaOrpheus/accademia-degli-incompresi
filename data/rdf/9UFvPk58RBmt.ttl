@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9UFvPk58RBmt-VNRcTK3qv38f a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:48CK8MVg6hgV ;
+    rdf:predicate <> ;
+    rdf:subject adi:9UFvPk58RBmt .
+
+adi:9UFvPk58RBmt a rdfs:Resource ;
+    rdfs:label "Noi siam Pastori che cantand'insieme (Fiesco)" ;
+    <> adi:48CK8MVg6hgV,
+        adi:QAiTLiEnKFPa ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Noi siam Pastori che cantand'insieme
+I nostri amor per queste selv'andiamo
+E con pac'infinita e gioi'estreme
+De soavi desir l'alm'appaghiamo
+Né invidia né superbia il cor ci preme
+Che più lieta fortuna non cerchiamo
+E sol fra noi e quel viver beato
+Ch'altri cerchan fra l'or fra gemm'e stato.""" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/171150000010101_000000098900C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FZP8Rx3LsDxz,
+        adi:P9akbwF852t3,
+        adi:PB7asmJe7rz6,
+        adi:R7sbNmdF69BB,
+        adi:Z4qtpZ24v7ZF,
+        adi:bQJGEZiGYFYZ ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

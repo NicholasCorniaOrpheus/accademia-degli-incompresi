@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QXo9oc46Sk8T-HsR6HZEHzEoD a rdf:Statement ;
+    rdf:object adi:FtN769fGvnbS ;
+    rdf:predicate <> ;
+    rdf:subject adi:QXo9oc46Sk8T ;
+    ns1:P304 "34" ;
+    ns1:P958 "A M. Francesco Monte Varchi." .
+
+adi:QXo9oc46Sk8T-Qhg2iNZYHcgH a rdf:Statement ;
+    rdf:object adi:mWT5q2KSyozm ;
+    rdf:predicate <> ;
+    rdf:subject adi:QXo9oc46Sk8T ;
+    ns1:P958 "Laura Battiferri, II" .
+
+adi:QXo9oc46Sk8T-c4WF5jMu2TpV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZmpBx2YXnpkE ;
+    rdf:predicate <> ;
+    rdf:subject adi:QXo9oc46Sk8T .
+
+adi:QXo9oc46Sk8T a rdfs:Resource ;
+    rdfs:label "Fra queste piaggie apriche e chiusi horrori" ;
+    <> adi:FtN769fGvnbS,
+        adi:ZmpBx2YXnpkE,
+        adi:mWT5q2KSyozm ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Fra queste piaggie apriche, e chiusi horrori,
+Presso un bel rio che mormorando stilla,
+Lungi dal volgo in soletaria villa
+Compart'io il tempo, e i giorni miei migliori;
+
+E più m'aggrada udir Ninfe, e Pastori,
+Quando Apollo da noi lontan sfavilla,
+Che desti al suon dell'amorosa squilla
+Van palesando i lor graditi amori;
+
+E Maiano veder con tanti intorno
+Folti boschi, alti monti e verdi campi,
+E Mensola ch'al par dell'Arno corre.
+
+Che quante melodie, palazzi & ampi
+Tetti, rendon Fiorenza, e'l mondo adorno,
+Che 'nvidia e reo destin non mi puon torre.""" ;
+    dc:subject adi:5RYVLh7yR4s6,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5f6kHhAxyPZh,
+        adi:FZP8Rx3LsDxz,
+        adi:QnXnJU93h3jw,
+        adi:mT3aY8t7yatb ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

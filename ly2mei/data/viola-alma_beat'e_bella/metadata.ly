@@ -7,3 +7,5 @@ poet = "anonymous"
 collection = ""
 annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
 incipit = "A"
+page_size = #21
+orientation = #'landscape

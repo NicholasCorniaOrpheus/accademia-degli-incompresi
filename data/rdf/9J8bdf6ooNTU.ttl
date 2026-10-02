@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9J8bdf6ooNTU-PAdbN6wndU2w a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16271" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9J8bdf6ooNTU .
+
+adi:9J8bdf6ooNTU-ZCbZD3YhRj3z a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2,
+        adi:SrWTCERreeEv ;
+    rdf:object adi:7F6Gu65VAyTr ;
+    rdf:predicate <> ;
+    rdf:subject adi:9J8bdf6ooNTU ;
+    schema:startDate "1587" .
+
+adi:9J8bdf6ooNTU a rdfs:Resource ;
+    rdfs:label "Fabrizia Carrari" ;
+    <> adi:7F6Gu65VAyTr ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

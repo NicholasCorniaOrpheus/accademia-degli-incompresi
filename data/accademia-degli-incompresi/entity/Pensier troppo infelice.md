@@ -32,20 +32,20 @@ depicts:
   - "[[Muse]]"
   - "[[harbor]]"
 language: "[[Italian]]"
-text:
+text: |-
+  Pensier troppo infelice
+  Creder, che giunga a le sognate sponde
+  Con fortunato volo
+  Superba Prora, a cui l'ardir fa Scena.
+  È ver, ch'Euro felice,
+  Al mar di nostra vita ergendo l'onde,
+  A più beato suolo
+  Sovra amico sentier l'Alme sospinge.
+  Ma raffidato appena
+  Su l'incostante fé d'aura serena,
+  A nuove vie l'ardito Pin s'accinge,
+  Che ratto in seno al Porto
+  Ei si riman fra le sue spemi absorto.
+  Musa ergi'l canto, e mostra a l'Huom mortale,
+  Che a cader va chi troppo sale.
 ---
-Pensier troppo infelice
-Creder, che giunga a le sognate sponde
-Con fortunato volo
-Superba Prora, a cui l'ardir fa Scena.
-È ver, ch'Euro felice,
-Al mar di nostra vita ergendo l'onde,
-A più beato suolo
-Sovra amico sentier l'Alme sospinge.
-Ma raffidato appena
-Su l'incostante fé d'aura serena,
-A nuove vie l'ardito Pin s'accinge,
-Che ratto in seno al Porto
-Ei si riman fra le sue spemi absorto.
-Musa ergi'l canto, e mostra a l'Huom mortale,
-Che a cader va chi troppo sale.

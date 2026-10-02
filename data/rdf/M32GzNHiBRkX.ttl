@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:M32GzNHiBRkX-JPaXEDuCYBMz a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EsHT4rwmGq4j ;
+    rdf:predicate <> ;
+    rdf:subject adi:M32GzNHiBRkX .
+
+adi:M32GzNHiBRkX-UZMFho8Cs2Fu a rdf:Statement ;
+    rdf:object adi:mHPFaqRhG7v5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:M32GzNHiBRkX ;
+    ns1:P304 "213" ;
+    ns1:P958 "Carmen Rythmogermanicum de Prima Materia." ;
+    schema:volumeNumber "Tractatus VI" .
+
+adi:M32GzNHiBRkX a rdfs:Resource ;
+    rdfs:label "Such das Centrum in seiner Erden" ;
+    <> adi:EsHT4rwmGq4j,
+        adi:mHPFaqRhG7v5 ;
+    pdc:text """Such das CENTRUM in seiner Erden,
+Darauß die Metall geboren werden.
+Im Globo wilstu das Wasser erndten
+Findstu hier und dort im Land zu Kärndten.
+Treib darauß seines Geistes Dunst,
+So hast den Schlüssel zu der Kunst.
+Treibes fort, biß gantz Rothfarb steht,
+Ich bin das Wachs welchs Fewer besteht.
+Beliebt und feyst, ein Schatz gar thewer,
+In mir findstu das gröste Fewer.
+Beschließ das Fewer in Wassers Gewalt,
+Das ist das Ding das Leben erhalt,
+Bekleidt mit Goldt dis edel Bildt
+Medicinir darmit dann was du wilt.""" ;
+    dc:subject adi:8Y6NAvRmdtq6 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:Eb5aj2HkQaXZ ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:BzhJSvB9YReH .
+

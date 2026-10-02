@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BpATM36nYWpT-DkthEAwcSoee a rdf:Statement ;
+    dcterms:references adi:55EFhGGzKkrw ;
+    rdf:object adi:oANLr2HLt4wi ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT-KC9BNVHSiz6A a rdf:Statement ;
+    dcterms:references adi:X68fVkQC9ygb ;
+    rdf:object adi:3XYUyiyZcdqz ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT-PEC34zqaVkxB a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:mvgBJSj73GUY ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT-PqFWpDBVU89b a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "123" ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT-cjeb955GU9DJ a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:j8UKpcDKiaAH ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT-j8XWbkVspRVv a rdf:Statement ;
+    rdf:object adi:FunxZXZiph3r ;
+    rdf:predicate <> ;
+    rdf:subject adi:BpATM36nYWpT .
+
+adi:BpATM36nYWpT a rdfs:Resource ;
+    rdfs:label "Accademia degli Insensati di Perugia" ;
+    <> adi:3XYUyiyZcdqz,
+        adi:FunxZXZiph3r,
+        adi:j8UKpcDKiaAH,
+        adi:mvgBJSj73GUY,
+        adi:oANLr2HLt4wi ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:GEFAfEGG8p4Q ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

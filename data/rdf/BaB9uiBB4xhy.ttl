@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BaB9uiBB4xhy-5bCJkXeHYwDv a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:gJFucdkRobUR ;
+    rdf:predicate <> ;
+    rdf:subject adi:BaB9uiBB4xhy .
+
+adi:BaB9uiBB4xhy-XCpqZENacG6B a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=9Nd8ShHZkRgC> ;
+    dcterms:publisher adi:VG9zdScyJbW2 ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "N60abb2aa4e8440c786a44b8dcddba8f5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BaB9uiBB4xhy ;
+    schema:datePublished "1583" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE058579> .
+
+adi:BaB9uiBB4xhy a rdfs:Resource ;
+    rdfs:label "L'alchimista comedia di m. Bernardino Lombardi" ;
+    <> adi:gJFucdkRobUR,
+        "1583" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:hHij3iF3zFE9,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE058579> ;
+    dcterms:title "L'alchimista comedia di m. Bernardino Lombardi comico confidente .." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:nR5FxU5FRPkD ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:exrUScrzgGF2 .
+

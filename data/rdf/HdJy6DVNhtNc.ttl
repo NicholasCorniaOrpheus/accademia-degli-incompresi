@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HdJy6DVNhtNc-FruFF9MV48mo a rdf:Statement ;
+    dcterms:references adi:MmwqyGSf2bpf ;
+    rdf:object adi:3tjNWon78ob2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:HdJy6DVNhtNc .
+
+adi:HdJy6DVNhtNc-SKFk4ZTj9tUT a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18202" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HdJy6DVNhtNc .
+
+adi:HdJy6DVNhtNc a rdfs:Resource ;
+    rdfs:label "Agostino Mascardi" ;
+    <> adi:3tjNWon78ob2,
+        adi:hbLMcBia2woA ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3606791> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:MmwqyGSf2bpf ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

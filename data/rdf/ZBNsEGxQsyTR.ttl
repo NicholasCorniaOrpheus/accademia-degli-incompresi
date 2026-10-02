@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZBNsEGxQsyTR-7XB2geG3CV24 a rdf:Statement ;
+    rdf:object adi:GFFt3W3Ertgn ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZBNsEGxQsyTR ;
+    ns1:P958 "2" .
+
+adi:ZBNsEGxQsyTR-dApGzKYnZ4JZ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EGiqL2BY3FZ7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZBNsEGxQsyTR .
+
+adi:ZBNsEGxQsyTR a rdfs:Resource ;
+    rdfs:label "O crudelis Alexi nihil mea carmina curas" ;
+    <> adi:EGiqL2BY3FZ7,
+        adi:GFFt3W3Ertgn ;
+    pdc:poeticType adi:8cSCusLrr4RD ;
+    pdc:text """O crudelis Alexi, nihil mea carmina curas?
+Nil nostri miserere? mori me denique coges.
+Nunc etiam pecudes umbras et frigora captant,
+nunc virides etiam occultant spineta lacertos,
+Thestylis et rapido fessis messoribus aestu
+allia serpyllumque herbas contundit olentes.
+At me cum raucis, tua dum vestigia lustro,
+sole sub ardenti resonant arbusta cicadis.
+
+Nonne fuit satius tristes Amaryllidis iras
+atque superba pati fastidia? nonne Menalcan
+quamvis ille niger, quamvis tu candidus esses?
+O formose puer, nimium ne crede colori!
+Alba ligustra cadunt, vaccinia nigra leguntur.""" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FZP8Rx3LsDxz ;
+    ns1:P2551 adi:LdZT89xoVRXU .
+

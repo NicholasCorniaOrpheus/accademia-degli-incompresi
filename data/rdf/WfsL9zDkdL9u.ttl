@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WfsL9zDkdL9u-35SH4WwWNBBF a rdf:Statement ;
+    rdf:object adi:23rCvdgVPxoA ;
+    rdf:predicate <> ;
+    rdf:subject adi:WfsL9zDkdL9u ;
+    ns1:P304 "106" ;
+    ns1:P958 "Ecloga II" .
+
+adi:WfsL9zDkdL9u-ABBxKrKxKnCf a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:dbbU5aPBAxvp ;
+    rdf:predicate <> ;
+    rdf:subject adi:WfsL9zDkdL9u .
+
+adi:WfsL9zDkdL9u a rdfs:Resource ;
+    rdfs:label "Tirrena mia il cui colore agguaglia" ;
+    <> adi:23rCvdgVPxoA,
+        adi:dbbU5aPBAxvp ;
+    pdc:poeticType adi:8cSCusLrr4RD ;
+    pdc:text """Tirrena mia, il cui colore agguaglia
+Le matutine rose e' puro latte;
+Più veloce che damma,
+Dolce del mio cor fiamma;
+Più cruda di colei che fe' in Tessaglia
+Il primo alloro di sue membra attratte;
+Sol per rimedio del ferito core
+Volgi a me gli occhi, ove s'annida Amore.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/025780001501_PPPP00260406>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29300> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FZP8Rx3LsDxz,
+        adi:MFcsbFYFrFvB,
+        adi:kk4X4hY9rfnU,
+        adi:nmaLpfmsyjwV ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

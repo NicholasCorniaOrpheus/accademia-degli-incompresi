@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SsymR8xzb5kc-NRKgUrpYwCNt a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:F5twPYgd9Q3X ;
+    rdf:predicate <> ;
+    rdf:subject adi:SsymR8xzb5kc .
+
+adi:SsymR8xzb5kc-jnCkJRDwGuT4 a rdf:Statement ;
+    rdf:object adi:5oLQ9LiSvsQY ;
+    rdf:predicate <> ;
+    rdf:subject adi:SsymR8xzb5kc ;
+    ns1:P958 "Iord. Br. Nol. Aenigma et Paradigma." .
+
+adi:SsymR8xzb5kc a rdfs:Resource ;
+    rdfs:label "Uranie vatem sublimes duxit in aedeis" ;
+    <> adi:5oLQ9LiSvsQY,
+        adi:F5twPYgd9Q3X ;
+    pdc:text """URanie vatem fublimes duxit in aedeis
+Quo faceret mentis nubila pulsa suae.
+Ordine praegnantem quo sunt dispoosta per orbem
+Indicat extenta singula quaeque manu.
+Leucadius regno sedet hic tristisque senecta.
+Praetulit bic degens talia regna patri.
+Cuspide Marsque potens rapit hinc ea raptaque servat:
+Aureus hinc Titan haec diuturna facit.
+Blanda Venus grato hinc numerosa ea reddit amore,
+Pacis & armorum hinc, arbiter hic superis.
+Hinc vultu inconstans Lucina & lumine clamat.
+
+Occubtrum vifent orta & adaucta suum.
+Bis fenas iuuat hos tam peragrare domos,
+Ordine sunt postquam concepta palatia coeli,
+Bis senas iuvat hos iam peragrare domos.
+Egrediare senex varios subiture locorum
+Anfractus: varias insinuando notas:
+Huic divum succede parens. Succede Gradive.
+Smintheum numen, Cnidia nata mari.
+Atlantis succede nepos Cyllenia proles.
+Delia nec cesses caelo Erebéque potens.""" ;
+    dc:subject adi:8LkVSvtxvTfr,
+        adi:99cprNhigxtK,
+        adi:jjYHNotSf9rt ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:UEx82wKyUY8o ;
+    ns1:P2551 adi:LdZT89xoVRXU .
+

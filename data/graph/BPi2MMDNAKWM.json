@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BPi2MMDNAKWM",
+      "label": "Petrarchism",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n5nvJ6q3ja9D",
+      "label": "art movement",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmpBx2YXnpkE",
+      "label": "Laura Battiferri",
+      "class": "Agent",
+      "image": "https://commons.wikimedia.org/wiki/File:Laura_Battiferri_by_Angelo_Bronzino.jpg"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/am4GoyTKy6jn",
+      "label": "Nasce la vita mia dal mio morire",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BPi2MMDNAKWM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/n5nvJ6q3ja9D",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmpBx2YXnpkE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BPi2MMDNAKWM",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/am4GoyTKy6jn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BPi2MMDNAKWM",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/am4GoyTKy6jn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZmpBx2YXnpkE",
+      "property": "contributor"
+    }
+  ]
+}

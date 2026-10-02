@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:B5dDXV6qVG2p-muXuVd4WmK3d a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/ricreationiamor00carr> ;
+    bf:heldBy adi:ntjsWciGvjAu ;
+    dcterms:publisher adi:VaaRB4cqSjpJ ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "Ne19d2288f6bc4713a8ee9df2457e8bf9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:B5dDXV6qVG2p ;
+    schema:datePublished "1590" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000060> .
+
+adi:B5dDXV6qVG2p a rdfs:Resource ;
+    rdfs:label "Ricreazioni amorose de gli Academici Gelati di Bologna" ;
+    <> "1590" ;
+    dc:subject adi:L6aLzmbRvQqS,
+        adi:RHVQ6S4zNphr ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE000060>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/501120010> ;
+    dcterms:title "Ricreationi amorose de gli Academici Gelati di Bologna" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:SXT3ByQCDj49,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

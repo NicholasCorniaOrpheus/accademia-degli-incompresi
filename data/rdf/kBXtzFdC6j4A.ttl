@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kBXtzFdC6j4A-AXxVbH2jQThF a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:agAvDjPLYaLN ;
+    rdf:predicate <> ;
+    rdf:subject adi:kBXtzFdC6j4A .
+
+adi:kBXtzFdC6j4A-HAvuEQyxBJ3c a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BU44ZRHETrHk ;
+    rdf:predicate <> ;
+    rdf:subject adi:kBXtzFdC6j4A .
+
+adi:kBXtzFdC6j4A-doMDzDLSs45s a rdf:Statement ;
+    rdf:object adi:U8QH2ZNaC9bX ;
+    rdf:predicate <> ;
+    rdf:subject adi:kBXtzFdC6j4A ;
+    ns1:P958 "Del Sig. Dionisio Lazari." .
+
+adi:kBXtzFdC6j4A a rdfs:Resource ;
+    rdfs:label "Ai teatri, alle scene, al dir nascesti" ;
+    <> adi:BU44ZRHETrHk,
+        adi:U8QH2ZNaC9bX,
+        adi:agAvDjPLYaLN ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Ai Theatri, a le Scene, al Dir nascesti
+Gentil Flaminio, e per formarti il merto,
+T’han le Muse eloquenti il seno aperto,
+T’han le Muse additato, e i spirti, ei gesti.
+
+Così germe felice ogn’hor crescesti
+In saper, e in virtù sempre più esperto;
+Hor depinto Pittor, scuopri, scoperto
+Qual fanciul, qual garzon, qual huom vivesti.
+
+Felice te, che in ben oprar mai stanco
+Spieghi in comici inchiostri al Mondo affatto
+Quel, che in semplici inchiostri arido io manco;
+
+E felice vie più, che osasti à un tratto,
+Operar, insegnar, pubblicar anco,
+Sotto un Sol saì lucente il tuo ritratto.""" ;
+    dc:subject adi:fWcm8Nsn7rXJ,
+        adi:hHij3iF3zFE9,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:2g7SZLhhziYy,
+        adi:B8dgc6juwKxU,
+        adi:agAvDjPLYaLN,
+        adi:noRgAWmjYV8o ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UNXjsaCZv8Ub-QeRSwsG8cNds a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18394" ;
+    rdf:predicate <> ;
+    rdf:subject adi:UNXjsaCZv8Ub .
+
+adi:UNXjsaCZv8Ub-SemYHntSWhMP a rdf:Statement ;
+    dcterms:references adi:MmwqyGSf2bpf ;
+    rdf:object adi:WvTteUPEscDk ;
+    rdf:predicate <> ;
+    rdf:subject adi:UNXjsaCZv8Ub .
+
+adi:UNXjsaCZv8Ub-dxMmZeVqY2QP a rdf:Statement ;
+    dcterms:references adi:MmwqyGSf2bpf ;
+    rdf:object adi:a5j2E6G2kSVz ;
+    rdf:predicate <> ;
+    rdf:subject adi:UNXjsaCZv8Ub ;
+    schema:OrganizationRole adi:WvTteUPEscDk .
+
+adi:UNXjsaCZv8Ub a rdfs:Resource ;
+    rdfs:label "Maurizio di Savoia" ;
+    <> adi:WvTteUPEscDk,
+        adi:a5j2E6G2kSVz,
+        adi:hbLMcBia2woA,
+        adi:kmxeyh5sL7th ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q610738> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Maurice of Savoy" ;
+    schema:gender adi:8UjQ7UabobgD .
+

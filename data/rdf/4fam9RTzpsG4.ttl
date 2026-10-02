@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4fam9RTzpsG4-Jwja4MEsqwWH a rdf:Statement ;
+    dcterms:references adi:EqmkB5MVBD5R,
+        adi:RrWtiYpwdJp2,
+        adi:SrWTCERreeEv ;
+    rdf:object adi:gRTuK3ASUXq4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:4fam9RTzpsG4 ;
+    schema:startDate "1580" .
+
+adi:4fam9RTzpsG4-QSrX3724BLLc a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16263" ;
+    rdf:predicate <> ;
+    rdf:subject adi:4fam9RTzpsG4 .
+
+adi:4fam9RTzpsG4 a rdfs:Resource ;
+    rdfs:label "Tarquinia Molza" ;
+    <> adi:34LsSWtbTh3a,
+        adi:3pU843Lma47u,
+        adi:A4rvytnvP86g,
+        adi:DSK596BdwpXR,
+        adi:LwQKHQGXaPrg,
+        adi:S2MpkiMWKU5X,
+        adi:VWVDBDaC8szG,
+        adi:gRTuK3ASUXq4,
+        adi:hbLMcBia2woA,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GcTBTPrRxSj7" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q274484> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:EqmkB5MVBD5R,
+        adi:SrWTCERreeEv,
+        adi:fJA6BDZUy9AL,
+        adi:nMhmAzGuYK4c ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

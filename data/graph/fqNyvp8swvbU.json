@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "label": "forgery",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7VGfeJFTYmnt",
+      "label": "M. Tullii Ciceronis Consolatio, vel De luctu minuendo. Fragmenta eius a Carolo Sigonio, & Andrea Patritio exposita",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "label": "Bernardino Lombardi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
+      "label": "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kDzd8qozXwHz",
+      "label": "form of creative work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
+      "label": "La Gismonda, tragedia del signor Torquato Tasso",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kDzd8qozXwHz",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7VGfeJFTYmnt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "property": "contributor"
+    }
+  ]
+}

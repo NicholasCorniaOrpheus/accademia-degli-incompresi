@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hTfcKVpJAy4h-8ErCXQCdQ9CD a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:hTfcKVpJAy4h ;
+    ns1:P958 "Canto I, 1" .
+
+adi:hTfcKVpJAy4h-NnFf2uJFmvKD a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:hTfcKVpJAy4h .
+
+adi:hTfcKVpJAy4h a rdfs:Resource ;
+    rdfs:label "Le donne i cavallier l'arme gli amori" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Le donne, i cavallier, l'arme, gli amori,
+le cortesie, l'audaci imprese io canto,
+che furo al tempo che passaro i Mori
+d'Africa il mare, e in Francia nocquer tanto,
+seguendo l'ire e i giovenil furori
+d'Agramante lor re, che si diè vanto
+di vendicar la morte di Troiano
+sopra re Carlo imperator romano.""" ;
+    dc:subject adi:Z6udgtgZac9G ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:KH2RsQHZMHpE,
+        adi:LBUMoVayqW8X ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BBTv5cMcgn9D-BznHFoJvAAfV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:iCdKYQUrSYbC ;
+    rdf:predicate <> ;
+    rdf:subject adi:BBTv5cMcgn9D .
+
+adi:BBTv5cMcgn9D-SQnq4aGPYEnS a rdf:Statement ;
+    rdf:object adi:L8ExepDu7q6Y ;
+    rdf:predicate <> ;
+    rdf:subject adi:BBTv5cMcgn9D ;
+    ns1:P304 "185" ;
+    ns1:P958 "Risposta della Signora Marta Bonanno a. M. Giovan Battista Macerello al Sonetto, questa c'ha nome a fogli. 120." .
+
+adi:BBTv5cMcgn9D a rdfs:Resource ;
+    rdfs:label "Come s' appare il Sol o al caldo o al Gelo" ;
+    <> adi:L8ExepDu7q6Y,
+        adi:iCdKYQUrSYbC ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Come s' appare il Sol o al caldo o al Gelo
+Ogni stella al suo lume oscura riede
+Così s' ingegno è in me subito cede
+Al vostro ingegno, ond'io vaneggio, e gelo,
+
+E se la vostra caritade, e'l zelo
+Vostro, sì come a voi ben si richiede
+M'han lodato via più ch'altri non crede
+Non lodin me, ch' omai m'ascondo, e celo,
+
+Lodisi'l bel che sì riluce in quella
+Ch'è madre, e gode in ciel l' eterno amante
+E chiara splende in questa nostra spiaggia.
+
+Non caduca beltà che vile ancella
+E del Tempo, e convien che passi o caggia
+Ma lodinsi del ciel l' eterne, e sante.""" ;
+    dc:subject adi:Cxgarr2gfrW6,
+        adi:DHTHVpQnvYLr,
+        adi:KuorvRGvXbTz ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8JCJNiEPyPxR,
+        adi:LBUMoVayqW8X,
+        adi:S2y5UAT62kde,
+        adi:esdPVkcqtoQn,
+        adi:ndYmAKz88N5Q ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

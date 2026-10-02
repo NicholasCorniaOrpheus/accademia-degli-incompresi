@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3GL3Dt8fNHA5-XFfxLcxBPuqy a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:Nx8bqYnm9d6V ;
+    rdf:predicate <> ;
+    rdf:subject adi:3GL3Dt8fNHA5 ;
+    schema:startDate "1575" .
+
+adi:3GL3Dt8fNHA5-faa6nCdSEnDi a rdf:Statement ;
+    dcterms:references adi:4usXbncM6hhD ;
+    rdf:object adi:4gDUdsQ3zgkL ;
+    rdf:predicate <> ;
+    rdf:subject adi:3GL3Dt8fNHA5 .
+
+adi:3GL3Dt8fNHA5 a rdfs:Resource ;
+    rdfs:label "Eleanor of Toledo" ;
+    <> adi:4gDUdsQ3zgkL,
+        adi:9SP9yq5BpvBd,
+        adi:Nx8bqYnm9d6V,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iajxupbXH9BQ" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q237717> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:4usXbncM6hhD ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

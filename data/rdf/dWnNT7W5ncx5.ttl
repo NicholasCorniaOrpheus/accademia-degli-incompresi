@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dWnNT7W5ncx5-VRaDKosr4Lor a rdf:Statement ;
+    bf:Role adi:YXRaAHQ4vwY8 ;
+    rdf:object adi:FEP2RHUGTuJR ;
+    rdf:predicate <> ;
+    rdf:subject adi:dWnNT7W5ncx5 .
+
+adi:dWnNT7W5ncx5-d7Na7ExE2fEm a rdf:Statement ;
+    rdf:object adi:RgjvBxtsjnyR ;
+    rdf:predicate <> ;
+    rdf:subject adi:dWnNT7W5ncx5 ;
+    ns1:P304 "95" .
+
+adi:dWnNT7W5ncx5 a rdfs:Resource ;
+    rdfs:label "Alti son questi monti, et alti sono" ;
+    <> adi:FEP2RHUGTuJR,
+        adi:RgjvBxtsjnyR ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Alti son questi monti, & alti sono
+Li miei pensier, che null'altro gli adombra:
+Questi di piante il ciel, sterili ingombra;
+Le mie speranze senza frutto sono.
+
+Scendon fonti da lor con alto suono,
+Poggiando i venti a l'alte cime & ombra:
+Rivi di pianto da quest'occhi sgombra
+Doglia, e sospir, di cui sempre ragiono.
+
+Nemiche fere in loro empie e rapaci
+S’annidan solo; e nel mio seno alberga
+Idra fera, & Arpia, che'l cor divora.
+
+Godon pur questi le superne faci,
+Qualhor vil nebbia almo seren disperga:
+Ma non veggio io il mio Sol, che l’alma adora.""" ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://lyra.unil.ch/poems/369>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29222> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:e2nWi24VoUtn ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:5kE5GZUK8UyJ,
+        adi:8JCJNiEPyPxR,
+        adi:NRGRu3F3dpBh,
+        adi:VFabTiMFEU5U ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

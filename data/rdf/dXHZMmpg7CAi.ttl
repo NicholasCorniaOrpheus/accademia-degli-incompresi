@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dXHZMmpg7CAi-3Q8fZ6oXb7U8 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=F-viq7OXyNoC> ;
+    dcterms:publisher adi:CmV76HAnCZze ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "N79b2d1408725403ebe7ae496aab03146" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:dXHZMmpg7CAi ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/VEAE005594> .
+
+adi:dXHZMmpg7CAi-6oLhJ2fftRWX a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "E40453-01" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dXHZMmpg7CAi .
+
+adi:dXHZMmpg7CAi-PKAmCCSN3F6u a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QzFWBAu4Ku5H ;
+    rdf:predicate <> ;
+    rdf:subject adi:dXHZMmpg7CAi .
+
+adi:dXHZMmpg7CAi-fRGkaFtZSpKJ a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:DBkvPTi2HczR ;
+    rdf:predicate <> ;
+    rdf:subject adi:dXHZMmpg7CAi .
+
+adi:dXHZMmpg7CAi a rdfs:Resource ;
+    rdfs:label "La Scanderbeide poema heroico della signora Margherita Sarrocchi" ;
+    <> adi:DBkvPTi2HczR,
+        adi:QzFWBAu4Ku5H,
+        adi:hnGUsqmNR3ko,
+        "1606" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:hq5fryYEkuQW ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE005594> ;
+    dcterms:title "La Scanderbeide poema heroico della signora Margherita Sarrocchi. Dedicato all'ill.ma & ecc.ma sig.ra D. Costanza Colonna Sforza marchesa di Carauaggio" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:2akh6MQphaCo,
+        adi:NoC5RFxc7i7n,
+        adi:P8g4zkHCciMB ;
+    wdt:P31 adi:cygyrPSnobpc .
+

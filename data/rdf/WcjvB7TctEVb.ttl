@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WcjvB7TctEVb-Cdrpiv3smwJE a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=WC6THu6qE2kC> ;
+    dcterms:publisher adi:Gzqem5g838fp ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N48dcd553908c4f94abc0dc57c20d4776" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:WcjvB7TctEVb ;
+    schema:datePublished "1544" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017675> .
+
+adi:WcjvB7TctEVb-eTTTQS7mcCNF a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bCNHbMSK5pg2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:WcjvB7TctEVb .
+
+adi:WcjvB7TctEVb a rdfs:Resource ;
+    rdfs:label "Lettere d'Antonfrancesco Doni" ;
+    <> adi:bCNHbMSK5pg2,
+        "1544" ;
+    dc:subject adi:KAAWbiBLrFsC ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE017675> ;
+    dcterms:title "Lettere d'Antonfrancesco Doni" ;
+    dcterms:type "Book" ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

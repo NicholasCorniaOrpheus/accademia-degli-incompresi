@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hDhkEQkrx562-3pFRc2dbWYi5 a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:hDhkEQkrx562 .
+
+adi:hDhkEQkrx562-Z4DffXAUQveA a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:mD8Dnuf55Dcb ;
+    rdf:predicate <> ;
+    rdf:subject adi:hDhkEQkrx562 .
+
+adi:hDhkEQkrx562 a rdfs:Resource ;
+    rdfs:label "Le donne antique hanno mirabil cose (Nollet)" ;
+    <> adi:3tBDveUQba76,
+        adi:BCCyfMTvSZVM,
+        adi:ajYLLLYbBNoX,
+        adi:mD8Dnuf55Dcb ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

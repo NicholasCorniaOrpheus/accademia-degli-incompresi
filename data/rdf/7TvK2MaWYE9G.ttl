@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7TvK2MaWYE9G-Rr6ofSUwUp3h a rdf:Statement ;
+    dcterms:references adi:iFXJgwZy2vLK ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1536" ;
+    rdf:predicate <> ;
+    rdf:subject adi:7TvK2MaWYE9G .
+
+adi:7TvK2MaWYE9G-ZdezdbzV4Kdb a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/D_Angelica_di_M_Pietro_Aretino_due_primi/RkLk2QUtockC> ;
+    dcterms:publisher adi:9Aoez2jHnnNQ ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nc6ead874976f42b49e0765ef7d2226f4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7TvK2MaWYE9G ;
+    schema:datePublished "1536" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002366> .
+
+adi:7TvK2MaWYE9G a rdfs:Resource ;
+    rdfs:label "D'Angelica di m. Pietro Aretino due primi canti" ;
+    dc:subject adi:msgn7qjS9yQx ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002366> ;
+    dcterms:title "D'Angelica di m. Pietro Aretino due primi canti" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:iFXJgwZy2vLK ;
+    wdt:P31 adi:cygyrPSnobpc .
+

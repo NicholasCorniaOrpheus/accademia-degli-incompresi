@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "label": "engraver",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
+      "label": "Orlando furioso di m. Lodouico Ariosto nuovamente adornato di figure di rame da Girolamo Porro",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UN6USeofUGes",
+      "label": "Francesco Valesio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
+      "label": "La Venetia edificata",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZMz42hjEdCr8",
+      "label": "Girolamo Porro",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UN6USeofUGes",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZMz42hjEdCr8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZMz42hjEdCr8",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UN6USeofUGes",
+      "property": "contributor"
+    }
+  ]
+}

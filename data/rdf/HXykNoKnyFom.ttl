@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HXykNoKnyFom-aKDzeeY5UQqS a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:SafLb6VBVZvB ;
+    rdf:predicate <> ;
+    rdf:subject adi:HXykNoKnyFom .
+
+adi:HXykNoKnyFom-oMK6pKRsf5RT a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:VGVHbg5uSE8V ;
+    rdf:predicate <> ;
+    rdf:subject adi:HXykNoKnyFom .
+
+adi:HXykNoKnyFom a rdfs:Resource ;
+    rdfs:label "Oh dolce servitù, dolce tormento (Veggio)" ;
+    <> adi:SafLb6VBVZvB,
+        adi:SipPqefNjwik,
+        adi:T7Bs3hbSsrh6,
+        adi:VGVHbg5uSE8V ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F191095000010101_000000249000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

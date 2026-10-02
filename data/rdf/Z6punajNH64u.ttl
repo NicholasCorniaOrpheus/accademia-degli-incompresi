@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z6punajNH64u-GqfsyDHLZvdf a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=FLkXLaP4IskC> ;
+    dcterms:publisher adi:Jd4syX5mnmQY ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "Nfe84d13898764bbf9976001a092d2b08" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Z6punajNH64u ;
+    schema:datePublished "1590" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034945> .
+
+adi:Z6punajNH64u-YtKapd9zqkzp a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZBSPmMsCucNE ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z6punajNH64u .
+
+adi:Z6punajNH64u-oWSHQjsz5BYg a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:NQtNz4bi24Fm ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z6punajNH64u .
+
+adi:Z6punajNH64u a rdfs:Resource ;
+    rdfs:label "Rime toscane della Maddalena Acciaioli" ;
+    <> adi:NQtNz4bi24Fm,
+        adi:ZBSPmMsCucNE,
+        "1590" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034945> ;
+    dcterms:title "Rime toscane della Maddalena Acciaioli gentildonna fiorentina. In lode della serenissima signora Cristina di Loreno gran duchessa di Toscana" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

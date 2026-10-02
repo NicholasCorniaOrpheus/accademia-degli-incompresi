@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UpNUpRqtonTK-8nnidAvuC9u8 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Fas4LiyE5uzU ;
+    rdf:predicate <> ;
+    rdf:subject adi:UpNUpRqtonTK .
+
+adi:UpNUpRqtonTK-LurxhxZVAV4k a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=ZQI4KhpLdgEC> ;
+    dcterms:publisher adi:QgzANxntwmqg ;
+    wdt:P291 adi:RFFMqXMnRXik ;
+    rdf:object "N6284ec28a2584e1cbdef0cbd6f65f5e8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UpNUpRqtonTK ;
+    schema:url <http://id.sbn.it/bid/SBLE000475> .
+
+adi:UpNUpRqtonTK a rdfs:Resource ;
+    rdfs:label "Rime d'Isabella Andreini padovana comica Gelosa" ;
+    <> adi:Fas4LiyE5uzU ;
+    dcterms:title "Rime d'Isabella Andreini padouana comica Gelosa. Dedicate all'illustriss. & reuerendiss. sig. il sig. cardinal S. Giorgio Cinthio Aldobrandini" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

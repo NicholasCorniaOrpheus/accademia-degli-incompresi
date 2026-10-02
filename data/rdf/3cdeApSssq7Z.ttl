@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3cdeApSssq7Z-GitKw9d4jZZP a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bd6t57527070> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bd6t57527070/manifest.json> ;
+    rdf:object "Nebb17c0fa6c34d0295754ab033514c53" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:3cdeApSssq7Z ;
+    schema:datePublished "1622" ;
+    schema:url <https://catalogue.bnf.fr/ark:/12148/cb300197658> .
+
+adi:3cdeApSssq7Z-XUu9Mud7Rykd a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BzZ5xTZQpucC ;
+    rdf:predicate <> ;
+    rdf:subject adi:3cdeApSssq7Z .
+
+adi:3cdeApSssq7Z-eNMU7nZeikDs a rdf:Statement ;
+    bf:electronicLocator <http://www.urfm.braidense.it/rd/04359_2.pdf> ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N411948f46ff643928c8030f774912a20" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:3cdeApSssq7Z ;
+    schema:datePublished "1622" ;
+    schema:url <http://id.sbn.it/bid/MILE044470> .
+
+adi:3cdeApSssq7Z a rdfs:Resource ;
+    rdfs:label "Amor nello specchio commedia. Di Gio. Battista Andreini" ;
+    <> adi:BzZ5xTZQpucC,
+        "1622" ;
+    dc:subject adi:hHij3iF3zFE9 ;
+    dcterms:title "Amor nello specchio commedia. Di Gio. Battista Andreini fiorentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:YTYEKR5GKuMa,
+        adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:nR5FxU5FRPkD ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:7mWesfkGiygJ,
+        adi:hq5fryYEkuQW,
+        adi:i5Hx28kAoBiU .
+

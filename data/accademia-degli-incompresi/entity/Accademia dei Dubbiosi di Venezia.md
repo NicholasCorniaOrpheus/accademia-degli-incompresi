@@ -5,6 +5,7 @@ description:
 identifier:
 described_by_source:
   - "[[(Faini 2020)]]"
+  - "[[(Artese 1983)]]"
 image:
 aliases:
 instance_of:

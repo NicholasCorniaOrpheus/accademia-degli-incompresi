@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JuwhmCM2dW8K-ZL6WTHFcRwBY a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:SjqizepxoSSs ;
+    rdf:predicate <> ;
+    rdf:subject adi:JuwhmCM2dW8K .
+
+adi:JuwhmCM2dW8K-hH94Cr2kLmme a rdf:Statement ;
+    rdf:object adi:XSLwZmE43osQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:JuwhmCM2dW8K .
+
+adi:JuwhmCM2dW8K a rdfs:Resource ;
+    rdfs:label "Vi mando Signor mio del secco ingegno (Agostini)" ;
+    <> adi:SjqizepxoSSs,
+        adi:XSLwZmE43osQ ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Vi mando Signor mio del secco ingegno
+I verdi frutti, e di miei canti il sono,
+Né v'ingombrino il cor di fiero sdegno,
+Poiché quanto poss'io, tanto vi dono.
+Siano appò voi di servitude un pegno,
+Che vostro fido, et humil servo sono,
+Acciò col valor chiaro altero, e solo
+Alzar mi possa a glorioso volo.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F305240000010101_000000002400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5rXXXivjHnqu,
+        adi:DHTHVpQnvYLr,
+        adi:P9akbwF852t3 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

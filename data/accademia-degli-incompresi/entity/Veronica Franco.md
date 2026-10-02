@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q257493
 described_by_source:
+  - "[[(Campbell 2018)]]"
 image: https://upload.wikimedia.org/wikipedia/commons/5/58/Seguace_JacopoTintoretto_Ritratto_di_signora.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original
 aliases:
 instance_of:
@@ -27,3 +28,4 @@ catalog_identifier:
     value: 20774
 present_in_work:
 ---
+[[Maffeo Venier]] described his fellow academician [[Veronica Franco]] as "Donna reduta mostro in carne humana" [[(Campbell 2018)]]. He compares her to a monster, transgressing the social norms of the time by being a learned courtesan.

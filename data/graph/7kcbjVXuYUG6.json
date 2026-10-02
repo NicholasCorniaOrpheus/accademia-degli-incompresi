@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7kcbjVXuYUG6",
+      "label": "Mercury",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9w8iYcz955Kd",
+      "label": "mythical character",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "label": "Con il favor del cielo e di natura (Fiorino)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YDvzeCyvjYDn",
+      "label": "Trema e paventa in me l'ingegno e l'arte",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwD2sXgdMi5p",
+      "label": "Amor m'ha bastonat cum la so mescola (Agostini)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7kcbjVXuYUG6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9w8iYcz955Kd",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7kcbjVXuYUG6",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YDvzeCyvjYDn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7kcbjVXuYUG6",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwD2sXgdMi5p",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7kcbjVXuYUG6",
+      "property": "depicts"
+    }
+  ]
+}

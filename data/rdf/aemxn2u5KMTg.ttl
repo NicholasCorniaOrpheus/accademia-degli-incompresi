@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aemxn2u5KMTg-9W6HsJk2VYJm a rdf:Statement ;
+    rdf:object adi:exrSSpj73NMW ;
+    rdf:predicate <> ;
+    rdf:subject adi:aemxn2u5KMTg ;
+    ns1:P304 "95" ;
+    ns1:P958 "Musica. Alla M. Illustre Signora Contessa D. Ismeria Alberti Sareghi. Cesare Rinaldi." ;
+    schema:volumeNumber "4" .
+
+adi:aemxn2u5KMTg-nhAL6kZJUMpg a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Kq4PswoDPxtR ;
+    rdf:predicate <> ;
+    rdf:subject adi:aemxn2u5KMTg .
+
+adi:aemxn2u5KMTg a rdfs:Resource ;
+    rdfs:label "Qual fu, qual è, qual fia" ;
+    <> adi:Kq4PswoDPxtR,
+        adi:exrSSpj73NMW ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Qual fu, qual è, qual fia,
+Cantando l'immortali
+Perché tra lor lo stato dei mortali:
+Il cantar nostro sia
+Simile a quel; siam'tre canta tu Lisa,
+Tu canta, Amor, & io
+Canterò canterem'lo stato mio:
+Cantiamo in dolce guisa,
+Come fu, come fia, com'è dolente
+Il passato, il futuro, ed'il presente.""" ;
+    dc:subject adi:5f6kHhAxyPZh ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/010780000101_PPPP00245600C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:P9akbwF852t3,
+        adi:nzFukG9dibar ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

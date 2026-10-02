@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gFUmSNTaKosW-L8VgkdgocKxv a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:fNQ3Yu7akyGg ;
+    rdf:predicate <> ;
+    rdf:subject adi:gFUmSNTaKosW .
+
+adi:gFUmSNTaKosW-NgmVMQrH25U2 a rdf:Statement ;
+    rdf:object adi:faqWLBNJVmjy ;
+    rdf:predicate <> ;
+    rdf:subject adi:gFUmSNTaKosW ;
+    ns1:P304 "3" ;
+    ns1:P958 "Ottava 2" .
+
+adi:gFUmSNTaKosW a rdfs:Resource ;
+    rdfs:label "Anchor che da voi stelle siate tali" ;
+    <> adi:fNQ3Yu7akyGg,
+        adi:faqWLBNJVmjy ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Anchor che da voi stelle siate tali,
+Che da ogni tarra, che data vi sia,
+O fatto dishonor da tali, e quali,
+Ch' in biasmo vostro parlan tutta via,
+Difender vi potiate, anzi con l'ali
+Del nome vostro, ond'ogni ben s'invii,
+Al mondo dimostrar chiaro, e aperto
+Quanto in voi splenda, d'alta gloria il merto.""" ;
+    dc:subject adi:jSo2wG8h9SDa,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:NUaQe9C3WPVp,
+        adi:PD77VU2hvP2t ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

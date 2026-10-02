@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FvQuHZpmGXCg-DZYudF2wZ6pC a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bCNHbMSK5pg2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:FvQuHZpmGXCg .
+
+adi:FvQuHZpmGXCg-et24N7Jfrbub a rdf:Statement ;
+    rdf:object adi:WcjvB7TctEVb ;
+    rdf:predicate <> ;
+    rdf:subject adi:FvQuHZpmGXCg ;
+    ns1:P304 "129" .
+
+adi:FvQuHZpmGXCg a rdfs:Resource ;
+    rdfs:label "Madonna, il mio dolor è tanto, & tale" ;
+    <> adi:WcjvB7TctEVb,
+        adi:bCNHbMSK5pg2 ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Madonna, il mio dolor è tanto, & tale;
+Che morta vi vorrei per minor male.
+Com'è possibil mai,
+Che mille volte l'hora
+Mi diate mille morti, & mille guai?
+Io vi lasso per sempre alla mal'hora,
+Poiché così volete
+Voi più non m'uccidrete.
+E dicovi da cor sì fatto, & tale;
+Che morta vi vorrei per minor male.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FHkhZJZzAo88,
+        adi:nCimZWBzP648 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

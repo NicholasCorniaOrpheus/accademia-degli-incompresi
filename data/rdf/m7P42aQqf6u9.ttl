@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:m7P42aQqf6u9-GdvPyNFjaaiY a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/imageGXI282NarrativaOpal> ;
+    wdt:P291 adi:RFFMqXMnRXik ;
+    rdf:object "N7110639f43ad4a5bae2c00138f0e2133" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:m7P42aQqf6u9 ;
+    schema:datePublished "1638" ;
+    schema:url <http://id.sbn.it/bid/TO0E007574> .
+
+adi:m7P42aQqf6u9 a rdfs:Resource ;
+    rdfs:label "Teatro d'huomini letterati" ;
+    <> "1638" ;
+    dc:subject adi:L6aLzmbRvQqS ;
+    dcterms:identifier <http://id.sbn.it/bid/TO0E007574> ;
+    dcterms:title "Teatro d'huomini letterati aperto dall'abbate Girolamo Ghilini e consacrato alla santità di nostro signore Urbano Ottauo" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:M7sSqHyAjQkb ;
+    wdt:P31 adi:J33irkAjq2cU,
+        adi:VxcNnZ5mDMkC .
+

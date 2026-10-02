@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SMqXbbKhdUtT-KFDHE8EdGLqT a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:NDRQPafFjYTy ;
+    rdf:predicate <> ;
+    rdf:subject adi:SMqXbbKhdUtT .
+
+adi:SMqXbbKhdUtT-S5ubiWfqePCd a rdf:Statement ;
+    rdf:object adi:CVNqJuQekRCD ;
+    rdf:predicate <> ;
+    rdf:subject adi:SMqXbbKhdUtT ;
+    ns1:P304 "2" ;
+    ns1:P958 "Nel veder la sua ombra in terra polverosa" .
+
+adi:SMqXbbKhdUtT a rdfs:Resource ;
+    rdfs:label "Fatto è pittor'il Sol di raro ingegno" ;
+    <> adi:CVNqJuQekRCD,
+        adi:NDRQPafFjYTy ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Fatto è pittor'il Sol di raro ingegno,
+Che con pennel di luce un'ombra finge,
+E per ritrarmi al vivo, in terra pinge.
+Pittor'in ver di peregrin disegno,
+Ne la polve m'adombra;
+Perch'altro non son'io, che polve, & ombra.""" ;
+    dc:description "The poet relates the shadows created by the Sun's light as instant paintings. The final verses allude to the moralistic goal of the poem, considering the author at the same level of dust and shadows." ;
+    dc:subject adi:DHTHVpQnvYLr,
+        adi:KuorvRGvXbTz ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5rXXXivjHnqu,
+        adi:8JCJNiEPyPxR,
+        adi:DZoqcMSppVGt ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

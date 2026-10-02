@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:T9bgYVd2RL4k-gCkZmR2jsJnA a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:HSj8sEHo3rC3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:T9bgYVd2RL4k .
+
+adi:T9bgYVd2RL4k-o8stQo4JsmGy a rdf:Statement ;
+    rdf:object adi:PagyXFKr5PvT ;
+    rdf:predicate <> ;
+    rdf:subject adi:T9bgYVd2RL4k ;
+    ns1:P304 "71" ;
+    ns1:P958 "Clarice Medici." ;
+    schema:volumeNumber "1" .
+
+adi:T9bgYVd2RL4k a rdfs:Resource ;
+    rdfs:label "Flora, Ninfa superba" ;
+    <> adi:HSj8sEHo3rC3,
+        adi:PagyXFKr5PvT ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Flora, Ninfa superba,
+Che di Diana sprezzi
+L'arco, le reti, le fontane, e l'erba;
+Non viver tanto in vezzi,
+Che a te stessa increscendo
+Cangi la propria forma in strani lezzi;
+Già, se il vero io comprendo,
+Poco stimi i Pastor, che t'ebber cara,
+Poco la libertà, che ogn'uno apprezza;
+Talché la tua bellezza,
+Pigliando nova forma, or non più rara
+Sarai, ne altrui sì cara:
+Di ciò mi doglio, e il mio doler sia vano;
+Che l'amaro tuo fin non è lontano.""" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FZP8Rx3LsDxz,
+        adi:GZY3csdzKUK5,
+        adi:HDNEwQhdjKrY,
+        adi:TNEPehjKNAaU ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

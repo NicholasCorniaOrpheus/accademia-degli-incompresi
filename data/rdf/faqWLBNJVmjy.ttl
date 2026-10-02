@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:faqWLBNJVmjy-EVP4Wkezweo7 a rdf:Statement ;
+    bf:electronicLocator <https://bub.unibo.it/it/bub-digitale/giulio-cesare-croce/?c_id=17_X_024> ;
+    dcterms:publisher adi:PN6aq8vcZFbS ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "N7342577031e24c379473c3aee4ff9e3b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:faqWLBNJVmjy ;
+    schema:datePublished "1590" ;
+    schema:url <http://id.sbn.it/bid/PARE063714> .
+
+adi:faqWLBNJVmjy-ecaMiMcwLWyD a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:fNQ3Yu7akyGg ;
+    rdf:predicate <> ;
+    rdf:subject adi:faqWLBNJVmjy .
+
+adi:faqWLBNJVmjy a rdfs:Resource ;
+    rdfs:label "La gloria delle donne di Giulio Cesare Croce" ;
+    <> adi:fNQ3Yu7akyGg,
+        "1590" ;
+    dc:subject adi:jSo2wG8h9SDa ;
+    dcterms:identifier <http://id.sbn.it/bid/PARE063714>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/003250010> ;
+    dcterms:title "La gloria delle donne di Giulio Cesare Croce, alla illustrissima, & eccellentissima sig. marchesa di Massa" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

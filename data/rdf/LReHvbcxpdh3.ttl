@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LReHvbcxpdh3-DK55W9kquVG8 a rdf:Statement ;
+    dcterms:references adi:cW5TYy5yxrHw ;
+    rdf:object adi:BpATM36nYWpT ;
+    rdf:predicate <> ;
+    rdf:subject adi:LReHvbcxpdh3 .
+
+adi:LReHvbcxpdh3-G7ohXqDMCxBV a rdf:Statement ;
+    dcterms:references adi:cW5TYy5yxrHw ;
+    rdf:object adi:3tjNWon78ob2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LReHvbcxpdh3 .
+
+adi:LReHvbcxpdh3-o2urkYMZC6nk a rdf:Statement ;
+    dcterms:references adi:cW5TYy5yxrHw ;
+    rdf:object adi:kLXVvQVexunJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:LReHvbcxpdh3 .
+
+adi:LReHvbcxpdh3 a rdfs:Resource ;
+    rdfs:label "Antonio Bruni" ;
+    <> adi:3pU843Lma47u,
+        adi:3tjNWon78ob2,
+        adi:BpATM36nYWpT,
+        adi:kLXVvQVexunJ ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q30250615> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

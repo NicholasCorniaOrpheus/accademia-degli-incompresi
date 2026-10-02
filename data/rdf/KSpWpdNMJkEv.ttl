@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KSpWpdNMJkEv-7YhavXfgRr3o a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:f8uFunXi7cjV ;
+    rdf:predicate <> ;
+    rdf:subject adi:KSpWpdNMJkEv .
+
+adi:KSpWpdNMJkEv-oPtf9iv8uNeb a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/theatrumchemicum00ashm> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:M4CDHkHzJWTe ;
+    rdf:object "N566100e52c8b49c6870c008856be3f25" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KSpWpdNMJkEv ;
+    schema:datePublished "1652" ;
+    schema:url <https://name.umdl.umich.edu/A75719.0001.001> .
+
+adi:KSpWpdNMJkEv a rdfs:Resource ;
+    rdfs:label "Theatrum chemicum Britannicum" ;
+    <> adi:f8uFunXi7cjV,
+        "1652" ;
+    dc:subject adi:8Y6NAvRmdtq6 ;
+    dcterms:identifier <https://name.umdl.umich.edu/A75719.0001.001> ;
+    dcterms:title "Theatrum chemicum Britannicum· Containing severall poeticall pieces of our famous English philosophers, who have written the hermetique mysteries in their owne ancient language. / Faithfully collected into one volume, with annotations thereon, by Elias Ashmole, Esq. Qui est Mercuriophilus Anglicus. The first part." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Eb5aj2HkQaXZ ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE,
+        adi:Pkoygy4mPEmk .
+

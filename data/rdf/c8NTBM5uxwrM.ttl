@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:c8NTBM5uxwrM-T4oCqcbBTCYJ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:hKo3ybdS8hXx ;
+    rdf:predicate <> ;
+    rdf:subject adi:c8NTBM5uxwrM .
+
+adi:c8NTBM5uxwrM-mCvEN9m5V48o a rdf:Statement ;
+    rdf:object adi:PagyXFKr5PvT ;
+    rdf:predicate <> ;
+    rdf:subject adi:c8NTBM5uxwrM ;
+    ns1:P304 "60" ;
+    ns1:P958 "Innocenza Carrari." ;
+    schema:volumeNumber "2" .
+
+adi:c8NTBM5uxwrM a rdfs:Resource ;
+    rdfs:label "A che Plinio, ti duoli, e ti lamenti" ;
+    <> adi:PagyXFKr5PvT,
+        adi:hKo3ybdS8hXx ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """A che Plinio, ti duoli, e ti lamenti,
+Con interrotti accenti?
+E che pianti di Cigni, e che funeste
+Insegne, ohimè, son queste?
+Forse il tuo Brescia è morto, e i tuoi contenti?
+Con infelice sorte,
+Quasi Cigno ei cantò vicino a morte,
+E fu la Morte ingrata,
+E più che mai spietata,
+S'have la nostra gioia e spenta, e cassa:
+Sembrò ei celeste in Terra,
+Ed r fa al tempo guerra:
+Ah non è morto, dorme, il pianto lassa
+Per non destarlo, e taci, e mira, e passa.""" ;
+    dc:subject adi:bz2ZiUr2xdwm ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:LVFgSQZJH6F8,
+        adi:VFabTiMFEU5U ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

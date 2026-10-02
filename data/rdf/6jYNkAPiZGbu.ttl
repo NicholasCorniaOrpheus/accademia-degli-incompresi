@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6jYNkAPiZGbu-6RnAQsS34Hcu a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b8562493m> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b8562493m/manifest.json> ;
+    rdf:object "Nce3f0f5f0b77479aa06e9c55592e19a7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6jYNkAPiZGbu ;
+    schema:datePublished "1647" ;
+    schema:url <http://id.sbn.it/bid/TO0E007607> .
+
+adi:6jYNkAPiZGbu a rdfs:Resource ;
+    rdfs:label "Le glorie degli Incogniti" ;
+    <> adi:F3GPDJCAWqWH,
+        "1647" ;
+    dcterms:identifier <http://id.sbn.it/bid/TO0E007607> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:M7sSqHyAjQkb ;
+    wdt:P31 adi:J33irkAjq2cU .
+

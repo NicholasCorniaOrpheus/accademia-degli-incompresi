@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "label": "Bergamo",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KYFG3hyEFbPP",
+      "label": "Italy",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bUguxUya4YGY",
+      "label": "city",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3fgoRPkiA8e9",
+      "label": "Poesie e prose, italiane e latine inedite di Francesco Maria, e di Tarquinia Molza, ed altre a loro dirette",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUXKCthCsaXu",
+      "label": "Il Tancredi. Tragedia del signor conte di Camerano",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y3YKpBSkeoRD",
+      "label": "Comino Ventura",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kBMsLgUXhcwj",
+      "label": "Rime di diversi celebri poeti dell'età nostra",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bUguxUya4YGY",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KYFG3hyEFbPP",
+      "property": "country"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3fgoRPkiA8e9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUXKCthCsaXu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y3YKpBSkeoRD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kBMsLgUXhcwj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ADjceYT8WEN6",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZUXKCthCsaXu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y3YKpBSkeoRD",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kBMsLgUXhcwj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y3YKpBSkeoRD",
+      "property": "has_version"
+    }
+  ]
+}

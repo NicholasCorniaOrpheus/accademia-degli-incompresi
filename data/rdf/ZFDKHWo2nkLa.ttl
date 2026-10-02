@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZFDKHWo2nkLa-37WsWQvL8EEZ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bNNWFuwTd8aB ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZFDKHWo2nkLa .
+
+adi:ZFDKHWo2nkLa-kTpvQt8CueVM a rdf:Statement ;
+    rdf:object adi:PagyXFKr5PvT ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZFDKHWo2nkLa ;
+    ns1:P304 "74" ;
+    ns1:P958 "Costanza d'Avalo." ;
+    schema:volumeNumber "1" .
+
+adi:ZFDKHWo2nkLa a rdfs:Resource ;
+    rdfs:label "Dalle tenebre oscure al lume chiaro" ;
+    <> adi:PagyXFKr5PvT,
+        adi:bNNWFuwTd8aB ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Dalle tenebre oscure al lume chiaro
+Col puro alto pensier, che dolcemente
+Acqueta l'alma, e fa lieta la mente
+M'invio, lasciando il peso, e il cibo amaro.
+
+Ivi l'ardente mio celeste, e caro
+Divino Amor mi pasce sì sovente
+Delle delizie sue, che leggermente
+Volo dal Mondo d'ogni bene avaro.
+
+Non pon turbarmi sì felice stato
+Turbini, o venti, che girando intorno
+Dimostran vana forza in dar tempesta:
+
+Che il mio tranquillo Ciel vien dall'amato
+Raggio del vivo Sol del vero giorno,
+Ch'ogni sereno, ogni bell'aurea desta.""" ;
+    dc:description "The author compares her love passion with the feeling of leaving the Earth and the freedom of flight." ;
+    dc:subject adi:KuorvRGvXbTz ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:DZoqcMSppVGt,
+        adi:KZ6PgT6cBtyo,
+        adi:PD77VU2hvP2t ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

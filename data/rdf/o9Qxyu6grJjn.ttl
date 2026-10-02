@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:o9Qxyu6grJjn-NgzyupZPv65j a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:iajxupbXH9BQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:o9Qxyu6grJjn .
+
+adi:o9Qxyu6grJjn-aF5EuQjsXDRz a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:a6zVndVnGyLC ;
+    rdf:predicate <> ;
+    rdf:subject adi:o9Qxyu6grJjn .
+
+adi:o9Qxyu6grJjn-gXodNbfucUd8 a rdf:Statement ;
+    rdf:object adi:Uro5vKqScg9H ;
+    rdf:predicate <> ;
+    rdf:subject adi:o9Qxyu6grJjn ;
+    ns1:P304 "11" ;
+    ns1:P958 "A Pietro Manelli." .
+
+adi:o9Qxyu6grJjn a rdfs:Resource ;
+    rdfs:label "Se forse per pietà del mio languire" ;
+    <> adi:Uro5vKqScg9H,
+        adi:a6zVndVnGyLC,
+        adi:iajxupbXH9BQ ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Se forse per pietà del mio languire 
+Al suon del tristo pianto in questo loco
+Ten'vieni a me, che tutta fiamma, & foco
+Ardomi, & struggo colma di disire, 
+
+Vago augellino, e meco il mio martìre
+Ch'in pena volge ogni passato gioco,
+Piangi cantando in suon dolente, & roco,
+Veggendomi del duol quasi perire;
+
+Pregoti per l'ardor, che sì m'addoglia
+Ne voli in quella amena, & cruda valle
+Ov'è chi sol può darmi, & morte, & vita.
+
+Et cantando gli di', che cangi voglia
+Volgendo a Roma'l viso, e a lei le spalle,
+Se vuol l'alma trovar col corpo unita.""" ;
+    dc:subject adi:FawktbqjQdSF,
+        adi:HXwdX5qkqNv6,
+        adi:YqV7mj8DFjX4 ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=22688> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CLmtCZLTvT24,
+        adi:P9akbwF852t3,
+        adi:VFabTiMFEU5U,
+        adi:kk4X4hY9rfnU,
+        adi:mmNaTApfKuRD ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

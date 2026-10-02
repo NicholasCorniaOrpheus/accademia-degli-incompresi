@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:e45jSSdYZj8p-F95BTHRRh2DM a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:C4NXw8vEgx8e ;
+    rdf:predicate <> ;
+    rdf:subject adi:e45jSSdYZj8p .
+
+adi:e45jSSdYZj8p-kPepP4LCSEma a rdf:Statement ;
+    rdf:object adi:bRqdpD8sTy88 ;
+    rdf:predicate <> ;
+    rdf:subject adi:e45jSSdYZj8p ;
+    ns1:P304 "92" .
+
+adi:e45jSSdYZj8p a rdfs:Resource ;
+    rdfs:label "Quasi huom, che rimaner deh tosto senza" ;
+    <> adi:C4NXw8vEgx8e,
+        adi:bRqdpD8sTy88 ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """QUASI huom, che rimaner deh tosto senza
+Il cibo, onde nudrir suol la sua vita,
+Più dell'usato a prenderne s'aita
+Fin, che gli è presso posto in sua presenza;
+
+Convien, ch'innanzi a l'aspra dipartenza
+Ch'a sì crudi digiuni l'alma invita,
+Ella più de l'usato sia nodrita,
+Per poter poi soffrir sì dura assenza.
+
+Però vaghi occhi miei mirate fiso,
+Più de l'usato, anzi bevete il bene,
+E'l bel del vostro amato e caro viso.
+
+E voi orecchie oltra l'usato piene
+Restate del parlar, che'l Paradiso,
+Certo armonia più dolce non contiene.""" ;
+    dc:subject adi:HXwdX5qkqNv6 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3joNaJwUYHum,
+        adi:4zDHNwC4tdTU,
+        adi:CUcz6GJhaAu5 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

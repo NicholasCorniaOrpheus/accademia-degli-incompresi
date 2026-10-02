@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hMvEmAM5vrex-RBvAD9AtB9vJ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4iQL4zuQfNQR ;
+    rdf:predicate <> ;
+    rdf:subject adi:hMvEmAM5vrex .
+
+adi:hMvEmAM5vrex-aZ2NFRExbVtu a rdf:Statement ;
+    rdf:object adi:B5dDXV6qVG2p ;
+    rdf:predicate <> ;
+    rdf:subject adi:hMvEmAM5vrex ;
+    ns1:P304 "33" ;
+    ns1:P958 "Del Tenebroso" .
+
+adi:hMvEmAM5vrex a rdfs:Resource ;
+    rdfs:label "Da i più profondi, e tenebrosi abissi" ;
+    <> adi:4iQL4zuQfNQR,
+        adi:B5dDXV6qVG2p ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Da i più profondi, e tenebrosi abissi
+Esci Megera, e di veneno infetto,
+Con l'usato furor,  m'ingrombra il petto
+In così tetre e paventose eclissi.
+
+Che, qual fia'l mio, non mai rimbombo udissi
+In aspre voci, o in forsennato aspetto,
+Mentre d'horrido gielo il corpo astretto
+M'havrai, e al cuore angui infernali affissi
+
+Spaventerò col grido huomini, e belve:
+Tremeranno al muggito alberi, e piante:
+Tutta empierò d' horror l' immensa mole.
+
+Così per boschi oscuri, ed atre selve
+Privo del suo bel folgorante Sole,
+Gridava un cieco e disperato amante.""" ;
+    dc:description "A madman, blinded by love, has turned into a fearful wandering monster." ;
+    dc:subject adi:TrnoRtA45mkr,
+        adi:o5E4uDGcg6qr ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:R7sbNmdF69BB,
+        adi:Ycoef6Pb8HJA,
+        adi:aHgkm4kqQFXB,
+        adi:esdPVkcqtoQn ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

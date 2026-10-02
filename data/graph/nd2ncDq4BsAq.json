@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nd2ncDq4BsAq",
+      "label": "kabbalah",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YbUQdWqMW8RP",
+      "label": "Ars transmutationis metallicae",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aKLmqwCNRzyt",
+      "label": "Giovanni Agostino Panteo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NfW3mt8C2xHA",
+      "label": "field of study",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nd2ncDq4BsAq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NfW3mt8C2xHA",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YbUQdWqMW8RP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nd2ncDq4BsAq",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aKLmqwCNRzyt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nd2ncDq4BsAq",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YbUQdWqMW8RP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aKLmqwCNRzyt",
+      "property": "contributor"
+    }
+  ]
+}

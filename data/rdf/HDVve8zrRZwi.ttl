@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HDVve8zrRZwi-3HU4mcfxFgPx a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18170" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HDVve8zrRZwi .
+
+adi:HDVve8zrRZwi-EPc2W5bicccZ a rdf:Statement ;
+    dcterms:references adi:R8gaAppcmFNh ;
+    rdf:object adi:33fBjU7SLdGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:HDVve8zrRZwi .
+
+adi:HDVve8zrRZwi a rdfs:Resource ;
+    rdfs:label "Francesco Berni" ;
+    <> adi:2zJ3QRUFy4nX,
+        adi:33fBjU7SLdGj,
+        adi:3pU843Lma47u,
+        adi:NiTWoVWgRtNj,
+        adi:hbLMcBia2woA,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q655618> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

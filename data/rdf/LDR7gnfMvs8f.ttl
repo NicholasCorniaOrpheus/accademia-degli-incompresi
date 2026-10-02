@@ -1,0 +1,73 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LDR7gnfMvs8f-RKBPgBoySmsH a rdf:Statement ;
+    rdf:object adi:RejRRize222j ;
+    rdf:predicate <> ;
+    rdf:subject adi:LDR7gnfMvs8f ;
+    ns1:P304 "310" ;
+    ns1:P958 "Isabella di Morra." .
+
+adi:LDR7gnfMvs8f-WaTzbRhv3XQJ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:doo4FV8oxLNi ;
+    rdf:predicate <> ;
+    rdf:subject adi:LDR7gnfMvs8f .
+
+adi:LDR7gnfMvs8f-g7TWfWv3wr9Q a rdf:Statement ;
+    rdf:object adi:YH5YsDQaNjqj ;
+    rdf:predicate <> ;
+    rdf:subject adi:LDR7gnfMvs8f ;
+    ns1:P304 "15" ;
+    ns1:P958 "Isabella di Morra." .
+
+adi:LDR7gnfMvs8f a rdfs:Resource ;
+    rdfs:label "D'un alto monte; ove si scorge il mare" ;
+    <> adi:RejRRize222j,
+        adi:YH5YsDQaNjqj,
+        adi:doo4FV8oxLNi ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """D'Un'alto monte; onde si scorge il mare,
+Miro sovente io tua figlia Isabella,
+S'alcun legno spalmato in quello appare,
+Che di te Padre a me doni novella.
+
+Ma la mia adversa, e dispietata stella
+Non vuol, ch'alcun conforto possa entrare
+Nel tristo cor, ma di pietà rubella
+La calda speme in pianto fa mutare.
+
+Ch'io non veggo nel mar remo, né vela;
+(Così deserto è lo infelice lito,)
+Che l'onde fenda, o che la gonfi al vento.
+
+Contra fortuna allhor spargo querela,
+Et ho in odio il denigrato sito;
+Come sola cagion del mio tormento.""" ;
+    dc:description "The author laments her reclusion in het father's house." ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://lyra.unil.ch/poems/1569> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:Meh7sxamWjJw,
+        adi:e2nWi24VoUtn ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:25aVTU3ikP69,
+        adi:C5ipjJaua6Bx,
+        adi:GYGwj2xP2wD8,
+        adi:GfJn75HsAD4J,
+        adi:LBUMoVayqW8X,
+        adi:NUaQe9C3WPVp,
+        adi:VFabTiMFEU5U,
+        adi:Yeipn8BLRFXZ,
+        adi:i6aLsHeCyDtH,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

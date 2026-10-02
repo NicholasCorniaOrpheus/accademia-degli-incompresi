@@ -1,0 +1,26 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:cn2nwNxEPhn9-Dq3PYqXaD9XY a rdf:Statement ;
+    dcterms:references adi:6TbtBehFUF3E ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:cn2nwNxEPhn9 .
+
+adi:cn2nwNxEPhn9-ZKuHu2MHK5MH a rdf:Statement ;
+    dcterms:references adi:6TbtBehFUF3E ;
+    rdf:object "1559" ;
+    rdf:predicate <> ;
+    rdf:subject adi:cn2nwNxEPhn9 .
+
+adi:cn2nwNxEPhn9 a rdfs:Resource ;
+    rdfs:label "Compagnia dei Pastori Fratteggianti" ;
+    <> adi:RE3XAqvEyiZM ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:6TbtBehFUF3E,
+        adi:SrWTCERreeEv ;
+    wdt:P31 adi:5kTufm84drrw .
+

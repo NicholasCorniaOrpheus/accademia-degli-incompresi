@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6JQyzUwccM4D-3CPHq976rQGS a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:iajxupbXH9BQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:6JQyzUwccM4D .
+
+adi:6JQyzUwccM4D-3brF23di3hqv a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Il_Meschino_altramente_detto_il_Guerrino/hgw8AAAAcAAJ> ;
+    dcterms:publisher adi:ETxQtbjAywwf ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ndc0eaf946fa94af388e34a4f1d53fc8e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6JQyzUwccM4D ;
+    schema:datePublished "1560" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002290> .
+
+adi:6JQyzUwccM4D-CF8jz6KHvY8y a rdf:Statement ;
+    bf:electronicLocator <http://badigit.comune.bologna.it/books/sol/395215_INV.pdf> ;
+    dcterms:publisher adi:ETxQtbjAywwf ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nfcadf43f53114c35a61201d139a39a1f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6JQyzUwccM4D ;
+    schema:datePublished "1560" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002290> .
+
+adi:6JQyzUwccM4D-fLzV76TLRZkH a rdf:Statement ;
+    dcterms:references adi:2akh6MQphaCo ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:6JQyzUwccM4D .
+
+adi:6JQyzUwccM4D a rdfs:Resource ;
+    rdfs:label "Il Meschino, altramente detto il Guerrino, fatto in ottava rima dalla signora Tullia d'Aragona" ;
+    <> adi:GdXWhx79h26y,
+        adi:iajxupbXH9BQ,
+        "1560" ;
+    dc:subject adi:Z6udgtgZac9G ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002290> ;
+    dcterms:title "Il Meschino, altramente detto il Guerrino, fatto in ottaua rima dalla signora Tullia d'Aragona. Opera, nella quale si veggono & intendono le parti principali di tutto il mondo, & molte altre dilettuolissime cose, da esser sommamente care ad ogni sorte di persona di bello ingegno" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:2akh6MQphaCo ;
+    wdt:P31 adi:cygyrPSnobpc ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

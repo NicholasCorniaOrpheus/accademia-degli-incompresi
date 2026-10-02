@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mUXc2o5d3d4b-D2nmBqYMmDog a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:gJigWkauAvXU ;
+    rdf:predicate <> ;
+    rdf:subject adi:mUXc2o5d3d4b .
+
+adi:mUXc2o5d3d4b-RfHsKTQXmmdY a rdf:Statement ;
+    rdf:object adi:L2LbwEDxTqeF ;
+    rdf:predicate <> ;
+    rdf:subject adi:mUXc2o5d3d4b ;
+    ns1:P304 "7" ;
+    schema:volumeNumber "2" .
+
+adi:mUXc2o5d3d4b a rdfs:Resource ;
+    rdfs:label "Chi è costei, che come nuova Aurora" ;
+    <> adi:L2LbwEDxTqeF,
+        adi:gJigWkauAvXU ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """CHI è costei, che come nuova Aurora,
+Ma più chiara del Sol, che la Tauro torni,
+In sul finir de' miei ultimi giorni
+Lo smarrito cor mio desta, & colora?
+
+Move da le sue rose una dolcie ora
+Di vaghi accenti, & di santi atti adorni,
+Che, quasi seco Amor spiri, & soggiorni,
+Me neve, & gel di bei desiri infiora;
+
+Onde non pur la scorza fredda, & bianca,
+Ma prenda qualità a la parte interna,
+Di voi cortese Dea, perpetuo tempio:
+
+Gardir per lei questa altra inferma, & stanca
+Gratia a me rara, a voi fia gloria eterna,
+Rinovellando di Titon l'essempio.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://lyra.unil.ch/poems/1093> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:LBUMoVayqW8X,
+        adi:P9akbwF852t3,
+        adi:T3ehoUUCyhWR ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

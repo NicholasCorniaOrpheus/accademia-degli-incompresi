@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ixZn2ZSnYiyw-fuPCoKE8y5FQ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:VGVHbg5uSE8V ;
+    rdf:predicate <> ;
+    rdf:subject adi:ixZn2ZSnYiyw .
+
+adi:ixZn2ZSnYiyw-kxU3UDbnjGE8 a rdf:Statement ;
+    rdf:object adi:MZhwN3rRpy8x ;
+    rdf:predicate <> ;
+    rdf:subject adi:ixZn2ZSnYiyw ;
+    ns1:P304 "62" ;
+    ns1:P958 "314" .
+
+adi:ixZn2ZSnYiyw a rdfs:Resource ;
+    rdfs:label "Amar un sol amante è vero amore" ;
+    <> adi:MZhwN3rRpy8x,
+        adi:VGVHbg5uSE8V ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Amar un sol amante è vero amore;
+Et d'alma gentil nasce,
+Ma chi di più l'ingorda voglia pasce
+Quest'è lussuria poi, quest'è furore:
+Voi sguardi, & risi, pur date a ciascuno:
+Ma io dico in due parole;
+Amate un solo; & ch'io sia poi quel uno;
+In fine haver un sol amor si vole;
+Ch'a noi ci basta un Dio, ci basta un Sole:""" ;
+    dc:subject adi:HdQB3CYz2ig3 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F042510000101_PPPP00068900C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ULeh4aoNK9uM-cDPmagvqDW62 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QzFWBAu4Ku5H ;
+    rdf:predicate <> ;
+    rdf:subject adi:ULeh4aoNK9uM .
+
+adi:ULeh4aoNK9uM-kvCfGLVYzuZD a rdf:Statement ;
+    rdf:object adi:dXHZMmpg7CAi ;
+    rdf:predicate <> ;
+    rdf:subject adi:ULeh4aoNK9uM ;
+    ns1:P304 "23" ;
+    ns1:P958 "Canto III, 38" .
+
+adi:ULeh4aoNK9uM a rdfs:Resource ;
+    rdfs:label "Penetra con l'acuto alto intelletto" ;
+    <> adi:QzFWBAu4Ku5H,
+        adi:dXHZMmpg7CAi ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Penetra con l'acuto alto intelletto,
+Da le cagion primiere a le seconde,
+Che producon tra noi diverso effetto,
+Con qualitati, e sterili, e feconde,
+Che con vario del ciel corso, & aspetto,
+Dan le fortune averse, e le feconde,
+E così de le stelle il lume, e'l moto,
+E di natura l'operar l'è noto.""" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:mXh2Rsv82eCY ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:P8g4zkHCciMB ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:G8qkbNybPaKp ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

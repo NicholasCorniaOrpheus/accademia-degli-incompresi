@@ -33,10 +33,10 @@ depicts:
   - "[[Sun]]"
 language: "[[Italian]]"
 text: |-
-  Al’apparir del Sole
+  AL'apparir del Sole
   La neve in liquid'onde
   Per sua natura distillar si suole.
-  Io (lassa) quando il mio bel Sol s’asconde
+  Io (lassa) quando il mio bel Sol s'asconde
   Verso da gli occhi tanto
   Humor, che tutta mi distillo in pianto.
 ---

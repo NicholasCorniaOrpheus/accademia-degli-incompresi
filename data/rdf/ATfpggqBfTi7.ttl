@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ATfpggqBfTi7-KYVgzQh785un a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:C4NXw8vEgx8e ;
+    rdf:predicate <> ;
+    rdf:subject adi:ATfpggqBfTi7 .
+
+adi:ATfpggqBfTi7-oKmoCYBjfcG5 a rdf:Statement ;
+    rdf:object adi:bRqdpD8sTy88 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ATfpggqBfTi7 ;
+    ns1:P304 "72" .
+
+adi:ATfpggqBfTi7 a rdfs:Resource ;
+    rdfs:label "Queste rive, ch'amai sì caldamente" ;
+    <> adi:C4NXw8vEgx8e,
+        adi:bRqdpD8sTy88 ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Queste rive, ch'amai sì caldamente,
+Rive sovra tutt'altre alme, e beate,
+Fido albergo di cara libertate,
+Nido d'illustre, e riposata gente.
+
+Chi'l crederia? mi son novellamente
+Sì fattamente fuor del cor' andate;
+Che di passar con lor le mie giornate
+Mi doglio meco, e mi pento sovente.
+
+E tutti i miei disiri, e i miei pensieri
+Mirano a quel bel Colle, ove hora stanza
+Il mio Signor', e i suoi due lumi alteri.
+
+Quivi per acquetar la desianza,
+Spenderei tutta seco volentieri
+Questa vita penosa, che m'avanza.""" ;
+    dc:subject adi:YqV7mj8DFjX4 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3H8EUFWaF3kZ,
+        adi:d4L6StxVVqKo ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Uh8huwiP3pFj-8YzA3xUtWAFK a rdf:Statement ;
+    rdf:object adi:FHb6zxLqq78x ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uh8huwiP3pFj ;
+    ns1:P304 "6" ;
+    ns1:P958 "6" .
+
+adi:Uh8huwiP3pFj-A3o2jEydPBgG a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FzrdyPjZDVz9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uh8huwiP3pFj .
+
+adi:Uh8huwiP3pFj a rdfs:Resource ;
+    rdfs:label "Ove ne lasci, ove Signor ne vai" ;
+    <> adi:FHb6zxLqq78x,
+        adi:FzrdyPjZDVz9 ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Ove ne lasci, ove Signor ne vai
+Innocente a soffrir l'ultime pene?
+Dunque pur dee morir, con tanti guai,
+Chi vive ne consola, e ne mantiene?
+Gierusalem, Gierusalem, che fai?
+Chi la destra tonante in Ciel ritiene
+Del giusto Dio, perch'una pioggia horrenda
+Di fiamme ultrici, hor fuora te ne scenda?""" ;
+    dc:subject adi:5HJWdrzniH6G,
+        adi:mmNaTApfKuRD ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8DvdSnc9KiTf ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

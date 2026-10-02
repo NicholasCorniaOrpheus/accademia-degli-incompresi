@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RE3XAqvEyiZM-KGUNL3xuM2BP a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16104" ;
+    rdf:predicate <> ;
+    rdf:subject adi:RE3XAqvEyiZM .
+
+adi:RE3XAqvEyiZM-a6hkhgnjtJ9T a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:NHx6kTUABgvu ;
+    rdf:predicate <> ;
+    rdf:subject adi:RE3XAqvEyiZM .
+
+adi:RE3XAqvEyiZM a rdfs:Resource ;
+    rdfs:label "Ludovico Dolce" ;
+    <> adi:3pU843Lma47u,
+        adi:NHx6kTUABgvu,
+        adi:WmxGq9NZGSDT ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1867806> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Ludovico Dolce" ;
+    schema:gender adi:8UjQ7UabobgD .
+

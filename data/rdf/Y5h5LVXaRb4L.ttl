@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Y5h5LVXaRb4L-K4jLekbTnu8P a rdf:Statement ;
+    rdf:object adi:SJzeSSdNp5bx ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y5h5LVXaRb4L ;
+    ns1:P304 "40" ;
+    ns1:P958 "Del Sig. Francesco Maria Calidonii. Invita la Signora Gironda Cerrini, Perugina a Cantare nel Dottorato del Bigaroli; e allude a' Fiori, e Stelle dell'Arma del medesimo." .
+
+adi:Y5h5LVXaRb4L-SnQHyJTCt8so a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3GdeomRavA4R ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y5h5LVXaRb4L .
+
+adi:Y5h5LVXaRb4L-T8RNHPb9Mbir a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:GkWgDbZaDpfy ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y5h5LVXaRb4L .
+
+adi:Y5h5LVXaRb4L a rdfs:Resource ;
+    rdfs:label "D'Astrea sudando a' gravi studi intorno" ;
+    <> adi:3GdeomRavA4R,
+        adi:GkWgDbZaDpfy,
+        adi:SJzeSSdNp5bx ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """D'Astrea sudando a' gravi studi intorno
+De l'astio vince, e de la morte il gelo,
+Il Bigaroli; e pur del volto adorno
+Non gli adugge le Rose ombra di pelo.
+
+Ma indarno i pregi, ond'a più Saggi scorno
+Reca, cantar, con roco plettro anelo;
+Tu, 'l cui bel seno a le Virtù soggiorno,
+In mill' Altri, disperse, elesse il Cielo;
+
+Tu Testrice di Rime illustri, e belle,
+Ridir di lui, con degno stil gli onori.
+Puoi, se la Cetra d'or tempri, e flagelle.
+
+Poiché ti cingi il crin di tanti Allori,
+Quanti fulgidi rai vantan sue Stelle,
+Quante foglie odorose apron suoi Fiori.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3pU843Lma47u,
+        adi:5f6kHhAxyPZh,
+        adi:LBUMoVayqW8X,
+        adi:MFcsbFYFrFvB,
+        adi:NUaQe9C3WPVp,
+        adi:P9akbwF852t3,
+        adi:YvSVvwPw9ogd,
+        adi:oVPnqZSgWvz9 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

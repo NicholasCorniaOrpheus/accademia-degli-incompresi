@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iYBP772gVPjX-2y2hTRzu47SG a rdf:Statement ;
+    rdf:object adi:U8QH2ZNaC9bX ;
+    rdf:predicate <> ;
+    rdf:subject adi:iYBP772gVPjX ;
+    ns1:P958 "Del Sig. Ercole Marliani all'Autore." .
+
+adi:iYBP772gVPjX-Dc4BHr7FeXVN a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:agAvDjPLYaLN ;
+    rdf:predicate <> ;
+    rdf:subject adi:iYBP772gVPjX .
+
+adi:iYBP772gVPjX-YpgnwzvMAimS a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BU44ZRHETrHk ;
+    rdf:predicate <> ;
+    rdf:subject adi:iYBP772gVPjX .
+
+adi:iYBP772gVPjX a rdfs:Resource ;
+    rdfs:label "Altri fra squadre in fero campo armate" ;
+    <> adi:BU44ZRHETrHk,
+        adi:U8QH2ZNaC9bX,
+        adi:agAvDjPLYaLN ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Altri fra squadre in fero campo armate
+Si videro trattar brandi guerrieri:
+Altri di Scettri, e di Corone alteri
+D’immortal gloria alzar le fronte ornate:
+
+Ci fu chi per leggiadra alma beltate
+In carte dispiegò saggi pensieri:
+Chi per tragici affetti, aspri, e severi
+Seppe carte arricchir d’opre laudate.
+
+Tu ne i Theatri, e ne Ie Scene illustri
+Ove s’ammira ciò ch’il mondo ha in pregio,
+Se' guerrier, se t’aggrada, e duce, e amante
+
+Vesti cothurni, e socchi in modi industri,
+E quel ch'è più, e che t’aggiunge fregio:
+La tua penna è di te tromba sonante.""" ;
+    dc:subject adi:KX53XRWp7L4v,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:Hv6rwLYH8FSX,
+        adi:PuzofSmPxjQf ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

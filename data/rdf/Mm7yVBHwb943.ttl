@@ -1,0 +1,26 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Mm7yVBHwb943-DMuyoxubsQQ4 a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "17" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Mm7yVBHwb943 .
+
+adi:Mm7yVBHwb943-XWZvz8hiquRo a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:VkQaPhBBEyhd ;
+    rdf:predicate <> ;
+    rdf:subject adi:Mm7yVBHwb943 .
+
+adi:Mm7yVBHwb943 a rdfs:Resource ;
+    rdfs:label "Accademia degli Oziosi di Napoli" ;
+    <> adi:VkQaPhBBEyhd,
+        adi:noxgdEZ8TnkL ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ni979sazCSnd-7zgT75WTAwex a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:ni979sazCSnd .
+
+adi:ni979sazCSnd-KYZ5BzxJRXbE a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Pgvz7HXbEsUg ;
+    rdf:predicate <> ;
+    rdf:subject adi:ni979sazCSnd .
+
+adi:ni979sazCSnd-a7HZGAKzdhbN a rdf:Statement ;
+    rdf:object adi:53AwWJ6fYC5v ;
+    rdf:predicate <> ;
+    rdf:subject adi:ni979sazCSnd ;
+    ns1:P304 "21" ;
+    ns1:P958 "Al Signor Lodovico Domenichi." .
+
+adi:ni979sazCSnd a rdfs:Resource ;
+    rdfs:label "Mi duol non haver stile" ;
+    <> adi:53AwWJ6fYC5v,
+        adi:Pgvz7HXbEsUg,
+        adi:RE3XAqvEyiZM ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Mi duol non haver stile
+Uguale a i meriti vostri
+DOMENICHI gentile,
+Acciò potessi in parte
+Così, com'ho il desio
+Dirne una qualche parte:
+Ma non potendo più vi dono il core,
+E vi prego a tener a mente ch'io
+Sì come mio maggiore
+Vi riverisco, e bramo farvi honore.""" ;
+    dc:subject adi:DHTHVpQnvYLr,
+        adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F055200000101_PPPP00042300C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5rXXXivjHnqu,
+        adi:fXijNpAr5BvS ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:424teGY57uMc-CSUkFezRsJ6c a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:g3KbkbPs6i3L ;
+    rdf:predicate <> ;
+    rdf:subject adi:424teGY57uMc .
+
+adi:424teGY57uMc-cDSL7pt65eAn a rdf:Statement ;
+    rdf:object adi:B5dDXV6qVG2p ;
+    rdf:predicate <> ;
+    rdf:subject adi:424teGY57uMc ;
+    ns1:P304 "9" ;
+    ns1:P958 "Dell'Immaturo" .
+
+adi:424teGY57uMc a rdfs:Resource ;
+    rdfs:label "Occhi amorosi, e vaghi" ;
+    <> adi:B5dDXV6qVG2p,
+        adi:g3KbkbPs6i3L ;
+    pdc:poeticType adi:ZTekfwVRnUbd ;
+    pdc:text """Occhi amorosi, e vaghi,
+Luci de l'alma mia,
+Che vita ha sol quanto si specchia in  voi,
+Piacciavi ch' io m' appaghi
+In rimirarvi pria,
+Ch'a lodar venga il vostro bel fra noi,
+Che così scorto poi
+Salirò in alto tanto
+Con l'ali del pensiero,
+Che ritornando spero
+Portar cose sì nove in questo canto,
+Ch'udendole ogni core
+Meco s'infiammi d'immortale ardore.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:4zDHNwC4tdTU,
+        adi:PD77VU2hvP2t,
+        adi:d2QjJCcEtkiC,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

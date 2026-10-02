@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8aTRT2CocptB-5ZwzyAqWCyim a rdf:Statement ;
+    bf:Note "According to Ferrone, the piece has been attributed to Bernardino Lombardi who stole the drama from Camillo Della Valle." ;
+    dcterms:publisher adi:VG9zdScyJbW2 ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "N1082580abd554cadab9fd66d2a684191" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:8aTRT2CocptB ;
+    schema:datePublished "1579" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE038006> .
+
+adi:8aTRT2CocptB-SmWB3xLqh7tE a rdf:Statement ;
+    bf:Note "According to Ferrore, he has published the drama under the name of \"Accademico Acuto Rinovato\"." ;
+    bf:Role adi:WEaLWLKrPsCN ;
+    rdf:object adi:gJFucdkRobUR ;
+    rdf:predicate <> ;
+    rdf:subject adi:8aTRT2CocptB .
+
+adi:8aTRT2CocptB-mbYAuLMfVBQC a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:8pmZM6mhguAm ;
+    rdf:predicate <> ;
+    rdf:subject adi:8aTRT2CocptB .
+
+adi:8aTRT2CocptB a rdfs:Resource ;
+    rdfs:label "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato" ;
+    <> adi:8pmZM6mhguAm,
+        adi:YVjrH77qwiAN,
+        adi:gJFucdkRobUR,
+        "1579" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE038006> ;
+    dcterms:title "La Fillide, fauola pastorale, dell'Acceso Academico Rinouato" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:cF3HzyFDHqfG,
+        adi:fqNyvp8swvbU ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:GdeyMkYtsKFp .
+

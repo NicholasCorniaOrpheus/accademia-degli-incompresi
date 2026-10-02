@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:e7PbxpNbbM2c-HfcsKHE9a8so a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
+    rdf:object "N27d69359d9f446f1bec76e8931fbf586" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:e7PbxpNbbM2c ;
+    schema:datePublished "1585" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
+
+adi:e7PbxpNbbM2c-SmFrMEhxLDjk a rdf:Statement ;
+    dcterms:references adi:AwpgRUaYkZWy,
+        adi:LFnX7JTYkXgP ;
+    rdf:object "1583" ;
+    rdf:predicate <> ;
+    rdf:subject adi:e7PbxpNbbM2c .
+
+adi:e7PbxpNbbM2c-YxDtat353Gsc a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:F5twPYgd9Q3X ;
+    rdf:predicate <> ;
+    rdf:subject adi:e7PbxpNbbM2c .
+
+adi:e7PbxpNbbM2c-g3oqiyzjLnLJ a rdf:Statement ;
+    dcterms:publisher adi:mzVqud2uGYeD ;
+    wdt:P291 adi:64m48iDXC7Fc,
+        adi:M4CDHkHzJWTe ;
+    rdf:object "N7f5f20b878194a309c1ea49c8d5427fb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:e7PbxpNbbM2c ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
+
+adi:e7PbxpNbbM2c a rdfs:Resource ;
+    rdfs:label "De gli eroici furori" ;
+    <> adi:F5twPYgd9Q3X ;
+    dc:subject adi:9QZ6MpiNNFjR,
+        adi:bQT5tjAEXHJP,
+        adi:bxtQcQpdXsKm ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE007714> ;
+    dcterms:title "Giordano Bruno Nolano. De gl'heroici furori" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:AwpgRUaYkZWy,
+        adi:LFnX7JTYkXgP ;
+    wdt:P31 adi:3FmSxcCP5CUS,
+        adi:FoqX9WfTveaZ ;
+    skos:altLabel "De gl'heroici furori",
+        "Eroici furori" ;
+    ns1:P180 adi:V6FTS9bq4reT .
+

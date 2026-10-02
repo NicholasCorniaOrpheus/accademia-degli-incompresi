@@ -20,6 +20,7 @@ occupation:
 related_to:
 notable_work:
 interested_in:
+  - value: "[[cabinet of curiosities]]"
   - value: "[[ars combinatoria]]"
   - value: "[[artificiality]]"
   - value: "[[language]]"

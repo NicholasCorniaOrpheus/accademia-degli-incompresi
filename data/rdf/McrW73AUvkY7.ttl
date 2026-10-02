@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:McrW73AUvkY7-A7MeUfQC8i5d a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:Mm7yVBHwb943 ;
+    rdf:predicate <> ;
+    rdf:subject adi:McrW73AUvkY7 .
+
+adi:McrW73AUvkY7-cWNprv7Ff2nb a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "15002" ;
+    rdf:predicate <> ;
+    rdf:subject adi:McrW73AUvkY7 .
+
+adi:McrW73AUvkY7-kR8vmrDgLQDG a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:NzigjQdFbSkY ;
+    rdf:predicate <> ;
+    rdf:subject adi:McrW73AUvkY7 .
+
+adi:McrW73AUvkY7 a rdfs:Resource ;
+    rdfs:label "Giambattista Basile" ;
+    <> adi:Mm7yVBHwb943,
+        adi:NzigjQdFbSkY,
+        adi:noxgdEZ8TnkL ;
+    dcterms:identifier ns1:Q555291 ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:6UFUJo2JAXCT ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Gianbattista Basile",
+        "Giovan Battista Basile" ;
+    ns1:P800 adi:8caJkM27DMtc ;
+    schema:gender adi:8UjQ7UabobgD .
+

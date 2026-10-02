@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XA5ekHU5qVb9-CQM7yBoYiErv a rdf:Statement ;
+    dcterms:references adi:NS6fqALKYqRu ;
+    rdf:object adi:bCNHbMSK5pg2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:XA5ekHU5qVb9 ;
+    schema:endDate "1544" ;
+    schema:startDate "1543" .
+
+adi:XA5ekHU5qVb9-Dwf4etWxpM9T a rdf:Statement ;
+    dcterms:references adi:R8gaAppcmFNh ;
+    rdf:object adi:fXijNpAr5BvS ;
+    rdf:predicate <> ;
+    rdf:subject adi:XA5ekHU5qVb9 .
+
+adi:XA5ekHU5qVb9 a rdfs:Resource ;
+    rdfs:label "Accademia degli Ortolani di Piacenza" ;
+    <> adi:NiTWoVWgRtNj,
+        adi:bCNHbMSK5pg2,
+        adi:cbWWw92fbEH3,
+        adi:fXijNpAr5BvS ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:i427QG8v6vFq ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

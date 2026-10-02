@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U3W24sdZDPUp",
+      "label": "garden",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3frfeZ8i5JSm",
+      "label": "location",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GpCVYdi8S5s2",
+      "label": "I tre giardini de' madrigali del Costante, Academico Cospirante, Maurizio Moro",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U3W24sdZDPUp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3frfeZ8i5JSm",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GpCVYdi8S5s2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U3W24sdZDPUp",
+      "property": "depicts"
+    }
+  ]
+}

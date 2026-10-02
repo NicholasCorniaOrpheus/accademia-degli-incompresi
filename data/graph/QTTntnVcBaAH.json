@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QTTntnVcBaAH",
+      "label": "septimus",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LEpVuLdS7Ay8",
+      "label": "Il cicalamento delle donne al bucato, et la caccia di Alessandro Striggio, a quattro, cinque, sei et sette voci. Con il gioco di primiera a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdzoJDcQqZEP",
+      "label": "type of musical instrument",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QTTntnVcBaAH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TdzoJDcQqZEP",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LEpVuLdS7Ay8",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QTTntnVcBaAH",
+      "property": "instrumentation"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqJgwxnCkvij",
+      "label": "House of Gonzaga",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nhTthG2m2P3q",
+      "label": "family",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hwWposH4v2nt",
+      "label": "Mantova",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NbBPwPgUvZC6",
+      "label": "Vincenzo I Gonzaga",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqJgwxnCkvij",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nhTthG2m2P3q",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqJgwxnCkvij",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hwWposH4v2nt",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NbBPwPgUvZC6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqJgwxnCkvij",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NbBPwPgUvZC6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hwWposH4v2nt",
+      "property": "work_location"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Xr5dSnWMoPtK-6eM8hDaPbzJr a rdf:Statement ;
+    rdf:object "N06cc379b1d0149dabcd51a46b7c3ac82" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Xr5dSnWMoPtK ;
+    schema:datePublished "~1550" .
+
+adi:Xr5dSnWMoPtK-8dyHxHQCWHqL a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=-Rw8AAAAcAAJ> ;
+    dcterms:publisher adi:h3HKCpiQzxtx ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N44bf5ac9096e400db197317c49d454aa" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Xr5dSnWMoPtK ;
+    schema:datePublished "1558" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE025852> .
+
+adi:Xr5dSnWMoPtK-Fh3GR5UKv7CS a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZcWT5Zdy9Zwp ;
+    rdf:predicate <> ;
+    rdf:subject adi:Xr5dSnWMoPtK .
+
+adi:Xr5dSnWMoPtK-foxBp2yabBcE a rdf:Statement ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1550" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Xr5dSnWMoPtK .
+
+adi:Xr5dSnWMoPtK-goBxagHTpnxB a rdf:Statement ;
+    bf:Note "Reprint with \"enigmi\"." ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nc48508ad99444254bf0f32e6a4035169" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Xr5dSnWMoPtK ;
+    schema:datePublished "1564" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE023570> .
+
+adi:Xr5dSnWMoPtK a rdfs:Resource ;
+    rdfs:label "I diporti di m. Girolamo Parabosco" ;
+    <> adi:ZcWT5Zdy9Zwp ;
+    dc:subject adi:8LkVSvtxvTfr,
+        adi:FEzLJyn6DSCy ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE059259> ;
+    dcterms:title "I diporti di m. Girolamo Parabosco. Con gli suoi enigmi di nuouo agiontiui. Et nouamente ristampati et diligentissimamente reuisti" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:Fg6xCVoGsz3M .
+

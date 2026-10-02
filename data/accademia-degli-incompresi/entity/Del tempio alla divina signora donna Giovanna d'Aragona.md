@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE034685
 described_by_source:
   - "[[(Faini 2020)]]"
+  - "[[(Artese 1983)]]"
 image:
 aliases:
 instance_of:

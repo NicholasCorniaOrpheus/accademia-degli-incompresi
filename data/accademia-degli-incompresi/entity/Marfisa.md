@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q3846836
 described_by_source:
+  - "[[(Treadwell 2013)]]"
 image:
 aliases:
 instance_of:

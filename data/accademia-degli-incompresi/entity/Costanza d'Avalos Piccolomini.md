@@ -19,8 +19,19 @@ member_of:
 occupation:
   - value: "[[poet]]"
 related_to:
+  - value: "[[Giulia Gonzaga]]"
+    reference:
+      - "[[(Robin 2007)]]"
+  - value: "[[Giovanna d'Aragona]]"
+    relationship: "[[sibling]]"
+    reference:
+      - "[[(Robin 2007)]]"
+  - value: "[[Vittoria Colonna]]"
+    reference:
+      - "[[(Robin 2007)]]"
 notable_work:
 interested_in:
+  - value: "[[salon]]"
 catalog_identifier:
 present_in_work:
 ---

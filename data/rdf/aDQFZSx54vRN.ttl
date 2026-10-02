@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aDQFZSx54vRN-3sPhRykB2A5u a rdf:Statement ;
+    dcterms:references adi:VJ5rjP86CXEj ;
+    rdf:object adi:PSSozWnHJJHx ;
+    rdf:predicate <> ;
+    rdf:subject adi:aDQFZSx54vRN .
+
+adi:aDQFZSx54vRN-fxkoJGLEP2FH a rdf:Statement ;
+    dcterms:references adi:VJ5rjP86CXEj ;
+    rdf:object "1584" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aDQFZSx54vRN .
+
+adi:aDQFZSx54vRN-nA3Z3HhcALDb a rdf:Statement ;
+    dcterms:references adi:VJ5rjP86CXEj ;
+    rdf:object adi:MLujQtDvuu8j ;
+    rdf:predicate <> ;
+    rdf:subject adi:aDQFZSx54vRN ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:aDQFZSx54vRN a rdfs:Resource ;
+    rdfs:label "Accademia degli Oscuri di Lucca" ;
+    <> adi:MLujQtDvuu8j,
+        adi:PSSozWnHJJHx ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

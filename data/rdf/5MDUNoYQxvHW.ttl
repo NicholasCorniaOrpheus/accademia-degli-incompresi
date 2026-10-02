@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5MDUNoYQxvHW-GEThHYrwDcqV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:5Jsdv369DonH ;
+    rdf:predicate <> ;
+    rdf:subject adi:5MDUNoYQxvHW .
+
+adi:5MDUNoYQxvHW-Pavm5YiwRJ49 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=UPVV0yzUG8kC> ;
+    wdt:P291 adi:MRH3qKe97Rkw ;
+    rdf:object "N9e2f070cda1c41dca1f363bd6a87cd00" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5MDUNoYQxvHW ;
+    schema:datePublished "1588" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE008837> .
+
+adi:5MDUNoYQxvHW-mk4LEnGbXEYA a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ecvRhsXRZXXX ;
+    rdf:predicate <> ;
+    rdf:subject adi:5MDUNoYQxvHW .
+
+adi:5MDUNoYQxvHW a rdfs:Resource ;
+    rdfs:label "Flori favola boscareccia di Maddalena Campiglia" ;
+    <> adi:5Jsdv369DonH,
+        adi:ecvRhsXRZXXX,
+        "1588" ;
+    dc:subject adi:5RYVLh7yR4s6 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE008837> ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cF3HzyFDHqfG ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

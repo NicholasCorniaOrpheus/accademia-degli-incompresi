@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HjThxi6HoT7r-cCBP3QK7J9fy a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:XtyKoT2r5qFb ;
+    rdf:predicate <> ;
+    rdf:subject adi:HjThxi6HoT7r .
+
+adi:HjThxi6HoT7r-kwjZ8M73SSRV a rdf:Statement ;
+    rdf:object adi:BFWhk5b8b86u ;
+    rdf:predicate <> ;
+    rdf:subject adi:HjThxi6HoT7r ;
+    ns1:P304 "29" ;
+    ns1:P958 "N. Il Conte." .
+
+adi:HjThxi6HoT7r a rdfs:Resource ;
+    rdfs:label "Amor, gli strali, le catene, il foco" ;
+    <> adi:BFWhk5b8b86u,
+        adi:XtyKoT2r5qFb ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Amor, gli strali, le catene, il foco,
+Con cui ferir, legar, arder t'affretti
+Mille cori, mill' alme, e mille petti,
+In ciel, in terra, e nel più basso loco.
+
+In pace, in guerra, da dover, per gioco,
+Criando caldo, e gel, doglie, e diletti,
+Risi, pianti, sospir, spemi, e sospetti,
+Vivo, e morto rendendo, aitante, e fioco:
+
+In me sien ispuntati, rotte, e spento,
+Che questo cor, quest' alma, e questo petto
+È ferito, e avinta, e consumato.
+
+Che più acuti, più salde, e più infiammato
+Strali, catene, foco ser l'effetto;
+Onde men vivo altier, lieto, e contento.""" ;
+    dc:subject adi:KX53XRWp7L4v ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FHkhZJZzAo88,
+        adi:GZY3csdzKUK5,
+        adi:LThUzJVzHcFH,
+        adi:MfBWzgNTqiki,
+        adi:XEsomeCuBNMG,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

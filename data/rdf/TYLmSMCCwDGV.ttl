@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:TYLmSMCCwDGV-4nesyDQydFdG a rdf:Statement ;
+    rdf:object adi:MqDmEhNBNTYH ;
+    rdf:predicate <> ;
+    rdf:subject adi:TYLmSMCCwDGV ;
+    ns1:P304 "46" ;
+    ns1:P958 "Poems of Love, 4" .
+
+adi:TYLmSMCCwDGV-Hpq756RVCk9M a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:TYLmSMCCwDGV .
+
+adi:TYLmSMCCwDGV a rdfs:Resource ;
+    rdfs:label "Amor quanto i miei giorni aspri sian stati" ;
+    <> adi:MqDmEhNBNTYH,
+        adi:aPSR2wpq8iGj ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Amor: quanto i miei giorni aspri sian stati, 
+Ed or più che mai sian, dir non tel voglio, 
+Che 'l sai, e teco me ne dolsi e doglio,
+Sol per servir chi mi diè in sorte i fati, 
+
+Ma, avendo in lui li miei pensier locati,
+E ferma in adorarlo qual dur scoglio, 
+Sperava mitigar tuo fiero orgoglio,
+Ma vedo i van disegni esser fallati, 
+
+Ché ognor ti sforzi, con crudeli inganni, 
+Congionger a' miei dì aspro e dur stento 
+Per far che lunghi sian miei crudi affanni; 
+
+Che, se un diaspro allegerì il tormento, 
+Per esser di chi fu non i miei danni 
+Cessati son ma più aspri ad ogn'or sento.""" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:KcmBR8KNf6Cu ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

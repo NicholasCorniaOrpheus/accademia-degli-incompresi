@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:o7oGjV7N4yBq-HH7jkAy89fLz a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:o7oGjV7N4yBq .
+
+adi:o7oGjV7N4yBq-mWiuwtibztE4 a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:o7oGjV7N4yBq ;
+    ns1:P958 "Canto II, 1" .
+
+adi:o7oGjV7N4yBq a rdfs:Resource ;
+    rdfs:label "Ingiustissimo Amor perché sì raro" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Ingiustissimo Amor perche sì raro
+Corrispondenti fai nostri desiri:
+Onde perfido avvien che t'e sì caro
+Il discorde voler ch'in duo cor miri?
+Gir non mi lasci al facil guado e chiaro
+E nel più cieco e maggior fondo tiri,
+Da chi desia il mio amor tu mi richiami
+E chi m'ha in odio vuoi ch'adori et ami.""" ;
+    dc:subject adi:FawktbqjQdSF,
+        adi:KX53XRWp7L4v ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F018450000101_PPPP00015400C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=14488> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:MfBWzgNTqiki,
+        adi:XEsomeCuBNMG ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mMhYhS5WkMKJ-Qr82gcJJJgem a rdf:Statement ;
+    rdf:object adi:FHb6zxLqq78x ;
+    rdf:predicate <> ;
+    rdf:subject adi:mMhYhS5WkMKJ ;
+    ns1:P304 "6" ;
+    ns1:P958 "7" .
+
+adi:mMhYhS5WkMKJ-Sy9qVMb2XsGf a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FzrdyPjZDVz9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:mMhYhS5WkMKJ .
+
+adi:mMhYhS5WkMKJ a rdfs:Resource ;
+    rdfs:label "Infelice Signor, hor questo è'l merto" ;
+    <> adi:FHb6zxLqq78x,
+        adi:FzrdyPjZDVz9 ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Infelice Signor, hor questo è'l merto,
+Che della tua bontà fra noi riporti,
+Per aprirci il camin scosceso, & erto
+Di gire al Ciel, quai pene, ahi non sopporti?
+Perché mostrasti il tuo potere aperto,
+Sanando gl'egri, e ravvivando i morti,
+Sarai costretto dallo stuol feroce
+Lasciar il corpo essanimato in Croce.""" ;
+    dc:subject adi:5HJWdrzniH6G,
+        adi:mmNaTApfKuRD ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8DvdSnc9KiTf ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

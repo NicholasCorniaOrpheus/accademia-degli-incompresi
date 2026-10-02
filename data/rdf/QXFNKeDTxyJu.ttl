@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QXFNKeDTxyJu-bTawDb8eJ3N9 a rdf:Statement ;
+    dcterms:references adi:mxz4KL9JjrEt ;
+    rdf:object adi:Fas4LiyE5uzU ;
+    rdf:predicate <> ;
+    rdf:subject adi:QXFNKeDTxyJu ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:QXFNKeDTxyJu-eTprMfCRZNfY a rdf:Statement ;
+    dcterms:references adi:mxz4KL9JjrEt ;
+    rdf:object adi:aMwmQ8m4Zvc6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:QXFNKeDTxyJu ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:QXFNKeDTxyJu a rdfs:Resource ;
+    rdfs:label "Comici Gelosi" ;
+    <> adi:Fas4LiyE5uzU,
+        adi:aMwmQ8m4Zvc6 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q1121013> ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:NAHRkzK6qbvC .
+

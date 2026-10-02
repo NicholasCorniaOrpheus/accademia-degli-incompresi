@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:2zsbkmYXs55j-iSC9mwxHEY5p a rdf:Statement ;
+    rdf:object adi:699KXqXpEfDj ;
+    rdf:predicate <> ;
+    rdf:subject adi:2zsbkmYXs55j ;
+    ns1:P304 "20" .
+
+adi:2zsbkmYXs55j-mzG2TtF5ApJo a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Pp2gGLhezfyx ;
+    rdf:predicate <> ;
+    rdf:subject adi:2zsbkmYXs55j .
+
+adi:2zsbkmYXs55j a rdfs:Resource ;
+    rdfs:label "Pur converrà, che i miei martiri Amore" ;
+    <> adi:699KXqXpEfDj,
+        adi:Pp2gGLhezfyx ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """PUR converrà, che i miei martiri Amore
+Sfoghi col pianto, & co i sospiri ardenti:
+Finché sia voto il petto, & gli occhi spenti,
+Che fur principio al mio sì lungo errore.
+
+Pur converrà, che si diserri il core:
+Et s'appalesi al Mondo, & a le genti.
+Oh disir folli, oh pensier tristi, intenti
+Al fonte sol del vostro aspro dolore.
+
+Ch'io volea già tener per tempo a freno,
+Del vostro lungo traviare accorto
+Dietro al bel viso sovra'l ciel sereno.
+
+Deh menate a veder qual pena io porto
+Il vostro cor, che pria, ch'io venga meno,
+Parlerò pur con voi di chi m'ha morto.""" ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F049270000101_PPPP00178500C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:MfBWzgNTqiki,
+        adi:VFabTiMFEU5U,
+        adi:he75W4YL8aFz,
+        adi:mmNaTApfKuRD ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

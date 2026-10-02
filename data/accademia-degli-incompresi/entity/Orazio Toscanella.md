@@ -21,6 +21,12 @@ member_of:
       - "[[(Artese 1983)]]"
 occupation:
 related_to:
+  - value: "[[Paolo Manuzio]]"
+    reference:
+      - "[[(Artese 1983)]]"
+  - value: "[[Girolamo Ruscelli]]"
+    reference:
+      - "[[(Artese 1983)]]"
   - value: "[[Domenico Venier]]"
     reference:
       - "[[(Artese 1983)]]"
@@ -29,6 +35,9 @@ related_to:
       - "[[(Artese 1983)]]"
 notable_work:
 interested_in:
+  - value: "[[hermeticism]]"
+    reference:
+      - "[[(Artese 1983)]]"
   - value: "[[Orlando furioso]]"
   - value: "[[rhetorical figure]]"
   - value: "[[art of memory]]"

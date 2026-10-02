@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gvTUvQCexrwg-Qw9wFwQCQdCB a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:iajxupbXH9BQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:gvTUvQCexrwg .
+
+adi:gvTUvQCexrwg-jteomu3dAQwU a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://books.google.it/books?id=A1bw3R_KupMC> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N367e388e326b410690ced24b40b13e68" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gvTUvQCexrwg ;
+    schema:datePublished "1552" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002289> .
+
+adi:gvTUvQCexrwg a rdfs:Resource ;
+    rdfs:label "Dialogo della signora Tullia D'Aragona della infinità di amore" ;
+    <> adi:iajxupbXH9BQ,
+        "1547" ;
+    dc:subject adi:9XkyVfBG5hTX,
+        adi:DQyic7zZsNUw,
+        adi:bQT5tjAEXHJP ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002289> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:8V3DuFaK8SYG ;
+    wdt:P31 adi:3FmSxcCP5CUS,
+        adi:7oCzU3jd2dSu ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "Dialogo dell'infinità d'Amore" .
+

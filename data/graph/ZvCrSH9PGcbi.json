@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZvCrSH9PGcbi",
+      "label": "cartographer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9aCUjCG9qSpL",
+      "label": "Abraham Ortelius",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Abraham_Ortelius_by_Peter_Paul_Rubens.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZvCrSH9PGcbi",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9aCUjCG9qSpL",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZvCrSH9PGcbi",
+      "property": "occupation"
+    }
+  ]
+}

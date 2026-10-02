@@ -28,9 +28,10 @@ depicts:
   - "[[singing]]"
   - "[[songbird]]"
   - "[[swan]]"
+  - "[[volvelle]]"
 language: "[[Italian]]"
 text: |-
-  Al ritornar del Sole
+  AL ritornar del Sole
   Cantano i vaghi augelli,
   E su i verdi arboscelli
   Tempran vezzose note;

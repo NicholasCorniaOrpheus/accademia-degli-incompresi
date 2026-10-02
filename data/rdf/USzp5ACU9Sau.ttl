@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:USzp5ACU9Sau-57UTJXrzdYCU a rdf:Statement ;
+    rdf:object adi:j7DoSeBZLZrw ;
+    rdf:predicate <> ;
+    rdf:subject adi:USzp5ACU9Sau ;
+    ns1:P304 "96" ;
+    ns1:P958 "Canto VI, 44" ;
+    schema:volumeNumber "Carlo Quinto" .
+
+adi:USzp5ACU9Sau-NC75LwBaLAQz a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ShZv8ummK46R ;
+    rdf:predicate <> ;
+    rdf:subject adi:USzp5ACU9Sau .
+
+adi:USzp5ACU9Sau-ZvLRizvpzzDP a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Hyw2JvyN8B9h ;
+    rdf:predicate <> ;
+    rdf:subject adi:USzp5ACU9Sau .
+
+adi:USzp5ACU9Sau a rdfs:Resource ;
+    rdfs:label "Se ne le Sfere tu, Se nel Profondo" ;
+    <> adi:Hyw2JvyN8B9h,
+        adi:ShZv8ummK46R,
+        adi:j7DoSeBZLZrw ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Se ne le Sfere tu, Se nel profondo
+Sei Terra fatta aerea in denso Velo,
+Aria disciolta in Foco, e tutta pondo,
+Foco, ch'è tutta Forma anche nel gelo:
+Se nel Cielo sei l'Anima del Mondo,
+Se nel Mondo lo Spirito del Cielo,
+Dimmi tu, come mai qui l'arte impetra
+D'haverti in polve, e d'indurirti in pietra?""" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:JdDRGByiy3E8,
+        adi:MeCVRw88z9MS,
+        adi:PB7asmJe7rz6 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

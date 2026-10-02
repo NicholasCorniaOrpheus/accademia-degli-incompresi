@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iYXmCdq9d2bw-CY7SKtmCYgqz a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18685" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iYXmCdq9d2bw .
+
+adi:iYXmCdq9d2bw-FVj9hA7eKuJV a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:YyPA52fS2nPw ;
+    rdf:predicate <> ;
+    rdf:subject adi:iYXmCdq9d2bw .
+
+adi:iYXmCdq9d2bw a rdfs:Resource ;
+    rdfs:label "Curzio Gonzaga" ;
+    <> adi:3pU843Lma47u,
+        adi:YyPA52fS2nPw,
+        adi:cygyrPSnobpc ;
+    dcterms:identifier ns1:Q3699724 ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Curtio Gonzaga" ;
+    ns1:P800 adi:QSDG8A3nrnfK ;
+    schema:gender adi:8UjQ7UabobgD .
+

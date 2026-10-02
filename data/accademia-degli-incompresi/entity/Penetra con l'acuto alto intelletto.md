@@ -28,13 +28,13 @@ metre:
 depicts:
   - "[[Calidora]]"
 language: "[[Italian]]"
-text: ""
+text: |-
+  Penetra con l'acuto alto intelletto,
+  Da le cagion primiere a le seconde,
+  Che producon tra noi diverso effetto,
+  Con qualitati, e sterili, e feconde,
+  Che con vario del ciel corso, & aspetto,
+  Dan le fortune averse, e le feconde,
+  E così de le stelle il lume, e'l moto,
+  E di natura l'operar l'è noto.
 ---
-Penetra con l'acuto alto intelletto,
-Da le cagion primiere a le seconde,
-Che producon tra noi diverso effetto,
-Con qualitati, e sterili, e feconde,
-Che con vario del ciel corso, & aspetto,
-Dan le fortune averse, e le feconde,
-E così de le stelle il lume, e'l moto,
-E di natura l'operar l'è noto.

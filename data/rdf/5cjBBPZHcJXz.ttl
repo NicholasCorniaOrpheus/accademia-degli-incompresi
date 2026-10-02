@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5cjBBPZHcJXz-4GJdAjm4Vj49 a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080477> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:Gzqem5g838fp ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080477/manifest> ;
+    rdf:object "Na31fd92a3b994339b7f6ff556cf593c7" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5cjBBPZHcJXz ;
+    schema:datePublished "1582" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE037175> .
+
+adi:5cjBBPZHcJXz-8BEwpcMBpLth a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6DdwwfNF4UU4" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz-9CbJGvTSRJXa a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz-F7Z8K5HRWkAs a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:2mHR4PbfyEBU ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz-JXaYDw27xXM2 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz-PNhus7C5mV47 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz-apYTHcbbZAUy a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5cjBBPZHcJXz .
+
+adi:5cjBBPZHcJXz a rdfs:Resource ;
+    rdfs:label "Di Paolo Caracciolo il primo libro de madrigali a cinque voci" ;
+    <> adi:2mHR4PbfyEBU,
+        "1582" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE037175> ;
+    dcterms:title "Di Paolo Caracciolo gentil'huomo siciliano della città di Nicosia il primo libro de madrigali a cinque voci. Nuouamente posti in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

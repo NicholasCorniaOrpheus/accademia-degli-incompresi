@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAezNrSVTgHA",
+      "label": "Royal Library of Belgium",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8EwCd4MA6Sx7",
+      "label": "Il primo libro de madrigali, a note negre di Vincenzo Ruffo",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U72CH62RBSiC",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZonqoX7CF4E5",
+      "label": "Il cicalamento delle donne al bucato. Et la caccia di Alessandro Striggio, con un lamento di Didone ad Enea, per la sua partenza",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAezNrSVTgHA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U72CH62RBSiC",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8EwCd4MA6Sx7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAezNrSVTgHA",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZonqoX7CF4E5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAezNrSVTgHA",
+      "property": "has_version"
+    }
+  ]
+}

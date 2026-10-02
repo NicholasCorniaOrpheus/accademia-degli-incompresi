@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:o9wzW6XjbzQu-2HrDqS9ozCzJ a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:o9wzW6XjbzQu .
+
+adi:o9wzW6XjbzQu-7cNWcecBGjb7 a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:YdXiLDnH4XMc ;
+    rdf:predicate <> ;
+    rdf:subject adi:o9wzW6XjbzQu .
+
+adi:o9wzW6XjbzQu a rdfs:Resource ;
+    rdfs:label "Fermano il corso ai venti (Milleville)" ;
+    <> adi:4fam9RTzpsG4,
+        adi:JXwh4igXGs97,
+        adi:YdXiLDnH4XMc ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Fermano il corso ai venti 
+E rapiscono l'alme 
+Tarquinia dolce i tuoi soavi accenti 
+E se per le bellezze d'un'altra Giove dal superno coro 
+Scese nei boschi e transformos'intorno 
+Hor l'eterna armonia 
+Lascia dal ciel e vien humil fra noi 
+Ombra vana ad udir gl'accenti tuoi.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/102390000010101_000000161700C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:7FeDbjrMGHRk ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:4fam9RTzpsG4,
+        adi:JJB6LuxryAUn,
+        adi:P9akbwF852t3,
+        adi:R7sbNmdF69BB ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

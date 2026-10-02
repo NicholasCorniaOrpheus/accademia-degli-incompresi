@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HVVVfGNeKWR6-RVvzwmTmpopx a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:TmP2FaKYdJii ;
+    rdf:predicate <> ;
+    rdf:subject adi:HVVVfGNeKWR6 .
+
+adi:HVVVfGNeKWR6 a rdfs:Resource ;
+    rdfs:label "La bella Bradamante che se stessa (Martoretta)" ;
+    <> adi:TmP2FaKYdJii,
+        adi:dHdQoqs8mZm6,
+        adi:jj33YgYDCDzd ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """La bella Bradamante che se stessa
+Non tant'amava quant'il suo Ruggiero
+Vedendolo dubbioso a la promessa
+Che gl'era per lei fatta d'amor vero
+Una lettera gli scriss'accio per essa
+Riconoscesse falso il suo pensiero
+Et eran tai parole in quel bel foglio
+Ruggier qual sempre fui tal esser voglio.""" ;
+    dc:subject adi:2XhtX4ZoJ8mP ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F133850000010101_000000133700C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3azdbWZGxLUz ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

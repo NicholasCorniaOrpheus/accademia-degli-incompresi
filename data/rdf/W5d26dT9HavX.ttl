@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:W5d26dT9HavX-3kFBe3mRK24q a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bGRJWn5bVFvx ;
+    rdf:predicate <> ;
+    rdf:subject adi:W5d26dT9HavX .
+
+adi:W5d26dT9HavX-n9tEgtWDZFp6 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=AIOX9y53wIMC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false> ;
+    dcterms:publisher adi:gEirAnjGirk8 ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N8c365915390b4f48af41d40cf79d419e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:W5d26dT9HavX ;
+    schema:datePublished "1577" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034640> .
+
+adi:W5d26dT9HavX a rdfs:Resource ;
+    rdfs:label "De' sonetti di m. Benedetto Varchi colle risposte, e proposte di diuersi parte seconda" ;
+    <> adi:bGRJWn5bVFvx,
+        "1577" ;
+    dc:subject adi:KAAWbiBLrFsC ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034640> ;
+    dcterms:title "De' sonetti di m. Benedetto Varchi colle risposte, e proposte di diuersi parte seconda" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

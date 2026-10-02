@@ -1,0 +1,11 @@
+title = "Filli. Dimmi, lasso, mio core"
+madrigal_book = "Madrigali a cinque voci di Alessandro Savioli. Libro secondo"
+year = "1597"
+composer = "Alessandro Savioli"
+publisher="Ricciardo Amadino"
+poet = "Isabella Andreini"
+collection = "Rime di diversi celebri poeti dell'età nostra"
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "D"
+page_size = #20
+orientation = #'portrait

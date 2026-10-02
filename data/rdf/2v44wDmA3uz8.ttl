@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:2v44wDmA3uz8-RCuVM3xLZAo9 a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:2v44wDmA3uz8 .
+
+adi:2v44wDmA3uz8-fC7eAJuVk8cN a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:MV342DTV6Haa ;
+    rdf:predicate <> ;
+    rdf:subject adi:2v44wDmA3uz8 .
+
+adi:2v44wDmA3uz8 a rdfs:Resource ;
+    rdfs:label "Tu, che secondo l'alta Roma honora (Moscaglia)" ;
+    <> adi:8Hc54xeA8ihZ,
+        adi:DtH2G9scfAmt,
+        adi:MV342DTV6Haa,
+        adi:dZCC6aDWKLS9 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/290350001010101_000000166800> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

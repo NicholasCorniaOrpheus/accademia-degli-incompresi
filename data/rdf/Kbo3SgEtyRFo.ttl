@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Kbo3SgEtyRFo-Ji5QHj8KnAcH a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:KL2a3Eox62dw ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kbo3SgEtyRFo .
+
+adi:Kbo3SgEtyRFo-PUgn2N9MuBSz a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k15216662> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    dcterms:publisher adi:KL2a3Eox62dw ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k15216662/manifest.json> ;
+    rdf:object "Nb8de5a52d73a4089a89b9a08a269ea9a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Kbo3SgEtyRFo ;
+    schema:datePublished "1540" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055028> .
+
+adi:Kbo3SgEtyRFo-WwYCVym4hT4J a rdf:Statement ;
+    bf:Note "Dolce wrote the verses of the fortune-telling book." ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kbo3SgEtyRFo .
+
+adi:Kbo3SgEtyRFo a rdfs:Resource ;
+    rdfs:label "Le sorti di Francesco Marcolino" ;
+    <> adi:KL2a3Eox62dw,
+        adi:RE3XAqvEyiZM,
+        "1540" ;
+    dc:subject adi:i6aLsHeCyDtH,
+        adi:jjYHNotSf9rt,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE055028> ;
+    dcterms:title "Le sorti di Francesco Marcolino da Forli intitolate Giardino di pensieri allo illustrissimo signore Hercole Estense duca di Ferrara" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:HEsbswC7dBW8 ;
+    wdt:P31 adi:39wLPiPQYmqM,
+        adi:4gDUdsQ3zgkL ;
+    skos:altLabel "Giardino di pensieri" .
+

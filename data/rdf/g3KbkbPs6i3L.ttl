@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:g3KbkbPs6i3L-BkS6teQfN2Jb a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "5030" ;
+    rdf:predicate <> ;
+    rdf:subject adi:g3KbkbPs6i3L .
+
+adi:g3KbkbPs6i3L-FiifAfy5ebvD a rdf:Statement ;
+    rdf:object adi:3pjXu8dNW596 ;
+    rdf:predicate <> ;
+    rdf:subject adi:g3KbkbPs6i3L .
+
+adi:g3KbkbPs6i3L a rdfs:Resource ;
+    rdfs:label "Giovanni Battista Maurizzi" ;
+    <> adi:3pjXu8dNW596,
+        adi:m5jx85vV2PXo ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Giovanni Battista Maurizio" ;
+    schema:gender adi:8UjQ7UabobgD .
+

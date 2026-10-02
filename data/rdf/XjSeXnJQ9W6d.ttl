@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:XjSeXnJQ9W6d-3SaARhattrcT a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:fXijNpAr5BvS ;
+    rdf:predicate <> ;
+    rdf:subject adi:XjSeXnJQ9W6d .
+
+adi:XjSeXnJQ9W6d-RN7zybFcde38 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:67AiHmyDq9hS ;
+    rdf:predicate <> ;
+    rdf:subject adi:XjSeXnJQ9W6d .
+
+adi:XjSeXnJQ9W6d-aCdktXFd6j6f a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10B1F7B3/> ;
+    dcterms:publisher adi:DVCyvwTPCuKw ;
+    wdt:P291 adi:PSSozWnHJJHx ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10B1F7B3> ;
+    rdf:object "Ne913871a9170490c9bd8e80181a791bc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XjSeXnJQ9W6d ;
+    schema:datePublished "1559" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE017557> .
+
+adi:XjSeXnJQ9W6d-m7p7TefZ6Mtg a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:MCJESPwHdULn ;
+    rdf:predicate <> ;
+    rdf:subject adi:XjSeXnJQ9W6d .
+
+adi:XjSeXnJQ9W6d a rdfs:Resource ;
+    rdfs:label "Rime diverse d'alcune nobilissime, et virtuosissime donne" ;
+    <> adi:67AiHmyDq9hS,
+        adi:MCJESPwHdULn,
+        adi:fXijNpAr5BvS,
+        "1559" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE017557> ;
+    dcterms:title "Rime diuerse d'alcune nobilissime, et virtuosissime donne, raccolte per m. Lodouico Domenichi, e intitolate al signor Giannotto Castiglione gentil'huomo milanese" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:8V3DuFaK8SYG ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

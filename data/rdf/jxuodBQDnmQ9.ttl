@@ -1,0 +1,23 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jxuodBQDnmQ9-Tx8JXGVTwxP2 a rdf:Statement ;
+    rdf:object adi:j9aLuiEVF7Lm ;
+    rdf:predicate <> ;
+    rdf:subject adi:jxuodBQDnmQ9 ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:jxuodBQDnmQ9 a rdfs:Resource ;
+    rdfs:label "Accademia Veneziana" ;
+    <> adi:edLFhkc6mVw6,
+        adi:j9aLuiEVF7Lm,
+        "1557" ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm ;
+    skos:altLabel "Accademia della Fama" .
+

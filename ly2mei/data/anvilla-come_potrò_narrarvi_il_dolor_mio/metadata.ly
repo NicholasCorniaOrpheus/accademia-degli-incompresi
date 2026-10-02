@@ -1,0 +1,11 @@
+title = "Come potrò narrarvi il dolor mio"
+madrigal_book = "Il desiderio. Primo libro de diversi eccellentissimi autori a quattro voci"
+year = "1566"
+composer = "Adriano Anvilla"
+publisher="Girolamo Scotto"
+poet = "Girolamo Parabosco"
+collection = "Rime di m. Girolamo Parabosco"
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "C"
+page_size = #22
+orientation = #'portrait

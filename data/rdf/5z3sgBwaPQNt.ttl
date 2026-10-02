@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5z3sgBwaPQNt-4HCcrDaCtKcv a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:C4NXw8vEgx8e ;
+    rdf:predicate <> ;
+    rdf:subject adi:5z3sgBwaPQNt .
+
+adi:5z3sgBwaPQNt-PY3SJrQU2NPk a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:aNoV8WX6vFco ;
+    rdf:predicate <> ;
+    rdf:subject adi:5z3sgBwaPQNt .
+
+adi:5z3sgBwaPQNt a rdfs:Resource ;
+    rdfs:label "Nasce la vita mia dal mio morire (Conforti)" ;
+    <> adi:C4NXw8vEgx8e,
+        adi:Eu5cdWGiLi7e,
+        adi:aNoV8WX6vFco,
+        adi:am4GoyTKy6jn ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F167090001010101_000000067200C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

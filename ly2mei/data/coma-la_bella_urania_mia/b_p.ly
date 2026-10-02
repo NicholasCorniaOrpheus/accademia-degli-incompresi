@@ -1,9 +1,8 @@
 % Basso Part
 
-% portrait option
-#(set-default-paper-size "a4" 'portrait)
-% landscape option
-%#(set-default-paper-size "a4" 'landscape)
+% page option
+#(set-default-paper-size "a4" orientation)
+#(set-global-staff-size page_size)
 
 
 

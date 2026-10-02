@@ -1,6 +1,6 @@
 % WOIS - Partbooks Page Settings
 
-#(set-global-staff-size 23)
+%#(set-global-staff-size 23)
 %#(set-default-paper-size "a4" 'landscape)
 
 \paper {

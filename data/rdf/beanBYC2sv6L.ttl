@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:beanBYC2sv6L-RAkyn7YFXXgx a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10A55350/> ;
+    bf:heldBy adi:CEMJGhgpCq9k ;
+    dcterms:publisher adi:FvADUCMEqEnA ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A55350> ;
+    rdf:object "N7692c84fd01742238a392cf00318f4f4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:beanBYC2sv6L ;
+    schema:datePublished "1596" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE010622> .
+
+adi:beanBYC2sv6L-XEhNprA2kiqt a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EmkmhMMex7tm ;
+    rdf:predicate <> ;
+    rdf:subject adi:beanBYC2sv6L .
+
+adi:beanBYC2sv6L a rdfs:Resource ;
+    rdfs:label "Rime d'Ansaldo Cebà" ;
+    <> adi:EmkmhMMex7tm,
+        "1596" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE010622>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F002400010> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

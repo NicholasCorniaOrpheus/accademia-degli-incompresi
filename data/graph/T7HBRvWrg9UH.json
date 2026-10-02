@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7HBRvWrg9UH",
+      "label": "Library of Congress",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U72CH62RBSiC",
+      "label": "digital library",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Yg4nN9HMR5qm",
+      "label": "Il Primo libro de Madrigali a cinque voci de Rinaldo Del Mel",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VHmMGS2Mohva",
+      "label": "Di Giovan Pietro Cottone musico del serenissimo duca di Savoia, il secondo libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9T89JMf24QQZ",
+      "label": "Di Pietro Vinci Il terzo libro de madrigali a cinque voci",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7HBRvWrg9UH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U72CH62RBSiC",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Yg4nN9HMR5qm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7HBRvWrg9UH",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VHmMGS2Mohva",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7HBRvWrg9UH",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9T89JMf24QQZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7HBRvWrg9UH",
+      "property": "has_version"
+    }
+  ]
+}

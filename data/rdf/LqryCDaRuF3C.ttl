@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LqryCDaRuF3C-RNj3ocAxKdfz a rdf:Statement ;
+    dcterms:references adi:NvMPgyVZUZyq ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1540" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LqryCDaRuF3C .
+
+adi:LqryCDaRuF3C-fk75LwvKKf2z a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "147" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LqryCDaRuF3C .
+
+adi:LqryCDaRuF3C a rdfs:Resource ;
+    rdfs:label "Accademia dello Sdegno di Roma" ;
+    <> adi:B7dYQES7bzgL,
+        adi:hbLMcBia2woA,
+        adi:mj3bZCvepyHJ,
+        adi:mxKzwPaFqdfz ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:NvMPgyVZUZyq ;
+    wdt:P31 adi:mhxiWoDeBKmm ;
+    skos:altLabel "Accademia degli Sdegnati" .
+

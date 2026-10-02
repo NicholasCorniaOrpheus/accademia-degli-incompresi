@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:nfm4b8BfsNAT-ChR2A92zx9Jx a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZmpBx2YXnpkE ;
+    rdf:predicate <> ;
+    rdf:subject adi:nfm4b8BfsNAT .
+
+adi:nfm4b8BfsNAT-iBdKauX4KSrH a rdf:Statement ;
+    rdf:object adi:mWT5q2KSyozm ;
+    rdf:predicate <> ;
+    rdf:subject adi:nfm4b8BfsNAT ;
+    ns1:P958 "Laura Battiferri, III" .
+
+adi:nfm4b8BfsNAT a rdfs:Resource ;
+    rdfs:label "Sonno, ch'al dolor mio puoi sol dar pace" ;
+    <> adi:ZmpBx2YXnpkE,
+        adi:mWT5q2KSyozm ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Sonno, che al dolor mio puoi sol dar pace,
+Sonno, onde attendo e spero ogni mio bene,
+Sonno, che dolce obblio d'amare pene
+Porti per gl'occhi al cor, quando a te piace,
+
+Al mio, ch'or senza te languendo giace,
+Omai, deh, porgi aita, ch'altra spene
+Non ha se 'l tuo soccorso a lui non viene
+Altronde al martir suo duro e tenace.
+
+Dalle Cimmerie valli e dall'antico
+Antro ti sveglia, o sonno; e in questi miei
+Occhi t'annida, o pur per poco torna;
+
+Ed io per Lete giuro, a te sì amico,
+Ogni luce odiar che 'l mondo adorna,
+E drizzare al tuo nome archi e trofei.""" ;
+    dc:subject adi:LUkQiYzJMHtq,
+        adi:ULJJdYa8cjNH ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

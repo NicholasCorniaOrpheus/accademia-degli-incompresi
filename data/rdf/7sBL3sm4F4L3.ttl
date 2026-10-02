@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7sBL3sm4F4L3-JwM8qwSWaqvc a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4qz9ARSJbUuJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:7sBL3sm4F4L3 .
+
+adi:7sBL3sm4F4L3-ZeovBgwiJqEQ a rdf:Statement ;
+    rdf:object adi:EVLHUYPjvWMB ;
+    rdf:predicate <> ;
+    rdf:subject adi:7sBL3sm4F4L3 ;
+    ns1:P304 "50" ;
+    ns1:P958 "Alla S. Dianora Terracina." .
+
+adi:7sBL3sm4F4L3 a rdfs:Resource ;
+    rdfs:label "Oh dolorosi amanti" ;
+    <> adi:4qz9ARSJbUuJ,
+        adi:EVLHUYPjvWMB ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Oh dolorosi amanti;
+Che spregiando la vita,
+Solo bramate chi morir v'invita.
+Nudriti sol di pianti,
+D'angoscia, di sospir, d'acerba doglia.
+Et io meschino il provo:
+Che'n tanto mal mi trovo,
+Che l'alma ogn'hora di piacer si spoglia;
+Et con irata voglia
+Gridando dico, oh ciel quando farai,
+Ch'io possa uscir di sì infiniti lai.""" ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "O dolorosi amanti" ;
+    ns1:P180 adi:3cN6GaYEFUgZ,
+        adi:JJB6LuxryAUn,
+        adi:VFabTiMFEU5U,
+        adi:XEsomeCuBNMG ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

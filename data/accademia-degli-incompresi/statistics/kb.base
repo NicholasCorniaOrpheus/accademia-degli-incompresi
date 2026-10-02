@@ -4,7 +4,7 @@ views:
   - type: table
     name: poems
     filters:
-      or:
+      and:
         - class == "PoeticWork"
     order:
       - file.name

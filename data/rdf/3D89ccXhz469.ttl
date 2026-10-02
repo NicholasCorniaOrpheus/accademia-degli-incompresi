@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:3D89ccXhz469-M3txTMzCm6Ec a rdf:Statement ;
+    bf:Role adi:oRzFousoNVsC ;
+    rdf:object adi:LwQKHQGXaPrg ;
+    rdf:predicate <> ;
+    rdf:subject adi:3D89ccXhz469 .
+
+adi:3D89ccXhz469-YRBS33bcRtuk a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:3D89ccXhz469 .
+
+adi:3D89ccXhz469 a rdfs:Resource ;
+    rdfs:label "Quando'l dì parte & l'ombra il mondo copre (Spontone)" ;
+    <> adi:8Hc54xeA8ihZ,
+        adi:LwQKHQGXaPrg,
+        adi:Sj7F6b8nLuDu ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/229290001010101_000000231100C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

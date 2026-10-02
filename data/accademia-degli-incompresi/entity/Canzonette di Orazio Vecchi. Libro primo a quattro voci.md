@@ -29,7 +29,7 @@ has_version:
     external_source: https://www.digitale-sammlungen.de/en/view/bsb00080510
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
     note: Bassus only.
-    IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
+    IIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00080510/manifest
     holding_institution: "[[Munich Digitization Center]]"
 contributor:
   - role: "[[composer]]"

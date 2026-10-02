@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:SJzeSSdNp5bx-5LxcxZJf3N3h a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Capricci_poetici_di_diuersi_autori_perug/3Zh8IGIWWD8C> ;
+    rdf:object "N8793c0ed473f414f94902c1c4cb57a32" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:SJzeSSdNp5bx ;
+    schema:datePublished "1698" .
+
+adi:SJzeSSdNp5bx-TEQCw6SLZVxX a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3GdeomRavA4R ;
+    rdf:predicate <> ;
+    rdf:subject adi:SJzeSSdNp5bx .
+
+adi:SJzeSSdNp5bx-bWH8KAWsgcg2 a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:X3SwbLe3ZhDA ;
+    rdf:predicate <> ;
+    rdf:subject adi:SJzeSSdNp5bx .
+
+adi:SJzeSSdNp5bx a rdfs:Resource ;
+    rdfs:label "Capricci poetici di diversi autori perugini ascritti all'augustissima Accademia degl'Insensati raccolti da Francesco Degli Oddi" ;
+    <> adi:3GdeomRavA4R,
+        adi:X3SwbLe3ZhDA,
+        "1698" ;
+    dc:subject adi:BpATM36nYWpT ;
+    dcterms:title "Capricci poetici di diuersi autori perugini ascritti all'augustissima Accademia degl'Insensati raccolti da Francesco Degli Oddi" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

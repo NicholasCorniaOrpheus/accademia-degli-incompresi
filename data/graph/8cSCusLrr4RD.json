@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "label": "eclogue",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/azdRiyjTx94h",
+      "label": "poetic form",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBNsEGxQsyTR",
+      "label": "O crudelis Alexi nihil mea carmina curas",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2EmLTkC88Nm",
+      "label": "Monti selve fontane piagg'e sassi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K4BsVrP9o2AW",
+      "label": "Alma beata e bella",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WfsL9zDkdL9u",
+      "label": "Tirrena mia il cui colore agguaglia",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NQKbevxTTqLp",
+      "label": "Fiere silvestre, che per lati campi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/azdRiyjTx94h",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBNsEGxQsyTR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2EmLTkC88Nm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K4BsVrP9o2AW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WfsL9zDkdL9u",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "property": "poetic_type"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NQKbevxTTqLp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8cSCusLrr4RD",
+      "property": "poetic_type"
+    }
+  ]
+}

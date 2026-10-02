@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:YH5YsDQaNjqj-9f8VEWYUStL3 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=vtPrDuqcwEkC> ;
+    dcterms:publisher adi:SuAjvvf7F3pz ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "N8151ffffce2c455a9cf3e954083319b0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YH5YsDQaNjqj ;
+    schema:datePublished "1693" ;
+    schema:url <http://id.sbn.it/bid/SBLE003478> .
+
+adi:YH5YsDQaNjqj-XbrnqWutPS9N a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:doo4FV8oxLNi ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
+
+adi:YH5YsDQaNjqj-fuZVLBM9qWbd a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:nqdaBTbYUu74 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
+
+adi:YH5YsDQaNjqj-mm2rFH2doPg2 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
+
+adi:YH5YsDQaNjqj-nQRrhaGyn4rB a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:SuAjvvf7F3pz ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
+
+adi:YH5YsDQaNjqj a rdfs:Resource ;
+    rdfs:label "Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon" ;
+    <> adi:SuAjvvf7F3pz,
+        adi:aPSR2wpq8iGj,
+        adi:doo4FV8oxLNi,
+        adi:nqdaBTbYUu74,
+        "1693" ;
+    dcterms:identifier <http://id.sbn.it/bid/SBLE003478> ;
+    dcterms:title "Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon. Con giunta di quelle fin'ora raccolte della signora Maria Selvaggia Borghini ..." ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

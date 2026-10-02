@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iupJ62QRBYCe-5XbAMAJ4FBtj a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iupJ62QRBYCe .
+
+adi:iupJ62QRBYCe-BTpW2tUPMPvy a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:AcRv2wudsTSk ;
+    rdf:predicate <> ;
+    rdf:subject adi:iupJ62QRBYCe .
+
+adi:iupJ62QRBYCe-FqANJDb87txv a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iupJ62QRBYCe .
+
+adi:iupJ62QRBYCe-VJ9mtqHL5TGT a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iupJ62QRBYCe .
+
+adi:iupJ62QRBYCe-h8nqYyeyy4U2 a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00075415> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:BkYMa73cnn7m ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00075415/manifest> ;
+    rdf:object "N62b6e70bdf9b4d02bc428d67ba0cf8a9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:iupJ62QRBYCe ;
+    schema:datePublished "1579" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044066> .
+
+adi:iupJ62QRBYCe-kBNKrquy2Gmn a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:iupJ62QRBYCe .
+
+adi:iupJ62QRBYCe a rdfs:Resource ;
+    rdfs:label "Il Secondo libro de' Madrigali di Marc'Antonio Ingegneri a quattro voci" ;
+    <> adi:AcRv2wudsTSk,
+        "1579" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE044066>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV10610010>,
+        <https://rism.online/sources/990032021> ;
+    dcterms:title "Il secondo libro de' madrigali di Marc'Antonio Ingegneri a quattro voci, con due arie di canzon francese per sonare" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

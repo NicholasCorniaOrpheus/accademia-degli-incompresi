@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ff7hQRoBKMr3-7L9CGBDGwvc2 a rdf:Statement ;
+    rdf:object adi:XjSeXnJQ9W6d ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ff7hQRoBKMr3 ;
+    ns1:P304 "164" ;
+    ns1:P958 "Di Mad. Virginia Martini de' Salvi, Senese." .
+
+adi:Ff7hQRoBKMr3-Pna2eyWzYNyR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:67AiHmyDq9hS ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ff7hQRoBKMr3 .
+
+adi:Ff7hQRoBKMr3 a rdfs:Resource ;
+    rdfs:label "Piangete meco, afflitti occhi dolenti" ;
+    <> adi:67AiHmyDq9hS,
+        adi:XjSeXnJQ9W6d ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """PIANGETE meco, afflitti occhi dolenti,
+Privi del vostro chiaro, & vivo Sole;
+Piangete Luci sconsolate, & sole,
+Che i suoi bei rai per Voi son hoggi spenti
+
+Tu, mesto cuore, a miei sospiri ardenti
+Dà larga via, poi ch'empia Morte vuole,
+Ch'Io pur mi viva in sì dogliose scuole,
+Tenendo i sensi al primo oggetto intenti.
+
+Altro soggetto il mio pensiero imprime
+Nel petto perch'Io scriva in vive carte
+Con altro stile hor le sue glorie prime.
+
+Et dove manca in Me l'ingegno, & l'arte;
+Supplirà il duol, che con acute lime
+Mi punge, & rode dentro a parte, a parte.""" ;
+    dc:subject adi:VFabTiMFEU5U ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:4zDHNwC4tdTU,
+        adi:5rXXXivjHnqu,
+        adi:NknErMsF55g9 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

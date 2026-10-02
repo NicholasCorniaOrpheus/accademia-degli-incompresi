@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GJgtqkJmuqmp-D8kwrFaoFZpb a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EfY2dL7MpgHY ;
+    rdf:predicate <> ;
+    rdf:subject adi:GJgtqkJmuqmp .
+
+adi:GJgtqkJmuqmp a rdfs:Resource ;
+    rdfs:label "Che pena si può dire" ;
+    <> adi:EfY2dL7MpgHY ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Che pena si può dire
+più grande che morire?
+Maggior è la mia pena
+e passa ogn'aspra sorte,
+ché mai punto raffrena,
+ma cresce ognor più forte;
+io vivo, ed ogni dì provo la morte.
+Dunque è maggior martire
+chi vive in doglia e mai non può morire.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F043200000010101_000000159500C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:fJA6BDZUy9AL ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

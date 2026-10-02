@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NiN2YePymsav-94mKMQBiYSoA a rdf:Statement ;
+    rdf:object adi:UoZHuZQEWyBZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:NiN2YePymsav ;
+    ns1:P304 "289" ;
+    ns1:P958 "Veronica Gambara." .
+
+adi:NiN2YePymsav-DKYwHYiKCZqB a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:NiN2YePymsav .
+
+adi:NiN2YePymsav-U8wsjw5UP8WG a rdf:Statement ;
+    rdf:object adi:Fvh8Y8qPzemN ;
+    rdf:predicate <> ;
+    rdf:subject adi:NiN2YePymsav ;
+    ns1:P304 "5" ;
+    ns1:P958 "Veronica Gambara." .
+
+adi:NiN2YePymsav a rdfs:Resource ;
+    rdfs:label "Occhi lucenti, e belli" ;
+    <> adi:Fvh8Y8qPzemN,
+        adi:UoZHuZQEWyBZ,
+        adi:aPSR2wpq8iGj ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Occhi lucenti, e belli,
+Come esser può, ch'in un medesmo instante
+Nascan da voi sì nove forme, e tante?
+Lieti, mesti, superbi, humili, alteri.
+Vi mostrate in un punto; onde di speme,
+E di timor m'empiete;
+E tanti effetti dolci, acerbi, e fieri
+Nel cor' arso per voi, vengono insieme
+Ad ogn'hor, che volete.
+Hor poi che voi mia vita, e morte sete
+Occhi felici, occhi beati, e cari
+Siate sempre sereni, allegri, e chiari.""" ;
+    dc:subject adi:FawktbqjQdSF ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:4zDHNwC4tdTU ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

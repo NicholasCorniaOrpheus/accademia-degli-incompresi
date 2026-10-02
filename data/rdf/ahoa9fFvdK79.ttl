@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ahoa9fFvdK79-DoYEPbRRmbq2 a rdf:Statement ;
+    rdf:object adi:7TvK2MaWYE9G ;
+    rdf:predicate <> ;
+    rdf:subject adi:ahoa9fFvdK79 ;
+    ns1:P958 "Canto II, 1" .
+
+adi:ahoa9fFvdK79-QQKr6msTe23j a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:YXSurDyNHSdr ;
+    rdf:predicate <> ;
+    rdf:subject adi:ahoa9fFvdK79 .
+
+adi:ahoa9fFvdK79 a rdfs:Resource ;
+    rdfs:label "Non si curi del ciel chi in terra vive" ;
+    <> adi:7TvK2MaWYE9G,
+        adi:YXSurDyNHSdr ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Non si curi del Ciel, chi in terra vive  
+Felice amando, e del suo amor contento; 
+Né lassù brami fra le cose dive  
+Sentir la gioia, ove ogni spirto è intento;
+Perch'al sommo diletto par che arrive  
+Solo il gioco Amoroso, è in quel momento; 
+Che de la donna sua si bascia il viso,  
+S'ha il medesimo ben, ch'è in Paradiso.""" ;
+    dc:subject adi:KuorvRGvXbTz ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:AkfWFSmvPUnJ ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

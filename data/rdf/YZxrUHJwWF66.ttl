@@ -1,0 +1,22 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+adi:YZxrUHJwWF66-eWpMSKW23zp6 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EGiqL2BY3FZ7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YZxrUHJwWF66 .
+
+adi:YZxrUHJwWF66 a rdfs:Resource ;
+    rdfs:label "Aeneid" ;
+    <> adi:EGiqL2BY3FZ7 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q60220> ;
+    dcterms:type "Book" ;
+    skos:altLabel "Aeneis",
+        "Eneid",
+        "Eneide" .
+

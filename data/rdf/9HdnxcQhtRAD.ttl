@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9HdnxcQhtRAD-5bkyoV58f589 a rdf:Statement ;
+    dcterms:publisher adi:BkYMa73cnn7m ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N02131aededef423493e4c9fd0a9c0479" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9HdnxcQhtRAD ;
+    schema:datePublished "1576" .
+
+adi:9HdnxcQhtRAD-XxAepARbjG8w a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:HjtJwEQxd2Dn ;
+    rdf:predicate <> ;
+    rdf:subject adi:9HdnxcQhtRAD .
+
+adi:9HdnxcQhtRAD a rdfs:Resource ;
+    rdfs:label "Di Vincenzo Bell'Haver organista il terzo libro de madrigali a quattro et cinque voci con uno madrigale a sette" ;
+    <> adi:HjtJwEQxd2Dn,
+        "1576" ;
+    dc:description "Only a mutilated Cantus part survives in the municipal library of Carcassonne, France." ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0273318>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV02370010> ;
+    dcterms:title "Di Vincenzo Bell'Haver organista il terzo libro de madrigali a quatro et cinque voci con uno madrigale a sette" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4,
+        adi:jWyGjAwFZ63p .
+

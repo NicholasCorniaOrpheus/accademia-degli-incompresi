@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NQZ6NQnNmrbw-DNx2ZtTZFNnK a rdf:Statement ;
+    rdf:object adi:RPf8M3NrdNWz ;
+    rdf:predicate <> ;
+    rdf:subject adi:NQZ6NQnNmrbw ;
+    ns1:P304 "119" .
+
+adi:NQZ6NQnNmrbw-HMjTiLFqDiTm a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:NQZ6NQnNmrbw .
+
+adi:NQZ6NQnNmrbw-fKr2fHP4d45D a rdf:Statement ;
+    rdf:object adi:3fgoRPkiA8e9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:NQZ6NQnNmrbw ;
+    ns1:P304 "22" ;
+    ns1:P958 "Alcune poesi di Tarquinia Molza Non più stampate." .
+
+adi:NQZ6NQnNmrbw a rdfs:Resource ;
+    rdfs:label "Eran le vostre lagrime nel viso" ;
+    <> adi:3fgoRPkiA8e9,
+        adi:4fam9RTzpsG4,
+        adi:RPf8M3NrdNWz ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """ERAN le vostre lagrime nel viso,
+Donna, quel dì a vederle
+Qual in vermiglio vel candide perle;
+Ed io gridava agli occhi,
+Con l'ardor che farete,
+Se con l'umor m'ardete?
+Quando fra'l pianto lampeggiando un riso
+Noi, dissero, in un loco
+Abbiamo l'acqua e 'l foco;
+
+Ma col foco immergiamo,
+E con l'acqua abruciamo;
+Perch'abbagli l'amante, e si confonda
+Fra le fiamme e fra l'onda;
+Né fia forza mortal che si difenda,
+Ove il foco sommerga, e l'acqua incenda.""" ;
+    dc:subject adi:FawktbqjQdSF ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F034470000101_PPPP00190900C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:VFabTiMFEU5U,
+        adi:db7CEX6LDpXR,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GenF85GBkd7c-beetLzjYNNhX a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:a3fxbFBpFjK2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:GenF85GBkd7c .
+
+adi:GenF85GBkd7c-iMXXzjG9Kjjt a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:HcGnpY9zTGoY ;
+    rdf:predicate <> ;
+    rdf:subject adi:GenF85GBkd7c .
+
+adi:GenF85GBkd7c a rdfs:Resource ;
+    rdfs:label "T'amo, mia vita, la mia cara vita (Aleotti)" ;
+    <> adi:HcGnpY9zTGoY,
+        adi:MBSaamfrMkFi,
+        adi:MZUS3iUrUfEX,
+        adi:a3fxbFBpFjK2 ;
+    dcterms:type "MusicComposition" ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

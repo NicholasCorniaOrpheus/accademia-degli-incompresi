@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzhJSvB9YReH",
+      "label": "German",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mHPFaqRhG7v5",
+      "label": "Thesaurinella Olympica aurea tripartita",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g3NvasDg98iG",
+      "label": "language",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M32GzNHiBRkX",
+      "label": "Such das Centrum in seiner Erden",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzhJSvB9YReH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/g3NvasDg98iG",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mHPFaqRhG7v5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzhJSvB9YReH",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M32GzNHiBRkX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BzhJSvB9YReH",
+      "property": "language"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/M32GzNHiBRkX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mHPFaqRhG7v5",
+      "property": "part_of"
+    }
+  ]
+}

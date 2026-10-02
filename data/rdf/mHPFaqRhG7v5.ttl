@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mHPFaqRhG7v5-Sj5xMsb4F3PS a rdf:Statement ;
+    bf:electronicLocator <https://digital.slub-dresden.de/werkansicht/dlf/15960> ;
+    bf:heldBy adi:9DCYsSaDuZbW ;
+    wdt:P291 adi:MaH4Z9NoL3iv ;
+    rdf:object "N46ffdc6512574b169d30699950d6f509" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:mHPFaqRhG7v5 ;
+    schema:datePublished "1608" ;
+    schema:url <http://digital.slub-dresden.de/id277818486/1> .
+
+adi:mHPFaqRhG7v5-bQmc9GVmG7dw a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EsHT4rwmGq4j ;
+    rdf:predicate <> ;
+    rdf:subject adi:mHPFaqRhG7v5 .
+
+adi:mHPFaqRhG7v5 a rdfs:Resource ;
+    rdfs:label "Thesaurinella Olympica aurea tripartita" ;
+    <> adi:EsHT4rwmGq4j,
+        "1608" ;
+    dc:subject adi:8Y6NAvRmdtq6 ;
+    dcterms:title "Thesaurinella Olympica aurea tripartita. Das ist: Ein himmlisch güldenes Schatzkämmerlein" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:BzhJSvB9YReH,
+        adi:KAkMZBpLwrNE .
+

@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oANLr2HLt4wi-LdZuNi9XcSxQ a rdf:Statement ;
+    dcterms:references adi:X68fVkQC9ygb ;
+    rdf:object adi:3tjNWon78ob2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:oANLr2HLt4wi ;
+    schema:startDate "1608" .
+
+adi:oANLr2HLt4wi-cvec48CQK4dj a rdf:Statement ;
+    dcterms:references adi:X68fVkQC9ygb ;
+    rdf:object adi:3tjNWon78ob2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:oANLr2HLt4wi .
+
+adi:oANLr2HLt4wi a rdfs:Resource ;
+    rdfs:label "Leandro Bovarini" ;
+    <> adi:3pU843Lma47u,
+        adi:3tjNWon78ob2,
+        adi:hbLMcBia2woA ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q18945590> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

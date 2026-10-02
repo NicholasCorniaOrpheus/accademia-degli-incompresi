@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:W7HigQ3mEDdA-3EtiEfVDvha6 a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:27WtQRXz2t4n ;
+    rdf:predicate <> ;
+    rdf:subject adi:W7HigQ3mEDdA .
+
+adi:W7HigQ3mEDdA-5ERRCuzqH94f a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1561" ;
+    rdf:predicate <> ;
+    rdf:subject adi:W7HigQ3mEDdA .
+
+adi:W7HigQ3mEDdA-8GMDiYGHzddH a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "460" ;
+    rdf:predicate <> ;
+    rdf:subject adi:W7HigQ3mEDdA .
+
+adi:W7HigQ3mEDdA-8qb7PVCdRf7g a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:Qd5hDpHvVCYa ;
+    rdf:predicate <> ;
+    rdf:subject adi:W7HigQ3mEDdA ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:W7HigQ3mEDdA a rdfs:Resource ;
+    rdfs:label "Accademia dei Vivi" ;
+    <> adi:27WtQRXz2t4n,
+        adi:Qd5hDpHvVCYa ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

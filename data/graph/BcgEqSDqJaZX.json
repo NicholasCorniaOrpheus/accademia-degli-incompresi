@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BcgEqSDqJaZX",
+      "label": "choirbook",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "label": "La nobiltà di Roma. Versi in lode di cento gentildonne romane. Et le villanelle a tre voci di Gasparo Fiorino",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P6pRP3sK8VKi",
+      "label": "notated music",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BcgEqSDqJaZX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P6pRP3sK8VKi",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BcgEqSDqJaZX",
+      "property": "instance_of"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LMjJmEyTAUhn-EBAdR2unngjJ a rdf:Statement ;
+    rdf:object adi:RidaxpYHRDz3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LMjJmEyTAUhn ;
+    ns1:P304 "354" ;
+    ns1:P958 "Loda la Sig. Margherita N. di belleza, e di virtù." .
+
+adi:LMjJmEyTAUhn-TAA3LRc3NDvz a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:nxtaeZb4ETk2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LMjJmEyTAUhn .
+
+adi:LMjJmEyTAUhn a rdfs:Resource ;
+    rdfs:label "Dal mare, oh Margherita, il nome avesti" ;
+    <> adi:RidaxpYHRDz3,
+        adi:nxtaeZb4ETk2 ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Dal mare, oh Margherita, il nome havesti.
+Ma chi de le tue luci i rai vegheggia,
+Scorge ne gli occhi tuoi vanti celesti,
+Che l'eterna beltate in te lampeggia.
+Sorse Vener crudel dai flutti infesti,
+Ed hebbe per natal l'ondosa reggia:
+Ma tu gradita uscendo a l'aura fuore
+Sei nel mar di beltà Vener d'Amore.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:9bHS2Z6zpJ6k,
+        adi:LBUMoVayqW8X ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

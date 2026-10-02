@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:38YJtGtWT6Qx-eJ9T3MduKHD4 a rdf:Statement ;
+    bf:Role adi:LUreZmQUA3Bx ;
+    rdf:object adi:nxtaeZb4ETk2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:38YJtGtWT6Qx .
+
+adi:38YJtGtWT6Qx-gGJLaeqjKayX a rdf:Statement ;
+    dcterms:publisher adi:bGmzLJPd5rUo ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "N5b11d03f9e7f49e88dd54d5acca8b88e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:38YJtGtWT6Qx ;
+    schema:datePublished "1634" ;
+    schema:url <http://id.sbn.it/bid/MUS0020086> .
+
+adi:38YJtGtWT6Qx a rdfs:Resource ;
+    rdfs:label "L'Apollo di Ottavio Tronsarelli" ;
+    <> adi:nxtaeZb4ETk2,
+        "1634" ;
+    dc:subject adi:JdDRGByiy3E8 ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0020086> ;
+    dcterms:title "L' Apollo di Ottavio Tronsarelli" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:MmwqyGSf2bpf ;
+    wdt:P31 adi:8ECQGMNHahT5 .
+

@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "label": "(Taschetti 2024)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "label": "Con il favor del cielo e di natura (Fiorino)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YdXiLDnH4XMc",
+      "label": "Alessandro Milleville",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NGjAVUdo3dUq",
+      "label": "Gasparo Fiorino",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "label": "La nobiltà di Roma. Versi in lode di cento gentildonne romane. Et le villanelle a tre voci di Gasparo Fiorino",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o9wzW6XjbzQu",
+      "label": "Fermano il corso ai venti (Milleville)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YdXiLDnH4XMc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YdXiLDnH4XMc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NGjAVUdo3dUq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NGjAVUdo3dUq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o9wzW6XjbzQu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7FeDbjrMGHRk",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NGjAVUdo3dUq",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cy7PVvdkTcTQ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/D8tp4vPHSCmz",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NGjAVUdo3dUq",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o9wzW6XjbzQu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YdXiLDnH4XMc",
+      "property": "contributor"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ABZXHkNyt6kd-25pMuYDoppcC a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ABZXHkNyt6kd .
+
+adi:ABZXHkNyt6kd-Az7365enUju7 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ABZXHkNyt6kd .
+
+adi:ABZXHkNyt6kd-DSiiVoZM3pdh a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:NW22VDs68pXz ;
+    rdf:predicate <> ;
+    rdf:subject adi:ABZXHkNyt6kd .
+
+adi:ABZXHkNyt6kd-Ui5VsiP9Z9Sz a rdf:Statement ;
+    dcterms:publisher adi:Xk3xnY4nBvmF ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "Ncbd101ad298e41ba8d3bb32af0ad5bb8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ABZXHkNyt6kd ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045368> .
+
+adi:ABZXHkNyt6kd-bePuAGGgruBh a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00072033> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00072033/manifest> ;
+    rdf:object "N66a1a6a7b66747a9872a0e3d3749e234" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ABZXHkNyt6kd ;
+    schema:datePublished "1569" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045505> .
+
+adi:ABZXHkNyt6kd-fWQrfppb5qjU a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ABZXHkNyt6kd .
+
+adi:ABZXHkNyt6kd-hTsU83ZxguQa a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ABZXHkNyt6kd .
+
+adi:ABZXHkNyt6kd a rdfs:Resource ;
+    rdfs:label "Il primo libro de madrigali a quattro voci di Cipriano De Rore" ;
+    <> adi:NW22VDs68pXz,
+        "1550" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045368>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV17920010>,
+        <https://rism.online/sources/990055829> ;
+    dcterms:title "Il primo libro de madrigali a quatro voci di m. Cipriano De Rore" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

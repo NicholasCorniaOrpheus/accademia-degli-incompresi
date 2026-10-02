@@ -14,7 +14,7 @@ contributor:
   - role: "[[poet]]"
     value: "[[Battista Guarini]]"
   - role: "[[composer]]"
-    value: "[[Ruggiero Giovannelli]]"
+    value: "[[Paolo Virchi]]"
 part_of:
   - value: "[[Manuscript F. 1358 della Biblioteca Estense di Modena]]"
 instrumentation:

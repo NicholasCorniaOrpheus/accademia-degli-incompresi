@@ -1,0 +1,59 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:oQeCPAYg5Fbh-GDKk7eNzvRyw a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:L8Tf2qNBGXFK ;
+    rdf:predicate <> ;
+    rdf:subject adi:oQeCPAYg5Fbh .
+
+adi:oQeCPAYg5Fbh-Mtu8MRJWYDUN a rdf:Statement ;
+    rdf:object adi:EVLHUYPjvWMB ;
+    rdf:predicate <> ;
+    rdf:subject adi:oQeCPAYg5Fbh ;
+    ns1:P304 "22" ;
+    ns1:P958 "Alla S. Dianora Terracina." .
+
+adi:oQeCPAYg5Fbh-NrkGPhWNXRdG a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4qz9ARSJbUuJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:oQeCPAYg5Fbh .
+
+adi:oQeCPAYg5Fbh a rdfs:Resource ;
+    rdfs:label "Cantava un giorno la mia Nimpha, quando" ;
+    <> adi:4qz9ARSJbUuJ,
+        adi:EVLHUYPjvWMB,
+        adi:L8Tf2qNBGXFK ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Cantava un giorno la mia Nimpha, quando
+Riprese Apollo in man l'amata lira;
+E sì gioioso a la sua voce mira,
+Che'l carro al più bel corso ha posto in bando.
+
+Io che tal'odo anchor, bramosa n'andò
+Ove l'altero suon dolce mi tira:
+E con quella armonia che'l core aggira
+Mi va quasi col corpo al ciel portando.
+
+E benché nel partir habbia gran pena
+Per lasciar qui di mei pensier'il pondo
+Godo pur, ch'altra , non qual'era i sono.
+
+Così tremante e d'allegrezza piena,
+Lodo sovente il gran fattor del mondo:
+Che tra noi die' sì glorioso dono.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:JdDRGByiy3E8,
+        adi:S2y5UAT62kde,
+        adi:mYTHrWKC38sb ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

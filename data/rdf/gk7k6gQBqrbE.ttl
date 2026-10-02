@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gk7k6gQBqrbE-Q9ANHWyHzy82 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:d2rMEHf4Fhun ;
+    rdf:predicate <> ;
+    rdf:subject adi:gk7k6gQBqrbE .
+
+adi:gk7k6gQBqrbE-WZABR8bNxKHr a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:UTAiJiQhWjEQ ;
+    rdf:predicate <> ;
+    rdf:subject adi:gk7k6gQBqrbE .
+
+adi:gk7k6gQBqrbE-WhDyCRLkQf9w a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FnabqhEkKVwB ;
+    rdf:predicate <> ;
+    rdf:subject adi:gk7k6gQBqrbE .
+
+adi:gk7k6gQBqrbE-XLfCUcBbys6e a rdf:Statement ;
+    bf:Note "volume 1" ;
+    bf:electronicLocator <https://www.google.be/books/edition/Tutti_i_trionfi_carri_mascherate_o_canti/WFQsAQAAMAAJ> ;
+    rdf:object "Na917ec9e45b147dbb205b680d4d46ceb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gk7k6gQBqrbE ;
+    schema:datePublished "1750" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034651> .
+
+adi:gk7k6gQBqrbE-XTDiS6F5NAX5 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bGRJWn5bVFvx ;
+    rdf:predicate <> ;
+    rdf:subject adi:gk7k6gQBqrbE .
+
+adi:gk7k6gQBqrbE-kNn7eEP6kUGK a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Tutti_i_Trionfi_Carri_Mascherate_o_canti/g6275Ma6MXgC> ;
+    rdf:object "Nd5a8c9bbca884a03b979f447db8fd469" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gk7k6gQBqrbE ;
+    schema:datePublished "1750" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034651> .
+
+adi:gk7k6gQBqrbE a rdfs:Resource ;
+    rdfs:label "Tutti i trionfi, carri, mascherate o canti carnascialeschi andati per Firenze dal tempo del Magnifico Lorenzo" ;
+    <> adi:FnabqhEkKVwB,
+        adi:UTAiJiQhWjEQ,
+        adi:bGRJWn5bVFvx,
+        adi:d2rMEHf4Fhun,
+        "1750" ;
+    dc:subject adi:K4hrcamhiFh7,
+        adi:hHij3iF3zFE9 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034651> ;
+    dcterms:title "Tutti i trionfi, carri, mascheaate [!], o canti carnascialeschi andati per Firenze, dal tempo del Magnifico Lorenzo vecchio de Medici quando egli ebbero prima cominciamento, per infino a questo anno presente 1559. Con due tauole, vna dinanzi, e vna dietro da trouare agieuolmente, e tosto ogni canto, o mascherata" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

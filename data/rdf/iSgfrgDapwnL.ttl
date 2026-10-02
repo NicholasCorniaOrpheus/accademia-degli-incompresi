@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iSgfrgDapwnL-8JYatbx4WKxK a rdf:Statement ;
+    rdf:object adi:46LdQgsVgJM3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:iSgfrgDapwnL ;
+    ns1:P304 "15" ;
+    ns1:P958 "Giuoco dell'Amante et dell'Amato. X." ;
+    schema:volumeNumber "1" .
+
+adi:iSgfrgDapwnL-GCBxUZ34VtX5 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FmVLXoNYsftP ;
+    rdf:predicate <> ;
+    rdf:subject adi:iSgfrgDapwnL .
+
+adi:iSgfrgDapwnL a rdfs:Resource ;
+    rdfs:label "Ben può cingermi il cor di quanti affanni" ;
+    <> adi:46LdQgsVgJM3,
+        adi:FmVLXoNYsftP ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Ben può cingermi il cor di quanti affanni,
+Ha nel gran Regno suo l'empia Fortuna,
+E con mille fierezze, e mille inganni
+Perché io non quieti mai sotto la Luna,
+Avida sempre de' maggior miei danni
+Rinnovarmi le doglie ad una ad una;
+Ma non può far già che io non sia beato
+Se tutti i Mondi non cangiasser stato.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8AksXBHfuu7g,
+        adi:FHkhZJZzAo88,
+        adi:S2y5UAT62kde,
+        adi:YStEQL5Rsman,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

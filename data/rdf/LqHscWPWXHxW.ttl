@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LqHscWPWXHxW-4wsEQ8afKWjW a rdf:Statement ;
+    rdf:object adi:mWT5q2KSyozm ;
+    rdf:predicate <> ;
+    rdf:subject adi:LqHscWPWXHxW ;
+    ns1:P958 "Vittoria Colonna, III" .
+
+adi:LqHscWPWXHxW-bRVaXsVwKNso a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Lb2oTLg4h2DU ;
+    rdf:predicate <> ;
+    rdf:subject adi:LqHscWPWXHxW .
+
+adi:LqHscWPWXHxW a rdfs:Resource ;
+    rdfs:label "Provo tra duri scogli e fiero vento" ;
+    <> adi:Lb2oTLg4h2DU,
+        adi:mWT5q2KSyozm ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Provo tra duri scogli e fiero vento
+l'onde di questa vita in fragil legno;
+l'alto presidio e 'l mio fido sostegno
+tolse l'acerba morte in un momento.
+
+Veggio il mio male e 'l mio rimedio spento,
+il mar turbato e l'aer d'ira pregno,
+d'atra tempesta un infallibil segno,
+e 'l valor proprio al mio soccorso lento.
+
+Non ch'io sommerga in le commosse arene
+temo, né rompa in perigliose sponde,
+ma duolmi il navigar priva di spene.
+
+Almen se morte il ver porto m'asconde,
+mostrimi il falso suo, ché chiare e amene
+ne parran le sue irate e turbide onde.""" ;
+    dc:subject adi:KuorvRGvXbTz,
+        adi:Pfqef5YBTXjD ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=14806> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:GfJn75HsAD4J,
+        adi:htMN9mN4PnnW ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

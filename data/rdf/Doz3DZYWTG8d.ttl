@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Doz3DZYWTG8d-Wr7CPC8pWdMR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:C4NXw8vEgx8e ;
+    rdf:predicate <> ;
+    rdf:subject adi:Doz3DZYWTG8d .
+
+adi:Doz3DZYWTG8d-ZdtbGmcmxc7c a rdf:Statement ;
+    rdf:object adi:bRqdpD8sTy88 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Doz3DZYWTG8d ;
+    ns1:P304 "169" ;
+    ns1:P958 "Madrigali" .
+
+adi:Doz3DZYWTG8d a rdfs:Resource ;
+    rdfs:label "L'empio tuo strale Amore" ;
+    <> adi:C4NXw8vEgx8e,
+        adi:bRqdpD8sTy88 ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """L' EMPIO tuo strale Amore,
+È più crudo, e più forte
+Assai che quel di Morte,
+Che per Morte una volta sol si more;
+E tu col tuo colpire,
+Uccidi mille, e non si può morire;
+Dunque Amore, è men male
+La Morte, che'l tuo strale.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FHkhZJZzAo88,
+        adi:GZY3csdzKUK5,
+        adi:MfBWzgNTqiki ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

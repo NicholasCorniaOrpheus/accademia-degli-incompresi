@@ -2,12 +2,20 @@
 class: Agent
 instance_of:
   - "[[human]]"
+identifier:
+  - http://www.wikidata.org/entity/Q331003
+described_by_source:
+  - "[[(Bolzoni 2004)]]"
 gender: "[[male]]"
 work_location:
 member_of:
 occupation:
   - value: "[[philosopher]]"
 related_to:
+  - value: "[[Francesco Patrizi]]"
+    relationship: "[[artistic legacy]]"
+    reference:
+      - "[[(Bolzoni 2004)]]"
   - value: "[[Orazio Toscanella]]"
     relationship: "[[artistic legacy]]"
     reference:
@@ -19,6 +27,4 @@ interested_in:
   - value: "[[ars combinatoria]]"
 catalog_identifier:
 present_in_work:
-identifier:
-  - http://www.wikidata.org/entity/Q331003
 ---

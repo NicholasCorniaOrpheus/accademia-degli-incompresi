@@ -17,6 +17,7 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | æ | ae | |
 | ſ | s | Modernization of long s |
 | u | v | Modernization of Latin u for words such as "Gioue" (Giove) or "uuole" (vuole) |
+| se | sé | Distinction between "se" as "if" and "sé" as "self" |
 | perche | perché | |
 | poi che| poiché| |
 | pur che| purché| |

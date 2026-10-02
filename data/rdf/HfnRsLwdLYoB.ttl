@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HfnRsLwdLYoB-UoeTc9W5JrqJ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:jfG2imrexYFE ;
+    rdf:predicate <> ;
+    rdf:subject adi:HfnRsLwdLYoB .
+
+adi:HfnRsLwdLYoB-XgMFbNxFrpTc a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=KZ5sHldM0NMC> ;
+    dcterms:publisher adi:9Aoez2jHnnNQ ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N65f814c3c50b40d49c2517b49bb0fed9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HfnRsLwdLYoB ;
+    schema:datePublished "1525" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE021022> .
+
+adi:HfnRsLwdLYoB a rdfs:Resource ;
+    rdfs:label "Francisci Georgii De harmonia mundi" ;
+    <> adi:jfG2imrexYFE,
+        "1525" ;
+    dc:subject adi:ExKEBQZvSQ8Y,
+        adi:FzHkt4cv9QNY,
+        adi:bxtQcQpdXsKm ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE021022> ;
+    dcterms:title "Francisci Georgii Veneti minoritanae familiae De harmonia mundi totius cantica tria" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Eb5aj2HkQaXZ ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE .
+

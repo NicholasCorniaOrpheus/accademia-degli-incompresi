@@ -1,0 +1,70 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NLZ9HyHBdDfb-2tnJvMXyaVE4 a rdf:Statement ;
+    dcterms:references adi:QmQprBXKudMJ ;
+    rdf:object adi:ZmpBx2YXnpkE ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-4itDbDJeE9Ug a rdf:Statement ;
+    dcterms:references adi:KhzyuxcFHpz3 ;
+    rdf:object "Sapiens dominabitur astris" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-4iu4BgRh4EMa a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1525" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-68piypnNRkpz a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1603" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-LZMCbN7HnWVd a rdf:Statement ;
+    dcterms:references adi:KhzyuxcFHpz3,
+        adi:RrWtiYpwdJp2 ;
+    rdf:object adi:S3kU5uYUeBxN ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-QqqwnPaDQuG8 a rdf:Statement ;
+    dcterms:references adi:A7K8FzhUQ2Bq ;
+    rdf:object adi:maVFhk6h8CqB ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-RESnikFK2nvC a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "48" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb-cdqyNxUPSWW7 a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:NDRQPafFjYTy ;
+    rdf:predicate <> ;
+    rdf:subject adi:NLZ9HyHBdDfb .
+
+adi:NLZ9HyHBdDfb a rdfs:Resource ;
+    rdfs:label "Accademia degli Intronati di Siena" ;
+    <> adi:NDRQPafFjYTy,
+        adi:PuzofSmPxjQf,
+        adi:S3kU5uYUeBxN,
+        adi:ZmpBx2YXnpkE,
+        adi:jLwcTv9NEzFF,
+        adi:maVFhk6h8CqB ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q765899> ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:KhzyuxcFHpz3 ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

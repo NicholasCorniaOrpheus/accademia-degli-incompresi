@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4ivoKQfuQL35-Hg5RZpdDaBAZ a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:4ivoKQfuQL35 .
+
+adi:4ivoKQfuQL35-U2fZtuEqSM6r a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:TxHDFENifoih ;
+    rdf:predicate <> ;
+    rdf:subject adi:4ivoKQfuQL35 .
+
+adi:4ivoKQfuQL35 a rdfs:Resource ;
+    rdfs:label "Sa quest'altier ch'io l'amo e ch'io l'adoro (Torresani)" ;
+    <> adi:3tBDveUQba76,
+        adi:HSkKQcwojCG2,
+        adi:TxHDFENifoih,
+        adi:WpJLjsrV6zZE ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F247580000020101_000000198203C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

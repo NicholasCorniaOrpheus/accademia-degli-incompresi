@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NDRQPafFjYTy-MT8VQYmnozzr a rdf:Statement ;
+    rdf:object adi:NLZ9HyHBdDfb ;
+    rdf:predicate <> ;
+    rdf:subject adi:NDRQPafFjYTy .
+
+adi:NDRQPafFjYTy-j5NdX2UUtmnD a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16524" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NDRQPafFjYTy .
+
+adi:NDRQPafFjYTy a rdfs:Resource ;
+    rdfs:label "Carlo Papini" ;
+    <> adi:NLZ9HyHBdDfb ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    ns1:P800 adi:CVNqJuQekRCD ;
+    schema:gender adi:8UjQ7UabobgD .
+

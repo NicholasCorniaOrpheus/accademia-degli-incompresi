@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "label": "(Chiummo 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gkeQiSvsR3i2",
+      "label": "Giovanni Mauro",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3trBJ33k7YmX",
+      "label": "(Everson, Reidy, and Sampson 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVpZZ8LWYcv3",
+      "label": "Angelo Bronzino",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwcyZph2jogE",
+      "label": "Il primo libro dell'opere burlesche, di m. Francesco Berni, di m. Gio. della Casa, del Varchi, del Mauro, di m. Bino, del Molza, del Dolce, et del Firenzuola",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3trBJ33k7YmX",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gkeQiSvsR3i2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVpZZ8LWYcv3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVpZZ8LWYcv3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVpZZ8LWYcv3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwcyZph2jogE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YsewemXcuZtW",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwcyZph2jogE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gkeQiSvsR3i2",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwcyZph2jogE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YVpZZ8LWYcv3",
+      "property": "contributor"
+    }
+  ]
+}

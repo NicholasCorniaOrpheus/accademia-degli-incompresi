@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kSRXUfjM8fBd-8rsDrFXeGXY5 a rdf:Statement ;
+    bf:Role adi:29KJqfsF4AHJ ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:kSRXUfjM8fBd .
+
+adi:kSRXUfjM8fBd-KymvDEvtTSni a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k8701226j> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:FzS4CPzkMkJY ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8701226j/manifest.json> ;
+    rdf:object "N34268f99470e4c7fa22e8dd44f0cf228" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kSRXUfjM8fBd ;
+    schema:datePublished "1556" ;
+    schema:url <http://ark.bnf.fr/ark:/12148/cb30026885n> .
+
+adi:kSRXUfjM8fBd-N57sPc8tUFih a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:kSRXUfjM8fBd .
+
+adi:kSRXUfjM8fBd a rdfs:Resource ;
+    rdfs:label "Orlando furioso di M. Lodovico Ariosto. Con belle allegorie, et nel fine una breve esposizione di Lodovico Dolce" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y,
+        adi:RE3XAqvEyiZM,
+        "1556" ;
+    dc:description "French edition, recycling xylographies from Italian versions of the epic poem." ;
+    dc:subject adi:fnaMY86gpvzk ;
+    dcterms:identifier <http://ark.bnf.fr/ark:/12148/cb30026885n> ;
+    dcterms:title "Orlando furioso, di M. Lodovico Ariosto... con cinque canti... et altre stanze del medesimo nuovamente aggiunti, con belle allegorie, et nel fine una breve espositione (da Lodovico Dolce)" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cygyrPSnobpc .
+

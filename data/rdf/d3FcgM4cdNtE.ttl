@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:d3FcgM4cdNtE-SmhmfUKWD54A a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:bGRJWn5bVFvx ;
+    rdf:predicate <> ;
+    rdf:subject adi:d3FcgM4cdNtE .
+
+adi:d3FcgM4cdNtE-WUvb6btZmE8V a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:jTRFZbUgNCYz ;
+    rdf:predicate <> ;
+    rdf:subject adi:d3FcgM4cdNtE .
+
+adi:d3FcgM4cdNtE-nf8gWrbvPrMp a rdf:Statement ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N8172b321c9ea4cef8fbe6cf9966ea70e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:d3FcgM4cdNtE ;
+    schema:datePublished "1566" ;
+    schema:url <http://id.sbn.it/bid/NAPE010160> .
+
+adi:d3FcgM4cdNtE a rdfs:Resource ;
+    rdfs:label "Componimenti latini, e toscani da diversi suoi amici composti. Nella morte di M. Benedetto Varchi" ;
+    <> adi:bGRJWn5bVFvx,
+        adi:jTRFZbUgNCYz,
+        "1566" ;
+    dc:subject adi:bz2ZiUr2xdwm ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE061404> ;
+    dcterms:title "Componimenti latini, e toscani da diuersi suoi amici composti. Nella morte di M. Benedetto Varchi" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

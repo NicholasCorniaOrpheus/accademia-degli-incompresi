@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BPEYUYaSxdLM-NKUh56bsGwy2 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=vFQoZzHd9AYC> ;
+    dcterms:publisher adi:HkGg8CoDYQcR ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N90fb92fcdd1a4f37864316e6e1632db5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BPEYUYaSxdLM ;
+    schema:datePublished "1553" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE029540> .
+
+adi:BPEYUYaSxdLM-RvPzV8P3GTcB a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:KhQrZGTQZq7d ;
+    rdf:predicate <> ;
+    rdf:subject adi:BPEYUYaSxdLM .
+
+adi:BPEYUYaSxdLM a rdfs:Resource ;
+    rdfs:label "Il sesto libro delle rime di diversi eccellenti autori. Con un discorso di Girolamo Ruscelli" ;
+    <> adi:KhQrZGTQZq7d,
+        "1553" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE029540>,
+        <https://lyra.unil.ch/books/11>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F500330010> ;
+    dcterms:title "Il sesto libro delle rime di diuersi eccellenti autori, nuouamente raccolte, et mandate in luce. Con un discorso di Girolamo Ruscelli" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:e2nWi24VoUtn,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

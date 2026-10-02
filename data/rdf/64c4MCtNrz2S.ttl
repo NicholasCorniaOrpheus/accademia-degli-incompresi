@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:64c4MCtNrz2S-FNPUoLLBh98Z a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ShZv8ummK46R ;
+    rdf:predicate <> ;
+    rdf:subject adi:64c4MCtNrz2S .
+
+adi:64c4MCtNrz2S-NhYrUxVnjZeZ a rdf:Statement ;
+    rdf:object adi:j7DoSeBZLZrw ;
+    rdf:predicate <> ;
+    rdf:subject adi:64c4MCtNrz2S ;
+    ns1:P304 "96" ;
+    ns1:P958 "Canto VI, 45" ;
+    schema:volumeNumber "Carlo Quinto" .
+
+adi:64c4MCtNrz2S-ZEn2ej4Q8jzV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Hyw2JvyN8B9h ;
+    rdf:predicate <> ;
+    rdf:subject adi:64c4MCtNrz2S .
+
+adi:64c4MCtNrz2S a rdfs:Resource ;
+    rdfs:label "Arte meravigliosa, ah, ben comprendo" ;
+    <> adi:Hyw2JvyN8B9h,
+        adi:ShZv8ummK46R,
+        adi:j7DoSeBZLZrw ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Arte meravigliosa, ah, ben comprendo
+Come in sì gran lavoro immiti Iddio,
+Quando trasse dal Nulla il Chaos horrendo,
+E dal Chaos gli Elementi insieme unio.
+Hebbe moto Natura, e all'hora aprendo
+Quel Mondo inoperoso al Mondo uscio,
+E con Essa Natura a l'occhio, al tatto
+Tutti gli Enti in potenza usciro in Atto.""" ;
+    dc:description "Praise to the Sun." ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:MeCVRw88z9MS,
+        adi:Se3XU7Bnd7Sk ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

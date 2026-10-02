@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BFWhk5b8b86u-WrBMUATQVSXN a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:NbBPwPgUvZC6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:BFWhk5b8b86u .
+
+adi:BFWhk5b8b86u-c5vsppEqWZnZ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:XtyKoT2r5qFb ;
+    rdf:predicate <> ;
+    rdf:subject adi:BFWhk5b8b86u .
+
+adi:BFWhk5b8b86u-mw4SvCJ5aYhY a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=stYj0n7gqsIC> ;
+    dcterms:publisher adi:A5HTRNLAj4bM ;
+    wdt:P291 adi:hwWposH4v2nt ;
+    rdf:object "N1146947f57114472bd206c393a9e1c39" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BFWhk5b8b86u ;
+    schema:datePublished "1580" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047030> .
+
+adi:BFWhk5b8b86u a rdfs:Resource ;
+    rdfs:label "Giuoco piacevole d'Ascanio de Mori" ;
+    <> adi:NbBPwPgUvZC6,
+        adi:XtyKoT2r5qFb,
+        "1580" ;
+    dc:subject adi:4gDUdsQ3zgkL,
+        adi:5kTufm84drrw ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047030> ;
+    dcterms:title "Giuoco piaceuole d'Ascanio de Mori da Ceno. Ristampato piu corretto, & migliorato da lui; con la giunta d'alcune rime, et d'vn ragionamento del medesimo in lode delle donne" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:TJbEN5HnXM3U ;
+    wdt:P31 adi:2jTZtcMb8cpv,
+        adi:3FmSxcCP5CUS ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

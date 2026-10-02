@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6dy4DFPLmU4W-4cgzUpY63MSS a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:97mbKPeJxsy2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:6dy4DFPLmU4W .
+
+adi:6dy4DFPLmU4W-P4jXefMuvTpn a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=0JwRuNqG4kAC> ;
+    dcterms:publisher adi:Jd4syX5mnmQY ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N336c2fbe9a9a4b1f95a944210033cc53" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:6dy4DFPLmU4W ;
+    schema:datePublished "1610" ;
+    schema:url <http://id.sbn.it/bid/CFIE041195> .
+
+adi:6dy4DFPLmU4W-chzWg8FDFs3B a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:M4sAGJio9XZE ;
+    rdf:predicate <> ;
+    rdf:subject adi:6dy4DFPLmU4W .
+
+adi:6dy4DFPLmU4W a rdfs:Resource ;
+    rdfs:label "La famosa disputa fatta tra l'armi, e le lettere con la definizione, quali di loro cedino in nobiltà" ;
+    <> adi:97mbKPeJxsy2,
+        adi:M4sAGJio9XZE,
+        "1610" ;
+    dc:subject adi:SZzbeTU3XAvA ;
+    dcterms:identifier <http://id.sbn.it/bid/CFIE041195> ;
+    dcterms:title "La famosa disputa fatta tra l'armi, & le lettere con la difinitione, quali di loro cedino in nobiltà: composta da m. Fedele Honofri. Dedicata all'eccellentissimo signor don Giovanni de medici, suo patrone colendiss" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ,
+        adi:V8bNoGP49KUR .
+

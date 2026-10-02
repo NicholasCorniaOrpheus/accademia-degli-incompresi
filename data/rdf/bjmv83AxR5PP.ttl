@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bjmv83AxR5PP-bb7xkyy7UiEU a rdf:Statement ;
+    rdf:object adi:SifJFtUcR76e ;
+    rdf:predicate <> ;
+    rdf:subject adi:bjmv83AxR5PP ;
+    ns1:P958 "Canto I, 1" .
+
+adi:bjmv83AxR5PP-imUfyG2co99E a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:YXSurDyNHSdr ;
+    rdf:predicate <> ;
+    rdf:subject adi:bjmv83AxR5PP .
+
+adi:bjmv83AxR5PP a rdfs:Resource ;
+    rdfs:label "Le Temerarie Imprese, i strani effetti" ;
+    <> adi:SifJFtUcR76e,
+        adi:YXSurDyNHSdr ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Le Temerarie Imprese, i strani effetti, 
+I Cuor Bramosi, l'insatiabil menti,
+De' Cavallieri Erranti, i gran Concetti, 
+Le Sorti, i Paragon di tutte genti, 
+Baron da Mensa, & Campioni da Letti, 
+Di Carlo Magno, & tutti i suoi parenti, 
+De' Paladin da ver di quei da Ciance 
+Canto l'Armi, l'Amor fra spade, & lance.""" ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:iFXJgwZy2vLK ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:KH2RsQHZMHpE,
+        adi:L6aLzmbRvQqS ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

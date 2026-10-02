@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ifP8HVM8Nihd-YJh5PZLLnXqi a rdf:Statement ;
+    bf:Note "Incipit assonance." ;
+    rdf:object adi:K4BsVrP9o2AW ;
+    rdf:predicate <> ;
+    rdf:subject adi:ifP8HVM8Nihd .
+
+adi:ifP8HVM8Nihd-kEoh5ghdNR8i a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:eJkZtqiCPcgu ;
+    rdf:predicate <> ;
+    rdf:subject adi:ifP8HVM8Nihd .
+
+adi:ifP8HVM8Nihd a rdfs:Resource ;
+    rdfs:label "Alma beat'e bella (Viola)" ;
+    <> adi:K4BsVrP9o2AW,
+        adi:eJkZtqiCPcgu,
+        adi:koYRuMoaxBMQ ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Alma beata e bella
+Che a le quiete piume
+Si, proprio mi mostraste il chiaro lume
+Quando tornerà più si lieto il sonno
+Che di voi mi conceda quel che tanti
+Sospir tormenti e pianti
+Interceder ne gratia un qua non ponno,
+Deh se pietade mai pungergli il petto
+Col sogno e con la mia benigna stella
+Ritorna a me sovente
+E si m’opprima l’aﬀannata mente
+Che con quei grati et amorosi gesti
+Sempre io stia seco e mai più non mi desti.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/008950000010101_000000076800C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:fJA6BDZUy9AL,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:NUaQe9C3WPVp,
+        adi:VFabTiMFEU5U,
+        adi:d2QjJCcEtkiC,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

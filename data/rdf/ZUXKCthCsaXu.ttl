@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZUXKCthCsaXu-XWWu9wcbzfFD a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:kzACS6hZYUb6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZUXKCthCsaXu .
+
+adi:ZUXKCthCsaXu-j3ofQwcrs9WF a rdf:Statement ;
+    bf:electronicLocator <https://dl.unito.it/it/ricerca/digitale/?id=mag:32995> ;
+    dcterms:publisher adi:Y3YKpBSkeoRD ;
+    wdt:P291 adi:ADjceYT8WEN6 ;
+    wdt:P6108 <https://dl.unito.it/fedora/objects/mag:32995/datastreams/MMIIIF/content> ;
+    rdf:object "N0911984cd38c47edbbf7449b7c524879" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ZUXKCthCsaXu ;
+    schema:datePublished "1588" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE003261> .
+
+adi:ZUXKCthCsaXu a rdfs:Resource ;
+    rdfs:label "Il Tancredi. Tragedia del signor conte di Camerano" ;
+    <> adi:hnGUsqmNR3ko,
+        adi:kzACS6hZYUb6,
+        "1588" ;
+    dc:subject adi:cygyrPSnobpc ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE003261> ;
+    dcterms:title "Il Tancredi. Tragedia del signor conte di Camerano. Dal sig. Gherardo Borgogni di nuouo posta in luce" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:fWcm8Nsn7rXJ ;
+    ns1:P180 adi:mM3eNkLzPEH8 .
+

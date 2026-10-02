@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:M2k895E6k2SD-GYTa6oAh9Yb8 a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:HETQrEGJAmpa ;
+    rdf:predicate <> ;
+    rdf:subject adi:M2k895E6k2SD .
+
+adi:M2k895E6k2SD-HP2eCGYVH2Rt a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6RgbbkFR4hhh ;
+    rdf:predicate <> ;
+    rdf:subject adi:M2k895E6k2SD .
+
+adi:M2k895E6k2SD-X24n3F6cXTGQ a rdf:Statement ;
+    rdf:object adi:GUdU7hjdXrfN ;
+    rdf:predicate <> ;
+    rdf:subject adi:M2k895E6k2SD ;
+    schema:volumeNumber "1" .
+
+adi:M2k895E6k2SD a rdfs:Resource ;
+    rdfs:label "La natura compose" ;
+    <> adi:6RgbbkFR4hhh,
+        adi:GUdU7hjdXrfN,
+        adi:HETQrEGJAmpa ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """La natura compose
+Cotesto vago fiore,
+O pur bel magistero egli è d'amore?
+Deh chi così vicine
+Le pene, e i dolci premi in lui ripose?
+E chi d'acute spine
+Cinse le belle foglie,
+Onde s'incauta man tal'hora il coglie,
+Punta in un punto solo
+N'have allegrezza e duolo:
+Oh fior meraviglioso, ond'ancor dura
+Oh fior meraviglioso, ond'ancor dura
+Fra l'amor lite incerta, e la natura.""" ;
+    dc:subject adi:KuorvRGvXbTz,
+        adi:LUkQiYzJMHtq,
+        adi:kq8n5eJ5seNR,
+        adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F023230000101_PPPP00286400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:NknErMsF55g9,
+        adi:YvSVvwPw9ogd ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

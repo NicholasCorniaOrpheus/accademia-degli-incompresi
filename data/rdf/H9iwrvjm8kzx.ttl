@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:H9iwrvjm8kzx-8sd7TyP5xAwo a rdf:Statement ;
+    bf:electronicLocator <https://cudl.lib.cam.ac.uk/mirador/MS-LC-00002-00113/0> ;
+    bf:heldBy adi:R5SVv2QAd7Fx ;
+    wdt:P6108 <https://cudl.lib.cam.ac.uk//iiif/MS-LC-00002-00113> ;
+    rdf:object "N6874692c6965448887cecb90fca9889e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:H9iwrvjm8kzx ;
+    schema:datePublished "1573" ;
+    schema:url <https://cudl.lib.cam.ac.uk/view/MS-LC-00002-00113> .
+
+adi:H9iwrvjm8kzx-9Dk22CYFAror a rdf:Statement ;
+    bf:heldBy adi:R5SVv2QAd7Fx ;
+    rdf:object "MS LC.2.113" ;
+    rdf:predicate <> ;
+    rdf:subject adi:H9iwrvjm8kzx .
+
+adi:H9iwrvjm8kzx-Ng2qeqUJxWvu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9aCUjCG9qSpL ;
+    rdf:predicate <> ;
+    rdf:subject adi:H9iwrvjm8kzx .
+
+adi:H9iwrvjm8kzx-QEuqybci5zm9 a rdf:Statement ;
+    dcterms:references adi:Ws34pzCNqACj ;
+    rdf:object "1573" ;
+    rdf:predicate <> ;
+    rdf:subject adi:H9iwrvjm8kzx .
+
+adi:H9iwrvjm8kzx a rdfs:Resource ;
+    rdfs:label "Album Amicorum of Abraham Ortelius" ;
+    <> adi:9aCUjCG9qSpL ;
+    dc:subject adi:jvXE4XLN7yQS ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:R5SVv2QAd7Fx ;
+    wdt:P31 adi:J33irkAjq2cU,
+        adi:kBuv5hPtPaN6 .
+

@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:M7Cvt58GvJtB-93YAyVLga5FR a rdf:Statement ;
+    bf:Role adi:LUreZmQUA3Bx ;
+    rdf:object adi:nxtaeZb4ETk2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:M7Cvt58GvJtB .
+
+adi:M7Cvt58GvJtB-GDuM2BNqXbVz a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA275/> ;
+    dcterms:publisher adi:ZAzHXrGbea5e ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nfd3d20b9264446ebb7634b71375f1528" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:M7Cvt58GvJtB ;
+    schema:datePublished "1626" ;
+    schema:url <http://id.sbn.it/bid/MUS0227460> .
+
+adi:M7Cvt58GvJtB-VPRRsjcVMds7 a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:5zoSKPqTCQs6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:M7Cvt58GvJtB .
+
+adi:M7Cvt58GvJtB-YyAr9uvx3NZv a rdf:Statement ;
+    wdt:P1114 "10" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJY5Y5H82dpd" ;
+    rdf:predicate <> ;
+    rdf:subject adi:M7Cvt58GvJtB .
+
+adi:M7Cvt58GvJtB-mBygRgpdewW4 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Me5C6iF5qVUG" ;
+    rdf:predicate <> ;
+    rdf:subject adi:M7Cvt58GvJtB .
+
+adi:M7Cvt58GvJtB-nMrEKipZLyzc a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MFRZ6pAZFnbn" ;
+    rdf:predicate <> ;
+    rdf:subject adi:M7Cvt58GvJtB .
+
+adi:M7Cvt58GvJtB a rdfs:Resource ;
+    rdfs:label "La Catena d'Adone" ;
+    <> adi:5zoSKPqTCQs6,
+        adi:nxtaeZb4ETk2,
+        "1626" ;
+    dc:subject adi:6xr6tnaoPuah ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0227460>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV13220010>,
+        <https://rism.online/sources/990040359> ;
+    dcterms:title "La Catena d'Adone posta in musica da Domenico Mazzocchi" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:8ECQGMNHahT5 .
+

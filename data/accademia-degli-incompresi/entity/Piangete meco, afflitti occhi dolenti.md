@@ -28,24 +28,25 @@ depicts:
   - "[[thorn]]"
   - "[[ingenuity]]"
 language: "[[Italian]]"
-text:
+text: |-
+  PIANGETE meco, afflitti occhi dolenti,
+  Privi del vostro chiaro, & vivo Sole;
+  Piangete Luci sconsolate, & sole,
+  Che i suoi bei rai per Voi son hoggi spenti
+
+  Tu, mesto cuore, a miei sospiri ardenti
+  Dà larga via, poi ch'empia Morte vuole,
+  Ch'Io pur mi viva in sì dogliose scuole,
+  Tenendo i sensi al primo oggetto intenti.
+
+  Altro soggetto il mio pensiero imprime
+  Nel petto perch'Io scriva in vive carte
+  Con altro stile hor le sue glorie prime.
+
+  Et dove manca in Me l'ingegno, & l'arte;
+  Supplirà il duol, che con acute lime
+  Mi punge, & rode dentro a parte, a parte.
 ---
-PIANGETE meco, afflitti occhi dolenti,
-Privi del vostro chiaro, & vivo Sole;
-Piangete Luci sconsolate, & sole,
-Che i suoi bei rai per Voi son hoggi spenti
 
-Tu, mesto cuore, a miei sospiri ardenti
-Dà larga via, poi ch'empia Morte vuole,
-Ch'Io pur mi viva in sì dogliose scuole,
-Tenendo i sensi al primo oggetto intenti.
-
-Altro soggetto il mio pensiero imprime
-Nel petto perch'Io scriva in vive carte
-Con altro stile hor le sue glorie prime.
-
-Et dove manca in Me l'ingegno, & l'arte;
-Supplirà il duol, che con acute lime
-Mi punge, & rode dentro a parte, a parte.
 
 

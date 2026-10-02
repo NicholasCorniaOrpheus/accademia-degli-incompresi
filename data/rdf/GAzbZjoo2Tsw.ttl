@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GAzbZjoo2Tsw-CwRh9TRojzy8 a rdf:Statement ;
+    bf:Role adi:CNFHvCWXHzEW ;
+    rdf:object adi:UN6USeofUGes ;
+    rdf:predicate <> ;
+    rdf:subject adi:GAzbZjoo2Tsw .
+
+adi:GAzbZjoo2Tsw-KcZDgsvzs33V a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758155> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:QTdxXEAT2EFy ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758155/manifest> ;
+    rdf:object "N49cd76d716d74887b6999777988bf9e2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GAzbZjoo2Tsw ;
+    schema:datePublished "1621" ;
+    schema:url <http://id.sbn.it/bid/VEAE003647> .
+
+adi:GAzbZjoo2Tsw-QmiWQuPzkXjj a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FXzUPxdeUC5F ;
+    rdf:predicate <> ;
+    rdf:subject adi:GAzbZjoo2Tsw .
+
+adi:GAzbZjoo2Tsw a rdfs:Resource ;
+    rdfs:label "La Venetia edificata" ;
+    <> adi:FXzUPxdeUC5F,
+        adi:UN6USeofUGes,
+        "1621" ;
+    dc:subject adi:edLFhkc6mVw6 ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE003647> ;
+    dcterms:title "La Venetia edificata poema eroico di Giulio Strozzi" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cygyrPSnobpc .
+

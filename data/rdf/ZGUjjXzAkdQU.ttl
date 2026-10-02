@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZGUjjXzAkdQU-HfNkuf6RPeia a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9cJs7DCtFosi ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZGUjjXzAkdQU .
+
+adi:ZGUjjXzAkdQU-LPjoqVJY3Xy5 a rdf:Statement ;
+    rdf:object adi:h2xDcFjWqJDz ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZGUjjXzAkdQU ;
+    ns1:P304 "260" ;
+    ns1:P958 "Effetti del Suon, del Canto, e del Volto della Sig. Ad." .
+
+adi:ZGUjjXzAkdQU a rdfs:Resource ;
+    rdfs:label "Se di Basile il volto" ;
+    <> adi:9cJs7DCtFosi,
+        adi:h2xDcFjWqJDz ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Se di BASILE il volto
+Talhor rimiro o'l canto, o'l suono ascolto,
+Sì dolci, e cari sono
+Il volto, il canto, il suono,
+Che ammaliato inebriato il core
+D'alto gioir, ne more:
+Dico alhor: quelle fila, ond'esser lice
+Il voto legno armato,
+Le Parche hanno filato;
+Quel canto è di Sirena ingannatrice,
+Di BASILISCO è'l guardo,
+Mentre in sì dolce frode e strania sorte,
+Sotto finto piacer danno la morte.""" ;
+    dc:subject adi:P9akbwF852t3,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:6UFUJo2JAXCT ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5L6x5MH6c78U,
+        adi:L3e4bqZinJkX,
+        adi:P9akbwF852t3,
+        adi:nMTi968tSsXp ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jPMa4WmwAmVq-iGJgygYreZkM a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:PJkNAipCMYEP ;
+    rdf:predicate <> ;
+    rdf:subject adi:jPMa4WmwAmVq .
+
+adi:jPMa4WmwAmVq a rdfs:Resource ;
+    rdfs:label "Cinta di fiori un giorno (Casulana)" ;
+    <> adi:PJkNAipCMYEP,
+        adi:VPrFYjHvN4zD ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Cinta di fior'un giorno
+A la riva d'un fiume
+Sedea la nimpha mia pescand'al'onde
+E gli augellett'intorno
+E gli arbor'e le fronde
+Facean cantando fest'al suo bel lume
+E non s'udivan venti
+Al suon d'i dolc'accenti
+Mentre lieta cantando
+S'accordan l'onde seco mormorando.""" ;
+    dc:subject adi:5RYVLh7yR4s6,
+        adi:5f6kHhAxyPZh ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F050990001010101_000000055700C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CLmtCZLTvT24,
+        adi:KvTzic2hAwWg,
+        adi:P9akbwF852t3,
+        adi:QnXnJU93h3jw ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

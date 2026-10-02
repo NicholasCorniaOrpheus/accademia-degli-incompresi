@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8eULwfz4JJWZ-NSpyZcDpAoSD a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/cosmographiaapia00apia> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    rdf:object "N1695c7d2605442eab1a970478b54ad52" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:8eULwfz4JJWZ ;
+    schema:datePublished "1564" .
+
+adi:8eULwfz4JJWZ-SBCVo8bdHFKT a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QmDX7vvxBQGt ;
+    rdf:predicate <> ;
+    rdf:subject adi:8eULwfz4JJWZ .
+
+adi:8eULwfz4JJWZ a rdfs:Resource ;
+    rdfs:label "Cosmographia Petri Apiani" ;
+    <> adi:QmDX7vvxBQGt,
+        "1564" ;
+    dc:subject adi:7SzNifkq9dZo ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    ns1:P180 adi:7WzaN4hdqgqS,
+        adi:S2y5UAT62kde,
+        adi:ZrFbfroCnSgR .
+

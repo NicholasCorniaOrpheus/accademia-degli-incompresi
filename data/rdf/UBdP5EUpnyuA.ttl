@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UBdP5EUpnyuA-N7n47QU8NmNo a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=-DGU1-6fVQ8C> ;
+    wdt:P291 adi:MkrwELwtyXnq ;
+    rdf:object "N4ed9384b5ea84d7284bfb3cc5f551b0c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UBdP5EUpnyuA ;
+    schema:datePublished "1639" ;
+    schema:url <http://id.sbn.it/bid/BVEE039218> .
+
+adi:UBdP5EUpnyuA-W4wkRKXGNwNm a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:P3FnZeYMVUAv ;
+    rdf:predicate <> ;
+    rdf:subject adi:UBdP5EUpnyuA .
+
+adi:UBdP5EUpnyuA a rdfs:Resource ;
+    rdfs:label "Applausi poetici alle glorie della signora Leonora Baroni" ;
+    <> adi:P3FnZeYMVUAv,
+        "1639" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE039218> ;
+    dcterms:title "Applausi poetici alle glorie della signora Leonora Baroni" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:6UFUJo2JAXCT ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:P3FnZeYMVUAv .
+

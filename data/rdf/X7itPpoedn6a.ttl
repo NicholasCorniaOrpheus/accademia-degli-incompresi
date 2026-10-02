@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:X7itPpoedn6a-kMKpUjd9mAxM a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EmXRt3tqiC38 ;
+    rdf:predicate <> ;
+    rdf:subject adi:X7itPpoedn6a .
+
+adi:X7itPpoedn6a-nMiMkpNcBnJo a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/b33019617> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N923ee6aa63364ebd8f993b475cf3e3ae" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:X7itPpoedn6a ;
+    schema:datePublished "1758" .
+
+adi:X7itPpoedn6a a rdfs:Resource ;
+    rdfs:label "Cantilenae intellectuales" ;
+    <> adi:EmXRt3tqiC38,
+        "1758" ;
+    dc:subject adi:8Y6NAvRmdtq6 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q22907032> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:Eb5aj2HkQaXZ .
+

@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:am4GoyTKy6jn-ADQhksaRiQiT a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZmpBx2YXnpkE ;
+    rdf:predicate <> ;
+    rdf:subject adi:am4GoyTKy6jn .
+
+adi:am4GoyTKy6jn-eVjZY5Bb5d64 a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:RU2aFypUA6xt ;
+    rdf:predicate <> ;
+    rdf:subject adi:am4GoyTKy6jn .
+
+adi:am4GoyTKy6jn-fPx5zs6CWAc2 a rdf:Statement ;
+    rdf:object adi:FtN769fGvnbS ;
+    rdf:predicate <> ;
+    rdf:subject adi:am4GoyTKy6jn ;
+    ns1:P304 "21" ;
+    ns1:P958 "Alla S. Hortensia Colonna" .
+
+adi:am4GoyTKy6jn a rdfs:Resource ;
+    rdfs:label "Nasce la vita mia dal mio morire" ;
+    <> adi:FtN769fGvnbS,
+        adi:RU2aFypUA6xt,
+        adi:ZmpBx2YXnpkE ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Nasce la vita mia dal mio morire,
+E s'egli avvien, che mille volte io mora, 
+Ritorna il viver mio più bello alhora,
+E vien lo scampo mio dal mio perire;
+
+Oh miracol d'Amor, dal mio languire
+Nasce il gioir che sì forte m'accora,
+Quanto scema la speme d'hora, in hora,
+Tanto sormonta più l'alto desire.
+
+Ch'il crederà, che dall'aspro tormento
+Venga la gioia, ch'ogni gioia avanza 
+E che tanto piacere il duol m'apporte?
+
+Chi crederà, che morta la speranza
+Viva il disio? e che'l mio gran contento 
+Nasca dalla cagion della mia morte?""" ;
+    dc:subject adi:BPi2MMDNAKWM,
+        adi:FawktbqjQdSF,
+        adi:LUkQiYzJMHtq ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:GRpPqVc5BLsh ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FHkhZJZzAo88,
+        adi:GYGwj2xP2wD8,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

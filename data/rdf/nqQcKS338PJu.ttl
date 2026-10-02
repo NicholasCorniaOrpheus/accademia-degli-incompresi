@@ -1,0 +1,26 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:nqQcKS338PJu-nmqAMzJCNJeM a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=4skTAAAAQAAJ> ;
+    dcterms:publisher adi:YzKmi8d7ExRX ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N5ac7202696014d7884543ffa52d4e8e8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:nqQcKS338PJu ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE024114> .
+
+adi:nqQcKS338PJu a rdfs:Resource ;
+    rdfs:label "Libro terzo de le rime di diversi nobilissimi et eccellentissimi autori nuovamente raccolte" ;
+    <> "1550" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE024114> ;
+    dcterms:title "Libro terzo de le rime di diuersi nobilissimi et eccellentissimi autori nuouamente raccolte" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

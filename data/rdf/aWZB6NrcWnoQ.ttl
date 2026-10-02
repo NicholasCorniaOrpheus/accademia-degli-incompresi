@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aWZB6NrcWnoQ-P2wERCVR8jBC a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1554" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWZB6NrcWnoQ .
+
+adi:aWZB6NrcWnoQ-kZXBkJ6o9QCm a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "516" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWZB6NrcWnoQ .
+
+adi:aWZB6NrcWnoQ-njybn26LUhzE a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:NTXVtd24wHkv ;
+    rdf:predicate <> ;
+    rdf:subject adi:aWZB6NrcWnoQ .
+
+adi:aWZB6NrcWnoQ a rdfs:Resource ;
+    rdfs:label "Accademia dei Filareti di Ferrara" ;
+    <> adi:NTXVtd24wHkv,
+        adi:S2MpkiMWKU5X ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

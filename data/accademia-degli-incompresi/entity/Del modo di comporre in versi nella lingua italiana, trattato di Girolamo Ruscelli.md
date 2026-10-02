@@ -1,5 +1,10 @@
 ---
 class: Book
+identifier:
+  - https://edit16.iccu.sbn.it/titolo/CNCE029871
+described_by_source:
+  - "[[(Procaccioli 2020)]]"
+  - "[[(Artese 1983)]]"
 instance_of:
   - "[[treatise]]"
 title: Del modo di comporre in versi nella lingua italiana, trattato di Girolamo Ruscelli
@@ -18,9 +23,5 @@ subject:
 based_on:
 catalog_identifier:
 has_part:
-identifier:
-  - https://edit16.iccu.sbn.it/titolo/CNCE029871
-described_by_source:
-  - "[[(Procaccioli 2020)]]"
 ---
 A thesaurus of rhyme patterns in alphabetic order and a treatise on how to write poems.

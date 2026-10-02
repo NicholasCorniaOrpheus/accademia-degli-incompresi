@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GZXzGphoNVZE-KZLWJzqQy7y9 a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/poemsfancies00newc> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:M4CDHkHzJWTe ;
+    rdf:object "Nd9b413b3f1114c1789e00ea30a136f02" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GZXzGphoNVZE ;
+    schema:datePublished "1653" ;
+    schema:url <https://name.umdl.umich.edu/A53061.0001.001> .
+
+adi:GZXzGphoNVZE-cwiY7QDs9MNC a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:i88YWS299EAB ;
+    rdf:predicate <> ;
+    rdf:subject adi:GZXzGphoNVZE .
+
+adi:GZXzGphoNVZE a rdfs:Resource ;
+    rdfs:label "Poems, and fancies written by the Right Honourable, the Lady Margaret Newcastle" ;
+    <> adi:i88YWS299EAB,
+        "1653" ;
+    dc:subject adi:352NoyPwuTJw,
+        adi:MeCVRw88z9MS,
+        adi:cJ4AZvHTtb9D ;
+    dcterms:identifier <https://name.umdl.umich.edu/A53061.0001.001> ;
+    dcterms:title "Poems, and fancies written by the Right Honourable, the Lady Margaret Newcastle." ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv,
+        adi:3FmSxcCP5CUS ;
+    wdt:P870 adi:Pkoygy4mPEmk .
+

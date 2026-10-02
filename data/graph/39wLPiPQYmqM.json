@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "label": "libro sorte",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bqg3oat8dyZM",
+      "label": "Lorenzo Gualtieri",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HEsbswC7dBW8",
+      "label": "(Faini 2020)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kDzd8qozXwHz",
+      "label": "form of creative work",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kbo3SgEtyRFo",
+      "label": "Le sorti di Francesco Marcolino",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyfD7KZHZGPs",
+      "label": "Libro de la sorte",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HEsbswC7dBW8",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kDzd8qozXwHz",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bqg3oat8dyZM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kbo3SgEtyRFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyfD7KZHZGPs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/39wLPiPQYmqM",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kbo3SgEtyRFo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HEsbswC7dBW8",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyfD7KZHZGPs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bqg3oat8dyZM",
+      "property": "contributor"
+    }
+  ]
+}

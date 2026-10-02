@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:29B3o8xLdaQ9-WHynMqgqJyJ6 a rdf:Statement ;
+    rdf:object adi:hnGUsqmNR3ko ;
+    rdf:predicate <> ;
+    rdf:subject adi:29B3o8xLdaQ9 ;
+    ns1:P958 "Canto XIX, 11" .
+
+adi:29B3o8xLdaQ9-nA3iDhDrC87p a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6RgbbkFR4hhh ;
+    rdf:predicate <> ;
+    rdf:subject adi:29B3o8xLdaQ9 .
+
+adi:29B3o8xLdaQ9 a rdfs:Resource ;
+    rdfs:label "È di corpo Tancredi agile e sciolto" ;
+    <> adi:6RgbbkFR4hhh,
+        adi:hnGUsqmNR3ko ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """È di corpo Tancredi agile e sciolto,
+E di man velocissimo, e di piede,
+Sovrasta a lui con l’alto capo, e molto
+Di grossezza di membra Argante eccede.
+Girar Tancredi inchino, e in se raccolto
+Per aventarsi, e sottentrar sì vede:
+E con la spada sua la spada trova
+Nemica, e'n disviarla usa ogni prova.""" ;
+    dc:subject adi:k2uHcFcbRzB9 ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=35264> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:Kq9PrPsX3d7L,
+        adi:Uwuk3ZLWKdUA,
+        adi:mM3eNkLzPEH8 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

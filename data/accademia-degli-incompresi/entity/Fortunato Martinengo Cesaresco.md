@@ -6,6 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q132184356
 described_by_source:
   - "[[(Faini 2020)]]"
+  - "[[(Artese 1983)]]"
 image:
 aliases:
 instance_of:
@@ -44,6 +45,7 @@ related_to:
     reference:
       - "[[(Faini 2020)]]"
 notable_work:
+  - "[[Del tempio alla divina signora donna Giovanna d'Aragona]]"
 interested_in:
   - value: "[[heterodoxy]]"
     reference:

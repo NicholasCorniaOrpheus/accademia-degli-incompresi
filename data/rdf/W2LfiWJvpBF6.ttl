@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:W2LfiWJvpBF6-SSrSpXUBUAeW a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ewH5TwaXEX7r ;
+    rdf:predicate <> ;
+    rdf:subject adi:W2LfiWJvpBF6 .
+
+adi:W2LfiWJvpBF6-YVVitXvWktaA a rdf:Statement ;
+    rdf:object "N425b4de313494b83aa44ef9e0194ebc9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:W2LfiWJvpBF6 ;
+    schema:datePublished "1634" ;
+    schema:url <http://id.sbn.it/bid/CFIE047254> .
+
+adi:W2LfiWJvpBF6 a rdfs:Resource ;
+    rdfs:label "La Dori favola pastorale" ;
+    <> adi:ewH5TwaXEX7r,
+        "1634" ;
+    dcterms:identifier <http://id.sbn.it/bid/CFIE047254> ;
+    dcterms:title "La Dori fauola pastorale della sig.ra Isabetta Coreglia lucchese" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cF3HzyFDHqfG .
+

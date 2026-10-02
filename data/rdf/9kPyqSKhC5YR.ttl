@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9kPyqSKhC5YR-W6akGcP5hGWN a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:P8BCR9vyKpTL ;
+    rdf:predicate <> ;
+    rdf:subject adi:9kPyqSKhC5YR .
+
+adi:9kPyqSKhC5YR-gP8S5MaXNgTs a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:Kq4PswoDPxtR ;
+    rdf:predicate <> ;
+    rdf:subject adi:9kPyqSKhC5YR .
+
+adi:9kPyqSKhC5YR a rdfs:Resource ;
+    rdfs:label "Scherza nel canto e piace (Wert)" ;
+    <> adi:Kq4PswoDPxtR,
+        adi:P8BCR9vyKpTL,
+        adi:ZN6aLzDnLBiN ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F248680000010101_000000256900C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

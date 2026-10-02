@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:j8UKpcDKiaAH-YFrpRCwAy6YM a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16293" ;
+    rdf:predicate <> ;
+    rdf:subject adi:j8UKpcDKiaAH .
+
+adi:j8UKpcDKiaAH-hRMbBYKSTcR5 a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:guHM5vf4DLQE ;
+    rdf:predicate <> ;
+    rdf:subject adi:j8UKpcDKiaAH ;
+    schema:startDate "1609" .
+
+adi:j8UKpcDKiaAH-mYbbCtmBxDKK a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:BpATM36nYWpT ;
+    rdf:predicate <> ;
+    rdf:subject adi:j8UKpcDKiaAH .
+
+adi:j8UKpcDKiaAH-oKCEf5MZSncz a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0476" ;
+    rdf:predicate <> ;
+    rdf:subject adi:j8UKpcDKiaAH .
+
+adi:j8UKpcDKiaAH a rdfs:Resource ;
+    rdfs:label "Ippolita Benigni Manfredi" ;
+    <> adi:3pU843Lma47u,
+        adi:BpATM36nYWpT,
+        adi:TAip7T448drv,
+        adi:guHM5vf4DLQE ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q141081193> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:Mefkw2MRET3J,
+        adi:RrWtiYpwdJp2 ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

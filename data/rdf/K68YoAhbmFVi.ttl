@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:K68YoAhbmFVi-gYTYNfn3GiHq a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:K68YoAhbmFVi .
+
+adi:K68YoAhbmFVi a rdfs:Resource ;
+    rdfs:label "Ne la dolce stagion di Primavera" ;
+    <> adi:4fam9RTzpsG4,
+        adi:9T89JMf24QQZ ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Ne la dolce stagion Di primavera
+Senza foglie vedrò mirti et allori
+Di vern'al ghiaccio i fiori
+Sorger lieti e fiorir rose e viole
+Pria che da voi mio sole
+Sciolga quest'alma o che per altr'oggetto,
+Nuovo foco d'amor mi scald'il petto.""" ;
+    dc:description "There seems to be any poetry collection including this poem by Molza, except from the madrigal by Vinci." ;
+    dc:subject adi:FawktbqjQdSF ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:MFcsbFYFrFvB ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

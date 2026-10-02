@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:VrcdphUKiCaA-3nJr3xFsCiyk a rdf:Statement ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:VrcdphUKiCaA ;
+    schema:OrganizationRole adi:JC4x5ybqVxSV .
+
+adi:VrcdphUKiCaA-ApZVcaS4x8ei a rdf:Statement ;
+    rdf:object adi:DKPpSEmDwRA2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:VrcdphUKiCaA ;
+    schema:OrganizationRole adi:Y9DyFsMs8dox .
+
+adi:VrcdphUKiCaA a rdfs:Resource ;
+    rdfs:label "concerto delle donne" ;
+    <> adi:4fam9RTzpsG4,
+        adi:DKPpSEmDwRA2,
+        adi:S2MpkiMWKU5X,
+        adi:efnzkFCQj5tH ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q579283> ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:fJA6BDZUy9AL ;
+    skos:altLabel "concerto delle donne di Ferrara" .
+

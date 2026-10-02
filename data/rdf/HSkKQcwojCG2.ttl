@@ -1,0 +1,71 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HSkKQcwojCG2-5R4SjDKZfTeV a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HSkKQcwojCG2 .
+
+adi:HSkKQcwojCG2-JXzmyfK9K5pf a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:TxHDFENifoih ;
+    rdf:predicate <> ;
+    rdf:subject adi:HSkKQcwojCG2 .
+
+adi:HSkKQcwojCG2-NwGHksHGv5GW a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HSkKQcwojCG2 .
+
+adi:HSkKQcwojCG2-arrLmYyiCLg6 a rdf:Statement ;
+    bf:Note "Canto part only" ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T250/> ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nd7f8c7c8b10d4d7cb1f27b542fc25fbd" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HSkKQcwojCG2 ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044059> .
+
+adi:HSkKQcwojCG2-eLoLTf3UEQTP a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HSkKQcwojCG2 .
+
+adi:HSkKQcwojCG2-fG3Zar3puEka a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T251/> ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N1c13241e151c46e897c609fcb5d0624f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HSkKQcwojCG2 ;
+    schema:datePublished "1556" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044052> .
+
+adi:HSkKQcwojCG2-kHoGQ6XDrTEU a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:HSkKQcwojCG2 .
+
+adi:HSkKQcwojCG2 a rdfs:Resource ;
+    rdfs:label "Primo libro de Madrigali a quatro voci di l'Hoste da Reggio" ;
+    <> adi:TxHDFENifoih,
+        "1547" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE044059>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV10420010>,
+        <https://rism.online/sources/990037984> ;
+    dcterms:title "Primo libro de madrigali a quatro voci di l'Hoste da Regio" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

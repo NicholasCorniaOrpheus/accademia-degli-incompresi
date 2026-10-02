@@ -1,0 +1,25 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:L8ExepDu7q6Y-BxPHpashLNrf a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=BKe0YP2sGZUC> ;
+    wdt:P291 adi:BN9CvVaVcKNU ;
+    rdf:object "Nd3e2fd0f9b3948ecafc592f6f448830f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:L8ExepDu7q6Y ;
+    schema:datePublished "1571" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000024> .
+
+adi:L8ExepDu7q6Y a rdfs:Resource ;
+    rdfs:label "Rime della Accademia de gli Accesi di Palermo" ;
+    <> "1571" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE000024> ;
+    dcterms:title "Rime della Accademia de gli Accesi di Palermo" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

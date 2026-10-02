@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gJigWkauAvXU-6pTmRG93RDX8 a rdf:Statement ;
+    dcterms:references adi:X8kzC44fCXJc ;
+    rdf:object adi:YyPA52fS2nPw ;
+    rdf:predicate <> ;
+    rdf:subject adi:gJigWkauAvXU .
+
+adi:gJigWkauAvXU-SY4aicx9sDSf a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "9230" ;
+    rdf:predicate <> ;
+    rdf:subject adi:gJigWkauAvXU .
+
+adi:gJigWkauAvXU a rdfs:Resource ;
+    rdfs:label "Sperone Speroni" ;
+    <> adi:3pU843Lma47u,
+        adi:YyPA52fS2nPw,
+        adi:hbLMcBia2woA ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q352663>,
+        <https://lyra.unil.ch/agents/49> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Sperone Speroni degli Alvarotti" ;
+    schema:gender adi:8UjQ7UabobgD .
+

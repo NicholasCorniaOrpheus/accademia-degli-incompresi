@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:T7Bs3hbSsrh6-2MSxUfoNFpTe a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:SafLb6VBVZvB ;
+    rdf:predicate <> ;
+    rdf:subject adi:T7Bs3hbSsrh6 .
+
+adi:T7Bs3hbSsrh6-8bLERyxrcdgt a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:T7Bs3hbSsrh6 .
+
+adi:T7Bs3hbSsrh6-Jh3FcKNAG4dT a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:T7Bs3hbSsrh6 .
+
+adi:T7Bs3hbSsrh6-NCpoia3rxd6j a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=5g89VG55ixUC> ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N8322e6d2398243d78b6d5329300f25b4" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:T7Bs3hbSsrh6 ;
+    schema:datePublished "1545" ;
+    schema:url <http://id.sbn.it/bid/MUS0150702> .
+
+adi:T7Bs3hbSsrh6-XGmUfc98LLW8 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:T7Bs3hbSsrh6 .
+
+adi:T7Bs3hbSsrh6-iTAt8fFg8Wro a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:T7Bs3hbSsrh6 .
+
+adi:T7Bs3hbSsrh6 a rdfs:Resource ;
+    rdfs:label "Il primo libro di madrigali a quattro voci di Claudio Veggio" ;
+    <> adi:SafLb6VBVZvB,
+        "1545" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0150702>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV21590010>,
+        <https://rism.online/sources/990066107> ;
+    dcterms:title "Il primo libro di madrigali a quatro voci / di Claudio Veggio" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

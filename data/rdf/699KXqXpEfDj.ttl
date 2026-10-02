@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:699KXqXpEfDj-DJFyakzVmnek a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=-EwcRZQ-1L0C> ;
+    dcterms:publisher adi:ETxQtbjAywwf ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N03d35478ad2a47c98589b0bd1fb7870b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:699KXqXpEfDj ;
+    schema:datePublished "1533" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE030004> .
+
+adi:699KXqXpEfDj-Lw7wPVjkcDff a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Pp2gGLhezfyx ;
+    rdf:predicate <> ;
+    rdf:subject adi:699KXqXpEfDj .
+
+adi:699KXqXpEfDj a rdfs:Resource ;
+    rdfs:label "Le Rime volgari di Lodovico di Lorenzo Martelli" ;
+    <> adi:Pp2gGLhezfyx,
+        "1533" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE030004>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F005280010> ;
+    dcterms:title "Le rime volgari di Lodouico di Lorenzo Martelli" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

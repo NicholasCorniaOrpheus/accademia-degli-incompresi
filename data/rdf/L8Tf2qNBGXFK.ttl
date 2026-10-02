@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:L8Tf2qNBGXFK-HvET4wQexpSM a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0395" ;
+    rdf:predicate <> ;
+    rdf:subject adi:L8Tf2qNBGXFK .
+
+adi:L8Tf2qNBGXFK-iuVY6YcqHJpv a rdf:Statement ;
+    dcterms:references adi:PXXpcDi5cmLa ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:L8Tf2qNBGXFK .
+
+adi:L8Tf2qNBGXFK-jiPidQ7PAFB3 a rdf:Statement ;
+    dcterms:references adi:PXXpcDi5cmLa ;
+    rdf:object adi:3pU843Lma47u ;
+    rdf:predicate <> ;
+    rdf:subject adi:L8Tf2qNBGXFK .
+
+adi:L8Tf2qNBGXFK a rdfs:Resource ;
+    rdfs:label "Dianora Sanseverino" ;
+    <> adi:3pU843Lma47u,
+        adi:GdXWhx79h26y ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q140194239> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:PXXpcDi5cmLa ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MP5jGFBY9Kj4-BNirjxVp9Ka6 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:MP5jGFBY9Kj4 .
+
+adi:MP5jGFBY9Kj4-ksG8vr7TRCEq a rdf:Statement ;
+    rdf:object adi:MqDmEhNBNTYH ;
+    rdf:predicate <> ;
+    rdf:subject adi:MP5jGFBY9Kj4 ;
+    ns1:P958 "Poems of Love, 15" .
+
+adi:MP5jGFBY9Kj4 a rdfs:Resource ;
+    rdfs:label "Poiché Fortuna volse farmi priva" ;
+    <> adi:MqDmEhNBNTYH,
+        adi:aPSR2wpq8iGj ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Poiché Fortuna volse farmi priva
+di te, Signor mio car, deh! tolto almeno
+m'avesse la memoria, che 'l cor pieno
+tien de' martiri che da lei deriva.
+
+Che dich'io, stolta? senza lei non viva
+sarei, perché, pensando a quello ameno
+piacer ond'io mi pasco e vengo meno,
+se ben mi spinge in mar può trarmi a riva.
+
+La memoria mantienmi e mi disface;
+la memoria mi fa lieta e scontenta;
+ne la memoria il ben e 'l mal mio iace.
+
+La memoria m'allegra e mi tormenta;
+dunque da la memoria ho guerra e pace,
+e in tal variar lei sola mi contenta.""" ;
+    dc:description "Fortune has deprived the author from her beloved, but his memory keeps a sweet-bitter remembrance in her thoughts." ;
+    dc:subject adi:YqV7mj8DFjX4 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:MqDmEhNBNTYH ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8AksXBHfuu7g,
+        adi:amLAKwUv4MVv,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

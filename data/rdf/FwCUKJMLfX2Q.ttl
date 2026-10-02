@@ -1,0 +1,51 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FwCUKJMLfX2Q-2NJnZ2N8N6Qb a rdf:Statement ;
+    rdf:object adi:GpCVYdi8S5s2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:FwCUKJMLfX2Q ;
+    ns1:P304 "125" ;
+    ns1:P958 "Sopra una Giovane, detta Pace. 8" ;
+    schema:volumeNumber "2" .
+
+adi:FwCUKJMLfX2Q-HfNbq89A7QTb a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bc8ENq8LbxeG ;
+    rdf:predicate <> ;
+    rdf:subject adi:FwCUKJMLfX2Q .
+
+adi:FwCUKJMLfX2Q a rdfs:Resource ;
+    rdfs:label "Io grido Pace, e Amor mi sfida a guerra" ;
+    <> adi:GpCVYdi8S5s2,
+        adi:bc8ENq8LbxeG ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Io grido Pace, e Amor mi sfida a guerra
+Strali rinforza, ed d'armi
+Ogni riparo, ogni difesa atterra;
+Se vuoi, ch'io mi disarmi,
+O lascia di ferire,
+O sia mia Pace, che ti porge ardire,
+Ché mentr'è Pace, non convien ch'huom s'armi.
+Ma tempo è, occhi vivaci,
+Di lasciar l'armi, e guerreggiar co'baci.""" ;
+    dc:subject adi:9XkyVfBG5hTX,
+        adi:KX53XRWp7L4v ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F050630000101_PPPP00195700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:AkfWFSmvPUnJ,
+        adi:XwH9EYzEQGKP ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

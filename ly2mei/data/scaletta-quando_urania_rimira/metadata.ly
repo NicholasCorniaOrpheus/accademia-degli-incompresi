@@ -7,3 +7,5 @@ poet = "Angelo Grillo"
 collection = "Rime di diversi celebri poeti dell'età nostra"
 annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
 incipit = "Q"
+page_size = #22
+orientation = #'portrait

@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ft5fuobgy8tf-DqT2765pXAim a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:jxuodBQDnmQ9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ft5fuobgy8tf .
+
+adi:Ft5fuobgy8tf-g2WyWAZ6TwK6 a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16013" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ft5fuobgy8tf .
+
+adi:Ft5fuobgy8tf a rdfs:Resource ;
+    rdfs:label "Girolamo Fenaroli" ;
+    <> adi:3pU843Lma47u,
+        adi:Q6YsmEMBpY6A,
+        adi:edLFhkc6mVw6,
+        adi:jxuodBQDnmQ9 ;
+    dcterms:identifier <https://lyra.unil.ch/agents/254> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:e2nWi24VoUtn ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Gerolamo Fenarolo" ;
+    schema:gender adi:8UjQ7UabobgD .
+

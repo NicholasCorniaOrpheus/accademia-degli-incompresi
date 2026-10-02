@@ -1,0 +1,54 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CtFWw993yFnt-3edgosLWrUXV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:F5twPYgd9Q3X ;
+    rdf:predicate <> ;
+    rdf:subject adi:CtFWw993yFnt .
+
+adi:CtFWw993yFnt-bc5ZyZDpX962 a rdf:Statement ;
+    rdf:object adi:e7PbxpNbbM2c ;
+    rdf:predicate <> ;
+    rdf:subject adi:CtFWw993yFnt ;
+    ns1:P958 "Dialogo Primo." .
+
+adi:CtFWw993yFnt a rdfs:Resource ;
+    rdfs:label "Cara, suave, et honorata piaga" ;
+    <> adi:F5twPYgd9Q3X,
+        adi:e7PbxpNbbM2c ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Cara, suave et honorata piaga
+Del più bel dardo che mai scelse amore;
+Alto, leggiadro, et precioso ardore
+Che gir fai l'alma di sempr'arder vaga.
+
+Qual forza d'herba, et virtù d'arte maga
+Ti torrà mai dal centro del mio core;
+Se chi vi porge ogn'hor fresco vigore
+Quanto più mi tormenta, più m'appaga?
+
+Dolce mio duol, novo nel mond'et raro,
+Quando del peso tuo girò mai scarco,
+S'il rimedio m'è noia, e'l mal diletto?
+
+Occhi, del mio signor facelle et arco,
+Doppiate fiamme a l'alma, et strali al petto,
+Poich'il languir m'è dolce e l'ardor caro.""" ;
+    dc:subject adi:FawktbqjQdSF ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:GZY3csdzKUK5,
+        adi:hq5fryYEkuQW,
+        adi:kk4X4hY9rfnU,
+        adi:knKLHuWASYk4 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

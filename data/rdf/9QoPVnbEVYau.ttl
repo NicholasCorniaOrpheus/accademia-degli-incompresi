@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9QoPVnbEVYau-6L4uR7QUrpW2 a rdf:Statement ;
+    dcterms:references adi:A7K8FzhUQ2Bq ;
+    rdf:object "1619" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QoPVnbEVYau .
+
+adi:9QoPVnbEVYau-BZcMwdNPsG4n a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:cvdLbyZACRyK ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QoPVnbEVYau .
+
+adi:9QoPVnbEVYau-WKzMBNHZYQng a rdf:Statement ;
+    bf:Note "Anthology edited and commented by Anton Maria Salvini, including the comedy Tancia." ;
+    bf:electronicLocator <https://books.google.be/books?id=Gz4PzOlrHEcC> ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N1e6afb197e6a405c8496b8e6b1c038e1" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9QoPVnbEVYau ;
+    schema:datePublished "1726" ;
+    schema:url <http://id.sbn.it/bid/RAVE008911> .
+
+adi:9QoPVnbEVYau a rdfs:Resource ;
+    rdfs:label "La Fiera" ;
+    <> adi:cvdLbyZACRyK ;
+    dc:subject adi:hHij3iF3zFE9,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <http://id.sbn.it/bid/RAVE008911> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:A7K8FzhUQ2Bq .
+

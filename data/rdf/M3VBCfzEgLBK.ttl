@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:M3VBCfzEgLBK-6wQpHE73vQLf a rdf:Statement ;
+    dcterms:references adi:cW5TYy5yxrHw ;
+    rdf:object adi:6Gy8kmXZ4q3U ;
+    rdf:predicate <> ;
+    rdf:subject adi:M3VBCfzEgLBK .
+
+adi:M3VBCfzEgLBK-DfpFENkXcRoX a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "385" ;
+    rdf:predicate <> ;
+    rdf:subject adi:M3VBCfzEgLBK .
+
+adi:M3VBCfzEgLBK-S8P8HQJDkoNB a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1601" ;
+    rdf:predicate <> ;
+    rdf:subject adi:M3VBCfzEgLBK .
+
+adi:M3VBCfzEgLBK a rdfs:Resource ;
+    rdfs:label "Accademia degli Intrepidi di Ferrara" ;
+    <> adi:6Gy8kmXZ4q3U,
+        adi:S2MpkiMWKU5X ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

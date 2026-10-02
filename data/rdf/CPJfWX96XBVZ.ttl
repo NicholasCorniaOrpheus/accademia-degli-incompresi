@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CPJfWX96XBVZ-EyZS4m2w8VJZ a rdf:Statement ;
+    bf:Note "According to (Ferrone 2021)." ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:gJFucdkRobUR ;
+    rdf:predicate <> ;
+    rdf:subject adi:CPJfWX96XBVZ .
+
+adi:CPJfWX96XBVZ-YLkEhLFKu379 a rdf:Statement ;
+    bf:Note "Attributed to Torquato Tasso" ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N38985a8d444e477b9355157ec354888b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CPJfWX96XBVZ ;
+    schema:datePublished "1587" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE071587> .
+
+adi:CPJfWX96XBVZ a rdfs:Resource ;
+    rdfs:label "La Gismonda, tragedia del signor Torquato Tasso" ;
+    <> adi:gJFucdkRobUR,
+        "1587" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE071587> ;
+    dcterms:title "La Gismonda, tragedia del signor Torquato Tasso nuovamente composta et posta in luce" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:fWcm8Nsn7rXJ,
+        adi:fqNyvp8swvbU .
+

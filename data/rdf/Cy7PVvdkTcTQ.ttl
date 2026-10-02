@@ -1,0 +1,69 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Cy7PVvdkTcTQ-Ag2Qm82Bh7dz a rdf:Statement ;
+    rdf:object adi:D8tp4vPHSCmz ;
+    rdf:predicate <> ;
+    rdf:subject adi:Cy7PVvdkTcTQ ;
+    ns1:P304 "108" ;
+    ns1:P958 "Alla Virtuosissima Gentil Donna la Signora Cavaliera Tarquinia Molza." .
+
+adi:Cy7PVvdkTcTQ-ezQLXTxRdLw7 a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Cy7PVvdkTcTQ .
+
+adi:Cy7PVvdkTcTQ-i79pD7PnKasW a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:NGjAVUdo3dUq ;
+    rdf:predicate <> ;
+    rdf:subject adi:Cy7PVvdkTcTQ .
+
+adi:Cy7PVvdkTcTQ a rdfs:Resource ;
+    rdfs:label "Con il favor del cielo e di natura (Fiorino)" ;
+    <> adi:4fam9RTzpsG4,
+        adi:D8tp4vPHSCmz,
+        adi:NGjAVUdo3dUq ;
+    pdc:poeticType adi:NmP27mSFqcCQ ;
+    pdc:text """Con il favor del cielo e di natura
+Tarquinia scese da superni chiostri
+Sol per render felici i tempi nostri.
+
+Hebbe la Cetra del signor di Delo
+Dove cantando gli soavi accenti
+Arresta il sole e fa fermar i venti.
+
+Mercurio gli donò la Poesia
+Ove l'udir delle rime sonore
+Ingombra a tutti di letitia il core.
+
+Hebbe ella anchora della Dea il Gnido
+Quelle bellezze nate in Paradiso
+Sparse nel seno e nel lucente viso.
+
+Dunque ogn'un con ragion l'ama & honora
+Dal cielo havendo quelle gratie impresse
+Che ad altre Donne mai furon concesse.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/056710000010101_000000101600C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:7FeDbjrMGHRk,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:fA6YCedpv5c5 ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:4fam9RTzpsG4,
+        adi:7kcbjVXuYUG6,
+        adi:8JCJNiEPyPxR,
+        adi:LBUMoVayqW8X,
+        adi:P9akbwF852t3,
+        adi:fWo3UaEcv8Qv ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

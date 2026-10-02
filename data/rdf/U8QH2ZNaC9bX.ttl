@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:U8QH2ZNaC9bX-UnLLchVecnGB a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=fkZEvBVZBxsC> ;
+    dcterms:publisher adi:Nz5sX2qLv3Qi ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N03b43e31ef5f497eaa3d12f3ef2649d2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:U8QH2ZNaC9bX ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/BVEE024820> .
+
+adi:U8QH2ZNaC9bX-aJjyfqHvehdh a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:agAvDjPLYaLN ;
+    rdf:predicate <> ;
+    rdf:subject adi:U8QH2ZNaC9bX .
+
+adi:U8QH2ZNaC9bX-bzbTE5pGdfju a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb00048646> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:Nz5sX2qLv3Qi ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00048646/manifest> ;
+    rdf:object "N095e88faca8f4a40af2ef11d51b7b234" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:U8QH2ZNaC9bX ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/BVEE024820> .
+
+adi:U8QH2ZNaC9bX a rdfs:Resource ;
+    rdfs:label "Il teatro delle favole rappresentative, overo La ricreatione comica, boschereccia, e tragica" ;
+    <> adi:agAvDjPLYaLN,
+        "1611" ;
+    dc:subject adi:34DZHbTfjKob,
+        adi:hHij3iF3zFE9 ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE024820> ;
+    dcterms:title "Il teatro delle fauole rappresentatiue, ouero La ricreatione comica, boschereccia, e tragica: diuisa in cinquanta giornate, composte da Flaminio Scala detto Flauio comico del sereniss. sig. duca di Mantoua. All'ill. sig. conte Ferdinando Riario" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:PJtahBbEtZMD ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

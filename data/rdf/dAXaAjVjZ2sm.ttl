@@ -1,0 +1,62 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dAXaAjVjZ2sm-5av7h4HmUmCz a rdf:Statement ;
+    rdf:object adi:GUdU7hjdXrfN ;
+    rdf:predicate <> ;
+    rdf:subject adi:dAXaAjVjZ2sm ;
+    ns1:P304 "101" ;
+    schema:volumeNumber "2" .
+
+adi:dAXaAjVjZ2sm-LVZPGbqsGbR2 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6RgbbkFR4hhh ;
+    rdf:predicate <> ;
+    rdf:subject adi:dAXaAjVjZ2sm .
+
+adi:dAXaAjVjZ2sm-n3Ns9SHghYpj a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:QvaozYdLEWud ;
+    rdf:predicate <> ;
+    rdf:subject adi:dAXaAjVjZ2sm .
+
+adi:dAXaAjVjZ2sm a rdfs:Resource ;
+    rdfs:label "Mentre in voci canore" ;
+    <> adi:6RgbbkFR4hhh,
+        adi:GUdU7hjdXrfN,
+        adi:QvaozYdLEWud ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Mentre in voci canore
+I vaghi spirti scioglie
+Giulio, tempra in Ciel l'aure, in noi le voglie,
+Si placa l'aura, e'l vento
+Placido mormorando
+Risuona, e van tuoni, e procelle in bando,
+Un interno concento
+N'accorda anco ne' petti
+E i membri acqueta da' soverchi affetti,
+Et, se pur desta amore,
+Gli dà misura, e norma
+Co'l suon veloce, e tardo, e quasi forma.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:iDbc2yVDhCMD ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5f6kHhAxyPZh,
+        adi:9mn3vxiqWyus,
+        adi:KZ6PgT6cBtyo,
+        adi:P9akbwF852t3,
+        adi:QvaozYdLEWud,
+        adi:T3ehoUUCyhWR ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

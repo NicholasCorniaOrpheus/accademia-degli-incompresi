@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BETUpoZ26qU6-RztWh62xt3WX a rdf:Statement ;
+    bf:Note "Volume 2" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb11220890> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    wdt:P291 adi:gRBfBmNGrCHa ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11220890/manifest> ;
+    rdf:object "Nc92cdf3fe4084ef28bb1b35a92fb8c3b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BETUpoZ26qU6 ;
+    schema:datePublished "1562" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11220889> .
+
+adi:BETUpoZ26qU6-hpviSNeFM39D a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:MjkhF6fTYxAN ;
+    rdf:predicate <> ;
+    rdf:subject adi:BETUpoZ26qU6 .
+
+adi:BETUpoZ26qU6-kquuHUSawZPC a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb11220889> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    wdt:P291 adi:gRBfBmNGrCHa ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11220889/manifest> ;
+    rdf:object "N8124b91cc61f45ec96ed22f17bdbc522" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BETUpoZ26qU6 ;
+    schema:datePublished "1562" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11220889> .
+
+adi:BETUpoZ26qU6 a rdfs:Resource ;
+    rdfs:label "Somniorum synesiorum, omnis generis insomina explicantes Libri IIII" ;
+    <> adi:MjkhF6fTYxAN,
+        "1562" ;
+    dc:subject adi:6fSa3RgfAvLv,
+        adi:8Y6NAvRmdtq6,
+        adi:bQT5tjAEXHJP ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:P8g4zkHCciMB ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    skos:altLabel "De secretis" .
+

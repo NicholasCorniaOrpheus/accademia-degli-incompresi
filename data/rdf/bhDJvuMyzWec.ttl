@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bhDJvuMyzWec-Bbhq5rW2ixpk a rdf:Statement ;
+    bf:electronicLocator <https://www.polodigitalenapoli.it/it/viewer/mirador/viewer?domain=sbn&id=LO1E000757> ;
+    dcterms:publisher adi:ETxQtbjAywwf ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://dam.polodigitalenapoli.it/istituto-italiano-per-gli-studi-storici/containers/yRdroBl/manifest> ;
+    rdf:object "Nc064a87c08c3430bbd9c85d9ba0d2fd6" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:bhDJvuMyzWec ;
+    schema:datePublished "1558" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE079995> .
+
+adi:bhDJvuMyzWec-crCz4ai7LUS5 a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:KhQrZGTQZq7d ;
+    rdf:predicate <> ;
+    rdf:subject adi:bhDJvuMyzWec .
+
+adi:bhDJvuMyzWec a rdfs:Resource ;
+    rdfs:label "I fiori delle rime de' poeti illustri, nuouamente raccolti et ordinati da Girolamo Ruscelli" ;
+    <> adi:KhQrZGTQZq7d,
+        "1558" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE079995> ;
+    dcterms:title "I fiori delle rime de' poeti illustri, nuouamente raccolti et ordinati da Girolamo Ruscelli. Con alcune annotationi del medesimo, sopra i luoghi, che le ricercano per l'intendimento delle sentenze, o per le regole et precetti della lingua, et dell'ornamento" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

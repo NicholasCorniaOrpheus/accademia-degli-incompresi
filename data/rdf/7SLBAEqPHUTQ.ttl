@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7SLBAEqPHUTQ-XsqYu2TyEAuJ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Lb2oTLg4h2DU ;
+    rdf:predicate <> ;
+    rdf:subject adi:7SLBAEqPHUTQ .
+
+adi:7SLBAEqPHUTQ-nsGjv5PzRTV4 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=WwSGxGFLb7kC> ;
+    dcterms:publisher adi:dHE7D5KV6Ht6 ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N06eec69a65024332b1d9a89c641be8f0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7SLBAEqPHUTQ ;
+    schema:datePublished "1548" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE012833> .
+
+adi:7SLBAEqPHUTQ a rdfs:Resource ;
+    rdfs:label "Le Rime spirituali della illustrissima signora Vittoria Colonna" ;
+    <> adi:Lb2oTLg4h2DU,
+        "1548" ;
+    dc:subject adi:Cxgarr2gfrW6,
+        adi:NiTWoVWgRtNj ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE012833>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/002910010> ;
+    dcterms:title "Le rime spirituali della illustrissima signora Vittoria Colonna marchesana di Pescara. Alle quali di nuouo sono stati aggiunti, oltre quelli non pur dell'altrui stampe, ma ancho della nostra medesima più di trenta o trentatre sonetti, non mai più altroue stampati, un capitolo, et in non pochi luoghi ricorrette, et piu chiaramente distinte" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

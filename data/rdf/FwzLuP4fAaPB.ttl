@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FwzLuP4fAaPB-UvxhN7AmHaA3 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:FwzLuP4fAaPB .
+
+adi:FwzLuP4fAaPB-WhEfRvQpHxFR a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:NTXVtd24wHkv ;
+    rdf:predicate <> ;
+    rdf:subject adi:FwzLuP4fAaPB .
+
+adi:FwzLuP4fAaPB-dBxi3sYYQdfj a rdf:Statement ;
+    rdf:object adi:QJCDdTz6hkUm ;
+    rdf:predicate <> ;
+    rdf:subject adi:FwzLuP4fAaPB ;
+    ns1:P304 "162" ;
+    ns1:P958 "Di M. Lodovico Dolce alle studiose et chiare donne." .
+
+adi:FwzLuP4fAaPB a rdfs:Resource ;
+    rdfs:label "Donne, perch'habbia voi cortese il cielo" ;
+    <> adi:NTXVtd24wHkv,
+        adi:QJCDdTz6hkUm,
+        adi:RE3XAqvEyiZM ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Donne, perch'habbia voi cortese il cielo
+Prodotte in questo fosco empio soggiorno,
+Per far d'alte bellezze il mondo adorno,
+E l'alme accese d’honorato zelo:
+
+Perché sotto a gentil leggiadro velo
+Virtù s'accolga; che può far d'intorno,
+Quand'è turbato più, sereno il giorno,
+E fiorir Maggio nel più freddo gelo:
+
+A lui, per cui sì ricche al mondo sete
+Di beltà, di valor , d'ingegno, & d'arte,
+Non tanto & così vibo obligo havete:
+
+Quanto al buon LANDO; ch'ogni rara parte
+Di voi consacra (onde chiare vivrete)
+Nel vago stil de le sue dotte carte.""" ;
+    dc:subject adi:FawktbqjQdSF,
+        adi:jSo2wG8h9SDa,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:LBUMoVayqW8X,
+        adi:NTXVtd24wHkv,
+        adi:YvSVvwPw9ogd ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

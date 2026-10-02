@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "label": "teacher",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "label": "occupation",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdwM987NK5hr",
+      "label": "Francesco Patrizi",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Frane_Petric.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VrcdphUKiCaA",
+      "label": "concerto delle donne",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/STGp7cukpsmw",
+      "label": "Camillo Gessi",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portret_van_arts_Camillo_Gessi%2C_RP-P-1909-5424.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dJDNhJQSYzz2",
+      "label": "student",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dJDNhJQSYzz2",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdwM987NK5hr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VrcdphUKiCaA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/STGp7cukpsmw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dJDNhJQSYzz2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JC4x5ybqVxSV",
+      "property": "opposite_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dJDNhJQSYzz2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
+      "property": "instance_of"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:D8tp4vPHSCmz-7SSQUadoNsq6 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:D8tp4vPHSCmz .
+
+adi:D8tp4vPHSCmz-F4iDDsSNMr3G a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:D8tp4vPHSCmz .
+
+adi:D8tp4vPHSCmz-LLSYcW2meYg2 a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:NGjAVUdo3dUq ;
+    rdf:predicate <> ;
+    rdf:subject adi:D8tp4vPHSCmz .
+
+adi:D8tp4vPHSCmz-QZnSBziRUMgT a rdf:Statement ;
+    bf:Note "Notated music section." ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S139/> ;
+    dcterms:publisher adi:Gzqem5g838fp ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N56f0579835ae44f79b6bd0231b797423" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:D8tp4vPHSCmz ;
+    schema:datePublished "1573" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE043591> .
+
+adi:D8tp4vPHSCmz-UTrLSTG5wNur a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:D8tp4vPHSCmz .
+
+adi:D8tp4vPHSCmz a rdfs:Resource ;
+    rdfs:label "La nobiltà di Roma. Versi in lode di cento gentildonne romane. Et le villanelle a tre voci di Gasparo Fiorino" ;
+    <> adi:NGjAVUdo3dUq,
+        "1573" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE043591>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV08290010>,
+        <https://rism.online/sources/990018169> ;
+    dcterms:title "La nobiltà di Roma. Versi in lode di cento gentildonne romane. Et le vilanelle à tre voci di Gasparo Fiorino, della città di Rossano, musico dell'illustrissimo & reuerendissimo signore cardinale di Ferrara. Intauolate dal magnifico m. Francesco di Parise, musico eccellentissimo in Roma. Nuouamente ristampate" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:7FeDbjrMGHRk ;
+    wdt:P31 adi:BcgEqSDqJaZX .
+

@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BR4umwuL3hTw-8N8j7G5toZ67 a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k574014> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k574014/manifest.json> ;
+    rdf:object "Nf077d92b0e954387a696eb95f6fc4517" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BR4umwuL3hTw ;
+    schema:datePublished "162" ;
+    schema:url <http://id.sbn.it/bid/BVEE041191> .
+
+adi:BR4umwuL3hTw-CgK3rEFPYwDd a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=JnFJgPOx_vcC> ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N6ca1ea94dc904fc889649c24d777438b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BR4umwuL3hTw ;
+    schema:datePublished "162" ;
+    schema:url <http://id.sbn.it/bid/BVEE041191> .
+
+adi:BR4umwuL3hTw-QAXSdt3u7qTx a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BzZ5xTZQpucC ;
+    rdf:predicate <> ;
+    rdf:subject adi:BR4umwuL3hTw .
+
+adi:BR4umwuL3hTw a rdfs:Resource ;
+    rdfs:label "La Ferinda commedia Di Giovan Battista Andreini" ;
+    <> adi:BzZ5xTZQpucC,
+        "162" ;
+    dc:subject adi:hHij3iF3zFE9 ;
+    dcterms:title "La Ferinda commedia. Di Giouan Battista Andreini fiorentino. All'illustrissimo et eccellentissimo sre. duca d'Alui Pari di Francia" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:nR5FxU5FRPkD ;
+    wdt:P870 adi:5MwBnJaT8JKD,
+        adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5f6kHhAxyPZh,
+        adi:RR2QSzZoe9rP,
+        adi:i5Hx28kAoBiU,
+        adi:k2RdB6x7eGQB .
+

@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:2EqW4HoVn2ms-BcsxJLooYWRy a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:dRPkh5SkPLku ;
+    rdf:predicate <> ;
+    rdf:subject adi:2EqW4HoVn2ms .
+
+adi:2EqW4HoVn2ms-RsT4hWuKkxxN a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=30mui6lEM7AC> ;
+    dcterms:publisher adi:M3jde2Mmv6dm ;
+    wdt:P291 adi:UprfWYGHsS7r ;
+    wdt:P6108 <https://brixiana.jarvis.memooria.org/meta/iiif/fd75878a-3138-40e3-9410-d16e70c85213/manifest> ;
+    rdf:object "Na631447144b44fb4b520511215bfe2d8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:2EqW4HoVn2ms ;
+    schema:datePublished "1568" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000055> .
+
+adi:2EqW4HoVn2ms a rdfs:Resource ;
+    rdfs:label "Rime de gli Academici Occulti con le loro imprese et discorsi" ;
+    <> adi:dRPkh5SkPLku,
+        "1568" ;
+    dc:subject adi:L6aLzmbRvQqS,
+        adi:mhxiWoDeBKmm ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE000055>,
+        <https://lyra.unil.ch/books/54> ;
+    dcterms:title "Rime de gli Academici Occulti con le loro imprese et discorsi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:8KFvqu4ynd7m ;
+    wdt:P31 adi:2jTZtcMb8cpv,
+        adi:jvXE4XLN7yQS .
+

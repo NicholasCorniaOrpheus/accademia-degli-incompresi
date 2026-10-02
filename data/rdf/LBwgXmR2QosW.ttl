@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LBwgXmR2QosW-5w7PDxXRapoP a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BzZ5xTZQpucC ;
+    rdf:predicate <> ;
+    rdf:subject adi:LBwgXmR2QosW .
+
+adi:LBwgXmR2QosW-CWXcXvyQ36jh a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:GZkfwzrfvWqk ;
+    rdf:predicate <> ;
+    rdf:subject adi:LBwgXmR2QosW .
+
+adi:LBwgXmR2QosW-n2Y8pZNu3Bx9 a rdf:Statement ;
+    bf:electronicLocator <https://upload.wikimedia.org/wikipedia/commons/9/98/L%27Olivastro%2C_overo%2C_Il_poeta_sfortvnato_-_poema_fantastico_%28IA_lolivastrooveroi00andr%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original> ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "N7931d6eb647a4c62b97999daca84dc50" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LBwgXmR2QosW ;
+    schema:datePublished "1642" ;
+    schema:url <http://id.sbn.it/bid/UM1E009815> .
+
+adi:LBwgXmR2QosW a rdfs:Resource ;
+    rdfs:label "L'olivastro ovvero il poeta sfortunato" ;
+    <> adi:BzZ5xTZQpucC,
+        adi:GZkfwzrfvWqk,
+        "1642" ;
+    dc:subject adi:hHij3iF3zFE9 ;
+    dcterms:title "L'oliuastro o vero il poeta sfortunato poema fantastico. All'altezza serenissima di Ferdinando 2. gran duca di Toscana. Autore Gio. Battista Andreini, trà comici detto Lelio" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:nR5FxU5FRPkD ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3pU843Lma47u .
+

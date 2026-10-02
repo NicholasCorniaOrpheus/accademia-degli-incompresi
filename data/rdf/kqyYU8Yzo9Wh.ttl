@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kqyYU8Yzo9Wh-7C9cuBVXAfmM a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:7fshJCKQUuMv ;
+    rdf:predicate <> ;
+    rdf:subject adi:kqyYU8Yzo9Wh .
+
+adi:kqyYU8Yzo9Wh-W2zF7VaRyct3 a rdf:Statement ;
+    bf:electronicLocator <https://bnedigital.bne.es/bd/es/viewer?id=40c387ad-80bf-4d08-bd0c-17253d29616e> ;
+    bf:heldBy adi:JKAhThScA78F ;
+    dcterms:publisher adi:KL2a3Eox62dw ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N6b62bdfb66da4781989010f941cb5f9e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kqyYU8Yzo9Wh ;
+    schema:datePublished "1542" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE004130> .
+
+adi:kqyYU8Yzo9Wh a rdfs:Resource ;
+    rdfs:label "Predica de i sogni" ;
+    <> adi:7fshJCKQUuMv,
+        "1542" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE004130> ;
+    dcterms:title "Predica de i sogni composta per lo reuerendo padre Hypneo da Schio" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:HEsbswC7dBW8 ;
+    wdt:P31 adi:FoqX9WfTveaZ .
+

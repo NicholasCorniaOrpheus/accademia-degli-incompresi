@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eaH5rGrYyRBV-GqfngmAR9Ncf a rdf:Statement ;
+    rdf:object adi:PagyXFKr5PvT ;
+    rdf:predicate <> ;
+    rdf:subject adi:eaH5rGrYyRBV ;
+    ns1:P304 "133" ;
+    ns1:P958 "Incerta." ;
+    schema:volumeNumber "2" .
+
+adi:eaH5rGrYyRBV-jo77qMjHqqd3 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EfY2dL7MpgHY ;
+    rdf:predicate <> ;
+    rdf:subject adi:eaH5rGrYyRBV .
+
+adi:eaH5rGrYyRBV a rdfs:Resource ;
+    rdfs:label "Se nel tempo de' fiori" ;
+    <> adi:EfY2dL7MpgHY,
+        adi:PagyXFKr5PvT ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Se nel tempo de' fiori
+Cose procude il suo fecondo ingegno,
+Onde tu arrivi al segno
+Di vera gloria, e d'immortali onori;
+Sicché Roma t'ammiri, e lodi il Franco,
+E coll'Ibero audace
+T'innalzi al Ciel, chi non pudica face
+T'accese il lato manco;
+Paolo abbastanza non lodate mai,
+Nella stagion de' frutti, e che farai?""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:5rXXXivjHnqu,
+        adi:hbLMcBia2woA ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

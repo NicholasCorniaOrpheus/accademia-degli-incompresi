@@ -1,0 +1,63 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:nZmDKDRyPnkc-WLXjRgSL76kF a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:msaShVwusGue ;
+    rdf:predicate <> ;
+    rdf:subject adi:nZmDKDRyPnkc .
+
+adi:nZmDKDRyPnkc-cYpqtNXtLdJ7 a rdf:Statement ;
+    rdf:object adi:RYgwWvCbEmKy ;
+    rdf:predicate <> ;
+    rdf:subject adi:nZmDKDRyPnkc ;
+    ns1:P304 "240" .
+
+adi:nZmDKDRyPnkc-iNXC6FHBoPd7 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FunxZXZiph3r ;
+    rdf:predicate <> ;
+    rdf:subject adi:nZmDKDRyPnkc .
+
+adi:nZmDKDRyPnkc a rdfs:Resource ;
+    rdfs:label "Un bel ricco Ocean di chiari pianti" ;
+    <> adi:FunxZXZiph3r,
+        adi:RYgwWvCbEmKy,
+        adi:msaShVwusGue ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Un bel ricco Ocean di chiari pianti
+Se' tu MARIN, dove delfino il core
+Fatto sostien su'l nobil dorso Amore,
+Che più dolce Arione avien, che canti.
+
+Non conche, o perle a te pure stillanti
+Mancan, non di fin'or vago splendore,
+Non Alba, ch'apra del tuo grembo fore
+Rugiadosi i suoi raggi, e sfavillanti.
+
+Ch'a te conche amorose offron due belle
+Labra vermiglie; e son lor perle i denti
+De la donna gentil, ch'n te s'aviva.
+
+L'oro il suo crin; la face accesa e viva,
+Ch'ha ne'begli occhi, e le faville ardenti
+Son dl tuo Mare il Sol, l'Alba, e le stelle.""" ;
+    dc:subject adi:KAAWbiBLrFsC,
+        adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://lyra.unil.ch/poems/15018> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:e2nWi24VoUtn ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:Yeipn8BLRFXZ,
+        adi:msaShVwusGue,
+        adi:oYZRv6aG7yMk ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

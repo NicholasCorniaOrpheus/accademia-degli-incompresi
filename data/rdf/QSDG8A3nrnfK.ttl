@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QSDG8A3nrnfK-4DrgPgNWmeDp a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Il_Fidamante/R54A3d5fML8C> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N93e629755ba74a3b95036978a5b3d38a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:QSDG8A3nrnfK ;
+    schema:datePublished "1591" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE021439> .
+
+adi:QSDG8A3nrnfK-m2aTt9CVw4Yp a rdf:Statement ;
+    bf:Role adi:29KJqfsF4AHJ ;
+    rdf:object adi:5Jsdv369DonH ;
+    rdf:predicate <> ;
+    rdf:subject adi:QSDG8A3nrnfK .
+
+adi:QSDG8A3nrnfK a rdfs:Resource ;
+    rdfs:label "Il Fidamante. Poema eroico dell'illustriss.mo sign. Curtio Gonzaga" ;
+    <> adi:5Jsdv369DonH,
+        adi:GdXWhx79h26y,
+        "1591" ;
+    dc:subject adi:Z6udgtgZac9G ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE021439> ;
+    dcterms:title "Il Fidamante. Poema eroico dell'illustriss.mo sign. Curtio Gonzaga, ricorretto da lui, et di nuouo ristampato, aggiuntiui gli argomenti dell'illustre, & virtuosiss. signora Maddalena Campiglia, & con le moralita d'incerto autore" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:NoC5RFxc7i7n ;
+    wdt:P31 adi:cygyrPSnobpc ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

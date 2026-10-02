@@ -1,0 +1,27 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:J4U6vzMd2DM4-n825oH8oArKz a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0433" ;
+    rdf:predicate <> ;
+    rdf:subject adi:J4U6vzMd2DM4 .
+
+adi:J4U6vzMd2DM4 a rdfs:Resource ;
+    rdfs:label "Marguerite d'Angoulême-Valois" ;
+    <> adi:3pU843Lma47u,
+        adi:9SP9yq5BpvBd ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q220845> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Margaret of Valois",
+        "Margherita di Navarra",
+        "Marguerite d'Angoulême" ;
+    schema:gender adi:UjsFswx79X7b .
+

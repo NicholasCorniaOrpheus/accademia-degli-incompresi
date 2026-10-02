@@ -1,0 +1,11 @@
+title = "Al'apparir del Sole"
+madrigal_book = "Di Donat'Antonio Spano il Primo Libro de Madrigali a cinque voci"
+year = "1608"
+composer = "Donato Spano"
+publisher="Giovanni Battista Sottile"
+poet = "Isabella Andreini"
+collection = "Rime d'Isabella Andreini padovana comica Gelosa"
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "A"
+page_size = #22
+orientation = #'portrait

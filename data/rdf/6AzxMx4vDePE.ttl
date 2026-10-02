@@ -1,0 +1,28 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6AzxMx4vDePE-hTaGvheDHo6C a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "19082" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6AzxMx4vDePE .
+
+adi:6AzxMx4vDePE a rdfs:Resource ;
+    rdfs:label "Angelo Firenzuola" ;
+    <> adi:2zJ3QRUFy4nX,
+        adi:3pU843Lma47u,
+        adi:mT3aY8t7yatb ;
+    dcterms:identifier <https://lyra.unil.ch/agents/812>,
+        <https://viaf.org/viaf/12380054> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Angolo Firenzuola",
+        "Girolamo Giovannini" ;
+    schema:gender adi:8UjQ7UabobgD .
+

@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UHpvkSMxeXH9-3Sg8XeqrZrSa a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:UHpvkSMxeXH9 .
+
+adi:UHpvkSMxeXH9-Mj87VYSK8ny4 a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:UHpvkSMxeXH9 ;
+    ns1:P958 "Canto I, 42" .
+
+adi:UHpvkSMxeXH9 a rdfs:Resource ;
+    rdfs:label "La verginella è simile alla rosa" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """La verginella è simile alla rosa,
+Ch'in bel giardin su la nativa spina
+Mentre sola e sicura si riposa,
+Né gregge né pastor se le avicina;
+L'aura soave e l'alba rugiadosa,
+L'acqua, la terra al suo favor s'inchina:
+Gioveni vaghi e donne inamorate
+Amano averne e seni e tempie ornate.""" ;
+    dc:subject adi:ULLBEJNmWLfc ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F018390000101_PPPP00015400C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=31093> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FZP8Rx3LsDxz,
+        adi:LBUMoVayqW8X,
+        adi:NknErMsF55g9,
+        adi:T3ehoUUCyhWR,
+        adi:YvSVvwPw9ogd ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

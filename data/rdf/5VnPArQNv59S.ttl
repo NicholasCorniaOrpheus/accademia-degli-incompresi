@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5VnPArQNv59S-a2PnhrWJQUQE a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18427" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5VnPArQNv59S .
+
+adi:5VnPArQNv59S-ch5Uie6GKBuB a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:3tjNWon78ob2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:5VnPArQNv59S ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:5VnPArQNv59S a rdfs:Resource ;
+    rdfs:label "Francesco Bracciolini" ;
+    <> adi:3pU843Lma47u,
+        adi:3tjNWon78ob2 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q322022> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:VJ5rjP86CXEj ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Francesco Bracciolini Dell'Api" ;
+    schema:gender adi:8UjQ7UabobgD .
+

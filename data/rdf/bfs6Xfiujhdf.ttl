@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bfs6Xfiujhdf-5ApyqDEjiPS2 a rdf:Statement ;
+    bf:Role adi:YXRaAHQ4vwY8 ;
+    rdf:object adi:FEP2RHUGTuJR ;
+    rdf:predicate <> ;
+    rdf:subject adi:bfs6Xfiujhdf .
+
+adi:bfs6Xfiujhdf-HMBwbNpbRAhk a rdf:Statement ;
+    rdf:object adi:RgjvBxtsjnyR ;
+    rdf:predicate <> ;
+    rdf:subject adi:bfs6Xfiujhdf ;
+    ns1:P304 "59" .
+
+adi:bfs6Xfiujhdf a rdfs:Resource ;
+    rdfs:label "Fera, son'io di quest'ombroso loco" ;
+    <> adi:FEP2RHUGTuJR,
+        adi:RgjvBxtsjnyR ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Fera, son'io di quest'ombroso loco,
+Che vo' con la saetta in mezzo il core
+Fuggendo (lassa) il fin del mio dolore;
+E cerco chi mi strugge a poco, a poco.
+
+E come Augel, che fra le penne il foco
+Si sent'appeso, ond'ei volando fore
+Del dolce nido suo, mentre l’ardore
+Fugge, con l’ali più raccende il foco:
+
+Tal'io fra queste frondi a l'aura estiva
+Con l’ali del desio volando in alto
+Cerco il foco fuggir, che meco porto.
+
+Ma quanto vado più di riva in riva
+Per fuggir'il mio mal, con fiero assalto
+Lunga morte procaccio al viver corto.""" ;
+    dc:subject adi:HXwdX5qkqNv6,
+        adi:KuorvRGvXbTz,
+        adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://lyra.unil.ch/poems/2524>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=29221> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:e2nWi24VoUtn ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:CLmtCZLTvT24,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

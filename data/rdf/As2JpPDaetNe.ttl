@@ -1,0 +1,59 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:As2JpPDaetNe-Ak6jo4yhGtKn a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:As2JpPDaetNe .
+
+adi:As2JpPDaetNe-KQP3WMbvGjRj a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U037/> ;
+    dcterms:publisher adi:TkSL3NGH6dAk ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N8343caaec89a4b1fb4ee36d3bf9d9c30" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:As2JpPDaetNe ;
+    schema:datePublished "1603" ;
+    schema:url <http://id.sbn.it/bid/MUS0156575> .
+
+adi:As2JpPDaetNe-PRXfbPUREUmS a rdf:Statement ;
+    bf:Role adi:n2WfmeaUx5Kh ;
+    rdf:object adi:LwQKHQGXaPrg ;
+    rdf:predicate <> ;
+    rdf:subject adi:As2JpPDaetNe .
+
+adi:As2JpPDaetNe-X9DowJ2L63tp a rdf:Statement ;
+    wdt:P1114 "2" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:As2JpPDaetNe .
+
+adi:As2JpPDaetNe-hRRuQQqsoGk4 a rdf:Statement ;
+    bf:Note "Separate links for each partbook" ;
+    bf:electronicLocator <https://books.google.be/books?id=xthNAAAAcAAJ> ;
+    dcterms:publisher adi:FPDujohL8nSA ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    rdf:object "N7efa7fbb598a4afa8115c0b8713ac084" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:As2JpPDaetNe ;
+    schema:datePublished "1624" ;
+    schema:url <https://libcatalog.ugent.be/permalink/32RUG_INST/klssi4/alma990012376600409161> .
+
+adi:As2JpPDaetNe a rdfs:Resource ;
+    rdfs:label "Canzonette a tre voci del signor Tomaso Pecci. Libro primo" ;
+    <> adi:LwQKHQGXaPrg,
+        "1603" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0156575>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV15960010>,
+        <https://rism.online/sources/990048692> ;
+    dcterms:title "Canzonette a tre voci del signor Tomaso Pecci gentil'huomo sanese. Novamente composte & date in luce. Libro Primo." ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

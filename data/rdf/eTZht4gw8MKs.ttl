@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eTZht4gw8MKs-CHYpFMovcmGS a rdf:Statement ;
+    rdf:object adi:mWT5q2KSyozm ;
+    rdf:predicate <> ;
+    rdf:subject adi:eTZht4gw8MKs ;
+    ns1:P958 "Vittoria Colonna, VI" .
+
+adi:eTZht4gw8MKs-GwN28MKyzGEn a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Lb2oTLg4h2DU ;
+    rdf:predicate <> ;
+    rdf:subject adi:eTZht4gw8MKs .
+
+adi:eTZht4gw8MKs a rdfs:Resource ;
+    rdfs:label "Vivo su questo scoglio orrido e solo" ;
+    <> adi:Lb2oTLg4h2DU,
+        adi:mWT5q2KSyozm ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Vivo su questo scoglio orrido e solo
+Quasi dolente augel che 'l verde ramo
+E l'acqua pura aborre, e a quelli ch'amo
+Nel mondo ed a me stessa ancor m'involo
+
+Perché expedito al Sol ch'adoro e colo
+Vada il pensiero, e se ben quanto bramo
+L'ali non spiega, pur, quand'io il richiamo,
+Volge da l'altre strade a questa il volo,
+
+E 'n quel punto che giunge lieto e ardente
+Là 've l'invio, sì breve gioia avanza
+Qui di gran lunga ogni mondan diletto.
+
+Ma se potesse l'alta sua sembianza
+Formar quant'ella vuol l'accesa mente
+Parte avrei forse qui del ben perfetto.""" ;
+    dc:description "The author feels like a lonesome bird on a desolate cliff, unable to fly." ;
+    dc:subject adi:KuorvRGvXbTz ;
+    dcterms:identifier <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=14857> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:NRGRu3F3dpBh,
+        adi:PD77VU2hvP2t,
+        adi:htMN9mN4PnnW ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

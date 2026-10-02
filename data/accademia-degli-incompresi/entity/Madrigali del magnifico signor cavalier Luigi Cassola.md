@@ -19,6 +19,12 @@ has_version:
     place_of_publication:
       - "[[Venezia]]"
     external_source: https://books.google.it/books?id=OIusG9Td-fwC
+  - permalink: https://hdl.handle.net/2027/gri.ark:/13960/t7fr2qs3j
+    publication_date: 1545
+    place_of_publication:
+      - "[[Venezia]]"
+    publisher: "[[Gabriele Giolito de' Ferrari]]"
+    external_source: https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t7fr2qs3j
 contributor:
   - role: "[[author]]"
     value: "[[Luigi Cassola]]"

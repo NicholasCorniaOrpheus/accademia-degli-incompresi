@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gK8kSKziHHVZ-7w5qUqeos7M2 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:YXSurDyNHSdr ;
+    rdf:predicate <> ;
+    rdf:subject adi:gK8kSKziHHVZ .
+
+adi:gK8kSKziHHVZ-FtCUakH5BySA a rdf:Statement ;
+    rdf:object adi:SifJFtUcR76e ;
+    rdf:predicate <> ;
+    rdf:subject adi:gK8kSKziHHVZ ;
+    ns1:P958 "Canto I, 3" .
+
+adi:gK8kSKziHHVZ a rdfs:Resource ;
+    rdfs:label "Falsi i Poeti, & l'Historici vani" ;
+    <> adi:SifJFtUcR76e,
+        adi:YXSurDyNHSdr ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Falsi i Poeti, & l'Historici vani 
+Di Troia, & Tebe di sparta, & Tessaglia 
+Son presso a l'opra ov'io caccio le mani 
+A dir de' Paladin, sel ver mi vaglia
+Son le buggie un Abbaiar de cani. 
+Io in pace dirò più che in battaglia
+De' Cronichisti mendaci al dispetto 
+De' Paladin di Francia il vero schietto.""" ;
+    dc:subject adi:iWMn6FHJ2W74 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:iFXJgwZy2vLK ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3pU843Lma47u,
+        adi:AsTmRvZ9z4UX ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

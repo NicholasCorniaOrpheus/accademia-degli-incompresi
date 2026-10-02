@@ -1,5 +1,9 @@
 ---
 class: Book
+identifier:
+  - https://edit16.iccu.sbn.it/titolo/CNCE017557
+described_by_source:
+  - "[[(Robin 2007)]]"
 instance_of:
   - "[[poetry collection]]"
 title: Rime diuerse d'alcune nobilissime, et virtuosissime donne, raccolte per m. Lodouico Domenichi, e intitolate al signor Giannotto Castiglione gentil'huomo milanese
@@ -23,9 +27,5 @@ subject:
 has_part:
 based_on:
 catalog_identifier:
-identifier:
-  - https://edit16.iccu.sbn.it/titolo/CNCE017557
 aliases:
-described_by_source:
-  - "[[(Robin 2007)]]"
 ---

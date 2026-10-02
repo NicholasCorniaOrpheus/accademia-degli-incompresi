@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bvMwDaAu4vdj-cDegLZbgenZY a rdf:Statement ;
+    rdf:object adi:BFWhk5b8b86u ;
+    rdf:predicate <> ;
+    rdf:subject adi:bvMwDaAu4vdj ;
+    ns1:P304 "32" ;
+    schema:volumeNumber "P. La Signora Claudia" .
+
+adi:bvMwDaAu4vdj-idapm968aiX6 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:XtyKoT2r5qFb ;
+    rdf:predicate <> ;
+    rdf:subject adi:bvMwDaAu4vdj .
+
+adi:bvMwDaAu4vdj a rdfs:Resource ;
+    rdfs:label "Chi è più miser di me? Più util'al mondo?" ;
+    <> adi:BFWhk5b8b86u,
+        adi:XtyKoT2r5qFb ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Chi è più miser di me? Più util'al mondo?
+Io altrui do vita (ohimè) con la mia morte.
+Et mentre vivo sotto grave pondo,
+Ad altri vivo per mia dura sorte.
+Et la dolc'esca, di cui sempre abondo,
+Rapita del mio albergo l'altrui corte
+Honora, ove devria porgermi aita.
+Et quel, ch' è peggio, mi spoglia di vita.""" ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

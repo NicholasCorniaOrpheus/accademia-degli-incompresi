@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ji9vQ46mUb4s-5dcGVfiQgVyA a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:msaShVwusGue ;
+    rdf:predicate <> ;
+    rdf:subject adi:ji9vQ46mUb4s .
+
+adi:ji9vQ46mUb4s-DpEMtKVwB35S a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object "1612" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ji9vQ46mUb4s .
+
+adi:ji9vQ46mUb4s-kyVhLrAbp6q3 a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "89" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ji9vQ46mUb4s .
+
+adi:ji9vQ46mUb4s a rdfs:Resource ;
+    rdfs:label "Accademia dei Sileni di Napoli" ;
+    <> adi:msaShVwusGue,
+        adi:noxgdEZ8TnkL ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

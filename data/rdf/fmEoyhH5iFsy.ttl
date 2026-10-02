@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fmEoyhH5iFsy-ECskZWJfJRpx a rdf:Statement ;
+    rdf:object adi:BFWhk5b8b86u ;
+    rdf:predicate <> ;
+    rdf:subject adi:fmEoyhH5iFsy ;
+    ns1:P304 "36" ;
+    schema:volumeNumber "R. Il Signor Orsino." .
+
+adi:fmEoyhH5iFsy-k3w4PEhwJDap a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:XtyKoT2r5qFb ;
+    rdf:predicate <> ;
+    rdf:subject adi:fmEoyhH5iFsy .
+
+adi:fmEoyhH5iFsy a rdfs:Resource ;
+    rdfs:label "Se Morte è fin d'ogni tormento mio" ;
+    <> adi:BFWhk5b8b86u,
+        adi:XtyKoT2r5qFb ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Se Morte è fin d'ogni tormento mio,
+Perché di vostra crudeltà infinita,
+Che m'uccide , Madonna mi dolg'io?
+Più tosto con ragion lodar devrei
+De' vostri empi occhi i rai,
+Senza stancarmi mai,
+Come nemici de gli affanni miei:
+Dorrommi sol de la fallace speme,
+Che giunta la trist'alma a l'hore estreme,
+Le chiude ( ohimè) I'uscita:
+Onde per lei ben mille volte il giorno
+Nel fin del mio languir, a languir torno.""" ;
+    dc:subject adi:Pfqef5YBTXjD ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FHkhZJZzAo88,
+        adi:JJB6LuxryAUn,
+        adi:d2QjJCcEtkiC,
+        adi:knKLHuWASYk4,
+        adi:nCimZWBzP648 ;
+    ns1:P2551 adi:6r7ZsMDvqt7K,
+        adi:NtX3nd34H3Wn .
+

@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:LECkX7pYsaja-8GYSzrAGokCH a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:HEUMST7S9e7K ;
+    rdf:predicate <> ;
+    rdf:subject adi:LECkX7pYsaja .
+
+adi:LECkX7pYsaja-8pA2kysebsCR a rdf:Statement ;
+    wdt:P1114 "2" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LECkX7pYsaja .
+
+adi:LECkX7pYsaja-BHc2kta3wWTd a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z217/> ;
+    dcterms:publisher adi:YZmxTWFPkUr9 ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N805a8cee7c10445cbb86f22b497a26ec" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LECkX7pYsaja ;
+    schema:datePublished "1609" ;
+    schema:url <http://id.sbn.it/bid/MUS0151843> .
+
+adi:LECkX7pYsaja-jm9s9cAwmchx a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:LECkX7pYsaja .
+
+adi:LECkX7pYsaja-mkvfot55gW3h a rdf:Statement ;
+    bf:Note "Cantus or Tenor part digitized" ;
+    bf:heldBy adi:CEMJGhgpCq9k ;
+    dcterms:publisher adi:YZmxTWFPkUr9 ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N5e49c700b7a14f02a700bfd0b38022d0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:LECkX7pYsaja ;
+    schema:datePublished "1609" ;
+    schema:url <http://id.sbn.it/bid/MUS0151843> .
+
+adi:LECkX7pYsaja a rdfs:Resource ;
+    rdfs:label "Canzonette ed arie a tre voci di Gio. Ghizzolo. Libro primo" ;
+    <> adi:HEUMST7S9e7K,
+        "1609" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0151843>,
+        <https://musicare.beniculturali.unipd.it/database/editions/005014.html>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV09580010>,
+        <https://rism.online/sources/990020990> ;
+    dcterms:title "Canzonette ed arie a tre voci di Gio. Ghizzolo da B rescia novamente composte, et date in luce. Libro Primo" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

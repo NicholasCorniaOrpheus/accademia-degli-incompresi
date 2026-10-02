@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:d7FhdjCRnhSq-NAwk7rVavemg a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=-knLDHx51k8C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false> ;
+    dcterms:publisher adi:gEirAnjGirk8 ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N3d73a69c4e594b269ea2faf04e8d28d6" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:d7FhdjCRnhSq ;
+    schema:datePublished "1555" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034620> .
+
+adi:d7FhdjCRnhSq-YDbUYGi6rTLp a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bGRJWn5bVFvx ;
+    rdf:predicate <> ;
+    rdf:subject adi:d7FhdjCRnhSq .
+
+adi:d7FhdjCRnhSq a rdfs:Resource ;
+    rdfs:label "De sonetti di m. Benedetto Varchi, parte prima" ;
+    <> adi:bGRJWn5bVFvx,
+        "1555" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034620> ;
+    dcterms:title "De sonetti di m. Benedetto Varchi, parte prima" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:essfAVeKM7Q7 ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

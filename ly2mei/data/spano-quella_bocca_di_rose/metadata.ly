@@ -7,3 +7,5 @@ poet = "Isabella Andreini"
 collection = "Rime d'Isabella Andreini padovana comica Gelosa"
 annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
 incipit = "Q"
+page_size = #22
+orientation = #'portrait

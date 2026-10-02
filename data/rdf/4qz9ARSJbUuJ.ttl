@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4qz9ARSJbUuJ-4dKB4Ycfwvi3 a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:QNGN3E7ujjRe ;
+    rdf:predicate <> ;
+    rdf:subject adi:4qz9ARSJbUuJ ;
+    schema:startDate "1550" .
+
+adi:4qz9ARSJbUuJ-ALKuYGrHMSLR a rdf:Statement ;
+    dcterms:references adi:PXXpcDi5cmLa ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:4qz9ARSJbUuJ .
+
+adi:4qz9ARSJbUuJ-isB4yuDE5Gfu a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "16062" ;
+    rdf:predicate <> ;
+    rdf:subject adi:4qz9ARSJbUuJ .
+
+adi:4qz9ARSJbUuJ a rdfs:Resource ;
+    rdfs:label "Laura Terracina" ;
+    <> adi:3pU843Lma47u,
+        adi:GdXWhx79h26y,
+        adi:QNGN3E7ujjRe,
+        adi:jSo2wG8h9SDa,
+        adi:noxgdEZ8TnkL,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/L8Tf2qNBGXFK" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q6499496> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:PXXpcDi5cmLa,
+        adi:SrWTCERreeEv ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:UjsFswx79X7b .
+

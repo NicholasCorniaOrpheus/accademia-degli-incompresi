@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6W8dn8W7kWhU-T6BZN7XWKNYR a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "18122" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6W8dn8W7kWhU .
+
+adi:6W8dn8W7kWhU-ioNpYBUYX5TC a rdf:Statement ;
+    dcterms:references adi:RrWtiYpwdJp2 ;
+    rdf:object adi:LqryCDaRuF3C ;
+    rdf:predicate <> ;
+    rdf:subject adi:6W8dn8W7kWhU .
+
+adi:6W8dn8W7kWhU a rdfs:Resource ;
+    rdfs:label "Dionigi Atanagi" ;
+    <> adi:3pU843Lma47u,
+        adi:LqryCDaRuF3C,
+        adi:hbLMcBia2woA ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q18509145>,
+        <https://lyra.unil.ch/agents/423> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:AifjKLZro2Wf ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

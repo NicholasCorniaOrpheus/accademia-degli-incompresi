@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "label": "Siena",
+      "class": "Place",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bAqzzDFWXpyF",
+      "label": "Accademia delle Assicurate di Siena",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bN5CAXDKu3e4",
+      "label": "Alessandro Piccolomini",
+      "class": "Agent",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Alessandro_Piccolomini.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mrydLCUXVdCa",
+      "label": "Accademia degli Accesi di Siena",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NLZ9HyHBdDfb",
+      "label": "Accademia degli Intronati di Siena",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cZUVbSop7dAE",
+      "label": "Scipione Bargagli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S3kU5uYUeBxN",
+      "label": "Bartolomeo Carli Piccolomini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a6UXZ7FcMkAt",
+      "label": "Accademia dei Travagliati di Siena",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bAqzzDFWXpyF",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bN5CAXDKu3e4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mrydLCUXVdCa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NLZ9HyHBdDfb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cZUVbSop7dAE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S3kU5uYUeBxN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a6UXZ7FcMkAt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jLwcTv9NEzFF",
+      "property": "location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bN5CAXDKu3e4",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NLZ9HyHBdDfb",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mrydLCUXVdCa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cZUVbSop7dAE",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NLZ9HyHBdDfb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S3kU5uYUeBxN",
+      "property": "member"
+    }
+  ]
+}

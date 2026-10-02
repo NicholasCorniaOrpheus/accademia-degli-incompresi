@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:W3BcTKkdHVcA-TPWU8YVRejyW a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:AcGzVakLKXAM ;
+    rdf:predicate <> ;
+    rdf:subject adi:W3BcTKkdHVcA .
+
+adi:W3BcTKkdHVcA-dfkb8pLGiHoA a rdf:Statement ;
+    wdt:P291 adi:nixaeSS662dG ;
+    rdf:object "N50460885a29048308e941c8b3d325584" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:W3BcTKkdHVcA ;
+    schema:datePublished "1607" ;
+    schema:url <http://id.sbn.it/bid/VEAE004394> .
+
+adi:W3BcTKkdHVcA a rdfs:Resource ;
+    rdfs:label "Dui dialoghi della vergogna, con alcune prose, et rime, del sig. Annibale Poccaterra" ;
+    <> adi:AcGzVakLKXAM,
+        "1607" ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE004394>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F006910010> ;
+    dcterms:title "Dui dialoghi della vergogna, con alcune prose, et rime, del sig. Annibale Poccaterra, Academico ferrarese, dedicati all'illustriss.mo et reuerendiss. sig. cardinale d'Este" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv,
+        adi:FoqX9WfTveaZ .
+

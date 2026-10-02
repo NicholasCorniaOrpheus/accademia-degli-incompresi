@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EuNHtie6uCWF-7bNCzWQVFHgK a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:JvjJXFE5exkU ;
+    rdf:predicate <> ;
+    rdf:subject adi:EuNHtie6uCWF .
+
+adi:EuNHtie6uCWF-eCYVjiu4L7bH a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=ADSF54X1V-MC> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N41358fcdd1dc4ddaa132c3d875e88790" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:EuNHtie6uCWF ;
+    schema:datePublished "1553" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054429> .
+
+adi:EuNHtie6uCWF-gYfwVxxXUEPr a rdf:Statement ;
+    bf:Role adi:RE3XAqvEyiZM ;
+    rdf:object adi:VWVDBDaC8szG ;
+    rdf:predicate <> ;
+    rdf:subject adi:EuNHtie6uCWF .
+
+adi:EuNHtie6uCWF a rdfs:Resource ;
+    rdfs:label "Le trasformationi di m. Lodovico Dolce" ;
+    <> adi:JvjJXFE5exkU,
+        adi:VWVDBDaC8szG,
+        adi:cTU9de5G8bU5,
+        "1553" ;
+    dc:subject adi:25aVTU3ikP69,
+        adi:99cprNhigxtK,
+        adi:evkr2baE5Du2 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE054429> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:VQNC7fJmPEqj .
+

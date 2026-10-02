@@ -1,0 +1,60 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UoZHuZQEWyBZ-KetNDZHJqeDj a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=x8kTAAAAQAAJ> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N671d1f4c5a074bfa9868e2bc67c3131d" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UoZHuZQEWyBZ ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026043> .
+
+adi:UoZHuZQEWyBZ-WQhjFhFdVwAu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:UoZHuZQEWyBZ .
+
+adi:UoZHuZQEWyBZ-dECjTARc7XFW a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:i3wrAGDKdkNe ;
+    rdf:predicate <> ;
+    rdf:subject adi:UoZHuZQEWyBZ .
+
+adi:UoZHuZQEWyBZ-mtHEJmy7inVc a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10AA1E34/> ;
+    bf:heldBy adi:CEMJGhgpCq9k ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10AA1E34> ;
+    rdf:object "Nc60f3993600a4ea09297818f3a963353" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UoZHuZQEWyBZ ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026043> .
+
+adi:UoZHuZQEWyBZ-nDPyApHwoMCf a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:fXijNpAr5BvS ;
+    rdf:predicate <> ;
+    rdf:subject adi:UoZHuZQEWyBZ .
+
+adi:UoZHuZQEWyBZ a rdfs:Resource ;
+    rdfs:label "Rime diuerse di molti eccellentiss. auttori nuouamente raccolte. Libro primo" ;
+    <> adi:aPSR2wpq8iGj,
+        adi:fXijNpAr5BvS,
+        adi:i3wrAGDKdkNe,
+        "1545" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE026043>,
+        <https://lyra.unil.ch/books/1> ;
+    dcterms:title "Rime diuerse di molti eccellentiss. auttori nuouamente raccolte. Libro primo" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

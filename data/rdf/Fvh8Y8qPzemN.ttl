@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Fvh8Y8qPzemN-CXuHWZvqsg4W a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:KhQrZGTQZq7d ;
+    rdf:predicate <> ;
+    rdf:subject adi:Fvh8Y8qPzemN .
+
+adi:Fvh8Y8qPzemN-cLpu8is3fbHg a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9hxg73nrkwfn ;
+    rdf:predicate <> ;
+    rdf:subject adi:Fvh8Y8qPzemN .
+
+adi:Fvh8Y8qPzemN-oGVMLLC3ii8Q a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/de/view/bsb10190079> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:k5aPQaUQUikE ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10190079/manifest> ;
+    rdf:object "N6eef772d510a427cb6d599165c225000" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Fvh8Y8qPzemN ;
+    schema:datePublished "1554" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034699> .
+
+adi:Fvh8Y8qPzemN a rdfs:Resource ;
+    rdfs:label "Rime di diversi eccellenti autori bresciani" ;
+    <> adi:9hxg73nrkwfn,
+        adi:KhQrZGTQZq7d,
+        "1554" ;
+    dc:subject adi:NiTWoVWgRtNj ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034699> ;
+    dcterms:title "Rime di diuersi eccellenti autori bresciani, nuouamente raccolte, et mandate in luce da Girolamo Ruscelli tra le quali sono le rime della signora Veronica Gambara, & di m. Pietro Barignano, ridotte alla vera sincerità loro" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

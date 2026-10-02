@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z9duo2E3Kj9Z-4EXZ2DPrrZXn a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10184585> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10184585/manifest> ;
+    rdf:object "N34ad34331b474f82a0b75b4b397085bf" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Z9duo2E3Kj9Z ;
+    schema:datePublished "1583" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10184585> .
+
+adi:Z9duo2E3Kj9Z-8M3DyP6yfUok a rdf:Statement ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    rdf:object "Nbd7e97d45e904b93bd4fa6dcce1018f9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Z9duo2E3Kj9Z ;
+    schema:datePublished "1568" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE071679> .
+
+adi:Z9duo2E3Kj9Z-ZEQSAnipJATZ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6reZ2YwsToYC ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z9duo2E3Kj9Z .
+
+adi:Z9duo2E3Kj9Z a rdfs:Resource ;
+    rdfs:label "L'ore di ricreazione di M. Lodovico Guicciardini" ;
+    <> adi:6reZ2YwsToYC,
+        "1568" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE071679> ;
+    dcterms:title "L'hore di ricreatione di m. Lodouico Guicciardini patritio fiorentino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:mxz4KL9JjrEt ;
+    wdt:P31 adi:Fg6xCVoGsz3M ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "Ore di ricreazione" .
+

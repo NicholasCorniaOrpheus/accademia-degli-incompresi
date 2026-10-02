@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:WA9bCiRSdXEe-UhsupyqmqiVC a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:6AzxMx4vDePE ;
+    rdf:predicate <> ;
+    rdf:subject adi:WA9bCiRSdXEe .
+
+adi:WA9bCiRSdXEe-kQNCFU7EzgQq a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:cv9uVmQKzPqv ;
+    rdf:predicate <> ;
+    rdf:subject adi:WA9bCiRSdXEe .
+
+adi:WA9bCiRSdXEe a rdfs:Resource ;
+    rdfs:label "Viverò dunque, & altri indegnamente (Ruffo)" ;
+    <> adi:6AzxMx4vDePE,
+        adi:CyK3nNqd9PsU,
+        adi:EdKWKZpv5rgp,
+        adi:cv9uVmQKzPqv ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F307000000010101_000000215000C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

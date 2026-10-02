@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iDbc2yVDhCMD",
+      "label": "(Wistreich 2016)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAXaAjVjZ2sm",
+      "label": "Mentre in voci canore",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QvaozYdLEWud",
+      "label": "Giulio Cesare Brancaccio",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAXaAjVjZ2sm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iDbc2yVDhCMD",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QvaozYdLEWud",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iDbc2yVDhCMD",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAXaAjVjZ2sm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QvaozYdLEWud",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAXaAjVjZ2sm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QvaozYdLEWud",
+      "property": "depicts"
+    }
+  ]
+}

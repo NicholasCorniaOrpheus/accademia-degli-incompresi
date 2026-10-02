@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KTS4KPKRX4gX-UeJiibbCmjyF a rdf:Statement ;
+    bf:electronicLocator <https://viewer.onb.ac.at/10981A4A/> ;
+    bf:heldBy adi:CEMJGhgpCq9k ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10981A4A> ;
+    rdf:object "N5985ee1c98114cafaa1cbaf21064271d" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:KTS4KPKRX4gX ;
+    schema:datePublished "1554" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE008714> .
+
+adi:KTS4KPKRX4gX-euESHgLWrv5f a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:KTS4KPKRX4gX .
+
+adi:KTS4KPKRX4gX a rdfs:Resource ;
+    rdfs:label "Di m. Giulio Camillo. Tutte le opere" ;
+    <> adi:8Hc54xeA8ihZ,
+        "1554" ;
+    dc:subject adi:YhKrNQitoXh8,
+        adi:bQT5tjAEXHJP,
+        adi:bxtQcQpdXsKm,
+        adi:jjYHNotSf9rt ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE008714>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/001870010> ;
+    dcterms:title "Di m. Giulio Camillo Tutte le opere cioè Discorso in materia del suo theatro. Lettera del riuolgimento dell'huomo a Dio. La idea. Due trattati: l'uno delle materie, l'altro della imitatione. Due orationi. Rime del detto" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv,
+        adi:FoqX9WfTveaZ .
+

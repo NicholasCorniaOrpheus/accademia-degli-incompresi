@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GdXWhx79h26y-JgLotfXw8e8N a rdf:Statement ;
+    bf:Note "Final edition, including extra canti." ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "N8d49079fa6284522be9e1def4357afeb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GdXWhx79h26y ;
+    schema:datePublished "1532" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002566> .
+
+adi:GdXWhx79h26y-JkCdNiVZ5N5u a rdf:Statement ;
+    bf:Note "First edtion." ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "Nf5a977e36e5741dbbc1b42f662f6e31a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:GdXWhx79h26y ;
+    schema:datePublished "1516" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002541> .
+
+adi:GdXWhx79h26y-hfrzGCn8e59F a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:GdXWhx79h26y .
+
+adi:GdXWhx79h26y a rdfs:Resource ;
+    rdfs:label "Orlando furioso" ;
+    <> adi:3tBDveUQba76,
+        "1516" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q48922> ;
+    dcterms:title "Orlando furioso" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cygyrPSnobpc ;
+    skos:altLabel "Orlando Furioso" .
+

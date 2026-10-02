@@ -9,6 +9,10 @@ member_of:
 occupation:
   - value: "[[philosopher]]"
 related_to:
+  - value: "[[Giulio Camillo]]"
+    relationship: "[[editor]]"
+    reference:
+      - "[[(Bolzoni 2004)]]"
   - value: "[[Giulio Cesare Brancaccio]]"
     relationship: "[[rival]]"
   - value: "[[Tarquinia Molza]]"

@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:c9haQqV9stXm-4JW7sGf96qLJ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:c9haQqV9stXm .
+
+adi:c9haQqV9stXm-UggFaud8HfUc a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:c9haQqV9stXm .
+
+adi:c9haQqV9stXm-anJ3DmaNLBed a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S082/> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ne4974e10984546cd91194260f8c9861a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:c9haQqV9stXm ;
+    schema:datePublished "1568" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE042961> .
+
+adi:c9haQqV9stXm-cJ3ngcYKXhfg a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:ERbTBKhzNzBL ;
+    rdf:predicate <> ;
+    rdf:subject adi:c9haQqV9stXm .
+
+adi:c9haQqV9stXm-iVqajvFkkvj9 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:c9haQqV9stXm .
+
+adi:c9haQqV9stXm a rdfs:Resource ;
+    rdfs:label "Di Ghinolfo Dattari bolognese le Villanelle, a tre, a quattro & a cinque voci" ;
+    <> adi:ERbTBKhzNzBL,
+        "1568" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE042961>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV06070010>,
+        <https://rism.online/sources/990012966> ;
+    dcterms:title "Di Ghinolfo Dattari bolognese le Villanelle, a tre, a quattro & a cinque voci. Novamente da lui composte & date in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FsSQghm7vicq-7scvzz4NE7ht a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:M6PatcnEXsv4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:FsSQghm7vicq .
+
+adi:FsSQghm7vicq-m8kKMaLbbrmS a rdf:Statement ;
+    rdf:object adi:KRgADanr7cqk ;
+    rdf:predicate <> ;
+    rdf:subject adi:FsSQghm7vicq ;
+    ns1:P304 "12-13" .
+
+adi:FsSQghm7vicq a rdfs:Resource ;
+    rdfs:label "Vergine bella; cui Cinthia, e Himeneo" ;
+    <> adi:KRgADanr7cqk,
+        adi:M6PatcnEXsv4 ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """Vergine bella; cui Cinthia, e Himeneo
+Pregano a tosto entrar con loro in schiera,
+Promettendovi pace, e gioia intiera,
+S'altra vergine al mondo unqua godeo;
+
+Perde apo voi chi vinse ne l'Ideo
+Colle Minerva, e la matrigna altera,
+Che la vostra beltà pura, e sincera
+È d'Homero degnissima, e d'Orfeo.
+
+Quanto sarà per voi lieto, e felice
+Colui, che il cielo ha per Signore eletto
+De la bellezza vostra alma beatrice,
+
+Tanto sarà per voi tristo, e infelice
+Colui, che il ciel ha di fruir disdetto
+Voi, ch'al Sol pareggiar non si disdice.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:HDNEwQhdjKrY,
+        adi:LBUMoVayqW8X,
+        adi:iroPStfpMEuX ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

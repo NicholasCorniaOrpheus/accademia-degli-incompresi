@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:o8pXcq22ScpX-XCm6RLbUWTuS a rdf:Statement ;
+    bf:electronicLocator <https://arbor.medialibrary.it/item/8ba42d16-07e7-43e2-a8bb-69d894cafec9> ;
+    dcterms:publisher adi:PN6aq8vcZFbS ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    wdt:P6108 <https://archiginnasio.jarvis.memooria.org/meta/iiif/8ba42d16-07e7-43e2-a8bb-69d894cafec9/manifest> ;
+    rdf:object "Neadb39c0943240e8ae5b324bda7fc1b8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:o8pXcq22ScpX ;
+    schema:url <http://id.sbn.it/bid/UBOE072281> .
+
+adi:o8pXcq22ScpX-dDDakkNrRkMR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:fNQ3Yu7akyGg ;
+    rdf:predicate <> ;
+    rdf:subject adi:o8pXcq22ScpX .
+
+adi:o8pXcq22ScpX a rdfs:Resource ;
+    rdfs:label "Astuzie sottilissime di Bertoldo" ;
+    <> adi:fNQ3Yu7akyGg ;
+    dc:subject adi:hHij3iF3zFE9,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:title "Astutie sottilissime di Bertoldo doue si scorge vn villano accorto, e sagace, il quale doppo varij, e strani accidenti a lui intrauenuti, alla fine per il suo raro, & acuto ingegno vien fatto huomo di corte, e regio consigliero. Con il suo Testamento ... Opera bella, e di grandissimo gusto. Di Giulio Cesare Croce" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:fWcm8Nsn7rXJ ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

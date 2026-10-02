@@ -1,0 +1,42 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BTm85M3937rM-dPAiovdCKCeg a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bGRJWn5bVFvx ;
+    rdf:predicate <> ;
+    rdf:subject adi:BTm85M3937rM .
+
+adi:BTm85M3937rM-gV4Ype3WZn5W a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:UXvzgo4tYk5F ;
+    rdf:predicate <> ;
+    rdf:subject adi:BTm85M3937rM .
+
+adi:BTm85M3937rM a rdfs:Resource ;
+    rdfs:label "Quella che 'n voi bontà quasi infinita" ;
+    <> adi:UXvzgo4tYk5F,
+        adi:bGRJWn5bVFvx ;
+    pdc:text """Quella che 'n voi bontà quasi infinita
+Amai, nel vostro e mio giovanil fiore,
+E quella, non di lei virtù minore,
+Di dare ai bronzi moto, ai i marmi vita,
+Di giorno in giorno in voi col tempo è gita
+Crescendo, sì che quella il primo honore
+Quest' ha il secondo et vi nasce e vi muore
+Il sol vostro valor doppio d'addita.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:QmQprBXKudMJ ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:bwjZU6AmoTyh,
+        adi:fibtk65Ak5cM ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+
