@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:KrvLxEndjYg6-5sqU9J6L2CwN a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:KrvLxEndjYg6 .
+
+adi:KrvLxEndjYg6-M23XkGZzn94K a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:KrvLxEndjYg6 ;
+    ns1:P958 "Canto XXIV, 1" .
+
+adi:KrvLxEndjYg6 a rdfs:Resource ;
+    rdfs:label "Chi mett'il piè su l'amorosa pania" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Chi mette il piè su l'amorosa pania,
+Cerchi ritrarlo, e non v'inveschi l'ale;
+Che non è in somma amor, se non insania,
+A giudizio de' savi universale:
+E se ben come Orlando ognun non smania,
+Suo furor mostra a qualch'altro segnale.
+E quale è di pazzia segno più espresso
+Che, per altri voler, perder se stesso?""" ;
+    dc:subject adi:o5E4uDGcg6qr ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/019390000101_PPPP00015400C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=14508> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:kG5HwQ4avsGP,
+        adi:o5E4uDGcg6qr ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

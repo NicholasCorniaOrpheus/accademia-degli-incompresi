@@ -6,12 +6,50 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Sj7F6b8nLuDu-GCep2jP2czLK a rdf:Statement ;
+adi:Sj7F6b8nLuDu-4ZqyzmUQSvhT a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-5FtgnUyqqviW a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:oRzFousoNVsC ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-9GUpRZRxJZ5g a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-K8Qz6y7tZsu4 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-SkgrnYSHJKav a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6DdwwfNF4UU4" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-UknUkfhFkiJC a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Sj7F6b8nLuDu .
+
+adi:Sj7F6b8nLuDu-j5GVnUKxuXHT a rdf:Statement ;
     bf:Note "The partbooks miss pages 19-22." ;
     bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080490> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
     dcterms:publisher adi:BkYMa73cnn7m ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "Naca53ba21aab4cf785dfd7de257f5d94" ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00080490/manifest> ;
+    rdf:object "Ne0501c6f21c04e3ebce0ddbc2aaf7d65" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:Sj7F6b8nLuDu ;
     schema:datePublished "1583" ;
@@ -19,7 +57,8 @@ adi:Sj7F6b8nLuDu-GCep2jP2czLK a rdf:Statement ;
 
 adi:Sj7F6b8nLuDu a rdfs:Resource ;
     rdfs:label "Libro terzo de madrigali a cinque voci, di m. Bartolomeo Spontone" ;
-    <> "1583" ;
+    <> adi:oRzFousoNVsC,
+        "1583" ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045793>,
         <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV19950010>,
         <https://rism.online/sources/990060500> ;

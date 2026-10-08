@@ -9,6 +9,10 @@ member_of:
 occupation:
   - value: "[[politician]]"
 related_to:
+  - value: "[[Giovanni Battista Giraldi]]"
+    relationship: "[[patron of the arts]]"
+    reference:
+      - "[[(Villari 2023)]]"
   - value: "[[Renée of Valois]]"
     relationship: "[[husband]]"
 notable_work:

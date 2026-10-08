@@ -1,0 +1,64 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:2C2q5UDkUdHR-JBPiLE7ujKzt a rdf:Statement ;
+    bf:Note "Italian translation" ;
+    dcterms:references adi:FTrpmMNgtXU9 ;
+    rdf:object adi:nvvYTpc29wva ;
+    rdf:predicate <> ;
+    rdf:subject adi:2C2q5UDkUdHR .
+
+adi:2C2q5UDkUdHR-Ncjkvs8amsxL a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:au2FAKGHhhNM ;
+    rdf:predicate <> ;
+    rdf:subject adi:2C2q5UDkUdHR .
+
+adi:2C2q5UDkUdHR-RX28miD2oxA3 a rdf:Statement ;
+    rdf:object adi:kM8rrhBTRWqS ;
+    rdf:predicate <> ;
+    rdf:subject adi:2C2q5UDkUdHR ;
+    ns1:P304 "28" .
+
+adi:2C2q5UDkUdHR a rdfs:Resource ;
+    rdfs:label "Oh sia caprar, che la sampogna suoni" ;
+    <> adi:au2FAKGHhhNM,
+        adi:kM8rrhBTRWqS,
+        adi:nvvYTpc29wva ;
+    pdc:text """Oh SIA caprar, che la sampogna suoni;
+Oh mugnitrice tu di capre sia;
+Ferma qui'l greggeL e in fronte a questa via
+Al cener sacro porgi honesti doni.
+
+Spargansi da le tazze dolci, e buoni
+Vini, e col vin del latte in compagnia:
+Ognun soavi violette dia
+Al bel sepolcro, ognun ghirlande doni:
+
+Poi volti gli occhi al sasso, ov'ella giace.
+Pien di dolci sospiri, e amaro pianto,
+Tra lagrime, e singhiozzi afflitto dica.
+
+Cenere caro, hor vero cener santo,
+Già vaga Hiella, a te sia gloria, e pace,
+Quant'ella fu di pace, e gloria amica.""" ;
+    dc:subject adi:5RYVLh7yR4s6,
+        adi:bz2ZiUr2xdwm ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:FTrpmMNgtXU9 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3joNaJwUYHum,
+        adi:FZP8Rx3LsDxz,
+        adi:VFabTiMFEU5U,
+        adi:WPvGfotRo5vK,
+        adi:YvSVvwPw9ogd,
+        adi:nCimZWBzP648 .
+

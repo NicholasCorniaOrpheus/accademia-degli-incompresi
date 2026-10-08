@@ -6,21 +6,21 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:CPJfWX96XBVZ-EyZS4m2w8VJZ a rdf:Statement ;
+adi:CPJfWX96XBVZ-9pa92rdjZpiX a rdf:Statement ;
+    bf:Note "Attributed to Torquato Tasso" ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "Nd2abe688d84348bb9e2dc5079f4795fe" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CPJfWX96XBVZ ;
+    schema:datePublished "1587" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE071587> .
+
+adi:CPJfWX96XBVZ-j3c9cNxmTfGW a rdf:Statement ;
     bf:Note "According to (Ferrone 2021)." ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:gJFucdkRobUR ;
     rdf:predicate <> ;
     rdf:subject adi:CPJfWX96XBVZ .
-
-adi:CPJfWX96XBVZ-YLkEhLFKu379 a rdf:Statement ;
-    bf:Note "Attributed to Torquato Tasso" ;
-    wdt:P291 adi:64m48iDXC7Fc ;
-    rdf:object "N38985a8d444e477b9355157ec354888b" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:CPJfWX96XBVZ ;
-    schema:datePublished "1587" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE071587> .
 
 adi:CPJfWX96XBVZ a rdfs:Resource ;
     rdfs:label "La Gismonda, tragedia del signor Torquato Tasso" ;

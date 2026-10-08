@@ -32,19 +32,19 @@ depicts:
 language:
   - "[[Italian]]"
 text: |-
-  Altri fra squadre in fero campo armate
+  ALtri fra squadre in fero campo armate
   Si videro trattar brandi guerrieri:
   Altri di Scettri, e di Corone alteri
-  D’immortal gloria alzar le fronte ornate:
+  D'immortal gloria alzar le fronte ornate:
 
   Ci fu chi per leggiadra alma beltate
   In carte dispiegò saggi pensieri:
   Chi per tragici affetti, aspri, e severi
-  Seppe carte arricchir d’opre laudate.
+  Seppe carte arricchir d'opre laudate.
 
-  Tu ne i Theatri, e ne Ie Scene illustri
-  Ove s’ammira ciò ch’il mondo ha in pregio,
-  Se' guerrier, se t’aggrada, e duce, e amante
+  Tu ne i Theatri, e ne le Scene illustri
+  Ove s’ammira ciò ch'il mondo ha in pregio,
+  Se' guerrier, se t'aggrada, e duce, e amante
 
   Vesti cothurni, e socchi in modi industri,
   E quel ch'è più, e che t’aggiunge fregio:

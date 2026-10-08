@@ -15,9 +15,9 @@ derivative_work:
 subject:
   - "[[praise]]"
   - "[[satire]]"
+  - "[[humorous poetry]]"
 poetic_type:
   - "[[sonnet]]"
-  - "[[humorous poetry]]"
 metre:
   - "[[hendecasyllable]]"
   - "[[heptasyllable]]"

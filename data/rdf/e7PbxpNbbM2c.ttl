@@ -9,38 +9,38 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:e7PbxpNbbM2c-HfcsKHE9a8so a rdf:Statement ;
+adi:e7PbxpNbbM2c-5hGUFoMFgd6S a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
     wdt:P291 adi:64m48iDXC7Fc ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
-    rdf:object "N27d69359d9f446f1bec76e8931fbf586" ;
+    rdf:object "N363f7a0fef674161be2ab2a56cb04f17" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:e7PbxpNbbM2c ;
     schema:datePublished "1585" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
 
-adi:e7PbxpNbbM2c-SmFrMEhxLDjk a rdf:Statement ;
+adi:e7PbxpNbbM2c-AHVfARLsZENm a rdf:Statement ;
+    dcterms:publisher adi:mzVqud2uGYeD ;
+    wdt:P291 adi:64m48iDXC7Fc,
+        adi:M4CDHkHzJWTe ;
+    rdf:object "Nea3dd689236c4720b57d991498789862" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:e7PbxpNbbM2c ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
+
+adi:e7PbxpNbbM2c-V2BrUBtwsfzT a rdf:Statement ;
     dcterms:references adi:AwpgRUaYkZWy,
         adi:LFnX7JTYkXgP ;
     rdf:object "1583" ;
     rdf:predicate <> ;
     rdf:subject adi:e7PbxpNbbM2c .
 
-adi:e7PbxpNbbM2c-YxDtat353Gsc a rdf:Statement ;
+adi:e7PbxpNbbM2c-aHDHtSXsRdvr a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:F5twPYgd9Q3X ;
     rdf:predicate <> ;
     rdf:subject adi:e7PbxpNbbM2c .
-
-adi:e7PbxpNbbM2c-g3oqiyzjLnLJ a rdf:Statement ;
-    dcterms:publisher adi:mzVqud2uGYeD ;
-    wdt:P291 adi:64m48iDXC7Fc,
-        adi:M4CDHkHzJWTe ;
-    rdf:object "N7f5f20b878194a309c1ea49c8d5427fb" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:e7PbxpNbbM2c ;
-    schema:datePublished "1585" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
 
 adi:e7PbxpNbbM2c a rdfs:Resource ;
     rdfs:label "De gli eroici furori" ;

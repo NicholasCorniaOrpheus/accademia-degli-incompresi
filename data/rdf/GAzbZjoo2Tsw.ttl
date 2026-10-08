@@ -7,29 +7,29 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:GAzbZjoo2Tsw-CwRh9TRojzy8 a rdf:Statement ;
+adi:GAzbZjoo2Tsw-AZx7eQqDNBzW a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:FXzUPxdeUC5F ;
+    rdf:predicate <> ;
+    rdf:subject adi:GAzbZjoo2Tsw .
+
+adi:GAzbZjoo2Tsw-TG4cCt8GFWn3 a rdf:Statement ;
     bf:Role adi:CNFHvCWXHzEW ;
     rdf:object adi:UN6USeofUGes ;
     rdf:predicate <> ;
     rdf:subject adi:GAzbZjoo2Tsw .
 
-adi:GAzbZjoo2Tsw-KcZDgsvzs33V a rdf:Statement ;
+adi:GAzbZjoo2Tsw-ayEsNkEW48HW a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758155> ;
     bf:heldBy adi:T648K9QCGaj9 ;
     dcterms:publisher adi:QTdxXEAT2EFy ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758155/manifest> ;
-    rdf:object "N49cd76d716d74887b6999777988bf9e2" ;
+    rdf:object "N46b6178eda984a6288e8a29d4d9c7654" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:GAzbZjoo2Tsw ;
     schema:datePublished "1621" ;
     schema:url <http://id.sbn.it/bid/VEAE003647> .
-
-adi:GAzbZjoo2Tsw-QmiWQuPzkXjj a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:FXzUPxdeUC5F ;
-    rdf:predicate <> ;
-    rdf:subject adi:GAzbZjoo2Tsw .
 
 adi:GAzbZjoo2Tsw a rdfs:Resource ;
     rdfs:label "La Venetia edificata" ;

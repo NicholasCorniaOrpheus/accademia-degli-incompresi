@@ -1,0 +1,11 @@
+title = "Alma mia fiamm'et donna"
+madrigal_book = "Dialogo della musica di ,. Anton Francesco Doni"
+year = "1544"
+composer = "Claudio Veggio"
+publisher="Girolamo Scotto"
+poet = "Pietro Aretino"
+collection = ""
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "A"
+page_size = #22
+orientation = #'portrait

@@ -6,6 +6,7 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - Lasso la bella fera
 instance_of:
   - "[[poem]]"
 contributor:

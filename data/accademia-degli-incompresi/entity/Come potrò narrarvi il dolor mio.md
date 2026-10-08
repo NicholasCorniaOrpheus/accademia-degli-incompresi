@@ -38,7 +38,7 @@ text: |-
   Ch'ogni cosa di me pongo in oblio?
 
   Ma voi, che nel mio petto,
-  Eterno albergo bavete
+  Eterno albergo havete
   E'l mio martir vedete,
   Perché non provedete,
   O ch'io non provi quel martir assente;

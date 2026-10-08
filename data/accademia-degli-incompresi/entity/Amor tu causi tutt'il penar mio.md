@@ -24,7 +24,7 @@ text: |-
   Che se tu dessi effetto al mio desio,
   Havrei ne i danni pur qualche ristoro.
   Ma tu se' ingiusto & lusinghiero Iddio;
-  E sei cagion, che per amare io moro.
+  Et sei cagion, che per amare io moro.
   Che se il mio stato con giustitia guardi,
   A pena havuto io n'ho parole & sguardi.
 language: "[[Italian]]"

@@ -6,6 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q331003
 described_by_source:
   - "[[(Bolzoni 2004)]]"
+  - "[[(Robinson 2003)]]"
 gender: "[[male]]"
 work_location:
 member_of:
@@ -22,6 +23,9 @@ related_to:
       - "[[(Artese 1983)]]"
 notable_work:
 interested_in:
+  - value: "[[iconology]]"
+    reference:
+      - "[[(Robinson 2003)]]"
   - value: "[[hermeticism]]"
   - value: "[[art of memory]]"
   - value: "[[ars combinatoria]]"

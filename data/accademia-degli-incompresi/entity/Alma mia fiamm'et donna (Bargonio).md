@@ -28,7 +28,6 @@ instrumentation:
     value: "[[cantus]]"
 local_asset_path: ./assets/music_compositions/bargonio-alma_mia_fiamm'et_donna
 based_on:
-  - value: "[[Madonna hor che direte]]"
 derivative_work:
 text: |-
   Alma mia fiamm'et donna

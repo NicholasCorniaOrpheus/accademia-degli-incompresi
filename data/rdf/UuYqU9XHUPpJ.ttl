@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:UuYqU9XHUPpJ-CphmJHBmjazc a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:UuYqU9XHUPpJ .
+
+adi:UuYqU9XHUPpJ-f8mjQB3KDtVE a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:UuYqU9XHUPpJ ;
+    ns1:P958 "Canto XXXII, 21" .
+
+adi:UuYqU9XHUPpJ a rdfs:Resource ;
+    rdfs:label "Ma di che debbo lamentarmi ahi lassa" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Ma di chi debbo lamentarmi, ahi lassa,
+Fuor che del mio desire irrazionale?
+Ch'alto mi leva, e sì ne l'aria passa,
+Ch'arriva in parte ove s'abbruggian l'ale;
+Poi non potendo sostener, mi lassa
+Dal ciel cader: né qui finisse il male;
+Che le rimette, e di novo arde: ond'io
+Non ho mai fine al precipizio mio.""" ;
+    dc:subject adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F019830000101_PPPP00015400C>,
+        <https://versologie.cz/poetree/browser/poem?corpus=it&id_poem=26619> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:3azdbWZGxLUz,
+        adi:PD77VU2hvP2t ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

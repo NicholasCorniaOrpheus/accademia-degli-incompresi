@@ -7,23 +7,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:TzF2HSVyG242-foWZhXdtspjC a rdf:Statement ;
+adi:TzF2HSVyG242-9kZVfmsTjyqx a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aMwmQ8m4Zvc6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:TzF2HSVyG242 .
+
+adi:TzF2HSVyG242-fRpJYBALq58v a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10686422> ;
     bf:heldBy adi:T648K9QCGaj9 ;
     dcterms:publisher adi:ZLn523xBy7Sp ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10686422/manifest> ;
-    rdf:object "N6e2adbc910ad44cfa1e966e67796b56c" ;
+    rdf:object "N626a8a9587234739917f5903aa395dbf" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:TzF2HSVyG242 ;
     schema:datePublished "1607" ;
     schema:url <http://id.sbn.it/bid/RMLE031635> .
-
-adi:TzF2HSVyG242-hJTAcPLUkLvD a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:aMwmQ8m4Zvc6 ;
-    rdf:predicate <> ;
-    rdf:subject adi:TzF2HSVyG242 .
 
 adi:TzF2HSVyG242 a rdfs:Resource ;
     rdfs:label "Le bravure del capitano Spavento" ;

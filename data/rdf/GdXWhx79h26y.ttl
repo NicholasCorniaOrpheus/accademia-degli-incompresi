@@ -7,29 +7,29 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:GdXWhx79h26y-JgLotfXw8e8N a rdf:Statement ;
+adi:GdXWhx79h26y-JLWs6YAULtLU a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:GdXWhx79h26y .
+
+adi:GdXWhx79h26y-X7R5RLtfQZme a rdf:Statement ;
     bf:Note "Final edition, including extra canti." ;
     wdt:P291 adi:S2MpkiMWKU5X ;
-    rdf:object "N8d49079fa6284522be9e1def4357afeb" ;
+    rdf:object "N467a3a54c4644687ae86fcc473356431" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:GdXWhx79h26y ;
     schema:datePublished "1532" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002566> .
 
-adi:GdXWhx79h26y-JkCdNiVZ5N5u a rdf:Statement ;
+adi:GdXWhx79h26y-btDvZsALE3ot a rdf:Statement ;
     bf:Note "First edtion." ;
     wdt:P291 adi:S2MpkiMWKU5X ;
-    rdf:object "Nf5a977e36e5741dbbc1b42f662f6e31a" ;
+    rdf:object "Ne9be754652d148c8978319713cadab99" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:GdXWhx79h26y ;
     schema:datePublished "1516" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002541> .
-
-adi:GdXWhx79h26y-hfrzGCn8e59F a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:3tBDveUQba76 ;
-    rdf:predicate <> ;
-    rdf:subject adi:GdXWhx79h26y .
 
 adi:GdXWhx79h26y a rdfs:Resource ;
     rdfs:label "Orlando furioso" ;

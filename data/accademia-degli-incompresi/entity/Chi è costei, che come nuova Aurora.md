@@ -15,7 +15,7 @@ contributor:
 part_of:
   - volume: 2
     pages: 7
-    value: "[[De le rime di diuersi nobili poeti toscani, raccolte da m. Dionigi Atanagi]]"
+    value: "[[De le rime di diversi nobili poeti toscani, raccolte da m. Dionigi Atanagi]]"
 local_asset_path: ./assets/poems/chi_è_costei,_che_come_nuova_aurora
 based_on:
 derivative_work:

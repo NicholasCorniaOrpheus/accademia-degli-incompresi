@@ -40,7 +40,7 @@ text: |-
   Doglia, e sospir, di cui sempre ragiono.
 
   Nemiche fere in loro empie e rapaci
-  S’annidan solo; e nel mio seno alberga
+  S'annidan solo; e nel mio seno alberga
   Idra fera, & Arpia, che'l cor divora.
 
   Godon pur questi le superne faci,

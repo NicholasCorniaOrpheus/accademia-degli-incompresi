@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQjkazyVvnV2",
+      "label": "Madrigali ariosi a quattro voci composti da diversi eccellentissimi autori. Libro secondo",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/igz5Ta6tjbTR",
       "label": "Madrigali a quattro voci, di Francesco Menta",
       "class": "NotatedMusic",
@@ -23,6 +29,12 @@
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kY5u5rPY6hv3",
+      "label": "Era il bel viso suo quale esser suole (Barré)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/noRgAWmjYV8o",
@@ -65,9 +77,19 @@
       "property": "occupation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQjkazyVvnV2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9fNbwzr8q8r3",
+      "property": "has_version"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/igz5Ta6tjbTR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9fNbwzr8q8r3",
       "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kY5u5rPY6hv3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9fNbwzr8q8r3",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AsF7qZKyEXqY",
@@ -75,9 +97,19 @@
       "property": "has_version"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQjkazyVvnV2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hbLMcBia2woA",
+      "property": "has_version"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/igz5Ta6tjbTR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hbLMcBia2woA",
       "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kY5u5rPY6hv3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DQjkazyVvnV2",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AsF7qZKyEXqY",

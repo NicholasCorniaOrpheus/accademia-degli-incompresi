@@ -8,20 +8,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:UBdP5EUpnyuA-N7n47QU8NmNo a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=-DGU1-6fVQ8C> ;
-    wdt:P291 adi:MkrwELwtyXnq ;
-    rdf:object "N4ed9384b5ea84d7284bfb3cc5f551b0c" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:UBdP5EUpnyuA ;
-    schema:datePublished "1639" ;
-    schema:url <http://id.sbn.it/bid/BVEE039218> .
-
-adi:UBdP5EUpnyuA-W4wkRKXGNwNm a rdf:Statement ;
+adi:UBdP5EUpnyuA-RZcMEuSYVuwv a rdf:Statement ;
     bf:Role adi:CgtXMynJGovX ;
     rdf:object adi:P3FnZeYMVUAv ;
     rdf:predicate <> ;
     rdf:subject adi:UBdP5EUpnyuA .
+
+adi:UBdP5EUpnyuA-nuy6aJe7cgRp a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=-DGU1-6fVQ8C> ;
+    wdt:P291 adi:MkrwELwtyXnq ;
+    rdf:object "N138a919d84f2499ea409d4ae50b922e9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:UBdP5EUpnyuA ;
+    schema:datePublished "1639" ;
+    schema:url <http://id.sbn.it/bid/BVEE039218> .
 
 adi:UBdP5EUpnyuA a rdfs:Resource ;
     rdfs:label "Applausi poetici alle glorie della signora Leonora Baroni" ;

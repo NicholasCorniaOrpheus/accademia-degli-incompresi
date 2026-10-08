@@ -39,6 +39,6 @@ text: |-
   All' apparir delle splendenti ruote
   Di questo vivo Sole
   Ogn'un canti, e l'honori,
-  Quello ch' a se per ritenerlo indarno
+  Quello ch'a se per ritenerlo indarno
   Campi, e strade inondò rapido l' Arno.
 ---

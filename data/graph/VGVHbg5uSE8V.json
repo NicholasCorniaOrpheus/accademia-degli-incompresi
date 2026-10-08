@@ -61,6 +61,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S4ddRVk8PKyg",
+      "label": "S'il Bembo, l'Aretino, il Molza, il Tasso (Veggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixZn2ZSnYiyw",
       "label": "Amar un sol amante è vero amore",
       "class": "PoeticWork",
@@ -77,6 +83,12 @@
       "label": "Progetto Lyra",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RxCwL32a6WWM",
+      "label": "S'il Bembo, l'Aretino, il Molza, il Tasso",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -136,7 +148,17 @@
       "property": "contributor"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S4ddRVk8PKyg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGVHbg5uSE8V",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixZn2ZSnYiyw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGVHbg5uSE8V",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RxCwL32a6WWM",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VGVHbg5uSE8V",
       "property": "contributor"
     },
@@ -191,7 +213,22 @@
       "property": "based_on"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S4ddRVk8PKyg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pU843Lma47u",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S4ddRVk8PKyg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RxCwL32a6WWM",
+      "property": "based_on"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ixZn2ZSnYiyw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MZhwN3rRpy8x",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RxCwL32a6WWM",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MZhwN3rRpy8x",
       "property": "part_of"
     }

@@ -13,6 +13,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fxff6VVcVPuG",
+      "label": "Hypnerotomachia Poliphili",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bxtQcQpdXsKm",
       "label": "hermeticism",
       "class": "Concept",
@@ -29,6 +35,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SAbJgKrWpRYN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bxtQcQpdXsKm",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fxff6VVcVPuG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SAbJgKrWpRYN",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fxff6VVcVPuG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bxtQcQpdXsKm",
+      "property": "subject"
     }
   ]
 }

@@ -1,12 +1,20 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
+adi:8Hc54xeA8ihZ-CNaERL37r2nG a rdf:Statement ;
+    dcterms:references adi:hnvKnHT6Re4X ;
+    rdf:object adi:Bg8thNhhHzC7 ;
+    rdf:predicate <> ;
+    rdf:subject adi:8Hc54xeA8ihZ .
+
 adi:8Hc54xeA8ihZ a rdfs:Resource ;
     rdfs:label "Giulio Camillo" ;
     <> adi:6JKjMpUiERee,
+        adi:Bg8thNhhHzC7,
         adi:YhKrNQitoXh8,
         adi:bxtQcQpdXsKm,
         adi:jjYHNotSf9rt,
@@ -14,7 +22,8 @@ adi:8Hc54xeA8ihZ a rdfs:Resource ;
         "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bdwM987NK5hr" ;
     dcterms:identifier <http://www.wikidata.org/entity/Q331003> ;
     dcterms:type "Agent" ;
-    wdt:P1343 adi:DnqfDbSMBwP8 ;
+    wdt:P1343 adi:DnqfDbSMBwP8,
+        adi:hnvKnHT6Re4X ;
     wdt:P31 adi:7QQEUQkpdvkV ;
     schema:gender adi:8UjQ7UabobgD .
 

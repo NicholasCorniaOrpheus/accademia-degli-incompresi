@@ -42,13 +42,14 @@ text: |-
   In pace, in guerra, da dover, per gioco,
   Criando caldo, e gel, doglie, e diletti,
   Risi, pianti, sospir, spemi, e sospetti,
-  Vivo, e morto rendendo, aitante, e fioco:
+  Vivo, e morto rendendo, aitante, e fioco;
 
-  In me sien ispuntati, rotte, e spento,
+  In me fien ispuntati, rotte, e spento,
   Che questo cor, quest' alma, e questo petto
   È ferito, e avinta, e consumato.
 
   Che più acuti, più salde, e più infiammato
   Strali, catene, foco ser l'effetto;
-  Onde men vivo altier, lieto, e contento.
+  Onde men vivo altier, lieto, & contento.
 ---
+o

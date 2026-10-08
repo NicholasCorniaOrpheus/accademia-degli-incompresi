@@ -8,24 +8,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:ADpnj9NrG7LM-Nzp5QC6demez a rdf:Statement ;
-    rdf:object adi:SifJFtUcR76e ;
-    rdf:predicate <> ;
-    rdf:subject adi:ADpnj9NrG7LM ;
-    ns1:P958 "Pasquino a li Lettori Sopra L'Astolfeida del Divino Pietro Aretino" .
-
-adi:ADpnj9NrG7LM-oY5qYabauzcf a rdf:Statement ;
+adi:ADpnj9NrG7LM-hjfthu2dqffW a rdf:Statement ;
     bf:Role adi:CgtXMynJGovX ;
     rdf:object adi:YXSurDyNHSdr ;
     rdf:predicate <> ;
     rdf:subject adi:ADpnj9NrG7LM .
 
+adi:ADpnj9NrG7LM-oAsoGFjbYpuA a rdf:Statement ;
+    rdf:object adi:SifJFtUcR76e ;
+    rdf:predicate <> ;
+    rdf:subject adi:ADpnj9NrG7LM ;
+    ns1:P958 "Pasquino a li Lettori Sopra L'Astolfeida del Divino Pietro Aretino" .
+
 adi:ADpnj9NrG7LM a rdfs:Resource ;
     rdfs:label "Alme amorose, & spirti peregrini" ;
     <> adi:SifJFtUcR76e,
         adi:YXSurDyNHSdr ;
-    pdc:poeticType adi:2zJ3QRUFy4nX,
-        adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
     pdc:text """ALme amorose, & spirti peregrini
 Voi che svegliate al'alte imprese il cuore
 Del Divino Aretin, pur hor vien fuore
@@ -80,7 +79,8 @@ Lettori oltre v'invito.
 
 Lieti a cantar d'Amor fra l'Erbe e Fiori
 Sì bel Poema spasso a gentil Cuori.""" ;
-    dc:subject adi:iWMn6FHJ2W74,
+    dc:subject adi:2zJ3QRUFy4nX,
+        adi:iWMn6FHJ2W74,
         adi:ndYmAKz88N5Q ;
     dcterms:type "PoeticWork" ;
     wdt:P1343 adi:iFXJgwZy2vLK ;

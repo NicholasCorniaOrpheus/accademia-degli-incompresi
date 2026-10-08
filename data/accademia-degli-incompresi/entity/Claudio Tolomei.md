@@ -18,6 +18,10 @@ member_of:
     role: "[[founder]]"
 occupation:
 related_to:
+  - value: "[[Marcantonio Flaminio]]"
+    relationship: "[[translator]]"
+    reference:
+      - "[[(Comiati 2019)]]"
 notable_work:
   - "[[Giuoco delle Virtù]]"
 interested_in:

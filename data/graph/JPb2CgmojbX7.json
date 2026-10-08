@@ -37,6 +37,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AarfY7cmr9RE",
+      "label": "Quando leva costei gli occhi dolenti (Fiesco)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kb5gntNZyWxt",
       "label": "Con quai giri lascivetti",
       "class": "PoeticWork",
@@ -47,6 +53,12 @@
       "label": "La bella Urania mia (Coma)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PBJzyohJ4tz4",
+      "label": "E dove non potea la debil voce",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -76,12 +88,22 @@
       "property": "subject"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AarfY7cmr9RE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPb2CgmojbX7",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Kb5gntNZyWxt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPb2CgmojbX7",
       "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqfo5hpcUfVH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPb2CgmojbX7",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PBJzyohJ4tz4",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPb2CgmojbX7",
       "property": "depicts"
     }

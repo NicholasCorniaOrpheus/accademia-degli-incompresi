@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:DQjkazyVvnV2-2fj787hqhrpw a rdf:Statement ;
+    bf:Note "Reprint" ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00075412> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00075412/manifest> ;
+    rdf:object "N9b6bb261822948c586247021166ecb33" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:DQjkazyVvnV2 ;
+    schema:datePublished "1560" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE044596> .
+
+adi:DQjkazyVvnV2-4mwWGF8LJChj a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQjkazyVvnV2 .
+
+adi:DQjkazyVvnV2-U42wy89qjmHk a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQjkazyVvnV2 .
+
+adi:DQjkazyVvnV2-ao4YyhxFjZmM a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R203/> ;
+    dcterms:publisher adi:9fNbwzr8q8r3 ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "N8e2214e427dd4349bc0aab05b8c1b8ff" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:DQjkazyVvnV2 ;
+    schema:datePublished "1558" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045479> .
+
+adi:DQjkazyVvnV2-dkg9oQdg27GN a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQjkazyVvnV2 .
+
+adi:DQjkazyVvnV2-eQgN3rGm5LiQ a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:DQjkazyVvnV2 .
+
+adi:DQjkazyVvnV2 a rdfs:Resource ;
+    rdfs:label "Madrigali ariosi a quattro voci composti da diversi eccellentissimi autori. Libro secondo" ;
+    <> "1558" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE044596>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV51030010>,
+        <https://rism.online/sources/993120246> ;
+    dcterms:title "Madrigali ariosi a quatro voci composti da diversi eccellentissimi autori, novamente con somma diligentia stamparti" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

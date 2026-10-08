@@ -16,7 +16,7 @@ contributor:
 part_of:
   - volume: 2
     pages: 98
-    value: "[[De le rime di diuersi nobili poeti toscani, raccolte da m. Dionigi Atanagi]]"
+    value: "[[De le rime di diversi nobili poeti toscani, raccolte da m. Dionigi Atanagi]]"
 local_asset_path: ./assets/poems/quando_il_sol_torna_al_cancro,_e_cangiat'hanno
 based_on:
 derivative_work:

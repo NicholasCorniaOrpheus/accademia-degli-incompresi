@@ -7,6 +7,7 @@ identifier:
 described_by_source:
 image:
 aliases:
+  - strambotto
 instance_of:
   - "[[poetic form]]"
 subclass_of:

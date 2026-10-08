@@ -22,8 +22,22 @@ has_version:
       - "[[Venezia]]"
     external_source: https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080490
     note: The partbooks miss pages 19-22.
+    IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00080490/manifest
+    holding_institution: "[[Munich Digitization Center]]"
 contributor:
+  - role: "[[composer]]"
+    value: "[[Bartolomeo Spontone]]"
 subject:
 has_part:
 instrumentation:
+  - quantity: 1
+    value: "[[quintus]]"
+  - quantity: 1
+    value: "[[bassus]]"
+  - quantity: 1
+    value: "[[tenor]]"
+  - quantity: 1
+    value: "[[altus]]"
+  - quantity: 1
+    value: "[[cantus]]"
 ---

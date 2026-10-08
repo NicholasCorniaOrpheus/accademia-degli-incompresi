@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aPoKbiyVVgPF-R82kRGxbYEdb a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:aPoKbiyVVgPF .
+
+adi:aPoKbiyVVgPF-m2UgmeqwNFpN a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:aPoKbiyVVgPF ;
+    ns1:P958 "Canto XI, 65" .
+
+adi:aPoKbiyVVgPF a rdfs:Resource ;
+    rdfs:label "Era il bel viso suo quale esser suole" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Era il bel viso suo, quale esser suole
+Da primavera alcuna volta il cielo,
+Quando la pioggia cade, e a un tempo il sole
+Si sgombra intorno il nubiloso velo.
+E come il rosignuol dolci carole
+Mena nei rami alor del verde stelo,
+Così alle belle lagrime le piume
+Si bagna Amore, e gode al chiaro lume.""" ;
+    dc:subject adi:KuorvRGvXbTz,
+        adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F019050000101_PPPP00015400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CLmtCZLTvT24,
+        adi:MfBWzgNTqiki,
+        adi:VFabTiMFEU5U,
+        adi:d2QjJCcEtkiC ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

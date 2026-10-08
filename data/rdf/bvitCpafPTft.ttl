@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bvitCpafPTft-JxewRY2mfDmV a rdf:Statement ;
+    dcterms:references adi:FTrpmMNgtXU9 ;
+    rdf:object adi:XdigZy4zTaZG ;
+    rdf:predicate <> ;
+    rdf:subject adi:bvitCpafPTft .
+
+adi:bvitCpafPTft-ax4qmbteoWHi a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:JptkH6PJEE5Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:bvitCpafPTft .
+
+adi:bvitCpafPTft-crzpZbjZtvs3 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=4h14N2Y2Qx0C> ;
+    dcterms:publisher adi:gEirAnjGirk8 ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "Nd9e5708394b343e58fa9e5570cd7728e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:bvitCpafPTft ;
+    schema:datePublished "1552" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE009628> .
+
+adi:bvitCpafPTft a rdfs:Resource ;
+    rdfs:label "Carmina M. Antonii Flaminii" ;
+    <> adi:GFFt3W3Ertgn,
+        adi:JptkH6PJEE5Z,
+        adi:XdigZy4zTaZG,
+        "1552" ;
+    dc:subject adi:5RYVLh7yR4s6,
+        adi:BPi2MMDNAKWM ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE009628> ;
+    dcterms:title "Carmina quinque illustrium poetarum quorum nomina in sequenti pagina continentur. Additis nonnullis M. Antonii Flaminii libellis numquam antea impressis" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:FTrpmMNgtXU9 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:KAkMZBpLwrNE .
+

@@ -1,0 +1,65 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:V2bbApL6DA8h-48LtZtBfMfBR a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00071910> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00071910/manifest> ;
+    rdf:object "Nfd95878f889b483aa24de9a38719918b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:V2bbApL6DA8h ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036909> .
+
+adi:V2bbApL6DA8h-9gk7tTcBPDV6 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:V2bbApL6DA8h .
+
+adi:V2bbApL6DA8h-CHTeRKjYnyLe a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:V2bbApL6DA8h .
+
+adi:V2bbApL6DA8h-bVitsyWbw5Si a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:V2bbApL6DA8h .
+
+adi:V2bbApL6DA8h-eCMsWJ4cQT8w a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:V2bbApL6DA8h .
+
+adi:V2bbApL6DA8h-hVgWg5WhRrgS a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U046/> ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N62a9f213d7cb4e0ca9a0c04d325e70dc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:V2bbApL6DA8h ;
+    schema:datePublished "1547" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE036909> .
+
+adi:V2bbApL6DA8h a rdfs:Resource ;
+    rdfs:label "Primo libro dei madrigali a quattro voci di Perissone Cambio" ;
+    <> "1547" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE036909>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV03960010>,
+        <https://rism.online/sources/993104509> ;
+    dcterms:title "Primo libro dei madrigali a quatro voci di Perissone Cambio con alcuni di Cipriano Rore nouamente composti et posti in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

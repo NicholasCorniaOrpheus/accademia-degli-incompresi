@@ -1,0 +1,58 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jxzLaQPw7579-9EszMnuyNmij a rdf:Statement ;
+    rdf:object adi:8J56wkxBGd7m ;
+    rdf:predicate <> ;
+    rdf:subject adi:jxzLaQPw7579 ;
+    ns1:P304 "13" ;
+    ns1:P958 "Battista Guarino." .
+
+adi:jxzLaQPw7579-MMhExrLdro5A a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:a3fxbFBpFjK2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:jxzLaQPw7579 .
+
+adi:jxzLaQPw7579 a rdfs:Resource ;
+    rdfs:label "Fede, che nel mio cor t'hai fatto un tempio" ;
+    <> adi:8J56wkxBGd7m,
+        adi:a3fxbFBpFjK2 ;
+    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:text """FEDE, che nel mio cor t'hai fatto un tempio,
+Qual mai non ebbe il già ben culto Egitto,
+Ch'al gran stuolo d'Amor errante afflitto
+S'erge felice e glorioso esempio:
+
+Poiché fra le ruine, e 'l duro scempio,
+Che'n me fa l'amoroso aspro conflitto,
+Tanto più saldo ogn'hor sorge, & invitto,
+Quanto più forte è'l mio nemico, & empio.
+
+In lui, perché tu Dea l'haggia in governo,
+L'altar de la mia fiamma ergo, e consacro,
+Che da te sola attende alto soccorso.
+
+Tu la ristaura sì, ch'arda in eterno,
+Che qual di Meleagro il tronco sacro
+Questa prescrive a la mia vita il corso.""" ;
+    dc:subject adi:99cprNhigxtK,
+        adi:KuorvRGvXbTz ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F032190000101_PPPP00148700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:2DzHeWo2XRn4,
+        adi:ZG5BbJmkSadn,
+        adi:ayT4LLTFANU8,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

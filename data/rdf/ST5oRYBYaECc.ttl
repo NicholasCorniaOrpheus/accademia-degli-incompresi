@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ST5oRYBYaECc-6WMvoN2xBrcc a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:LPHADK8uzebY ;
+    rdf:predicate <> ;
+    rdf:subject adi:ST5oRYBYaECc .
+
+adi:ST5oRYBYaECc-cJnsxCq43cqY a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/achillisbocchiib00boc> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "N8a4bdd8aec104994b9715088d3fca412" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ST5oRYBYaECc ;
+    schema:datePublished "1574" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE006484> .
+
+adi:ST5oRYBYaECc a rdfs:Resource ;
+    rdfs:label "Achillis Bocchii Bonon. Symbolicarum quaestionum" ;
+    <> adi:LPHADK8uzebY,
+        "1555" ;
+    dc:subject adi:B7dYQES7bzgL,
+        adi:Bg8thNhhHzC7,
+        adi:YhKrNQitoXh8 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE006484> ;
+    dcterms:title "Achillis Bocchii Bonon. Symbolicarum quaestionum de vniuerso genere quas serio ludebat libri quinque" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:hnvKnHT6Re4X ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:9w8iYcz955Kd .
+

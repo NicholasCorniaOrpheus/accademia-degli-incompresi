@@ -5,18 +5,18 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3GL3Dt8fNHA5-XFfxLcxBPuqy a rdf:Statement ;
+adi:3GL3Dt8fNHA5-bnEkUcFHsTJX a rdf:Statement ;
+    dcterms:references adi:4usXbncM6hhD ;
+    rdf:object adi:4gDUdsQ3zgkL ;
+    rdf:predicate <> ;
+    rdf:subject adi:3GL3Dt8fNHA5 .
+
+adi:3GL3Dt8fNHA5-frJn54WygJEM a rdf:Statement ;
     dcterms:references adi:SrWTCERreeEv ;
     rdf:object adi:Nx8bqYnm9d6V ;
     rdf:predicate <> ;
     rdf:subject adi:3GL3Dt8fNHA5 ;
     schema:startDate "1575" .
-
-adi:3GL3Dt8fNHA5-faa6nCdSEnDi a rdf:Statement ;
-    dcterms:references adi:4usXbncM6hhD ;
-    rdf:object adi:4gDUdsQ3zgkL ;
-    rdf:predicate <> ;
-    rdf:subject adi:3GL3Dt8fNHA5 .
 
 adi:3GL3Dt8fNHA5 a rdfs:Resource ;
     rdfs:label "Eleanor of Toledo" ;

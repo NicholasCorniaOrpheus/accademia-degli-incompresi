@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fxff6VVcVPuG-b9SV5BRpQMso a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k853750j> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k853750j/manifest.json> ;
+    rdf:object "Ncf32ea792c1449368aa24145ecff1e88" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:fxff6VVcVPuG ;
+    schema:datePublished "1499" ;
+    schema:url <http://catalogue.bnf.fr/ark:/12148/cb30260288r> .
+
+adi:fxff6VVcVPuG-iHhCKiWCMVLf a rdf:Statement ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    rdf:object "Ne17cb1baf628472da69c6d4b5df03856" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:fxff6VVcVPuG .
+
+adi:fxff6VVcVPuG-mmE4wKmSn4cG a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:AUzHtd9yLawe ;
+    rdf:predicate <> ;
+    rdf:subject adi:fxff6VVcVPuG .
+
+adi:fxff6VVcVPuG a rdfs:Resource ;
+    rdfs:label "Hypnerotomachia Poliphili" ;
+    <> adi:AUzHtd9yLawe,
+        "1499" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:YhKrNQitoXh8,
+        adi:bxtQcQpdXsKm ;
+    dcterms:identifier <http://catalogue.bnf.fr/ark:/12148/cb30260288r> ;
+    dcterms:title "Hypnerotomachia Poliphili" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:hnvKnHT6Re4X ;
+    wdt:P870 adi:KAkMZBpLwrNE,
+        adi:SWcRtJL3j4dn .
+

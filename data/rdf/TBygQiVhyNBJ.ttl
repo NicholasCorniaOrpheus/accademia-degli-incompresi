@@ -3,21 +3,28 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:TBygQiVhyNBJ-3aEanu7zyQHU a rdf:Statement ;
+adi:TBygQiVhyNBJ-DeC6PEPQWhUo a rdf:Statement ;
     dcterms:references adi:RrWtiYpwdJp2 ;
     rdf:object "1562" ;
     rdf:predicate <> ;
     rdf:subject adi:TBygQiVhyNBJ .
 
-adi:TBygQiVhyNBJ-ZkVrjZneXZKX a rdf:Statement ;
+adi:TBygQiVhyNBJ-KxaNrVnq4xcd a rdf:Statement ;
+    rdf:object adi:LPHADK8uzebY ;
+    rdf:predicate <> ;
+    rdf:subject adi:TBygQiVhyNBJ ;
+    schema:OrganizationRole adi:VQtqbRoGY6GZ .
+
+adi:TBygQiVhyNBJ-LEifR9cz5F6n a rdf:Statement ;
     bf:heldBy adi:RrWtiYpwdJp2 ;
     rdf:object "16" ;
     rdf:predicate <> ;
     rdf:subject adi:TBygQiVhyNBJ .
 
-adi:TBygQiVhyNBJ-j78TKSARNMNE a rdf:Statement ;
+adi:TBygQiVhyNBJ-bKjrt9pq7rh4 a rdf:Statement ;
     dcterms:references adi:RrWtiYpwdJp2 ;
     rdf:object "1546" ;
     rdf:predicate <> ;
@@ -25,7 +32,8 @@ adi:TBygQiVhyNBJ-j78TKSARNMNE a rdf:Statement ;
 
 adi:TBygQiVhyNBJ a rdfs:Resource ;
     rdfs:label "Accademia Bocchiana di Bologna" ;
-    <> adi:m5jx85vV2PXo ;
+    <> adi:LPHADK8uzebY,
+        adi:m5jx85vV2PXo ;
     dcterms:type "Organisation" ;
     wdt:P31 adi:mhxiWoDeBKmm .
 

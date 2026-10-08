@@ -7,30 +7,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Z9duo2E3Kj9Z-4EXZ2DPrrZXn a rdf:Statement ;
-    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10184585> ;
-    bf:heldBy adi:T648K9QCGaj9 ;
+adi:Z9duo2E3Kj9Z-CFxCvTL3jmEr a rdf:Statement ;
     wdt:P291 adi:3itm2rqDGnBv ;
-    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10184585/manifest> ;
-    rdf:object "N34ad34331b474f82a0b75b4b397085bf" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:Z9duo2E3Kj9Z ;
-    schema:datePublished "1583" ;
-    schema:url <https://mdz-nbn-resolving.de/details:bsb10184585> .
-
-adi:Z9duo2E3Kj9Z-8M3DyP6yfUok a rdf:Statement ;
-    wdt:P291 adi:3itm2rqDGnBv ;
-    rdf:object "Nbd7e97d45e904b93bd4fa6dcce1018f9" ;
+    rdf:object "N9f1ccb031acc4fbba9cd77b779b4f87b" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:Z9duo2E3Kj9Z ;
     schema:datePublished "1568" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE071679> .
 
-adi:Z9duo2E3Kj9Z-ZEQSAnipJATZ a rdf:Statement ;
+adi:Z9duo2E3Kj9Z-QL8ajgPz2NGj a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:6reZ2YwsToYC ;
     rdf:predicate <> ;
     rdf:subject adi:Z9duo2E3Kj9Z .
+
+adi:Z9duo2E3Kj9Z-mYiK5C5ZvsKJ a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10184585> ;
+    bf:heldBy adi:T648K9QCGaj9 ;
+    wdt:P291 adi:3itm2rqDGnBv ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10184585/manifest> ;
+    rdf:object "Ndfd7b44f8a714b71aa7058b158543caa" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Z9duo2E3Kj9Z ;
+    schema:datePublished "1583" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10184585> .
 
 adi:Z9duo2E3Kj9Z a rdfs:Resource ;
     rdfs:label "L'ore di ricreazione di M. Lodovico Guicciardini" ;

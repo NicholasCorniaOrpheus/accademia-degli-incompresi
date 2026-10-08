@@ -6,23 +6,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KwrPfTNGrnKT-659KGpodT5TU a rdf:Statement ;
+adi:KwrPfTNGrnKT-GQ5pmSXZtcWu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZcWT5Zdy9Zwp ;
+    rdf:predicate <> ;
+    rdf:subject adi:KwrPfTNGrnKT .
+
+adi:KwrPfTNGrnKT-db4um4HdcQuU a rdf:Statement ;
     bf:electronicLocator <https://viewer.onb.ac.at/10A54EDC/> ;
     bf:heldBy adi:CEMJGhgpCq9k ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10A54EDC> ;
-    rdf:object "N589bf0fbe96a49eb845c55e51a4bfdac" ;
+    rdf:object "N8c867bd6d92d4ea995bfcbac19478b54" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:KwrPfTNGrnKT ;
     schema:datePublished "1547" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE026060> .
-
-adi:KwrPfTNGrnKT-eq3Hv85kYb8H a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:ZcWT5Zdy9Zwp ;
-    rdf:predicate <> ;
-    rdf:subject adi:KwrPfTNGrnKT .
 
 adi:KwrPfTNGrnKT a rdfs:Resource ;
     rdfs:label "Rime di m. Girolamo Parabosco" ;

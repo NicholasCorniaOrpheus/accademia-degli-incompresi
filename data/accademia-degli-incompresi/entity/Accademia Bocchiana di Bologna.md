@@ -23,6 +23,8 @@ catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 16
 member:
+  - role: "[[founder]]"
+    value: "[[Achille Bocchi]]"
 interested_in:
 notable_work:
 related_to:

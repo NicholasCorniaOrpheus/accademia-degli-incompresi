@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fgYJKz49dfEh-S3RSjZVGmqhy a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:fgYJKz49dfEh .
+
+adi:fgYJKz49dfEh-TKNYRfpaZCen a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:oRzFousoNVsC ;
+    rdf:predicate <> ;
+    rdf:subject adi:fgYJKz49dfEh .
+
+adi:fgYJKz49dfEh a rdfs:Resource ;
+    rdfs:label "E dove non potea la debil voce (Spontone)" ;
+    <> adi:3tBDveUQba76,
+        adi:PBJzyohJ4tz4,
+        adi:ZJdFogZ46Foa,
+        adi:oRzFousoNVsC ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F094420001010101_000000231100> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

@@ -7,27 +7,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:9QoPVnbEVYau-6L4uR7QUrpW2 a rdf:Statement ;
-    dcterms:references adi:A7K8FzhUQ2Bq ;
-    rdf:object "1619" ;
-    rdf:predicate <> ;
-    rdf:subject adi:9QoPVnbEVYau .
+adi:9QoPVnbEVYau-6mwamuve2Fjk a rdf:Statement ;
+    bf:Note "Anthology edited and commented by Anton Maria Salvini, including the comedy Tancia." ;
+    bf:electronicLocator <https://books.google.be/books?id=Gz4PzOlrHEcC> ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N9fa296aca1ad48bc8d3da173eed06b31" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9QoPVnbEVYau ;
+    schema:datePublished "1726" ;
+    schema:url <http://id.sbn.it/bid/RAVE008911> .
 
-adi:9QoPVnbEVYau-BZcMwdNPsG4n a rdf:Statement ;
+adi:9QoPVnbEVYau-Vn3KEPN3rmrZ a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:cvdLbyZACRyK ;
     rdf:predicate <> ;
     rdf:subject adi:9QoPVnbEVYau .
 
-adi:9QoPVnbEVYau-WKzMBNHZYQng a rdf:Statement ;
-    bf:Note "Anthology edited and commented by Anton Maria Salvini, including the comedy Tancia." ;
-    bf:electronicLocator <https://books.google.be/books?id=Gz4PzOlrHEcC> ;
-    wdt:P291 adi:mT3aY8t7yatb ;
-    rdf:object "N1e6afb197e6a405c8496b8e6b1c038e1" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:9QoPVnbEVYau ;
-    schema:datePublished "1726" ;
-    schema:url <http://id.sbn.it/bid/RAVE008911> .
+adi:9QoPVnbEVYau-ZUFVSwLLL7NJ a rdf:Statement ;
+    dcterms:references adi:A7K8FzhUQ2Bq ;
+    rdf:object "1619" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9QoPVnbEVYau .
 
 adi:9QoPVnbEVYau a rdfs:Resource ;
     rdfs:label "La Fiera" ;

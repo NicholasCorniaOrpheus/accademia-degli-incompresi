@@ -22,29 +22,11 @@ local_asset_path: ./assets/music_compositions/casulana-monti_selve_fontane_piagg
 based_on:
   - value: "[[Monti selve fontane piagg'e sassi]]"
 derivative_work:
-text: |-
-  Cinta di fior'un giorno
-  A la riva d'un fiume
-  Sedea la nimpha mia pescand'al'onde
-  E gli augellett'intorno
-  E gli arbor'e le fronde
-  Facean cantando fest'al suo bel lume
-  E non s'udivan venti
-  Al suon d'i dolc'accenti
-  Mentre lieta cantando
-  S'accordan l'onde seco mormorando.
-language: "[[Italian]]"
+text:
+language:
 subject:
-  - "[[pastoral]]"
-  - "[[music making]]"
 digitized:
-poetic_type: "[[madrigale]]"
+poetic_type:
 depicts:
-  - "[[nymph]]"
-  - "[[tree]]"
-  - "[[songbird]]"
-  - "[[singing]]"
 metre:
-  - "[[heptasyllable]]"
-  - "[[hendecasyllable]]"
 ---

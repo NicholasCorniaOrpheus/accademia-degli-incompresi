@@ -34,7 +34,7 @@ depicts:
   - "[[oath]]"
 language: "[[Italian]]"
 text: |-
-  Amorosa mia Clori
+  AMorosa mia Clori
   Se ti rimembra un bacio mi donasti
   Lungo questo bel Rio tra questi fiori;
   E s'io tacea giurasti,

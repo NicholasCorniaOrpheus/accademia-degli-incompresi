@@ -7,22 +7,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:au2FAKGHhhNM-JLPHPuddggsu a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "7551" ;
-    rdf:predicate <> ;
-    rdf:subject adi:au2FAKGHhhNM .
-
-adi:au2FAKGHhhNM-eh7eDNE5RzH6 a rdf:Statement ;
+adi:au2FAKGHhhNM-AHTtkKSFxwKV a rdf:Statement ;
     rdf:object adi:33fBjU7SLdGj ;
     rdf:predicate <> ;
     rdf:subject adi:au2FAKGHhhNM ;
     schema:OrganizationRole adi:VQtqbRoGY6GZ .
 
+adi:au2FAKGHhhNM-oHAMfzYwBfpA a rdf:Statement ;
+    bf:heldBy adi:RrWtiYpwdJp2 ;
+    rdf:object "7551" ;
+    rdf:predicate <> ;
+    rdf:subject adi:au2FAKGHhhNM .
+
 adi:au2FAKGHhhNM a rdfs:Resource ;
     rdfs:label "Claudio Tolomei" ;
     <> adi:33fBjU7SLdGj,
-        adi:hbLMcBia2woA ;
+        adi:hbLMcBia2woA,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JptkH6PJEE5Z" ;
     dcterms:identifier ns1:Q936722 ;
     dcterms:type "Agent" ;
     wdt:P1343 adi:R8gaAppcmFNh ;

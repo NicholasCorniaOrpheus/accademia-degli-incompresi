@@ -1,0 +1,32 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4jZpZ5GT9hah-QuQUE5KFvs4J a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:a2jfxQLFAvZt ;
+    rdf:predicate <> ;
+    rdf:subject adi:4jZpZ5GT9hah .
+
+adi:4jZpZ5GT9hah-ZrVyAi3A7hhW a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:7n4XrzRnB5Yk ;
+    rdf:predicate <> ;
+    rdf:subject adi:4jZpZ5GT9hah .
+
+adi:4jZpZ5GT9hah a rdfs:Resource ;
+    rdfs:label "Ohimè la bella fera (Layolle)" ;
+    <> adi:6iomzNSxBBEd,
+        adi:7n4XrzRnB5Yk,
+        adi:a2jfxQLFAvZt,
+        adi:bUMhz8G42wna ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F142510000010101_000000136600C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm ;
+    skos:altLabel "Lasso la bella fera (Layolle)" .
+

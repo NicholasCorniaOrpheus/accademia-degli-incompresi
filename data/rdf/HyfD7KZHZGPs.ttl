@@ -9,30 +9,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:HyfD7KZHZGPs-L4rqZUGdZqkB a rdf:Statement ;
+adi:HyfD7KZHZGPs-cR5TdPywhiHq a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:Bqg3oat8dyZM ;
     rdf:predicate <> ;
     rdf:subject adi:HyfD7KZHZGPs .
 
-adi:HyfD7KZHZGPs-Rph2hcNDibA3 a rdf:Statement ;
-    bf:electronicLocator <https://www.rae.es/archivo-digital/libro-del-juego-de-las-suertes> ;
-    bf:heldBy adi:caeWqFd5jCJ4 ;
-    rdf:object "N3fcf49b0c79d49b481e45647be4013c2" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:HyfD7KZHZGPs ;
-    schema:datePublished "1515" ;
-    schema:url <https://www.rae.es/biblioteca/catalogo/?TITN=98013> .
-
-adi:HyfD7KZHZGPs-fPNourujyDq6 a rdf:Statement ;
+adi:HyfD7KZHZGPs-gmmGfxPsSut6 a rdf:Statement ;
     bf:electronicLocator <http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3AARM0000066&mode=all&teca=marciana> ;
     wdt:P291 adi:UprfWYGHsS7r ;
     wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/YldGeVkybGhibUVf/b2FpOjE5My4yMDYuMTk3LjEyMToxODpWRTAwNDk6QVJNMDAwMDA2Ng__/manifest.json> ;
-    rdf:object "N286575ff5f2f4e79953f2dce410087ce" ;
+    rdf:object "N9866a22b812f4254b6ee058bf7bb2e54" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:HyfD7KZHZGPs ;
     schema:datePublished "1484" ;
     schema:url <http://id.sbn.it/bid/VEAE120755> .
+
+adi:HyfD7KZHZGPs-hNCbog3g3Hpt a rdf:Statement ;
+    bf:electronicLocator <https://www.rae.es/archivo-digital/libro-del-juego-de-las-suertes> ;
+    bf:heldBy adi:caeWqFd5jCJ4 ;
+    rdf:object "N3a7f898c4a60489fb65ec3a04ae06d46" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HyfD7KZHZGPs ;
+    schema:datePublished "1515" ;
+    schema:url <https://www.rae.es/biblioteca/catalogo/?TITN=98013> .
 
 adi:HyfD7KZHZGPs a rdfs:Resource ;
     rdfs:label "Libro de la sorte" ;

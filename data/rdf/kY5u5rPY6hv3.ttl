@@ -1,0 +1,29 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kY5u5rPY6hv3-NBs6g5pa3eM8 a rdf:Statement ;
+    bf:Role adi:LwQKHQGXaPrg ;
+    rdf:object adi:9fNbwzr8q8r3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:kY5u5rPY6hv3 .
+
+adi:kY5u5rPY6hv3-oTvkzfhwuJUA a rdf:Statement ;
+    bf:Role adi:3pU843Lma47u ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:kY5u5rPY6hv3 .
+
+adi:kY5u5rPY6hv3 a rdfs:Resource ;
+    rdfs:label "Era il bel viso suo quale esser suole (Barré)" ;
+    <> adi:3tBDveUQba76,
+        adi:9fNbwzr8q8r3,
+        adi:DQjkazyVvnV2 ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/096720001010101_000000021400C> ;
+    dcterms:type "MusicComposition" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:KXJH8TbUTZHm .
+

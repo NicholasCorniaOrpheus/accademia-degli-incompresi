@@ -7,6 +7,7 @@ identifier:
   - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/001870010
 described_by_source:
   - "[[RePIM]]"
+  - "[[(Robinson 2003)]]"
 image:
 aliases:
 instance_of:
@@ -35,4 +36,5 @@ based_on:
 catalog_identifier:
 has_part:
 depicts:
+  - "[[volvelle]]"
 ---

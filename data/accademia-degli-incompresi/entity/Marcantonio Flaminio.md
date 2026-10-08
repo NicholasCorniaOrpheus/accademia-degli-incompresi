@@ -5,6 +5,7 @@ description:
 identifier:
   - http://www.wikidata.org/entity/Q351485
 described_by_source:
+  - "[[(Comiati 2019)]]"
 image:
 aliases:
 instance_of:
@@ -27,6 +28,13 @@ related_to:
       - "[[(Moroncini 2017)]]"
 notable_work:
 interested_in:
+  - value: "[[pastoral]]"
+    reference:
+      - "[[(Comiati 2019)]]"
+  - value: "[[Petrarchism]]"
+    reference:
+      - "[[(Comiati 2019)]]"
+  - value: "[[Neo-Latin]]"
   - value: "[[heterodoxy]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
