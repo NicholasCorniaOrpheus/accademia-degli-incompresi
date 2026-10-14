@@ -1,0 +1,11 @@
+title = "Con il favor del cielo e di natura"
+madrigal_book = "La nobiltà di Roma. Et le villanelle a tre voci di Gasparo Fiorino"
+year = "1554"
+composer = "Gasparo Fiorino"
+publisher="Girolamo Scotto"
+poet = ""
+collection = ""
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "C"
+page_size = #24
+orientation = #'portrait

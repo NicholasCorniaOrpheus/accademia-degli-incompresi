@@ -19,6 +19,7 @@ has_version:
     permalink: https://name.umdl.umich.edu/A75719.0001.001
     external_source: https://archive.org/details/theatrumchemicum00ashm
     holding_institution: "[[Internet Archive]]"
+    IIIF_manifest: https://iiif.archive.org/iiif/theatrumchemicum00ashm/manifest.json
 contributor:
   - role: "[[author]]"
     value: "[[Elias Ashmole]]"

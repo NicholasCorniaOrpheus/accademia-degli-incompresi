@@ -7,12 +7,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6RNHf5ELRGDK",
-      "label": "Muse che tante volte ributtai",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dWn52DPzY5Pm",
       "label": "Del modo di comporre in versi nella lingua italiana, trattato di Girolamo Ruscelli",
       "class": "Book",
@@ -47,14 +41,15 @@
       "label": "Fiere silvestre, che per lati campi",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcQTr33rdEhT",
+      "label": "Muse che tante volte ributtai",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6RNHf5ELRGDK",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9QZ6MpiNNFjR",
-      "property": "depicts"
-    },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dWn52DPzY5Pm",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9QZ6MpiNNFjR",
@@ -86,7 +81,12 @@
       "property": "depicts"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6RNHf5ELRGDK",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcQTr33rdEhT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9QZ6MpiNNFjR",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcQTr33rdEhT",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e7PbxpNbbM2c",
       "property": "part_of"
     }

@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kxW2Zy2aqJNm",
+      "label": "Di Democrito rido. A caso ei vuole",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NtX3nd34H3Wn",
+      "label": "hendecasyllable",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j7DoSeBZLZrw",
+      "label": "(Santinelli 1985)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAqiUUC7GsgE",
+      "label": "poem",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kxW2Zy2aqJNm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jAqiUUC7GsgE",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kxW2Zy2aqJNm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j7DoSeBZLZrw",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/kxW2Zy2aqJNm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NtX3nd34H3Wn",
+      "property": "metre"
+    }
+  ]
+}

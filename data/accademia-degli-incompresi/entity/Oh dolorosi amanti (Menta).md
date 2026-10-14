@@ -23,4 +23,5 @@ based_on:
   - value: "[[Oh dolorosi amanti]]"
 derivative_work:
 text:
+digitized: true
 ---

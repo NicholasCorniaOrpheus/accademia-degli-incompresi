@@ -23,4 +23,5 @@ based_on:
   - value: "[[Oh Bellissimo petto]]"
 derivative_work:
 text:
+digitized: true
 ---

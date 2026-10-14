@@ -3,7 +3,7 @@ Co -- me po -- trò nar -- rar -- v'il do -- lor mi -- o
 Don -- na s'in -- nan -- z'al vo -- str'al -- mo con -- spet -- to 
 Pro -- vo sì gran di -- let \skip4 \skip4 to  
 \override Lyrics.LyricText.font-shape = #'italic
-pro -- vo sì gran di -- let \skip4 \skip4 \skip4 to
+pro -- vo sì gran di -- let -- \skip4 \skip4 \skip4 to
 \revert Lyrics.LyricText.font-shape
 \override Lyrics.LyricText.font-shape = #'italic
 pro -- vo sì gran di -- let -- to

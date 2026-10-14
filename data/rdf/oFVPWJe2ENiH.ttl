@@ -8,22 +8,22 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:oFVPWJe2ENiH-BDyxVtSoDQn9 a rdf:Statement ;
+adi:oFVPWJe2ENiH-2c5vEFavHjqq a rdf:Statement ;
+    rdf:object adi:JcrmXomBzmBJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:oFVPWJe2ENiH ;
+    ns1:P958 "Intentio XIII. N" .
+
+adi:oFVPWJe2ENiH-MU3rspRVFaQN a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:F5twPYgd9Q3X ;
     rdf:predicate <> ;
     rdf:subject adi:oFVPWJe2ENiH .
 
-adi:oFVPWJe2ENiH-bKavXHmb9URi a rdf:Statement ;
-    rdf:object adi:5oLQ9LiSvsQY ;
-    rdf:predicate <> ;
-    rdf:subject adi:oFVPWJe2ENiH ;
-    ns1:P958 "Intentio XIII. N" .
-
 adi:oFVPWJe2ENiH a rdfs:Resource ;
     rdfs:label "Dux gregis, armenti regem sublatus in iram" ;
-    <> adi:5oLQ9LiSvsQY,
-        adi:F5twPYgd9Q3X ;
+    <> adi:F5twPYgd9Q3X,
+        adi:JcrmXomBzmBJ ;
     pdc:text """Dux gregis armenti regem, sublatus in iram
 In geminosque pedes, impete fronte ferit.
 Vindex, mente vacans, hinc Taurus concitus ictu
@@ -52,6 +52,6 @@ Insueta inclusis Piscibus esca datur.""" ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:KAkMZBpLwrNE ;
-    ns1:P180 adi:MB5SfSEWa8KE ;
-    ns1:P2551 adi:LdZT89xoVRXU .
+    ns1:P180 adi:CgtNVBaMjY9V ;
+    ns1:P2551 adi:Azrhjgj5fX93 .
 

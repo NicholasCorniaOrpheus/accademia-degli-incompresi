@@ -7,25 +7,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:N26wDW9q9Xkf-KEuxg24WJ4AN a rdf:Statement ;
+adi:N26wDW9q9Xkf-6EGiTMPYTfYm a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6EQwCjhKepGA ;
+    rdf:predicate <> ;
+    rdf:subject adi:N26wDW9q9Xkf .
+
+adi:N26wDW9q9Xkf-S6eYos27dWGt a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=Egmkr8C6J0IC> ;
     dcterms:publisher adi:WYnzTvWeVJ4e ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N227f3b373aa043dda01f6650171767fb" ;
+    rdf:object "Na0ef00122beb49548ee2f6d490fd0d67" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:N26wDW9q9Xkf ;
     schema:datePublished "1584" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047664> .
 
-adi:N26wDW9q9Xkf-gkDrDA8rfg5E a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:KhQrZGTQZq7d ;
-    rdf:predicate <> ;
-    rdf:subject adi:N26wDW9q9Xkf .
-
 adi:N26wDW9q9Xkf a rdfs:Resource ;
     rdfs:label "Le imprese illustri del signor Girolamo Ruscelli" ;
-    <> adi:KhQrZGTQZq7d,
+    <> adi:6EQwCjhKepGA,
         "1584" ;
     dc:subject adi:L6aLzmbRvQqS ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047664> ;

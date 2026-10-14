@@ -30,6 +30,7 @@ statements:
         value: https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GQ2cDPWxBAg5
         label: Internet Archive
       external_source: https://archive.org/details/achillisbocchiib00boc
+      IIIF_manifest: https://iiif.archive.org/iiif/achillisbocchiib00boc/manifest.json
   contributor:
     - role:
         value: https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEP2RHUGTuJR
@@ -54,7 +55,8 @@ statements:
       label: Latin
 assets:
   image: https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png
-  iiif: []
+  iiif:
+    - https://iiif.archive.org/iiif/achillisbocchiib00boc/manifest.json
   bibtex: ""
   graph: https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/graph/ST5oRYBYaECc.json
 content:

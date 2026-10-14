@@ -7,22 +7,10 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "label": "composer",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
       "label": "Venezia",
       "class": "Place",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2VNcJZXv5PTR",
-      "label": "Da l'humile verme (Wert)",
-      "class": "MusicComposition",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE",
@@ -45,6 +33,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WoXXLHXBBLj4",
       "label": "partbook",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "label": "composer",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
@@ -85,6 +79,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNfDFtDoubCk",
+      "label": "Da l'humile verme (Wert)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ",
       "label": "cantus",
       "class": "Concept",
@@ -119,7 +119,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZoCaZFyrPtF9",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -143,11 +143,6 @@
       "property": "instrumentation"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2VNcJZXv5PTR",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZoCaZFyrPtF9",
-      "property": "part_of"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSgC7ap3ypME",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZoCaZFyrPtF9",
       "property": "part_of"
@@ -163,19 +158,9 @@
       "property": "part_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2VNcJZXv5PTR",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/krJNW7CuZmu4",
-      "property": "described_by_source"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2VNcJZXv5PTR",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P8BCR9vyKpTL",
-      "property": "contributor"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2VNcJZXv5PTR",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "property": "contributor"
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNfDFtDoubCk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZoCaZFyrPtF9",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSgC7ap3ypME",
@@ -189,7 +174,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dSgC7ap3ypME",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -204,7 +189,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gCC8fDhRkd92",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -219,18 +204,33 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e76R9WfawXpA",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P8BCR9vyKpTL",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "occupation"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gzqem5g838fp",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
       "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNfDFtDoubCk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/krJNW7CuZmu4",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNfDFtDoubCk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/P8BCR9vyKpTL",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nNfDFtDoubCk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "property": "contributor"
     }
   ]
 }

@@ -13,12 +13,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UjsFswx79X7b",
-      "label": "female",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MUzXCQRBaVpr",
       "label": "Discorso sopra tutti li primi canti d'Orlando Furioso",
       "class": "Book",
@@ -31,16 +25,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CcPTY5cbYfhK",
-      "label": "Quanto mi sia dolore, e grieve affanno",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GUpuvTTQwNcv",
       "label": "friend",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5qUeD9fGUy8s",
+      "label": "female",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sgkd6aYinas",
+      "label": "Quanto mi sia dolore, e grieve affanno",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -51,7 +51,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nogTh57GD9Fg",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UjsFswx79X7b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5qUeD9fGUy8s",
       "property": "gender"
     },
     {
@@ -75,12 +75,12 @@
       "property": "present_in_work"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CcPTY5cbYfhK",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sgkd6aYinas",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nogTh57GD9Fg",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CcPTY5cbYfhK",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sgkd6aYinas",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nogTh57GD9Fg",
       "property": "depicts"
     },
@@ -91,7 +91,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4qz9ARSJbUuJ",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UjsFswx79X7b",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5qUeD9fGUy8s",
       "property": "gender"
     },
     {
@@ -105,12 +105,12 @@
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CcPTY5cbYfhK",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sgkd6aYinas",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4qz9ARSJbUuJ",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CcPTY5cbYfhK",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2Sgkd6aYinas",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MUzXCQRBaVpr",
       "property": "part_of"
     }

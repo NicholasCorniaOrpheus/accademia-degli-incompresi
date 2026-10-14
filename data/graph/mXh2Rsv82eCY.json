@@ -19,18 +19,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5oLQ9LiSvsQY",
-      "label": "De umbris idearum",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2JeQzTz29ojB",
-      "label": "Orbe lunari ferae",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f2wfQvoGtJZa",
       "label": "Marcello Palingenio Stellato",
       "class": "Agent",
@@ -49,6 +37,18 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcrmXomBzmBJ",
+      "label": "De umbris idearum",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nXUMVwsNU4uR",
+      "label": "Orbe lunari ferae",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oFVPWJe2ENiH",
       "label": "Dux gregis, armenti regem sublatus in iram",
       "class": "PoeticWork",
@@ -61,16 +61,16 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MjkhF6fTYxAN",
-      "label": "Gerolamo Cardano",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DhRpyFwL8pKd",
       "label": "Zodiacus vitae Marcelli Palingenii Stellati",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nLnJUmUZxJCb",
+      "label": "Gerolamo Cardano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyfD7KZHZGPs",
@@ -102,22 +102,22 @@
       "property": "interested_in"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5oLQ9LiSvsQY",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
-      "property": "subject"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2JeQzTz29ojB",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
-      "property": "subject"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/f2wfQvoGtJZa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
       "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ULeh4aoNK9uM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcrmXomBzmBJ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nXUMVwsNU4uR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
       "property": "subject"
     },
@@ -132,14 +132,14 @@
       "property": "subject"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MjkhF6fTYxAN",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
-      "property": "interested_in"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DhRpyFwL8pKd",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nLnJUmUZxJCb",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
+      "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HyfD7KZHZGPs",
@@ -158,7 +158,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/oFVPWJe2ENiH",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5oLQ9LiSvsQY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcrmXomBzmBJ",
       "property": "part_of"
     },
     {

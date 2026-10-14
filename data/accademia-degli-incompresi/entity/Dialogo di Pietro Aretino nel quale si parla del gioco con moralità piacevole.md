@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE002454
 described_by_source:
   - "[[(Giaccone 1989)]]"
+  - "[[(Nadin 2023)]]"
 image:
 aliases:
   - Le carte parlanti

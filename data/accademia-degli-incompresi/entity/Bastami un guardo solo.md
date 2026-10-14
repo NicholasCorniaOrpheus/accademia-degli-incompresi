@@ -29,7 +29,7 @@ depicts:
   - "[[gaze]]"
 language: "[[Italian]]"
 text: |-
-  Bastami un guardo solo
+  BASTAMI un guardo solo
   Ma lieto anima mia, per far ch'io viva;
   A che vostra beltà dunque men priva?
   Già negar nol dovete,

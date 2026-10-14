@@ -22,4 +22,5 @@ local_asset_path: ./assets/music_compositions/torresani-quanti_son_poi,_che_dive
 based_on:
   - value: "[[Quanti son poi, che divenuti amanti]]"
 derivative_work:
+digitized: true
 ---

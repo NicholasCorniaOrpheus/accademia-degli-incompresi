@@ -8,30 +8,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:H6UFJ3WQyyW5-hWyQNtE89ykj a rdf:Statement ;
+adi:H6UFJ3WQyyW5-Q7QhXDcC6As3 a rdf:Statement ;
+    rdf:object adi:GUDLLbHKnwpS ;
+    rdf:predicate <> ;
+    rdf:subject adi:H6UFJ3WQyyW5 ;
+    ns1:P958 "Di Cesare Abelli il Soligno Accademico Selvaggio, all'auttore." .
+
+adi:H6UFJ3WQyyW5-YjcGUVNhBNsA a rdf:Statement ;
     bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:JWaXsJnG7wBB ;
+    rdf:object adi:hLL5FBTtmqGc ;
     rdf:predicate <> ;
     rdf:subject adi:H6UFJ3WQyyW5 .
 
-adi:H6UFJ3WQyyW5-hkPFFiCtB76h a rdf:Statement ;
+adi:H6UFJ3WQyyW5-baVrVaqsTPHS a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:AH6rbTiaz65w ;
     rdf:predicate <> ;
     rdf:subject adi:H6UFJ3WQyyW5 .
 
-adi:H6UFJ3WQyyW5-jm57pR9GNEgg a rdf:Statement ;
-    rdf:object adi:TTsgwS8XBCFM ;
-    rdf:predicate <> ;
-    rdf:subject adi:H6UFJ3WQyyW5 ;
-    ns1:P958 "Di Cesare Abelli il Soligno Accademico Selvaggio, all'auttore." .
-
 adi:H6UFJ3WQyyW5 a rdfs:Resource ;
     rdfs:label "Brunetti al suon de tuoi pregiati accenti" ;
     <> adi:AH6rbTiaz65w,
-        adi:JWaXsJnG7wBB,
-        adi:TTsgwS8XBCFM ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+        adi:GUDLLbHKnwpS,
+        adi:hLL5FBTtmqGc ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """BRUNETTI al suon de tuoi pregiati accenti
 Perde il moto l'error, l'Aura i sospiri,
 Sì che frenati i lor loquaci giri,
@@ -42,7 +42,7 @@ Bebbi incantata pace a' miei martiri,
 Né più tranquilli i torbidi desiri,
 Né sentì mai più dolci i mei tormenti.
 
-Oh se quando paigommi iniquo Amore,
+Oh se quando piagommi iniquo Amore,
 A te correr mi fea mio perfid'Astro,
 Hor mi fora per te sanato il core.
 
@@ -57,7 +57,7 @@ Di soave armonia canoro empiastro.""" ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
     ns1:P180 adi:5f6kHhAxyPZh,
         adi:DSK596BdwpXR,
-        adi:JWaXsJnG7wBB,
-        adi:S2y5UAT62kde ;
+        adi:S2y5UAT62kde,
+        adi:hLL5FBTtmqGc ;
     ns1:P2551 adi:NtX3nd34H3Wn .
 

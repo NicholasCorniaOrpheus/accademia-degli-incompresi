@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:mtkx2GXVZVQP-BSH5DwCDVJQu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:YXSurDyNHSdr ;
+    rdf:predicate <> ;
+    rdf:subject adi:mtkx2GXVZVQP .
+
+adi:mtkx2GXVZVQP-dSNk7xX4gHHq a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Dialogo_nel_quale_si_parla_del_gioco_con/QNs6AAAAcAAJ> ;
+    dcterms:publisher adi:ETxQtbjAywwf ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N6c7fc1ede8dd4295bf946b28d8df6faa" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:mtkx2GXVZVQP ;
+    schema:datePublished "1545" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE002454> .
+
+adi:mtkx2GXVZVQP a rdfs:Resource ;
+    rdfs:label "Dialogo di Pietro Aretino nel quale si parla del gioco con moralità piacevole" ;
+    <> adi:YXSurDyNHSdr,
+        "1545" ;
+    dc:subject adi:CdvzKPw8Avx4,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE002454> ;
+    dcterms:title "Dialogo di Pietro Aretino nelquale si parla del gioco con moralita piaceuole. Con priuilegio" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:2BotSFEYURsn,
+        adi:na5s76uYFKap ;
+    wdt:P31 adi:3FmSxcCP5CUS ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "Le carte parlanti" ;
+    ns1:P180 adi:JY49Nv49qscR,
+        adi:K5nDsiN27Nem .
+

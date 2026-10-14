@@ -8,22 +8,22 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:ieCDPvWohxYQ-ZGFYJrRCCrMq a rdf:Statement ;
+adi:ieCDPvWohxYQ-QF9LyTGmTEnD a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4pcdeHVZf9gz ;
+    rdf:predicate <> ;
+    rdf:subject adi:ieCDPvWohxYQ .
+
+adi:ieCDPvWohxYQ-hreeCEz2Uhh4 a rdf:Statement ;
     rdf:object adi:faqWLBNJVmjy ;
     rdf:predicate <> ;
     rdf:subject adi:ieCDPvWohxYQ ;
     ns1:P304 "3" ;
     ns1:P958 "Ottava 3" .
 
-adi:ieCDPvWohxYQ-hmdSPEDLeYRG a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:fNQ3Yu7akyGg ;
-    rdf:predicate <> ;
-    rdf:subject adi:ieCDPvWohxYQ .
-
 adi:ieCDPvWohxYQ a rdfs:Resource ;
     rdfs:label "Non dimen sento in me, sì grave sdegno" ;
-    <> adi:fNQ3Yu7akyGg,
+    <> adi:4pcdeHVZf9gz,
         adi:faqWLBNJVmjy ;
     pdc:poeticType adi:JdCmvSXCtJKC ;
     pdc:text """Non dimen sento in me, sì grave sdegno

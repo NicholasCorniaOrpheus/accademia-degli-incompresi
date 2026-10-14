@@ -8,31 +8,31 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:RSs7kThXJWjJ-GV7qcRw67hDB a rdf:Statement ;
+adi:RSs7kThXJWjJ-4McsHgAWhfQc a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:NUugReNRnF66 ;
+    rdf:predicate <> ;
+    rdf:subject adi:RSs7kThXJWjJ .
+
+adi:RSs7kThXJWjJ-958Wp3Meh5WL a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:TKRDn69yygok ;
     rdf:predicate <> ;
     rdf:subject adi:RSs7kThXJWjJ .
 
-adi:RSs7kThXJWjJ-Q7QyZu923dpJ a rdf:Statement ;
+adi:RSs7kThXJWjJ-SnCqFCJTcGHo a rdf:Statement ;
     rdf:object adi:YnKescy9oBAL ;
     rdf:predicate <> ;
     rdf:subject adi:RSs7kThXJWjJ ;
     ns1:P304 "4" ;
     ns1:P958 "Girolamo Mutio." .
 
-adi:RSs7kThXJWjJ-WB8iDGkr8QFQ a rdf:Statement ;
-    bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:NUugReNRnF66 ;
-    rdf:predicate <> ;
-    rdf:subject adi:RSs7kThXJWjJ .
-
 adi:RSs7kThXJWjJ a rdfs:Resource ;
     rdfs:label "Donna reale, a cui dal Sol superno" ;
     <> adi:NUugReNRnF66,
         adi:TKRDn69yygok,
         adi:YnKescy9oBAL ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """DONNA reale, a cui dal Sol superno
 Fu del suo lume data sì gran parte,
 Ch'occhio mortal, non scorge in altra parte
@@ -54,8 +54,8 @@ Ch'in voi di DIO l'imagine s'adori.""" ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:5rXXXivjHnqu,
-        adi:LBUMoVayqW8X,
-        adi:NUugReNRnF66 ;
+    ns1:P180 adi:LBUMoVayqW8X,
+        adi:NUugReNRnF66,
+        adi:SkejS2gdGAbh ;
     ns1:P2551 adi:NtX3nd34H3Wn .
 

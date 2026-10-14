@@ -31,12 +31,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
-      "label": "Ottavio Tronsarelli",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMjJmEyTAUhn",
       "label": "Dal mare, oh Margherita, il nome avesti",
       "class": "PoeticWork",
@@ -59,6 +53,12 @@
       "label": "poetry collection",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
+      "label": "Ottavio Tronsarelli",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm7yVBHwb943",
@@ -112,7 +112,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RidaxpYHRDz3",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
       "property": "contributor"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/brPFSwnNKsgJ",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
       "property": "contributor"
     },
     {
@@ -156,23 +156,8 @@
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
-      "property": "described_by_source"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
-      "property": "member_of"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
-      "property": "related_to"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LMjJmEyTAUhn",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
       "property": "contributor"
     },
     {
@@ -182,7 +167,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/imwtAM5JxJop",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
       "property": "contributor"
     },
     {
@@ -196,8 +181,23 @@
       "property": "work_location"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
+      "property": "related_to"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iqL82Wawe8jg",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nxtaeZb4ETk2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb9QYViRewZ3",
       "property": "contributor"
     },
     {

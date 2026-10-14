@@ -8,24 +8,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:TeYGEn6YR7Vt-WtbsNWeKTz6j a rdf:Statement ;
+adi:TeYGEn6YR7Vt-CP9yUMSfn9AC a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:KfCiXb8PLwsb ;
+    rdf:predicate <> ;
+    rdf:subject adi:TeYGEn6YR7Vt .
+
+adi:TeYGEn6YR7Vt-bcAo74SqPYTL a rdf:Statement ;
     rdf:object adi:XjSeXnJQ9W6d ;
     rdf:predicate <> ;
     rdf:subject adi:TeYGEn6YR7Vt ;
     ns1:P304 "162" ;
     ns1:P958 "Di Mad. Virginia Martini de' Salvi, Senese." .
 
-adi:TeYGEn6YR7Vt-nRkonWsV9FKF a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:67AiHmyDq9hS ;
-    rdf:predicate <> ;
-    rdf:subject adi:TeYGEn6YR7Vt .
-
 adi:TeYGEn6YR7Vt a rdfs:Resource ;
     rdfs:label "Scema il tempo fugace ogni martire" ;
-    <> adi:67AiHmyDq9hS,
+    <> adi:KfCiXb8PLwsb,
         adi:XjSeXnJQ9W6d ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Scema il tempo fugace ogni martire;
 Così può ravvivar la Morte speme,
 Et far minore il mal, che l'alma preme,

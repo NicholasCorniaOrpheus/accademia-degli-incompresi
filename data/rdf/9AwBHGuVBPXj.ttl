@@ -7,30 +7,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:9AwBHGuVBPXj-6dY67UMSv64U a rdf:Statement ;
+adi:9AwBHGuVBPXj-n6iNdnxggMMo a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?hl=en&lr=&id=8m85AAAAcAAJ> ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N3d5b50ec127345a0a5f2661c5026528e" ;
+    rdf:object "N6591b4989cdb42a4abd8ef735e29b068" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:9AwBHGuVBPXj ;
     schema:datePublished "1646" ;
     schema:url <http://id.sbn.it/bid/VIAE002373> .
 
-adi:9AwBHGuVBPXj-SgtDgAGFcSN7 a rdf:Statement ;
+adi:9AwBHGuVBPXj-nXVxVh2mK2fz a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:TvBSgSfnA9EN ;
+    rdf:object adi:dDZ5RTMwVgxu ;
     rdf:predicate <> ;
     rdf:subject adi:9AwBHGuVBPXj .
 
 adi:9AwBHGuVBPXj a rdfs:Resource ;
     rdfs:label "De' pensieri diversi di Alessandro Tassoni libri dieci" ;
-    <> adi:TvBSgSfnA9EN,
+    <> adi:dDZ5RTMwVgxu,
         "1620" ;
-    dc:subject adi:GUDKFfFZgRMK ;
+    dc:subject adi:5f6kHhAxyPZh,
+        adi:GUDKFfFZgRMK ;
     dcterms:identifier <http://id.sbn.it/bid/TO0E002808> ;
     dcterms:title "Dieci libri di pensieri diuersi d'Alessandro Tassoni, ne' quali per via di quisiti con nuoui fondamenti, e ragioni si trattano le più curiose materie naturali, morali, ciuili ... Aggiuntoui nuouamente il decimo libro ... con altri vari quisiti" ;
     dcterms:type "Book" ;
-    wdt:P1343 adi:D5meAE34UpL5 ;
+    wdt:P1343 adi:D5meAE34UpL5,
+        adi:d9pgcDgcFKzn,
+        adi:fhNPwWdXFbsT ;
     wdt:P31 adi:FoqX9WfTveaZ ;
     wdt:P870 adi:KAkMZBpLwrNE,
         adi:Rpi7M9nmjho7 .

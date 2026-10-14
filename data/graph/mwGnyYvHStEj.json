@@ -13,16 +13,16 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/au5QaZxbmZCH",
-      "label": "Dell'arte rappresentativa premeditata, ed all'improviso",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8oMd5exDwNUv",
       "label": "Andrea Perrucci",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PSsdh5oTndiK",
+      "label": "Dell'arte rappresentativa premeditata, ed all'improviso",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -32,23 +32,23 @@
       "property": "described_by_source"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/au5QaZxbmZCH",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mwGnyYvHStEj",
-      "property": "described_by_source"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8oMd5exDwNUv",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mwGnyYvHStEj",
       "property": "related_to"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PSsdh5oTndiK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mwGnyYvHStEj",
+      "property": "described_by_source"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/htYYaYYv6jRv",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/au5QaZxbmZCH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PSsdh5oTndiK",
       "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8oMd5exDwNUv",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/au5QaZxbmZCH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PSsdh5oTndiK",
       "property": "notable_work"
     }
   ]

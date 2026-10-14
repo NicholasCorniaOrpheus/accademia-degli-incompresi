@@ -19,14 +19,8 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AYVULkhK3REA",
-      "label": "Logica memorativa",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AUzHtd9yLawe",
-      "label": "Francesco Colonna",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9rnpxefoyFYt",
+      "label": "Francesco Piscina",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
@@ -47,6 +41,24 @@
       "label": "field of study",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8U7oLTSd8bcn",
+      "label": "Discorso del s. Fran. Piscina sopra l'ordine delle figure de' tarocchi",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BnJ7Wn8TrNmj",
+      "label": "Logica memorativa",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFTxATbd46Py",
+      "label": "Francesco Colonna",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -66,12 +78,7 @@
       "property": "subject"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AYVULkhK3REA",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bg8thNhhHzC7",
-      "property": "subject"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AUzHtd9yLawe",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9rnpxefoyFYt",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bg8thNhhHzC7",
       "property": "interested_in"
     },
@@ -86,12 +93,32 @@
       "property": "interested_in"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8U7oLTSd8bcn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bg8thNhhHzC7",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BnJ7Wn8TrNmj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bg8thNhhHzC7",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RFTxATbd46Py",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bg8thNhhHzC7",
+      "property": "interested_in"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ST5oRYBYaECc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LPHADK8uzebY",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AYVULkhK3REA",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8U7oLTSd8bcn",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9rnpxefoyFYt",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BnJ7Wn8TrNmj",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T76mpP9wRUXk",
       "property": "contributor"
     }

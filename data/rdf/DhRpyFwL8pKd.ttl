@@ -7,35 +7,36 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:DhRpyFwL8pKd-38JF8EbeNUNj a rdf:Statement ;
-    bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:n7gVCS2XaBxD ;
+adi:DhRpyFwL8pKd-2J2vcKSb4pdQ a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:f2wfQvoGtJZa ;
     rdf:predicate <> ;
     rdf:subject adi:DhRpyFwL8pKd .
 
-adi:DhRpyFwL8pKd-4aXRoP3YriHB a rdf:Statement ;
+adi:DhRpyFwL8pKd-czAfTTRQH2Qm a rdf:Statement ;
     bf:electronicLocator <https://archive.org/details/guicciardini-23-2-13> ;
     bf:heldBy adi:GQ2cDPWxBAg5 ;
-    dcterms:publisher adi:9Aoez2jHnnNQ ;
+    dcterms:publisher adi:mj2K9b6iwR6N ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N71af591263664e639d510416a90c8cc2" ;
+    wdt:P6108 <https://iiif.archive.org/iiif/guicciardini-23-2-13/manifest.json> ;
+    rdf:object "N2bf0e2e9d60146b0af0164752929e049" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:DhRpyFwL8pKd ;
     schema:datePublished "c. 1535" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE063800> .
 
-adi:DhRpyFwL8pKd-dguHP26tXoLT a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:f2wfQvoGtJZa ;
+adi:DhRpyFwL8pKd-gdUaDSxSYvEN a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ia79e4bVjUNr ;
     rdf:predicate <> ;
     rdf:subject adi:DhRpyFwL8pKd .
 
 adi:DhRpyFwL8pKd a rdfs:Resource ;
     rdfs:label "Zodiacus vitae Marcelli Palingenii Stellati" ;
     <> adi:f2wfQvoGtJZa,
-        adi:n7gVCS2XaBxD,
+        adi:ia79e4bVjUNr,
         "1535" ;
-    dc:subject adi:MB5SfSEWa8KE,
+    dc:subject adi:CgtNVBaMjY9V,
         adi:mXh2Rsv82eCY ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE063800> ;
     dcterms:title "Zodiacus vitae pulcherrimum opus atque vtilissimum, Marcelli Palingenii Stellati poetae ad illustrissimum Ferrariae ducem Herculem secundum, foeliciter incipit" ;

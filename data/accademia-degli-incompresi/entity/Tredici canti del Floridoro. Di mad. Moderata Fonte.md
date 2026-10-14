@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE015890
 described_by_source:
   - "[[(Bolzoni and Girotto 2013)]]"
+  - "[[(Ross 2009)]]"
 image:
 aliases:
 instance_of:

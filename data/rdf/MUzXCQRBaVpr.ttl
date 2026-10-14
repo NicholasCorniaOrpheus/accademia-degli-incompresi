@@ -7,42 +7,42 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:MUzXCQRBaVpr-GTCGa4vAR3Ke a rdf:Statement ;
+adi:MUzXCQRBaVpr-33NQL3AUHyVs a rdf:Statement ;
+    bf:Note "Reprint with original engravings." ;
+    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N973799f852d5485b88a641b388122cdf" ;
+    rdf:object "N465bb990bd9e4aec9707509886fbc3d2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MUzXCQRBaVpr ;
+    schema:datePublished "1550" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
+
+adi:MUzXCQRBaVpr-4R4oh73LDkC2 a rdf:Statement ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N947ab46ac1c144cb9a244604727fbec1" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:MUzXCQRBaVpr ;
     schema:datePublished "1549" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE054714> .
 
-adi:MUzXCQRBaVpr-RuPfuqhegSus a rdf:Statement ;
+adi:MUzXCQRBaVpr-4Vi2tRXCbhEf a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:4qz9ARSJbUuJ ;
     rdf:predicate <> ;
     rdf:subject adi:MUzXCQRBaVpr .
 
-adi:MUzXCQRBaVpr-TqWq8rUkBdf7 a rdf:Statement ;
+adi:MUzXCQRBaVpr-5D95n8974Nox a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10758640> ;
-    bf:heldBy adi:T648K9QCGaj9 ;
+    bf:heldBy adi:7zL92j8iLfbj ;
     wdt:P291 adi:mT3aY8t7yatb ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10758640/manifest> ;
-    rdf:object "N254cef93cbc243e2bc06257ab5322e73" ;
+    rdf:object "N4127b109378d436fa81683266d85e3c5" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:MUzXCQRBaVpr ;
     schema:datePublished "1570" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10758640> .
-
-adi:MUzXCQRBaVpr-m5B5DeuJgVKL a rdf:Statement ;
-    bf:Note "Reprint with original engravings." ;
-    bf:electronicLocator <https://books.google.it/books?id=_AF9YOXQrlsC> ;
-    dcterms:publisher adi:4FVNQkPWfK4J ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N465c473d2b6940cc892d99a539ab522f" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:MUzXCQRBaVpr ;
-    schema:datePublished "1550" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027004> .
 
 adi:MUzXCQRBaVpr a rdfs:Resource ;
     rdfs:label "Discorso sopra tutti li primi canti d'Orlando Furioso" ;
@@ -51,7 +51,7 @@ adi:MUzXCQRBaVpr a rdfs:Resource ;
         "1549" ;
     dc:description "Commentary in ottava rima of the chivalry poem Orlando Furioso by Ludovico Ariosto. At the end of each canto, the author dedicates a stanza for members of her intellectual and social network." ;
     dc:subject adi:ckEmuMKavtj2,
-        adi:fnaMY86gpvzk ;
+        adi:oMYLCGXiewUy ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE054714> ;
     dcterms:title "Discorso sopra tutti li primi canti d'Orlando Furioso fatti [!] per la signora Laura Terracina" ;
     dcterms:type "Book" ;

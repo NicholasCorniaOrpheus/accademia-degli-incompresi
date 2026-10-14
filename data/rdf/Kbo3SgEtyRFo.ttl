@@ -8,30 +8,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Kbo3SgEtyRFo-5rRe5FeeyKNn a rdf:Statement ;
+adi:Kbo3SgEtyRFo-7fyAtNqutrw2 a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:KL2a3Eox62dw ;
     rdf:predicate <> ;
     rdf:subject adi:Kbo3SgEtyRFo .
 
-adi:Kbo3SgEtyRFo-PmdYVfztT2Ht a rdf:Statement ;
+adi:Kbo3SgEtyRFo-XAcPGKYN4mXS a rdf:Statement ;
+    bf:Note "Dolce wrote the verses of the fortune-telling book." ;
+    bf:Role adi:DZKAs4KqUG7k ;
+    rdf:object adi:RE3XAqvEyiZM ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kbo3SgEtyRFo .
+
+adi:Kbo3SgEtyRFo-e6KMUB7fzTRV a rdf:Statement ;
     bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k15216662> ;
     bf:heldBy adi:3ErfQUUd3DzH ;
     dcterms:publisher adi:KL2a3Eox62dw ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k15216662/manifest.json> ;
-    rdf:object "N968799b8a6d64357b16edf0bd4458163" ;
+    rdf:object "Nb9c505965fe64eb6a10fc689c5a2c22d" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:Kbo3SgEtyRFo ;
     schema:datePublished "1540" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055028> .
-
-adi:Kbo3SgEtyRFo-UkLxBVSotdTG a rdf:Statement ;
-    bf:Note "Dolce wrote the verses of the fortune-telling book." ;
-    bf:Role adi:3pU843Lma47u ;
-    rdf:object adi:RE3XAqvEyiZM ;
-    rdf:predicate <> ;
-    rdf:subject adi:Kbo3SgEtyRFo .
 
 adi:Kbo3SgEtyRFo a rdfs:Resource ;
     rdfs:label "Le sorti di Francesco Marcolino" ;
@@ -44,7 +44,8 @@ adi:Kbo3SgEtyRFo a rdfs:Resource ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE055028> ;
     dcterms:title "Le sorti di Francesco Marcolino da Forli intitolate Giardino di pensieri allo illustrissimo signore Hercole Estense duca di Ferrara" ;
     dcterms:type "Book" ;
-    wdt:P1343 adi:HEsbswC7dBW8 ;
+    wdt:P1343 adi:ieJs49RBeEXp,
+        adi:na5s76uYFKap ;
     wdt:P31 adi:39wLPiPQYmqM,
         adi:4gDUdsQ3zgkL ;
     skos:altLabel "Giardino di pensieri" .

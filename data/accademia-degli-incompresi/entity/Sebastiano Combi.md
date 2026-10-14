@@ -19,5 +19,7 @@ related_to:
 notable_work:
 interested_in:
 catalog_identifier:
+  - source: "[[Italian Academies Database]]"
+    value: 15180
 present_in_work:
 ---

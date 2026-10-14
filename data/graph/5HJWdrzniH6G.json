@@ -25,12 +25,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SV8hSwTENSp",
-      "label": "S'ottenebra la Terra, il Sol s'oscura",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZqD6BmWcwLzR",
       "label": "Isabella della Rovere",
       "class": "Agent",
@@ -47,6 +41,12 @@
       "label": "field of study",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8oTkKorpWxL",
+      "label": "S'ottenebra la Terra, il Sol s'oscura",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Uh8huwiP3pFj",
@@ -83,17 +83,17 @@
       "property": "subject"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SV8hSwTENSp",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5HJWdrzniH6G",
-      "property": "subject"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZqD6BmWcwLzR",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5HJWdrzniH6G",
       "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYTehKKNSwkK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5HJWdrzniH6G",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Y8oTkKorpWxL",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5HJWdrzniH6G",
       "property": "subject"
     },

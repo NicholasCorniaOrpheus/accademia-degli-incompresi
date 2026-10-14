@@ -9,24 +9,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:c8NTBM5uxwrM-9M8hKmciiNzJ a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:hKo3ybdS8hXx ;
-    rdf:predicate <> ;
-    rdf:subject adi:c8NTBM5uxwrM .
-
-adi:c8NTBM5uxwrM-he8zcuwy6cQF a rdf:Statement ;
-    rdf:object adi:PagyXFKr5PvT ;
+adi:c8NTBM5uxwrM-6sRwkQxsTaS8 a rdf:Statement ;
+    rdf:object adi:kdFMmdTS6b2C ;
     rdf:predicate <> ;
     rdf:subject adi:c8NTBM5uxwrM ;
     ns1:P304 "60" ;
     ns1:P958 "Innocenza Carrari." ;
     schema:volumeNumber "2" .
 
+adi:c8NTBM5uxwrM-i7zGnVB3XZTG a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:hKo3ybdS8hXx ;
+    rdf:predicate <> ;
+    rdf:subject adi:c8NTBM5uxwrM .
+
 adi:c8NTBM5uxwrM a rdfs:Resource ;
     rdfs:label "A che Plinio, ti duoli, e ti lamenti" ;
-    <> adi:PagyXFKr5PvT,
-        adi:hKo3ybdS8hXx ;
+    <> adi:hKo3ybdS8hXx,
+        adi:kdFMmdTS6b2C ;
     pdc:poeticType adi:XnhvNmB6wXvC ;
     pdc:text """A che Plinio, ti duoli, e ti lamenti,
 Con interrotti accenti?
@@ -46,8 +46,8 @@ Per non destarlo, e taci, e mira, e passa.""" ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:LVFgSQZJH6F8,
-        adi:VFabTiMFEU5U ;
-    ns1:P2551 adi:6r7ZsMDvqt7K,
-        adi:NtX3nd34H3Wn .
+    ns1:P180 adi:VFabTiMFEU5U,
+        adi:hRkxbb2n7ssj ;
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
 

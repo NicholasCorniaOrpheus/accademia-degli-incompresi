@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:FMajZAbtZyLH-26V7edUCeWwz a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "15698" ;
+    rdf:predicate <> ;
+    rdf:subject adi:FMajZAbtZyLH .
+
+adi:FMajZAbtZyLH-PrvzYjYDn3He a rdf:Statement ;
+    dcterms:references adi:7e7My82bBVVW ;
+    rdf:object adi:c6tG7gLtkLB4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:FMajZAbtZyLH ;
+    schema:endDate "1546" ;
+    schema:startDate "1545" .
+
+adi:FMajZAbtZyLH-k6597G7kQKzj a rdf:Statement ;
+    rdf:object adi:XA5ekHU5qVb9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:FMajZAbtZyLH ;
+    schema:endDate "1544" ;
+    schema:startDate "1543" .
+
+adi:FMajZAbtZyLH a rdfs:Resource ;
+    rdfs:label "Anton Francesco Doni" ;
+    <> adi:FEP2RHUGTuJR,
+        adi:XA5ekHU5qVb9,
+        adi:c6tG7gLtkLB4,
+        adi:edLFhkc6mVw6,
+        adi:mT3aY8t7yatb,
+        adi:noRgAWmjYV8o ;
+    dcterms:identifier ns1:Q601844 ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:7e7My82bBVVW ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    ns1:P800 adi:Vk7WPkWbFVrj ;
+    schema:gender adi:8UjQ7UabobgD .
+

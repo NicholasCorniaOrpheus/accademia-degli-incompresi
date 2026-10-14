@@ -7,20 +7,8 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7VGfeJFTYmnt",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b75u8wJkatN9",
       "label": "M. Tullii Ciceronis Consolatio, vel De luctu minuendo. Fragmenta eius a Carolo Sigonio, & Andrea Patritio exposita",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
-      "label": "Bernardino Lombardi",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
-      "label": "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
@@ -31,10 +19,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
+      "label": "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
       "label": "La Gismonda, tragedia del signor Torquato Tasso",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
+      "label": "Bernardino Lombardi",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -44,33 +44,33 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7VGfeJFTYmnt",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b75u8wJkatN9",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
       "property": "subject"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
       "property": "interested_in"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
-      "property": "instance_of"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fqNyvp8swvbU",
-      "property": "instance_of"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8aTRT2CocptB",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CPJfWX96XBVZ",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJFucdkRobUR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
       "property": "contributor"
     }
   ]

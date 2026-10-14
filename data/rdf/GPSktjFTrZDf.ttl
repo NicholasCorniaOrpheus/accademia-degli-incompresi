@@ -8,24 +8,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:GPSktjFTrZDf-VdjAME2TZXX8 a rdf:Statement ;
+adi:GPSktjFTrZDf-Q8pP67vSS2wC a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:n3NhFXod2fvf ;
+    rdf:predicate <> ;
+    rdf:subject adi:GPSktjFTrZDf .
+
+adi:GPSktjFTrZDf-UjfhFH2kKBo8 a rdf:Statement ;
     rdf:object adi:Fvh8Y8qPzemN ;
     rdf:predicate <> ;
     rdf:subject adi:GPSktjFTrZDf ;
     ns1:P304 "67" ;
     ns1:P958 "Il Conte Fortunato Martinengo." .
 
-adi:GPSktjFTrZDf-cnHB4sTe53pS a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:9hxg73nrkwfn ;
-    rdf:predicate <> ;
-    rdf:subject adi:GPSktjFTrZDf .
-
 adi:GPSktjFTrZDf a rdfs:Resource ;
     rdfs:label "Quando de la mia dolce empia guerriera" ;
-    <> adi:9hxg73nrkwfn,
-        adi:Fvh8Y8qPzemN ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    <> adi:Fvh8Y8qPzemN,
+        adi:n3NhFXod2fvf ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Quando de la mia dolce empia guerriera
 Chiamo l'altero nome, che nel core
 Sì saldamente mi descrisse Amore

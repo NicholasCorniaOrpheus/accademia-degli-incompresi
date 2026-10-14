@@ -20,6 +20,7 @@ has_version:
     publisher: "[[Bernardino Vitali]]"
     external_source: https://archive.org/details/guicciardini-23-2-13
     holding_institution: "[[Internet Archive]]"
+    IIIF_manifest: https://iiif.archive.org/iiif/guicciardini-23-2-13/manifest.json
 contributor:
   - role: "[[dedicatee]]"
     value: "[[Ercole II d'Este]]"

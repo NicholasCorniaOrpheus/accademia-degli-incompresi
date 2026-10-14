@@ -23,4 +23,5 @@ based_on:
   - value: "[[Forse è cagion l'Aurora]]"
 derivative_work:
 text:
+digitized: true
 ---

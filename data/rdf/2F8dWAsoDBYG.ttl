@@ -8,24 +8,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:2F8dWAsoDBYG-eD4pyp9ucYFC a rdf:Statement ;
+adi:2F8dWAsoDBYG-2G8eq9ezL8Le a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:g3KbkbPs6i3L ;
+    rdf:predicate <> ;
+    rdf:subject adi:2F8dWAsoDBYG .
+
+adi:2F8dWAsoDBYG-HqvZrZvhVr89 a rdf:Statement ;
     rdf:object adi:B5dDXV6qVG2p ;
     rdf:predicate <> ;
     rdf:subject adi:2F8dWAsoDBYG ;
     ns1:P304 "6" ;
     ns1:P958 "Dell'Immaturo" .
 
-adi:2F8dWAsoDBYG-ninNJA73Tr4C a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:g3KbkbPs6i3L ;
-    rdf:predicate <> ;
-    rdf:subject adi:2F8dWAsoDBYG .
-
 adi:2F8dWAsoDBYG a rdfs:Resource ;
     rdfs:label "Già'l carro ardente, che conduce il giorno" ;
     <> adi:B5dDXV6qVG2p,
         adi:g3KbkbPs6i3L ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Già'l carro ardente , che conduce il giorno
 Sovr'il nostro hemisfero era sì alzato, 
 Che dritto a noi nel suo camino usato 
@@ -49,8 +49,8 @@ Non le cangiava in chiare onde di pianto.""" ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
     ns1:P180 adi:4zDHNwC4tdTU,
         adi:8JCJNiEPyPxR,
+        adi:CBDegRAvhV8n,
         adi:LBUMoVayqW8X,
-        adi:T3ehoUUCyhWR,
-        adi:d2QjJCcEtkiC ;
+        adi:T3ehoUUCyhWR ;
     ns1:P2551 adi:NtX3nd34H3Wn .
 

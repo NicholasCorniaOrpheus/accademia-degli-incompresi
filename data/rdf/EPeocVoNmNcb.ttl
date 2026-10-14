@@ -7,33 +7,33 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:EPeocVoNmNcb-EnLtwrYpNWJ5 a rdf:Statement ;
+adi:EPeocVoNmNcb-E3HczQU5daDb a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=SbpdAAAAcAAJ> ;
+    dcterms:publisher adi:QTdxXEAT2EFy ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nd81d91eb170748a5b4b593c06100f12e" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:EPeocVoNmNcb ;
+    schema:datePublished "1605" ;
+    schema:url <http://id.sbn.it/bid/BVEE041824> .
+
+adi:EPeocVoNmNcb-HeWKhLiBiPK3 a rdf:Statement ;
     bf:heldBy adi:Mefkw2MRET3J ;
     rdf:object "E20113-01" ;
     rdf:predicate <> ;
     rdf:subject adi:EPeocVoNmNcb .
 
-adi:EPeocVoNmNcb-Hprxb6Q9MgHN a rdf:Statement ;
+adi:EPeocVoNmNcb-fve3BwuCRUjW a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:nqdaBTbYUu74 ;
     rdf:predicate <> ;
     rdf:subject adi:EPeocVoNmNcb .
 
-adi:EPeocVoNmNcb-UwWru4HwiCwj a rdf:Statement ;
+adi:EPeocVoNmNcb-mcpxDAvCYrdG a rdf:Statement ;
     bf:Role adi:CgtXMynJGovX ;
     rdf:object adi:D7S28eMT4HCi ;
     rdf:predicate <> ;
     rdf:subject adi:EPeocVoNmNcb .
-
-adi:EPeocVoNmNcb-o7Ns9qJzqPvF a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=SbpdAAAAcAAJ> ;
-    dcterms:publisher adi:QTdxXEAT2EFy ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N96e836b6034a4fcbad3290401b333bca" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:EPeocVoNmNcb ;
-    schema:datePublished "1605" ;
-    schema:url <http://id.sbn.it/bid/BVEE041824> .
 
 adi:EPeocVoNmNcb a rdfs:Resource ;
     rdfs:label "Arcadia felice" ;
@@ -44,7 +44,7 @@ adi:EPeocVoNmNcb a rdfs:Resource ;
     dcterms:identifier <http://id.sbn.it/bid/BVEE041824> ;
     dcterms:title "Arcadia felice di Lucretia Marinella. Dedicata alla serenissima Madama Leonora Medici Gonzaga" ;
     dcterms:type "Book" ;
-    wdt:P1343 adi:Er6SYXZFyvp5,
-        adi:P8g4zkHCciMB ;
-    wdt:P31 adi:cF3HzyFDHqfG .
+    wdt:P1343 adi:P8g4zkHCciMB,
+        adi:d9Ppz2Rxs94p ;
+    wdt:P31 adi:8s6nPidcEXTz .
 

@@ -6,6 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q475477
 described_by_source:
   - "[[(Black 1982)]]"
+  - "[[(Luppi 1992)]]"
 image:
 aliases:
 instance_of:

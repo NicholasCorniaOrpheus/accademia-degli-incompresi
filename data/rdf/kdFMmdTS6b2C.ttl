@@ -1,0 +1,83 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kdFMmdTS6b2C-8DJSDNfXnkvw a rdf:Statement ;
+    bf:Note "volume 2" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10812949> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10812949/manifest> ;
+    rdf:object "Nf7aa00133ac241c98ad567a44ce30869" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kdFMmdTS6b2C ;
+    schema:url <http://id.sbn.it/bid/VIAE008330> .
+
+adi:kdFMmdTS6b2C-AJ2Wiu2QxXA7 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6vLSy3dtmexs ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-UyLBHcgK988w a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:jEuoGEuT2B8s ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-WfkWfL8Q9cyc a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9vYDoXebYP2i ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-ZHQVHfvMBW7R a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QzFWBAu4Ku5H ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-b6dUdbSRe7zf a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:etwu2MYrAYLf ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-gecwsrPsJGBk a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:hKo3ybdS8hXx ;
+    rdf:predicate <> ;
+    rdf:subject adi:kdFMmdTS6b2C .
+
+adi:kdFMmdTS6b2C-jrrTQbEwLoUL a rdf:Statement ;
+    bf:Note "volume 1" ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10754251> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10754251/manifest> ;
+    rdf:object "N7f971fe759c84a029c5b00bc70cf81c0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kdFMmdTS6b2C ;
+    schema:datePublished "1726" ;
+    schema:url <http://id.sbn.it/bid/VIAE008330> .
+
+adi:kdFMmdTS6b2C a rdfs:Resource ;
+    rdfs:label "Componimenti poetici delle piu' illustri rimatrici d'ogni secolo" ;
+    <> adi:6vLSy3dtmexs,
+        adi:9vYDoXebYP2i,
+        adi:QzFWBAu4Ku5H,
+        adi:etwu2MYrAYLf,
+        adi:hKo3ybdS8hXx,
+        adi:jEuoGEuT2B8s,
+        "1726" ;
+    dc:subject adi:jSo2wG8h9SDa ;
+    dcterms:identifier <http://id.sbn.it/bid/VIAE008330> ;
+    dcterms:title "Componimenti poetici delle piu' illustri rimatrici d'ogni secolo, raccolti da Luisa Bergalli. Parte prima [-seconda]" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

@@ -6,25 +6,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:VqZdm7ZNx5xQ-EfBxBzgo3jEB a rdf:Statement ;
+adi:VqZdm7ZNx5xQ-4Vya2Q8Nb83i a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EKpDc7PU8hU9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:VqZdm7ZNx5xQ .
+
+adi:VqZdm7ZNx5xQ-FyC9eDV5ftcU a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=ObSaJQi0LeQC> ;
-    dcterms:publisher adi:e3c9eYYx4Mw2 ;
+    dcterms:publisher adi:F7kgigqbKbn6 ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N8e1febf8fabc482f8a55e54e53f53f2e" ;
+    rdf:object "N35b45c398dc2445d865373ddd071fc68" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:VqZdm7ZNx5xQ ;
     schema:datePublished "1621" ;
     schema:url <http://id.sbn.it/bid/TO0E008513> .
 
-adi:VqZdm7ZNx5xQ-oCSdR2TP7YY4 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:kkbb96iFbUtv ;
-    rdf:predicate <> ;
-    rdf:subject adi:VqZdm7ZNx5xQ .
-
 adi:VqZdm7ZNx5xQ a rdfs:Resource ;
     rdfs:label "Gli horti del sole. Poemetto del con. Marc'Ant. Ferretti" ;
-    <> adi:kkbb96iFbUtv,
+    <> adi:EKpDc7PU8hU9,
         "1621" ;
     dcterms:identifier <http://id.sbn.it/bid/TO0E008513> ;
     dcterms:title "Gli horti del sole. Poemetto del con. Marc'Ant. Ferretti. Al serenissimo Federico prencipe d'Vrbino" ;

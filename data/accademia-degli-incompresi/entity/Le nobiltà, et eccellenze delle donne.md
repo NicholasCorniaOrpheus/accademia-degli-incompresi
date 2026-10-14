@@ -5,6 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE024260
 described_by_source:
+  - "[[(Ross 2009)]]"
 image:
 aliases:
 instance_of:
@@ -19,7 +20,7 @@ has_version:
     publisher: "[[Giovanni Battista Ciotti]]"
     external_source: https://books.google.it/books?id=D4X-xGIvBG0C
 contributor:
-  - role: "[[author]]"
+  - role: "[[poet]]"
     value: "[[Orazio Visdomini]]"
     note: Dedication poem.
   - role: "[[author]]"

@@ -7,12 +7,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "label": "composer",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cv9uVmQKzPqv",
       "label": "Vincenzo Ruffo",
       "class": "Agent",
@@ -21,12 +15,6 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KXJH8TbUTZHm",
       "label": "madrigal",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pU843Lma47u",
-      "label": "poet",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
@@ -43,16 +31,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7oGjV7N4yBq",
-      "label": "Ingiustissimo Amor perché sì raro",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZKAs4KqUG7k",
+      "label": "poet",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3tBDveUQba76",
       "label": "Ludovico Ariosto",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gfcjxjGvcypU",
+      "label": "Ingiustissimo Amor perché sì raro",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -73,7 +73,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UPyxSbwdrbRk",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pU843Lma47u",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZKAs4KqUG7k",
       "property": "contributor"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UPyxSbwdrbRk",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -93,12 +93,12 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UPyxSbwdrbRk",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7oGjV7N4yBq",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gfcjxjGvcypU",
       "property": "based_on"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cv9uVmQKzPqv",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "occupation"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8EwCd4MA6Sx7",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -122,19 +122,19 @@
       "property": "interested_in"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7oGjV7N4yBq",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3tBDveUQba76",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZKAs4KqUG7k",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gfcjxjGvcypU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/krJNW7CuZmu4",
       "property": "described_by_source"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/o7oGjV7N4yBq",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gfcjxjGvcypU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3tBDveUQba76",
       "property": "contributor"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3tBDveUQba76",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pU843Lma47u",
-      "property": "occupation"
     }
   ]
 }

@@ -7,12 +7,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nqFmYEduvcDU",
-      "label": "Cabala del cavallo Pegaseo con l'aggiunta dell'Asino Cillenico",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T8fMuVHtQU9i",
       "label": "philosophical concept",
       "class": "Concept",
@@ -23,6 +17,12 @@
       "label": "Oh sant' asinità, sant'ignoranza",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VVz5fm87tXZK",
+      "label": "Cabala del cavallo Pegaseo con l'aggiunta dell'Asino Cillenico",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -32,18 +32,18 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nqFmYEduvcDU",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BuqMwAhAMM2R",
-      "property": "subject"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KASpvzU9Gzot",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BuqMwAhAMM2R",
       "property": "subject"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VVz5fm87tXZK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BuqMwAhAMM2R",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KASpvzU9Gzot",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nqFmYEduvcDU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VVz5fm87tXZK",
       "property": "part_of"
     }
   ]

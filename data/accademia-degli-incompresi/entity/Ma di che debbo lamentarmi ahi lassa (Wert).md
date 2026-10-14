@@ -20,11 +20,11 @@ instrumentation:
 local_asset_path: ./assets/music_compositions/wert-ma_di_che_debbo_lamentarmi_ahi_lassa
 based_on: "[[Ma di che debbo lamentarmi ahi lassa]]"
 derivative_work:
-text: |-
+text: ""
 language:
 subject:
-digitized:
-poetic_type: 
+digitized: true
+poetic_type:
 depicts:
 metre:
 ---

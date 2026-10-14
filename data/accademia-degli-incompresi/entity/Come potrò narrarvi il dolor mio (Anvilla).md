@@ -26,7 +26,7 @@ text:
 language:
   - "[[Italian]]"
 subject:
-digitized: false
+digitized: true
 poetic_type:
 depicts:
 metre:

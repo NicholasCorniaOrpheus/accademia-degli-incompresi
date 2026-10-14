@@ -7,22 +7,10 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "label": "composer",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8UjQ7UabobgD",
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FSh7toQVFB7p",
-      "label": "Alma mia fiamm'et donna (Bargonio)",
-      "class": "MusicComposition",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7Bs3hbSsrh6",
@@ -39,6 +27,18 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HXykNoKnyFom",
       "label": "Oh dolce servitù, dolce tormento (Veggio)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XCxzzhXx3FbK",
+      "label": "Alma mia fiamm'et donna (Bargonio)",
       "class": "MusicComposition",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     },
@@ -80,15 +80,10 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SafLb6VBVZvB",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "occupation"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FSh7toQVFB7p",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SafLb6VBVZvB",
-      "property": "contributor"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7Bs3hbSsrh6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SafLb6VBVZvB",
       "property": "contributor"
@@ -100,6 +95,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HXykNoKnyFom",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SafLb6VBVZvB",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XCxzzhXx3FbK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SafLb6VBVZvB",
       "property": "contributor"
     },
@@ -119,23 +119,13 @@
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FSh7toQVFB7p",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "property": "contributor"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FSh7toQVFB7p",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Wg69cHvBfBz",
-      "property": "part_of"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T7Bs3hbSsrh6",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WEQcKnoJ4BVi",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -145,7 +135,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HXykNoKnyFom",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -154,13 +144,23 @@
       "property": "part_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XCxzzhXx3FbK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XCxzzhXx3FbK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Wg69cHvBfBz",
+      "property": "part_of"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4Wg69cHvBfBz",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S4ddRVk8PKyg",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HefsQRPtZBTD",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {

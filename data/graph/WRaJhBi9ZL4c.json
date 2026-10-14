@@ -25,22 +25,16 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T648K9QCGaj9",
-      "label": "Munich Digitization Center",
-      "class": "Organisation",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwPxjrNdJkHp",
       "label": "cryptography",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4sWHRRv6ZXt",
-      "label": "Gustavus Selenus",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7zL92j8iLfbj",
+      "label": "Munich Digitization Center",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7WzaN4hdqgqS",
@@ -53,6 +47,12 @@
       "label": "author",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZzwyDRHy9pS",
+      "label": "Gustavus Selenus",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -68,12 +68,12 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WRaJhBi9ZL4c",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/T648K9QCGaj9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7zL92j8iLfbj",
       "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WRaJhBi9ZL4c",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4sWHRRv6ZXt",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZzwyDRHy9pS",
       "property": "contributor"
     },
     {
@@ -97,12 +97,12 @@
       "property": "depicts"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4sWHRRv6ZXt",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZzwyDRHy9pS",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W8fxAfTV9EuG",
       "property": "described_by_source"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/W4sWHRRv6ZXt",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aZzwyDRHy9pS",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jjYHNotSf9rt",
       "property": "interested_in"
     }

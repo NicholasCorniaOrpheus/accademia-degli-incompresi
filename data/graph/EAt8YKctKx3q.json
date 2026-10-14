@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "label": "war",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hvHqFYk8PHf6",
+      "label": "activity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mefQddrHETwE",
+      "label": "Voi scoglio a sostener, novelli Atlanti",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FwCUKJMLfX2Q",
+      "label": "Io grido Pace, e Amor mi sfida a guerra",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhmfU7AUHTNj",
+      "label": "Il dolce sonno mi promise pace",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hxZYxTQRL8Ch",
+      "label": "Giuoco d'Arme dei Sovrani e de gli Stati d'Europa per apprender l'Arme, la Geografia, e la Storia loro curiosa",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hvHqFYk8PHf6",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mefQddrHETwE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FwCUKJMLfX2Q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhmfU7AUHTNj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hxZYxTQRL8Ch",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EAt8YKctKx3q",
+      "property": "subject"
+    }
+  ]
+}

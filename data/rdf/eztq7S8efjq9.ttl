@@ -9,13 +9,19 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:eztq7S8efjq9-B38U6JorbRRb a rdf:Statement ;
+adi:eztq7S8efjq9-7Xw73EhXcDt4 a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:WmJLgXwU8mvN ;
+    rdf:predicate <> ;
+    rdf:subject adi:eztq7S8efjq9 .
+
+adi:eztq7S8efjq9-XZ9bLhBkJftv a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:i3wrAGDKdkNe ;
     rdf:predicate <> ;
     rdf:subject adi:eztq7S8efjq9 .
 
-adi:eztq7S8efjq9-ZHMA7t6yPGeM a rdf:Statement ;
+adi:eztq7S8efjq9-jCNWeEA5hEUs a rdf:Statement ;
     rdf:object adi:UoZHuZQEWyBZ ;
     rdf:predicate <> ;
     rdf:subject adi:eztq7S8efjq9 ;
@@ -23,18 +29,12 @@ adi:eztq7S8efjq9-ZHMA7t6yPGeM a rdf:Statement ;
     ns1:P958 "Di M. Francesco Sansovino" ;
     schema:volumeNumber "1" .
 
-adi:eztq7S8efjq9-c9ooqRXpSrWa a rdf:Statement ;
-    bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:bGRJWn5bVFvx ;
-    rdf:predicate <> ;
-    rdf:subject adi:eztq7S8efjq9 .
-
 adi:eztq7S8efjq9 a rdfs:Resource ;
     rdfs:label "Varchi, s'il ciel vi presti ali al gran nome" ;
     <> adi:UoZHuZQEWyBZ,
-        adi:bGRJWn5bVFvx,
+        adi:WmJLgXwU8mvN,
         adi:i3wrAGDKdkNe ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """VARCHI, s'il ciel vi presti ali al gran nome
 Ond'ei sen vole al Mauritano Atlante
 Da l'indo mar, si che trapassi quante
@@ -59,6 +59,6 @@ Tanto ch'ella per voi d'error sia sgombra.""" ;
     wdt:P1343 adi:e2nWi24VoUtn ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:bGRJWn5bVFvx ;
+    ns1:P180 adi:WmJLgXwU8mvN ;
     ns1:P2551 adi:NtX3nd34H3Wn .
 

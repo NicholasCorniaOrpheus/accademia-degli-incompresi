@@ -23,4 +23,5 @@ based_on:
   - value: "[[Qual fosse il mio martire]]"
 derivative_work:
 text:
+digitized: true
 ---

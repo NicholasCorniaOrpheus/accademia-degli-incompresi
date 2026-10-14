@@ -23,4 +23,5 @@ based_on:
   - value: "[[La luce occhi miei lassi]]"
 derivative_work:
 text:
+digitized: true
 ---

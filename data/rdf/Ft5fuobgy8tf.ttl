@@ -7,24 +7,24 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Ft5fuobgy8tf-JKYGFmdikvdB a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "16013" ;
+adi:Ft5fuobgy8tf-5QsrxSpko4vw a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:G3PLSWm65qmw ;
     rdf:predicate <> ;
     rdf:subject adi:Ft5fuobgy8tf .
 
-adi:Ft5fuobgy8tf-ScAryLtKzzmX a rdf:Statement ;
-    dcterms:references adi:RrWtiYpwdJp2 ;
-    rdf:object adi:jxuodBQDnmQ9 ;
+adi:Ft5fuobgy8tf-JKJbvgrRyxw3 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "16013" ;
     rdf:predicate <> ;
     rdf:subject adi:Ft5fuobgy8tf .
 
 adi:Ft5fuobgy8tf a rdfs:Resource ;
     rdfs:label "Girolamo Fenaroli" ;
-    <> adi:3pU843Lma47u,
+    <> adi:DZKAs4KqUG7k,
+        adi:G3PLSWm65qmw,
         adi:Q6YsmEMBpY6A,
-        adi:edLFhkc6mVw6,
-        adi:jxuodBQDnmQ9 ;
+        adi:edLFhkc6mVw6 ;
     dcterms:identifier <https://lyra.unil.ch/agents/254> ;
     dcterms:type "Agent" ;
     wdt:P1343 adi:e2nWi24VoUtn ;

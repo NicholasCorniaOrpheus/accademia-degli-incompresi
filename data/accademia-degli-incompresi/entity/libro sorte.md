@@ -9,6 +9,9 @@ image:
 aliases:
   - fortune-telling book
   - libro di sorte
+  - libro di sorti
+  - libro di ventura
+  - libro di astrologia
 instance_of:
   - "[[form of creative work]]"
 ---

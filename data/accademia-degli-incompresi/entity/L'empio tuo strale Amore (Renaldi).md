@@ -3,7 +3,9 @@ class: MusicComposition
 label:
 description:
 identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/146210000010101_000000204300C
 described_by_source:
+  - "[[RePIM]]"
 image:
 aliases:
 instance_of:
@@ -21,4 +23,5 @@ based_on:
   - value: "[[L'empio tuo strale Amore]]"
 derivative_work:
 text:
+digitized: true
 ---

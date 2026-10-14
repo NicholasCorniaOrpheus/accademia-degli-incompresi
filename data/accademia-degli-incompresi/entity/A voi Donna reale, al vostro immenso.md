@@ -28,7 +28,7 @@ metre:
 depicts:
   - "[[Giovanna d'Aragona]]"
 text: |-
-  A voi Donna reale, al vostro immenso
+  A VOI Donna reale, al vostro immenso
   Valore, a l'accortezza, a l'honestate,
   A quella serenissima beltate,
   Ond'havete d'amore il mondo incenso,
@@ -39,10 +39,10 @@ text: |-
   Erge quest'ara universal consenso.
 
   A cui sacra d'intorno, e la virtute,
-  E la gloria de' vostri, e'l nostro merto,
+  E la gloria de' vostri, e'l vostro merto,
   Tante di vero honor, chiare facelle;
 
-  Che le rozze mie Muse, e fredde, e mute,
+  Che le roze mie Muse, e fredde, e mute,
   Ma solo offrendo, e questo picciol serto,
   Lassan l'Eternità che ne favelle.
 language: "[[Italian]]"

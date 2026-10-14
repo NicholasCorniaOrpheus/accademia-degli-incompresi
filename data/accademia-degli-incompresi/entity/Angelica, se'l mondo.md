@@ -23,9 +23,9 @@ depicts:
   - "[[woman]]"
   - "[[musician]]"
 text: |-
-  Angelica, se'l mondo
+  ANgelica, se'l mondo
   Con occulti tormenti
-  E vivo Inferno di pensier nocenti,
+  È vivo Inferno di pensier nocenti,
   Per te solo il mio petto
   Di contento è ricetto;
   Poiché, con suon giocondo,

@@ -30,7 +30,11 @@ assets.add_local_graph_to_assets(
 print("Generating advanced search index...")
 advanced_search.generate_advanced_search_index()
 
-print("Generating Markdown pages...")
+print("Generating Markdown pages (rebuilding existing...")
+# clean up folder first
+for file in Path("../docs/entity").glob("*.md"):
+    file.unlink()
+
 jinja.generate_mkdocs_pages(
     GITHUB_RAW_BASE=credentials["kblight"]["vault_url"],
     YAML_PATH=Path(yaml_dir),

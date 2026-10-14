@@ -1,0 +1,11 @@
+title = "Noi siam Pastori che cantand'insieme "
+madrigal_book = "Di Giulio Fiesco il primo libro di madrigali a quattro voci"
+year = "1554"
+composer = "Giulio Fiesco"
+publisher="Antonio Gardano"
+poet = ""
+collection = ""
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "N"
+page_size = #22
+orientation = #'landscape

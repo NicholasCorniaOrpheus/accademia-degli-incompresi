@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "label": "Seconda Accademia Veneziana",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mhxiWoDeBKmm",
+      "label": "academy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mtqio9EZbmAu",
+      "label": "Lucio Scarano",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mhxiWoDeBKmm",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "property": "inception"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "property": "dissolved"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mtqio9EZbmAu",
+      "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iJCHKpzvABTP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "property": "motto"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mtqio9EZbmAu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "property": "catalog_identifier"
+    }
+  ]
+}

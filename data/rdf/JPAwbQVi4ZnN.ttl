@@ -1,0 +1,44 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JPAwbQVi4ZnN-ADoAb4XFGpKK a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:NTXVtd24wHkv ;
+    rdf:predicate <> ;
+    rdf:subject adi:JPAwbQVi4ZnN .
+
+adi:JPAwbQVi4ZnN-XJDdxJYnepDn a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=jYJedrIHTR0C> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nee6296ad5af442bf98a345a3434367df" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JPAwbQVi4ZnN ;
+    schema:datePublished "1552" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE027028> .
+
+adi:JPAwbQVi4ZnN-iXh35mf8yw5t a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:YiHNjXxhNeYk ;
+    rdf:predicate <> ;
+    rdf:subject adi:JPAwbQVi4ZnN .
+
+adi:JPAwbQVi4ZnN a rdfs:Resource ;
+    rdfs:label "Quattro libri de dubbi" ;
+    <> adi:NTXVtd24wHkv,
+        adi:YiHNjXxhNeYk,
+        "1552" ;
+    dc:subject adi:J9eV5MBznedX,
+        adi:NiTWoVWgRtNj ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE027028> ;
+    dcterms:title "Quattro libri de dubbi con le solutioni a ciascun dubbio accommodate. La materia del primo è naturale, del secondo è mista (benche per lo piu sia morale) del terzo è amorosa, & del quarto è religiosa" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:ieJs49RBeEXp ;
+    wdt:P31 adi:3FmSxcCP5CUS .
+

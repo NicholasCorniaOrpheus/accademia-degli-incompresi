@@ -20,9 +20,10 @@ has_version:
     publisher: "[[Girolamo Scotto]]"
     place_of_publication:
       - "[[Venezia]]"
-    external_source: https://archive.org/details/RCM-G33/G33a/
+    external_source: https://archive.org/details/RCM-G33
     holding_institution: "[[Internet Archive]]"
     note:
+    IIIF_manifest: https://iiif.archive.org/iiif/RCM-G33/manifest.json
 contributor:
   - role: "[[composer]]"
     value: "[[Bartolomeo Spontone]]"

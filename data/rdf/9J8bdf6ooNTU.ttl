@@ -6,24 +6,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:9J8bdf6ooNTU-YRfNgPeJdKL4 a rdf:Statement ;
-    dcterms:references adi:RrWtiYpwdJp2,
-        adi:SrWTCERreeEv ;
+adi:9J8bdf6ooNTU-D6Yv5ENy9Nq8 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "16271" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9J8bdf6ooNTU .
+
+adi:9J8bdf6ooNTU-Nf2DLYHqcWZ8 a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv,
+        adi:ax9MhV3Kc6At ;
     rdf:object adi:7F6Gu65VAyTr ;
     rdf:predicate <> ;
     rdf:subject adi:9J8bdf6ooNTU ;
     schema:startDate "1587" .
-
-adi:9J8bdf6ooNTU-bJyhjZgrDMQC a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "16271" ;
-    rdf:predicate <> ;
-    rdf:subject adi:9J8bdf6ooNTU .
 
 adi:9J8bdf6ooNTU a rdfs:Resource ;
     rdfs:label "Fabrizia Carrari" ;
     <> adi:7F6Gu65VAyTr ;
     dcterms:type "Agent" ;
     wdt:P31 adi:7QQEUQkpdvkV ;
-    schema:gender adi:UjsFswx79X7b .
+    schema:gender adi:5qUeD9fGUy8s .
 

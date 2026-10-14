@@ -9,25 +9,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:283fCXKnjYhy-4fHuYNmQbWQ3 a rdf:Statement ;
+adi:283fCXKnjYhy-R9MqjnCGxfq6 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:6RgbbkFR4hhh ;
+    rdf:predicate <> ;
+    rdf:subject adi:283fCXKnjYhy .
+
+adi:283fCXKnjYhy-VUN8w4CEMBPG a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:4fam9RTzpsG4 ;
+    rdf:predicate <> ;
+    rdf:subject adi:283fCXKnjYhy .
+
+adi:283fCXKnjYhy-Wa5x52MwhuQT a rdf:Statement ;
     rdf:object adi:exrSSpj73NMW ;
     rdf:predicate <> ;
     rdf:subject adi:283fCXKnjYhy ;
     ns1:P304 "38" ;
     ns1:P958 "Torquato Tasso. Per la Illustre Sign. Tarquinia Molza." ;
     schema:volumeNumber "1" .
-
-adi:283fCXKnjYhy-AyTWy2t2xza7 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:6RgbbkFR4hhh ;
-    rdf:predicate <> ;
-    rdf:subject adi:283fCXKnjYhy .
-
-adi:283fCXKnjYhy-NYf2z493sxjF a rdf:Statement ;
-    bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:4fam9RTzpsG4 ;
-    rdf:predicate <> ;
-    rdf:subject adi:283fCXKnjYhy .
 
 adi:283fCXKnjYhy a rdfs:Resource ;
     rdfs:label "Forse è cagion l'Aurora" ;
@@ -55,6 +55,6 @@ Ecco Tarquinia viene, Amor s'appressa.""" ;
         adi:5f6kHhAxyPZh,
         adi:P9akbwF852t3,
         adi:T3ehoUUCyhWR ;
-    ns1:P2551 adi:6r7ZsMDvqt7K,
-        adi:NtX3nd34H3Wn .
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
 

@@ -22,4 +22,5 @@ local_asset_path: ./assets/music_compositions/nola-tosto_che'l_sol_si_scopre_in_
 based_on:
   - value: "[[Tosto che'l sol si scopre in oriente]]"
 derivative_work:
+digitized: true
 ---

@@ -22,6 +22,7 @@ has_version:
     publisher: "[[Pierre Phalèse the Younger]]"
     external_source: https://archive.org/details/g-32-helicone-madrigali-0011
     holding_institution: "[[Internet Archive]]"
+    IIIF_manifest: https://iiif.archive.org/iiif/g-32-helicone-madrigali-0011/manifest.json
 contributor:
   - role: "[[composer]]"
     value: "[[Orazio Colombano]]"

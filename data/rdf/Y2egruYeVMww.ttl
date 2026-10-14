@@ -8,23 +8,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Y2egruYeVMww-LwDgwPsjZWFK a rdf:Statement ;
+adi:Y2egruYeVMww-8uDELwCeFvsm a rdf:Statement ;
+    rdf:object adi:GDJyorHV4KEw ;
+    rdf:predicate <> ;
+    rdf:subject adi:Y2egruYeVMww ;
+    ns1:P958 "Veronica Franco, II" .
+
+adi:Y2egruYeVMww-jtPWX8jzYcHx a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:RjeAA9urZgxC ;
     rdf:predicate <> ;
     rdf:subject adi:Y2egruYeVMww .
 
-adi:Y2egruYeVMww-anV6DVm8M76f a rdf:Statement ;
-    rdf:object adi:mWT5q2KSyozm ;
-    rdf:predicate <> ;
-    rdf:subject adi:Y2egruYeVMww ;
-    ns1:P958 "Veronica Franco, II" .
-
 adi:Y2egruYeVMww a rdfs:Resource ;
     rdfs:label "Oh quante volte le mie pene dire" ;
-    <> adi:RjeAA9urZgxC,
-        adi:mWT5q2KSyozm ;
-    pdc:poeticType adi:NmP27mSFqcCQ ;
+    <> adi:GDJyorHV4KEw,
+        adi:RjeAA9urZgxC ;
+    pdc:poeticType adi:eEoegmSpByKN ;
     pdc:text """Oh quante volte le mie pene dire
 l'aura e le mobil foglie ad ascoltare
 si fermar queste e lasciò quella d'ire!
@@ -61,7 +61,7 @@ Le lagrime, ch'io verso, in parte il foco
 spengono; e vivo sol de la speranza
 di tosto rivedervi al dolce loco.""" ;
     dc:description "The author is longing for her beloved and her native country. She asks the god of Love to spare her sufferings. Lontana dall’amante, soffre e piange, e sospira Venezia. Dove appena sará tornata, a lui che l’attende dará, in amorosa lotta, dolce ristoro delle noie passate." ;
-    dc:subject adi:YqV7mj8DFjX4 ;
+    dc:subject adi:ddAjDYDQ8Ean ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;

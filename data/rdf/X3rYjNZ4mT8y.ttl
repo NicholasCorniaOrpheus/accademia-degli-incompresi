@@ -1,0 +1,48 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:X3rYjNZ4mT8y-MKS6mj2wFLk6 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:4pcdeHVZf9gz ;
+    rdf:predicate <> ;
+    rdf:subject adi:X3rYjNZ4mT8y .
+
+adi:X3rYjNZ4mT8y-TQ5wRXLn9YZY a rdf:Statement ;
+    rdf:object adi:faqWLBNJVmjy ;
+    rdf:predicate <> ;
+    rdf:subject adi:X3rYjNZ4mT8y ;
+    ns1:P304 "3" ;
+    ns1:P958 "Ottava 1" .
+
+adi:X3rYjNZ4mT8y a rdfs:Resource ;
+    rdfs:label "Donne leggiadre, ne' cui lumi ardenti" ;
+    <> adi:4pcdeHVZf9gz,
+        adi:faqWLBNJVmjy ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Donne leggiadre, ne' cui lumi ardenti
+Mirar non sdegna anzi specchiarsi il Sole
+E fate co' bei raggi alti, e lucenti
+Nascer, quando più aggiaccia, erbe, e viole.
+Non siate, prego, questi rozzi accenti,
+Né il basso suon, queste mie parole
+Sdegnose in ascoltar, mentre col canto
+Cerco inalzar le lodi vostre, e 'l vanto.""" ;
+    dc:description "Verses in defense of women, too often attacked by unjust critiques." ;
+    dc:subject adi:jSo2wG8h9SDa,
+        adi:ndYmAKz88N5Q ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:8JCJNiEPyPxR,
+        adi:CBDegRAvhV8n,
+        adi:LBUMoVayqW8X,
+        adi:P9akbwF852t3 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

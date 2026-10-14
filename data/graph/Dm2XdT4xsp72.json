@@ -7,12 +7,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "label": "composer",
-      "class": "Concept",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hbLMcBia2woA",
       "label": "Roma",
       "class": "Place",
@@ -25,13 +19,13 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SZrXzSNBfLv",
-      "label": "Eran le vostre lagrime nel viso (Palestrina)",
-      "class": "MusicComposition",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "label": "composer",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YV3zHM3jYeVM",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JgaAfF63TaJZ",
       "label": "De floridi virtuosi d'Italia, il secondo libro de madrigali a cinque voci",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
@@ -41,6 +35,12 @@
       "label": "human",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z3RKszHVncYU",
+      "label": "Eran le vostre lagrime nel viso (Palestrina)",
+      "class": "MusicComposition",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/music_composition.png"
     }
   ],
   "links": [
@@ -61,33 +61,33 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Dm2XdT4xsp72",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "occupation"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SZrXzSNBfLv",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JgaAfF63TaJZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Dm2XdT4xsp72",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YV3zHM3jYeVM",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z3RKszHVncYU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Dm2XdT4xsp72",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SZrXzSNBfLv",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JgaAfF63TaJZ",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7SZrXzSNBfLv",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YV3zHM3jYeVM",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z3RKszHVncYU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z3RKszHVncYU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JgaAfF63TaJZ",
       "property": "part_of"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YV3zHM3jYeVM",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwQKHQGXaPrg",
-      "property": "contributor"
     }
   ]
 }

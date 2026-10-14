@@ -23,4 +23,5 @@ based_on:
   - value: "[[Eran le vostre lagrime nel viso]]"
 derivative_work:
 text:
+digitized: true
 ---

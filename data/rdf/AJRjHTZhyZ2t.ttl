@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:AJRjHTZhyZ2t-Raqhv93pbnUX a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9dTpgyZubvQj ;
+    rdf:predicate <> ;
+    rdf:subject adi:AJRjHTZhyZ2t .
+
+adi:AJRjHTZhyZ2t-TbSxGDsyzbbn a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10189918> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10189918/manifest> ;
+    rdf:object "Nede4d7437e904cddb35578e62aa444a5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:AJRjHTZhyZ2t ;
+    schema:datePublished "1527" .
+
+adi:AJRjHTZhyZ2t a rdfs:Resource ;
+    rdfs:label "Chaos del tri per uno" ;
+    <> adi:9dTpgyZubvQj,
+        "1527" ;
+    dc:subject adi:JY49Nv49qscR ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE019365> ;
+    dcterms:title "Chaos del tri per vno" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:2jTZtcMb8cpv .
+

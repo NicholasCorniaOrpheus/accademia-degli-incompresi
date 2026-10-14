@@ -40,7 +40,7 @@ language:
   - "[[Italian]]"
 subject:
   - "[[love]]"
-digitized:
+digitized: true
 poetic_type:
   - "[[madrigale]]"
 depicts:

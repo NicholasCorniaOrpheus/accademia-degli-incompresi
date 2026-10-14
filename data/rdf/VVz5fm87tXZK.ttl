@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+adi:VVz5fm87tXZK-Dnq5UD78UfKv a rdf:Statement ;
+    rdf:object "N9ec607b51653466a88bb41b3060a8d2b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:VVz5fm87tXZK ;
+    schema:datePublished "1585" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007713> .
+
+adi:VVz5fm87tXZK-kW5HXnpeT5Zq a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:F5twPYgd9Q3X ;
+    rdf:predicate <> ;
+    rdf:subject adi:VVz5fm87tXZK .
+
+adi:VVz5fm87tXZK a rdfs:Resource ;
+    rdfs:label "Cabala del cavallo Pegaseo con l'aggiunta dell'Asino Cillenico" ;
+    <> adi:F5twPYgd9Q3X,
+        "1585" ;
+    dc:subject adi:BuqMwAhAMM2R,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE007713> ;
+    dcterms:type "Book" .
+

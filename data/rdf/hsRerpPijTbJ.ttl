@@ -6,22 +6,22 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:hsRerpPijTbJ-YCWrEK9Jwrmb a rdf:Statement ;
+adi:hsRerpPijTbJ-33v4fDYLRdzR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:TKRDn69yygok ;
+    rdf:predicate <> ;
+    rdf:subject adi:hsRerpPijTbJ .
+
+adi:hsRerpPijTbJ-AKbnqnVSL7Wk a rdf:Statement ;
     bf:electronicLocator <https://viewer.onb.ac.at/109B7274/> ;
     bf:heldBy adi:CEMJGhgpCq9k ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:S2MpkiMWKU5X ;
     wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/109B7274> ;
-    rdf:object "Na4fb2f1f2c544986828eb6d6b210c102" ;
+    rdf:object "N4c015a6935204eaaa85a8616a4f3f946" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:hsRerpPijTbJ ;
     schema:datePublished "1551" .
-
-adi:hsRerpPijTbJ-dtcoaiyfDgH6 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:TKRDn69yygok ;
-    rdf:predicate <> ;
-    rdf:subject adi:hsRerpPijTbJ .
 
 adi:hsRerpPijTbJ a rdfs:Resource ;
     rdfs:label "Rime diverse del Mutio Iustinopolitano" ;

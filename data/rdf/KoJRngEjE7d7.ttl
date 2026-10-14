@@ -9,13 +9,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KoJRngEjE7d7-ADgFhpnKVM4a a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:Kq4PswoDPxtR ;
-    rdf:predicate <> ;
-    rdf:subject adi:KoJRngEjE7d7 .
-
-adi:KoJRngEjE7d7-fsCiQvHFfj6k a rdf:Statement ;
+adi:KoJRngEjE7d7-EkTPaKre6zZZ a rdf:Statement ;
     rdf:object adi:exrSSpj73NMW ;
     rdf:predicate <> ;
     rdf:subject adi:KoJRngEjE7d7 ;
@@ -23,9 +17,15 @@ adi:KoJRngEjE7d7-fsCiQvHFfj6k a rdf:Statement ;
     ns1:P958 "Musica. Alla M. Illustre Signora Contessa D. Ismeria Alberti Sareghi. Cesare Rinaldi." ;
     schema:volumeNumber "4" .
 
+adi:KoJRngEjE7d7-eHNCWHwdjKFq a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:LiFFXxCY6ueT ;
+    rdf:predicate <> ;
+    rdf:subject adi:KoJRngEjE7d7 .
+
 adi:KoJRngEjE7d7 a rdfs:Resource ;
     rdfs:label "Canta Urania la parte" ;
-    <> adi:Kq4PswoDPxtR,
+    <> adi:LiFFXxCY6ueT,
         adi:exrSSpj73NMW ;
     pdc:poeticType adi:XnhvNmB6wXvC ;
     pdc:text """Canta Urania la parte
@@ -45,11 +45,11 @@ Quanto è grave l'amor, è grave il canto.""" ;
     wdt:P1343 adi:krJNW7CuZmu4 ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:FHkhZJZzAo88,
+    ns1:P180 adi:6BBaDBmJsxxj,
         adi:P9akbwF852t3,
         adi:UEx82wKyUY8o,
         adi:WoXXLHXBBLj4,
         adi:he75W4YL8aFz ;
-    ns1:P2551 adi:6r7ZsMDvqt7K,
-        adi:NtX3nd34H3Wn .
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
 

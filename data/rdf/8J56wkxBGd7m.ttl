@@ -7,34 +7,34 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:8J56wkxBGd7m-CNMRPgPqjzHz a rdf:Statement ;
+adi:8J56wkxBGd7m-2bhsDrmQrH8u a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:GR659Y26XDBB ;
+    rdf:object adi:aZnBpT3MYhcK ;
     rdf:predicate <> ;
     rdf:subject adi:8J56wkxBGd7m .
 
-adi:8J56wkxBGd7m-kXeFdxedTezU a rdf:Statement ;
+adi:8J56wkxBGd7m-iscTYEHAUNNk a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:mmdFMFDFn4f2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:8J56wkxBGd7m .
+
+adi:8J56wkxBGd7m-kqhsh29L7Ufz a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10166095> ;
-    bf:heldBy adi:T648K9QCGaj9 ;
+    bf:heldBy adi:7zL92j8iLfbj ;
     dcterms:publisher adi:M9zeFj5bMBG8 ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10166095/manifest> ;
-    rdf:object "N592b6703cb02461a83ed3c97b40ff874" ;
+    rdf:object "N1e47c13882e0484f8123a9af25875c63" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:8J56wkxBGd7m ;
     schema:datePublished "c. 1567" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000032> .
 
-adi:8J56wkxBGd7m-kq9TuaWjQpQk a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:a3fxbFBpFjK2 ;
-    rdf:predicate <> ;
-    rdf:subject adi:8J56wkxBGd7m .
-
 adi:8J56wkxBGd7m a rdfs:Resource ;
     rdfs:label "Rime de gli Accademici Eterei dedicate alla serenissima madama Margherita di Valois" ;
-    <> adi:GR659Y26XDBB,
-        adi:a3fxbFBpFjK2,
+    <> adi:aZnBpT3MYhcK,
+        adi:mmdFMFDFn4f2,
         "1567" ;
     dc:subject adi:mhxiWoDeBKmm ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE000032>,

@@ -8,23 +8,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:3XYUyiyZcdqz-DHAe8hLzPVzz a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "9001" ;
+adi:3XYUyiyZcdqz-GGDcNKC9F9vv a rdf:Statement ;
+    dcterms:references adi:FPb9utFFsVcF ;
+    rdf:object adi:dzdNN2UGikPZ ;
     rdf:predicate <> ;
     rdf:subject adi:3XYUyiyZcdqz .
 
-adi:3XYUyiyZcdqz-EafTrUmDzJrP a rdf:Statement ;
-    dcterms:references adi:X68fVkQC9ygb ;
-    rdf:object adi:BpATM36nYWpT ;
+adi:3XYUyiyZcdqz-QDh8Jdx6ZgKZ a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "9001" ;
     rdf:predicate <> ;
     rdf:subject adi:3XYUyiyZcdqz .
 
 adi:3XYUyiyZcdqz a rdfs:Resource ;
     rdfs:label "Sforza degli Oddi" ;
-    <> adi:BpATM36nYWpT,
-        adi:CpPUGMLmsAJZ,
-        adi:kQTagGwVLuoA ;
+    <> adi:cyioc6Cg5ZmN,
+        adi:dzdNN2UGikPZ,
+        adi:eoXfuwDbhTtW ;
     dcterms:identifier ns1:Q16268327 ;
     dcterms:type "Agent" ;
     wdt:P31 adi:7QQEUQkpdvkV ;

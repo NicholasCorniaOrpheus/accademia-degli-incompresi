@@ -7,22 +7,10 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AYVULkhK3REA",
-      "label": "Logica memorativa",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pjXu8dNW596",
       "label": "Accademia dei Gelati di Bologna",
       "class": "Organisation",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
-    },
-    {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EmXRt3tqiC38",
-      "label": "Michael Maier",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cYmsKViWTeP7",
@@ -35,6 +23,24 @@
       "label": "artificial object",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b2qoN4DZWwja",
+      "label": "Li pregi della nobiltà veneta abbozzati in un giuoco d'arme di tutte le famiglie",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U2DCbnWGRibv",
+      "label": "Michael Maier",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BnJ7Wn8TrNmj",
+      "label": "Logica memorativa",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -44,17 +50,7 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AYVULkhK3REA",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
-      "property": "depicts"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3pjXu8dNW596",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
-      "property": "interested_in"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/EmXRt3tqiC38",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
       "property": "interested_in"
     },
@@ -62,6 +58,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cYmsKViWTeP7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/b2qoN4DZWwja",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U2DCbnWGRibv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BnJ7Wn8TrNmj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PAfwtQUEB4mS",
+      "property": "depicts"
     }
   ]
 }

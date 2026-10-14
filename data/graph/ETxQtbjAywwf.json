@@ -13,28 +13,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/place.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nMRXTDYKcVPP",
-      "label": "Dialogo di Pietro Aretino nel quale si parla del gioco con moralità piacevole",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/699KXqXpEfDj",
       "label": "Le Rime volgari di Lodovico di Lorenzo Martelli",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RrWtiYpwdJp2",
-      "label": "Italian Academies Database",
-      "class": "Organisation",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8UjQ7UabobgD",
       "label": "male",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
+      "label": "Italian Academies Database",
+      "class": "Organisation",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6JQyzUwccM4D",
@@ -47,6 +41,12 @@
       "label": "publisher",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mtkx2GXVZVQP",
+      "label": "Dialogo di Pietro Aretino nel quale si parla del gioco con moralità piacevole",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7QQEUQkpdvkV",
@@ -84,13 +84,8 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ETxQtbjAywwf",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RrWtiYpwdJp2",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
       "property": "catalog_identifier"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nMRXTDYKcVPP",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ETxQtbjAywwf",
-      "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/699KXqXpEfDj",
@@ -99,6 +94,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6JQyzUwccM4D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ETxQtbjAywwf",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mtkx2GXVZVQP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ETxQtbjAywwf",
       "property": "has_version"
     },
@@ -108,17 +108,17 @@
       "property": "has_version"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nMRXTDYKcVPP",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
-      "property": "has_version"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/699KXqXpEfDj",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
       "property": "has_version"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6JQyzUwccM4D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mtkx2GXVZVQP",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/edLFhkc6mVw6",
       "property": "has_version"
     },

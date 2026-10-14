@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:PMtfxNuVKiEU-SRanNa9mBSyM a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/imageGIX398NarrativaOpal> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    dcterms:publisher adi:WqwpDmQpu7Vd ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://iiif.archive.org/iiif/imageGIX398NarrativaOpal/manifest.json> ;
+    rdf:object "N661e0461b2954ab3b7b1ed3a57054733" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:PMtfxNuVKiEU ;
+    schema:datePublished "1618" ;
+    schema:url <http://id.sbn.it/bid/TO0E007896> .
+
+adi:PMtfxNuVKiEU-kmDWZxrg26rT a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:nqdaBTbYUu74 ;
+    rdf:predicate <> ;
+    rdf:subject adi:PMtfxNuVKiEU .
+
+adi:PMtfxNuVKiEU a rdfs:Resource ;
+    rdfs:label "Amore innamorato, et impazzato. Poema di Lucretia Marinella" ;
+    <> adi:nqdaBTbYUu74,
+        "1618" ;
+    dc:subject adi:FNYPQcA7Ae9y ;
+    dcterms:identifier <http://id.sbn.it/bid/TO0E007896> ;
+    dcterms:title "Amore innamorato, et impazzato. Poema di Lucretia Marinella; con gli argomenti, & allegorie a ciascun canto. ..." ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:d9Ppz2Rxs94p ;
+    wdt:P31 adi:8s6nPidcEXTz ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:MfBWzgNTqiki .
+

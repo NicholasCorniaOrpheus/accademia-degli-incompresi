@@ -6,26 +6,26 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:MZhwN3rRpy8x-D5wQSthdefjD a rdf:Statement ;
+adi:MZhwN3rRpy8x-aZW63hcStwJ5 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZFebXWJmjjMc ;
+    rdf:predicate <> ;
+    rdf:subject adi:MZhwN3rRpy8x .
+
+adi:MZhwN3rRpy8x-jLUgnA4kmQdy a rdf:Statement ;
     bf:electronicLocator <https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t7fr2qs3j> ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "Na172970fbc504b75950b514fc60a75fc" ;
+    rdf:object "N9c95b4bd0b11423ab2aaed772906beb5" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:MZhwN3rRpy8x ;
     schema:datePublished "1545" ;
     schema:url <https://hdl.handle.net/2027/gri.ark:/13960/t7fr2qs3j> .
 
-adi:MZhwN3rRpy8x-Ht2CLAq67Xub a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:VGVHbg5uSE8V ;
-    rdf:predicate <> ;
-    rdf:subject adi:MZhwN3rRpy8x .
-
-adi:MZhwN3rRpy8x-hMZyqLeTLWCH a rdf:Statement ;
+adi:MZhwN3rRpy8x-mhqenRi7DfPZ a rdf:Statement ;
     bf:electronicLocator <https://books.google.it/books?id=OIusG9Td-fwC> ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N68b98188e3f24b14808c16d71e9f0cd5" ;
+    rdf:object "N0b3daa97afe748a3872c5de88498d60c" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:MZhwN3rRpy8x ;
     schema:datePublished "1544" ;
@@ -33,7 +33,7 @@ adi:MZhwN3rRpy8x-hMZyqLeTLWCH a rdf:Statement ;
 
 adi:MZhwN3rRpy8x a rdfs:Resource ;
     rdfs:label "Madrigali del magnifico signor cavalier Luigi Cassola" ;
-    <> adi:VGVHbg5uSE8V,
+    <> adi:ZFebXWJmjjMc,
         "1544" ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE009895>,
         <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/002250010> ;

@@ -6,34 +6,34 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:hKo3ybdS8hXx-FU7aJkGc76t3 a rdf:Statement ;
-    dcterms:references adi:RrWtiYpwdJp2,
-        adi:SrWTCERreeEv ;
-    rdf:object adi:7F6Gu65VAyTr ;
-    rdf:predicate <> ;
-    rdf:subject adi:hKo3ybdS8hXx ;
-    schema:startDate "1590" .
-
-adi:hKo3ybdS8hXx-R9CE7k3VcNEq a rdf:Statement ;
+adi:hKo3ybdS8hXx-52eF8QBpU5sm a rdf:Statement ;
     bf:heldBy adi:Mefkw2MRET3J ;
     rdf:object "A0474" ;
     rdf:predicate <> ;
     rdf:subject adi:hKo3ybdS8hXx .
 
-adi:hKo3ybdS8hXx-UBCQpPhW6RWd a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
+adi:hKo3ybdS8hXx-WNnjZCus67Vk a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv,
+        adi:ax9MhV3Kc6At ;
+    rdf:object adi:7F6Gu65VAyTr ;
+    rdf:predicate <> ;
+    rdf:subject adi:hKo3ybdS8hXx ;
+    schema:startDate "1590" .
+
+adi:hKo3ybdS8hXx-bU9ihB8Jscdy a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
     rdf:object "16288" ;
     rdf:predicate <> ;
     rdf:subject adi:hKo3ybdS8hXx .
 
 adi:hKo3ybdS8hXx a rdfs:Resource ;
     rdfs:label "Innocenza Carrari" ;
-    <> adi:3pU843Lma47u,
-        adi:7F6Gu65VAyTr,
+    <> adi:7F6Gu65VAyTr,
+        adi:DZKAs4KqUG7k,
         "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9J8bdf6ooNTU" ;
     dcterms:type "Agent" ;
     wdt:P1343 adi:Mefkw2MRET3J,
         adi:SrWTCERreeEv ;
     wdt:P31 adi:7QQEUQkpdvkV ;
-    schema:gender adi:UjsFswx79X7b .
+    schema:gender adi:5qUeD9fGUy8s .
 

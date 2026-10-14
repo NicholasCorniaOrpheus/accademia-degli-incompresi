@@ -23,4 +23,5 @@ based_on:
   - value: "[[Deh Florinda gratiosa]]"
 derivative_work:
 text:
+digitized: true
 ---

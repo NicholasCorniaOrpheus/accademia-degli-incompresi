@@ -8,23 +8,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:LMjJmEyTAUhn-4x79azgWxkkg a rdf:Statement ;
+adi:LMjJmEyTAUhn-H5baKtMPTaHx a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Lb9QYViRewZ3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:LMjJmEyTAUhn .
+
+adi:LMjJmEyTAUhn-gTLSLPBcGqX6 a rdf:Statement ;
     rdf:object adi:RidaxpYHRDz3 ;
     rdf:predicate <> ;
     rdf:subject adi:LMjJmEyTAUhn ;
     ns1:P304 "354" ;
     ns1:P958 "Loda la Sig. Margherita N. di belleza, e di virtù." .
 
-adi:LMjJmEyTAUhn-T3smQBwJEohd a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:nxtaeZb4ETk2 ;
-    rdf:predicate <> ;
-    rdf:subject adi:LMjJmEyTAUhn .
-
 adi:LMjJmEyTAUhn a rdfs:Resource ;
     rdfs:label "Dal mare, oh Margherita, il nome avesti" ;
-    <> adi:RidaxpYHRDz3,
-        adi:nxtaeZb4ETk2 ;
+    <> adi:Lb9QYViRewZ3,
+        adi:RidaxpYHRDz3 ;
     pdc:poeticType adi:JdCmvSXCtJKC ;
     pdc:text """Dal mare, oh Margherita, il nome havesti.
 Ma chi de le tue luci i rai vegheggia,

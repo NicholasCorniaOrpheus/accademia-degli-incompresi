@@ -1,0 +1,30 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:imyzDSgLQZ47-SufCZBjngue6 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "19832" ;
+    rdf:predicate <> ;
+    rdf:subject adi:imyzDSgLQZ47 .
+
+adi:imyzDSgLQZ47-aamEEJrkSHJL a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:YjdZoHZXrCqn ;
+    rdf:predicate <> ;
+    rdf:subject adi:imyzDSgLQZ47 .
+
+adi:imyzDSgLQZ47 a rdfs:Resource ;
+    rdfs:label "Bernardo Giustiniani" ;
+    <> adi:YjdZoHZXrCqn,
+        adi:dK3CoeMSUGWp ;
+    dcterms:identifier <https://viaf.org/viaf/5829159477988327990000> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:na5s76uYFKap ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

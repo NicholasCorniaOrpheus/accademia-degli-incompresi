@@ -9,34 +9,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:HyfD7KZHZGPs-cR5TdPywhiHq a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:Bqg3oat8dyZM ;
-    rdf:predicate <> ;
-    rdf:subject adi:HyfD7KZHZGPs .
-
-adi:HyfD7KZHZGPs-gmmGfxPsSut6 a rdf:Statement ;
-    bf:electronicLocator <http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3AARM0000066&mode=all&teca=marciana> ;
-    wdt:P291 adi:UprfWYGHsS7r ;
-    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/YldGeVkybGhibUVf/b2FpOjE5My4yMDYuMTk3LjEyMToxODpWRTAwNDk6QVJNMDAwMDA2Ng__/manifest.json> ;
-    rdf:object "N9866a22b812f4254b6ee058bf7bb2e54" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:HyfD7KZHZGPs ;
-    schema:datePublished "1484" ;
-    schema:url <http://id.sbn.it/bid/VEAE120755> .
-
-adi:HyfD7KZHZGPs-hNCbog3g3Hpt a rdf:Statement ;
+adi:HyfD7KZHZGPs-bffCE6nqn7aT a rdf:Statement ;
     bf:electronicLocator <https://www.rae.es/archivo-digital/libro-del-juego-de-las-suertes> ;
-    bf:heldBy adi:caeWqFd5jCJ4 ;
-    rdf:object "N3a7f898c4a60489fb65ec3a04ae06d46" ;
+    bf:heldBy adi:k7rmmdcgkciX ;
+    rdf:object "N1f61d1c44ee04e91abc1820fd743f6aa" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:HyfD7KZHZGPs ;
     schema:datePublished "1515" ;
     schema:url <https://www.rae.es/biblioteca/catalogo/?TITN=98013> .
 
+adi:HyfD7KZHZGPs-cgb6huASLM6b a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:U9xvuj9mvgrC ;
+    rdf:predicate <> ;
+    rdf:subject adi:HyfD7KZHZGPs .
+
+adi:HyfD7KZHZGPs-imWPcEsQsRr7 a rdf:Statement ;
+    bf:electronicLocator <http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3AARM0000066&mode=all&teca=marciana> ;
+    wdt:P291 adi:UprfWYGHsS7r ;
+    wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/YldGeVkybGhibUVf/b2FpOjE5My4yMDYuMTk3LjEyMToxODpWRTAwNDk6QVJNMDAwMDA2Ng__/manifest.json> ;
+    rdf:object "Nd0bfb924aadf4869b8e801fe526ac645" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HyfD7KZHZGPs ;
+    schema:datePublished "1484" ;
+    schema:url <http://id.sbn.it/bid/VEAE120755> .
+
 adi:HyfD7KZHZGPs a rdfs:Resource ;
     rdfs:label "Libro de la sorte" ;
-    <> adi:Bqg3oat8dyZM,
+    <> adi:U9xvuj9mvgrC,
         "1484" ;
     dc:subject adi:i6aLsHeCyDtH,
         adi:jjYHNotSf9rt,
@@ -50,6 +50,6 @@ adi:HyfD7KZHZGPs a rdfs:Resource ;
         adi:4gDUdsQ3zgkL ;
     skos:altLabel "Libro della ventura",
         "Libro delle sorti" ;
-    ns1:P180 adi:8AksXBHfuu7g,
-        adi:cYmsKViWTeP7 .
+    ns1:P180 adi:cYmsKViWTeP7,
+        adi:jatFry598Usr .
 

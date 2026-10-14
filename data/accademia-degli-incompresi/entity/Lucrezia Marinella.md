@@ -7,7 +7,7 @@ identifier:
 described_by_source:
   - "[[(Cox 2020)]]"
   - "[[(Ray 2015)]]"
-  - "[[(Ross 2010)]]"
+  - "[[(Ross 2009)]]"
 image: https://upload.wikimedia.org/wikipedia/commons/1/1f/Lucrezia_Marinella_by_Giacomo_Piccini%2C_1652_%28cropped%29.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original
 aliases:
 instance_of:

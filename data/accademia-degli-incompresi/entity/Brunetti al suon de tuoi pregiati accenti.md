@@ -43,7 +43,7 @@ text: |-
   Né più tranquilli i torbidi desiri,
   Né sentì mai più dolci i mei tormenti.
 
-  Oh se quando paigommi iniquo Amore,
+  Oh se quando piagommi iniquo Amore,
   A te correr mi fea mio perfid'Astro,
   Hor mi fora per te sanato il core.
 

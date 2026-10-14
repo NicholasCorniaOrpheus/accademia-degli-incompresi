@@ -7,12 +7,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6RNHf5ELRGDK",
-      "label": "Muse che tante volte ributtai",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bFPJrphZzceS",
       "label": "Pensier troppo infelice",
       "class": "PoeticWork",
@@ -29,6 +23,12 @@
       "label": "Se ben pietosa madre unico figlio",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcQTr33rdEhT",
+      "label": "Muse che tante volte ributtai",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     }
   ],
   "links": [
@@ -38,17 +38,17 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6RNHf5ELRGDK",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jyeTTpwjLE6d",
-      "property": "depicts"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bFPJrphZzceS",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jyeTTpwjLE6d",
       "property": "depicts"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jrSmKmhQnFsE",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jyeTTpwjLE6d",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QcQTr33rdEhT",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jyeTTpwjLE6d",
       "property": "depicts"
     }

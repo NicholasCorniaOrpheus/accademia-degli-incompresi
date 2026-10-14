@@ -17,6 +17,7 @@ has_version:
     holding_institution: "[[Internet Archive]]"
     place_of_publication:
       - "[[Paris]]"
+    IIIF_manifest: https://iiif.archive.org/iiif/b33019617/manifest.json
 contributor:
   - role: "[[author]]"
     value: "[[Michael Maier]]"

@@ -6,6 +6,8 @@ identifier:
   - http://id.sbn.it/bid/TO0E002808
 described_by_source:
   - "[[(Black 1982)]]"
+  - "[[(Luppi 1992)]]"
+  - "[[(Vianello 2009)]]"
 image:
 aliases:
 instance_of:
@@ -24,6 +26,7 @@ contributor:
     value: "[[Alessandro Tassoni]]"
 subject:
   - "[[quarrel of ancients and moderns]]"
+  - "[[music making]]"
 based_on:
 catalog_identifier:
 has_part:
@@ -32,3 +35,6 @@ language:
   - "[[Italian]]"
   - "[[Latin]]"
 ---
+According to [[(Luppi 1992)]], chapter XXIII of book 10 is dedicated to music. He claims, through a series of examples, the superiority of performers from [[classical antiquity]] compared to modern ones.
+
+Of particular interest is his predilection for [[cornetto]],  [[trumpet]] and [[baroque guitar]].

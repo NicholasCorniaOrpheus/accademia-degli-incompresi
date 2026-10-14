@@ -23,4 +23,5 @@ based_on:
   - value: "[[Al'apparir del Sole]]"
 derivative_work:
 text:
+digitized: true
 ---

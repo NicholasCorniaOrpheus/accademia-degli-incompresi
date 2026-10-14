@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhNPwWdXFbsT",
+      "label": "(Luppi 1992)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U9tv2wDqzfAZ",
+      "label": "Recercare",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dDZ5RTMwVgxu",
+      "label": "Alessandro Tassoni",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9AwBHGuVBPXj",
+      "label": "De' pensieri diversi di Alessandro Tassoni libri dieci",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhNPwWdXFbsT",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U9tv2wDqzfAZ",
+      "property": "part_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dDZ5RTMwVgxu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhNPwWdXFbsT",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9AwBHGuVBPXj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhNPwWdXFbsT",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9AwBHGuVBPXj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fhNPwWdXFbsT",
+      "property": "related_to"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/9AwBHGuVBPXj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dDZ5RTMwVgxu",
+      "property": "contributor"
+    }
+  ]
+}

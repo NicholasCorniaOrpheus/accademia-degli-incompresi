@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:GGGscxxDVgHN-VQ9q7hHoH8CX a rdf:Statement ;
+    rdf:object adi:GdXWhx79h26y ;
+    rdf:predicate <> ;
+    rdf:subject adi:GGGscxxDVgHN ;
+    ns1:P958 "Canto XXXV, 1" .
+
+adi:GGGscxxDVgHN-gRCfyb5QL4pu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:3tBDveUQba76 ;
+    rdf:predicate <> ;
+    rdf:subject adi:GGGscxxDVgHN .
+
+adi:GGGscxxDVgHN a rdfs:Resource ;
+    rdfs:label "Chi salirà per me madonna in cielo" ;
+    <> adi:3tBDveUQba76,
+        adi:GdXWhx79h26y ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Chi salirà per me, madonna, in cielo
+A riportarne il mio perduto ingegno?
+Che, poi ch'uscì da' bei vostri occhi il telo
+Che 'l cor mi fisse, ognior perdendo vegno.
+Né di tanta iattura mi querelo,
+Pur che non cresca, ma stia a questo segno;
+Ch'io dubito, se più si va sciemando,
+Di venir tal, qual ho descritto Orlando.""" ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F020190000101_PPPP00015400C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    ns1:P180 adi:FNYPQcA7Ae9y,
+        adi:LBUMoVayqW8X,
+        adi:PD77VU2hvP2t,
+        adi:S2y5UAT62kde,
+        adi:kG5HwQ4avsGP ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

@@ -9,39 +9,39 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:bo7ExF9Gzqw8-4TNxXcZb7Dur a rdf:Statement ;
-    rdf:object adi:PagyXFKr5PvT ;
+adi:bo7ExF9Gzqw8-3uVgSVtBL7fu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QzFWBAu4Ku5H ;
+    rdf:predicate <> ;
+    rdf:subject adi:bo7ExF9Gzqw8 .
+
+adi:bo7ExF9Gzqw8-4eP8rDtL8YtE a rdf:Statement ;
+    rdf:object adi:kdFMmdTS6b2C ;
     rdf:predicate <> ;
     rdf:subject adi:bo7ExF9Gzqw8 ;
     ns1:P304 "111" ;
     ns1:P958 "Margherita Sarocchi." ;
     schema:volumeNumber "2" .
 
-adi:bo7ExF9Gzqw8-JAPA88u4UdRf a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:QzFWBAu4Ku5H ;
-    rdf:predicate <> ;
-    rdf:subject adi:bo7ExF9Gzqw8 .
-
-adi:bo7ExF9Gzqw8-UTHFSX5awUmY a rdf:Statement ;
-    bf:Role adi:CgtXMynJGovX ;
-    rdf:object adi:DBkvPTi2HczR ;
-    rdf:predicate <> ;
-    rdf:subject adi:bo7ExF9Gzqw8 .
-
-adi:bo7ExF9Gzqw8-eaqWgyenirin a rdf:Statement ;
-    rdf:object adi:dXHZMmpg7CAi ;
+adi:bo7ExF9Gzqw8-CzwafiCezi6M a rdf:Statement ;
+    rdf:object adi:2mpexKsXXTGT ;
     rdf:predicate <> ;
     rdf:subject adi:bo7ExF9Gzqw8 ;
     ns1:P958 "Alla Signora D. Costanza Colonna Sforza. Margherita Sarocchi." .
 
+adi:bo7ExF9Gzqw8-igH52xMP3Kcm a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:RiTV5K3oof36 ;
+    rdf:predicate <> ;
+    rdf:subject adi:bo7ExF9Gzqw8 .
+
 adi:bo7ExF9Gzqw8 a rdfs:Resource ;
     rdfs:label "Donna real, nel cui pudico seno" ;
-    <> adi:DBkvPTi2HczR,
-        adi:PagyXFKr5PvT,
+    <> adi:2mpexKsXXTGT,
         adi:QzFWBAu4Ku5H,
-        adi:dXHZMmpg7CAi ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+        adi:RiTV5K3oof36,
+        adi:kdFMmdTS6b2C ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Donna real, nel cui pudico seno
 Sol regna alto pensier d'eterno onore,
 Cui non fe la virtù del forte core
@@ -63,8 +63,8 @@ E far tue lode, e mie venture conte.""" ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:LBUMoVayqW8X,
-        adi:d2QjJCcEtkiC,
+    ns1:P180 adi:CBDegRAvhV8n,
+        adi:LBUMoVayqW8X,
         adi:mYTHrWKC38sb ;
     ns1:P2551 adi:NtX3nd34H3Wn .
 

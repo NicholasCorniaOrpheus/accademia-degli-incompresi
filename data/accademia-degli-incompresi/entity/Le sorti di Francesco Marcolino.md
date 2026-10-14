@@ -6,6 +6,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE055028
 described_by_source:
   - "[[(Faini 2020)]]"
+  - "[[(Nadin 2023)]]"
 image:
 aliases:
   - Giardino di pensieri

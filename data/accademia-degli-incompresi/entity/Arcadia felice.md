@@ -5,7 +5,7 @@ description:
 identifier:
   - http://id.sbn.it/bid/BVEE041824
 described_by_source:
-  - "[[(Ross 2010)]]"
+  - "[[(Ross 2009)]]"
   - "[[(Ray 2015)]]"
 image:
 aliases:

@@ -7,28 +7,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZDdFhdEi4CQn",
-      "label": "Cesare Orsini",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6UFUJo2JAXCT",
       "label": "(Nocerino 2014)",
       "class": "BibliographicResource",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nhTthG2m2P3q",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CuG9eUTmCwRf",
       "label": "family",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qw5Zb6CRLUN4",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2KTWZWEaqaaa",
       "label": "Donna se di fier Orso",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NvW8rMpLFj4D",
+      "label": "Cesare Orsini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -39,21 +39,21 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMWeuXsQK4ED",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/nhTthG2m2P3q",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CuG9eUTmCwRf",
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZDdFhdEi4CQn",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMWeuXsQK4ED",
-      "property": "member_of"
-    },
-    {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qw5Zb6CRLUN4",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2KTWZWEaqaaa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMWeuXsQK4ED",
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qw5Zb6CRLUN4",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NvW8rMpLFj4D",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XMWeuXsQK4ED",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2KTWZWEaqaaa",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6UFUJo2JAXCT",
       "property": "described_by_source"
     }

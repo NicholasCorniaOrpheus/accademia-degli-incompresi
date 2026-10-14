@@ -1,0 +1,34 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:73oMgKfF6uXL-WvotAyizWC5d a rdf:Statement ;
+    dcterms:references adi:358ByX9d7w2x ;
+    rdf:object adi:jEuoGEuT2B8s ;
+    rdf:predicate <> ;
+    rdf:subject adi:73oMgKfF6uXL .
+
+adi:73oMgKfF6uXL-bEw2kmdvD5yA a rdf:Statement ;
+    dcterms:references adi:358ByX9d7w2x ;
+    rdf:object adi:ZDmL3yzTzmyf ;
+    rdf:predicate <> ;
+    rdf:subject adi:73oMgKfF6uXL .
+
+adi:73oMgKfF6uXL-cpY9qMvFh4eB a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "125" ;
+    rdf:predicate <> ;
+    rdf:subject adi:73oMgKfF6uXL .
+
+adi:73oMgKfF6uXL a rdfs:Resource ;
+    rdfs:label "Accademia degli Infecondi di Roma" ;
+    <> adi:ZDmL3yzTzmyf,
+        adi:hbLMcBia2woA,
+        adi:jEuoGEuT2B8s ;
+    dcterms:type "Organisation" ;
+    wdt:P1343 adi:358ByX9d7w2x ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

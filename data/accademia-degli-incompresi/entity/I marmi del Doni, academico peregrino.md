@@ -4,6 +4,7 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE017692
 described_by_source:
   - "[[(Bolzoni and Girotto 2013)]]"
+  - "[[(Vianello 2009)]]"
 instance_of:
 title: I marmi del Doni, academico peregrino
 inception:
@@ -21,8 +22,10 @@ contributor:
   - role: "[[author]]"
     value: "[[Anton Francesco Doni]]"
 subject:
+  - "[[printing]]"
 based_on:
 catalog_identifier:
 has_part:
 depicts:
 ---
+According to [[(Vianello 2009)]], Doni praises the invention of printing press in _Ragionamento in lode della stampa_.

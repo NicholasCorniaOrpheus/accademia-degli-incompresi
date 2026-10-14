@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:A7voABhkf6Td-DDxkzk5vn7fd a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10314362> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:baxhp5s3Suw8 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10314362/manifest> ;
+    rdf:object "N2ea4c0c40c774e61b36fe87a19ec501c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:A7voABhkf6Td ;
+    schema:datePublished "1529" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE025810> .
+
+adi:A7voABhkf6Td-fKHbXGExjK7h a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:eCnHxfYfKQbf ;
+    rdf:predicate <> ;
+    rdf:subject adi:A7voABhkf6Td .
+
+adi:A7voABhkf6Td a rdfs:Resource ;
+    rdfs:label "Rime del Trissino" ;
+    <> adi:eCnHxfYfKQbf,
+        "1529" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE025810>,
+        <https://lyra.unil.ch/books/149>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/LIBX00007773> ;
+    dcterms:title "Rime del Trissino" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:e2nWi24VoUtn,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

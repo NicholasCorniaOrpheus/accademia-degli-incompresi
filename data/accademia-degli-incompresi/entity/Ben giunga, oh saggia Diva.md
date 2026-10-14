@@ -36,7 +36,7 @@ text: |-
   Figlie del sommo Giove
   La tua presenza al sacro monte ombroso,
   Che de' Cigni al riposo
-  ben si convien là dove
+  Ben si convien là dove
   Riga Hippocren la sempreverde riva
   Tra gli allori l'oliva.
 language: "[[Italian]]"

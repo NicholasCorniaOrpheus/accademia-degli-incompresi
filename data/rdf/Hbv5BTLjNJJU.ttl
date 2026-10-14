@@ -6,30 +6,30 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Hbv5BTLjNJJU-36sN9Wtd3dF4 a rdf:Statement ;
-    dcterms:references adi:LurkFDdUFnfL,
+adi:Hbv5BTLjNJJU-3Vf8qDi7DpTr a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "18042" ;
+    rdf:predicate <> ;
+    rdf:subject adi:Hbv5BTLjNJJU .
+
+adi:Hbv5BTLjNJJU-B4D8SMYYw9tX a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:G3PLSWm65qmw ;
+    rdf:predicate <> ;
+    rdf:subject adi:Hbv5BTLjNJJU .
+
+adi:Hbv5BTLjNJJU-aF5ZsqRERz7y a rdf:Statement ;
+    dcterms:references adi:8m9HH8ur2YcP,
         adi:R8gaAppcmFNh ;
     rdf:object adi:33fBjU7SLdGj ;
-    rdf:predicate <> ;
-    rdf:subject adi:Hbv5BTLjNJJU .
-
-adi:Hbv5BTLjNJJU-HeY9A7tpzS5F a rdf:Statement ;
-    dcterms:references adi:RrWtiYpwdJp2 ;
-    rdf:object adi:jxuodBQDnmQ9 ;
-    rdf:predicate <> ;
-    rdf:subject adi:Hbv5BTLjNJJU .
-
-adi:Hbv5BTLjNJJU-RTLfrj74FHo6 a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "18042" ;
     rdf:predicate <> ;
     rdf:subject adi:Hbv5BTLjNJJU .
 
 adi:Hbv5BTLjNJJU a rdfs:Resource ;
     rdfs:label "Luca Contile" ;
     <> adi:33fBjU7SLdGj,
-        adi:3pU843Lma47u,
-        adi:jxuodBQDnmQ9 ;
+        adi:DZKAs4KqUG7k,
+        adi:G3PLSWm65qmw ;
     dcterms:identifier <http://www.wikidata.org/entity/Q3838086> ;
     dcterms:type "Agent" ;
     wdt:P31 adi:7QQEUQkpdvkV ;

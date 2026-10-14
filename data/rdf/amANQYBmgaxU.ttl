@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:amANQYBmgaxU-2zHokmx72Vxg a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1670" ;
+    rdf:predicate <> ;
+    rdf:subject adi:amANQYBmgaxU .
+
+adi:amANQYBmgaxU-4csFq2G2CVu3 a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    wdt:P1480 adi:TaGGAqtcuLZx ;
+    rdf:object "1600" ;
+    rdf:predicate <> ;
+    rdf:subject adi:amANQYBmgaxU .
+
+adi:amANQYBmgaxU-HXKTGLqRyonZ a rdf:Statement ;
+    dcterms:references adi:FPb9utFFsVcF ;
+    rdf:object adi:DrnSymGknREN ;
+    rdf:predicate <> ;
+    rdf:subject adi:amANQYBmgaxU ;
+    schema:startDate "1608" .
+
+adi:amANQYBmgaxU-ULTqSwQakpym a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "23" ;
+    rdf:predicate <> ;
+    rdf:subject adi:amANQYBmgaxU .
+
+adi:amANQYBmgaxU-arjtGsHBVV8L a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:aZnBpT3MYhcK ;
+    rdf:predicate <> ;
+    rdf:subject adi:amANQYBmgaxU .
+
+adi:amANQYBmgaxU a rdfs:Resource ;
+    rdfs:label "Accademia degli Umoristi di Roma" ;
+    <> adi:DrnSymGknREN,
+        adi:aZnBpT3MYhcK,
+        adi:hbLMcBia2woA ;
+    dcterms:type "Organisation" ;
+    wdt:P31 adi:mhxiWoDeBKmm .
+

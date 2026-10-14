@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nr2iL53MZSGu",
+      "label": "L'Apollo di Ottavio Tronsarelli",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
+      "label": "(Terzaghi 2017)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGmzLJPd5rUo",
+      "label": "Francesco Corbelletti",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdDRGByiy3E8",
+      "label": "Apollo",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nr2iL53MZSGu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MmwqyGSf2bpf",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nr2iL53MZSGu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGmzLJPd5rUo",
+      "property": "has_version"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nr2iL53MZSGu",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JdDRGByiy3E8",
+      "property": "subject"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "label": "insanity",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d592zXXTr5Qs",
+      "label": "Questa è la fede tua",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TM6fVHGXjWZC",
+      "label": "personality trait",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GGGscxxDVgHN",
+      "label": "Chi salirà per me madonna in cielo",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KrvLxEndjYg6",
+      "label": "Chi mett'il piè su l'amorosa pania",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hMvEmAM5vrex",
+      "label": "Da i più profondi, e tenebrosi abissi",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Py2bcep8fXcM",
+      "label": "Voi ch'ad un'altra & faticosa empresa",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PMtfxNuVKiEU",
+      "label": "Amore innamorato, et impazzato. Poema di Lucretia Marinella",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TM6fVHGXjWZC",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d592zXXTr5Qs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GGGscxxDVgHN",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KrvLxEndjYg6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KrvLxEndjYg6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hMvEmAM5vrex",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Py2bcep8fXcM",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PMtfxNuVKiEU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "subject"
+    }
+  ]
+}

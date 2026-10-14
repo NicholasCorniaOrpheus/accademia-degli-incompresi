@@ -33,7 +33,7 @@ depicts:
 language:
   - "[[Italian]]"
 text: |-
-  Ben può cingermi il cor di quanti affanni,
+  BEN può cingermi il cor di quanti affanni,
   Ha nel gran Regno suo l'empia Fortuna,
   E con mille fierezze, e mille inganni
   Perché io non quieti mai sotto la Luna,

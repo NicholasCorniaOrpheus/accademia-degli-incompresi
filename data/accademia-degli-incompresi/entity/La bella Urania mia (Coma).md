@@ -1,5 +1,9 @@
 ---
 class: MusicComposition
+identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/134410000010101_000000066400C
+described_by_source:
+  - "[[RePIM]]"
 instance_of:
   - "[[madrigal]]"
 contributor:
@@ -21,7 +25,7 @@ language:
   - "[[Italian]]"
 subject:
   - "[[pastoral]]"
-digitized:
+digitized: true
 poetic_type:
   - "[[madrigale]]"
 depicts:

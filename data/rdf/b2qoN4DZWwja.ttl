@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:b2qoN4DZWwja-QGztHLixSRYy a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/de/view/bsb11343169> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb11343169/manifest> ;
+    rdf:object "N06996866c13a444a8c59c70647f31d22" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:b2qoN4DZWwja ;
+    schema:datePublished "1682" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb11343169> .
+
+adi:b2qoN4DZWwja-eAE4pciEf2Ea a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Gi9mFuxEMbSc ;
+    rdf:predicate <> ;
+    rdf:subject adi:b2qoN4DZWwja .
+
+adi:b2qoN4DZWwja a rdfs:Resource ;
+    rdfs:label "Li pregi della nobiltà veneta abbozzati in un giuoco d'arme di tutte le famiglie" ;
+    <> adi:Gi9mFuxEMbSc,
+        "1682" ;
+    dc:subject adi:4gDUdsQ3zgkL,
+        adi:PAfwtQUEB4mS,
+        adi:c5v9viUaMzrT ;
+    dcterms:identifier <https://mdz-nbn-resolving.de/details:bsb11343169> ;
+    dcterms:title "Li pregi della nobiltà veneta abbozzati in un giuoco d'arme di tutte le famiglie" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:na5s76uYFKap ;
+    wdt:P31 adi:dK3CoeMSUGWp ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

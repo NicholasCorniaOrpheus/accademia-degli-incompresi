@@ -7,7 +7,7 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bqg3oat8dyZM",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U9xvuj9mvgrC",
       "label": "Lorenzo Gualtieri",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
@@ -17,6 +17,12 @@
       "label": "occupation",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gi9mFuxEMbSc",
+      "label": "Casimir Freschot",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -26,7 +32,12 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Bqg3oat8dyZM",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/U9xvuj9mvgrC",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bw93VQrfwHMB",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Gi9mFuxEMbSc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bw93VQrfwHMB",
       "property": "occupation"
     }

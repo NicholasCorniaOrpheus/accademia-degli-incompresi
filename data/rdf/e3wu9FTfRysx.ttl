@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:e3wu9FTfRysx-UBM5ZrkrUmLr a rdf:Statement ;
+    bf:electronicLocator <https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t8v991c13> ;
+    bf:heldBy adi:Rs9988VRKAST ;
+    wdt:P291 adi:2ndYJApSi6Xm ;
+    rdf:object "N20ca39a710df45b1a259880b9b290c17" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:e3wu9FTfRysx ;
+    schema:datePublished "1631" ;
+    schema:url <https://hdl.handle.net/2027/dul1.ark:/13960/t8v991c13> .
+
+adi:e3wu9FTfRysx-mgADBQqyW6SE a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bH5uhyVvY7Bv ;
+    rdf:predicate <> ;
+    rdf:subject adi:e3wu9FTfRysx .
+
+adi:e3wu9FTfRysx a rdfs:Resource ;
+    rdfs:label "Sylva sylvarum or A Natural History in Ten Centuries" ;
+    <> adi:bH5uhyVvY7Bv,
+        "1631" ;
+    dc:subject adi:8Qk5qYibNeJZ,
+        adi:kht3kBwKqE6D ;
+    dcterms:identifier <https://catalog.hathitrust.org/Record/009348943> ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:9v278U97QU6R,
+        adi:FoqX9WfTveaZ,
+        adi:JGmTj2TfVtTk ;
+    wdt:P870 adi:Pkoygy4mPEmk ;
+    skos:altLabel "New Atlantis" .
+

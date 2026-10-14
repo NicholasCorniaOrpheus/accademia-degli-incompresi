@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:8U7oLTSd8bcn-AjWoQVkH79xV a rdf:Statement ;
+    rdf:object "N689dca516eab4cea905fb1e44780f466" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:8U7oLTSd8bcn ;
+    schema:datePublished "1565" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE034542> .
+
+adi:8U7oLTSd8bcn-jJnVFcjqi3ub a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:9rnpxefoyFYt ;
+    rdf:predicate <> ;
+    rdf:subject adi:8U7oLTSd8bcn .
+
+adi:8U7oLTSd8bcn a rdfs:Resource ;
+    rdfs:label "Discorso del s. Fran. Piscina sopra l'ordine delle figure de' tarocchi" ;
+    <> adi:9rnpxefoyFYt,
+        "1565" ;
+    dc:subject adi:Bg8thNhhHzC7,
+        adi:JY49Nv49qscR ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE034542> ;
+    dcterms:title "Discorso del s. Fran. Piscina da Carmagnola sopra l'ordine delle figure de' tarocchi" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:7FQiLZeDgRya ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

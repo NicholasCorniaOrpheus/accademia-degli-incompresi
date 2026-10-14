@@ -19,6 +19,7 @@ has_version:
     publication_date: 1653
     place_of_publication:
       - "[[London]]"
+    IIIF_manifest: https://iiif.archive.org/iiif/poemsfancies00newc/manifest.json
 contributor:
   - role: "[[author]]"
     value: "[[Margaret Cavendish]]"

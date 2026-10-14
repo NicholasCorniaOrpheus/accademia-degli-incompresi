@@ -7,31 +7,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:SJzeSSdNp5bx-Djbn9HQ26Rmf a rdf:Statement ;
+adi:SJzeSSdNp5bx-YFVwh78Vg5iA a rdf:Statement ;
+    bf:electronicLocator <https://www.google.be/books/edition/Capricci_poetici_di_diuersi_autori_perug/3Zh8IGIWWD8C> ;
+    rdf:object "N35dfd6956fbb4f9899fd9c6dd3a57e8f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:SJzeSSdNp5bx ;
+    schema:datePublished "1698" .
+
+adi:SJzeSSdNp5bx-hXZ6qkCijgyK a rdf:Statement ;
     bf:Role adi:WmxGq9NZGSDT ;
     rdf:object adi:X3SwbLe3ZhDA ;
     rdf:predicate <> ;
     rdf:subject adi:SJzeSSdNp5bx .
 
-adi:SJzeSSdNp5bx-G9ujGSqfbET6 a rdf:Statement ;
+adi:SJzeSSdNp5bx-knRf65qbvSh5 a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:3GdeomRavA4R ;
     rdf:predicate <> ;
     rdf:subject adi:SJzeSSdNp5bx .
-
-adi:SJzeSSdNp5bx-HsBh6yF7ViAo a rdf:Statement ;
-    bf:electronicLocator <https://www.google.be/books/edition/Capricci_poetici_di_diuersi_autori_perug/3Zh8IGIWWD8C> ;
-    rdf:object "N8bd52b099d494046aa12fbf098375447" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:SJzeSSdNp5bx ;
-    schema:datePublished "1698" .
 
 adi:SJzeSSdNp5bx a rdfs:Resource ;
     rdfs:label "Capricci poetici di diversi autori perugini ascritti all'augustissima Accademia degl'Insensati raccolti da Francesco Degli Oddi" ;
     <> adi:3GdeomRavA4R,
         adi:X3SwbLe3ZhDA,
         "1698" ;
-    dc:subject adi:BpATM36nYWpT ;
+    dc:subject adi:dzdNN2UGikPZ ;
     dcterms:title "Capricci poetici di diuersi autori perugini ascritti all'augustissima Accademia degl'Insensati raccolti da Francesco Degli Oddi" ;
     dcterms:type "Book" ;
     wdt:P31 adi:2jTZtcMb8cpv .

@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ibRtVeNHNRtv-hQDPPXFbYFdT a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=J2AgJlDDW_EC> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N2ba39c9383e04d6cb72d42221c018633" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ibRtVeNHNRtv ;
+    schema:datePublished "1681" ;
+    schema:url <http://id.sbn.it/bid/VEAE009282> .
+
+adi:ibRtVeNHNRtv-itdgMfXw9msf a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:YJRnxD2N2ZkS ;
+    rdf:predicate <> ;
+    rdf:subject adi:ibRtVeNHNRtv .
+
+adi:ibRtVeNHNRtv a rdfs:Resource ;
+    rdfs:label "La virtù in gioco. Ovvero dame patrizie di Venetia" ;
+    <> adi:YJRnxD2N2ZkS,
+        "1681" ;
+    dc:subject adi:c5v9viUaMzrT,
+        adi:jSo2wG8h9SDa ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE009282> ;
+    dcterms:title "La virtu in giocco. Ouero dame patritie di Venetia. Famose per nascita, per lettere, per armi, per costumi. Consecrata alla sacra cesarea regal maesta. D' Eleonora imperadrice romana nata principessa di Mantoua, e Monferrato" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:na5s76uYFKap ;
+    wdt:P31 adi:dK3CoeMSUGWp ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "La virtu in giocco" ;
+    ns1:P180 adi:LBUMoVayqW8X .
+

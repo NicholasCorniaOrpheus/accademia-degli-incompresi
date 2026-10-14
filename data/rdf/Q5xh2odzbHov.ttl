@@ -9,25 +9,25 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Q5xh2odzbHov-2J9PivAwWLRr a rdf:Statement ;
-    rdf:object adi:PagyXFKr5PvT ;
+adi:Q5xh2odzbHov-XKvXzmooAfLv a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:aPSR2wpq8iGj ;
+    rdf:predicate <> ;
+    rdf:subject adi:Q5xh2odzbHov .
+
+adi:Q5xh2odzbHov-dqJHJkh7xUYF a rdf:Statement ;
+    rdf:object adi:kdFMmdTS6b2C ;
     rdf:predicate <> ;
     rdf:subject adi:Q5xh2odzbHov ;
     ns1:P304 "57" ;
     ns1:P958 "Veronica Gambara." ;
     schema:volumeNumber "1" .
 
-adi:Q5xh2odzbHov-k3PvWJ6uyn28 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:aPSR2wpq8iGj ;
-    rdf:predicate <> ;
-    rdf:subject adi:Q5xh2odzbHov .
-
 adi:Q5xh2odzbHov a rdfs:Resource ;
     rdfs:label "Quel nodo, in cui la mia beata sorte" ;
-    <> adi:PagyXFKr5PvT,
-        adi:aPSR2wpq8iGj ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    <> adi:aPSR2wpq8iGj,
+        adi:kdFMmdTS6b2C ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Quel nodo, in cui la mia beata sorte,
 Per ordine del Ciel legommi e strinse
 Con mio grave dolor sciolse, e discinse
@@ -49,8 +49,8 @@ L'alma vedere oltra le belle bella.""" ;
     dcterms:type "PoeticWork" ;
     wdt:P31 adi:jAqiUUC7GsgE ;
     wdt:P870 adi:Rpi7M9nmjho7 ;
-    ns1:P180 adi:5rXXXivjHnqu,
-        adi:NUaQe9C3WPVp,
+    ns1:P180 adi:NUaQe9C3WPVp,
+        adi:SkejS2gdGAbh,
         adi:XEsomeCuBNMG,
         adi:i6aLsHeCyDtH ;
     ns1:P2551 adi:NtX3nd34H3Wn .

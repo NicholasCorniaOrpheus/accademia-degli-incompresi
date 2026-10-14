@@ -9,24 +9,24 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JGvGSebDEQje-ZsSQVLFnuGRr a rdf:Statement ;
+adi:JGvGSebDEQje-L9MRTPcxCWMi a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Fas4LiyE5uzU ;
+    rdf:predicate <> ;
+    rdf:subject adi:JGvGSebDEQje .
+
+adi:JGvGSebDEQje-Qy7NErUDpJzp a rdf:Statement ;
     rdf:object adi:UpNUpRqtonTK ;
     rdf:predicate <> ;
     rdf:subject adi:JGvGSebDEQje ;
     ns1:P304 "1" ;
     ns1:P958 "Sonetto Primo." .
 
-adi:JGvGSebDEQje-j2boLxNsBzYr a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:Fas4LiyE5uzU ;
-    rdf:predicate <> ;
-    rdf:subject adi:JGvGSebDEQje .
-
 adi:JGvGSebDEQje a rdfs:Resource ;
     rdfs:label "S'alcun fia mai, che i versi mie negletti" ;
     <> adi:Fas4LiyE5uzU,
         adi:UpNUpRqtonTK ;
-    pdc:poeticType adi:o3hHdDx7u4u2 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """S'alcun fia mai che i versi miei negletti
 Legga, non creda a questi finti ardori
 Che ne le Scene imaginati amori

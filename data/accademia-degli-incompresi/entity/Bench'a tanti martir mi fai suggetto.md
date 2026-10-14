@@ -33,14 +33,14 @@ depicts:
 language:
   - "[[Italian]]"
 text: |-
-  Bench'a tanti martir mi fai suggetto,
+  BEnch'a tanti martir mi fai suggetto,
   Pur ti ringratio, e assai ti deggio Amore,
   Che con sì nobil piaga apriste il petto,
-  E tal impadroniste del mio core,
+  Et tal impadroniste del mio core,
   Per cui fia ver ch'un divo et viv'oggetto
   De Dio più bella imago'n terr'adore;
   Pensi chi vuol ch'il mio destin sia rio,
-  Ch'uccid'in speme, e fa viv'in desio.
+  Ch'uccid'in speme, et fa viv'in desio.
 
   Pascomi in alt'impresa;
   Et bench'il fin bramato non consegua,

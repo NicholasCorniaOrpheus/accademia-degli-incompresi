@@ -6,24 +6,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:9wAq5DAjYitP-2fx67QKzroLM a rdf:Statement ;
-    dcterms:references adi:LurkFDdUFnfL ;
+adi:9wAq5DAjYitP-jHWJ9cdJuLfJ a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "18093" ;
+    rdf:predicate <> ;
+    rdf:subject adi:9wAq5DAjYitP .
+
+adi:9wAq5DAjYitP-m9xXBt4PwGpj a rdf:Statement ;
+    dcterms:references adi:8m9HH8ur2YcP ;
     rdf:object adi:33fBjU7SLdGj ;
     rdf:predicate <> ;
     rdf:subject adi:9wAq5DAjYitP ;
     schema:OrganizationRole adi:VQtqbRoGY6GZ .
 
-adi:9wAq5DAjYitP-MrKwJQoiWwK5 a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "18093" ;
-    rdf:predicate <> ;
-    rdf:subject adi:9wAq5DAjYitP .
-
 adi:9wAq5DAjYitP a rdfs:Resource ;
     rdfs:label "Bernardino Maffei" ;
     <> adi:33fBjU7SLdGj,
-        adi:hbLMcBia2woA,
-        adi:kmxeyh5sL7th ;
+        adi:XiQYTDCeG53u,
+        adi:hbLMcBia2woA ;
     dcterms:type "Agent" ;
     wdt:P31 adi:7QQEUQkpdvkV ;
     schema:gender adi:8UjQ7UabobgD .

@@ -32,7 +32,7 @@ language:
   - "[[Italian]]"
 subject:
   - "[[pastoral]]"
-digitized:
+digitized: true
 poetic_type:
   - "[[ottava rima]]"
 depicts:

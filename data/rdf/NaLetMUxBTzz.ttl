@@ -1,0 +1,47 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NaLetMUxBTzz-SGvxTSTM9F8r a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:a4DrkaZ44fMd ;
+    rdf:predicate <> ;
+    rdf:subject adi:NaLetMUxBTzz .
+
+adi:NaLetMUxBTzz-bevqa9iGcMQe a rdf:Statement ;
+    rdf:object adi:gSB2bgNmt66Y ;
+    rdf:predicate <> ;
+    rdf:subject adi:NaLetMUxBTzz ;
+    ns1:P304 "104" .
+
+adi:NaLetMUxBTzz a rdfs:Resource ;
+    rdfs:label "Ridendo mormorò pietosa maga" ;
+    <> adi:a4DrkaZ44fMd,
+        adi:gSB2bgNmt66Y ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Ridendo mormorò pietosa maga
+Soavi accenti e mi fè sano 'l core
+Che ferito languìa d'alto dolore.
+
+Ma di piaga più fera
+Mi punse poi la sua bellezz'altera,
+Ond'io gridai, gentil maga amorosa,
+Crudelmente pietosa,
+La tua dolce favella e 'l dolce riso,
+Ahi, sanando m'ha ucciso.""" ;
+    dc:subject adi:hq5fryYEkuQW ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/243220001010101_000000104000C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:NmhmV8hW6RjH ;
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
+

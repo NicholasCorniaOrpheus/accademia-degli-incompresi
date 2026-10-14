@@ -7,33 +7,33 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:S5X6hHgiMruv-2nHoQrWfho3x a rdf:Statement ;
+adi:S5X6hHgiMruv-3uNtdeQtpk46 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "16311" ;
+    rdf:predicate <> ;
+    rdf:subject adi:S5X6hHgiMruv .
+
+adi:S5X6hHgiMruv-iaUqGwgkLKWL a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:dzdNN2UGikPZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:S5X6hHgiMruv ;
+    schema:startDate "1590" .
+
+adi:S5X6hHgiMruv-o8R2ZN8f2UPg a rdf:Statement ;
     bf:heldBy adi:Mefkw2MRET3J ;
     rdf:object "A0275" ;
     rdf:predicate <> ;
     rdf:subject adi:S5X6hHgiMruv .
 
-adi:S5X6hHgiMruv-8vwyKNYKPG2P a rdf:Statement ;
-    dcterms:references adi:SrWTCERreeEv ;
-    rdf:object adi:BpATM36nYWpT ;
-    rdf:predicate <> ;
-    rdf:subject adi:S5X6hHgiMruv ;
-    schema:startDate "1590" .
-
-adi:S5X6hHgiMruv-azL6VKS22sgY a rdf:Statement ;
-    bf:heldBy adi:RrWtiYpwdJp2 ;
-    rdf:object "16311" ;
-    rdf:predicate <> ;
-    rdf:subject adi:S5X6hHgiMruv .
-
 adi:S5X6hHgiMruv a rdfs:Resource ;
     rdfs:label "Francesca Turina Bufalini" ;
-    <> adi:BpATM36nYWpT ;
+    <> adi:dzdNN2UGikPZ ;
     dcterms:type "Agent" ;
     wdt:P1343 adi:Mefkw2MRET3J,
         adi:SrWTCERreeEv ;
     wdt:P31 adi:7QQEUQkpdvkV ;
     skos:altLabel "Francesca Turina",
         "Francesca Turini Bufalini" ;
-    schema:gender adi:UjsFswx79X7b .
+    schema:gender adi:5qUeD9fGUy8s .
 

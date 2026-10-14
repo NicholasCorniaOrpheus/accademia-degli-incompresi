@@ -23,4 +23,5 @@ based_on:
   - value: "[[Filli. Dimmi, lasso, mio core]]"
 derivative_work:
 text:
+digitized: true
 ---

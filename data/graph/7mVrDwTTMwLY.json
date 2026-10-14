@@ -7,28 +7,28 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRsDVsPbR4br",
-      "label": "Giorgio Siculo",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
       "label": "occupation",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKcZ2p9D8wfF",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenfwS85vjys",
+      "label": "Vinca gli sdegni e l'odio vostro antico",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPAwbQVi4ZnN",
       "label": "Quattro libri de dubbi",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenfwS85vjys",
-      "label": "Vinca gli sdegni e l'odio vostro antico",
-      "class": "PoeticWork",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XZGn82STjom4",
+      "label": "Giorgio Siculo",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -38,19 +38,19 @@
       "property": "instance_of"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hRsDVsPbR4br",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenfwS85vjys",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7mVrDwTTMwLY",
-      "property": "occupation"
+      "property": "depicts"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TKcZ2p9D8wfF",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JPAwbQVi4ZnN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7mVrDwTTMwLY",
       "property": "related_to"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RenfwS85vjys",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XZGn82STjom4",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7mVrDwTTMwLY",
-      "property": "depicts"
+      "property": "occupation"
     }
   ]
 }

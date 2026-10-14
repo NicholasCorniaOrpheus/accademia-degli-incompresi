@@ -20,6 +20,7 @@ has_version:
     publication_date: 1574
     holding_institution: "[[Internet Archive]]"
     external_source: https://archive.org/details/achillisbocchiib00boc
+    IIIF_manifest: https://iiif.archive.org/iiif/achillisbocchiib00boc/manifest.json
 contributor:
   - role: "[[author]]"
     value: "[[Achille Bocchi]]"

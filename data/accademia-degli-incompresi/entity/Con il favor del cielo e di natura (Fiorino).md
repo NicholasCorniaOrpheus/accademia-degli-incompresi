@@ -48,7 +48,7 @@ language:
   - "[[Italian]]"
 subject:
   - "[[praise]]"
-digitized:
+digitized: true
 poetic_type:
   - "[[terzina]]"
 depicts:

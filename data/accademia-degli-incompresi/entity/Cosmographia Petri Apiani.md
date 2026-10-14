@@ -16,6 +16,7 @@ has_version:
       - "[[Antwerpen]]"
     holding_institution: "[[Internet Archive]]"
     external_source: https://archive.org/details/cosmographiaapia00apia
+    IIIF_manifest: https://iiif.archive.org/iiif/cosmographiaapia00apia/manifest.json
 contributor:
   - role: "[[author]]"
     value: "[[Peter Apian]]"

@@ -1,0 +1,57 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:gSB2bgNmt66Y-FtRUZhnV2xvd a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:mZ9ZwMkAPH7q ;
+    rdf:predicate <> ;
+    rdf:subject adi:gSB2bgNmt66Y .
+
+adi:gSB2bgNmt66Y-NoAZ9vi2jdD8 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:G35qGbLoFcWv ;
+    rdf:predicate <> ;
+    rdf:subject adi:gSB2bgNmt66Y .
+
+adi:gSB2bgNmt66Y-WjLV5TRhcpyc a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ecvRhsXRZXXX ;
+    rdf:predicate <> ;
+    rdf:subject adi:gSB2bgNmt66Y .
+
+adi:gSB2bgNmt66Y-bCZJs2vhkwyE a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:a4DrkaZ44fMd ;
+    rdf:predicate <> ;
+    rdf:subject adi:gSB2bgNmt66Y .
+
+adi:gSB2bgNmt66Y-bJgBPTi2JYhM a rdf:Statement ;
+    dcterms:publisher adi:7p2GLjYpFHzA ;
+    wdt:P291 adi:A4rvytnvP86g ;
+    rdf:object "Nd825e86f0b6047c695e40c1893ffa6a9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gSB2bgNmt66Y ;
+    schema:datePublished "1611" ;
+    schema:url <http://id.sbn.it/bid/VEAE005668> .
+
+adi:gSB2bgNmt66Y a rdfs:Resource ;
+    rdfs:label "Parnaso de poetici ingegni d'Alessandro Scaioli" ;
+    <> adi:G35qGbLoFcWv,
+        adi:a4DrkaZ44fMd,
+        adi:ecvRhsXRZXXX,
+        adi:mZ9ZwMkAPH7q,
+        "1611" ;
+    dc:subject adi:mhxiWoDeBKmm ;
+    dcterms:identifier <http://id.sbn.it/bid/VEAE005668> ;
+    dcterms:title "Parnaso de poetici ingegni, d'Alessandro Scaioli reggiano. All'illustrissima signora et patrona colendiss. la sig. d. Isabella Pallavicini Luppi marchesa di Soragna" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:2jTZtcMb8cpv ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

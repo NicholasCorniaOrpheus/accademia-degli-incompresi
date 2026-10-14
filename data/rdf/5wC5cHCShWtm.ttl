@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5wC5cHCShWtm-47porJYY2FVT a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:NHx6kTUABgvu ;
+    rdf:predicate <> ;
+    rdf:subject adi:5wC5cHCShWtm .
+
+adi:5wC5cHCShWtm-7ms9dy6Pz6d9 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "15946" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5wC5cHCShWtm .
+
+adi:5wC5cHCShWtm-EBVXfYv8wA3h a rdf:Statement ;
+    bf:heldBy adi:ECeAs2wMuiNL ;
+    rdf:object "CNCA6229" ;
+    rdf:predicate <> ;
+    rdf:subject adi:5wC5cHCShWtm .
+
+adi:5wC5cHCShWtm a rdfs:Resource ;
+    rdfs:label "Pietro Gradenigo" ;
+    <> adi:DZKAs4KqUG7k,
+        adi:NHx6kTUABgvu,
+        adi:edLFhkc6mVw6 ;
+    dcterms:identifier <https://lyra.unil.ch/agents/307> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:ECeAs2wMuiNL,
+        adi:e2nWi24VoUtn ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+
