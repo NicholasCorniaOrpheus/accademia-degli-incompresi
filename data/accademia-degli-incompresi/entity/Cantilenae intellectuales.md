@@ -12,6 +12,11 @@ instance_of:
 title:
 inception:
 has_version:
+  - external_source: https://sourcelibrary.org/book/cantilenae-intellectuales-in-triadas-9-distinctae-de-maier/page/6a426258dfbbb4d07aa675fe
+    holding_institution: "[[Embassy of the Free Mind]]"
+    place_of_publication:
+      - "[[Paris]]"
+    publication_date: 1758
   - publication_date: 1758
     external_source: https://archive.org/details/b33019617
     holding_institution: "[[Internet Archive]]"

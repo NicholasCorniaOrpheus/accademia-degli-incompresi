@@ -22,4 +22,5 @@ based_on:
   - value: "[[Con quai giri lascivetti]]"
 derivative_work:
 text:
+digitized: true
 ---

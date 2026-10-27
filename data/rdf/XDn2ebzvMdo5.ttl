@@ -7,47 +7,67 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:XDn2ebzvMdo5-MCgmaPEYcXdN a rdf:Statement ;
-    bf:Note "volume 1" ;
-    bf:electronicLocator <https://sourcelibrary.org/book/universal-music-making-musurgia-universalis-volume-i-kircher/page/69520510ab34727b1f042176> ;
-    bf:heldBy adi:3ErfQUUd3DzH ;
-    dcterms:publisher adi:bGmzLJPd5rUo ;
+adi:XDn2ebzvMdo5-ATNhNVo96JKy a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZnAwJRxKMGDX ;
+    rdf:predicate <> ;
+    rdf:subject adi:XDn2ebzvMdo5 .
+
+adi:XDn2ebzvMdo5-EAms5S8ddpWZ a rdf:Statement ;
+    bf:Note "Volume 2" ;
+    bf:electronicLocator <https://sourcelibrary.org/book/universal-musical-work-volume-ii-musurgia-universalis-kircher/page/69520517ab34727b1f042468> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
     wdt:P291 adi:hbLMcBia2woA ;
-    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1280287g/manifest.json> ;
-    rdf:object "N2f08656890144fbb96994897cbe54609" ;
+    rdf:object "Nf3d510f827104c6c87cfbfbe8b515dbb" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:XDn2ebzvMdo5 ;
-    schema:datePublished "1650" ;
-    schema:url <https://catalogue.bnf.fr/ark:/12148/cb16102988c> .
+    schema:datePublished "1650" .
 
-adi:XDn2ebzvMdo5-SuysErVkbTj5 a rdf:Statement ;
+adi:XDn2ebzvMdo5-HYF5uMQDREK9 a rdf:Statement ;
     bf:Note "volume 2" ;
     bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k12802862> ;
     bf:heldBy adi:3ErfQUUd3DzH ;
     dcterms:publisher adi:bGmzLJPd5rUo ;
     wdt:P291 adi:hbLMcBia2woA ;
     wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k12802862/manifest.json> ;
-    rdf:object "Nedb4d47aca65416289a63767d0f9d3e9" ;
+    rdf:object "N9bd94a69f2e0401bb0e9df24aa40b78f" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:XDn2ebzvMdo5 ;
     schema:datePublished "1650" ;
     schema:url <http://catalogue.bnf.fr/ark:/12148/cb410396649> .
 
-adi:XDn2ebzvMdo5-Yqs67RrpiVBa a rdf:Statement ;
+adi:XDn2ebzvMdo5-Kge8vMhEcmvt a rdf:Statement ;
+    bf:Note "volume 1" ;
+    bf:electronicLocator <https://sourcelibrary.org/book/universal-music-making-musurgia-universalis-volume-i-kircher/page/69520510ab34727b1f042176> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    dcterms:publisher adi:bGmzLJPd5rUo ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1280287g/manifest.json> ;
+    rdf:object "N24da755c6e644b609dbe0cede476d4de" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XDn2ebzvMdo5 ;
+    schema:datePublished "1650" ;
+    schema:url <https://catalogue.bnf.fr/ark:/12148/cb16102988c> .
+
+adi:XDn2ebzvMdo5-Vs7DgwndHLx5 a rdf:Statement ;
     bf:heldBy adi:AzUvH7dVAeqb ;
     dcterms:publisher adi:bGmzLJPd5rUo ;
     wdt:P291 adi:hbLMcBia2woA ;
-    rdf:object "N7b5b8ed0a57544bc9aefcaaeef76e6b1" ;
+    rdf:object "N7abc0d5b2c324f6f9acede08d443c059" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:XDn2ebzvMdo5 ;
     schema:datePublished "1650" ;
     schema:url <https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=2742> .
 
-adi:XDn2ebzvMdo5-ebDrEkZee285 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:ZnAwJRxKMGDX ;
-    rdf:predicate <> ;
-    rdf:subject adi:XDn2ebzvMdo5 .
+adi:XDn2ebzvMdo5-ixckxCQCrget a rdf:Statement ;
+    bf:Note "Volume 1" ;
+    bf:electronicLocator <https://sourcelibrary.org/book/musurgia-universalis-universal-music-kircher/page/69500507f426a210d109c2c1> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "N210babc392e3470289d5ec955e51219d" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:XDn2ebzvMdo5 ;
+    schema:datePublished "1650" .
 
 adi:XDn2ebzvMdo5 a rdfs:Resource ;
     rdfs:label "Musurgia Universalis, sive Ars Magna Consoni et Dissoni" ;

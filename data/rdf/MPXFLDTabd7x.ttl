@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:MPXFLDTabd7x-4TgftwuhDGdg a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/sidereus-nuncius-1610-venice-galilei/page/695004dbf426a210d109a2f4> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N1c69d1a198424c15b758e225a5858aed" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:MPXFLDTabd7x ;
+    schema:datePublished "1610" .
+
+adi:MPXFLDTabd7x-GK4HtDvwdRyk a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:BQGz5xntAdzr ;
+    rdf:predicate <> ;
+    rdf:subject adi:MPXFLDTabd7x .
+
+adi:MPXFLDTabd7x a rdfs:Resource ;
+    rdfs:label "Sidereus Nuncius" ;
+    <> adi:BQGz5xntAdzr,
+        "1610" ;
+    dc:subject adi:7SzNifkq9dZo,
+        adi:S2y5UAT62kde ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:SAbJgKrWpRYN ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:YStEQL5Rsman .
+

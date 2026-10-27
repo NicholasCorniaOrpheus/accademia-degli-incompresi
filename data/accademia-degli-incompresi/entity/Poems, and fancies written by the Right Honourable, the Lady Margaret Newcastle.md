@@ -27,6 +27,7 @@ subject:
   - "[[science]]"
   - "[[atomism]]"
   - "[[classical elements]]"
+  - "[[astronomy]]"
 based_on:
 catalog_identifier:
 has_part:

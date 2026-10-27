@@ -15,6 +15,11 @@ instance_of:
 title:
 inception:
 has_version:
+  - external_source: https://sourcelibrary.org/book/giordano-bruno-de-umbris-idearum-1582-first-edition-bruno/page/699050d17d19f3f2aac1e6e9
+    holding_institution: "[[Embassy of the Free Mind]]"
+    place_of_publication:
+      - "[[Paris]]"
+    publication_date: 1582
   - permalink: https://mdz-nbn-resolving.de/details:bsb10208311
     external_source: https://www.digitale-sammlungen.de/en/view/bsb10208311
     holding_institution: "[[Munich Digitization Center]]"

@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:CvW4h2w2HKEU-69TmHTCVteNK a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:bdwM987NK5hr ;
+    rdf:predicate <> ;
+    rdf:subject adi:CvW4h2w2HKEU .
+
+adi:CvW4h2w2HKEU-GoWydLhFqucY a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/nova-de-universis-philosophia-patrizi/page/6991ebe3e93551dd846a79dd> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N24fec5bb93db4328bcdeee6a5ce6115b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CvW4h2w2HKEU ;
+    schema:datePublished "1593" .
+
+adi:CvW4h2w2HKEU-HNfCRhGgyF4X a rdf:Statement ;
+    wdt:P291 adi:S2MpkiMWKU5X ;
+    rdf:object "N75ff8f7fbbba41af82e471ac35d2992a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:CvW4h2w2HKEU ;
+    schema:datePublished "1591" ;
+    schema:url <http://id.sbn.it/bid/BVEE016702> .
+
+adi:CvW4h2w2HKEU a rdfs:Resource ;
+    rdfs:label "Nova de Universis Philosophia" ;
+    <> adi:bdwM987NK5hr,
+        "1591" ;
+    dc:subject adi:7SzNifkq9dZo,
+        adi:AkBoSVJHEEqH,
+        adi:WWA58LRMXKiq ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE016702> ;
+    dcterms:title "Francisci Patricij Noua de vniuersis philosophia in qua Aristotelica methodo non per motum, sed per lucem, & lumina, ad primam causam ascenditur" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE .
+

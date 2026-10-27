@@ -6,39 +6,39 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:YH5YsDQaNjqj-2D6hDkqkSbGE a rdf:Statement ;
-    bf:Role adi:WmxGq9NZGSDT ;
-    rdf:object adi:SuAjvvf7F3pz ;
-    rdf:predicate <> ;
-    rdf:subject adi:YH5YsDQaNjqj .
+adi:YH5YsDQaNjqj-Fnmi8VrnCh3S a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=vtPrDuqcwEkC> ;
+    dcterms:publisher adi:SuAjvvf7F3pz ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "N03bdec1da6d942fa980c8a7aa03bb641" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:YH5YsDQaNjqj ;
+    schema:datePublished "1693" ;
+    schema:url <http://id.sbn.it/bid/SBLE003478> .
 
-adi:YH5YsDQaNjqj-8s6nRRAkNqSJ a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:nqdaBTbYUu74 ;
-    rdf:predicate <> ;
-    rdf:subject adi:YH5YsDQaNjqj .
-
-adi:YH5YsDQaNjqj-JPDtRbLBEw4h a rdf:Statement ;
+adi:YH5YsDQaNjqj-NiPKFZp8Er64 a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:caBUbWQYATFD ;
     rdf:predicate <> ;
     rdf:subject adi:YH5YsDQaNjqj .
 
-adi:YH5YsDQaNjqj-Nbo4qr9oyDbq a rdf:Statement ;
+adi:YH5YsDQaNjqj-WcinMpkDGp8q a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:aPSR2wpq8iGj ;
     rdf:predicate <> ;
     rdf:subject adi:YH5YsDQaNjqj .
 
-adi:YH5YsDQaNjqj-ZiNmoWKPbbPF a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=vtPrDuqcwEkC> ;
-    dcterms:publisher adi:SuAjvvf7F3pz ;
-    wdt:P291 adi:noxgdEZ8TnkL ;
-    rdf:object "Nf1dea49cad76496ea39530c3cf603d78" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:YH5YsDQaNjqj ;
-    schema:datePublished "1693" ;
-    schema:url <http://id.sbn.it/bid/SBLE003478> .
+adi:YH5YsDQaNjqj-ZjRxJmZh7E7j a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:nqdaBTbYUu74 ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
+
+adi:YH5YsDQaNjqj-agLcVyK3Tmw2 a rdf:Statement ;
+    bf:Role adi:WmxGq9NZGSDT ;
+    rdf:object adi:SuAjvvf7F3pz ;
+    rdf:predicate <> ;
+    rdf:subject adi:YH5YsDQaNjqj .
 
 adi:YH5YsDQaNjqj a rdfs:Resource ;
     rdfs:label "Rime delle signore Lucrezia Marinella, Veronica Gambara, ed Isabella Della Morra. Di nuouo date in luce da Antonio Bulifon" ;

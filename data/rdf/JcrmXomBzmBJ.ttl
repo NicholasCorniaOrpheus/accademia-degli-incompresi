@@ -8,22 +8,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JcrmXomBzmBJ-DLkjNTu2cZXC a rdf:Statement ;
+adi:JcrmXomBzmBJ-9KdP2SQGLFSh a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:F5twPYgd9Q3X ;
     rdf:predicate <> ;
     rdf:subject adi:JcrmXomBzmBJ .
 
-adi:JcrmXomBzmBJ-f4vmU5KkGaiZ a rdf:Statement ;
+adi:JcrmXomBzmBJ-a4cKELXVmcMG a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10208311> ;
     bf:heldBy adi:7zL92j8iLfbj ;
     wdt:P291 adi:64m48iDXC7Fc ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10208311/manifest> ;
-    rdf:object "N82d546a6e6244064903e00363804dbae" ;
+    rdf:object "Nb9f95343553643cca7ee5c40bd783fc4" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:JcrmXomBzmBJ ;
     schema:datePublished "1582" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10208311> .
+
+adi:JcrmXomBzmBJ-maMqumSaFXnU a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/giordano-bruno-de-umbris-idearum-1582-first-edition-bruno/page/699050d17d19f3f2aac1e6e9> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N28604484615b4d2382b16d63f1b90015" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JcrmXomBzmBJ ;
+    schema:datePublished "1582" .
 
 adi:JcrmXomBzmBJ a rdfs:Resource ;
     rdfs:label "De umbris idearum" ;

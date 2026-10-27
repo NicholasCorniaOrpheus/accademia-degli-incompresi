@@ -9,19 +9,19 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KoJRngEjE7d7-EkTPaKre6zZZ a rdf:Statement ;
+adi:KoJRngEjE7d7-8KsA4j8GyGiR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:LiFFXxCY6ueT ;
+    rdf:predicate <> ;
+    rdf:subject adi:KoJRngEjE7d7 .
+
+adi:KoJRngEjE7d7-gQTLyRtuPqLe a rdf:Statement ;
     rdf:object adi:exrSSpj73NMW ;
     rdf:predicate <> ;
     rdf:subject adi:KoJRngEjE7d7 ;
     ns1:P304 "95" ;
     ns1:P958 "Musica. Alla M. Illustre Signora Contessa D. Ismeria Alberti Sareghi. Cesare Rinaldi." ;
     schema:volumeNumber "4" .
-
-adi:KoJRngEjE7d7-eHNCWHwdjKFq a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:LiFFXxCY6ueT ;
-    rdf:predicate <> ;
-    rdf:subject adi:KoJRngEjE7d7 .
 
 adi:KoJRngEjE7d7 a rdfs:Resource ;
     rdfs:label "Canta Urania la parte" ;
@@ -35,10 +35,10 @@ Essa con mille fughe e mille giri
 Va dolce in me scherzando,
 Io scherzo e faccio in lei
 Mille mutation, mille sospiri;
-Ella dice cantando:
+Ella dice cantando
 La voce acuta acuti ho gli occhi miei;
-Et io dico: in me tanto,
-Quanto è grave l'amor, è grave il canto.""" ;
+Et io dico in me tanto,
+Quant'è grave l'Amor, è grave il canto.""" ;
     dc:subject adi:5f6kHhAxyPZh ;
     dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/010780000101_PPPP00245600C> ;
     dcterms:type "PoeticWork" ;

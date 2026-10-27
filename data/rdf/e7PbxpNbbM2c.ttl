@@ -9,38 +9,47 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:e7PbxpNbbM2c-9xRsWsJBZAvv a rdf:Statement ;
+adi:e7PbxpNbbM2c-29tKfTA8e4cQ a rdf:Statement ;
     dcterms:publisher adi:mzVqud2uGYeD ;
     wdt:P291 adi:2ndYJApSi6Xm,
         adi:64m48iDXC7Fc ;
-    rdf:object "N79f82606fd16451c87f6098d43bfa405" ;
+    rdf:object "N0736dbc684db4c1ab27cf05990503de6" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:e7PbxpNbbM2c ;
     schema:datePublished "1585" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE007714> .
 
-adi:e7PbxpNbbM2c-ZT4WmU3yhunB a rdf:Statement ;
+adi:e7PbxpNbbM2c-CLLJ9dSaNTcd a rdf:Statement ;
     dcterms:references adi:2yZRmQLujaAA,
         adi:AwpgRUaYkZWy ;
     rdf:object "1583" ;
     rdf:predicate <> ;
     rdf:subject adi:e7PbxpNbbM2c .
 
-adi:e7PbxpNbbM2c-aQbm7kjEQjV7 a rdf:Statement ;
+adi:e7PbxpNbbM2c-J4fiGvgZtoDv a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:F5twPYgd9Q3X ;
+    rdf:predicate <> ;
+    rdf:subject adi:e7PbxpNbbM2c .
+
+adi:e7PbxpNbbM2c-Lu8LidpZHTU4 a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10857258> ;
     wdt:P291 adi:64m48iDXC7Fc ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest> ;
-    rdf:object "N51014e84bd7e459ab52c2673b79d06fb" ;
+    rdf:object "N87394f1cf8204a9cac1ac18bd9935b88" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:e7PbxpNbbM2c ;
     schema:datePublished "1585" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10857258> .
 
-adi:e7PbxpNbbM2c-dPMcQzHpUkzt a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:F5twPYgd9Q3X ;
-    rdf:predicate <> ;
-    rdf:subject adi:e7PbxpNbbM2c .
+adi:e7PbxpNbbM2c-eTuyisuzjQHS a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/of-heroic-frenzies-bruno/page/69520588ab34727b1f042d15> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:2ndYJApSi6Xm ;
+    rdf:object "Nde2e5998df5b49629722caebb0e5e86b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:e7PbxpNbbM2c ;
+    schema:datePublished "1585" .
 
 adi:e7PbxpNbbM2c a rdfs:Resource ;
     rdfs:label "De gli eroici furori" ;

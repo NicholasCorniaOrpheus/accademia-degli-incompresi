@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qwg8jHeYguhc",
+      "label": "religious drama",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "label": "Musiche de alcuni eccellentissimi musici composte per la Maddalena, Sacra Rappresentazione di Gio. Battista Andreini",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fWcm8Nsn7rXJ",
+      "label": "drama",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "label": "La Maddalena di Gio. Battista Andreini",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qwg8jHeYguhc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fWcm8Nsn7rXJ",
+      "property": "subclass_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qwg8jHeYguhc",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Qwg8jHeYguhc",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "property": "based_on"
+    }
+  ]
+}

@@ -7,20 +7,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:E7WkCqwGe7tV-JeiuS83Z9cjY a rdf:Statement ;
+adi:E7WkCqwGe7tV-KNTcyvcNdSzN a rdf:Statement ;
+    bf:electronicLocator <http://badigit.comune.bologna.it/croce/sfoglia.aspx?Num_Lib=551> ;
+    dcterms:publisher adi:Ts8PTEkBnwie ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "N55393f15752f423fbb3fd100718880cb" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:E7WkCqwGe7tV ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014326> .
+
+adi:E7WkCqwGe7tV-VLGtBt8ppFSx a rdf:Statement ;
     wdt:P1480 adi:TaGGAqtcuLZx ;
     rdf:object "1585" ;
     rdf:predicate <> ;
     rdf:subject adi:E7WkCqwGe7tV .
-
-adi:E7WkCqwGe7tV-VVGGWUNxy8xE a rdf:Statement ;
-    bf:electronicLocator <http://badigit.comune.bologna.it/croce/sfoglia.aspx?Num_Lib=551> ;
-    dcterms:publisher adi:Ts8PTEkBnwie ;
-    wdt:P291 adi:m5jx85vV2PXo ;
-    rdf:object "Nd77da543054a415cb2041ef68a84acd3" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:E7WkCqwGe7tV ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014326> .
 
 adi:E7WkCqwGe7tV a rdfs:Resource ;
     rdfs:label "La gran vittoria di Pedrolino contra il dottor Gratiano, per amor de la bella Franceschina" ;

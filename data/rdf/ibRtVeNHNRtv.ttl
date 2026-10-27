@@ -9,20 +9,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:ibRtVeNHNRtv-hQDPPXFbYFdT a rdf:Statement ;
-    bf:electronicLocator <https://books.google.be/books?id=J2AgJlDDW_EC> ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N2ba39c9383e04d6cb72d42221c018633" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:ibRtVeNHNRtv ;
-    schema:datePublished "1681" ;
-    schema:url <http://id.sbn.it/bid/VEAE009282> .
-
-adi:ibRtVeNHNRtv-itdgMfXw9msf a rdf:Statement ;
+adi:ibRtVeNHNRtv-KiUVhTgCxWqF a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:YJRnxD2N2ZkS ;
     rdf:predicate <> ;
     rdf:subject adi:ibRtVeNHNRtv .
+
+adi:ibRtVeNHNRtv-Taykwbt95gLc a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=J2AgJlDDW_EC> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nb18e0d79f11d484b8f1bd1f09bc10c94" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:ibRtVeNHNRtv ;
+    schema:datePublished "1681" ;
+    schema:url <http://id.sbn.it/bid/VEAE009282> .
 
 adi:ibRtVeNHNRtv a rdfs:Resource ;
     rdfs:label "La virtù in gioco. Ovvero dame patrizie di Venetia" ;

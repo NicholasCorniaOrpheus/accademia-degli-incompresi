@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:S98D9JtfMfqd-EZBsPdXCcWqY a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "7709" ;
+    rdf:predicate <> ;
+    rdf:subject adi:S98D9JtfMfqd .
+
+adi:S98D9JtfMfqd-V4untrJYXgKv a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:S7dkz3459uRC ;
+    rdf:predicate <> ;
+    rdf:subject adi:S98D9JtfMfqd .
+
+adi:S98D9JtfMfqd a rdfs:Resource ;
+    rdfs:label "Claudio Monteverdi" ;
+    <> adi:8Y6NAvRmdtq6,
+        adi:HgaJFMird2sb,
+        adi:S7dkz3459uRC,
+        adi:edLFhkc6mVw6,
+        adi:exrUScrzgGF2,
+        adi:hwWposH4v2nt ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q53068> ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:8UjQ7UabobgD .
+

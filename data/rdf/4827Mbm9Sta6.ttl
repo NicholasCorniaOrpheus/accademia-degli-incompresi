@@ -7,20 +7,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:4827Mbm9Sta6-QTfWHc8kBu3x a rdf:Statement ;
+adi:4827Mbm9Sta6-4YVcQs2Hk5MT a rdf:Statement ;
+    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
+    bf:heldBy adi:QReKY2bsnGvx ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "Nfaa9dbbaa7714cedb0fcaf521afcbb31" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:4827Mbm9Sta6 ;
+    schema:datePublished "1665" .
+
+adi:4827Mbm9Sta6-KrkWbVJKmuip a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:ZnAwJRxKMGDX ;
     rdf:predicate <> ;
     rdf:subject adi:4827Mbm9Sta6 .
-
-adi:4827Mbm9Sta6-ntWXH2tM5hkE a rdf:Statement ;
-    bf:electronicLocator <https://diglib.hab.de/drucke/1-1arithm/start.htm> ;
-    bf:heldBy adi:QReKY2bsnGvx ;
-    wdt:P291 adi:hbLMcBia2woA ;
-    rdf:object "N56aa9d57622a437492c756e0d2625a32" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:4827Mbm9Sta6 ;
-    schema:datePublished "1665" .
 
 adi:4827Mbm9Sta6 a rdfs:Resource ;
     rdfs:label "Arithmologia sive De abditis Numerorum mysteriis" ;

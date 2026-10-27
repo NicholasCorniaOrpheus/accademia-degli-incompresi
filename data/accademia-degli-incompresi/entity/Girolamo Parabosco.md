@@ -24,6 +24,9 @@ occupation:
 related_to:
 notable_work:
 interested_in:
+  - value: "[[astrology]]"
+    reference:
+      - "[[L'oracolo di m. Girolamo Parabosco]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 20353

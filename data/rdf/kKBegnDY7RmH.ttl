@@ -6,27 +6,27 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:kKBegnDY7RmH-FchAmJnoH295 a rdf:Statement ;
+adi:kKBegnDY7RmH-Lmc5PCzUojmG a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB210/> ;
+    dcterms:publisher adi:TkSL3NGH6dAk ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N0ed246bea4e44248bad5d6f904b63e38" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kKBegnDY7RmH ;
+    schema:datePublished "1610" ;
+    schema:url <http://id.sbn.it/bid/MUS0276112> .
+
+adi:kKBegnDY7RmH-ePVoBuQfaa4S a rdf:Statement ;
     bf:Role adi:HgaJFMird2sb ;
     rdf:object adi:MzJxi7MP7dJY ;
     rdf:predicate <> ;
     rdf:subject adi:kKBegnDY7RmH .
 
-adi:kKBegnDY7RmH-JxAEiJ6dPhaN a rdf:Statement ;
+adi:kKBegnDY7RmH-h2wohTfXDKrS a rdf:Statement ;
     wdt:P1114 "2" ;
     rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gJY5Y5H82dpd" ;
     rdf:predicate <> ;
     rdf:subject adi:kKBegnDY7RmH .
-
-adi:kKBegnDY7RmH-VdnZJrytJiVQ a rdf:Statement ;
-    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB210/> ;
-    dcterms:publisher adi:TkSL3NGH6dAk ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N9e4188d8198a43258321a0bdf96a98b1" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:kKBegnDY7RmH ;
-    schema:datePublished "1610" ;
-    schema:url <http://id.sbn.it/bid/MUS0276112> .
 
 adi:kKBegnDY7RmH a rdfs:Resource ;
     rdfs:label "Il Quarto Libro delle Canzonette Madrigali, et Arie alla romana a due voci di Radesca Enrico" ;

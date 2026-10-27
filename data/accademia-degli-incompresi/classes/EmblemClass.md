@@ -81,7 +81,29 @@ fields:
     options: {}
     path: V9fGlQ
     id: mMkPqJ
-version: "2.25"
+  - name: contributor
+    type: ObjectList
+    options:
+      displayTemplate: ""
+      itemDisplayTemplate: ""
+    path: ""
+    id: nSaele
+  - name: value
+    type: File
+    options: {}
+    path: nSaele
+    id: 3FBZkD
+  - name: role
+    type: File
+    options: {}
+    path: nSaele
+    id: 5jwthx
+  - name: reference
+    type: File
+    options: {}
+    path: nSaele
+    id: dUjfqZ
+version: "2.31"
 limit: 20
 mapWithTag: false
 icon: package
@@ -93,6 +115,10 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
+  - nSaele
+  - 3FBZkD
+  - dUjfqZ
+  - 5jwthx
   - aVDJww
   - V9fGlQ
   - 4p96CV

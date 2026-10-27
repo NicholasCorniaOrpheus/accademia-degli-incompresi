@@ -1,0 +1,56 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QYxgUbrNzgXf-NW9WrgWxFbGU a rdf:Statement ;
+    rdf:object adi:RgjvBxtsjnyR ;
+    rdf:predicate <> ;
+    rdf:subject adi:QYxgUbrNzgXf ;
+    ns1:P304 "239" ;
+    ns1:P958 "Isabella di Morra." .
+
+adi:QYxgUbrNzgXf-PEUidsMiSStV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:caBUbWQYATFD ;
+    rdf:predicate <> ;
+    rdf:subject adi:QYxgUbrNzgXf .
+
+adi:QYxgUbrNzgXf a rdfs:Resource ;
+    rdfs:label "Scrissi con stile amaro aspro e dolente" ;
+    <> adi:RgjvBxtsjnyR,
+        adi:caBUbWQYATFD ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
+    pdc:text """SCRISSI con stile amaro aspro e dolente
+In tempo, come sai, contra Fortuna;
+Sì che null'altra mai sotto la Luna
+Di lei sì dolse con voler più ardente.
+
+Hor del suo cieco error l'alma si pente,
+Che in tai doti non scorge gloria alcuna;
+Et se de' beni suoi vive digiuna,
+Spera arricchirsi in Dio, chiara & lucente.
+
+Né Tempo o Morte il bel thesoro eterno,
+Né predatrice & violenta mano
+Ce lo torrà davanti al Re del Cielo.
+
+Ivi non nuoce già state né verno,
+Che non si sente mai caldo né gielo:
+Dunque ogni altro sperar, Fratello, è vano.""" ;
+    dc:subject adi:Cxgarr2gfrW6,
+        adi:dR7sSTMz4jjt ;
+    dcterms:identifier <https://lyra.unil.ch/poems/2338> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:e2nWi24VoUtn ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:YStEQL5Rsman,
+        adi:jatFry598Usr ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

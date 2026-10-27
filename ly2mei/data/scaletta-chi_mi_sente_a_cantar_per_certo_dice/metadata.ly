@@ -1,0 +1,11 @@
+title = "Chi mi sente a cantar per certo dice"
+madrigal_book = "Effetti d'amore a quattro voci con una mascherata nel fine"
+year = "1595"
+composer = "Orazio Scaletta"
+publisher="Ricciardo Amadino"
+poet = "Maria Menadori"
+collection = ""
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "C"
+page_size = #22
+orientation = #'portrait

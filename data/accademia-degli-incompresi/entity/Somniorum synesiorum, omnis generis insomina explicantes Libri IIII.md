@@ -13,6 +13,11 @@ instance_of:
 title:
 inception:
 has_version:
+  - external_source: https://sourcelibrary.org/book/somniorum-synesiorum-libri-iv-cardano/page/69906328ef12272ffdc8f9de
+    holding_institution: "[[Embassy of the Free Mind]]"
+    publication_date: 1585
+    place_of_publication:
+      - "[[Basel]]"
   - external_source: https://www.digitale-sammlungen.de/en/view/bsb11220889
     holding_institution: "[[Munich Digitization Center]]"
     IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11220889/manifest
@@ -36,6 +41,7 @@ subject:
   - "[[secret]]"
   - "[[alchemy]]"
   - "[[philosophy]]"
+  - "[[dream]]"
 based_on:
 catalog_identifier:
 has_part:

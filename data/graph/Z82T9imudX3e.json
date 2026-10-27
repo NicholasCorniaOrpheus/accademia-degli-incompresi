@@ -31,8 +31,38 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5LVCUxxwNzKY",
+      "label": "De Occultis Literarum Notis",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwPxjrNdJkHp",
+      "label": "cryptography",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "label": "philosophy",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7QQEUQkpdvkV",
       "label": "human",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RAv6oujHR7Ja",
+      "label": "Lo astrologo commedia nuova di Gio. Battista Dalla Porta",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YhKrNQitoXh8",
+      "label": "art of memory",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
@@ -66,6 +96,21 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/YhKrNQitoXh8",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwPxjrNdJkHp",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
       "property": "interested_in"
     },
@@ -78,6 +123,26 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
       "property": "catalog_identifier"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5LVCUxxwNzKY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RAv6oujHR7Ja",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5LVCUxxwNzKY",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PwPxjrNdJkHp",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/RAv6oujHR7Ja",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mXh2Rsv82eCY",
+      "property": "subject"
     }
   ]
 }

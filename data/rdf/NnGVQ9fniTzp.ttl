@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:NnGVQ9fniTzp-ZsbqPC8s5qSP a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10163854> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10163854/manifest> ;
+    rdf:object "N4a53fd70ca354f53ad38007cc2d51240" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NnGVQ9fniTzp ;
+    schema:datePublished "1560" ;
+    schema:url <https://mdz-nbn-resolving.de/details:bsb10163854> .
+
+adi:NnGVQ9fniTzp-gf7ayJYAnuhT a rdf:Statement ;
+    bf:Note "2nd edition." ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k1510950n> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1510950n/manifest.json> ;
+    rdf:object "N7a3bb08536314d0ab4f9b61b64846eda" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NnGVQ9fniTzp ;
+    schema:datePublished "1577" ;
+    schema:url <http://catalogue.bnf.fr/ark:/12148/cb306502318> .
+
+adi:NnGVQ9fniTzp-nDom6SW3FEem a rdf:Statement ;
+    bf:Note "English translation: The Dodechedron of Fortune; or, the Exercise of a Quick Wit." ;
+    bf:electronicLocator <https://books.google.it/books?id=fYxmAAAAcAAJ> ;
+    wdt:P291 adi:2ndYJApSi6Xm ;
+    rdf:object "N45c43d4d86344d00af2ce595531ee419" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:NnGVQ9fniTzp ;
+    schema:datePublished "1613" .
+
+adi:NnGVQ9fniTzp a rdfs:Resource ;
+    rdfs:label "Le plaisant jeu du dodechedron de fortune" ;
+    <> "1560" ;
+    dc:subject adi:jjYHNotSf9rt,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <http://catalogue.bnf.fr/ark:/12148/cb306502318> ;
+    dcterms:title "Le plaisant jeu du dodechedron de fortune" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:39wLPiPQYmqM ;
+    wdt:P870 adi:Pkoygy4mPEmk,
+        adi:WtPw8o24JZLx ;
+    skos:altLabel "The Dodechedron of Fortune; Or, the Exercise of a Quick Wit" .
+

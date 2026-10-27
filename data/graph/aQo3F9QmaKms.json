@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQo3F9QmaKms",
+      "label": "comet",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2y5UAT62kde",
+      "label": "celestial body",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ao9kkmgbgcfG",
+      "label": "De Mundi Aetherei Recentioribus Phaenomenis",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQo3F9QmaKms",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2y5UAT62kde",
+      "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ao9kkmgbgcfG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aQo3F9QmaKms",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Ao9kkmgbgcfG",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/S2y5UAT62kde",
+      "property": "depicts"
+    }
+  ]
+}

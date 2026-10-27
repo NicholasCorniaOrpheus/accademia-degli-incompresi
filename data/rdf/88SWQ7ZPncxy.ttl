@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:88SWQ7ZPncxy-UAavZd4UroKK a rdf:Statement ;
+    bf:electronicLocator <https://www.britishmuseum.org/collection/object/P_1893-0331-32> ;
+    bf:heldBy adi:e2JCsxckr6MB ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "Nd9c517933e074b598902627c8439ad2c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:88SWQ7ZPncxy ;
+    schema:datePublished "1589" .
+
+adi:88SWQ7ZPncxy-XgnfgYtVD7hM a rdf:Statement ;
+    bf:heldBy adi:dng32DMNWo6k ;
+    dcterms:publisher adi:CPXHKVE38uLY ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N154c1273be814aedbe1f316e78adfa27" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:88SWQ7ZPncxy ;
+    schema:url <https://sammlung.mak.at/en/collect/collect_218926> .
+
+adi:88SWQ7ZPncxy-jufyX93ntqqN a rdf:Statement ;
+    bf:Role adi:CNFHvCWXHzEW ;
+    rdf:object adi:SHEKSZMFpCcA ;
+    rdf:predicate <> ;
+    rdf:subject adi:88SWQ7ZPncxy .
+
+adi:88SWQ7ZPncxy a rdfs:Resource ;
+    rdfs:label "Il piacevole e nuovo giuoco detto pela il chiu" ;
+    <> adi:SHEKSZMFpCcA,
+        "1589" ;
+    dc:subject adi:4gDUdsQ3zgkL,
+        adi:CdvzKPw8Avx4 ;
+    dcterms:identifier <https://sammlung.mak.at/en/collect/collect_218926>,
+        <https://www.britishmuseum.org/collection/object/P_1893-0331-32> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:AbMTpFX4Wu4q ;
+    wdt:P31 adi:dK3CoeMSUGWp ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "Giocco del Pelailchiu" ;
+    ns1:P180 adi:NRGRu3F3dpBh .
+

@@ -15,6 +15,14 @@ instance_of:
 title: De floridi virtuosi d'Italia, il secondo libro de madrigali a cinque voci, nouamente composti, et dati in luce
 inception:
 has_version:
+  - place_of_publication:
+      - "[[Antwerpen]]"
+    publisher: "[[Pierre Phalèse the Younger]]"
+    publication_date: 1600
+    permalink: http://id.sbn.it/bid/LO11728796
+    holding_institution: "[[Bibliothèque nationale de France]]"
+    external_source: https://gallica.bnf.fr/ark:/12148/btv1b8449072f
+    IIIF_manifest: https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449072f/manifest.json
   - publication_date: 1585
     publisher: "[[Ricciardo Amadino]]"
     place_of_publication:
@@ -40,4 +48,5 @@ instrumentation:
     value: "[[altus]]"
   - quantity: 1
     value: "[[cantus]]"
+digitized: complete
 ---

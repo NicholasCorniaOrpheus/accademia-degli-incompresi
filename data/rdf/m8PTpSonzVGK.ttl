@@ -1,0 +1,52 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:m8PTpSonzVGK-VVoFGacC5p8u a rdf:Statement ;
+    rdf:object adi:GZXzGphoNVZE ;
+    rdf:predicate <> ;
+    rdf:subject adi:m8PTpSonzVGK ;
+    ns1:P304 "5" ;
+    ns1:P958 "A World made by Atomes." .
+
+adi:m8PTpSonzVGK-agPzzdfQi5YR a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:i88YWS299EAB ;
+    rdf:predicate <> ;
+    rdf:subject adi:m8PTpSonzVGK .
+
+adi:m8PTpSonzVGK a rdfs:Resource ;
+    rdfs:label "Small Atoms of themselves a World may make" ;
+    <> adi:GZXzGphoNVZE,
+        adi:i88YWS299EAB ;
+    pdc:text """SMall Atomes of themselves a World may make,
+As being subtle, and of every shape :
+And as they dance about, fit places finde,
+Such Formes as beft agree, make every kinde.
+For when we build a house of Bricke, and Stone, 
+We lay them even, every one by one :
+And when we finde a gap that’s big, or small,
+We seeke out Stones, to fit that place withall. 
+For when not fit, too big, or little be,
+They fall away, and cannot stay we see.
+So Atomes , as they dance, finde places fit,
+They there remaine, lye close, and fast will sticke. 
+Those that unfit, the rest that rove about,
+Do never leave , untill they thrust them out.
+Thus by their severall Motions, and their Formes, 
+As severall work-men ferve each others turnes.
+And thus, by chance, may a New World create :
+Or else predestinated to worke my Fate.""" ;
+    dc:subject adi:352NoyPwuTJw,
+        adi:WWA58LRMXKiq,
+        adi:cJ4AZvHTtb9D ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Pkoygy4mPEmk .
+

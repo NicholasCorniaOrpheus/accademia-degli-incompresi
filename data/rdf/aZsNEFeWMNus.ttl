@@ -1,0 +1,59 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aZsNEFeWMNus-5wNhVZhGzWxX a rdf:Statement ;
+    bf:Role adi:HgaJFMird2sb ;
+    rdf:object adi:RXZ63XmfLH7k ;
+    rdf:predicate <> ;
+    rdf:subject adi:aZsNEFeWMNus .
+
+adi:aZsNEFeWMNus-5xDsc8d7Fgyi a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aZsNEFeWMNus .
+
+adi:aZsNEFeWMNus-NzKxNiRMYZYa a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aZsNEFeWMNus .
+
+adi:aZsNEFeWMNus-Rv4BumcUiPs2 a rdf:Statement ;
+    wdt:P1114 "2" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:aZsNEFeWMNus .
+
+adi:aZsNEFeWMNus-Y8TaRCNHefg6 a rdf:Statement ;
+    bf:Note "Cantus 1 and 2 only" ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V042/> ;
+    dcterms:publisher adi:LgVbemPeth86 ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "Nd7ba831af9324c52b92d2b7df0afbd62" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:aZsNEFeWMNus ;
+    schema:datePublished "1616" ;
+    schema:url <http://id.sbn.it/bid/MUS0153660> .
+
+adi:aZsNEFeWMNus a rdfs:Resource ;
+    rdfs:label "Il primo libro di canzoni, e madrigaletti, a tre, et a quattro voci di Marcello Albano" ;
+    <> adi:RXZ63XmfLH7k,
+        "1616" ;
+    dc:subject adi:5f6kHhAxyPZh ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0153660>,
+        <https://musicare.beniculturali.unipd.it/database/editions/003906.html>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV00320010> ;
+    dcterms:title "Il primo libro di canzoni, e madrigaletti, a tre, et a quattro voci / di Marcello Albano" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:J4phPZiFuxLG,
+        adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:JGmTj2TfVtTk,
+        adi:WoXXLHXBBLj4 .
+

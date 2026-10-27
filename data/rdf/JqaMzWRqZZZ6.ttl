@@ -1,0 +1,66 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JqaMzWRqZZZ6-44DdMuP2EgnK a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QebcawKVJxyt ;
+    rdf:predicate <> ;
+    rdf:subject adi:JqaMzWRqZZZ6 .
+
+adi:JqaMzWRqZZZ6-KjBBJ6rTi7hU a rdf:Statement ;
+    rdf:object adi:L8ExepDu7q6Y ;
+    rdf:predicate <> ;
+    rdf:subject adi:JqaMzWRqZZZ6 ;
+    ns1:P304 "11" ;
+    ns1:P958 "In Morte di M. Pietro Morabito Musico Messinese." .
+
+adi:JqaMzWRqZZZ6-LLVrRgcrDSn5 a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:ZydVm64YGhb8 ;
+    rdf:predicate <> ;
+    rdf:subject adi:JqaMzWRqZZZ6 .
+
+adi:JqaMzWRqZZZ6 a rdfs:Resource ;
+    rdfs:label "Morabito, che sei di vita sciolto" ;
+    <> adi:L8ExepDu7q6Y,
+        adi:QebcawKVJxyt,
+        adi:ZydVm64YGhb8 ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
+    pdc:text """MORABITO, che sei di vita sciolto
+D' illustri penne, e statue d' oro degno
+Usono i dolci accenti ov' è il tuo ingegno:
+Ohimè che'l veggio in altra parte volto.
+
+(Lasso) se'l caso rio m'affligge molto
+Quest'aria il sa, che già ne mostra segno
+De' miei sospiri, e sallo oggi il mio Regno,
+E questi lumi ond'io ti bagno il volto.
+
+Dapoi che la tua man ch'or fredda t'ergo
+Con questa cetra, che ti giace a lato
+Mille cori (col suon) dava al mio Albergo
+
+In cambio di quel duono alto, e pregiato
+Ora con larga man tutto t'aspergo
+Di Mirti, e Rose, e del mio fior, amato.""" ;
+    dc:subject adi:bz2ZiUr2xdwm ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:cgc6L4BKvLKt ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:P9akbwF852t3,
+        adi:SkejS2gdGAbh,
+        adi:TzfWYLgX7sPP,
+        adi:UBE75mDERAFY,
+        adi:VFabTiMFEU5U,
+        adi:ZydVm64YGhb8,
+        adi:he75W4YL8aFz ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

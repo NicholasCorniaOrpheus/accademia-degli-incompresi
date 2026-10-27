@@ -31,6 +31,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3J3qWPXyXsi3",
+      "label": "La tomba inscrizioni giocose di Giovanni Pasta. Centuria prima",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZU5ZzNrZfToD",
       "label": "Alessandro Caravia",
       "class": "Agent",
@@ -77,6 +83,12 @@
       "label": "Giulio Cesare Croce",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRXDwyE4s5zk",
+      "label": "Voi m'havete Signor mandato a dire",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwD2sXgdMi5p",
@@ -130,6 +142,11 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3J3qWPXyXsi3",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2zJ3QRUFy4nX",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZU5ZzNrZfToD",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2zJ3QRUFy4nX",
       "property": "interested_in"
@@ -163,6 +180,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4pcdeHVZf9gz",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2zJ3QRUFy4nX",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRXDwyE4s5zk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2zJ3QRUFy4nX",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwD2sXgdMi5p",
@@ -208,6 +230,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HDVve8zrRZwi",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/33fBjU7SLdGj",
       "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRXDwyE4s5zk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HDVve8zrRZwi",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/jRXDwyE4s5zk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/LwcyZph2jogE",
+      "property": "part_of"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VwD2sXgdMi5p",

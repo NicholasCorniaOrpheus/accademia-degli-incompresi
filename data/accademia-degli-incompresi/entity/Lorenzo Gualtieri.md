@@ -7,6 +7,7 @@ identifier:
 described_by_source:
   - "[[(Urbini and Procaccioli 2010)]]"
   - "[[(Palmer 2016)]]"
+  - "[[(Wood 2019)]]"
 image:
 aliases:
   - Lorenzo Spirito

@@ -45,7 +45,7 @@ language:
   - "[[Italian]]"
 subject:
   - "[[despair]]"
-digitized:
+digitized: true
 poetic_type:
   - "[[madrigale]]"
 depicts:

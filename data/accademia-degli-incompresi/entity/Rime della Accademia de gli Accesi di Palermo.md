@@ -5,6 +5,7 @@ description:
 identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE000024
 described_by_source:
+  - "[[(Bagni 2020)]]"
 image:
 aliases:
 instance_of:

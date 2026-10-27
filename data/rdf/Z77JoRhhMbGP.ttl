@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Z77JoRhhMbGP-KcWEtd9xSk7k a rdf:Statement ;
+    bf:electronicLocator <https://www.giochidelloca.it/scheda.php?id=2291> ;
+    wdt:P291 adi:m5jx85vV2PXo ;
+    rdf:object "N6a269c371cbc47eb9e2b8033a9781f1f" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Z77JoRhhMbGP .
+
+adi:Z77JoRhhMbGP-cDWJtcvmndcG a rdf:Statement ;
+    bf:Role adi:CNFHvCWXHzEW ;
+    rdf:object adi:hx86ZhuCTQLd ;
+    rdf:predicate <> ;
+    rdf:subject adi:Z77JoRhhMbGP .
+
+adi:Z77JoRhhMbGP a rdfs:Resource ;
+    rdfs:label "Nuovo Gioco dell’Honore" ;
+    <> adi:hx86ZhuCTQLd ;
+    dc:subject adi:4gDUdsQ3zgkL,
+        adi:CdvzKPw8Avx4,
+        adi:c5v9viUaMzrT ;
+    dcterms:identifier <https://www.giochidelloca.it/scheda.php?id=2291> ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:AbMTpFX4Wu4q ;
+    wdt:P31 adi:dK3CoeMSUGWp ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

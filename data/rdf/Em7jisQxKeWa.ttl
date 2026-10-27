@@ -8,32 +8,32 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Em7jisQxKeWa-4QUUP2nDYunQ a rdf:Statement ;
+adi:Em7jisQxKeWa-7uXwHP28TsFu a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:8DHp6Ep9JgBU ;
+    rdf:predicate <> ;
+    rdf:subject adi:Em7jisQxKeWa .
+
+adi:Em7jisQxKeWa-RBb3VvY6SAMc a rdf:Statement ;
     bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k1910335> ;
     bf:heldBy adi:3ErfQUUd3DzH ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1910335v/manifest.json> ;
-    rdf:object "N46b4bfd676904327a364cf62ad7dd7eb" ;
+    rdf:object "Nbec2fa0794664af3963af5206b93d13a" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:Em7jisQxKeWa ;
     schema:datePublished "1549" ;
     schema:url <http://catalogue.bnf.fr/ark:/12148/cb30006765b> .
 
-adi:Em7jisQxKeWa-CNmdUF4g8RJB a rdf:Statement ;
+adi:Em7jisQxKeWa-Z8EjiKrZhve7 a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=kHoBbVOWSIMC> ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "Nf4b31119973b4379a7e91e6eca7a2a7a" ;
+    rdf:object "N49e88d1a610c41249f2769987d90eec2" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:Em7jisQxKeWa ;
     schema:datePublished "1549" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE000607> .
-
-adi:Em7jisQxKeWa-GNtRBT9E8Kjj a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:8DHp6Ep9JgBU ;
-    rdf:predicate <> ;
-    rdf:subject adi:Em7jisQxKeWa .
 
 adi:Em7jisQxKeWa a rdfs:Resource ;
     rdfs:label "Girone il cortese di Luigi Alamanni" ;

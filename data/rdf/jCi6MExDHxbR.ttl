@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:jCi6MExDHxbR-DawAVCMGofqs a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/jocvssevervshoce00maie> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    wdt:P291 adi:KRRRxZVRjFto ;
+    wdt:P6108 <https://iiif.archive.org/iiif/jocvssevervshoce00maie/manifest.json> ;
+    rdf:object "N4a126f7b883d448791b79fa3c6edf40d" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:jCi6MExDHxbR ;
+    schema:datePublished "1617" .
+
+adi:jCi6MExDHxbR-EjWj3N7RTMq7 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:U2DCbnWGRibv ;
+    rdf:predicate <> ;
+    rdf:subject adi:jCi6MExDHxbR .
+
+adi:jCi6MExDHxbR-mHtX4YQHnGZR a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/jocus-severus-maier/page/69b18aa2c4be2cdd0edc87ea> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:KRRRxZVRjFto ;
+    rdf:object "Nfc26f92cf3144410898df0b3ad954449" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:jCi6MExDHxbR ;
+    schema:datePublished "1617" .
+
+adi:jCi6MExDHxbR a rdfs:Resource ;
+    rdfs:label "Jocus Severus" ;
+    <> adi:U2DCbnWGRibv,
+        "1617" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:bxtQcQpdXsKm ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:NRGRu3F3dpBh .
+

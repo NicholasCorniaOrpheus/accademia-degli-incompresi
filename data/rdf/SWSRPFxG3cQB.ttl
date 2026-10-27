@@ -6,23 +6,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:SWSRPFxG3cQB-QJJDiirs3gQb a rdf:Statement ;
+adi:SWSRPFxG3cQB-dQmdZ9FEst6o a rdf:Statement ;
+    bf:Role adi:HgaJFMird2sb ;
+    rdf:object adi:jLiuPUK3pbr5 ;
+    rdf:predicate <> ;
+    rdf:subject adi:SWSRPFxG3cQB .
+
+adi:SWSRPFxG3cQB-ebgY6UjNSaGc a rdf:Statement ;
     bf:electronicLocator <https://archive.org/details/g-32-helicone-madrigali-0011> ;
     bf:heldBy adi:GQ2cDPWxBAg5 ;
     dcterms:publisher adi:FPDujohL8nSA ;
     wdt:P291 adi:3itm2rqDGnBv ;
     wdt:P6108 <https://iiif.archive.org/iiif/g-32-helicone-madrigali-0011/manifest.json> ;
-    rdf:object "N33252569dfae401c9ae278cbb8c324ec" ;
+    rdf:object "N8db633f12c984922812ce50461a86ad9" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:SWSRPFxG3cQB ;
     schema:datePublished "1616" ;
     schema:url <http://id.sbn.it/bid/MUS0062511> .
-
-adi:SWSRPFxG3cQB-iLrrsh3Nk388 a rdf:Statement ;
-    bf:Role adi:HgaJFMird2sb ;
-    rdf:object adi:jLiuPUK3pbr5 ;
-    rdf:predicate <> ;
-    rdf:subject adi:SWSRPFxG3cQB .
 
 adi:SWSRPFxG3cQB a rdfs:Resource ;
     rdfs:label "Il Helicone, madrigali de diversi eccellentissimi musici a cinque voci" ;

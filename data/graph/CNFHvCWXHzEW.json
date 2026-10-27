@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "label": "Ambrogio Brambilla",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
       "label": "Orlando furioso di m. Lodouico Ariosto nuovamente adornato di figure di rame da Girolamo Porro",
       "class": "Book",
@@ -17,6 +23,12 @@
       "label": "Francesco Valesio",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/88SWQ7ZPncxy",
+      "label": "Il piacevole e nuovo giuoco detto pela il chiu",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
@@ -31,8 +43,26 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z77JoRhhMbGP",
+      "label": "Nuovo Gioco dell’Honore",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "label": "Arobore della Fortuna",
+      "class": "EmblemClass",
+      "image": ""
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZMz42hjEdCr8",
       "label": "Girolamo Porro",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hx86ZhuCTQLd",
+      "label": "Floriano dal Buono",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
@@ -42,6 +72,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "occupation"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
@@ -54,7 +89,22 @@
       "property": "occupation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/88SWQ7ZPncxy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z77JoRhhMbGP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
       "property": "contributor"
     },
@@ -64,14 +114,44 @@
       "property": "occupation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hx86ZhuCTQLd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/88SWQ7ZPncxy",
+      "property": "notable_work"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cSk6mDAZ6zRZ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZMz42hjEdCr8",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/88SWQ7ZPncxy",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GAzbZjoo2Tsw",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UN6USeofUGes",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z77JoRhhMbGP",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hx86ZhuCTQLd",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hx86ZhuCTQLd",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z77JoRhhMbGP",
+      "property": "notable_work"
     }
   ]
 }

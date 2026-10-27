@@ -1,0 +1,11 @@
+title = "Con quai giri lascivetti"
+madrigal_book = "Canzonette ed arie a tre voci di Gio. Ghizzolo. Libro primo"
+year = "1607"
+composer = "Giovanni Ghizzolo"
+publisher="Alessandro Raverio"
+poet = "Isabella Andreini"
+collection = "Rime d'Isabella Andreini padovana comica Gelosa"
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "C"
+page_size = #22
+orientation = #'portrait

@@ -1,0 +1,61 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:dz9KLic2YXDw-9Mt9BTXCPNZu a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bGKBYyihrFYQ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dz9KLic2YXDw .
+
+adi:dz9KLic2YXDw-FZwHmvfwM7Wf a rdf:Statement ;
+    bf:Role adi:HgaJFMird2sb ;
+    rdf:object adi:PyAgyUqCfT6J ;
+    rdf:predicate <> ;
+    rdf:subject adi:dz9KLic2YXDw .
+
+adi:dz9KLic2YXDw-LAS95hCZKpV6 a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SQnmLDT4awGE" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dz9KLic2YXDw .
+
+adi:dz9KLic2YXDw-U6r4CdAG8DmV a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i2Vc3fuEVrm5" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dz9KLic2YXDw .
+
+adi:dz9KLic2YXDw-UqpN3FrrwirU a rdf:Statement ;
+    bf:electronicLocator <https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00075419> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    dcterms:publisher adi:iL2SEMjtH5ui ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00075419/manifest> ;
+    rdf:object "N05903acca9e3447783e519f86a145d57" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:dz9KLic2YXDw ;
+    schema:datePublished "1560" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE045576> .
+
+adi:dz9KLic2YXDw-j6ujXUATNbYb a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZBrLJpP5FjjZ" ;
+    rdf:predicate <> ;
+    rdf:subject adi:dz9KLic2YXDw .
+
+adi:dz9KLic2YXDw a rdfs:Resource ;
+    rdfs:label "Di Stefano Rossetti da Nizza il Primo libro de Madregali a quattro voci Insieme alquanti Madregali ariosi" ;
+    <> adi:PyAgyUqCfT6J,
+        "1560" ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE045576>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/BOOK/NV18280010>,
+        <https://rism.online/sources/990056049> ;
+    dcterms:title "Di Stephano Rossetti da Nizza il Primo libro de Madregali a quattro voci Insieme alquanti Madregali ariosi & con alcuni versi di Vergilio novamente da lui composti & per Antonio Gardano stampati & dati in luce" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P31 adi:WoXXLHXBBLj4 .
+

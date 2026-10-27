@@ -1,0 +1,50 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:RAv6oujHR7Ja-7yjRe79QVpA5 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:Z82T9imudX3e ;
+    rdf:predicate <> ;
+    rdf:subject adi:RAv6oujHR7Ja .
+
+adi:RAv6oujHR7Ja-Fpto7ZXNL8sr a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/lo-astrologo-comedia-porta/page/6a0b45dd1615109dc53b1eb1> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    dcterms:publisher adi:R7RjfpUkC6Ys ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nab2269243ff44a09b98727f39af81125" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:RAv6oujHR7Ja ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/BVEE025904> .
+
+adi:RAv6oujHR7Ja-Nro8fGaMfySy a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=t-yyNtbP_7sC> ;
+    dcterms:publisher adi:R7RjfpUkC6Ys ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ne5cb380c043242209140d5a9601558e9" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:RAv6oujHR7Ja ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/BVEE025904> .
+
+adi:RAv6oujHR7Ja a rdfs:Resource ;
+    rdfs:label "Lo astrologo commedia nuova di Gio. Battista Dalla Porta" ;
+    <> adi:Z82T9imudX3e,
+        "1606" ;
+    dc:description "Critique to society, seeking rationality through modern science while chasing ghosts and horoscopes." ;
+    dc:subject adi:cJ4AZvHTtb9D,
+        adi:iWMn6FHJ2W74,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <http://id.sbn.it/bid/BVEE025904> ;
+    dcterms:title "Lo astrologo comedia nuoua di Gio. Battista della Porta napolitano" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:nR5FxU5FRPkD ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

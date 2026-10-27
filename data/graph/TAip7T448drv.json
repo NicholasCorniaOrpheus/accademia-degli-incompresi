@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GSwDHeBQN6dA",
+      "label": "Iacopo d'Aurea",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/H6UFJ3WQyyW5",
       "label": "Brunetti al suon de tuoi pregiati accenti",
       "class": "PoeticWork",
@@ -23,6 +29,12 @@
       "label": "occupation",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZydVm64YGhb8",
+      "label": "Pietro Morabito",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/283fCXKnjYhy",
@@ -44,12 +56,22 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GSwDHeBQN6dA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TAip7T448drv",
+      "property": "occupation"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/H6UFJ3WQyyW5",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TAip7T448drv",
       "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/j8UKpcDKiaAH",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TAip7T448drv",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZydVm64YGhb8",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TAip7T448drv",
       "property": "occupation"
     },

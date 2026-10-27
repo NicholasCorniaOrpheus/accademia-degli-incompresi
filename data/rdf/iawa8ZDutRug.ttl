@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:iawa8ZDutRug-8zC9N8Tb64bC a rdf:Statement ;
+    rdf:object adi:RxWwpaTFwpCu ;
+    rdf:predicate <> ;
+    rdf:subject adi:iawa8ZDutRug ;
+    ns1:P304 "106" ;
+    ns1:P958 "Di M. Gio. Iacomo Dal Pero Sovra varie imprese di Donne." .
+
+adi:iawa8ZDutRug-FmrNSkZbXRRT a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:P8BfrVPRhDGx ;
+    rdf:predicate <> ;
+    rdf:subject adi:iawa8ZDutRug .
+
+adi:iawa8ZDutRug a rdfs:Resource ;
+    rdfs:label "Donn'a cui molte gratiose, & belle" ;
+    <> adi:P8BfrVPRhDGx,
+        adi:RxWwpaTFwpCu ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """Donn'a cui molte gratiose, & belle
+Di gratia, e di beltà sono seconde,
+Di sì bel corpo le fatezze Apelle
+Ben pò ritrar, ma'l bel, ch'in se n'asdonde
+L'alma pura e gentil, con tutte quelle
+Gratie, ch'il ciel vi piove ampie, e feconde,
+Chi dipinger disia, non può far fallo
+Se v'assomiglia à un lucido cristallo.""" ;
+    dc:subject adi:ndYmAKz88N5Q ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F027930000101_PPPP00100700C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:LBUMoVayqW8X,
+        adi:Z4qtpZ24v7ZF ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

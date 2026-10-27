@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "label": "Arobore della Fortuna",
+      "class": "EmblemClass",
+      "image": ""
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "label": "Ambrogio Brambilla",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AbMTpFX4Wu4q",
+      "label": "(Wood 2019)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "label": "engraver",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i6aLsHeCyDtH",
+      "label": "destiny",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvTzic2hAwWg",
+      "label": "tree",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AbMTpFX4Wu4q",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i6aLsHeCyDtH",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KvTzic2hAwWg",
+      "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/K37AS5S4xHhA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/AbMTpFX4Wu4q",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SHEKSZMFpCcA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CNFHvCWXHzEW",
+      "property": "occupation"
+    }
+  ]
+}

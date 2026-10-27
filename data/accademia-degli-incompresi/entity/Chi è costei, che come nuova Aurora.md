@@ -40,7 +40,7 @@ text: |-
   Me neve, & gel di bei desiri infiora;
 
   Onde non pur la scorza fredda, & bianca,
-  Ma prenda qualità a la parte interna,
+  Ma prenda qualità la parte interna,
   Di voi cortese Dea, perpetuo tempio:
 
   Gardir per lei questa altra inferma, & stanca

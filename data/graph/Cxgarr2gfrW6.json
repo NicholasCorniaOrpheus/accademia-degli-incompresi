@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "label": "Musiche de alcuni eccellentissimi musici composte per la Maddalena, Sacra Rappresentazione di Gio. Battista Andreini",
+      "class": "NotatedMusic",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/knJfxDq4XQXR",
       "label": "Urnula quam gemmis auroque; nitere videmus",
       "class": "PoeticWork",
@@ -27,6 +33,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/irc4Ch7Sm7Fx",
       "label": "Quel Creator delle cose create",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QYxgUbrNzgXf",
+      "label": "Scrissi con stile amaro aspro e dolente",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -71,6 +83,12 @@
       "label": "Felicissime voi, Donne beate",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "label": "La Maddalena di Gio. Battista Andreini",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -78,6 +96,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TM6fVHGXjWZC",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/knJfxDq4XQXR",
@@ -96,6 +119,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/irc4Ch7Sm7Fx",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QYxgUbrNzgXf",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
       "property": "subject"
     },
@@ -128,6 +156,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/N2SmUnaa34KT",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Cxgarr2gfrW6",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HaBPdxRzHFy5",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TWrE5C8u9gAR",
+      "property": "based_on"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aYTehKKNSwkK",

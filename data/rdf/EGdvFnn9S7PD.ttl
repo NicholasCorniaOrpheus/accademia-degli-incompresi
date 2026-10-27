@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:EGdvFnn9S7PD-Eq2LXPk2JJGM a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0380" ;
+    rdf:predicate <> ;
+    rdf:subject adi:EGdvFnn9S7PD .
+
+adi:EGdvFnn9S7PD-TqLRSQuEXGhv a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0665" ;
+    rdf:predicate <> ;
+    rdf:subject adi:EGdvFnn9S7PD .
+
+adi:EGdvFnn9S7PD a rdfs:Resource ;
+    rdfs:label "Leonora Bianca" ;
+    <> adi:39wLPiPQYmqM,
+        adi:DZKAs4KqUG7k,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/autore/CNCA001703> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:ECeAs2wMuiNL ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Aurora Bianca d'Este" ;
+    schema:gender adi:5qUeD9fGUy8s .
+

@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:hr79ctZf4CzN-2hN6qBmLsc4N a rdf:Statement ;
+    rdf:object adi:L8ExepDu7q6Y ;
+    rdf:predicate <> ;
+    rdf:subject adi:hr79ctZf4CzN ;
+    ns1:P304 "11" ;
+    ns1:P958 "In morte di M. Iacopo d' Aurea Musico Panhormitano." .
+
+adi:hr79ctZf4CzN-DYV5cjkerwfv a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:QebcawKVJxyt ;
+    rdf:predicate <> ;
+    rdf:subject adi:hr79ctZf4CzN .
+
+adi:hr79ctZf4CzN-HgvTsFxNREnJ a rdf:Statement ;
+    bf:Role adi:CgtXMynJGovX ;
+    rdf:object adi:GSwDHeBQN6dA ;
+    rdf:predicate <> ;
+    rdf:subject adi:hr79ctZf4CzN .
+
+adi:hr79ctZf4CzN a rdfs:Resource ;
+    rdfs:label "Spent' hai del nostro Oreto, hai morte rea" ;
+    <> adi:GSwDHeBQN6dA,
+        adi:L8ExepDu7q6Y,
+        adi:QebcawKVJxyt ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
+    pdc:text """SPENT' hai del nostro ORETO, hai morte rea,
+Il più famoso, e chiaro
+Huom, che vedesse mai dal cielo stella.
+Avara e cieca, e dispietata Dea
+Deh come in pianto amaro
+Lasciat' hai il Mondo, e tu d'amor rubella
+Di così preda bella
+Ne vai superba con l'altera fronte,
+E di sue merci conte
+Ricco n'hai fatto il ciel (grado condegno)
+E'n poverito questo nostro Regno.""" ;
+    dc:subject adi:bz2ZiUr2xdwm ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:cgc6L4BKvLKt ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:3H8EUFWaF3kZ,
+        adi:jyKrsXKP4Dox ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

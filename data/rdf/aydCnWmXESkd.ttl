@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:aydCnWmXESkd-aNBWxarnp3Uq a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EGdvFnn9S7PD ;
+    rdf:predicate <> ;
+    rdf:subject adi:aydCnWmXESkd .
+
+adi:aydCnWmXESkd-feeV5kdnqULz a rdf:Statement ;
+    bf:electronicLocator <https://resources.warburg.sas.ac.uk/pdf/fmh3225w.pdf> ;
+    dcterms:publisher adi:P44R9qpzhArY ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N479b7ae51f074f4697493ef1e9ff7f90" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:aydCnWmXESkd ;
+    schema:datePublished "1565" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE005702> .
+
+adi:aydCnWmXESkd a rdfs:Resource ;
+    rdfs:label "Le risposte della signora Leonora Bianca" ;
+    <> adi:EGdvFnn9S7PD,
+        "1565" ;
+    dc:subject adi:jjYHNotSf9rt,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE005702> ;
+    dcterms:title "Le risposte della signora Leonora Bianca dove ingeniosissimamente et con mirabile arte, si pronostica, & risponde a diverse & molte curiose dimande & richieste circa le cose future. Per piacevolmente vedere quello che debba intravenire d'alcuna cosa che l'uomo cerca sapere, & intendere" ;
+    dcterms:type "Book" ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

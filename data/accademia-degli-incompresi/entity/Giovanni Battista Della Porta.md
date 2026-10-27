@@ -19,6 +19,9 @@ occupation:
 related_to:
 notable_work:
 interested_in:
+  - value: "[[art of memory]]"
+  - value: "[[cryptography]]"
+  - value: "[[philosophy]]"
   - value: "[[astrology]]"
     reference:
       - "[[(Testa 2020)]]"

@@ -6,6 +6,7 @@ subclass_of:
 aliases:
   - oceano
   - mare
+  - sea
 identifier:
   - http://www.wikidata.org/entity/Q9430
 ---

@@ -1,0 +1,55 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Rxay4ShTVrq6-ZMThAC6BtWJN a rdf:Statement ;
+    rdf:object adi:Uej5HRzC3qS3 ;
+    rdf:predicate <> ;
+    rdf:subject adi:Rxay4ShTVrq6 ;
+    ns1:P304 "436-437" ;
+    ns1:P958 "Del S. Sperone Speroni." .
+
+adi:Rxay4ShTVrq6-djY2HCaNMRyV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:gJigWkauAvXU ;
+    rdf:predicate <> ;
+    rdf:subject adi:Rxay4ShTVrq6 .
+
+adi:Rxay4ShTVrq6 a rdfs:Resource ;
+    rdfs:label "Amor già, che tu vuoi pur ch'io m'arrischi" ;
+    <> adi:Uej5HRzC3qS3,
+        adi:gJigWkauAvXU ;
+    pdc:poeticType adi:XnhvNmB6wXvC ;
+    pdc:text """Amor già, che tu vuoi pur ch'io m'arrischi
+In udir, e vedere
+Sirene, e Basilischi;
+Fammi gratia Signore,
+S'egli avien ch'io mi strugga a lo splendore
+Di duoi occhi sereni, & che io sia preda
+D'un ragionar accorto;
+Che chi ne è colpa, creda
+Che per veder, & per udir sia morto.
+Gentil coppia Eccellente,
+Chi vi mira & ascolta
+Solamente una volta;
+Et non muor di piacere,
+Può gir arditamente
+Ad udir e vedere
+Le Sirene d'Amor, e i Basilischi.""" ;
+    dc:subject adi:KuorvRGvXbTz ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F070240000101_PPPP00278300C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:FY9BwUs25yVF,
+        adi:nMTi968tSsXp ;
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
+

@@ -1,0 +1,41 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:BafW2wWsEVR7-4KKGZ3bmMKFW a rdf:Statement ;
+    wdt:P1114 "1" ;
+    rdf:object "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/MFRZ6pAZFnbn" ;
+    rdf:predicate <> ;
+    rdf:subject adi:BafW2wWsEVR7 .
+
+adi:BafW2wWsEVR7-RyTmLdCht4Nc a rdf:Statement ;
+    bf:Role adi:HgaJFMird2sb ;
+    rdf:object adi:7Hm4YBgi3joK ;
+    rdf:predicate <> ;
+    rdf:subject adi:BafW2wWsEVR7 .
+
+adi:BafW2wWsEVR7-cV6NFwgJyWek a rdf:Statement ;
+    bf:electronicLocator <http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB103/> ;
+    dcterms:publisher adi:3KAV9t9uqEEV ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nb28696423c3f4a258300e84b8a19fded" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:BafW2wWsEVR7 ;
+    schema:datePublished "1626" ;
+    schema:url <http://id.sbn.it/bid/MUS0156016> .
+
+adi:BafW2wWsEVR7 a rdfs:Resource ;
+    rdfs:label "Affetti d'Erato. Madrigali in concerto a due, tre, e quattro voci con il basso principale. Libro Primo" ;
+    <> adi:7Hm4YBgi3joK,
+        "1626" ;
+    dcterms:identifier <http://id.sbn.it/bid/MUS0156016>,
+        <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2FNV15910010>,
+        <https://rism.online/sources/990048593> ;
+    dcterms:title "Affetti d'Erato : madrigali in concerto a due, tre, e quattro voci con il basso principale : con alcune arie nel fine da cantarsi a voce sola nel clavicembalo chitarrone o simile instromento : libro Primo / esposti da Giovanni Pasta organista di S.Alessandro in Colonna di Bergamo" ;
+    dcterms:type "NotatedMusic" ;
+    wdt:P1343 adi:krJNW7CuZmu4 .
+

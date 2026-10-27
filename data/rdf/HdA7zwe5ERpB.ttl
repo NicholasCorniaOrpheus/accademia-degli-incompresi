@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:HdA7zwe5ERpB-Xn55zX8mgg7b a rdf:Statement ;
+    bf:heldBy adi:dng32DMNWo6k ;
+    dcterms:publisher adi:CPXHKVE38uLY ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N66466eafbeac4e6a8d0d591ee184ad10" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HdA7zwe5ERpB ;
+    schema:url <https://sammlung.mak.at/en/collect/collect_218923> .
+
+adi:HdA7zwe5ERpB-g8VXgxJGfNB9 a rdf:Statement ;
+    bf:heldBy adi:e2JCsxckr6MB ;
+    dcterms:publisher adi:BGBCWyovg6NB ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "N8260a8a9068d4e279896e3c1901e3720" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HdA7zwe5ERpB ;
+    schema:datePublished "c1590" .
+
+adi:HdA7zwe5ERpB a rdfs:Resource ;
+    rdfs:label "Il novo et piacevole Gioco di Carica l‘ Asino" ;
+    <> "1590" ;
+    dc:subject adi:4gDUdsQ3zgkL,
+        adi:CdvzKPw8Avx4 ;
+    dcterms:identifier <https://sammlung.mak.at/en/collect/collect_218923> ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:dK3CoeMSUGWp ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:cKEcesM5rwZZ .
+

@@ -21,6 +21,8 @@ has_version:
     publication_date: 1555
     publisher: "[[Gabriele Giolito de' Ferrari]]"
 contributor:
+  - role: "[[author]]"
+    value: "[[Sperone Speroni]]"
   - role: "[[editor]]"
     value: "[[Lodovico Dolce]]"
 subject:

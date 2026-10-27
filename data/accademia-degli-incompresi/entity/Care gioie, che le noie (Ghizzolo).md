@@ -23,4 +23,5 @@ based_on:
   - value: "[[Care gioie, che le noie]]"
 derivative_work:
 text:
+digitized: true
 ---

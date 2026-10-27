@@ -1,0 +1,36 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:JZj2qgkwkdFQ-LqzacRtvrkK4 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:U2DCbnWGRibv ;
+    rdf:predicate <> ;
+    rdf:subject adi:JZj2qgkwkdFQ .
+
+adi:JZj2qgkwkdFQ-jKW3TyUyeKQy a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/atalanta-fleeing-new-chemical-emblems-of-the-secrets-of-maier/page/69520c46ab34727b1f04414d> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    rdf:object "N5b6de807b87c40b996b8e1779f3a8762" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JZj2qgkwkdFQ ;
+    schema:datePublished "1618" .
+
+adi:JZj2qgkwkdFQ a rdfs:Resource ;
+    rdfs:label "Atalanta fugiens. Emblemata nova de secretis naturae chymica" ;
+    <> adi:U2DCbnWGRibv,
+        "1618" ;
+    dc:subject adi:8Y6NAvRmdtq6,
+        adi:Bg8thNhhHzC7,
+        adi:bxtQcQpdXsKm ;
+    dcterms:type "Book" ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:PAfwtQUEB4mS,
+        adi:jkCs6Sb8PMex .
+

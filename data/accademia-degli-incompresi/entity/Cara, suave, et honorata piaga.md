@@ -36,7 +36,7 @@ text: |-
   Alto, leggiadro, et precioso ardore
   Che gir fai l'alma di sempr'arder vaga.
 
-  Qual forza d'herba, et virtù d'arte maga
+  Qual forza d'herba, et virtù d'arte vaga
   Ti torrà mai dal centro del mio core;
   Se chi vi porge ogn'hor fresco vigore
   Quanto più mi tormenta, più m'appaga?
@@ -47,7 +47,7 @@ text: |-
 
   Occhi, del mio signor facelle et arco,
   Doppiate fiamme a l'alma, et strali al petto,
-  Poich'il languir m'è dolce e l'ardor caro.
+  Poich'il languir m'è dolce, et l'ardor caro.
 ---
 
 

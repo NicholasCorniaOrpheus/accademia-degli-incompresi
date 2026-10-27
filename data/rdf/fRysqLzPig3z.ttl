@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:fRysqLzPig3z-Tg7RWVYU7UPm a rdf:Statement ;
+    bf:electronicLocator <https://archive.org/details/AstrologoIndovino1629> ;
+    bf:heldBy adi:GQ2cDPWxBAg5 ;
+    dcterms:publisher adi:3WFkNwpU9TVM ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    wdt:P6108 <https://iiif.archive.org/AstrologoIndovino1629/manifest.json> ;
+    rdf:object "N4dc460d4a982421faf177481887c3558" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:fRysqLzPig3z ;
+    schema:datePublished "1629" .
+
+adi:fRysqLzPig3z-fTrtp6dNzzKN a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=gCJ0wlFj_EwC> ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N597743fd9ef643ee9cae16c95aaa3b76" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:fRysqLzPig3z ;
+    schema:datePublished "1693" .
+
+adi:fRysqLzPig3z a rdfs:Resource ;
+    rdfs:label "Giuoco dell'astrologo indovino" ;
+    <> "1629" ;
+    dc:subject adi:jjYHNotSf9rt,
+        adi:mXh2Rsv82eCY ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:39wLPiPQYmqM ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

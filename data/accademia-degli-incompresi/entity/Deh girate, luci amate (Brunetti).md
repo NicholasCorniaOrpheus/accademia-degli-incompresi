@@ -18,7 +18,7 @@ contributor:
 part_of:
   - value: "[[L'Euterpe di Domenico Brunetti]]"
 instrumentation:
-local_asset_path: ./assets/music_compositions/brunetti-care_gioie,_che_le_noie
+local_asset_path: ./assets/music_compositions/brunetti-deh_girate,_luci_amate
 based_on:
   - value: "[[Deh girate, luci amate]]"
 derivative_work:

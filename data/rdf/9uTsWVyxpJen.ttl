@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9uTsWVyxpJen-AqUeNv8rtA63 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:LxBVkDpMhnnt ;
+    rdf:predicate <> ;
+    rdf:subject adi:9uTsWVyxpJen .
+
+adi:9uTsWVyxpJen-Vr8YxKhAZAkp a rdf:Statement ;
+    bf:electronicLocator <https://www.marianotomatis.it/biblioteca/repository/PAR1633.pdf> ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    rdf:object "N5bc6d0692d234c71851d6dd771b629b2" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9uTsWVyxpJen ;
+    schema:datePublished "1633" .
+
+adi:9uTsWVyxpJen a rdfs:Resource ;
+    rdfs:label "Le finte sorti d'Innocentio Paribona" ;
+    <> adi:LxBVkDpMhnnt,
+        "1620" ;
+    dc:subject adi:jjYHNotSf9rt,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <http://id.sbn.it/bid/CFIE032476> ;
+    dcterms:title "Le finte sorti d’Innocentio Paribona dove per via d’arimmetica si risponde in versi a molte curiose dimande" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:39wLPiPQYmqM ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    skos:altLabel "Indovinala grillo" .
+

@@ -8,30 +8,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Kbo3SgEtyRFo-7fyAtNqutrw2 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:KL2a3Eox62dw ;
-    rdf:predicate <> ;
-    rdf:subject adi:Kbo3SgEtyRFo .
+adi:Kbo3SgEtyRFo-JYibPrD9qMQM a rdf:Statement ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k15216662> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    dcterms:publisher adi:KL2a3Eox62dw ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k15216662/manifest.json> ;
+    rdf:object "Nf8deec6725ad47e9be2fb149e67700a8" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Kbo3SgEtyRFo ;
+    schema:datePublished "1540" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055028> .
 
-adi:Kbo3SgEtyRFo-XAcPGKYN4mXS a rdf:Statement ;
+adi:Kbo3SgEtyRFo-L8KQ36gp7UfF a rdf:Statement ;
     bf:Note "Dolce wrote the verses of the fortune-telling book." ;
     bf:Role adi:DZKAs4KqUG7k ;
     rdf:object adi:RE3XAqvEyiZM ;
     rdf:predicate <> ;
     rdf:subject adi:Kbo3SgEtyRFo .
 
-adi:Kbo3SgEtyRFo-e6KMUB7fzTRV a rdf:Statement ;
-    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/bpt6k15216662> ;
-    bf:heldBy adi:3ErfQUUd3DzH ;
-    dcterms:publisher adi:KL2a3Eox62dw ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/bpt6k15216662/manifest.json> ;
-    rdf:object "Nb9c505965fe64eb6a10fc689c5a2c22d" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:Kbo3SgEtyRFo ;
-    schema:datePublished "1540" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE055028> .
+adi:Kbo3SgEtyRFo-drxs5RuxJAsx a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:KL2a3Eox62dw ;
+    rdf:predicate <> ;
+    rdf:subject adi:Kbo3SgEtyRFo .
 
 adi:Kbo3SgEtyRFo a rdfs:Resource ;
     rdfs:label "Le sorti di Francesco Marcolino" ;

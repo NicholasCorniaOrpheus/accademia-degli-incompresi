@@ -10,6 +10,11 @@ inception:
       - "[[(Yates 1964)]]"
       - "[[(Canone 2007)]]"
 has_version:
+  - external_source: https://sourcelibrary.org/book/of-heroic-frenzies-bruno/page/69520588ab34727b1f042d15
+    holding_institution: "[[Embassy of the Free Mind]]"
+    place_of_publication:
+      - "[[London]]"
+    publication_date: 1585
   - IIIF_manifest: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10857258/manifest
     publication_date: 1585
     place_of_publication:

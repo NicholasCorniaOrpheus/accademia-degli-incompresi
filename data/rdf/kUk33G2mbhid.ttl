@@ -1,0 +1,38 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kUk33G2mbhid-MUXWk2GyhWpK a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/ars-magnesia-athanasius-kircher/page/6a08aaa626bf28a2268d1fe2> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    rdf:object "N01fa2967bc024b99b321fa5657659832" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kUk33G2mbhid ;
+    schema:datePublished "1631" ;
+    schema:url <http://id.sbn.it/bid/CFIE055006> .
+
+adi:kUk33G2mbhid-YWcWqdRSxDzP a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ZnAwJRxKMGDX ;
+    rdf:predicate <> ;
+    rdf:subject adi:kUk33G2mbhid .
+
+adi:kUk33G2mbhid a rdfs:Resource ;
+    rdfs:label "Ars Magnesia Athanasio Kircher" ;
+    <> adi:ZnAwJRxKMGDX,
+        "1631" ;
+    dc:subject adi:756YFhXr7Byp,
+        adi:cJ4AZvHTtb9D ;
+    dcterms:identifier <http://id.sbn.it/bid/CFIE055006> ;
+    dcterms:title "Ars magnesia, hoc est Disquisitio bipartita-empeirica seu experimentalis, physico-mathematica de natura, viribus et prodigiosis effectibus magnetis, quam cum theorematice, tum problematice propositam, nouaque methodo ac apodictica seu demonstratiua traditam, variisque vsibus ac diuturna experientia comprobatam, fauente Deo, tuebitur. Praenobilis & eruditus d. Joannes Jacobus Svveigkhardus à Freihausen, juris et mathematicae studiosus. Praeside & authore Athanasio Kircher ..." ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    skos:altLabel "Ars Magnesia" .
+

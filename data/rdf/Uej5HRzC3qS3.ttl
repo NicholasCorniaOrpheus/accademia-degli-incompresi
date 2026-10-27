@@ -6,25 +6,32 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Uej5HRzC3qS3-HbiQLfNE9kPe a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=fodIAQAAMAAJ> ;
-    dcterms:publisher adi:4FVNQkPWfK4J ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "N8076097443e2491189c66ed2670c50df" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:Uej5HRzC3qS3 ;
-    schema:datePublished "1555" ;
-    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047945> .
+adi:Uej5HRzC3qS3-EqaKL6YWpXqY a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:gJigWkauAvXU ;
+    rdf:predicate <> ;
+    rdf:subject adi:Uej5HRzC3qS3 .
 
-adi:Uej5HRzC3qS3-NpqZ4CaePDVf a rdf:Statement ;
+adi:Uej5HRzC3qS3-GtsrP9ypqrwB a rdf:Statement ;
     bf:Role adi:WmxGq9NZGSDT ;
     rdf:object adi:RE3XAqvEyiZM ;
     rdf:predicate <> ;
     rdf:subject adi:Uej5HRzC3qS3 .
 
+adi:Uej5HRzC3qS3-cmoFwAMBZnqi a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=fodIAQAAMAAJ> ;
+    dcterms:publisher adi:4FVNQkPWfK4J ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Nd53c93882619408c8c5f130fe040b1fc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Uej5HRzC3qS3 ;
+    schema:datePublished "1555" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE047945> .
+
 adi:Uej5HRzC3qS3 a rdfs:Resource ;
     rdfs:label "Libro quinto delle rime di diversi illustri signori napoletani" ;
     <> adi:RE3XAqvEyiZM,
+        adi:gJigWkauAvXU,
         "1555" ;
     dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE047945>,
         <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FBOOK%2F500290020> ;

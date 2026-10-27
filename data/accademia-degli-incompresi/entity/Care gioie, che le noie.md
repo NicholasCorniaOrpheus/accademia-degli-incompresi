@@ -33,7 +33,7 @@ depicts:
   - "[[Zeus]]"
 language: "[[Italian]]"
 text: |-
-  Care gioie,
+  CAre gioie,
   Che le noie
   De' sospir mandate in bando
   Quel diletto,
@@ -41,7 +41,7 @@ text: |-
   Scopran gli occhi sfavillando.
 
   Hor non finge,
-  Horr non pinge
+  Hor non pinge
   Con sua squadra falsa, e vaga
   Sogno vano
   Quella mano,
@@ -54,7 +54,7 @@ text: |-
   Hor consenti,
   Ch'io ti porga mille baci.
 
-  Fresche rose,
+  Fresche rose
   Ove pose
   D'Ibla il mel cortese Amore
   Pur delibo
@@ -62,8 +62,8 @@ text: |-
   Premio altier del mio dolore.
 
   Parolette
-  Vezzosette,
-  Per cui già bear mi sento,
+  Vezzosette
+  Per cui già bear mi sento
   Pur v'ascolto,
   Né m'è tolto
   Da l'Aurora il mio contento.
@@ -77,8 +77,8 @@ text: |-
 
   Ma vaneggio
   Me n'aveggio
-  Belle ninfe ella non toglie.
+  Belle Ninfe ella non toglie.
   Ah pur Giove
   Non ritrove
-  Forma nuova, e me ne spoglie.
+  Forma nova, e me ne spoglie.
 ---

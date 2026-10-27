@@ -15,6 +15,18 @@ title: Musurgia Universalis, sive Ars Magna Consoni et Dissoni
 inception:
   - value: 1650
 has_version:
+  - external_source: https://sourcelibrary.org/book/universal-musical-work-volume-ii-musurgia-universalis-kircher/page/69520517ab34727b1f042468
+    holding_institution: "[[Embassy of the Free Mind]]"
+    publication_date: 1650
+    place_of_publication:
+      - "[[Roma]]"
+    note: Volume 2
+  - external_source: https://sourcelibrary.org/book/musurgia-universalis-universal-music-kircher/page/69500507f426a210d109c2c1
+    holding_institution: "[[Embassy of the Free Mind]]"
+    publication_date: 1650
+    place_of_publication:
+      - "[[Roma]]"
+    note: Volume 1
   - holding_institution: "[[Orpheus Instituut]]"
     publication_date: 1650
     permalink: https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=2742

@@ -1,0 +1,11 @@
+title = "Amor scorta mi fosti a bell'imprese "
+madrigal_book = "Madrigali della fama a quattro voci"
+year = "1548"
+composer = "Francesco Manara"
+publisher="Antonio Gardano"
+poet = "Luca Valenziano"
+collection = ""
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "A"
+page_size = #22
+orientation = #'landscape

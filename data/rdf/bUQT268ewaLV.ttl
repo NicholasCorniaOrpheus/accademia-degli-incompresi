@@ -1,0 +1,49 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:bUQT268ewaLV-6BJeqVhBVpDu a rdf:Statement ;
+    rdf:object adi:kBMsLgUXhcwj ;
+    rdf:predicate <> ;
+    rdf:subject adi:bUQT268ewaLV ;
+    ns1:P304 "130" ;
+    ns1:P958 "Di Livio Celiano." .
+
+adi:bUQT268ewaLV-Lj8ncSqrRiYV a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:G35qGbLoFcWv ;
+    rdf:predicate <> ;
+    rdf:subject adi:bUQT268ewaLV .
+
+adi:bUQT268ewaLV a rdfs:Resource ;
+    rdfs:label "Se vago di morire" ;
+    <> adi:G35qGbLoFcWv,
+        adi:kBMsLgUXhcwj ;
+    pdc:poeticType adi:KXJH8TbUTZHm ;
+    pdc:text """Se vago di morire
+Son pur farfalla al vostro dolce lume,
+Che non serbo di lei anco il costume,
+C'ha morte, e sepoltura in quella fiamma,
+Che l'arde a dramma, a dramma:
+Felice la mia sorte,
+S'havrò tomba, ond'haver desio la morte.""" ;
+    dc:subject adi:FawktbqjQdSF,
+        adi:KuorvRGvXbTz ;
+    dcterms:identifier <https://repim.itatti.harvard.edu/resource/?uri=http%3A%2F%2Frepim.unibo.it%2Fresource%2FWORK%2F055630000101_PPPP00145801C> ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:krJNW7CuZmu4 ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CBDegRAvhV8n,
+        adi:i6aLsHeCyDtH,
+        adi:jyKrsXKP4Dox,
+        adi:kk4X4hY9rfnU ;
+    ns1:P2551 adi:NtX3nd34H3Wn,
+        adi:RgpUuygeKhUh .
+

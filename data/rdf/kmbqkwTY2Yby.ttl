@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:kmbqkwTY2Yby-NdDfHxgnjk67 a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:ARq9YFY3LJi9 ;
+    rdf:predicate <> ;
+    rdf:subject adi:kmbqkwTY2Yby .
+
+adi:kmbqkwTY2Yby-Zr5WTh6sbjCj a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/the-symphonic-monochord-of-the-world-fludd/page/6991d8a18c1030b12444c1cf> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:KRRRxZVRjFto ;
+    rdf:object "Nb64b68fb1cae44d2935294bf8c6865c0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:kmbqkwTY2Yby ;
+    schema:datePublished "1622" .
+
+adi:kmbqkwTY2Yby a rdfs:Resource ;
+    rdfs:label "Monochordum Mundi Symphoniacum" ;
+    <> adi:ARq9YFY3LJi9,
+        "1622" ;
+    dc:subject adi:7SzNifkq9dZo,
+        adi:a3CMPUyoeyHi,
+        adi:bxtQcQpdXsKm ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:KAkMZBpLwrNE ;
+    ns1:P180 adi:S2y5UAT62kde .
+

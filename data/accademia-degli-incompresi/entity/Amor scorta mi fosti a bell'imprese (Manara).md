@@ -28,7 +28,7 @@ text: |-
   Quando da terra in fin al ciel m'alzasti
   Però ringrazio te signor cortese
   Ch'a sì gran pregio gli occhi miei levasti
-  Alor che senz'oltraggio e senz'offese
+  Al'hor che senz'oltraggio e senz'offese
   Cose leggiadre nel mio cor mandasti
 language:
   - "[[Italian]]"

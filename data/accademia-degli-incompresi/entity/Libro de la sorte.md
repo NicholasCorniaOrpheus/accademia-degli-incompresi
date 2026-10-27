@@ -17,10 +17,16 @@ instance_of:
 title: Sorte composite per lo nobile ingiegno de Lorenzo spirito perugino
 inception:
 has_version:
+  - external_source: https://books.google.it/books?id=2NFUAAAAcAAJ
+    publication_date: 1543
+    permalink: https://www.marianotomatis.it/?page=biblioteca&code=GUA1543
+    place_of_publication:
+      - "[[Venezia]]"
   - publication_date: 1515
     external_source: https://www.rae.es/archivo-digital/libro-del-juego-de-las-suertes
     permalink: https://www.rae.es/biblioteca/catalogo/?TITN=98013
     holding_institution: "[[Royal Spanish Academy]]"
+    note: Spanish translation
   - publication_date: 1484
     place_of_publication:
       - "[[Brescia]]"

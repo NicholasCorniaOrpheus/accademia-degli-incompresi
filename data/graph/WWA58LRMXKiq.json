@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "label": "Giovanni Battista Della Porta",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KTS4KPKRX4gX",
       "label": "Di m. Giulio Camillo. Tutte le opere",
       "class": "Book",
@@ -19,6 +25,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ehGymEMH8vKv",
+      "label": "Lusus serius quo Hermes sive Mercurius Rex mundanorum omnium sub homine existentium",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A9qFkA8BTs2A",
       "label": "Di Democrito rido. A caso ei vuole",
       "class": "PoeticWork",
@@ -27,6 +39,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/e7PbxpNbbM2c",
       "label": "De gli eroici furori",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CvW4h2w2HKEU",
+      "label": "Nova de Universis Philosophia",
       "class": "Book",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
@@ -45,6 +63,18 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UmiD2x9vDrzm",
       "label": "Di tre corpi è composto il Tempo alato",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPDu2Q5AdiBX",
+      "label": "Just like unto a Nest of Boxes round",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8PTpSonzVGK",
+      "label": "Small Atoms of themselves a World may make",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -80,6 +110,11 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "interested_in"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KTS4KPKRX4gX",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
       "property": "subject"
@@ -88,6 +123,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Nx8bqYnm9d6V",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ehGymEMH8vKv",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/A9qFkA8BTs2A",
@@ -100,12 +140,27 @@
       "property": "subject"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/CvW4h2w2HKEU",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/JcrmXomBzmBJ",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
       "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/UmiD2x9vDrzm",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPDu2Q5AdiBX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8PTpSonzVGK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
       "property": "subject"
     },
@@ -128,6 +183,16 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gvTUvQCexrwg",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WWA58LRMXKiq",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/cPDu2Q5AdiBX",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i88YWS299EAB",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/m8PTpSonzVGK",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/i88YWS299EAB",
+      "property": "contributor"
     }
   ]
 }

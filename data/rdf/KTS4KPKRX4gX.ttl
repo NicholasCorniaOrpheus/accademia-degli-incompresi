@@ -8,23 +8,23 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:KTS4KPKRX4gX-XTDBm3AeT9QM a rdf:Statement ;
+adi:KTS4KPKRX4gX-a2hHUJGbsogb a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:8Hc54xeA8ihZ ;
+    rdf:predicate <> ;
+    rdf:subject adi:KTS4KPKRX4gX .
+
+adi:KTS4KPKRX4gX-e2dgifhzSL5q a rdf:Statement ;
     bf:electronicLocator <https://viewer.onb.ac.at/10981A4A/> ;
     bf:heldBy adi:CEMJGhgpCq9k ;
     dcterms:publisher adi:4FVNQkPWfK4J ;
     wdt:P291 adi:edLFhkc6mVw6 ;
     wdt:P6108 <https://api.onb.ac.at/iiif/presentation/v3/manifest/10981A4A> ;
-    rdf:object "N36318655e6ca41fab9b75da8bdaf0a3c" ;
+    rdf:object "N5cef5958274d4757ba26886f0c5764c7" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:KTS4KPKRX4gX ;
     schema:datePublished "1554" ;
     schema:url <https://edit16.iccu.sbn.it/titolo/CNCE008714> .
-
-adi:KTS4KPKRX4gX-nv5wKHEHHrJ4 a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:8Hc54xeA8ihZ ;
-    rdf:predicate <> ;
-    rdf:subject adi:KTS4KPKRX4gX .
 
 adi:KTS4KPKRX4gX a rdfs:Resource ;
     rdfs:label "Di m. Giulio Camillo. Tutte le opere" ;

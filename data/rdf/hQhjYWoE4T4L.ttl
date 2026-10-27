@@ -8,31 +8,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:hQhjYWoE4T4L-8wJP74Vh27wp a rdf:Statement ;
+adi:hQhjYWoE4T4L-4xUkSLxQ4Uxs a rdf:Statement ;
+    bf:Note "Manuscript" ;
+    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b100343863> ;
+    bf:heldBy adi:3ErfQUUd3DzH ;
+    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b100343863/manifest.json> ;
+    rdf:object "Na22900e59b914bb199518b7c8e46f87b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:hQhjYWoE4T4L ;
+    schema:url <https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101819> .
+
+adi:hQhjYWoE4T4L-6esszoxvJxYD a rdf:Statement ;
     bf:electronicLocator <https://books.google.be/books?id=syrkW5qLdloC> ;
     dcterms:publisher adi:QgzANxntwmqg ;
     wdt:P291 adi:RFFMqXMnRXik ;
-    rdf:object "N10c1416271514cff8bf76d648d4c8658" ;
+    rdf:object "Nf706c0ae2a974e5881ebced6f27749d4" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:hQhjYWoE4T4L ;
     schema:datePublished "1606" ;
     schema:url <http://id.sbn.it/bid/BVEE025465> .
 
-adi:hQhjYWoE4T4L-Un9TuvED3wNW a rdf:Statement ;
+adi:hQhjYWoE4T4L-j2myVkFkCh9C a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:BzZ5xTZQpucC ;
     rdf:predicate <> ;
     rdf:subject adi:hQhjYWoE4T4L .
-
-adi:hQhjYWoE4T4L-c96Xotct5q3d a rdf:Statement ;
-    bf:Note "Manuscript" ;
-    bf:electronicLocator <https://gallica.bnf.fr/ark:/12148/btv1b100343863> ;
-    bf:heldBy adi:3ErfQUUd3DzH ;
-    wdt:P6108 <https://gallica.bnf.fr/iiif/ark:/12148/btv1b100343863/manifest.json> ;
-    rdf:object "N780f9febc3744c629784afabf81e3c7f" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:hQhjYWoE4T4L ;
-    schema:url <https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101819> .
 
 adi:hQhjYWoE4T4L a rdfs:Resource ;
     rdfs:label "La Florinda tragedia di Gio. Battista Andreini comico Fedele" ;

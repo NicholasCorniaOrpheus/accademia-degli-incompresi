@@ -25,7 +25,7 @@ derivative_work:
 text:
 language:
 subject:
-digitized:
+digitized: false
 poetic_type:
 depicts:
 metre:
