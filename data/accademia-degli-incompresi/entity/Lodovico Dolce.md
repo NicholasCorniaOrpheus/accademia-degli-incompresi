@@ -17,6 +17,7 @@ member_of:
     reference:
       - "[[Italian Academies Database]]"
 occupation:
+  - value: "[[polygraph]]"
   - value: "[[poet]]"
   - value: "[[editor]]"
 related_to:

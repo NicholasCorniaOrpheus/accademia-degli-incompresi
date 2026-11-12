@@ -51,5 +51,6 @@ text: |-
   Che più acuti, più salde, e più infiammato
   Strali, catene, foco ser l'effetto;
   Onde men vivo altier, lieto, & contento.
+pagexml: true
 ---
 o

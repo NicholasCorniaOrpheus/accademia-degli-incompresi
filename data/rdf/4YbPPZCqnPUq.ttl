@@ -8,20 +8,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:4YbPPZCqnPUq-J2GJWws2T7Ls a rdf:Statement ;
+adi:4YbPPZCqnPUq-ax8sRVszDBTe a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/istoria-e-dimostrazioni-intorno-alle-macchie-solari-galilei/page/69b1c654edda7fb64e1a0ece> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:hbLMcBia2woA ;
+    rdf:object "Nc350cfe986ae4b8d81c0d07913836930" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:4YbPPZCqnPUq ;
+    schema:datePublished "1613" .
+
+adi:4YbPPZCqnPUq-hxwDfQZ7ufRQ a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:BQGz5xntAdzr ;
     rdf:predicate <> ;
     rdf:subject adi:4YbPPZCqnPUq .
-
-adi:4YbPPZCqnPUq-a7u8UJmLm7xX a rdf:Statement ;
-    bf:electronicLocator <https://sourcelibrary.org/book/istoria-e-dimostrazioni-intorno-alle-macchie-solari-galilei/page/69b1c654edda7fb64e1a0ece> ;
-    bf:heldBy adi:SAbJgKrWpRYN ;
-    wdt:P291 adi:hbLMcBia2woA ;
-    rdf:object "Na471ab23b65f468e9629af81c8e7859e" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:4YbPPZCqnPUq ;
-    schema:datePublished "1613" .
 
 adi:4YbPPZCqnPUq a rdfs:Resource ;
     rdfs:label "Istoria e Dimostrazioni intorno alle Macchie Solari" ;

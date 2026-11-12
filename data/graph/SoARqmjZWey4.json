@@ -19,10 +19,16 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZydVm64YGhb8",
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eDE6AMQEMfzL",
       "label": "Pietro Morabito",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7b7Bz2vfVZsa",
+      "label": "Lo cerriglio incantato, poema eroico di Giulio Cesare Cortese",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     }
   ],
   "links": [
@@ -37,9 +43,14 @@
       "property": "country"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZydVm64YGhb8",
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/eDE6AMQEMfzL",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SoARqmjZWey4",
       "property": "work_location"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7b7Bz2vfVZsa",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SoARqmjZWey4",
+      "property": "has_version"
     }
   ]
 }

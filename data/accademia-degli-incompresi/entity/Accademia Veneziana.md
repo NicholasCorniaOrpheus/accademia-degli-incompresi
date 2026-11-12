@@ -4,6 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
+  - "[[(Procaccioli and Romano 1999)]]"
 image:
 aliases:
   - Accademia della Fama

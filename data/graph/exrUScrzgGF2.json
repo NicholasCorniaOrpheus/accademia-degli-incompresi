@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZHrUqEN4Dgyk",
+      "label": "Giuseppe Marini",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3Pzsv4yzuPzc",
       "label": "The Alchemist written by Ben Jonson",
       "class": "Book",
@@ -67,8 +73,20 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNMRd7aSjXwA",
+      "label": "Isabella Cortese",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SBdpSRh7PSyr",
       "label": "Antonio Allegretti",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a4rbfJm3XcoK",
+      "label": "Evangelista Quattrami",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
@@ -78,6 +96,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/exrUScrzgGF2",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GukmaG54gCcS",
       "property": "instance_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ZHrUqEN4Dgyk",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/exrUScrzgGF2",
+      "property": "occupation"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/3Pzsv4yzuPzc",
@@ -125,7 +148,17 @@
       "property": "occupation"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/XNMRd7aSjXwA",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/exrUScrzgGF2",
+      "property": "occupation"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/SBdpSRh7PSyr",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/exrUScrzgGF2",
+      "property": "occupation"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/a4rbfJm3XcoK",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/exrUScrzgGF2",
       "property": "occupation"
     }

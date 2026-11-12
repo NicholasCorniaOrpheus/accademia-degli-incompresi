@@ -1,0 +1,31 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ce2tceG4RWJv-BYFTZtw5A7ii a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "18140" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ce2tceG4RWJv .
+
+adi:ce2tceG4RWJv-St2TKkLFVcDD a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:bBCwKcN8HLfb ;
+    rdf:predicate <> ;
+    rdf:subject adi:ce2tceG4RWJv .
+
+adi:ce2tceG4RWJv a rdfs:Resource ;
+    rdfs:label "Barbara Strozzi" ;
+    <> adi:DSK596BdwpXR,
+        adi:HgaJFMird2sb,
+        adi:bBCwKcN8HLfb,
+        "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FXzUPxdeUC5F" ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:SrWTCERreeEv ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:5qUeD9fGUy8s .
+

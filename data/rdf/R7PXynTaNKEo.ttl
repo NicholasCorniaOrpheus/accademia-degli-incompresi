@@ -1,0 +1,35 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:R7PXynTaNKEo-6788nU9oCPiG a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=nO9NVQCkhpIC> ;
+    dcterms:publisher adi:LgVbemPeth86 ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "N4bacd9741cec415380e9bb36373f515b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:R7PXynTaNKEo ;
+    schema:datePublished "1606" ;
+    schema:url <http://id.sbn.it/bid/VEAE001264> .
+
+adi:R7PXynTaNKEo-avqp6KDYkyZH a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:L7bwrWL3mguJ ;
+    rdf:predicate <> ;
+    rdf:subject adi:R7PXynTaNKEo .
+
+adi:R7PXynTaNKEo a rdfs:Resource ;
+    rdfs:label "Contra l'alchimia, e gli alchimisti palinodia dell'Argonautica di Angelo Ingegneri" ;
+    <> adi:L7bwrWL3mguJ,
+        "1606" ;
+    dc:subject adi:8Y6NAvRmdtq6 ;
+    dcterms:title "Contra l'alchimia, e gli alchimisti palinodia dell'Argonautica di Angelo Ingegneri. Con la stessa Argonautica, dichiarata da copiose postille del propio °|! autore. Al molto illustre, e reuerendiss. signore monsignor Girolamo Fosco prothonotario apostolico ..." ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

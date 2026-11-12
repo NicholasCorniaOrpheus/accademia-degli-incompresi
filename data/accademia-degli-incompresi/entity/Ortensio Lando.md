@@ -10,6 +10,7 @@ related_to:
 notable_work:
   - "[[Quattro libri de dubbi]]"
 interested_in:
+  - value: "[[paradoxical encomium]]"
   - value: "[[heterodoxy]]"
   - value: "[[humanitarians]]"
     reference:

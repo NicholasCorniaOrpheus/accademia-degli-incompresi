@@ -6,24 +6,24 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JxiSuSJVsyEd-87dph6Thm4Yb a rdf:Statement ;
+adi:JxiSuSJVsyEd-ZreG6iwTVXHC a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:Qpb8Vray3ri2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:JxiSuSJVsyEd ;
+    schema:startDate "1571" .
+
+adi:JxiSuSJVsyEd-kAYXoH8iXEbU a rdf:Statement ;
     bf:heldBy adi:ax9MhV3Kc6At ;
     rdf:object "18280" ;
     rdf:predicate <> ;
     rdf:subject adi:JxiSuSJVsyEd .
 
-adi:JxiSuSJVsyEd-m7EGATSZAa8t a rdf:Statement ;
-    dcterms:references adi:SrWTCERreeEv ;
-    rdf:object adi:f2VyeE6UfeAf ;
-    rdf:predicate <> ;
-    rdf:subject adi:JxiSuSJVsyEd ;
-    schema:startDate "1571" .
-
 adi:JxiSuSJVsyEd a rdfs:Resource ;
     rdfs:label "Laura Bonanno" ;
     <> adi:BN9CvVaVcKNU,
         adi:DZKAs4KqUG7k,
-        adi:f2VyeE6UfeAf ;
+        adi:Qpb8Vray3ri2 ;
     dcterms:type "Agent" ;
     wdt:P1343 adi:SrWTCERreeEv,
         adi:cgc6L4BKvLKt ;

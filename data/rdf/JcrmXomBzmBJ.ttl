@@ -8,31 +8,31 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JcrmXomBzmBJ-9KdP2SQGLFSh a rdf:Statement ;
+adi:JcrmXomBzmBJ-2VK5fvJRiAww a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:F5twPYgd9Q3X ;
     rdf:predicate <> ;
     rdf:subject adi:JcrmXomBzmBJ .
 
-adi:JcrmXomBzmBJ-a4cKELXVmcMG a rdf:Statement ;
+adi:JcrmXomBzmBJ-UimqbWFNwktL a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/giordano-bruno-de-umbris-idearum-1582-first-edition-bruno/page/699050d17d19f3f2aac1e6e9> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:64m48iDXC7Fc ;
+    rdf:object "N41300c5220e54b57832b84417c2395d0" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JcrmXomBzmBJ ;
+    schema:datePublished "1582" .
+
+adi:JcrmXomBzmBJ-mZr9n8Y9J72r a rdf:Statement ;
     bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10208311> ;
     bf:heldBy adi:7zL92j8iLfbj ;
     wdt:P291 adi:64m48iDXC7Fc ;
     wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10208311/manifest> ;
-    rdf:object "Nb9f95343553643cca7ee5c40bd783fc4" ;
+    rdf:object "N4c89a48656784a2e902370ec8e5c9edf" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:JcrmXomBzmBJ ;
     schema:datePublished "1582" ;
     schema:url <https://mdz-nbn-resolving.de/details:bsb10208311> .
-
-adi:JcrmXomBzmBJ-maMqumSaFXnU a rdf:Statement ;
-    bf:electronicLocator <https://sourcelibrary.org/book/giordano-bruno-de-umbris-idearum-1582-first-edition-bruno/page/699050d17d19f3f2aac1e6e9> ;
-    bf:heldBy adi:SAbJgKrWpRYN ;
-    wdt:P291 adi:64m48iDXC7Fc ;
-    rdf:object "N28604484615b4d2382b16d63f1b90015" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:JcrmXomBzmBJ ;
-    schema:datePublished "1582" .
 
 adi:JcrmXomBzmBJ a rdfs:Resource ;
     rdfs:label "De umbris idearum" ;
@@ -44,9 +44,9 @@ adi:JcrmXomBzmBJ a rdfs:Resource ;
         adi:mXh2Rsv82eCY ;
     dcterms:identifier <https://mdz-nbn-resolving.de/details:bsb10208311> ;
     dcterms:type "Book" ;
-    wdt:P1343 adi:2yZRmQLujaAA,
-        adi:GTHf5BcRVPMA,
-        adi:TkRuvHwmzxfy ;
+    wdt:P1343 adi:GTHf5BcRVPMA,
+        adi:TkRuvHwmzxfy,
+        adi:nTfey59hNUfR ;
     wdt:P31 adi:FoqX9WfTveaZ ;
     ns1:P180 adi:7WzaN4hdqgqS .
 

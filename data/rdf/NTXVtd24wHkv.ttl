@@ -7,21 +7,22 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:NTXVtd24wHkv-SPYT5xNBX7Eu a rdf:Statement ;
-    bf:heldBy adi:ax9MhV3Kc6At ;
-    rdf:object "20474" ;
-    rdf:predicate <> ;
-    rdf:subject adi:NTXVtd24wHkv .
-
-adi:NTXVtd24wHkv-ftj27igCZQU2 a rdf:Statement ;
+adi:NTXVtd24wHkv-SGK6XzuYKMTc a rdf:Statement ;
     dcterms:references adi:ieJs49RBeEXp ;
     rdf:object adi:HJUa2ByTvcNt ;
     rdf:predicate <> ;
     rdf:subject adi:NTXVtd24wHkv .
 
+adi:NTXVtd24wHkv-VoEWQojo6UTP a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "20474" ;
+    rdf:predicate <> ;
+    rdf:subject adi:NTXVtd24wHkv .
+
 adi:NTXVtd24wHkv a rdfs:Resource ;
     rdfs:label "Ortensio Lando" ;
-    <> adi:HJUa2ByTvcNt,
+    <> adi:EAJhF5MxB36o,
+        adi:HJUa2ByTvcNt,
         adi:NiTWoVWgRtNj ;
     dcterms:identifier ns1:Q1257744 ;
     dcterms:type "Agent" ;

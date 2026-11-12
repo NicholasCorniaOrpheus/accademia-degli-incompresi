@@ -38,7 +38,7 @@ text: |-
   CHI vuol veder un bosco
   Di piante opaco, e folco,
   Venga a vederlo mio trafitto cuore
-  Pien di saette, ohimè, pien di dolore;
+  Pien di saette, ohimè, pien di dolore?
   Così l'ha concio Amore.
 
   Chi vuol veder un mare
@@ -53,9 +53,10 @@ text: |-
   Tormentato dal foco, e dal timore,
   Così l'ha concio Amore.
 
-  E chi saper desia
+  E chi saper desia,
   Quale cagion sia,
   Ch'Amor mi faccia bosco, e mare, e inferno,
   Venga a veder questa mia tigre amata
   Sì cruda, e sì spietata.
+pagexml: true
 ---

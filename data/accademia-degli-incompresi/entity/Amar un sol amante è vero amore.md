@@ -38,4 +38,5 @@ text: |-
   Amate un solo; & ch'io sia poi quel uno;
   In fine haver un sol amor si vole;
   Ch'a noi ci basta un Dio, ci basta un Sole:
+pagexml: true
 ---

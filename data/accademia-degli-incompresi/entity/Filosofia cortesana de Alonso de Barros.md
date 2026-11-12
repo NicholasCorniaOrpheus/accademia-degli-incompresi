@@ -6,6 +6,7 @@ identifier:
   - https://www.britishmuseum.org/collection/object/P_1869-0410-2463-
 described_by_source:
   - "[[(Wood 2019)]]"
+  - "[[(Seville 2019)]]"
 image:
 aliases:
 instance_of:

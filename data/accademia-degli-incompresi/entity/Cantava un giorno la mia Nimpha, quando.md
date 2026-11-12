@@ -47,4 +47,5 @@ text: |-
   Lodo sovente il gran fattor del mondo:
   Che tra noi die' sì glorioso dono.
 language: "[[Italian]]"
+pagexml: true
 ---

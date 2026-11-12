@@ -27,9 +27,12 @@ We have tried to find a compromise between a purely diplomatic transcription and
 | sù la | sulla | |
 | fà | fa | |
 | fù | fu | |
+| fè | fé | Truncation of "fede" (faith) |
 | piu | più | |
+| mercè | mercé | Truncation of "mercede" (mercy) |
 | virtu | virtù |
-| vò | vo | The first person of the verb "andare" does not need any accent or apostrophe in modern italian| 
+| vò | vo | The first person of the verb "andare" does not need any accent or apostrophe in modern italian|
+| vò | vo' | The first person of the verb "volere" needs an apostrophe in modern italian| 
 | cio | ciò | |
 | ã | an | Expliciting tilda abbreviation |
 | õ | on | Expliciting tilda abbreviation |

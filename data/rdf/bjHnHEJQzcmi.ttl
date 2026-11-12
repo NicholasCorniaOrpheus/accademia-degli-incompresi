@@ -8,21 +8,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:bjHnHEJQzcmi-PsJdCeioLWvi a rdf:Statement ;
+adi:bjHnHEJQzcmi-Bz5YRBPGTCDR a rdf:Statement ;
+    rdf:object adi:JawCSViAJPnw ;
+    rdf:predicate <> ;
+    rdf:subject adi:bjHnHEJQzcmi ;
+    ns1:P958 "Vittoria Colonna, III" .
+
+adi:bjHnHEJQzcmi-Yg74TnZQRTWh a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:Lb2oTLg4h2DU ;
     rdf:predicate <> ;
     rdf:subject adi:bjHnHEJQzcmi .
 
-adi:bjHnHEJQzcmi-agyQ4Wz4iMpp a rdf:Statement ;
-    rdf:object adi:GDJyorHV4KEw ;
-    rdf:predicate <> ;
-    rdf:subject adi:bjHnHEJQzcmi ;
-    ns1:P958 "Vittoria Colonna, III" .
-
 adi:bjHnHEJQzcmi a rdfs:Resource ;
     rdfs:label "Provo tra duri scogli e fiero vento" ;
-    <> adi:GDJyorHV4KEw,
+    <> adi:JawCSViAJPnw,
         adi:Lb2oTLg4h2DU ;
     pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Provo tra duri scogli e fiero vento

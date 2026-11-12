@@ -40,4 +40,5 @@ text: |-
   Riga Hippocren la sempreverde riva
   Tra gli allori l'oliva.
 language: "[[Italian]]"
+pagexml: true
 ---

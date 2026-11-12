@@ -7,6 +7,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqVw8qPNVyAR",
+      "label": "Neapolitan",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6UFUJo2JAXCT",
       "label": "(Nocerino 2014)",
       "class": "BibliographicResource",
@@ -61,6 +67,12 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Signora_Adriana_Basile.PNG?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+      "label": "(Gianfrancesco 2010)",
+      "class": "BibliographicResource",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/bibliographic_resource.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7QQEUQkpdvkV",
       "label": "human",
       "class": "Concept",
@@ -73,6 +85,12 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/organisation.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEzLJyn6DSCy",
+      "label": "novella",
+      "class": "Concept",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2KTWZWEaqaaa",
       "label": "Donna se di fier Orso",
       "class": "PoeticWork",
@@ -83,6 +101,11 @@
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/6UFUJo2JAXCT",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
       "property": "described_by_source"
     },
     {
@@ -117,8 +140,23 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+      "property": "member_of"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
       "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEzLJyn6DSCy",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqVw8qPNVyAR",
+      "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
@@ -186,6 +224,16 @@
       "property": "has_version"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEzLJyn6DSCy",
+      "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/gqVw8qPNVyAR",
+      "property": "language"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/NzigjQdFbSkY",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
       "property": "inception"
@@ -212,6 +260,11 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm7yVBHwb943",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+      "property": "described_by_source"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm7yVBHwb943",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/noxgdEZ8TnkL",
       "property": "location"
     },
@@ -224,6 +277,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm7yVBHwb943",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ax9MhV3Kc6At",
       "property": "member"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Mm7yVBHwb943",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+      "property": "interested_in"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/2KTWZWEaqaaa",

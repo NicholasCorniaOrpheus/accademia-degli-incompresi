@@ -8,21 +8,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:eTZht4gw8MKs-Kywn2pULUnax a rdf:Statement ;
+adi:eTZht4gw8MKs-BSkrWQxbkrzL a rdf:Statement ;
+    rdf:object adi:JawCSViAJPnw ;
+    rdf:predicate <> ;
+    rdf:subject adi:eTZht4gw8MKs ;
+    ns1:P958 "Vittoria Colonna, VI" .
+
+adi:eTZht4gw8MKs-GeDU4w6GQPKe a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:Lb2oTLg4h2DU ;
     rdf:predicate <> ;
     rdf:subject adi:eTZht4gw8MKs .
 
-adi:eTZht4gw8MKs-h294bECBX3Ne a rdf:Statement ;
-    rdf:object adi:GDJyorHV4KEw ;
-    rdf:predicate <> ;
-    rdf:subject adi:eTZht4gw8MKs ;
-    ns1:P958 "Vittoria Colonna, VI" .
-
 adi:eTZht4gw8MKs a rdfs:Resource ;
     rdfs:label "Vivo su questo scoglio orrido e solo" ;
-    <> adi:GDJyorHV4KEw,
+    <> adi:JawCSViAJPnw,
         adi:Lb2oTLg4h2DU ;
     pdc:poeticType adi:nJ46mYz7ym9T ;
     pdc:text """Vivo su questo scoglio orrido e solo

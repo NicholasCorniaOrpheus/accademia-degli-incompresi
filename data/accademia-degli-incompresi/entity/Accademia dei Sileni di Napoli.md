@@ -20,6 +20,9 @@ catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 89
 member:
+  - reference:
+      - "[[Italian Academies Database]]"
+    value: "[[Giulio Cesare Cortese]]"
   - value: "[[Giambattista Marino]]"
     reference:
       - "[[Italian Academies Database]]"

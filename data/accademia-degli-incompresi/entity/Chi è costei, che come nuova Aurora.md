@@ -47,5 +47,6 @@ text: |-
   Gratia a me rara, a voi fia gloria eterna,
   Rinovellando di Titon l'essempio.
 language: "[[Italian]]"
+pagexml: true
 ---
 

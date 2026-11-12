@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:5qQPQXPydf5h-Q8hTfiWSYesz a rdf:Statement ;
+    bf:Role adi:EZQQr4wx34nx ;
+    rdf:object adi:VWVDBDaC8szG ;
+    rdf:predicate <> ;
+    rdf:subject adi:5qQPQXPydf5h .
+
+adi:5qQPQXPydf5h-QCjx6kGTXmCD a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=Gxmt20Mlm0IC> ;
+    dcterms:publisher adi:LduiVpTcuw5N ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N8018d51d2f7a47a0be8b5f8f6a932a3c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:5qQPQXPydf5h ;
+    schema:datePublished "1529" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE041063> .
+
+adi:5qQPQXPydf5h-e7eUhP7HPZbN a rdf:Statement ;
+    bf:Role adi:ntzcDvrFrkF8 ;
+    rdf:object adi:FEP2RHUGTuJR ;
+    rdf:predicate <> ;
+    rdf:subject adi:5qQPQXPydf5h .
+
+adi:5qQPQXPydf5h a rdfs:Resource ;
+    rdfs:label "I dilettevoli dialoghi le vere narrazioni, le facete epistole di Luciano philosopho, di greco in volgare tradotte per m. Nicolo da Lonigo" ;
+    <> adi:FEP2RHUGTuJR,
+        adi:VWVDBDaC8szG,
+        "1529" ;
+    dc:subject adi:SE8dJXKowffE,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE041063> ;
+    dcterms:title "I diletteuoli dialogi le vere narrationi, le facete epistole di Luciano philosopho, di greco in volgare tradotte per m. Nicolo da Lonigo, et historiate, & di nuouo accuratamente reuiste & emendate" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:3FmSxcCP5CUS,
+        adi:Fg6xCVoGsz3M ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

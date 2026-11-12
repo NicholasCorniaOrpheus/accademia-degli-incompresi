@@ -30,7 +30,7 @@ depicts:
   - "[[singing]]"
 language: "[[Italian]]"
 text: |-
-  Cinta di molli piume il collo, e'l petto
+  CINTA di molli piume il collo, e'l petto
   Dolci formar suol Filomena accenti;
   Dolci accenti sì ben: ma ancor dolenti
   Che pietoso a ciascun porgon diletto.
@@ -47,4 +47,5 @@ text: |-
   Tu laudi canti al tuo fattore, ardendo
   Di fé, di caritade, e d'Amor santo;
   Raddoppia il tuo cantar, canto celeste.
+pagexml: true
 ---

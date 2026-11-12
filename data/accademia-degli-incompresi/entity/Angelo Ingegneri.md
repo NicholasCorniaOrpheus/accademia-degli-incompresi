@@ -10,6 +10,9 @@ occupation:
 related_to:
 notable_work:
 interested_in:
+  - value: "[[alchemy]]"
+    reference:
+      - "[[Contra l'alchimia, e gli alchimisti palinodia dell'Argonautica di Angelo Ingegneri]]"
 catalog_identifier:
 present_in_work:
 identifier:

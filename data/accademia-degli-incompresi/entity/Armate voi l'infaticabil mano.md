@@ -41,4 +41,5 @@ text: |-
   Al mio Vessillo, a quel di Marte ignoti;
   Ch'armato di valor non fu mai core,
   A cui non fosse amica sferza Amore.
+pagexml: true
 ---

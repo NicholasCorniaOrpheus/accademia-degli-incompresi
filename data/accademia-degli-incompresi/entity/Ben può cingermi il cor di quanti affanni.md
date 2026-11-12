@@ -41,4 +41,5 @@ text: |-
   Rinnovarmi le doglie ad una ad una;
   Ma non può far già che io non sia beato
   Se tutti i Mondi non cangiasser stato.
+pagexml: true
 ---

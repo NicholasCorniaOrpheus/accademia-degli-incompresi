@@ -14,6 +14,9 @@ instance_of:
 gender: "[[male]]"
 work_location:
 member_of:
+  - value: "[[Accademia degli Oziosi di Napoli]]"
+    reference:
+      - "[[(Gianfrancesco 2010)]]"
   - value: "[[Accademia degli Insensati di Perugia]]"
     reference:
       - "[[(Moralejo Ortega 2017)]]"

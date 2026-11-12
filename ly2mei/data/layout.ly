@@ -1,13 +1,14 @@
 \layout {
+  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \context {
     \Score
     \omit BarNumber
     \override StaffGrouper.staff-staff-spacing.padding = #4
     \override StaffGrouper.staff-staff-spacing.basic-distance = #4
     \override StaffGrouper.staffgroup-staff-spacing.basic-distance = #4
-\override StaffGrouper.staffgroup-staff-spacing.padding = #4
-  \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
-
+    \override StaffGrouper.staffgroup-staff-spacing.padding = #4
+    \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+    
   }
   \context { 
     \MensuralVoice 

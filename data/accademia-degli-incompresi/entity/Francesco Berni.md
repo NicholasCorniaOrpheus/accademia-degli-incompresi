@@ -21,6 +21,7 @@ occupation:
 related_to:
 notable_work:
 interested_in:
+  - value: "[[paradoxical encomium]]"
   - value: "[[humorous poetry]]"
   - value: "[[satire]]"
   - value: "[[heterodoxy]]"

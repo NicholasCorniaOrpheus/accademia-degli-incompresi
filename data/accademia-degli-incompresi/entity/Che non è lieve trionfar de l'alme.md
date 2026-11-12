@@ -41,4 +41,5 @@ text: |-
   Lieti portaste al mio felice impero;
   Felice un tempo, hor giù cader lo veggio,
   S'a me da voi non vien, quel ch'a voi chieggio
+pagexml: true
 ---

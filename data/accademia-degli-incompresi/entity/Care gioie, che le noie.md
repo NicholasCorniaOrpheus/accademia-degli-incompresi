@@ -81,4 +81,5 @@ text: |-
   Ah pur Giove
   Non ritrove
   Forma nova, e me ne spoglie.
+pagexml: true
 ---

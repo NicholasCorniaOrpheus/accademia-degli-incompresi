@@ -8,19 +8,19 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:JZj2qgkwkdFQ-LqzacRtvrkK4 a rdf:Statement ;
+adi:JZj2qgkwkdFQ-JeZZPX7wobqh a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/atalanta-fleeing-new-chemical-emblems-of-the-secrets-of-maier/page/69520c46ab34727b1f04414d> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    rdf:object "N9c98f524ffbf4f0dab550e3de5d2e6ea" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:JZj2qgkwkdFQ ;
+    schema:datePublished "1618" .
+
+adi:JZj2qgkwkdFQ-YLRqtN3Rrf7z a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:U2DCbnWGRibv ;
     rdf:predicate <> ;
     rdf:subject adi:JZj2qgkwkdFQ .
-
-adi:JZj2qgkwkdFQ-jKW3TyUyeKQy a rdf:Statement ;
-    bf:electronicLocator <https://sourcelibrary.org/book/atalanta-fleeing-new-chemical-emblems-of-the-secrets-of-maier/page/69520c46ab34727b1f04414d> ;
-    bf:heldBy adi:SAbJgKrWpRYN ;
-    rdf:object "N5b6de807b87c40b996b8e1779f3a8762" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:JZj2qgkwkdFQ ;
-    schema:datePublished "1618" .
 
 adi:JZj2qgkwkdFQ a rdfs:Resource ;
     rdfs:label "Atalanta fugiens. Emblemata nova de secretis naturae chymica" ;

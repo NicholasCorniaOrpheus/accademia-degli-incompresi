@@ -1,0 +1,40 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:9yYtfXLbaWqL-FGbvkQ8oMK9b a rdf:Statement ;
+    bf:Role adi:VWVDBDaC8szG ;
+    rdf:object adi:KJG2EhMwXxHd ;
+    rdf:predicate <> ;
+    rdf:subject adi:9yYtfXLbaWqL .
+
+adi:9yYtfXLbaWqL-Pf7myfjmXdR4 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=zi4d59OPpB0C> ;
+    dcterms:publisher adi:DrEHoxnbaB9F ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ne4c540557d494ba493be98e19124355c" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:9yYtfXLbaWqL ;
+    schema:datePublished "1543" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE023272> .
+
+adi:9yYtfXLbaWqL a rdfs:Resource ;
+    rdfs:label "Trattato della sphera, nel quale si dimostrano, & insegnano i principii della astrologia raccolto da Giovanni di Sacrobusto, & altri astronomi, & tradotto in lingua italiana per Antonio Brucioli" ;
+    <> adi:KJG2EhMwXxHd,
+        "1543" ;
+    dc:subject adi:7SzNifkq9dZo,
+        adi:mXh2Rsv82eCY ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE023272> ;
+    dcterms:title "Trattato della sphera, nel quale si dimostrano, & insegnano i principii della astrologia raccolto da Giouanni di Sacrobusto, & altri astronomi, & tradotto in lingua italiana per Antonio Brucioli et con nuoue annotationi in piu luoghi dichiarato" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:CgtNVBaMjY9V,
+        adi:S2y5UAT62kde .
+

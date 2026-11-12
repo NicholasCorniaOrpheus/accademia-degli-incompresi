@@ -1,0 +1,37 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ceGY533wsmLY-BFRw4PE88ybC a rdf:Statement ;
+    bf:heldBy adi:Mefkw2MRET3J ;
+    rdf:object "A0109" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ceGY533wsmLY .
+
+adi:ceGY533wsmLY-QEboYTPmUxSe a rdf:Statement ;
+    dcterms:references adi:SrWTCERreeEv ;
+    rdf:object adi:guHM5vf4DLQE ;
+    rdf:predicate <> ;
+    rdf:subject adi:ceGY533wsmLY ;
+    schema:startDate "1599" .
+
+adi:ceGY533wsmLY-aw3FuvRyCeYZ a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "16291" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ceGY533wsmLY .
+
+adi:ceGY533wsmLY a rdfs:Resource ;
+    rdfs:label "Isabella Cervoni" ;
+    <> adi:DZKAs4KqUG7k,
+        adi:guHM5vf4DLQE ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q3802260> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:SrWTCERreeEv ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    schema:gender adi:5qUeD9fGUy8s .
+

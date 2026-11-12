@@ -9,30 +9,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:BRPuEfPhFqv6-ersuGnEprSAP a rdf:Statement ;
+adi:BRPuEfPhFqv6-JHfoZLn6inDA a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:93WD7geefJjR ;
+    rdf:predicate <> ;
+    rdf:subject adi:BRPuEfPhFqv6 .
+
+adi:BRPuEfPhFqv6-Pa4UNgvSJwDR a rdf:Statement ;
     rdf:object adi:YnKescy9oBAL ;
     rdf:predicate <> ;
     rdf:subject adi:BRPuEfPhFqv6 ;
     ns1:P304 "310" ;
     ns1:P958 "Fausta Tacita." .
 
-adi:BRPuEfPhFqv6-g8sVuX6SSztV a rdf:Statement ;
+adi:BRPuEfPhFqv6-YWQR8mZL6eHW a rdf:Statement ;
     bf:Role adi:CgtXMynJGovX ;
     rdf:object adi:NUugReNRnF66 ;
     rdf:predicate <> ;
     rdf:subject adi:BRPuEfPhFqv6 .
 
-adi:BRPuEfPhFqv6-hh6USSar5SLA a rdf:Statement ;
-    bf:Role adi:FEP2RHUGTuJR ;
-    rdf:object adi:k45eMWn7fDrH ;
-    rdf:predicate <> ;
-    rdf:subject adi:BRPuEfPhFqv6 .
-
 adi:BRPuEfPhFqv6 a rdfs:Resource ;
     rdfs:label "Non teme oh Dea di questa età gentile" ;
-    <> adi:NUugReNRnF66,
-        adi:YnKescy9oBAL,
-        adi:k45eMWn7fDrH ;
+    <> adi:93WD7geefJjR,
+        adi:NUugReNRnF66,
+        adi:YnKescy9oBAL ;
     pdc:poeticType adi:JdCmvSXCtJKC ;
     pdc:text """Non teme oh Dea di questa età gentile
 La fabrica immortal del Tempio vostro,

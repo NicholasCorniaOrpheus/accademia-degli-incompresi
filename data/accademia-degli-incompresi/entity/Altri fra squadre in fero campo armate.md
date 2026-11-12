@@ -49,4 +49,5 @@ text: |-
   Vesti cothurni, e socchi in modi industri,
   E quel ch'è più, e che t’aggiunge fregio:
   La tua penna è di te tromba sonante.
+pagexml: true
 ---

@@ -7,7 +7,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:msaShVwusGue-E8USqLDGiVmi a rdf:Statement ;
+adi:msaShVwusGue-MP946bYDpPpz a rdf:Statement ;
+    dcterms:references adi:PtUvVs5svxr5 ;
+    rdf:object adi:Mm7yVBHwb943 ;
+    rdf:predicate <> ;
+    rdf:subject adi:msaShVwusGue .
+
+adi:msaShVwusGue-cCrVrF5KQrXb a rdf:Statement ;
     dcterms:references adi:BYS2dCp2ckrV,
         adi:GEFAfEGG8p4Q ;
     rdf:object adi:dzdNN2UGikPZ ;
@@ -16,7 +22,7 @@ adi:msaShVwusGue-E8USqLDGiVmi a rdf:Statement ;
     schema:endDate "1602" ;
     schema:startDate "1602" .
 
-adi:msaShVwusGue-jnir3QuPyvLn a rdf:Statement ;
+adi:msaShVwusGue-cnRSAnRMm5XK a rdf:Statement ;
     bf:heldBy adi:ax9MhV3Kc6At ;
     rdf:object "5605" ;
     rdf:predicate <> ;
@@ -25,6 +31,7 @@ adi:msaShVwusGue-jnir3QuPyvLn a rdf:Statement ;
 adi:msaShVwusGue a rdfs:Resource ;
     rdfs:label "Giambattista Marino" ;
     <> adi:DZKAs4KqUG7k,
+        adi:Mm7yVBHwb943,
         adi:NiTWoVWgRtNj,
         adi:dzdNN2UGikPZ ;
     dcterms:identifier <http://www.wikidata.org/entity/Q332489> ;

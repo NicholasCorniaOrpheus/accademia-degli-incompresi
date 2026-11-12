@@ -44,4 +44,5 @@ text: |-
   E danzi tocchi i fermi Lidi involta,
   Mentre a l'alto s'invia
   Da l'Indo il Sol nascente a l'Armonia.
+pagexml: true
 ---

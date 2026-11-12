@@ -8,32 +8,36 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:McrW73AUvkY7-53WTHwVRbmZL a rdf:Statement ;
-    bf:heldBy adi:ax9MhV3Kc6At ;
-    rdf:object "15002" ;
-    rdf:predicate <> ;
-    rdf:subject adi:McrW73AUvkY7 .
-
-adi:McrW73AUvkY7-MimNE3ZB6cpz a rdf:Statement ;
+adi:McrW73AUvkY7-8wSZiBNAXhv4 a rdf:Statement ;
     dcterms:references adi:ax9MhV3Kc6At ;
     rdf:object adi:NzigjQdFbSkY ;
     rdf:predicate <> ;
     rdf:subject adi:McrW73AUvkY7 .
 
-adi:McrW73AUvkY7-joctW4fJBof6 a rdf:Statement ;
-    dcterms:references adi:ax9MhV3Kc6At ;
+adi:McrW73AUvkY7-dAotJLNFstdL a rdf:Statement ;
+    dcterms:references adi:PtUvVs5svxr5,
+        adi:ax9MhV3Kc6At ;
     rdf:object adi:Mm7yVBHwb943 ;
+    rdf:predicate <> ;
+    rdf:subject adi:McrW73AUvkY7 .
+
+adi:McrW73AUvkY7-kVJCVR8R9kFC a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "15002" ;
     rdf:predicate <> ;
     rdf:subject adi:McrW73AUvkY7 .
 
 adi:McrW73AUvkY7 a rdfs:Resource ;
     rdfs:label "Giambattista Basile" ;
-    <> adi:Mm7yVBHwb943,
+    <> adi:FEzLJyn6DSCy,
+        adi:Mm7yVBHwb943,
         adi:NzigjQdFbSkY,
+        adi:gqVw8qPNVyAR,
         adi:noxgdEZ8TnkL ;
     dcterms:identifier ns1:Q555291 ;
     dcterms:type "Agent" ;
-    wdt:P1343 adi:6UFUJo2JAXCT ;
+    wdt:P1343 adi:6UFUJo2JAXCT,
+        adi:PtUvVs5svxr5 ;
     wdt:P31 adi:7QQEUQkpdvkV ;
     skos:altLabel "Gianbattista Basile",
         "Giovan Battista Basile" ;

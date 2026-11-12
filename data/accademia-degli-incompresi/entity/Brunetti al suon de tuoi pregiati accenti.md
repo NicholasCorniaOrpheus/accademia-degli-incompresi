@@ -50,6 +50,7 @@ text: |-
   Così d'angue crudel medico mastro
   Less'io guarire il morso, e'l rio dolore
   Di soave armonia canoro empiastro.
+pagexml: true
 ---
 
 

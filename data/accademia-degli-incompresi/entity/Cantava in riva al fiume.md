@@ -44,4 +44,5 @@ text: |-
   Hor chi l'honora amando?
   E l'acque insieme ei rami;
   Hor chi fia, che l'honori, e che non l'ami?
+pagexml: true
 ---

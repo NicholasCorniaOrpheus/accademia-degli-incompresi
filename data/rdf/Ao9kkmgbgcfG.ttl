@@ -8,20 +8,20 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Ao9kkmgbgcfG-HQGahfJKThBy a rdf:Statement ;
+adi:Ao9kkmgbgcfG-UgrV2nvuPYQp a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/de-mundi-aetherei-recentioribus-phaenomenis-brahe/page/69af0d9cbe5fc7f363545b39> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    wdt:P291 adi:KRRRxZVRjFto ;
+    rdf:object "Nd840717e54444ef288fccc91e0884efc" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Ao9kkmgbgcfG ;
+    schema:datePublished "1610" .
+
+adi:Ao9kkmgbgcfG-bHWipkvDqMMR a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:2zAFvhRTBMwa ;
     rdf:predicate <> ;
     rdf:subject adi:Ao9kkmgbgcfG .
-
-adi:Ao9kkmgbgcfG-nteBm7HVroYT a rdf:Statement ;
-    bf:electronicLocator <https://sourcelibrary.org/book/de-mundi-aetherei-recentioribus-phaenomenis-brahe/page/69af0d9cbe5fc7f363545b39> ;
-    bf:heldBy adi:SAbJgKrWpRYN ;
-    wdt:P291 adi:KRRRxZVRjFto ;
-    rdf:object "Nc6d3d65a07fc4d7381b8dcb82b6706b9" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:Ao9kkmgbgcfG ;
-    schema:datePublished "1610" .
 
 adi:Ao9kkmgbgcfG a rdfs:Resource ;
     rdfs:label "De Mundi Aetherei Recentioribus Phaenomenis" ;

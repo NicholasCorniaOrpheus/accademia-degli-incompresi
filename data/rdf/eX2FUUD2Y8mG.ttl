@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:eX2FUUD2Y8mG-DZHaZXYMPycK a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:VpxqJ9ih4MFV ;
+    rdf:predicate <> ;
+    rdf:subject adi:eX2FUUD2Y8mG .
+
+adi:eX2FUUD2Y8mG-Md7sZz3GZUxs a rdf:Statement ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "N7b26b0006d1e4777a1f65b9e005de1d5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:eX2FUUD2Y8mG ;
+    schema:datePublished "1648" ;
+    schema:url <http://id.sbn.it/bid/SBLE011611> .
+
+adi:eX2FUUD2Y8mG-Puw7dndxWkfU a rdf:Statement ;
+    bf:Note "Reprint." ;
+    bf:electronicLocator <https://books.google.be/books?id=ga_XESGhuQwC> ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "N5ddf1f8636294e978095bcf0e438c940" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:eX2FUUD2Y8mG ;
+    schema:datePublished "1678" ;
+    schema:url <http://id.sbn.it/bid/UBOE019415> .
+
+adi:eX2FUUD2Y8mG a rdfs:Resource ;
+    rdfs:label "De la Tiorba a Taccone" ;
+    <> adi:VpxqJ9ih4MFV,
+        "1648" ;
+    dc:subject adi:5f6kHhAxyPZh ;
+    dcterms:identifier <http://id.sbn.it/bid/SBLE011611> ;
+    dcterms:title "De la Tiorba a Taccone. De Felilppo [sic] Sgruttendio de Scafato" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:PtUvVs5svxr5 ;
+    wdt:P870 adi:gqVw8qPNVyAR ;
+    ns1:P180 adi:A5Vfp2XX8b3z .
+

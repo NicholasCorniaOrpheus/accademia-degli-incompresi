@@ -48,6 +48,7 @@ text: |-
   Basta che sia sì nobilment'accesa,
   basta ch'alto mi tolsi,
   Et da l'ignobil numero mi sciolsi.
+pagexml: true
 ---
 
 

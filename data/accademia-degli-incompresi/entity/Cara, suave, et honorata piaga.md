@@ -48,6 +48,7 @@ text: |-
   Occhi, del mio signor facelle et arco,
   Doppiate fiamme a l'alma, et strali al petto,
   Poich'il languir m'è dolce, et l'ardor caro.
+pagexml: true
 ---
 
 

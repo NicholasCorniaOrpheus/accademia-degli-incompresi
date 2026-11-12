@@ -83,6 +83,7 @@ text: |-
   Sì bel Poema spasso a gentil Cuori.
 described_by_source:
   - "[[(Selepiuc 2020)]]"
+pagexml: true
 ---
 
 

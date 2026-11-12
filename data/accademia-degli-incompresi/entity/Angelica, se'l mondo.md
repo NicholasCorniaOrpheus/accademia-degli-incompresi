@@ -35,4 +35,5 @@ language: "[[Italian]]"
 identifier:
 label: Angelica, se'l mondo
 description: Madrigale in praise of Angelica N., musician.
+pagexml: true
 ---

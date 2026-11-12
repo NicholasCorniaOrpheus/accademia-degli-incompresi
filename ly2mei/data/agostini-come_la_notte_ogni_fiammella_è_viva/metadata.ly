@@ -1,0 +1,11 @@
+title = "Come la notte ogni fiammella è viva"
+madrigal_book = "Il nuovo echo a cinque voci"
+year = "1583"
+composer = "Ludovico Agostini"
+publisher="Giovanni Battista Sottile"
+poet = "Ludovico Ariosto"
+collection = "Orlando furioso. Canto XLV, 37"
+annotator = "Nicholas Cornia, A Whirlpool of Imaginary Sounds project at Orpheus Instituut"
+incipit = "C"
+page_size = #22
+orientation = #'portrait

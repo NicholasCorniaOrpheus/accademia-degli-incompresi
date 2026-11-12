@@ -6,6 +6,7 @@ identifier:
   - https://sammlung.mak.at/en/collect/collect_218921
 described_by_source:
   - "[[(Wood 2019)]]"
+  - "[[(Seville 2019)]]"
 image:
 aliases:
 instance_of:

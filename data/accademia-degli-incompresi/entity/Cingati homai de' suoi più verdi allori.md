@@ -35,7 +35,7 @@ depicts:
 language: "[[Italian]]"
 text: |-
   CINGATI homai de' suoi più verdi allori
-  Apoloo il crin con sempiterno Aprile:
+  Apollo il crin con sempiterno Aprile:
   Con auree penne homai da Battro a Thile
   Spieghi la Fama i tuoi veraci honori:
 
@@ -51,4 +51,5 @@ text: |-
   Pur credi, che non poco ancor nel pianto.
   Ch'esca del mio bel nido, hor mi consolo,
   Cigno, che le sue piume alzi cotanto.
+pagexml: true
 ---

@@ -21,8 +21,9 @@ based_on:
 derivative_work:
 subject:
   - "[[satire]]"
-  - "[[chivalric poem]]"
   - "[[querelle des femmes]]"
+  - "[[chivalry]]"
+  - "[[chivalric poem]]"
 poetic_type:
 metre:
   - "[[hendecasyllable]]"
@@ -34,7 +35,7 @@ depicts:
 language:
   - "[[Italian]]"
 text: |-
-  Costor, che voi vedete, arditi e fieri,
+  COstor, che voi vedete, arditi e fieri,
   Sì ben forniti d'arme, e di cavalli.
   Donne, son tutti erranti Cavalieri.
   Per lo mondo ne vanno alla sicura,
@@ -48,12 +49,12 @@ text: |-
   Di queste Donne valorose, e belle
   Son tutti innamorati;
   E così son da quelle
-  Più che la cara e propia vita amati:
-  Tanto che seguitati
+  Più che la cara, e propia vita amati:
+  Tantoché seguitati
   Da lor son con piacere in ogni loco,
   Accese il petto d'amoroso foco.
 
-  E ben ch'or siano in abito succinto,
+  E bench'or siano in abito succinto,
   Spesso van tutte armate;
   E sopra il destrier vinto
   Con lance, e stocchi han più giostre onorate:
@@ -65,17 +66,17 @@ text: |-
   Quest'uomini gran prove,
   Perché desìo d'onore
   A belle imprese sol gl'infiamma e move:
-  E qui, sì come altrove,
-  vVglion del lor valor, Donne, far mostra
+  E qui, siccome altrove,
+  Voglion del lor valor, Donne, far mostra
   Co'vostri amanti, provandosi in giostra.
 
   Dunque a Signori, Conti, e Cavalieri
   Intender per noi fanno,
   Siccome arditi, e fieri,
   Domani a Santa Croce ne verranno
-  Armati, e proveranno
+  Armati; e proveranno,
   Che queste loro accorte Damigelle
-  Di tutte l'altre son più caste e belle.
+  Di tutte l'altre son più caste, e belle.
 
   Or chi d'alcuna la beltà infinita
   Credesse guadagnare,
@@ -94,7 +95,8 @@ text: |-
   A far vendetta d'ogni vostra ingiuria.
 
   Turcimanni siam noi, ch'a voi davanti,
-  Donne, parlat'abbiamo,
+  Donne, parlato abbiamo,
   Che per interpetrar le lingue andiamo
   Con questi invitti Cavalieri erranti.
+pagexml: true
 ---

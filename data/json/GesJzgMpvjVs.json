@@ -1,6 +1,10 @@
 {
   "metadata": {
     "class": "Organisation",
+    "description": "Literary society founded around 1560 by Giambattista Della Porta. It is not clear if the academy, or circle, really existed.",
+    "aliases": [
+      "Circolo dei Segreti"
+    ],
     "base_name": "Accademia dei Segreti di Napoli",
     "filename": "Accademia dei Segreti di Napoli.md",
     "label": "Accademia dei Segreti di Napoli",
@@ -8,6 +12,12 @@
     "n_id": 302248913726827016707
   },
   "statements": {
+    "described_by_source": [
+      {
+        "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+        "label": "(Gianfrancesco 2010)"
+      }
+    ],
     "instance_of": [
       {
         "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mhxiWoDeBKmm",
@@ -16,6 +26,10 @@
       {
         "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/7oCzU3jd2dSu",
         "label": "academia fictiva"
+      },
+      {
+        "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/5kTufm84drrw",
+        "label": "salon"
       }
     ],
     "inception": [
@@ -44,7 +58,22 @@
         "value": 55
       }
     ],
-    "member": null,
+    "member": [
+      {
+        "role": {
+          "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/VQtqbRoGY6GZ",
+          "label": "founder"
+        },
+        "reference": [
+          {
+            "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PtUvVs5svxr5",
+            "label": "(Gianfrancesco 2010)"
+          }
+        ],
+        "value": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Z82T9imudX3e",
+        "label": "Giovanni Battista Della Porta"
+      }
+    ],
     "interested_in": null,
     "notable_work": null,
     "related_to": null,

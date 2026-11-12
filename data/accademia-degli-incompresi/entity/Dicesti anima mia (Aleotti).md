@@ -21,4 +21,6 @@ digitized: true
 poetic_type:
 depicts:
 metre:
+identifier:
+  - https://repim.itatti.harvard.edu/resource/?uri=http://repim.unibo.it/resource/WORK/073550000010101_000000005400C
 ---

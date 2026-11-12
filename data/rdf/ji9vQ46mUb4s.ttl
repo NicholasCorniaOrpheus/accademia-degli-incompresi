@@ -5,27 +5,34 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:ji9vQ46mUb4s-77BwkUjo9SCd a rdf:Statement ;
+adi:ji9vQ46mUb4s-SFiHWxn6wwWE a rdf:Statement ;
     dcterms:references adi:ax9MhV3Kc6At ;
     rdf:object adi:msaShVwusGue ;
     rdf:predicate <> ;
     rdf:subject adi:ji9vQ46mUb4s .
 
-adi:ji9vQ46mUb4s-A5wNCP6wNmPi a rdf:Statement ;
-    bf:heldBy adi:ax9MhV3Kc6At ;
-    rdf:object "89" ;
-    rdf:predicate <> ;
-    rdf:subject adi:ji9vQ46mUb4s .
-
-adi:ji9vQ46mUb4s-C92HVhmEgSTx a rdf:Statement ;
+adi:ji9vQ46mUb4s-U6nWGkka9qom a rdf:Statement ;
     dcterms:references adi:ax9MhV3Kc6At ;
     rdf:object "1612" ;
     rdf:predicate <> ;
     rdf:subject adi:ji9vQ46mUb4s .
 
+adi:ji9vQ46mUb4s-a6LGrEjGzXYk a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "89" ;
+    rdf:predicate <> ;
+    rdf:subject adi:ji9vQ46mUb4s .
+
+adi:ji9vQ46mUb4s-cdnNtynuc9SW a rdf:Statement ;
+    dcterms:references adi:ax9MhV3Kc6At ;
+    rdf:object adi:EYZsPUT7fJ7Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:ji9vQ46mUb4s .
+
 adi:ji9vQ46mUb4s a rdfs:Resource ;
     rdfs:label "Accademia dei Sileni di Napoli" ;
-    <> adi:msaShVwusGue,
+    <> adi:EYZsPUT7fJ7Z,
+        adi:msaShVwusGue,
         adi:noxgdEZ8TnkL ;
     dcterms:type "Organisation" ;
     wdt:P31 adi:mhxiWoDeBKmm .

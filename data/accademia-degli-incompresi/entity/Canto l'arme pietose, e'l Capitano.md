@@ -34,4 +34,5 @@ text: |-
   Il Ciel gli diè favore, e sotto a i santi
   Segni ridusse i suoi compagni erranti.
 language: "[[Italian]]"
+pagexml: true
 ---

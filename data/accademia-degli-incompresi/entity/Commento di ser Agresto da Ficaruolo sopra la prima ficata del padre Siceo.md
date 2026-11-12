@@ -6,10 +6,11 @@ identifier:
   - https://edit16.iccu.sbn.it/titolo/CNCE009643
 described_by_source:
   - "[[(Moroncini 2020)]]"
+  - "[[(Procaccioli and Romano 1999)]]"
 image:
 aliases:
 instance_of:
-  - "[[humorous poetry]]"
+  - "[[commentary]]"
 title: Commento di ser Agresto da Ficaruolo sopra la prima ficata del padre Siceo
 inception:
   - 
@@ -24,7 +25,10 @@ contributor:
 subject:
   - "[[satire]]"
   - "[[heterodoxy]]"
+  - "[[humorous poetry]]"
 has_part:
 based_on:
+metre:
+poetic_type:
 ---
-Humorous poem with hidden connotations of [[heterodoxy]], according to [[(Moroncini 2020)]].
+Humorous poems with hidden connotations of [[heterodoxy]], according to [[(Moroncini 2020)]].

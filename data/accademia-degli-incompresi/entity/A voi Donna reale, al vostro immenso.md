@@ -46,5 +46,6 @@ text: |-
   Ma solo offrendo, e questo picciol serto,
   Lassan l'Eternità che ne favelle.
 language: "[[Italian]]"
+pagexml: true
 ---
 

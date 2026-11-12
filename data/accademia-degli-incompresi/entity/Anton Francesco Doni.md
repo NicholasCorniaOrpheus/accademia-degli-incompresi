@@ -24,6 +24,7 @@ member_of:
     reference:
       - "[[(Girotto 2017)]]"
 occupation:
+  - value: "[[polygraph]]"
   - value: "[[publisher]]"
   - value: "[[author]]"
 related_to:

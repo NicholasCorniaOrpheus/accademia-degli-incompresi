@@ -4,6 +4,7 @@ label:
 description:
 identifier:
 described_by_source:
+  - "[[(Gianfrancesco 2010)]]"
 image:
 aliases:
 instance_of:
@@ -21,5 +22,8 @@ member:
     reference:
       - "[[Italian Academies Database]]"
 interested_in:
+  - value: "[[improvisational theater]]"
+    reference:
+      - "[[(Gianfrancesco 2010)]]"
 notable_work:
 ---

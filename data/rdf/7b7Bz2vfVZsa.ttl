@@ -1,0 +1,46 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:7b7Bz2vfVZsa-GejWWHxPeiWB a rdf:Statement ;
+    bf:electronicLocator <https://books.google.be/books?id=tORmAAAAcAAJ> ;
+    wdt:P291 adi:noxgdEZ8TnkL ;
+    rdf:object "Nda19e44337a04274a3bf1f96f0c19b88" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7b7Bz2vfVZsa ;
+    schema:datePublished "1645" ;
+    schema:url <http://id.sbn.it/bid/NAPE000881> .
+
+adi:7b7Bz2vfVZsa-JcJqZZv4hZTf a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EYZsPUT7fJ7Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:7b7Bz2vfVZsa .
+
+adi:7b7Bz2vfVZsa-ijFR3d8qE8KT a rdf:Statement ;
+    wdt:P291 adi:SoARqmjZWey4 ;
+    rdf:object "Ndf359823267841d5a0260d00dccf1d3a" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:7b7Bz2vfVZsa ;
+    schema:datePublished "1628" ;
+    schema:url <http://id.sbn.it/bid/MILE011230> .
+
+adi:7b7Bz2vfVZsa a rdfs:Resource ;
+    rdfs:label "Lo cerriglio incantato, poema eroico di Giulio Cesare Cortese" ;
+    <> adi:EYZsPUT7fJ7Z,
+        adi:GdXWhx79h26y,
+        "1628" ;
+    dc:subject adi:Z6udgtgZac9G ;
+    dcterms:identifier <http://id.sbn.it/bid/MILE011230> ;
+    dcterms:title "Lo cerriglio incantato, poema eroico di Giulio Cesare Cortese, dato in luce per l'accademico napolitano detto lo Suiato" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:cygyrPSnobpc ;
+    wdt:P870 adi:gqVw8qPNVyAR ;
+    skos:altLabel "Lo cerriglio 'ncantato" .
+

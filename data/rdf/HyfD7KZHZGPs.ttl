@@ -9,40 +9,40 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:HyfD7KZHZGPs-6nudNb39h4AS a rdf:Statement ;
+adi:HyfD7KZHZGPs-DLU9ajjaSVyY a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:U9xvuj9mvgrC ;
     rdf:predicate <> ;
     rdf:subject adi:HyfD7KZHZGPs .
 
-adi:HyfD7KZHZGPs-AxEbpWZ7LMkT a rdf:Statement ;
+adi:HyfD7KZHZGPs-GZ4u3EsmJRAg a rdf:Statement ;
     bf:Note "Spanish translation" ;
     bf:electronicLocator <https://www.rae.es/archivo-digital/libro-del-juego-de-las-suertes> ;
     bf:heldBy adi:k7rmmdcgkciX ;
-    rdf:object "Ne87f921034934cf8af515a7bf41a1c3a" ;
+    rdf:object "Nbe33b8f54ad44d6e89fce13ad876c547" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:HyfD7KZHZGPs ;
     schema:datePublished "1515" ;
     schema:url <https://www.rae.es/biblioteca/catalogo/?TITN=98013> .
 
-adi:HyfD7KZHZGPs-bAD6PEVL3QHf a rdf:Statement ;
-    bf:electronicLocator <https://books.google.it/books?id=2NFUAAAAcAAJ> ;
-    wdt:P291 adi:edLFhkc6mVw6 ;
-    rdf:object "Nd94c017792504f9ab1ee0dc53c53d01b" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:HyfD7KZHZGPs ;
-    schema:datePublished "1543" ;
-    schema:url <https://www.marianotomatis.it/?page=biblioteca&code=GUA1543> .
-
-adi:HyfD7KZHZGPs-iorfzQ7Ucb5o a rdf:Statement ;
+adi:HyfD7KZHZGPs-LvEWX3hXqpF2 a rdf:Statement ;
     bf:electronicLocator <http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3AARM0000066&mode=all&teca=marciana> ;
     wdt:P291 adi:UprfWYGHsS7r ;
     wdt:P6108 <https://jmms.iccu.sbn.it/jmms/metadata/YldGeVkybGhibUVf/b2FpOjE5My4yMDYuMTk3LjEyMToxODpWRTAwNDk6QVJNMDAwMDA2Ng__/manifest.json> ;
-    rdf:object "N734ad012f8f148c98671ed0213ae8f11" ;
+    rdf:object "Nf39cf5ea8c3b49e1805ecd331061b502" ;
     rdf:predicate dcterms:hasVersion ;
     rdf:subject adi:HyfD7KZHZGPs ;
     schema:datePublished "1484" ;
     schema:url <http://id.sbn.it/bid/VEAE120755> .
+
+adi:HyfD7KZHZGPs-XbvpYEKRKa22 a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=2NFUAAAAcAAJ> ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N930e000bbb044788a9ac5e0d970f3f65" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:HyfD7KZHZGPs ;
+    schema:datePublished "1543" ;
+    schema:url <https://www.marianotomatis.it/?page=biblioteca&code=GUA1543> .
 
 adi:HyfD7KZHZGPs a rdfs:Resource ;
     rdfs:label "Libro de la sorte" ;

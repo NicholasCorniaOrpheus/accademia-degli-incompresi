@@ -29,6 +29,12 @@
       "label": "form of creative work",
       "class": "Concept",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "label": "Giambattista Basile",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -51,6 +57,21 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEzLJyn6DSCy",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FEzLJyn6DSCy",
+      "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/McrW73AUvkY7",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/8caJkM27DMtc",
+      "property": "notable_work"
     }
   ]
 }

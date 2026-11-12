@@ -1,0 +1,43 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:cbbRoDqVGQvP-6zsxdLGeBNVe a rdf:Statement ;
+    rdf:object adi:7b7Bz2vfVZsa ;
+    rdf:predicate <> ;
+    rdf:subject adi:cbbRoDqVGQvP ;
+    ns1:P304 "3" ;
+    ns1:P958 "Canto I, 1" .
+
+adi:cbbRoDqVGQvP-BwcaHzVoahKw a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:EYZsPUT7fJ7Z ;
+    rdf:predicate <> ;
+    rdf:subject adi:cbbRoDqVGQvP .
+
+adi:cbbRoDqVGQvP a rdfs:Resource ;
+    rdfs:label "Io canto chelle forze, e chelle prove" ;
+    <> adi:7b7Bz2vfVZsa,
+        adi:EYZsPUT7fJ7Z,
+        adi:axZuicfz2UNJ ;
+    pdc:poeticType adi:JdCmvSXCtJKC ;
+    pdc:text """IO canto chelle forze, e chelle prove,
+Che fecero cierte hoummene valiente,
+Chiù d'Orlando, chiù d'Ercole, e de Giove
+Anze a paro de chiste non so niente,
+E dico ancora comme fuieno nove.
+Chiste, e se steano a spizzolà li diente,
+E feceno'ntrà lloro no' consiglio
+De ijre a conquistare lo Cerriglio.""" ;
+    dc:subject adi:Z6udgtgZac9G ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:gqVw8qPNVyAR ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

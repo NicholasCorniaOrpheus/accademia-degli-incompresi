@@ -28,4 +28,5 @@ text: |-
   Che se il mio stato con giustitia guardi,
   A pena havuto io n'ho parole & sguardi.
 language: "[[Italian]]"
+pagexml: true
 ---

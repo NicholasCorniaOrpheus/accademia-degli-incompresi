@@ -34,7 +34,8 @@ text: |-
   Non pur di vaghe rose il volto infiora,
   E con un più bel Sol ne gli occhi luce,
   Ma la schiera gentil donnesca honora,
-  Con me caduca, e più mirabil luce:
+  Con men caduca, e più mirabil luce:
   Così d'ogni arte liberal nomata,
   E con maschio valor femina ornata.
+pagexml: true
 ---

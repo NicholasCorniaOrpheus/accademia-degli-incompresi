@@ -8,28 +8,28 @@
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:gv56b7jL9mB8-9jb9ZGkZ9fZU a rdf:Statement ;
+adi:gv56b7jL9mB8-FPqpMfkqBtT3 a rdf:Statement ;
+    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10872550> ;
+    bf:heldBy adi:7zL92j8iLfbj ;
+    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10872550/manifest> ;
+    rdf:object "N8f72c720f96642a4be57a10d86701c92" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gv56b7jL9mB8 ;
+    schema:datePublished "1618" .
+
+adi:gv56b7jL9mB8-PVsvNqfSBJuN a rdf:Statement ;
+    bf:electronicLocator <https://sourcelibrary.org/book/viatorium-maier-2/page/69b51d8cff09e4fe943a6f26> ;
+    bf:heldBy adi:SAbJgKrWpRYN ;
+    rdf:object "Nfa62dff3f5ac42c0b9a5fd01e93535c5" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:gv56b7jL9mB8 ;
+    schema:datePublished "1618" .
+
+adi:gv56b7jL9mB8-SWhJVgCZUnvc a rdf:Statement ;
     bf:Role adi:FEP2RHUGTuJR ;
     rdf:object adi:U2DCbnWGRibv ;
     rdf:predicate <> ;
     rdf:subject adi:gv56b7jL9mB8 .
-
-adi:gv56b7jL9mB8-CBa8RqrCGbGH a rdf:Statement ;
-    bf:electronicLocator <https://www.digitale-sammlungen.de/en/view/bsb10872550> ;
-    bf:heldBy adi:7zL92j8iLfbj ;
-    wdt:P6108 <https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10872550/manifest> ;
-    rdf:object "N2f821e2623d347f7886f1e4f64273b1c" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:gv56b7jL9mB8 ;
-    schema:datePublished "1618" .
-
-adi:gv56b7jL9mB8-Q7rRxzzYNG2Y a rdf:Statement ;
-    bf:electronicLocator <https://sourcelibrary.org/book/viatorium-maier-2/page/69b51d8cff09e4fe943a6f26> ;
-    bf:heldBy adi:SAbJgKrWpRYN ;
-    rdf:object "N8a1328e35ba9440f8159a4d68235fe14" ;
-    rdf:predicate dcterms:hasVersion ;
-    rdf:subject adi:gv56b7jL9mB8 ;
-    schema:datePublished "1618" .
 
 adi:gv56b7jL9mB8 a rdfs:Resource ;
     rdfs:label "Michaelis Majeri Viatorium" ;

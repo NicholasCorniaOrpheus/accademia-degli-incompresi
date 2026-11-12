@@ -41,4 +41,5 @@ text: |-
   Ogn'un canti, e l'honori,
   Quello ch'a se per ritenerlo indarno
   Campi, e strade inondò rapido l' Arno.
+pagexml: true
 ---

@@ -33,7 +33,7 @@ depicts:
   - "[[sigh]]"
 language: "[[Italian]]"
 text: |-
-  Chi può le stelle, o le minute arene,
+  CHI può le stelle, o le minute arene,
   O tutte annoverar l'istabili onde;
   E dir quanto su 'l dorso alto sostiene
   Il siluoso Appennin piant', herbe, e fronde.
@@ -41,4 +41,5 @@ text: |-
   Quante asconda il mio cor piaghe profonde.
   Quanti, lunge da voi, mia bella Aurora,
   Prieghi, pianti, e sospir vi mandi ogn'hora.
+pagexml: true
 ---

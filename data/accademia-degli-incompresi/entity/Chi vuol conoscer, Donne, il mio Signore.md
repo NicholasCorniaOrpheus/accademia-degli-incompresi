@@ -29,21 +29,22 @@ depicts:
   - "[[perseverance]]"
 language: "[[Italian]]"
 text: |-
-  Chi vuol conoscer, Donne, il mio Signore,  
+  CHi vuol conoscer, Donne, il mio Signore,  
   Miri un Signor di vago, e dolce aspetto,  
   Giovane d'anni, e vecchio d'intelletto,  
   Immagin della gloria, e del valore:
 
   Di pelo biondo, e di vivo colore,  
-  Di persona alta, e spazioso petto,  
+  Di persona alta, e spazioso petto;
   E finalmente in ogni opra perfetto,  
-  Fuor, che un poco (ohimè lassa!) empio in amore. 
+  Fuor, che un poco (ohimè lassa) empio in amore. 
 
   E chi vuol poi conoscer me, rimiri  
   Una Donna in effetti, ed in sembiante  
-  Immagin de la morte e de' martiri.
+  Immagin de la morte, e dei martiri.
 
   Un' albergo di fé salda, e costante,  
   Una, che perché pianga, arda, e sospiri,  
   Non fa pietoso il suo crudele amante.
+pagexml: true
 ---

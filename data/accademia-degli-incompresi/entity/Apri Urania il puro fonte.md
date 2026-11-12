@@ -31,6 +31,7 @@ depicts:
 language:
   - "[[Italian]]"
 text:
+pagexml: true
 ---
 Apri Urania il puro fonte
 De la dolce tua rugiada,

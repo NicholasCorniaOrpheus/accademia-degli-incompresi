@@ -6,6 +6,7 @@ identifier:
   - http://www.wikidata.org/entity/Q555291
 described_by_source:
   - "[[(Nocerino 2014)]]"
+  - "[[(Gianfrancesco 2010)]]"
 image:
 aliases:
   - Gianbattista Basile
@@ -23,12 +24,15 @@ member_of:
   - value: "[[Accademia degli Oziosi di Napoli]]"
     reference:
       - "[[Italian Academies Database]]"
+      - "[[(Gianfrancesco 2010)]]"
 occupation:
   - 
 related_to:
 notable_work:
   - "[[Lo cunti de li cunti]]"
 interested_in:
+  - value: "[[novella]]"
+  - value: "[[Neapolitan]]"
 catalog_identifier:
   - source: "[[Italian Academies Database]]"
     value: 15002

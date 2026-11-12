@@ -39,4 +39,5 @@ text: |-
   Del nome vostro, ond'ogni ben s'invii,
   Al mondo dimostrar chiaro, & aperto
   Quanto in voi splenda, d'alta gloria il merto.
+pagexml: true
 ---

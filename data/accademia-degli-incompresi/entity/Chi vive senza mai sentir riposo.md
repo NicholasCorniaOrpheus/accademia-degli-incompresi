@@ -36,4 +36,5 @@ text: |-
   Chi si consuma in altre varie pene,
   Più spesse assai de le minute arene.
 language: "[[Italian]]"
+pagexml: true
 ---

@@ -46,4 +46,5 @@ text: |-
   Godon pur questi le superne faci,
   Qualhor vil nebbia almo seren disperga:
   Mai non veggio io il mio Sol, che l’alma adora.
+pagexml: true
 ---

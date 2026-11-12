@@ -5,13 +5,19 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
-adi:Mm7yVBHwb943-D87h4siWmryE a rdf:Statement ;
+adi:Mm7yVBHwb943-TYtK5hcTkZ3m a rdf:Statement ;
     dcterms:references adi:ax9MhV3Kc6At ;
     rdf:object adi:VkQaPhBBEyhd ;
     rdf:predicate <> ;
     rdf:subject adi:Mm7yVBHwb943 .
 
-adi:Mm7yVBHwb943-YnhDt6GQ8XMK a rdf:Statement ;
+adi:Mm7yVBHwb943-XqSRAtmg9h29 a rdf:Statement ;
+    dcterms:references adi:PtUvVs5svxr5 ;
+    rdf:object adi:34DZHbTfjKob ;
+    rdf:predicate <> ;
+    rdf:subject adi:Mm7yVBHwb943 .
+
+adi:Mm7yVBHwb943-eVmnb4R8cUEF a rdf:Statement ;
     bf:heldBy adi:ax9MhV3Kc6At ;
     rdf:object "17" ;
     rdf:predicate <> ;
@@ -19,8 +25,10 @@ adi:Mm7yVBHwb943-YnhDt6GQ8XMK a rdf:Statement ;
 
 adi:Mm7yVBHwb943 a rdfs:Resource ;
     rdfs:label "Accademia degli Oziosi di Napoli" ;
-    <> adi:VkQaPhBBEyhd,
+    <> adi:34DZHbTfjKob,
+        adi:VkQaPhBBEyhd,
         adi:noxgdEZ8TnkL ;
     dcterms:type "Organisation" ;
+    wdt:P1343 adi:PtUvVs5svxr5 ;
     wdt:P31 adi:mhxiWoDeBKmm .
 

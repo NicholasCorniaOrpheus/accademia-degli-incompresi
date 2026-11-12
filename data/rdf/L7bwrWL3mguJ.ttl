@@ -1,12 +1,20 @@
 @prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix wdt: <http://wikidata.org/entity/> .
 
+adi:L7bwrWL3mguJ-8MJ7Sabo97ji a rdf:Statement ;
+    dcterms:references adi:R7PXynTaNKEo ;
+    rdf:object adi:8Y6NAvRmdtq6 ;
+    rdf:predicate <> ;
+    rdf:subject adi:L7bwrWL3mguJ .
+
 adi:L7bwrWL3mguJ a rdfs:Resource ;
     rdfs:label "Angelo Ingegneri" ;
-    <> adi:DZKAs4KqUG7k ;
+    <> adi:8Y6NAvRmdtq6,
+        adi:DZKAs4KqUG7k ;
     dcterms:identifier <http://www.wikidata.org/entity/Q3617034> ;
     dcterms:type "Agent" ;
     wdt:P31 adi:7QQEUQkpdvkV ;

@@ -33,7 +33,7 @@ depicts:
 language:
   - "[[Italian]]"
 text: |-
-  Amor già, che tu vuoi pur ch'io m'arrischi
+  AMor già, che tu vuoi pur ch'io m'arrischi
   In udir, e vedere
   Sirene, e Basilischi;
   Fammi gratia Signore,
@@ -49,4 +49,5 @@ text: |-
   Può gir arditamente
   Ad udir e vedere
   Le Sirene d'Amor, e i Basilischi.
+pagexml: true
 ---

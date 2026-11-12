@@ -47,6 +47,7 @@ text: |-
   Fuggi d'Amor, e di pietà nemica
   Barbara Donna, che gli amanti ancide;
   Poi li burla, e sen'ride.
+pagexml: true
 ---
 
 

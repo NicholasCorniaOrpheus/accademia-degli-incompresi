@@ -45,4 +45,5 @@ text: |-
   O fe' cangiata, o mia fortuna acerba,
   Tu le speranze mie recidi, e sterpi;
   La cagion dentro al petto mio si serba.
+pagexml: true
 ---

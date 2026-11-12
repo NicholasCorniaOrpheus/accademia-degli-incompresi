@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:giPa2Z57Mo9q-6viubKnDrkHK a rdf:Statement ;
+    rdf:object adi:Ff4UVAcv2jPD ;
+    rdf:predicate <> ;
+    rdf:subject adi:giPa2Z57Mo9q ;
+    ns1:P304 "56, 57" .
+
+adi:giPa2Z57Mo9q-Py4eKWbeCS6q a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:k3pBKGqJWpiW ;
+    rdf:predicate <> ;
+    rdf:subject adi:giPa2Z57Mo9q .
+
+adi:giPa2Z57Mo9q a rdfs:Resource ;
+    rdfs:label "Cari Scontenti miei, se voi bramate" ;
+    <> adi:Ff4UVAcv2jPD,
+        adi:k3pBKGqJWpiW ;
+    pdc:text """CARI Scontenti miei, se voi bramate
+Farvi uno stato per sempre scontento,
+E dar perfezione, e compimento
+Allo Scontento nome, che portate,
+
+Correte ratti via, non indugiate,
+Per rispetto veruno, o 'mpedimento,
+Togliete moglie, ch'a cento, per cento,
+Voi troverete, quel che voi cercate.
+
+Gioie, vesti, sartor, mance, bambini;
+Serventi, balie, allevatrici, scede,
+Stomacuzzi, visacci, e leziolini
+Porteranno di voi, sì larghe prede,
+Che voi potrete in cattedra a' vicini
+Far d'un vero Scontento un'ampia fede;
+
+E a chi non vel crede,
+Dite traendo via la pazienza,
+Far ti possa dottor la sperienza.""" ;
+    dc:subject adi:2zJ3QRUFy4nX,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

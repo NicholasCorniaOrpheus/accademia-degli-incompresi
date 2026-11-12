@@ -1,0 +1,53 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/entity/> .
+@prefix pdc: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:4CZVTdjqfztM-KpAH2E6mRhhi a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:HDVve8zrRZwi ;
+    rdf:predicate <> ;
+    rdf:subject adi:4CZVTdjqfztM .
+
+adi:4CZVTdjqfztM-QekZehpBQ8pM a rdf:Statement ;
+    rdf:object adi:LwcyZph2jogE ;
+    rdf:predicate <> ;
+    rdf:subject adi:4CZVTdjqfztM ;
+    ns1:P304 "63" .
+
+adi:4CZVTdjqfztM a rdfs:Resource ;
+    rdfs:label "Godete Preti, poiché'l vostro Christo" ;
+    <> adi:HDVve8zrRZwi,
+        adi:LwcyZph2jogE ;
+    pdc:poeticType adi:nJ46mYz7ym9T ;
+    pdc:text """Godete Preti, poiché'l vostro Christo
+V’ama cotanto, che se più s'offende,
+Più da Turchi & concilij vi difende,
+E più felice fa quel ch'è più tristo.
+  
+Ben verrà tempo ch'ogni vostro acquisto,
+Che così bruttamente hoggi si spende,
+Vi leverà, che Dio punirvi intende
+Col fulgor, che non sia sentito, o visto.
+  
+Credete voi però Sardanapali,
+Potervi far, hor femmine, hor mariti;
+E la chiesa hor spelonca, & hor taverna?
+  
+E far tanti altri ch'io non vo' dir mali?
+E saziar tanti e sì strani appetiti,
+E non far ira alla bontà superna?""" ;
+    dc:subject adi:Cxgarr2gfrW6,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:type "PoeticWork" ;
+    wdt:P1343 adi:f3oi6ct7Hshs ;
+    wdt:P31 adi:jAqiUUC7GsgE ;
+    wdt:P870 adi:Rpi7M9nmjho7 ;
+    ns1:P180 adi:Q6YsmEMBpY6A ;
+    ns1:P2551 adi:NtX3nd34H3Wn .
+

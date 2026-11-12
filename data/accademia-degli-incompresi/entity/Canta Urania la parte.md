@@ -48,4 +48,5 @@ text: |-
   La voce acuta acuti ho gli occhi miei;
   Et io dico in me tanto,
   Quant'è grave l'Amor, è grave il canto.
+pagexml: true
 ---

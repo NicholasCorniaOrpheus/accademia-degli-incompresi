@@ -151,12 +151,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
-      "label": "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato",
-      "class": "Book",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/agAvDjPLYaLN",
       "label": "Flaminio Scala",
       "class": "Agent",
@@ -191,6 +185,12 @@
       "label": "Bernardino Lombardi",
       "class": "Agent",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4dXYcc7dpCqj",
+      "label": "La Fillide, favola pastorale, dell'Acceso Accademico Rinnovato",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHMHMRazjvvf",
@@ -373,11 +373,6 @@
       "property": "described_by_source"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mxz4KL9JjrEt",
-      "property": "described_by_source"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/agAvDjPLYaLN",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mxz4KL9JjrEt",
       "property": "described_by_source"
@@ -426,6 +421,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mxz4KL9JjrEt",
       "property": "interested_in"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4dXYcc7dpCqj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/mxz4KL9JjrEt",
+      "property": "described_by_source"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/QHMHMRazjvvf",
@@ -548,11 +548,6 @@
       "property": "contributor"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Drp5M45TuYvo",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
-      "property": "contributor"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TzF2HSVyG242",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aMwmQ8m4Zvc6",
       "property": "contributor"
@@ -566,6 +561,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/BaB9uiBB4xhy",
       "property": "notable_work"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/4dXYcc7dpCqj",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/fAxhyN56E2tA",
+      "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/aMwmQ8m4Zvc6",

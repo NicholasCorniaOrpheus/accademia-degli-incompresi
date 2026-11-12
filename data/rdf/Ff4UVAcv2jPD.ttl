@@ -1,0 +1,39 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:Ff4UVAcv2jPD-4QaLCkSqJBTX a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:SBir4PNYVXTG ;
+    rdf:predicate <> ;
+    rdf:subject adi:Ff4UVAcv2jPD .
+
+adi:Ff4UVAcv2jPD-Z8j2BvMnoF5c a rdf:Statement ;
+    bf:electronicLocator <https://www.polodigitalenapoli.it/it/viewer/mirador/viewer?domain=sbn&id=CNCE010644> ;
+    dcterms:publisher adi:H8oonkyq3bFf ;
+    wdt:P291 adi:mT3aY8t7yatb ;
+    wdt:P6108 <https://dam.polodigitalenapoli.it/istituto-italiano-per-gli-studi-storici/containers/01g131p/manifest> ;
+    rdf:object "N7a8daabc3a9843f0a53198ff797e3a82" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:Ff4UVAcv2jPD ;
+    schema:datePublished "1583" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE010644> .
+
+adi:Ff4UVAcv2jPD a rdfs:Resource ;
+    rdfs:label "Lezione o vero cicalamento di maestro Bartolino" ;
+    <> adi:SBir4PNYVXTG,
+        "1583" ;
+    dc:subject adi:2zJ3QRUFy4nX,
+        adi:iWMn6FHJ2W74 ;
+    dcterms:identifier <https://edit16.iccu.sbn.it/titolo/CNCE010644> ;
+    dcterms:title "Lezione o vero cicalamento di maestro Bartolino dal canto de' bischeri letta ne''Accademia della Crusca sopra 'l sonetto Passere, e beccafichi magri arrosto" ;
+    dcterms:type "Book" ;
+    wdt:P1343 adi:hFptAP5NQDkL ;
+    wdt:P31 adi:Fg6xCVoGsz3M ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

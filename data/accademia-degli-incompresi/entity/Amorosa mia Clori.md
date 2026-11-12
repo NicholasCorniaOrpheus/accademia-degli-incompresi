@@ -44,4 +44,5 @@ text: |-
   Perché non servi i giuramenti tuoi?
   Baciami, che i tuo'baci
   Fien de la lingua mia nodi tenaci.
+pagexml: true
 ---

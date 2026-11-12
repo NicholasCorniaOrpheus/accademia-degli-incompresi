@@ -1,0 +1,33 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:6pQ2G3UsY9JM-FusDCcZcdfTf a rdf:Statement ;
+    dcterms:references adi:PtUvVs5svxr5 ;
+    rdf:object adi:kWtwZjad7J3E ;
+    rdf:predicate <> ;
+    rdf:subject adi:6pQ2G3UsY9JM .
+
+adi:6pQ2G3UsY9JM-Ss6CYAvuUBU3 a rdf:Statement ;
+    bf:heldBy adi:ax9MhV3Kc6At ;
+    rdf:object "17427" ;
+    rdf:predicate <> ;
+    rdf:subject adi:6pQ2G3UsY9JM .
+
+adi:6pQ2G3UsY9JM a rdfs:Resource ;
+    rdfs:label "Giambattista Bergazzano" ;
+    <> adi:DZKAs4KqUG7k,
+        adi:eoXfuwDbhTtW,
+        adi:gqVw8qPNVyAR,
+        adi:kWtwZjad7J3E,
+        adi:noxgdEZ8TnkL ;
+    dcterms:type "Agent" ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Giovanni Battista Bergazzano" ;
+    schema:gender adi:8UjQ7UabobgD .
+

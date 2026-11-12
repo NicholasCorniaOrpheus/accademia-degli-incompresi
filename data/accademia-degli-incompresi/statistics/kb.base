@@ -8,11 +8,14 @@ views:
         - class == "PoeticWork"
     order:
       - file.name
+      - pagexml
       - local_asset_path
       - contributor
       - part_of
       - text
     sort:
+      - property: pagexml
+        direction: ASC
       - property: file.name
         direction: ASC
     rowHeight: medium

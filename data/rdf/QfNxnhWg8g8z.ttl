@@ -1,0 +1,45 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:QfNxnhWg8g8z-AoeGV6LiLYKF a rdf:Statement ;
+    bf:electronicLocator <https://books.google.it/books?id=BD0DllDU0XkC> ;
+    dcterms:publisher adi:CzHb6anjouS9 ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "N8591e1746697422abe8ee48cfb08847b" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:QfNxnhWg8g8z ;
+    schema:datePublished "1595" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014005> .
+
+adi:QfNxnhWg8g8z-FiUmn8LaMMyS a rdf:Statement ;
+    dcterms:publisher adi:eQEYLoGs5YFV ;
+    wdt:P291 adi:edLFhkc6mVw6 ;
+    rdf:object "Ncd1cc5d571f94fa0929f454f1f60aa02" ;
+    rdf:predicate dcterms:hasVersion ;
+    rdf:subject adi:QfNxnhWg8g8z ;
+    schema:datePublished "1561" ;
+    schema:url <https://edit16.iccu.sbn.it/titolo/CNCE014003> .
+
+adi:QfNxnhWg8g8z-JskKQoMq3oRL a rdf:Statement ;
+    bf:Role adi:FEP2RHUGTuJR ;
+    rdf:object adi:XNMRd7aSjXwA ;
+    rdf:predicate <> ;
+    rdf:subject adi:QfNxnhWg8g8z .
+
+adi:QfNxnhWg8g8z a rdfs:Resource ;
+    rdfs:label "I secreti de la signora Isabella Cortese" ;
+    <> adi:XNMRd7aSjXwA,
+        "1561" ;
+    dc:subject adi:6fSa3RgfAvLv,
+        adi:8Y6NAvRmdtq6 ;
+    dcterms:title "I secreti de la signora Isabella Cortese ne' quali si contengono cose minerali, medicinali, arteficiose, & alchimiche, & molte de l'arte profumatoria, appartenenti a ogni gran signora" ;
+    dcterms:type "Book" ;
+    wdt:P31 adi:FoqX9WfTveaZ ;
+    wdt:P870 adi:Rpi7M9nmjho7 .
+

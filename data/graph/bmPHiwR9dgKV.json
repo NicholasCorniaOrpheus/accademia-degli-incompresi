@@ -31,12 +31,6 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
-      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAVJp8WPYpwg",
-      "label": "Marco Antonio Ingegneri",
-      "class": "Agent",
-      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
-    },
-    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb2oTLg4h2DU",
       "label": "Vittoria Colonna",
       "class": "Agent",
@@ -53,6 +47,12 @@
       "label": "Il Secondo libro de' Madrigali di Marc'Antonio Ingegneri a quattro voci",
       "class": "NotatedMusic",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/notated_music.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dyWjK7Q3Qbvs",
+      "label": "Marco Antonio Ingegneri",
+      "class": "Agent",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/agent.png"
     }
   ],
   "links": [
@@ -78,7 +78,7 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/bmPHiwR9dgKV",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAVJp8WPYpwg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dyWjK7Q3Qbvs",
       "property": "contributor"
     },
     {
@@ -102,11 +102,6 @@
       "property": "interested_in"
     },
     {
-      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAVJp8WPYpwg",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
-      "property": "occupation"
-    },
-    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/Lb2oTLg4h2DU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/DZKAs4KqUG7k",
       "property": "occupation"
@@ -123,13 +118,18 @@
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iupJ62QRBYCe",
-      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dAVJp8WPYpwg",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dyWjK7Q3Qbvs",
       "property": "contributor"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/iupJ62QRBYCe",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
       "property": "contributor"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/dyWjK7Q3Qbvs",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HgaJFMird2sb",
+      "property": "occupation"
     }
   ]
 }

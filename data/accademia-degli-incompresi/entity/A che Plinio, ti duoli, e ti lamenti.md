@@ -44,4 +44,5 @@ text: |-
   Ed r fa al tempo guerra:
   Ah non è morto, dorme, il pianto lassa
   Per non destarlo, e taci, e mira, e passa.
+pagexml: true
 ---

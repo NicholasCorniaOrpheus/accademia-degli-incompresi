@@ -25,6 +25,8 @@ has_version:
     publisher: "[[Bernardo Giunti]]"
 contributor:
   - role: "[[author]]"
+    value: "[[Giovanni della Casa]]"
+  - role: "[[author]]"
     value: "[[Benedetto Varchi]]"
   - role: "[[author]]"
     value: "[[Francesco Berni]]"

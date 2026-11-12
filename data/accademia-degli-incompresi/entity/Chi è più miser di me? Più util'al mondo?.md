@@ -37,4 +37,5 @@ text: |-
   Rapita del mio albergo l'altrui corte
   Honora, ove devria porgermi aita.
   Et quel, ch' è peggio, mi spoglia di vita.
+pagexml: true
 ---

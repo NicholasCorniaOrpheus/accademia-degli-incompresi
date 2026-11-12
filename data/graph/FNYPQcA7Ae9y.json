@@ -7,10 +7,22 @@
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/concept.png"
     },
     {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ngdZU9iCqhp9",
+      "label": "Moriae Encomium, sive Stultitiae Laus",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
+    },
+    {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d592zXXTr5Qs",
       "label": "Questa è la fede tua",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBYvfboMy2F6",
+      "label": "Dialogi di Antonio Brucioli",
+      "class": "Book",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/book.png"
     },
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/TM6fVHGXjWZC",
@@ -27,6 +39,12 @@
     {
       "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/KrvLxEndjYg6",
       "label": "Chi mett'il piè su l'amorosa pania",
+      "class": "PoeticWork",
+      "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
+    },
+    {
+      "id": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WJmPuioE3RQp",
+      "label": "In fé di Christo, Amor che tu ha'l torto",
       "class": "PoeticWork",
       "image": "https://raw.githubusercontent.com/NicholasCorniaOrpheus/accademia-degli-incompresi/main/data/accademia-degli-incompresi/assets/icons/poetic_work.png"
     },
@@ -56,9 +74,19 @@
       "property": "instance_of"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ngdZU9iCqhp9",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "subject"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/d592zXXTr5Qs",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
       "property": "depicts"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBYvfboMy2F6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "subject"
     },
     {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/GGGscxxDVgHN",
@@ -76,6 +104,11 @@
       "property": "depicts"
     },
     {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/WJmPuioE3RQp",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
+      "property": "depicts"
+    },
+    {
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/hMvEmAM5vrex",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
       "property": "subject"
@@ -89,6 +122,11 @@
       "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/PMtfxNuVKiEU",
       "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/FNYPQcA7Ae9y",
       "property": "subject"
+    },
+    {
+      "source": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/HBYvfboMy2F6",
+      "target": "https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/ngdZU9iCqhp9",
+      "property": "based_on"
     }
   ]
 }

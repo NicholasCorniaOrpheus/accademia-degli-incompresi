@@ -39,4 +39,5 @@ text: |-
   Io (lassa) quando il mio bel Sol s'asconde
   Verso da gli occhi tanto
   Humor, che tutta mi distillo in pianto.
+pagexml: true
 ---

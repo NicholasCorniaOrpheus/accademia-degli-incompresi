@@ -41,4 +41,5 @@ text: |-
   Udir potess'io ognihora;
   Il fior de l'età nostra eterno fora.
 language: "[[Italian]]"
+pagexml: true
 ---

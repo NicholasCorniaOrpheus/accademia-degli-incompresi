@@ -1,0 +1,27 @@
+@prefix adi: <https://nicholascorniaorpheus.github.io/accademia-degli-incompresi/entity/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt: <http://wikidata.org/entity/> .
+
+adi:ZHrUqEN4Dgyk-78htSKE2Xmqr a rdf:Statement ;
+    bf:Note "My speculation. There is an homonymous Gioseffo Marini who published an alchemical treatise in 1644 (reprint 1664)" ;
+    rdf:object adi:exrUScrzgGF2 ;
+    rdf:predicate <> ;
+    rdf:subject adi:ZHrUqEN4Dgyk .
+
+adi:ZHrUqEN4Dgyk a rdfs:Resource ;
+    rdfs:label "Giuseppe Marini" ;
+    <> adi:HgaJFMird2sb,
+        adi:edLFhkc6mVw6,
+        adi:exrUScrzgGF2 ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q21572139> ;
+    dcterms:type "Agent" ;
+    wdt:P1343 adi:PtUvVs5svxr5 ;
+    wdt:P31 adi:7QQEUQkpdvkV ;
+    skos:altLabel "Gioseffo Marini" ;
+    schema:gender adi:8UjQ7UabobgD .
+

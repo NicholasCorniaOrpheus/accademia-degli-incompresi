@@ -52,4 +52,5 @@ text: |-
   E felice vie più, che osasti à un tratto,
   Operar, insegnar, pubblicar anco,
   Sotto un Sol saì lucente il tuo ritratto.
+pagexml: true
 ---

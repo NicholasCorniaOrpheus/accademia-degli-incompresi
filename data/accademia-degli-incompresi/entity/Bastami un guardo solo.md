@@ -36,4 +36,5 @@ text: |-
   Né con giusta cagion farlo potete.
   Perché mostra impietà chi non concede.
   Ad un lungo servir qualche mercede.
+pagexml: true
 ---

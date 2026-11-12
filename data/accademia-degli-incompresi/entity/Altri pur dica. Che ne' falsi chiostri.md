@@ -37,4 +37,5 @@ text: |-
   Altro ridir non puon quest'occhi miei,
   Se non, che di bellezza un mostro sei.
 language: "[[Italian]]"
+pagexml: true
 ---
